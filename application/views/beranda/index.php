@@ -1,118 +1,24 @@
-<!--begin::Content-->
-<div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
-    <!--begin::Subheader-->
-    <div class="subheader py-2 py-lg-6  subheader-solid " id="kt_subheader">
+	<!--begin::Subheader-->
+	<div class="subheader py-2 py-lg-4  subheader-solid " id="kt_subheader">
         <div class=" container-fluid  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
             <!--begin::Info-->
-            <div class="d-flex align-items-center flex-wrap mr-1">
+            <div class="d-flex align-items-center flex-wrap mr-2">
 
-                <!--begin::Page Heading-->
-                <div class="d-flex align-items-baseline flex-wrap mr-5">
-                    <!--begin::Page Title-->
-                    <h5 class="text-dark font-weight-bold my-1 mr-5">
-                        Base Controls <?= $rafly ?> </h5>
-                    <!--end::Page Title-->
-
-                    <!--begin::Breadcrumb-->
-                    <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Crud </a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Forms & Controls </a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Form Controls </a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Base Inputs </a>
-                        </li>
-                    </ul>
-                    <!--end::Breadcrumb-->
-                </div>
-                <!--end::Page Heading-->
+                <!--begin::Page Title-->
+                <h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">
+                    Dashboard </h5>
+                <!--end::Page Title-->
             </div>
             <!--end::Info-->
 
             <!--begin::Toolbar-->
             <div class="d-flex align-items-center">
-                <!--begin::Actions-->
-                <a href="#" class="btn btn-light-primary font-weight-bolder btn-sm">
-                    Actions
-                </a>
-                <!--end::Actions-->
-
-                <!--begin::Dropdown-->
-                <div class="dropdown dropdown-inline" data-toggle="tooltip" title="Quick actions" data-placement="left">
-                    <a href="#" class="btn btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="svg-icon svg-icon-success svg-icon-2x">
-                            <!--begin::Svg Icon | path:assets/media/svg/icons/Files/File-plus.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <polygon points="0 0 24 0 24 24 0 24" />
-                                    <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-                                    <path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
-                                </g>
-                            </svg>
-                            <!--end::Svg Icon--></span> </a>
-                    <div class="dropdown-menu dropdown-menu-md dropdown-menu-right p-0 m-0">
-                        <!--begin::Navigation-->
-                        <ul class="navi navi-hover">
-                            <li class="navi-header font-weight-bold py-4">
-                                <span class="font-size-lg">Choose Label:</span>
-                                <i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-                            </li>
-                            <li class="navi-separator mb-3 opacity-70"></li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-success">Customer</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-danger">Partner</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-warning">Suplier</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-primary">Member</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-dark">Staff</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-separator mt-3 opacity-70"></li>
-                            <li class="navi-footer py-4">
-                                <a class="btn btn-clean font-weight-bold btn-sm" href="#">
-                                    <i class="ki ki-plus icon-sm"></i>
-                                    Add new
-                                </a>
-                            </li>
-                        </ul>
-                        <!--end::Navigation-->
-                    </div>
-                </div>
-                <!--end::Dropdown-->
+                <!--begin::Daterange-->
+                <button type="button" class="btn btn-sm btn-light font-weight-bold mr-2" id="kt_dashboard_daterangepicker" data-toggle="tooltip" title="Select dashboard daterange" data-placement="left">
+                    <span class="text-muted font-size-base font-weight-bold mr-2" id="kt_dashboard_daterangepicker_title">Today</span>
+                    <span class="text-primary font-size-base font-weight-bolder" id="kt_dashboard_daterangepicker_date">Aug 16</span>
+                </button>
+                <!--end::Daterange-->
             </div>
             <!--end::Toolbar-->
         </div>
@@ -123,947 +29,557 @@
     <div class="d-flex flex-column-fluid">
         <!--begin::Container-->
         <div class=" container ">
+            <!--begin::Dashboard-->
+            <!--begin::Row-->
             <div class="row">
-                <div class="col-md-6">
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Base Controls
-                            </h3>
+                <div class="col-lg-6 col-xxl-4">
+                    <!--begin::Mixed Widget 1-->
+                    <div class="card card-custom bg-gray-100 card-stretch gutter-b">
+                        <!--begin::Header-->
+                        <div class="card-header border-0 bg-danger py-5">
+                            <h3 class="card-title font-weight-bolder text-white">Sales Stat</h3>
                             <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+                                <div class="dropdown dropdown-inline">
+                                    <a href="#"
+                                        class="btn btn-transparent-white btn-sm font-weight-bolder dropdown-toggle px-5"
+                                        data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Export
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+                                        <!--begin::Navigation-->
+                                        <ul class="navi navi-hover">
+                                            <li class="navi-header pb-1">
+                                                <span
+                                                    class="text-primary text-uppercase font-weight-bold font-size-sm">Add
+                                                    new:</span>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-icon"><i
+                                                            class="flaticon2-shopping-cart-1"></i></span>
+                                                    <span class="navi-text">Order</span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-icon"><i
+                                                            class="flaticon2-calendar-8"></i></span>
+                                                    <span class="navi-text">Event</span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-icon"><i
+                                                            class="flaticon2-graph-1"></i></span>
+                                                    <span class="navi-text">Report</span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-icon"><i
+                                                            class="flaticon2-rocket-1"></i></span>
+                                                    <span class="navi-text">Post</span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-icon"><i
+                                                            class="flaticon2-writing"></i></span>
+                                                    <span class="navi-text">File</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!--end::Navigation-->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!--begin::Form-->
-                        <form>
-                            <div class="card-body">
-                                <div class="form-group mb-8">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            The example form below demonstrates common HTML form elements that receive updated styles from Bootstrap with additional classes.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Email address <span class="text-danger">*</span></label>
-                                    <input type="email" class="form-control" placeholder="Enter email" />
-                                    <span class="form-text text-muted">We'll never share your email with anyone else.</span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Password <span class="text-danger">*</span></label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Static:</label>
-                                    <p class="form-control-plaintext text-muted">email@example.com</p>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelect1">Example select <span class="text-danger">*</span></label>
-                                    <select class="form-control" id="exampleSelect1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelect2">Example multiple select <span class="text-danger">*</span></label>
-                                    <select multiple="" class="form-control" id="exampleSelect2">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group mb-1">
-                                    <label for="exampleTextarea">Example textarea <span class="text-danger">*</span></label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                </div>
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Base Controls
-									&lt;/h3&gt;
-									&lt;div class=&quot;card-toolbar&quot;&gt;
-										&lt;div class=&quot;example-tools justify-content-center&quot;&gt;
-											&lt;span class=&quot;example-toggle&quot; data-toggle=&quot;tooltip&quot; title=&quot;View code&quot;&gt;&lt;/span&gt;
-											&lt;span class=&quot;example-copy&quot; data-toggle=&quot;tooltip&quot; title=&quot;Copy code&quot;&gt;&lt;/span&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group mb-8&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													The example form below demonstrates common HTML form elements that receive updated styles from Bootstrap with additional classes.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Email address &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot;  placeholder=&quot;Enter email&quot;/&gt;
-											&lt;span class=&quot;form-text text-muted&quot;&gt;We'll never share your email with anyone else.&lt;/span&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleInputPassword1&quot;&gt;Password &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleInputPassword1&quot; placeholder=&quot;Password&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Static:&lt;/label&gt;
-											&lt;p class=&quot;form-control-plaintext text-muted&quot;&gt;email@example.com&lt;/p&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelect1&quot;&gt;Example select &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;select class=&quot;form-control&quot; id=&quot;exampleSelect1&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelect2&quot;&gt;Example multiple select &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;select multiple=&quot;&quot; class=&quot;form-control&quot; id=&quot;exampleSelect2&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group mb-1&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Example textarea &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;textarea class=&quot;form-control&quot; id=&quot;exampleTextarea&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
+                        <!--end::Header-->
 
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Textual HTML5 Inputs
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+                        <!--begin::Body-->
+                        <div class="card-body p-0 position-relative overflow-hidden">
+                            <!--begin::Chart-->
+                            <div id="kt_mixed_widget_1_chart" class="card-rounded-bottom bg-danger"
+                                style="height: 200px"></div>
+                            <!--end::Chart-->
+
+                            <!--begin::Stats-->
+                            <div class="card-spacer mt-n25">
+                                <!--begin::Row-->
+                                <div class="row m-0">
+                                    <div class="col bg-light-warning px-6 py-8 rounded-xl mr-7 mb-7">
+                                        <span
+                                            class="svg-icon svg-icon-3x svg-icon-warning d-block my-2">
+                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Media/Equalizer.svg--><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect x="0" y="0" width="24" height="24" />
+                                                    <rect fill="#000000" opacity="0.3" x="13" y="4"
+                                                        width="3" height="16" rx="1.5" />
+                                                    <rect fill="#000000" x="8" y="9" width="3"
+                                                        height="11" rx="1.5" />
+                                                    <rect fill="#000000" x="18" y="11" width="3"
+                                                        height="9" rx="1.5" />
+                                                    <rect fill="#000000" x="3" y="13" width="3"
+                                                        height="7" rx="1.5" />
+                                                </g>
+                                            </svg>
+                                            <!--end::Svg Icon--></span> <a href="#"
+                                            class="text-warning font-weight-bold font-size-h6">
+                                            Weekly Sales
+                                        </a>
+                                    </div>
+                                    <div class="col bg-light-primary px-6 py-8 rounded-xl mb-7">
+                                        <span
+                                            class="svg-icon svg-icon-3x svg-icon-primary d-block my-2">
+                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg--><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <polygon points="0 0 24 0 24 24 0 24" />
+                                                    <path
+                                                        d="M18,8 L16,8 C15.4477153,8 15,7.55228475 15,7 C15,6.44771525 15.4477153,6 16,6 L18,6 L18,4 C18,3.44771525 18.4477153,3 19,3 C19.5522847,3 20,3.44771525 20,4 L20,6 L22,6 C22.5522847,6 23,6.44771525 23,7 C23,7.55228475 22.5522847,8 22,8 L20,8 L20,10 C20,10.5522847 19.5522847,11 19,11 C18.4477153,11 18,10.5522847 18,10 L18,8 Z M9,11 C6.790861,11 5,9.209139 5,7 C5,4.790861 6.790861,3 9,3 C11.209139,3 13,4.790861 13,7 C13,9.209139 11.209139,11 9,11 Z"
+                                                        fill="#000000" fill-rule="nonzero"
+                                                        opacity="0.3" />
+                                                    <path
+                                                        d="M0.00065168429,20.1992055 C0.388258525,15.4265159 4.26191235,13 8.98334134,13 C13.7712164,13 17.7048837,15.2931929 17.9979143,20.2 C18.0095879,20.3954741 17.9979143,21 17.2466999,21 C13.541124,21 8.03472472,21 0.727502227,21 C0.476712155,21 -0.0204617505,20.45918 0.00065168429,20.1992055 Z"
+                                                        fill="#000000" fill-rule="nonzero" />
+                                                </g>
+                                            </svg>
+                                            <!--end::Svg Icon--></span> <a href="#"
+                                            class="text-primary font-weight-bold font-size-h6 mt-2">
+                                            New Users
+                                        </a>
+                                    </div>
                                 </div>
+                                <!--end::Row-->
+                                <!--begin::Row-->
+                                <div class="row m-0">
+                                    <div class="col bg-light-danger px-6 py-8 rounded-xl mr-7">
+                                        <span class="svg-icon svg-icon-3x svg-icon-danger d-block my-2">
+                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg--><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <polygon points="0 0 24 0 24 24 0 24" />
+                                                    <path
+                                                        d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z"
+                                                        fill="#000000" fill-rule="nonzero" />
+                                                    <path
+                                                        d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z"
+                                                        fill="#000000" opacity="0.3" />
+                                                </g>
+                                            </svg>
+                                            <!--end::Svg Icon--></span> <a href="#"
+                                            class="text-danger font-weight-bold font-size-h6 mt-2">
+                                            Item Orders
+                                        </a>
+                                    </div>
+                                    <div class="col bg-light-success px-6 py-8 rounded-xl">
+                                        <span
+                                            class="svg-icon svg-icon-3x svg-icon-success d-block my-2">
+                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Urgent-mail.svg--><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect x="0" y="0" width="24" height="24" />
+                                                    <path
+                                                        d="M12.7037037,14 L15.6666667,10 L13.4444444,10 L13.4444444,6 L9,12 L11.2222222,12 L11.2222222,14 L6,14 C5.44771525,14 5,13.5522847 5,13 L5,3 C5,2.44771525 5.44771525,2 6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,13 C19,13.5522847 18.5522847,14 18,14 L12.7037037,14 Z"
+                                                        fill="#000000" opacity="0.3" />
+                                                    <path
+                                                        d="M9.80428954,10.9142091 L9,12 L11.2222222,12 L11.2222222,16 L15.6666667,10 L15.4615385,10 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 L9.80428954,10.9142091 Z"
+                                                        fill="#000000" />
+                                                </g>
+                                            </svg>
+                                            <!--end::Svg Icon--></span> <a href="#"
+                                            class="text-success font-weight-bold font-size-h6 mt-2">
+                                            Bug Reports
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--end::Row-->
                             </div>
+                            <!--end::Stats-->
                         </div>
-                        <!--begin::Form-->
-                        <form>
-                            <div class="card-body">
-                                <div class="form-group mb-8">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Here are examples of <code>.form-control</code> applied to each textual HTML5 input type:
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-2 col-form-label">Text</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="text" value="Artisanal kale" id="example-text-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-search-input" class="col-2 col-form-label">Search</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="search" value="How do I shoot web" id="example-search-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-email-input" class="col-2 col-form-label">Email</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-url-input" class="col-2 col-form-label">URL</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-password-input" class="col-2 col-form-label">Password</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="password" value="hunter2" id="example-password-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-number-input" class="col-2 col-form-label">Number</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="number" value="42" id="example-number-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-date-input" class="col-2 col-form-label">Date</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-month-input" class="col-2 col-form-label">Month</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="month" value="2011-08" id="example-month-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-week-input" class="col-2 col-form-label">Week</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="week" value="2011-W33" id="example-week-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-time-input" class="col-2 col-form-label">Time</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="time" value="13:45:00" id="example-time-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-color-input" class="col-2 col-form-label">Color</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="color" value="#563d7c" id="example-color-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-email-input" class="col-2 col-form-label">Range</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="range" />
-                                    </div>
-                                </div>
-
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Textual HTML5 Inputs
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group mb-8&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Here are examples of &lt;code&gt;.form-control&lt;/code&gt; applied to each textual HTML5 input type:
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label  class=&quot;col-2 col-form-label&quot;&gt;Text&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;text&quot; value=&quot;Artisanal kale&quot; id=&quot;example-text-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-search-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Search&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;search&quot; value=&quot;How do I shoot web&quot; id=&quot;example-search-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-email-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Email&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;email&quot; value=&quot;bootstrap@example.com&quot; id=&quot;example-email-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-url-input&quot; class=&quot;col-2 col-form-label&quot;&gt;URL&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;url&quot; value=&quot;https://getbootstrap.com&quot; id=&quot;example-url-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-tel-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Telephone&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;tel&quot; value=&quot;1-(555)-555-5555&quot; id=&quot;example-tel-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-password-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Password&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;password&quot; value=&quot;hunter2&quot; id=&quot;example-password-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-number-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Number&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;number&quot; value=&quot;42&quot; id=&quot;example-number-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-datetime-local-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Date and time&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;datetime-local&quot; value=&quot;2011-08-19T13:45:00&quot; id=&quot;example-datetime-local-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-date-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Date&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;date&quot; value=&quot;2011-08-19&quot; id=&quot;example-date-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-month-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Month&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;month&quot; value=&quot;2011-08&quot; id=&quot;example-month-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-week-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Week&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;week&quot; value=&quot;2011-W33&quot; id=&quot;example-week-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-time-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Time&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;time&quot; value=&quot;13:45:00&quot; id=&quot;example-time-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-color-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Color&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;color&quot; value=&quot;#563d7c&quot; id=&quot;example-color-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-email-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Range&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;range&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;div class=&quot;row&quot;&gt;
-											&lt;div class=&quot;col-2&quot;&gt;
-											&lt;/div&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;button type=&quot;reset&quot; class=&quot;btn btn-success mr-2&quot;&gt;Submit&lt;/button&gt;
-												&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <div class="row">
-                                    <div class="col-2">
-                                    </div>
-                                    <div class="col-10">
-                                        <button type="reset" class="btn btn-success mr-2">Submit</button>
-                                        <button type="reset" class="btn btn-secondary">Cancel</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                        <!--end::Body-->
                     </div>
-                    <!--end::Card-->
-
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Solid Background Style
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Add the <code>.form-controller-solid</code> class on an input to have an input with solid background.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Input</label>
-                                    <input type="email" class="form-control form-control-solid" placeholder="Example input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Select</label>
-                                    <select class="form-control form-control-solid">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Textarea</label>
-                                    <textarea class="form-control form-control-solid" rows="3"></textarea>
-                                </div>
-
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Input States
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Add the &lt;code&gt;disabled&lt;/code&gt; or &lt;code&gt;readonly&lt;/code&gt; boolean attribute on an input to prevent user interactions.
-													Disabled inputs appear lighter and add a &lt;code&gt;not-allowed&lt;/code&gt; cursor.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control form-control-solid&quot; placeholder=&quot;Example input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Select&lt;/label&gt;
-											&lt;select class=&quot;form-control form-control-solid&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Textarea&lt;/label&gt;
-											&lt;textarea class=&quot;form-control form-control-solid&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
+                    <!--end::Mixed Widget 1-->
                 </div>
-                <div class="col-md-6">
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Input States
+                <div class="col-lg-6 col-xxl-4">
+
+                    <!--begin::List Widget 9-->
+                    <div class="card card-custom card-stretch gutter-b">
+                        <!--begin::Header-->
+                        <div class="card-header align-items-center border-0 mt-4">
+                            <h3 class="card-title align-items-start flex-column">
+                                <span class="font-weight-bolder text-dark">My Activity</span>
+                                <span class="text-muted mt-3 font-weight-bold font-size-sm">890,344
+                                    Sales</span>
                             </h3>
                             <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+                                <div class="dropdown dropdown-inline">
+                                    <a href="#"
+                                        class="btn btn-clean btn-hover-light-primary btn-sm btn-icon"
+                                        data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="ki ki-bold-more-hor"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                        <!--begin::Navigation-->
+                                        <ul class="navi navi-hover">
+                                            <li class="navi-header font-weight-bold py-4">
+                                                <span class="font-size-lg">Choose Label:</span>
+                                                <i class="flaticon2-information icon-md text-muted"
+                                                    data-toggle="tooltip" data-placement="right"
+                                                    title="Click to learn more..."></i>
+                                            </li>
+                                            <li class="navi-separator mb-3 opacity-70"></li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-text">
+                                                        <span
+                                                            class="label label-xl label-inline label-light-success">Customer</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-text">
+                                                        <span
+                                                            class="label label-xl label-inline label-light-danger">Partner</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-text">
+                                                        <span
+                                                            class="label label-xl label-inline label-light-warning">Suplier</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-text">
+                                                        <span
+                                                            class="label label-xl label-inline label-light-primary">Member</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-item">
+                                                <a href="#" class="navi-link">
+                                                    <span class="navi-text">
+                                                        <span
+                                                            class="label label-xl label-inline label-light-dark">Staff</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="navi-separator mt-3 opacity-70"></li>
+                                            <li class="navi-footer py-4">
+                                                <a class="btn btn-clean font-weight-bold btn-sm"
+                                                    href="#">
+                                                    <i class="ki ki-plus icon-sm"></i>
+                                                    Add new
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!--end::Navigation-->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Add the <code>disabled</code> or <code>readonly</code> boolean attribute on an input to prevent user interactions.
-                                            Disabled inputs appear lighter and add a <code>not-allowed</code> cursor.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Disabled Input</label>
-                                    <input type="email" class="form-control" disabled="disabled" placeholder="Disabled input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Disabled select</label>
-                                    <select class="form-control" disabled="disabled">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Disabled textarea</label>
-                                    <textarea class="form-control" disabled="disabled" rows="3"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label>Readonly Input</label>
-                                    <input type="email" class="form-control" readonly placeholder="Readonly input" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Readonly textarea</label>
-                                    <textarea class="form-control" readonly rows="3"></textarea>
-                                </div>
+                        <!--end::Header-->
 
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Input States
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Add the &lt;code&gt;disabled&lt;/code&gt; or &lt;code&gt;readonly&lt;/code&gt; boolean attribute on an input to prevent user interactions.
-													Disabled inputs appear lighter and add a &lt;code&gt;not-allowed&lt;/code&gt; cursor.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Disabled Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot; disabled=&quot;disabled&quot; placeholder=&quot;Disabled input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Disabled select&lt;/label&gt;
-											&lt;select class=&quot;form-control&quot; disabled=&quot;disabled&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Disabled textarea&lt;/label&gt;
-											&lt;textarea class=&quot;form-control&quot; disabled=&quot;disabled&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Readonly Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot; readonly placeholder=&quot;Readonly input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Readonly textarea&lt;/label&gt;
-											&lt;textarea class=&quot;form-control&quot; readonly rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
+                        <!--begin::Body-->
+                        <div class="card-body pt-4">
+                            <!--begin::Timeline-->
+                            <div class="timeline timeline-6 mt-3">
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        08:42</div>
+                                    <!--end::Label-->
 
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Input Sizing
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-warning icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Text-->
+                                    <div
+                                        class="font-weight-mormal font-size-lg timeline-content text-muted pl-3">
+                                        Outlines keep you honest. And keep structure
+                                    </div>
+                                    <!--end::Text-->
                                 </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        10:00</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-success icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Content-->
+                                    <div class="timeline-content d-flex">
+                                        <span
+                                            class="font-weight-bolder text-dark-75 pl-3 font-size-lg">AEOL
+                                            meeting</span>
+                                    </div>
+                                    <!--end::Content-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        14:37</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-danger icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Desc-->
+                                    <div
+                                        class="timeline-content font-weight-bolder font-size-lg text-dark-75 pl-3">
+                                        Make deposit
+                                        <a href="#" class="text-primary">USD 700</a>.
+                                        to ESL
+                                    </div>
+                                    <!--end::Desc-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        16:50</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-primary icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Text-->
+                                    <div
+                                        class="timeline-content font-weight-mormal font-size-lg text-muted pl-3">
+                                        Indulging in poorly driving and keep structure keep great
+                                    </div>
+                                    <!--end::Text-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        21:03</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-danger icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Desc-->
+                                    <div
+                                        class="timeline-content font-weight-bolder text-dark-75 pl-3 font-size-lg">
+                                        New order placed <a href="#" class="text-primary">#XF-2356</a>.
+                                    </div>
+                                    <!--end::Desc-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        23:07</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-info icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Text-->
+                                    <div
+                                        class="timeline-content font-weight-mormal font-size-lg text-muted pl-3">
+                                        Outlines keep and you honest. Indulging in poorly driving
+                                    </div>
+                                    <!--end::Text-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        16:50</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-primary icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Text-->
+                                    <div
+                                        class="timeline-content font-weight-mormal font-size-lg text-muted pl-3">
+                                        Indulging in poorly driving and keep structure keep great
+                                    </div>
+                                    <!--end::Text-->
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="timeline-item align-items-start">
+                                    <!--begin::Label-->
+                                    <div
+                                        class="timeline-label font-weight-bolder text-dark-75 font-size-lg">
+                                        21:03</div>
+                                    <!--end::Label-->
+
+                                    <!--begin::Badge-->
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-genderless text-danger icon-xl"></i>
+                                    </div>
+                                    <!--end::Badge-->
+
+                                    <!--begin::Desc-->
+                                    <div
+                                        class="timeline-content font-weight-bolder font-size-lg text-dark-75 pl-3">
+                                        New order placed <a href="#" class="text-primary">#XF-2356</a>.
+                                    </div>
+                                    <!--end::Desc-->
+                                </div>
+                                <!--end::Item-->
                             </div>
+                            <!--end::Timeline-->
                         </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Set heights using classes like <code>.form-control-lg</code>, and set widths using grid column classes like <code>.col-lg-*</code>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Large Input</label>
-                                    <input type="email" class="form-control form-control-lg" placeholder="Large input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Default Input</label>
-                                    <input type="email" class="form-control" placeholder="Large input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Small Input</label>
-                                    <input type="email" class="form-control form-control-sm" placeholder="Large input" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelectl">Large Select</label>
-                                    <select class="form-control form-control-lg" id="exampleSelectl">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelectd">Default Select</label>
-                                    <select class="form-control" id="exampleSelectd">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelects">Small Select</label>
-                                    <select class="form-control form-control-sm" id="exampleSelects">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Input Sizing
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Set heights using classes like &lt;code&gt;.form-control-lg&lt;/code&gt;, and set widths using grid column classes like &lt;code&gt;.col-lg-*&lt;/code&gt;
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Large Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control form-control-lg&quot;  placeholder=&quot;Large input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Default Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot;  placeholder=&quot;Large input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Small Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control form-control-sm&quot;  placeholder=&quot;Large input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelectl&quot;&gt;Large Select&lt;/label&gt;
-											&lt;select class=&quot;form-control form-control-lg&quot; id=&quot;exampleSelectl&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelectd&quot;&gt;Default Select&lt;/label&gt;
-											&lt;select class=&quot;form-control&quot; id=&quot;exampleSelectd&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelects&quot;&gt;Small Select&lt;/label&gt;
-											&lt;select class=&quot;form-control form-control-sm&quot; id=&quot;exampleSelects&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-success mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-success mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
+                        <!--end: Card Body-->
                     </div>
-                    <!--end::Card-->
-
-                    <!--begin::Card-->
-                    <div class="card card-custom example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Custom Controls
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+                    <!--end: List Widget 9-->
+                </div>
+                <div class="col-lg-6 col-xxl-4">
+                    <!--begin::Stats Widget 11-->
+                    <div class="card card-custom card-stretch card-stretch-half gutter-b">
+                        <!--begin::Body-->
+                        <div class="card-body p-0">
+                            <div
+                                class="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
+                                <span class="symbol  symbol-50 symbol-light-success mr-2">
+                                    <span class="symbol-label">
+                                        <span class="svg-icon svg-icon-xl svg-icon-success">
+                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg--><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect x="0" y="0" width="24" height="24" />
+                                                    <rect fill="#000000" x="4" y="4" width="7"
+                                                        height="7" rx="1.5" />
+                                                    <path
+                                                        d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z"
+                                                        fill="#000000" opacity="0.3" />
+                                                </g>
+                                            </svg>
+                                            <!--end::Svg Icon--></span> </span>
+                                </span>
+                                <div class="d-flex flex-column text-right">
+                                    <span
+                                        class="text-dark-75 font-weight-bolder font-size-h3">750$</span>
+                                    <span class="text-muted font-weight-bold mt-2">Weekly Income</span>
                                 </div>
                             </div>
+                            <div id="kt_stats_widget_11_chart" class="card-rounded-bottom"
+                                data-color="success" style="height: 150px"></div>
                         </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            For even more customization and cross browser consistency, use our completely custom form elements to replace the browser defaults. They’re built on top of semantic and accessible markup, so they’re solid replacements for any default form control.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Custom Range</label>
-                                    <div></div>
-                                    <input type="range" class="custom-range" min="0" max="5" id="customRange2" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Custom Select</label>
-                                    <div></div>
-                                    <select class="custom-select form-control">
-                                        <option selected>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label>File Browser</label>
-                                    <div></div>
-                                    <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="customFile" />
-                                        <label class="custom-file-label" for="customFile">Choose file</label>
-                                    </div>
-                                </div>
-
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Custom Controls
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													For even more customization and cross browser consistency, use our completely custom form elements to replace the browser defaults. They’re built on top of semantic and accessible markup, so they’re solid replacements for any default form control.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Custom Range&lt;/label&gt;
-											&lt;div&gt;&lt;/div&gt;
-											&lt;input type=&quot;range&quot; class=&quot;custom-range&quot; min=&quot;0&quot; max=&quot;5&quot; id=&quot;customRange2&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Custom Select&lt;/label&gt;
-											&lt;div&gt;&lt;/div&gt;
-											&lt;select class=&quot;custom-select form-control&quot;&gt;
-												&lt;option selected&gt;Open this select menu&lt;/option&gt;
-												&lt;option value=&quot;1&quot;&gt;One&lt;/option&gt;
-												&lt;option value=&quot;2&quot;&gt;Two&lt;/option&gt;
-												&lt;option value=&quot;3&quot;&gt;Three&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;File Browser&lt;/label&gt;
-											&lt;div&gt;&lt;/div&gt;
-											&lt;div class=&quot;custom-file&quot;&gt;
-												&lt;input type=&quot;file&quot; class=&quot;custom-file-input&quot; id=&quot;customFile&quot;/&gt;
-												&lt;label class=&quot;custom-file-label&quot; for=&quot;customFile&quot;&gt;Choose file&lt;/label&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
+                        <!--end::Body-->
                     </div>
-                    <!--end::Card-->
+                    <!--end::Stats Widget 11-->
+                    <!--begin::Stats Widget 12-->
+                    <div class="card card-custom card-stretch card-stretch-half gutter-b">
+                        <!--begin::Body-->
+                        <div class="card-body p-0">
+                            <div
+                                class="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
+                                <span class="symbol  symbol-50 symbol-light-primary mr-2">
+                                    <span class="symbol-label">
+                                        <span class="svg-icon svg-icon-xl svg-icon-primary">
+                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Group.svg--><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <polygon points="0 0 24 0 24 24 0 24" />
+                                                    <path
+                                                        d="M18,14 C16.3431458,14 15,12.6568542 15,11 C15,9.34314575 16.3431458,8 18,8 C19.6568542,8 21,9.34314575 21,11 C21,12.6568542 19.6568542,14 18,14 Z M9,11 C6.790861,11 5,9.209139 5,7 C5,4.790861 6.790861,3 9,3 C11.209139,3 13,4.790861 13,7 C13,9.209139 11.209139,11 9,11 Z"
+                                                        fill="#000000" fill-rule="nonzero"
+                                                        opacity="0.3" />
+                                                    <path
+                                                        d="M17.6011961,15.0006174 C21.0077043,15.0378534 23.7891749,16.7601418 23.9984937,20.4 C24.0069246,20.5466056 23.9984937,21 23.4559499,21 L19.6,21 C19.6,18.7490654 18.8562935,16.6718327 17.6011961,15.0006174 Z M0.00065168429,20.1992055 C0.388258525,15.4265159 4.26191235,13 8.98334134,13 C13.7712164,13 17.7048837,15.2931929 17.9979143,20.2 C18.0095879,20.3954741 17.9979143,21 17.2466999,21 C13.541124,21 8.03472472,21 0.727502227,21 C0.476712155,21 -0.0204617505,20.45918 0.00065168429,20.1992055 Z"
+                                                        fill="#000000" fill-rule="nonzero" />
+                                                </g>
+                                            </svg>
+                                            <!--end::Svg Icon--></span> </span>
+                                </span>
+                                <div class="d-flex flex-column text-right">
+                                    <span
+                                        class="text-dark-75 font-weight-bolder font-size-h3">+6,5K</span>
+                                    <span class="text-muted font-weight-bold mt-2">New Users</span>
+                                </div>
+                            </div>
+                            <div id="kt_stats_widget_12_chart" class="card-rounded-bottom"
+                                data-color="primary" style="height: 150px"></div>
+                        </div>
+                        <!--end::Body-->
+                    </div>
+                    <!--end::Stats Widget 12-->
                 </div>
             </div>
+            <!--end::Row-->
+
+            <!--end::Dashboard-->
         </div>
         <!--end::Container-->
     </div>
     <!--end::Entry-->
-</div>
-<!--end::Content-->
