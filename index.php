@@ -114,7 +114,9 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = 'application';
+	$application_folder = 'application/backend';
+	// die($_SERVER["REQUEST_URI"]);
+	// die(mb_strtolower( mb_substr( $_SERVER["REQUEST_URI"], 1, 5, "UTF-8" ), "UTF-8" ));
 
 /*
  *---------------------------------------------------------------
