@@ -10,6 +10,6 @@ class Kelola_admin extends Admin_Controller
 
     public function index()
     {
-        $this->loadViewAdmin("master/admin/data_admin");
+        $this->loadViewAdmin("master/admin/v_kelolaadmin");
     }
 }

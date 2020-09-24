@@ -46,7 +46,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	
 
 	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> -->
-
+	<script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
 </head>
 <!--end::Head-->
 
@@ -106,6 +106,10 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!--begin::Content-->
                 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 					<?= $__content ?>
+
+					
+
+
 					
 				</div>
 
@@ -251,22 +255,28 @@ License: You must have a valid license purchased only from themeforest(the above
             "font-family": "Poppins"
         };
     </script>
-    <!--end::Global Config-->
+	<!--end::Global Config-->
+	
 	
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-    <!--begin::Global Theme Bundle(used by all pages)-->
-    <script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
+	<!--begin::Global Theme Bundle(used by all pages)-->
+	
+	
+	
     <script src="<?= asset("admin/plugins/custom/prismjs/prismjs.bundle.js") ?>"></script>
-    <script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
+	
+	<script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
 	<!--end::Global Theme Bundle-->
 	<script src="<?= asset("admin/plugins/custom/datatables/datatables.bundle.js") ?>"></script>
 	<script src="<?= asset("admin/plugins/custom/fullcalendar/fullcalendar.bundle.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/widgets.js") ?>"></script>
 
 	<script src="<?= asset("admin/js/pages/features/miscellaneous/sweetalert2.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-daterangepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/custom/profile/profile.js") ?>"></script>
 
-	<script src="<?= asset("admin/customjs/kelola_admin.js") ?>"></script>
-
+	
+	
 </body>
 <!--end::Body-->
 

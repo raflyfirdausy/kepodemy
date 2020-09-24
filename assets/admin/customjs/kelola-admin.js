@@ -1,5 +1,8 @@
+
 $(document).ready( function() { 
-	$('#table-admin').dataTable();
+	$('#table-admin').dataTable({
+		"responsive": true,
+	});
 
 	$('#btn-add-admin').on("click", function(){
 		$('#createAdminModal').modal("show");
