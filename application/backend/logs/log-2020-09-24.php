@@ -2711,3 +2711,75 @@ INFO - 2020-09-24 05:35:09 --> Input Class Initialized
 INFO - 2020-09-24 05:35:09 --> Language Class Initialized
 ERROR - 2020-09-24 10:35:09 --> 404 Page Not Found: Assets/admin
 ERROR - 2020-09-24 10:35:09 --> 404 Page Not Found: Assets/admin
+ERROR - 2020-09-24 17:27:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-09-24 17:27:39 --> Config Class Initialized
+INFO - 2020-09-24 17:27:39 --> Hooks Class Initialized
+DEBUG - 2020-09-24 17:27:39 --> UTF-8 Support Enabled
+INFO - 2020-09-24 17:27:39 --> Utf8 Class Initialized
+INFO - 2020-09-24 17:27:39 --> URI Class Initialized
+DEBUG - 2020-09-24 17:27:39 --> No URI present. Default controller set.
+INFO - 2020-09-24 17:27:39 --> Router Class Initialized
+INFO - 2020-09-24 17:27:39 --> Output Class Initialized
+INFO - 2020-09-24 17:27:39 --> Security Class Initialized
+DEBUG - 2020-09-24 17:27:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-24 17:27:39 --> Input Class Initialized
+INFO - 2020-09-24 17:27:39 --> Language Class Initialized
+INFO - 2020-09-24 22:27:39 --> Loader Class Initialized
+INFO - 2020-09-24 22:27:39 --> Helper loaded: url_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: form_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: array_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: download_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: inflector_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: setting_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: waktu_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: ultranesia_helper
+INFO - 2020-09-24 22:27:39 --> Helper loaded: utility_helper
+DEBUG - 2020-09-24 22:27:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-09-24 22:27:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-09-24 22:27:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-24 22:27:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-24 22:27:40 --> Encryption Class Initialized
+INFO - 2020-09-24 22:27:40 --> Controller Class Initialized
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-09-24 22:27:40 --> Final output sent to browser
+ERROR - 2020-09-24 17:27:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-09-24 17:27:40 --> Config Class Initialized
+DEBUG - 2020-09-24 22:27:40 --> Total execution time: 1.0049
+INFO - 2020-09-24 17:27:40 --> Hooks Class Initialized
+DEBUG - 2020-09-24 17:27:40 --> UTF-8 Support Enabled
+INFO - 2020-09-24 17:27:40 --> Utf8 Class Initialized
+INFO - 2020-09-24 17:27:40 --> URI Class Initialized
+DEBUG - 2020-09-24 17:27:40 --> No URI present. Default controller set.
+INFO - 2020-09-24 17:27:40 --> Router Class Initialized
+INFO - 2020-09-24 17:27:40 --> Output Class Initialized
+INFO - 2020-09-24 17:27:40 --> Security Class Initialized
+DEBUG - 2020-09-24 17:27:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-24 17:27:40 --> Input Class Initialized
+INFO - 2020-09-24 17:27:40 --> Language Class Initialized
+INFO - 2020-09-24 22:27:40 --> Loader Class Initialized
+INFO - 2020-09-24 22:27:40 --> Helper loaded: url_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: form_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: array_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: download_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: inflector_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: setting_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: waktu_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-09-24 22:27:40 --> Helper loaded: utility_helper
+DEBUG - 2020-09-24 22:27:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-09-24 22:27:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-09-24 22:27:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-24 22:27:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-24 22:27:40 --> Encryption Class Initialized
+INFO - 2020-09-24 22:27:40 --> Controller Class Initialized
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-09-24 22:27:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-09-24 22:27:40 --> Final output sent to browser
+DEBUG - 2020-09-24 22:27:40 --> Total execution time: 0.4021
