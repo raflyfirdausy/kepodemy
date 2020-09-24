@@ -2998,3 +2998,39 @@ INFO - 2020-09-23 16:47:58 --> Config Class Initialized
 INFO - 2020-09-23 16:47:58 --> Hooks Class Initialized
 DEBUG - 2020-09-23 16:47:58 --> UTF-8 Support Enabled
 INFO - 2020-09-23 16:47:58 --> Utf8 Class Initialized
+ERROR - 2020-09-23 16:57:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-09-23 16:57:03 --> Config Class Initialized
+INFO - 2020-09-23 16:57:03 --> Hooks Class Initialized
+DEBUG - 2020-09-23 16:57:03 --> UTF-8 Support Enabled
+INFO - 2020-09-23 16:57:03 --> Utf8 Class Initialized
+INFO - 2020-09-23 16:57:03 --> URI Class Initialized
+DEBUG - 2020-09-23 16:57:03 --> No URI present. Default controller set.
+INFO - 2020-09-23 16:57:03 --> Router Class Initialized
+INFO - 2020-09-23 16:57:03 --> Output Class Initialized
+INFO - 2020-09-23 16:57:03 --> Security Class Initialized
+DEBUG - 2020-09-23 16:57:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-23 16:57:03 --> Input Class Initialized
+INFO - 2020-09-23 16:57:03 --> Language Class Initialized
+INFO - 2020-09-23 21:57:03 --> Loader Class Initialized
+INFO - 2020-09-23 21:57:03 --> Helper loaded: url_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: form_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: array_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: download_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: inflector_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: setting_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: waktu_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: ultranesia_helper
+INFO - 2020-09-23 21:57:03 --> Helper loaded: utility_helper
+DEBUG - 2020-09-23 21:57:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-09-23 21:57:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-09-23 21:57:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-23 21:57:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-23 21:57:03 --> Encryption Class Initialized
+INFO - 2020-09-23 21:57:03 --> Controller Class Initialized
+INFO - 2020-09-23 21:57:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-09-23 21:57:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-09-23 21:57:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-09-23 21:57:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-09-23 21:57:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-09-23 21:57:03 --> Final output sent to browser
+DEBUG - 2020-09-23 21:57:03 --> Total execution time: 0.4237
