@@ -26,11 +26,12 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--end::Fonts-->
 
 
+	<link href="<?= asset("admin/plugins/custom/datatables/datatables.bundle.css") ?>" rel="stylesheet" type="text/css" />
 
     <!--begin::Global Theme Styles(used by all pages)-->
     <link href="<?= asset("admin/plugins/global/plugins.bundle.css") ?>" rel="stylesheet" type="text/css" />
     <link href="<?= asset("admin/plugins/custom/prismjs/prismjs.bundle.css") ?>" rel="stylesheet" type="text/css" />
-    <link href="<?= asset("admin/css/style.bundle.css") ?>" rel="stylesheet" type="text/css" />
+	<link href="<?= asset("admin/css/style.bundle.css") ?>" rel="stylesheet" type="text/css" />
     <!--end::Global Theme Styles-->
 
     <!--begin::Layout Themes(used by all pages)-->
@@ -41,7 +42,10 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="<?= asset("admin/css/themes/layout/aside/dark.css") ?>" rel="stylesheet" type="text/css" />
     <!--end::Layout Themes-->
 
-    <link rel="shortcut icon" href="<?= asset("admin/media/logos/favicon.ico") ?>" />
+	<link rel="shortcut icon" href="<?= asset("admin/media/logos/favicon.ico") ?>" />
+	
+
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> -->
 
 </head>
 <!--end::Head-->
@@ -55,7 +59,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center  header-mobile-fixed ">
         <!--begin::Logo-->
         <a href="index.html">
-            <img alt="Logo" src="<?= asset("admin/media/logos/logo-light.png") ?>") ?>" />
+            <img alt="Logo" src="<?= asset("admin/media/logos/logo-light.png") ?>"/>
         </a>
         <!--end::Logo-->
 
@@ -102,6 +106,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!--begin::Content-->
                 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 					<?= $__content ?>
+					
 				</div>
 
                 <?php $this->load->view("template/footer") ?>
@@ -247,15 +252,20 @@ License: You must have a valid license purchased only from themeforest(the above
         };
     </script>
     <!--end::Global Config-->
-
+	
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
     <!--begin::Global Theme Bundle(used by all pages)-->
     <script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
     <script src="<?= asset("admin/plugins/custom/prismjs/prismjs.bundle.js") ?>"></script>
     <script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
 	<!--end::Global Theme Bundle-->
+	<script src="<?= asset("admin/plugins/custom/datatables/datatables.bundle.js") ?>"></script>
 	<script src="<?= asset("admin/plugins/custom/fullcalendar/fullcalendar.bundle.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/widgets.js") ?>"></script>
 
+	<script src="<?= asset("admin/js/pages/features/miscellaneous/sweetalert2.js") ?>"></script>
+
+	<script src="<?= asset("admin/customjs/kelola_admin.js") ?>"></script>
 
 </body>
 <!--end::Body-->
