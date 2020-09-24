@@ -13,6 +13,7 @@ class Beranda extends Admin_Controller
         $data = [
             "rafly" => "RAFLI FIRDAUSY"
         ];
+        d($data);
         $this->loadViewAdmin("beranda/index", $data);
     }
 }
