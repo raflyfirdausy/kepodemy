@@ -281,3 +281,25 @@ if (!function_exists('SHDK')) {
         );
     }
 }
+
+
+if (!function_exists('Level')) {
+    function Level()
+    {
+        return array(
+            ("Admin"),
+            ("Super Admin"),       
+        );
+    }
+}
+
+if (!function_exists('Gender')) {
+    function Gender()
+    {
+        return array(
+            ("Laki-laki"),
+            ("Perempuan"),       
+            ("Lainnya"),       
+        );
+    }
+}

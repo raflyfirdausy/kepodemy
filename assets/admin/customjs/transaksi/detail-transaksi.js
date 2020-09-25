@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var status = $('#status-transaksi').val();
+	// alert(status)
 	var url_path;
 	switch(status) {
 		case "0":

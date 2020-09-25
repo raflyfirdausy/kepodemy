@@ -21,3 +21,9 @@ function getdate_onemonthlast(){
 }
 
 $('.filter-date').val(getdate_onemonthlast());
+
+
+$('.btn-lihat-password').on("click", function(){
+	var type = $('.password').attr('type') == "text" ? "password" : 'text';
+	$('.password').prop('type', type);
+});

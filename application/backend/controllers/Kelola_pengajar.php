@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Kelola_admin extends Admin_Controller
+class Kelola_pengajar extends Admin_Controller
 {
     public function __construct()
     {
@@ -10,13 +10,21 @@ class Kelola_admin extends Admin_Controller
 
     public function index()
     {
-        $this->loadViewAdmin("master/admin/v_kelolaadmin");
+        $this->loadViewAdmin("master/pengajar/v_kelolapengajar");
+	}
+
+    public function tambah_data()
+    {
+        $this->loadViewAdmin("master/pengajar/v_tambahpengajar");
 	}
 	
 	public function simpan_data()
 	{
-		$dataInput  = $this->input->post();
-		unset($dataInput["id_admin"]);
+		$dataInput = $this->input->post();
+		// $namemember = unserialize($dataInput['NamaPendidikan']);
+		// foreach( $namemember as $value ) {
+		// 	print $value;
+		// }
 		var_dump($dataInput);
 	}
 
@@ -60,5 +68,22 @@ class Kelola_admin extends Admin_Controller
 	{
 		$dataInput  = $this->input->post();
 		var_dump($dataInput);
+	}
+
+	public function detail_pengajar($status)
+    {
+		$data = [
+			'status' => $status
+		];
+        $this->loadViewAdmin("master/pengajar/v_keloladetailpengajar", $data);
+	}
+	
+	public function upload_file()
+	{
+		// $cek = "cek";
+		// var_dump($cek);
+		return json_encode([
+			'code' => 200
+		]);
 	}
 }

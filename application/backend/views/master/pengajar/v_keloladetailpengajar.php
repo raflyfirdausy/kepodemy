@@ -5,17 +5,17 @@
 		<div class="d-flex align-items-center flex-wrap mr-2">
 
 			<!--begin::Page Title-->
-			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Detail Pengajar</h5>
+			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelola Pengajar</h5>
 			<input type="hidden" class="form-control" id="status-pengajar" value="<?= $status ?>" disabled/>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
 			<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Transaksi</a>
+					<a href="javascript:;" class="text-muted">Master</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Pendaftaran Pengajar</a>
+					<a href="javascript:;" class="text-muted">Kelola Pengajar</a>
 				</li>
 				<li class="breadcrumb-item">
 					<a href="javascript:;" class="text-muted">Detail</a>
@@ -31,8 +31,8 @@
 				Kembali
 			</a>
 
-			<button type="button" class="btn btn-danger mr-2 btn-reject-pengajar" style="display:none;">Tolak</button>
-			<button type="button" class="btn btn-success btn-approve-pengajar" style="display:none;">Terima</button>
+			<!-- <button type="button" class="btn btn-danger mr-2 btn-reject-pengajar" style="display:none;">Tolak</button>
+			<button type="button" class="btn btn-success btn-approve-pengajar" style="display:none;">Terima</button> -->
 			<!--end::Actions-->
 		</div>
 
@@ -153,16 +153,16 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Foto</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(assets/media/users/blank.png)">
-											<a class="btn default btn-outline image-popup-vertical-fit el-link" href="<?= asset('admin/media/users/300_21.jpg') ?>" target="_blank">
+										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
+											<a class="image-popup-vertical-fit el-link" href="<?= asset('admin/media/users/300_21.jpg') ?>" target="_blank">
 												<div class="image-input-wrapper" style="background-image: url(<?= asset('admin/media/users/300_21.jpg') ?>)">
 												</div>
 											</a>
 
-											<!-- <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Change avatar">
+											<label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Ubah foto">
 												<i class="fa fa-pen icon-sm text-muted"></i>
-												<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg" />
-												<input type="hidden" name="profile_avatar_remove" />
+												<input type="file" name="foto_pengajar" accept=".png, .jpg, .jpeg"/>
+												<input type="hidden" name="foto_pengajar_remove"/>
 											</label>
 
 											<span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="cancel" data-toggle="tooltip" title="Cancel avatar">
@@ -171,7 +171,7 @@
 
 											<span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="remove" data-toggle="tooltip" title="Remove avatar">
 												<i class="ki ki-bold-close icon-xs text-muted"></i>
-											</span> -->
+											</span>
 										</div>
 										<!-- <span class="form-text text-muted">Allowed file types: png, jpg, jpeg.</span> -->
 									</div>
@@ -179,25 +179,28 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nama</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="M. I. Zulkifli M." disabled/>
+										<input class="form-control form-control-lg" type="text" value="M. I. Zulkifli M."/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Kategori Pengajar</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="Mobilie Programming" disabled/>
+										<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" required>
+											<option value="Web Programming">Web Programming</option>
+											<option value="Web Programming" selected>Mobile Programming</option>
+										</select>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Jabatan / Fungsi Pekerjaan</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="Instruktur" disabled/>
+										<input class="form-control form-control-lg" type="text" value="Instruktur"/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
 									<div class="col-lg-9 col-xl-6">
-										<textarea  class="form-control form-control-lg form-control-solid" rows="2" disabled>Instruktur Pemrograman Game</textarea>
+										<textarea  class="form-control form-control-lg" rows="2">Instruktur Pemrograman Game</textarea>
 									</div>
 								</div>
 								<div class="form-group row">
@@ -217,40 +220,32 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nomor Telepon</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg input-group-solid">
+										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-											<input type="text" class="form-control form-control-lg form-control-solid" value="087812347788" placeholder="Phone" disabled/>
+											<input type="text" class="form-control form-control-lg" value="087812347788" placeholder="Phone"/>
 										</div>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Email</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg input-group-solid">
+										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-at"></i></span></div>
-											<input type="text" class="form-control form-control-lg form-control-solid" value="akunpaten27@gmail.com" placeholder="Email" disabled/>
+											<input type="text" class="form-control form-control-lg" value="akunpaten27@gmail.com" placeholder="Email"/>
 										</div>
 									</div>
 								</div>
-
-								<!-- INFO KONTAK -->
-								<div class="row">
-									<label class="col-xl-3"></label>
-									<div class="col-lg-9 col-xl-6">
-										<h5 class="font-weight-bold mt-10 mb-6">Catatan</h5>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Catatan Dari Admin</label>
-									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg input-group-solid">
-											<textarea  class="form-control form-control-lg form-control-solid" rows="2" disabled></textarea>
-										</div>
-									</div>
-								</div>
-
 							</div>
 							<!--end::Body-->
+							<div class="card-footer">
+								<div class="row">
+									<!-- <div class="col-2">
+									</div> -->
+									<div class="col-12">
+										<button type="submit" class="btn btn-success btn-update-pengajar">Simpan Perubahan</button>
+									</div>
+								</div>
+							</div>
 						</form>
 						<!--end::Form-->
 					</div>
@@ -260,8 +255,17 @@
 					<div class="tab-pane" id="tab-pendidikan" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
+							<div class="row mb-5">
+								<div class="col-lg-12">
+									<button type="button" class="btn btn-sm font-weight-bolder btn-light-primary btn-add-pendidikan">
+										<i class="la la-plus"></i>Tambah Pendidikan
+									</button>
+								</div>
+							</div>
+
+							 <!--begin::Table-->
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
+								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_1">
 									<thead>
 										<tr>
 											<th>No</th>
@@ -270,6 +274,7 @@
 											<th>Waktu Keluar</th>
 											<th>Jurusan</th>
 											<th>Keterangan</th>
+											<th class="text-center">Action</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -280,10 +285,20 @@
 											<td>2020</td>
 											<td>Informatika</td>
 											<td>Teknik Informatika Programming</td>
+											<td class="text-center">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan" title="Edit">
+													<i class="la la-edit"></i>
+												</button>
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
+													<i class="la la-trash-o"></i>
+												</button>
+											</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
+							<!--end::Table-->
+							
 						</div>
 						<!--end::Body-->
 					</div>
@@ -293,8 +308,15 @@
 					<div class="tab-pane" id="tab-pekerjaan" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
+							<div class="row mb-5">
+								<div class="col-lg-12">
+									<button type="button" class="btn btn-sm font-weight-bolder btn-light-primary btn-add-pekerjaan">
+										<i class="la la-plus"></i>Tambah Pekerjaan
+									</button>
+								</div>
+							</div>
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
+								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_2">
 									<thead>
 										<tr>
 											<th>No</th>
@@ -303,6 +325,7 @@
 											<th>Waktu Keluar</th>
 											<th>Posisi</th>
 											<th>Keterangan</th>
+											<th class="text-center">Action</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -313,6 +336,14 @@
 											<td>2020</td>
 											<td>Web Developer</td>
 											<td>Web Programming Technical</td>
+											<td class="text-center">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan" title="Edit">
+													<i class="la la-edit"></i>
+												</button>
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" title="Hapus">
+													<i class="la la-trash-o"></i>
+												</button>
+											</td>
 										</tr>
 									</tbody>
 								</table>
@@ -326,12 +357,23 @@
 					<div class="tab-pane" id="tab-attachment" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
-							<!-- INFO Lampiran -->
+							<!-- INFO Attachment -->
+							<div class="row mb-5">
+								<div class="col-lg-12">
+									<div class="dropzone dropzone-default dropzone-primary" id="dropzone_lampiran">
+										<div class="dropzone-msg dz-message needsclick">
+											<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
+											<span class="dropzone-msg-desc">Upload up to 10 files</span>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="table-responsive">
 								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
 									<thead>
 										<tr>
-											<th>File Lampiran</th>
+											<th style="width:90%">File Lampiran</th>
+											<th style="width:10%" class="text-center">Action</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -339,11 +381,17 @@
 											<td>
 												<a href="https://google.com" target="_blank">CV_zulkifli.pdf</a>
 											</td>
+											
+											<td class="text-center">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-lampiran" title="Hapus">
+													<i class="la la-trash-o"></i>
+												</button>
+											</td>
 										</tr>
 									</tbody>
 								</table>
-							
 							</div>
+							
 						</div>
 						<!--end::Body-->
 					</div>
@@ -361,29 +409,91 @@
 
 
 <!-- Modal-->
-<div class="modal fade" id="rejectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
+<div class="modal fade" id="pekerjaanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Konfirmasi</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Tambah Pekerjaan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
-			<form id="form-send-reject-pengajar" method="POST">
+			<form id="form-pekerjaan" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="ID" id="id-transaksi" value="">
-					<div class="form-group">
-						<label for="exampleInputPassword1">Berikan alasan kenapa anda menolak transaki ini</label>
-						<textarea name="Notes" class="form-control" id="messageReject" rows="5" placeholder="catatan" required></textarea>
+					<input type="hidden" name="idPekerjaan" id="id-pekerjaan" value="">
+					<div class="form-group row">
+						<label>Nama Perusahaan</label>
+						<input type="text" name="NamaPerusahaan" class="form-control" placeholder="Nama perusahaan" />
+					</div>
+					<div class="form-group row">
+						<label>Waktu Masuk</label>
+						<input type="number" name="waktuMasuk" class="form-control" placeholder="Tahun masuk kerja" />
+					</div>
+					<div class="form-group row">
+						<label>Waktu Keluar</label>
+						<input type="number" name="waktuKeluar" class="form-control" placeholder="Tahun keluar kerja" />
+					</div>
+					<div class="form-group row">
+						<label>Nama Perusahaan</label>
+						<input type="text" name="Posisi" class="form-control" placeholder="Posisi Pekerjaan" />
+					</div>
+					<div class="form-group row">
+						<label>Keterangan</label>
+						<textarea name="KeteranganPekerjaan" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
 					</div>
 				</div>
 					
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default font-weight-bold" data-dismiss="modal">Batal</button>
-				<button type="submit" class="btn btn-danger font-weight-bold">Kirim</button>
+				<button type="submit" class="btn btn-primary font-weight-bold">Simpan</button>
+			</div>
+			</form>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL PENDIDIKAN -->
+<div class="modal fade" id="pendidikanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tambah Pendidikan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i aria-hidden="true" class="ki ki-close"></i>
+                </button>
+            </div>
+			<form id="form-pendidikan" method="POST">
+            <div class="modal-body">
+				<div class="col-md-12">
+					<input type="hidden" name="idPekerjaan" id="id-pekerjaan" value="">
+					<div class="form-group row">
+						<label>Nama Pendidikan</label>
+						<input type="text" name="NamaPendidikan" class="form-control" placeholder="Nama Pendidikan" />
+					</div>
+					<div class="form-group row">
+						<label>Waktu Masuk</label>
+						<input type="number" name="waktuMasuk" class="form-control" placeholder="Tahun masuk" />
+					</div>
+					<div class="form-group row">
+						<label>Waktu Keluar</label>
+						<input type="number" name="waktuKeluar" class="form-control" placeholder="Tahun keluar" />
+					</div>
+					<div class="form-group row">
+						<label>Jurusan</label>
+						<input type="text" name="Jurusan" class="form-control" placeholder="Jurusan" />
+					</div>
+					<div class="form-group row">
+						<label>Keterangan</label>
+						<textarea name="KeteranganPendidikan" class="form-control" placeholder="Keterangan Pendidikan" rows="3"></textarea>
+					</div>
+				</div>
+					
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default font-weight-bold" data-dismiss="modal">Batal</button>
+				<button type="submit" class="btn btn-primary font-weight-bold">Simpan</button>
 			</div>
 			</form>
         </div>
@@ -392,7 +502,7 @@
 
 
 
-<script src="<?= asset("admin/customjs/pengajar/detail-pengajar.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/pengajar/kelola-detail-pengajar.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 
