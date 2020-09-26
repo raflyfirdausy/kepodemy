@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Kelola_pengajar extends Admin_Controller
+class Kelola_pembelajar extends Admin_Controller
 {
     public function __construct()
     {
@@ -10,12 +10,12 @@ class Kelola_pengajar extends Admin_Controller
 
     public function index()
     {
-        $this->loadViewAdmin("master/pengajar/v_kelolapengajar");
+        $this->loadViewAdmin("master/pembelajar/v_kelolapembelajar");
 	}
 
     public function tambah_data()
     {
-        $this->loadViewAdmin("master/pengajar/v_tambahpengajar");
+        $this->loadViewAdmin("master/pembelajar/v_tambahpembelajar");
 	}
 	
 	public function simpan_data()
@@ -104,18 +104,18 @@ class Kelola_pengajar extends Admin_Controller
 		]);
 	}
 
-	public function update_pengajar()
+	public function update_pembelajar()
 	{
 		$dataInput  = $this->input->post();
 		var_dump($dataInput);
 	}
 
-	public function detail_pengajar($status)
+	public function detail_pembelajar($status)
     {
 		$data = [
 			'status' => $status
 		];
-        $this->loadViewAdmin("master/pengajar/v_keloladetailpengajar", $data);
+        $this->loadViewAdmin("master/pembelajar/v_keloladetailpembelajar", $data);
 	}
 	
 	public function upload_file()
@@ -146,56 +146,7 @@ class Kelola_pengajar extends Admin_Controller
 		
 	}
 
-
-	public function simpan_pendidikan()
-	{
-		$dataInput  = $this->input->post();
-		unset($dataInput["idPendidikan"]);
-		var_dump($dataInput);
-	}
-
-	public function simpan_pekerjaan()
-	{
-		$dataInput  = $this->input->post();
-		unset($dataInput["idPekerjaan"]);
-		var_dump($dataInput);
-	}
-
-	public function update_pekerjaan()
-	{
-		$dataInput  = $this->input->post();
-		var_dump($dataInput);
-	}
-
-	public function update_pendidikan()
-	{
-		$dataInput  = $this->input->post();
-		var_dump($dataInput);
-	}
-
-	public function hapus_pekerjaan()
-	{
-		$dataInput  = $this->input->post();
-		$id = $dataInput["ID"];
-
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Data berhasil terhapus",
-		]);
-	}
-
-	public function hapus_pendidikan()
-	{
-		$dataInput  = $this->input->post();
-		$id = $dataInput["ID"];
-
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Data berhasil terhapus",
-		]);
-	}
-
-	public function hapus_lampiran()
+	public function hapus_pembelajar()
 	{
 		$dataInput  = $this->input->post();
 		$id = $dataInput["ID"];

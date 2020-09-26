@@ -31,9 +31,6 @@
 
 $(document).ready( function() { 
 
-	$('#select-kategori').select2({
-		placeholder: "Pilih Kategori Pengajar"
-	});
 
 	// RepeaterForm.init();
 	$(".btn-add-pendidikan").on("click", function(){
@@ -267,54 +264,5 @@ $(document).ready( function() {
 		});
 	});
 
-
-	//PROSES SUBMIT PENGAJAR
-	$(".btn-simpan-pengajar").on("click", function(event) {
-		event.preventDefault();
-		let btn = $(this);
-		btn.attr('disabled', true);
-		btn.html('Menyimpan...');
-		let dataform = $("#form-add-pengajar").serialize();
-		console.log(dataform);
-		// $("#form-edit-general-service")
-		Swal.fire({
-			title: 'Harap menunggu',
-			text: 'Sedang menghapus',
-			// timer: 2000,
-			onBeforeOpen: () => {
-				Swal.showLoading();
-				// //START AJAX
-				$.ajax({
-					type: "POST", // Method pengiriman data bisa dengan GET atau POST
-					url: base_url + "kelola_pengajar/simpan_data", // Isi dengan url/path file php yang dituju
-					// data: {
-					//     "ID": id,
-					// }, // data yang akan dikirim ke file yang dituju
-					data : dataform,
-					dataType: "json",
-					success: function (data) { // Ketika proses pengiriman berhasil
-						if (data.response_code == 200) {
-							Swal.close();
-							Swal.fire('Success', data.response_message, 'success').then((result) => {
-								window.location.href = base_url + "kelola_pengajar";
-							})
-
-						} else {
-							Swal.close();
-							Swal.fire("Oops", data.response_message, "error");
-							btn.attr('disabled', false);
-							btn.html('Simpan');
-						}
-					},
-					error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
-						Swal.fire("Oops", xhr.responseText, "error");
-						btn.attr('disabled', false);
-						btn.html('Simpan');
-					}
-				});
-				//  // END AJAX
-			}
-		});
-	});
 
 })

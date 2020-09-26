@@ -279,10 +279,19 @@ License: You must have a valid license purchased only from themeforest(the above
 	<script src="<?= asset("admin/js/pages/crud/forms/widgets/select2.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/crud/forms/widgets/form-repeater.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/custom/user/edit-user.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/file-upload/dropzonejs.js") ?>"></script>
+	<!-- <script src="<?= asset("admin/js/pages/crud/file-upload/dropzonejs.js") ?>"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.0/dropzone.js"></script> -->
 	<script src="<?= asset("admin/js/pages/features/miscellaneous/toastr.js") ?>"></script>
 
-	
+	<script>
+	$(function() {
+		$(document).on('change, keyup', '.valid-number', function() {
+			var currentInput = $(this).val();
+			var fixedInput = currentInput.replace(/[A-Za-z!@#$%^&*()]/g, '');
+			$(this).val(fixedInput);
+		});
+	});
+	</script>
 	
 </body>
 <!--end::Body-->

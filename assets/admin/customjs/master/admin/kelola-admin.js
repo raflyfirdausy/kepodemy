@@ -1,15 +1,6 @@
 
 $(document).ready( function() { 
 
-	
-
-	$('#select-level').select2({
-		placeholder: "Pilih Level"
-	});
-
-	$('#select-kelamin').select2({
-		placeholder: "Pilih Jenis Kelamin"
-	});
 
 	$('#table-admin').dataTable({
 		"responsive": true,
@@ -22,6 +13,7 @@ $(document).ready( function() {
 		$("#select-level").val('').trigger('change');
 		$('#createAdminModal').modal("show");
 		$(".btn-simpan-data").html("Simpan");
+		$("#labelModal").html("Tambah Data");
 	})
 
 	$('#form-add-admin').on("submit", function(event){
@@ -71,6 +63,7 @@ $(document).ready( function() {
 		$("#select-kelamin").empty();
 		$("#select-level").empty();
 		$("#id-admin").val(id);
+		$("#labelModal").html("Edit Data");
 		$(".btn-simpan-data").html("Simpan perubahan");
 		Swal.fire({
 			title: 'Harap menunggu',
@@ -105,7 +98,6 @@ $(document).ready( function() {
 					},
 					error: function(xhr, ajaxOptions, thrownError) {
 						Swal.close();
-						console.log(xhr.responseText);
 						Swal.fire("Oops", xhr.responseText, "error");
 					}
 				});

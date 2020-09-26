@@ -5,7 +5,7 @@
 		<div class="d-flex align-items-center flex-wrap mr-2">
 
 			<!--begin::Page Title-->
-			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelola Pengajar</h5>
+			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelola Pembelajar</h5>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -14,7 +14,7 @@
 					<a href="javascript:;" class="text-muted">Master</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Kelola Pengajar</a>
+					<a href="javascript:;" class="text-muted">Kelola Pembelajar</a>
 				</li>
 			</ul>
 			<!--end::Breadcrumb-->
@@ -22,7 +22,7 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
-			<a href="<?= base_url('kelola_pengajar/tambah_data') ?>" type="button" class="btn btn-success font-weight-bolder font-size-sm">
+			<a href="<?= base_url('kelola_pembelajar/tambah_data') ?>" type="button" class="btn btn-success font-weight-bolder font-size-sm">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -50,10 +50,10 @@
 			<div class="card-header">
 				<div class="col-md-8 m-0 p-0">
 					<div class="mt-8">
-						<h3 class="card-label">Data Pengajar</h3>
+						<h3 class="card-label">Data Pembelajar</h3>
 					</div>
 				</div>
-				<!-- <div class="col-md-4 m-0 p-0">
+				<div class="col-md-4 m-0 p-0">
 					<div class="row">
 						<div class="col-md-8 mt-5">
 							<input type="text" class="form-control filter-date" name="filter_date" style="width:100%">
@@ -62,38 +62,69 @@
 							<button class="btn btn-primary" type="button" id="btn-filterDate" style="width:100%">Filter <i class="fas fa-filter"></i></button>
 						</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 			<div class="card-body">
 				<!--begin: Datatable-->
-				<table class="table table-bordered table-hover table-checkable" id="table-pengajar" style="margin-top: 13px !important">
+				<table class="table table-bordered table-hover table-checkable" id="table-pembelajar" style="margin-top: 13px !important">
 					<thead>
 						<tr>
 							<th class="text-center" style="width: 5%">No</th>
-							<th style="width: 15%">Nama</th>
-							<th style="width: 15%">email</th>
-							<th style="width: 15%">Kategori</th>
-							<th style="width: 15%">Jabatan</th>
-							<th style="width: 10%">No. Hp</th>
+							<th style="width: 20%">Nama</th>
+							<th style="width: 20%">email</th>
+							<th style="width: 13%">No. Hp</th>
 							<th style="width: 15%">Tanggal Daftar</th>
-							<th class="text-center" style="width: 10%">Action</th>
+							<th class="text-center" style="width: 12%">Status</th>
+							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>
 
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
-							<td>M. I. Zulkifli M.</td>
-							<td>akunpaten27@gmail.com</td>
-							<td>Pemograman</td>
-							<td>Teacher</td>
+							<td>Rifki Kurniawan</td>
+							<td>rifkikurniawan@gmail.com</td>
 							<td>087812348877</td>
 							<td>24-09-2020</td>
 							<td class="text-center">
-								<a href="<?= base_url('kelola_pengajar/detail_pengajar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Details">
-									<i class="la la-edit text-success"></i>
+								<span class="label label-inline label-light-danger font-weight-bold status-pembelajar">
+									Belum Verifikasi
+								</span>
+							</td>
+							<td class="text-center">
+								<button type="button" class="btn btn-sm btn-clean btn-icon btn-verifikasi" data-id="2" title="Verifikasi akun">
+									<i class="la la-check-circle-o text-success"></i>
+								</button>
+								<a href="<?= base_url('bookingpembelian/detailbooking/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Cek Transaksi">
+									<i class="la la-money-check-alt text-primary"></i>
 								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Hapus data">
+								<a href="<?= base_url('kelola_pembelajar/detail_pembelajar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Detail Pembelajar">
+									<i class="la la-edit text-warning"></i>
+								</a>
+								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
+									<i class="la la-trash text-danger"></i>
+								</button>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-center">2</td>
+							<td>Rafly Firadusy Irawan</td>
+							<td>rafly@gmail.com</td>
+							<td>081223121122</td>
+							<td>24-09-2020</td>
+							<td class="text-center">
+								<span class="label label-inline label-light-success font-weight-bold status-pembelajar">
+									Sudah Verifikasi
+								</span>
+							</td>
+							<td class="text-center">
+								<a href="<?= base_url('bookingpembelian/detailbooking/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Cek Transaksi">
+									<i class="la la-money-check-alt text-primary"></i>
+								</a>
+								<a href="<?= base_url('kelola_pembelajar/detail_pembelajar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Detail Pembelajar">
+									<i class="la la-edit text-warning"></i>
+								</a>
+								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
 									<i class="la la-trash text-danger"></i>
 								</button>
 							</td>
@@ -112,7 +143,8 @@
 
 
 
-<script src="<?= asset("admin/customjs/master/pengajar/kelola-pengajar.js") ?>"></script>
+
+<script src="<?= asset("admin/customjs/master/pembelajar/kelola-pembelajar.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

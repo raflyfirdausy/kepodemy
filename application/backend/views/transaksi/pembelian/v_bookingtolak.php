@@ -88,7 +88,7 @@
 								<a href="<?= base_url('bookingpembelian/detailbooking/1') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Details">
 									<i class="la la-edit text-success"></i>
 								</a>
-								<!-- <button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Delete">
+								<!-- <button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Hapus data">
 									<i class="la la-trash text-danger"></i>
 								</button> -->
 							</td>

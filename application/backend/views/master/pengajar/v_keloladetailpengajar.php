@@ -147,7 +147,7 @@
 					<!--begin::Tab Content-->
 					<div class="tab-pane active" id="tab-personal" role="tabpanel">
 						<!--begin::Form-->
-						<form class="form">
+						<form class="form" id="form-update-pengajar" method="POST">
 							<!--begin::Body-->
 							<div class="card-body">
 								<div class="form-group row">
@@ -179,7 +179,7 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nama</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" value="M. I. Zulkifli M."/>
+										<input class="form-control form-control-lg" type="text" name="nama" value="M. I. Zulkifli M."/>
 									</div>
 								</div>
 								<div class="form-group row">
@@ -194,13 +194,13 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Jabatan / Fungsi Pekerjaan</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" value="Instruktur"/>
+										<input class="form-control form-control-lg" type="text" name="jabatan" value="Instruktur"/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
 									<div class="col-lg-9 col-xl-6">
-										<textarea  class="form-control form-control-lg" rows="2">Instruktur Pemrograman Game</textarea>
+										<textarea  class="form-control form-control-lg" name="deskripsi" rows="2">Instruktur Pemrograman Game</textarea>
 									</div>
 								</div>
 								<div class="form-group row">
@@ -222,7 +222,7 @@
 									<div class="col-lg-9 col-xl-6">
 										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-											<input type="text" class="form-control form-control-lg" value="087812347788" placeholder="Phone"/>
+											<input type="text" class="form-control form-control-lg valid-number" name="nohp" value="087812347788" />
 										</div>
 									</div>
 								</div>
@@ -231,7 +231,7 @@
 									<div class="col-lg-9 col-xl-6">
 										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-at"></i></span></div>
-											<input type="text" class="form-control form-control-lg" value="akunpaten27@gmail.com" placeholder="Email"/>
+											<input type="text" class="form-control form-control-lg" value="akunpaten27@gmail.com" name="email" />
 										</div>
 									</div>
 								</div>
@@ -286,10 +286,10 @@
 											<td>Informatika</td>
 											<td>Teknik Informatika Programming</td>
 											<td class="text-center">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan" title="Edit">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan" data-id="1" title="Edit">
 													<i class="la la-edit"></i>
 												</button>
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" data-id="1" title="Hapus">
 													<i class="la la-trash-o"></i>
 												</button>
 											</td>
@@ -337,10 +337,10 @@
 											<td>Web Developer</td>
 											<td>Web Programming Technical</td>
 											<td class="text-center">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan" title="Edit">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan" data-id="1" title="Edit">
 													<i class="la la-edit"></i>
 												</button>
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" title="Hapus">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" data-id="1" title="Hapus">
 													<i class="la la-trash-o"></i>
 												</button>
 											</td>
@@ -366,6 +366,10 @@
 											<span class="dropzone-msg-desc">Upload up to 10 files</span>
 										</div>
 									</div>
+									<!-- <form method="post" action="<?= base_url('kelola_pengajar/upload_file'); ?>" enctype="multipart/form-data" class="dropzone dropzone-default dropzone-primary" id="dropzone_lampiran"> -->
+											<!-- <h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
+											<span class="dropzone-msg-desc">Upload up to 10 files</span> -->
+									<!-- </form> -->
 								</div>
 							</div>
 							<div class="table-responsive">
@@ -383,7 +387,7 @@
 											</td>
 											
 											<td class="text-center">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-lampiran" title="Hapus">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-lampiran" data-id="1" title="Hapus">
 													<i class="la la-trash-o"></i>
 												</button>
 											</td>
@@ -413,7 +417,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Tambah Pekerjaan</h5>
+                <h5 class="modal-title" id="labelPekerjaanModal">Tambah Pekerjaan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
@@ -424,23 +428,23 @@
 					<input type="hidden" name="idPekerjaan" id="id-pekerjaan" value="">
 					<div class="form-group row">
 						<label>Nama Perusahaan</label>
-						<input type="text" name="NamaPerusahaan" class="form-control" placeholder="Nama perusahaan" />
+						<input type="text" name="NamaPerusahaan" id="nama-perusahaan" class="form-control" placeholder="Nama perusahaan" />
 					</div>
 					<div class="form-group row">
 						<label>Waktu Masuk</label>
-						<input type="number" name="waktuMasuk" class="form-control" placeholder="Tahun masuk kerja" />
+						<input type="number" name="waktuMasuk" id="waktu-masuk-kerja" class="form-control" placeholder="Tahun masuk kerja" />
 					</div>
 					<div class="form-group row">
 						<label>Waktu Keluar</label>
-						<input type="number" name="waktuKeluar" class="form-control" placeholder="Tahun keluar kerja" />
+						<input type="number" name="waktuKeluar" id="waktu-keluar-kerja" class="form-control" placeholder="Tahun keluar kerja" />
 					</div>
 					<div class="form-group row">
 						<label>Nama Perusahaan</label>
-						<input type="text" name="Posisi" class="form-control" placeholder="Posisi Pekerjaan" />
+						<input type="text" name="Posisi" id="posisi-kerja" class="form-control" placeholder="Posisi Pekerjaan" />
 					</div>
 					<div class="form-group row">
 						<label>Keterangan</label>
-						<textarea name="KeteranganPekerjaan" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
+						<textarea name="KeteranganPekerjaan" id="keterangan-kerja" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
 					</div>
 				</div>
 					
@@ -459,7 +463,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Tambah Pendidikan</h5>
+                <h5 class="modal-title" id="labelPendidikanModal">Tambah Pendidikan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
@@ -467,26 +471,26 @@
 			<form id="form-pendidikan" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="idPekerjaan" id="id-pekerjaan" value="">
+					<input type="hidden" name="idPendidikan" id="id-pendidikan" value="">
 					<div class="form-group row">
 						<label>Nama Pendidikan</label>
-						<input type="text" name="NamaPendidikan" class="form-control" placeholder="Nama Pendidikan" />
+						<input type="text" name="NamaPendidikan" id="nama-pendidikan" class="form-control" placeholder="Nama Pendidikan" />
 					</div>
 					<div class="form-group row">
 						<label>Waktu Masuk</label>
-						<input type="number" name="waktuMasuk" class="form-control" placeholder="Tahun masuk" />
+						<input type="number" name="waktuMasuk" id="waktu-keluar-pendidikan" class="form-control" placeholder="Tahun masuk" />
 					</div>
 					<div class="form-group row">
 						<label>Waktu Keluar</label>
-						<input type="number" name="waktuKeluar" class="form-control" placeholder="Tahun keluar" />
+						<input type="number" name="waktuKeluar" id="waktu-masuk-pendidikan" class="form-control" placeholder="Tahun keluar" />
 					</div>
 					<div class="form-group row">
 						<label>Jurusan</label>
-						<input type="text" name="Jurusan" class="form-control" placeholder="Jurusan" />
+						<input type="text" name="Jurusan" id="jurusan-pendidikan" class="form-control" placeholder="Jurusan" />
 					</div>
 					<div class="form-group row">
 						<label>Keterangan</label>
-						<textarea name="KeteranganPendidikan" class="form-control" placeholder="Keterangan Pendidikan" rows="3"></textarea>
+						<textarea name="KeteranganPendidikan" id="keterangan-pendidikan" class="form-control" placeholder="Keterangan Pendidikan" rows="3"></textarea>
 					</div>
 				</div>
 					

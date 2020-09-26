@@ -31,7 +31,7 @@
 				Kembali
 			</a>
 			<button type="reset" class="btn btn-danger mr-2">Reset</button>
-			<button type="button" class="btn btn-success btn-simpan-pengajar">Simpan</button>
+			<button type="submit" class="btn btn-success btn-simpan-pengajar">Simpan</button>
 			<!--end::Actions-->
 		</div>
 
@@ -106,11 +106,11 @@
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Deskripsi</label>
-							<input type="text" class="form-control" name="deskripsi" id="deskripsi-pengajar" placeholder="Masukkan nama" required/>
+							<input type="text" class="form-control" name="deskripsi" id="deskripsi-pengajar" placeholder="Masukkan deskripsi" required/>
 						</div>
 						<div class="col-lg-6">
 							<label>Jabatan / Fungsi Pekerjaan</label>
-							<input type="text" class="form-control" name="jabatan" id="jabatan-pengajar" placeholder="Masukkan nama" required/>
+							<input type="text" class="form-control" name="jabatan" id="jabatan-pengajar" placeholder="Masukkan jabatan atau fungsi pekerejaan" required/>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -254,5 +254,6 @@
 
 <script src="<?= asset("admin/customjs/master/pengajar/kelola-pengajar.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
+
 
 
