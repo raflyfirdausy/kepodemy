@@ -99,7 +99,7 @@
 
 
 
-<script src="<?= asset("admin/customjs/pengajar/pengajar-terima.js") ?>"></script>
+<script src="<?= asset("admin/customjs/pendaftaran-pengajar/pengajar-terima.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

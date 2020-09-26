@@ -392,7 +392,7 @@
 
 
 
-<script src="<?= asset("admin/customjs/pengajar/detail-pengajar.js") ?>"></script>
+<script src="<?= asset("admin/customjs/pendaftaran-pengajar/detail-pengajar.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

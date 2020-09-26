@@ -185,7 +185,7 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Kategori Pengajar</label>
 									<div class="col-lg-9 col-xl-6">
-										<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" required>
+										<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" multiple="multiple" required>
 											<option value="Web Programming">Web Programming</option>
 											<option value="Web Programming" selected>Mobile Programming</option>
 										</select>

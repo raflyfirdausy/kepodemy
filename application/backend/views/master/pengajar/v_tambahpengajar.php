@@ -55,7 +55,7 @@
 			
 			<div class="card-body">
 				<div class="col-md-12">
-				<div class="form-group row">
+					<div class="form-group row">
 						<div class="col-lg-6">
 							<!-- <label>Foto Pengajar</label> -->
 							<div class="image-input image-input-empty image-input-outline" id="kt_user_edit_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
@@ -116,7 +116,7 @@
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Kategori</label>
-							<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" required>
+							<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" multiple="multiple" required>
 								<option value=""></option>
 								<option value="Web Programming">Web Programming</option>
 								<option value="Web Programming">Mobile Programming</option>

@@ -294,7 +294,6 @@ $(document).ready(function(){
 					// timer: 2000,
 					onBeforeOpen: () => {
 						Swal.showLoading();
-						Swal.close();
 						//START AJAX
 						$.ajax({
 							type: "POST", // Method pengiriman data bisa dengan GET atau POST
@@ -305,6 +304,7 @@ $(document).ready(function(){
 							dataType: "json",
 							success: function (data) { // Ketika proses pengiriman berhasil
 								if (data.response_code == 200) {
+									Swal.close();
 									Swal.fire('Deleted', data.response_message, 'success').then((result) => {
 										row.remove();
 									})

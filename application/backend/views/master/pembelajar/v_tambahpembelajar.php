@@ -54,7 +54,7 @@
 			
 			<div class="card-body">
 				<div class="col-md-12">
-				<div class="form-group row">
+					<div class="form-group row">
 						<div class="col-lg-6">
 							<!-- <label>Foto Pembelajar</label> -->
 							<div class="image-input image-input-empty image-input-outline" id="kt_user_edit_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
@@ -104,19 +104,19 @@
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
-							<label>Kategori</label>
-							<select class="form-control" id="select-kategori" name="KategoriPembelajar" style="width:100%" required>
-								<option value=""></option>
-								<option value="Web Programming">Web Programming</option>
-								<option value="Web Programming">Mobile Programming</option>
-							</select>
-						</div>
-						<div class="col-lg-6">
 							<label>Kelas</label>
 							<select class="form-control" id="select-kelas" name="kelas" style="width:100%" required>
 								<option value=""></option>
-								<option value="TI16E">TI16E</option>
-								<option value="TI16F">TI16F</option>
+								<option value="Kelas Web">Kelas Web</option>
+								<option value="Kelas Mobile">Kelas Mobile</option>
+							</select>
+						</div>
+						<div class="col-lg-6">
+							<label>Nama Pengajar<span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-pengajar" name="pengajar" style="width:100%" required>
+								<option value=""></option>
+								<option value="Rafly Firdausy Irawan">Rafly Firdausy Irawan</option>
+								<option value="Zulkifli">Zulkifli</option>
 							</select>
 						</div>
 					</div>

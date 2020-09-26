@@ -5,7 +5,7 @@
 		<div class="d-flex align-items-center flex-wrap mr-2">
 
 			<!--begin::Page Title-->
-			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kategori</h5>
+			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelas</h5>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -14,7 +14,7 @@
 					<a href="javascript:;" class="text-muted">Master</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Kategori</a>
+					<a href="javascript:;" class="text-muted">Kelas</a>
 				</li>
 			</ul>
 			<!--end::Breadcrumb-->
@@ -22,7 +22,7 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
-			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-kategori">
+			<a href="<?= base_url("kelas/tambah_data") ?>" type="button" class="btn btn-success font-weight-bolder font-size-sm">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -33,7 +33,7 @@
 				</svg><!--end::Svg Icon-->
 			</span>
 				Tambah Data
-			</button>
+			</a>
 			<!--end::Actions-->
 		</div>
 	</div>
@@ -50,19 +50,21 @@
 			<div class="card-header">
 				<div class="col-md-8 m-0 p-0">
 					<div class="mt-8">
-						<h3 class="card-label">Kelola Kategori</h3>
+						<h3 class="card-label">Kelola Kelas</h3>
 					</div>
 				</div>
 			</div>
 			<div class="card-body">
 				<!--begin: Datatable-->
-				<table class="table table-bordered table-hover table-checkable" id="table-kategori" style="margin-top: 13px !important">
+				<table class="table table-bordered table-hover table-checkable" id="table-kelas" style="margin-top: 13px !important">
 					<thead>
 						<tr>
 							<th class="text-center" style="width: 5%">No</th>
-							<th style="width: 35%">Nama Kategori</th>
-							<th style="width: 25%">Jumlah Subkategori</th>
-							<th style="width: 20%">Terakhir diubah</th>
+							<th style="width: 20%">Judul</th>
+							<th style="width: 20%">Kategori</th>
+							<th style="width: 10%">Harga</th>
+							<th style="width: 15%">Pengajar</th>
+							<th style="width: 15%">Waktu Pembelajaran</th>
 							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>
@@ -70,15 +72,14 @@
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
-							<td><span class="txt-kategori">Web</span></td>
-							<td>2</td>
-							<td>26-09-2020</td>
+							<td><span class="txt-kelas">Kelas Programming</span></td>
+							<td>Web</td>
+							<td class="text-right">RP. 150.000</td>
+							<td>Rafly Firadusy Irawan</td>
+							<td>26-09-2020 13:00</td>
 							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-edit-kategori" data-id="2" title="Edit">
+								<a href="<?= base_url("kelas/edit_data") ?>" type="button" class="btn btn-sm btn-clean btn-icon btn-edit-kelas" data-id="2" title="Edit">
 									<i class="la la-edit text-warning"></i>
-								</button>
-								<a href="<?= base_url('kategori/detail/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Subkategori">
-									<i class="la la-list-ul text-success"></i>
 								</a>
 								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
 									<i class="la la-trash text-danger"></i>
@@ -99,22 +100,22 @@
 
 
 <!-- Modal-->
-<div class="modal fade" id="kategoriModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
+<div class="modal fade" id="kelasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="labelKategoriModal">Tambah Kategori</h5>
+                <h5 class="modal-title" id="labelKelasModal">Tambah Kelas</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
-			<form id="form-kategori" method="POST">
+			<form id="form-kelas" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="idKategori" id="id-kategori" value="">
+					<input type="hidden" name="idKelas" id="id-kelas" value="">
 					<div class="form-group row">
-						<label>Nama Kategori</label>
-						<input type="text" name="namaKategori" id="nama-kategori" class="form-control" placeholder="Nama kategori" required/>
+						<label>Nama Kelas</label>
+						<input type="text" name="namaKelas" id="nama-kelas" class="form-control" placeholder="Nama kelas" required/>
 					</div>
 				</div>
 					
@@ -129,7 +130,7 @@
 </div>
 
 
-<script src="<?= asset("admin/customjs/master/kategori/kelola-kategori.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/kelas/kelola-kelas.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

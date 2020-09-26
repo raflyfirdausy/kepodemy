@@ -103,7 +103,7 @@
                     <span class="menu-text">Kelola Pembelajar</span></a>
 				</li>
 				<li class="menu-item" aria-haspopup="true">
-                    <a href="<?= base_url('beranda') ?>" class="menu-link "><span class="svg-icon menu-icon">
+                    <a href="<?= base_url('kategori') ?>" class="menu-link "><span class="svg-icon menu-icon">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -116,7 +116,7 @@
                     <span class="menu-text">Kategori</span></a>
 				</li>
 				<li class="menu-item" aria-haspopup="true">
-                    <a href="<?= base_url('beranda') ?>" class="menu-link "><span class="svg-icon menu-icon">
+                    <a href="<?= base_url('kelas') ?>" class="menu-link "><span class="svg-icon menu-icon">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

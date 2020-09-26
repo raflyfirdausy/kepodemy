@@ -99,7 +99,7 @@
 
 
 
-<script src="<?= asset("admin/customjs/pengajar/pengajar-tolak.js") ?>"></script>
+<script src="<?= asset("admin/customjs/pendaftaran-pengajar/pengajar-tolak.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

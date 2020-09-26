@@ -147,6 +147,7 @@ $(document).ready( function() {
 						// 	dataType: "json",
 						// 	success: function (data) { // Ketika proses pengiriman berhasil
 						// 		if (data.response_code == 200) {
+							// Swal.close();
 						// 			Swal.fire('Deleted', data.response_message, 'success').then((result) => {
 						// 				row.remove();
 						// 			})

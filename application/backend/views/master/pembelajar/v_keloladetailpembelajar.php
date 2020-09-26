@@ -122,21 +122,22 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Kategori Pembelajar</label>
-									<div class="col-lg-9 col-xl-6">
-										<select class="form-control" id="select-kategori" name="KategoriPembelajar" style="width:100%" required>
-											<option value="Web Programming">Web Programming</option>
-											<option value="Web Programming" selected>Mobile Programming</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Kelas</label>
 									<div class="col-lg-9 col-xl-6">
 										<select class="form-control" id="select-kelas" name="kelas" style="width:100%" required>
 											<option value=""></option>
-											<option value="TI16E" selected>TI16E</option>
-											<option value="TI16F">TI16F</option>
+											<option value="Kelas Web" selected>Kelas Web</option>
+											<option value="Kelas Mobile">Kelas Mobile</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-xl-3 col-lg-3 col-form-label">Pengajar</label>
+									<div class="col-lg-9 col-xl-6">
+										<select class="form-control select2" id="select-pengajar" name="pengajar" style="width:100%" required>
+											<option value=""></option>
+											<option value="Rafly Firdausy Irawan">Rafly Firdausy Irawan</option>
+											<option value="Zulkifli" selected>Zulkifli</option>
 										</select>
 									</div>
 								</div>

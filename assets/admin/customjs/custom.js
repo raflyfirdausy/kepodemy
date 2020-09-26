@@ -29,6 +29,36 @@ $('.btn-lihat-password').on("click", function(){
 });
 
 $(document).ready(function(){
+
+	var arrows;
+	arrows = {
+		rightArrow: '<i class="la la-angle-right"></i>',
+		leftArrow: '<i class="la la-angle-left"></i>'
+	}
+
+	$('.datepicker').datepicker({
+		format: 'dd-mm-yyyy',
+		// todayHighlight: true,
+		orientation: "bottom left",
+		templates: arrows,
+		autoclose: true
+	}).datepicker('setDate', 'today');
+
+	$('.timepicker').timepicker({
+		minuteStep: 5,
+		showInputs: false,
+		showSeconds: false,
+		showMeridian: false,
+	});
+
+	$('.btn-icon-date').on("click", function(){
+		$('.datepicker').datepicker('show');
+	})
+
+	$('.btn-icon-time').on("click", function(){
+		$('.timepicker').timepicker().focus();
+	})
+
 	$('#select-kelas').select2({
 		placeholder: "Pilih Kelas"
 	});
@@ -43,6 +73,10 @@ $(document).ready(function(){
 	
 	$('#select-kelamin').select2({
 		placeholder: "Pilih Jenis Kelamin"
+	});
+
+	$('#select-pengajar').select2({
+		placeholder: "Pilih pengajar"
 	});
 });
 

@@ -282,6 +282,9 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- <script src="<?= asset("admin/js/pages/crud/file-upload/dropzonejs.js") ?>"></script> -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.0/dropzone.js"></script> -->
 	<script src="<?= asset("admin/js/pages/features/miscellaneous/toastr.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datetimepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-timepicker.js") ?>"></script>
 
 	<script>
 	$(function() {
