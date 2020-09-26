@@ -53,7 +53,6 @@
 						<h3 class="card-label">Kelola Kategori</h3>
 					</div>
 				</div>
-			
 			</div>
 			<div class="card-body">
 				<!--begin: Datatable-->
