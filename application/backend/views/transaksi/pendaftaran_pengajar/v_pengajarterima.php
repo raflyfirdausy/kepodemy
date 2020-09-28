@@ -80,7 +80,7 @@
 								<a href="<?= base_url('pengajar/detailpendaftar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Details">
 									<i class="la la-edit text-success"></i>
 								</a>
-								<!-- <button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Delete">
+								<!-- <button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Hapus data">
 									<i class="la la-trash text-danger"></i>
 								</button> -->
 							</td>
@@ -99,7 +99,7 @@
 
 
 
-<script src="<?= asset("admin/customjs/pengajar/pengajar-terima.js") ?>"></script>
+<script src="<?= asset("admin/customjs/pendaftaran-pengajar/pengajar-terima.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 
