@@ -115,18 +115,42 @@
                     <!--end::Svg Icon--></span>
                     <span class="menu-text">Kategori</span></a>
 				</li>
-				<li class="menu-item" aria-haspopup="true">
-                    <a href="<?= base_url('kelas') ?>" class="menu-link "><span class="svg-icon menu-icon">
-                    <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-							<polygon points="0 0 24 0 24 24 0 24"/>
-							<path d="M4.85714286,1 L11.7364114,1 C12.0910962,1 12.4343066,1.12568431 12.7051108,1.35473959 L17.4686994,5.3839416 C17.8056532,5.66894833 18,6.08787823 18,6.52920201 L18,19.0833333 C18,20.8738751 17.9795521,21 16.1428571,21 L4.85714286,21 C3.02044787,21 3,20.8738751 3,19.0833333 L3,2.91666667 C3,1.12612489 3.02044787,1 4.85714286,1 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-							<path d="M6.85714286,3 L14.7364114,3 C15.0910962,3 15.4343066,3.12568431 15.7051108,3.35473959 L20.4686994,7.3839416 C20.8056532,7.66894833 21,8.08787823 21,8.52920201 L21,21.0833333 C21,22.8738751 20.9795521,23 19.1428571,23 L6.85714286,23 C5.02044787,23 5,22.8738751 5,21.0833333 L5,4.91666667 C5,3.12612489 5.02044787,3 6.85714286,3 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z" fill="#000000" fill-rule="nonzero"/>
-						</g>
-                    </svg>
-                    <!--end::Svg Icon--></span>
-                    <span class="menu-text">Kelas</span></a>
+				<li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+					<a href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon">
+							<!--begin::Svg Icon | path:assets/media/svg/icons/Design/Bucket.svg-->
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+								<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<rect x="0" y="0" width="24" height="24"/>
+									<path d="M12,4.56204994 L7.76822128,9.6401844 C7.4146572,10.0644613 6.7840925,10.1217854 6.3598156,9.76822128 C5.9355387,9.4146572 5.87821464,8.7840925 6.23177872,8.3598156 L11.2317787,2.3598156 C11.6315738,1.88006147 12.3684262,1.88006147 12.7682213,2.3598156 L17.7682213,8.3598156 C18.1217854,8.7840925 18.0644613,9.4146572 17.6401844,9.76822128 C17.2159075,10.1217854 16.5853428,10.0644613 16.2317787,9.6401844 L12,4.56204994 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
+									<path d="M3.5,9 L20.5,9 C21.0522847,9 21.5,9.44771525 21.5,10 C21.5,10.132026 21.4738562,10.2627452 21.4230769,10.3846154 L17.7692308,19.1538462 C17.3034221,20.271787 16.2111026,21 15,21 L9,21 C7.78889745,21 6.6965779,20.271787 6.23076923,19.1538462 L2.57692308,10.3846154 C2.36450587,9.87481408 2.60558331,9.28934029 3.11538462,9.07692308 C3.23725479,9.02614384 3.36797398,9 3.5,9 Z M12,17 C13.1045695,17 14,16.1045695 14,15 C14,13.8954305 13.1045695,13 12,13 C10.8954305,13 10,13.8954305 10,15 C10,16.1045695 10.8954305,17 12,17 Z" fill="#000000"/>
+								</g>
+							</svg>
+							<!--end::Svg Icon-->
+						</span>
+						<span class="menu-text">Produk</span><i class="menu-arrow"></i>
+					</a>
+					<div class="menu-submenu ">
+						<i class="menu-arrow"></i>
+						<ul class="menu-subnav">
+							<li class="menu-item menu-item-parent" aria-haspopup="true">
+								<span class="menu-link">
+									<span class="menu-text">Produk</span>
+								</span>
+							</li>
+							<li class="menu-item" aria-haspopup="true">
+								<a href="<?= base_url('kelas') ?>" class="menu-link ">
+									<i class="menu-bullet menu-bullet-dot"><span></span></i>
+									<span class="menu-text">Kelas</span>
+								</a>
+							</li>
+							<li class="menu-item" aria-haspopup="true">
+								<a href="<?= base_url('merchandise') ?>" class="menu-link ">
+									<i class="menu-bullet menu-bullet-dot"><span></span></i>
+									<span class="menu-text">Merchandise</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</li>
 				<!-- END MENU MASTER -->
 
@@ -255,7 +279,7 @@
 					<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
 				</li>
 				<li class="menu-item" aria-haspopup="true">
-                    <a href="<?= base_url('beranda') ?>" class="menu-link "><span class="svg-icon menu-icon">
+                    <a href="<?= base_url('pengurus') ?>" class="menu-link "><span class="svg-icon menu-icon">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -268,7 +292,7 @@
                     <span class="menu-text">Pengurus KEPODEMY</span></a>
 				</li>
 				<li class="menu-item" aria-haspopup="true">
-                    <a href="<?= base_url('beranda') ?>" class="menu-link "><span class="svg-icon menu-icon">
+                    <a href="<?= base_url('slider') ?>" class="menu-link "><span class="svg-icon menu-icon">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -281,7 +305,7 @@
                     <span class="menu-text">Slider</span></a>
 				</li>
 				<li class="menu-item" aria-haspopup="true">
-                    <a href="<?= base_url('beranda') ?>" class="menu-link "><span class="svg-icon menu-icon">
+                    <a href="<?= base_url('testimoni') ?>" class="menu-link "><span class="svg-icon menu-icon">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

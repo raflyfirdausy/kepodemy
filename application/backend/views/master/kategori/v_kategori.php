@@ -60,31 +60,15 @@
 					<thead>
 						<tr>
 							<th class="text-center" style="width: 5%">No</th>
-							<th style="width: 35%">Nama Kategori</th>
+							<th style="width: 25%">Nama Kategori</th>
+							<th style="width: 30%">Keterangan</th>
 							<th style="width: 25%">Jumlah Subkategori</th>
-							<th style="width: 20%">Terakhir diubah</th>
 							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td><span class="txt-kategori">Web</span></td>
-							<td>2</td>
-							<td>26-09-2020</td>
-							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-edit-kategori" data-id="2" title="Edit">
-									<i class="la la-edit text-warning"></i>
-								</button>
-								<a href="<?= base_url('kategori/detail/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Subkategori">
-									<i class="la la-list-ul text-success"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-kategori">
+					
 					</tbody>
 
 				</table>
@@ -111,10 +95,15 @@
 			<form id="form-kategori" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="idKategori" id="id-kategori" value="">
+					<input type="hidden" name="id" id="id-kategori" value="">
+					<input type="hidden" name="id_induk" id="id-induk-kategori" value="">
 					<div class="form-group row">
 						<label>Nama Kategori</label>
-						<input type="text" name="namaKategori" id="nama-kategori" class="form-control" placeholder="Nama kategori" required/>
+						<input type="text" name="nama" id="nama-kategori" class="form-control" placeholder="Nama kategori" required/>
+					</div>
+					<div class="form-group row">
+						<label>Keterangan</label>
+						<textarea name="keterangan" id="keterangan-kategori" class="form-control" placeholder="Keterangan" rows="3"></textarea>
 					</div>
 				</div>
 					

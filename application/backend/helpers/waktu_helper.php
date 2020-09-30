@@ -403,3 +403,19 @@ if (!function_exists('triwulan')) {
         }
     }
 }
+
+if (!function_exists('just_date')) {
+    function just_date($tanggal)
+    {
+        $newDate = date("d-m-Y", strtotime($tanggal));
+        return $newDate;
+    }
+}
+
+if (!function_exists('just_time')) {
+    function just_time($tanggal)
+    {
+        $newDate = date("H:i", strtotime($tanggal));
+        return $newDate;
+    }
+}

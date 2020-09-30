@@ -15,6 +15,9 @@
 					<a href="javascript:;" class="text-muted">Master</a>
 				</li>
 				<li class="breadcrumb-item">
+					<a href="javascript:;" class="text-muted">Produk</a>
+				</li>
+				<li class="breadcrumb-item">
 					<a href="javascript:;" class="text-muted">Kelas</a>
 				</li>
 				<li class="breadcrumb-item">

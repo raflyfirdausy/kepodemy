@@ -1,11 +1,10 @@
 
 $(document).ready( function() { 
-	$('#table-kategori').dataTable({
-		"responsive": true,
-	});
+	
 	$('#table-subkategori').dataTable({
 		"responsive": true,
 	});
+	getTable();
 
 	$('.btn-add-kategori').on("click", function(){
 		$("#kategoriModal").modal("show");
@@ -31,7 +30,9 @@ $(document).ready( function() {
 		$("#id-kategori").val(id);
 		
 		var getKategori = $(this).closest("tr").find('.txt-kategori').text();
+		var getKeterangan = $(this).closest("tr").find('.txt-keterangan').text();
 		$("#nama-kategori").val(getKategori);
+		$("#keterangan-kategori").val(getKeterangan);
 
 
 		$("#kategoriModal").modal("show");
@@ -112,50 +113,45 @@ $(document).ready( function() {
 		});
 	})
 
-	function getTable(date) {
+	function getTable() {
 		Swal.fire({
 			title: 'Harap menunggu',
 			text: 'Sedang memproses',
 			// timer: 2000,
 			onBeforeOpen: () => {
 				Swal.showLoading();
-				Swal.close();
-				Swal.fire("Berhasil", "Data berhasil diload", "success");
-				$('#table-kategori').dataTable({
-					"responsive": true,
+				
+				$.ajax({
+					type: "POST", // Method pengiriman data bisa dengan GET atau POST
+					url: base_url + 'kategori/get_all_data', // Isi dengan url/path file php yang dituju
+					dataType: 'JSON',
+					success: function (data) { // Ketika proses pengiriman berhasil
+						// var data = JSON.parse(data);
+						console.log(data.output);
+						Swal.close();
+						$("#body-kategori").html("");
+						$("#body-kategori").append(data.output);
+						
+						
+						$('#table-kategori').dataTable({
+							"paging": true,
+							"lengthChange": true,
+							"searching": true,
+							"ordering": true,
+							"info": true,
+							"autoWidth": false,
+							"responsive": true,
+							"orderCellsTop": true,
+							"fixedHeader": true,
+						});
+	
+					},
+					error: function (xhr, ajaxOptions, thrownError) { // Ketika ada error
+						Swal.close();
+						// Swal.fire("Oops", "Something went wrong", "error");
+						Swal.fire("Oops", xhr.responseText, "error");
+					}
 				});
-				// $.ajax({
-				// 	type: "POST", // Method pengiriman data bisa dengan GET atau POST
-				// 	url: "/service-order/get-data-by-date", // Isi dengan url/path file php yang dituju
-				// 	data: {
-				// 		'filter_date': date
-				// 	},
-				// 	dataType: "JSON",
-				// 	success: function (data) { // Ketika proses pengiriman berhasil
-				// 		console.log(data.output);
-				// 		Swal.close();
-				// 		$("#general-body").html("");
-				// 		$("#general-body").append(data.output);
-
-				// 		$('#tabel-general').dataTable({
-				// 			"paging": true,
-				// 			"lengthChange": true,
-				// 			"searching": true,
-				// 			"ordering": true,
-				// 			"info": true,
-				// 			"autoWidth": false,
-				// 			"responsive": false,
-				// 			"orderCellsTop": true,
-				// 			"fixedHeader": true,
-				// 		});
-
-
-				// 	},
-				// 	error: function (xhr, ajaxOptions, thrownError) { // Ketika ada error
-				// 		Swal.close();
-				// 		Swal.fire("Oops", "Something went wrong", "error");
-				// 	}
-				// });
 			}
 		});
 	}
@@ -186,7 +182,10 @@ $(document).ready( function() {
 						if (data.response_code == 200) {
 							Swal.close();
 							Swal.fire("Done", data.response_message, "success");
-							$("#kategoriModal").modal("show");
+							$("#kategoriModal").modal("hide");
+							$('#table-kategori').DataTable().clear();
+							$('#table-kategori').DataTable().destroy();
+							getTable();
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");

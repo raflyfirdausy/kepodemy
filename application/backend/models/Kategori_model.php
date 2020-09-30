@@ -1,8 +1,8 @@
 <?php
 
-class Admin_model extends Custom_model
+class Kategori_model extends Custom_model
 {
-    public $table           = 'admin';
+    public $table           = 'kategori';
     public $primary_key     = 'id';
     public $soft_deletes    = TRUE;
     public $timestamps      = TRUE;
@@ -16,6 +16,12 @@ class Admin_model extends Custom_model
 	public function get_all_data()
 	{
 		$qry = $this->order_by("created_at", "DESC")->get_all() ? : [];
+		return $qry ;
+	}
+
+	public function get_jumah_sub($idInduk)
+	{
+		$qry = $this->where(['id_induk' => $idInduk])->count_rows();
 		return $qry;
 	}
 

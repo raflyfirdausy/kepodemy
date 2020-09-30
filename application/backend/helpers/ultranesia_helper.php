@@ -287,9 +287,15 @@ if (!function_exists('Level')) {
     function Level()
     {
         return array(
-            ("Admin"),
-            ("Super Admin"),       
-        );
+            [
+                "id_level" => 1,
+                "level" =>"Super Admin"
+            ],
+            [
+                "id_level" => 2,
+                "level" =>"Admin"
+            ],
+		);
     }
 }
 
@@ -297,9 +303,14 @@ if (!function_exists('Gender')) {
     function Gender()
     {
         return array(
-            ("Laki-laki"),
-            ("Perempuan"),       
-            ("Lainnya"),       
-        );
+            [
+                "id_jk" => 1,
+                "jk" =>"Laki-laki"
+            ],
+            [
+                "id_jk" => 2,
+                "jk" =>"Perempuan"
+            ],
+		);
     }
 }

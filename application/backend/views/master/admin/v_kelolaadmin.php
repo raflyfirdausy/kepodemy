@@ -69,23 +69,8 @@
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td>Rafly Firdausy Irawan</td>
-							<td>rafly@gmail.com</td>
-							<td>Admin</td>
-							<td>laki-laki</td>
-							<td>24-09-2020</td>
-							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-edit-data" title="Details" data-id="1">
-									<i class="la la-edit text-success"></i>
-								</button>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-admin">
+						
 					</tbody>
 
 				</table>
@@ -112,7 +97,45 @@
 			<form id="form-add-admin" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" class="form-control" name="id_admin" id="id-admin"/>
+					<input type="hidden" class="form-control" name="id" id="id-admin"/>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Nama <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="nama" id="nama-admin" placeholder="Masukkan nama" required/>
+						</div>
+						<div class="col-lg-6">
+							<label>Jenis Kelamin <span class="text-danger">*</span></label>
+							<select class="form-control" id="select-kelamin" name="jenis_kelamin" style="width:100%" required>
+								<option value=""></option>
+								<option value="1">Laki-laki</option>
+								<option value="2">Perempuan</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Level <span class="text-danger">*</span></label>
+							<select class="form-control" id="select-level" name="level" style="width:100%" required>
+								<option value=""></option>
+								<option value="1">Super Admin</option>
+								<option value="2">Admin</option>
+							</select>
+						</div>
+						<div class="col-lg-6">
+							<label>No. Hp <span class="text-danger">*</span></label>
+							<input type="text" class="form-control valid-number" id="nohp-admin" name="no_hp" placeholder="Masukkan Nomor Handphone" required/>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Alamat <span class="text-danger">*</span></label>
+							<textarea name="alamat" class="form-control" id="alamat-admin" rows="5" placeholder="Alamat rumah" required></textarea>
+						</div>
+						<div class="col-lg-6">
+							<label>Keterangan</label>
+							<textarea name="keterangan" class="form-control" id="keterangan-admin" rows="5" placeholder="Keterangan"></textarea>
+						</div>
+					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Email address <span class="text-danger">*</span></label>
@@ -126,48 +149,25 @@
 									<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
 								</div>
 							</div>
+							<span class="form-text text-muted txt-edit-password" style="display:none;">Kosongkan jika tidak ingin mengubah password</span>
 						</div>
 					</div>
-					<div class="form-group row">
+					<div class="form-group row div-retype">
 						<div class="col-lg-6">
-							<label>Nama <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="nama" id="nama-admin" placeholder="Masukkan nama" required/>
+							
 						</div>
 						<div class="col-lg-6">
-							<label>Jenis Kelamin <span class="text-danger">*</span></label>
-							<select class="form-control" id="select-kelamin" name="JenisKelamin" style="width:100%" required>
-								<option value=""></option>
-								<?php foreach (Gender() as $gender) : ?>
-									<option value="<?= $gender ?>"><?= $gender; ?></option>
-								<?php endforeach; ?>
-							</select>
-						</div>
-					</div>
-					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Level <span class="text-danger">*</span></label>
-							<select class="form-control" id="select-level" name="level" style="width:100%" required>
-								<option value=""></option>
-								<?php foreach (Level() as $level) : ?>
-									<option value="<?= $level ?>"><?= $level; ?></option>
-								<?php endforeach; ?>
-							</select>
-						</div>
-						<div class="col-lg-6">
-							<label>No. Hp <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" id="nohp-admin" name="nohp" placeholder="Masukkan Nomor Handphone" required/>
+							<label for="exampleInputPassword1">Retype Password <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<input type="password" class="form-control password" id="password-retype-admin" name="passwordConfirm" placeholder="Retype Password" required/>
+								<div class="input-group-append">
+									<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Alamat <span class="text-danger">*</span></label>
-							<textarea name="Alamat" class="form-control" id="alamat-admin" rows="5" placeholder="Alamat rumah" required></textarea>
-						</div>
-						<div class="col-lg-6">
-							<label>Keterangan</label>
-							<textarea name="Keterangan" class="form-control" id="keterangan-admin" rows="5" placeholder="Keterangan"></textarea>
-						</div>
-					</div>
+					
+					
 				</div>
 					
 			</div>
@@ -184,6 +184,11 @@
 
 <script src="<?= asset("admin/customjs/master/admin/kelola-admin.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
+<!-- <script>
+	$(document).ready(function(){
+		getTable();
+	})
+</script> -->
 
 
 
