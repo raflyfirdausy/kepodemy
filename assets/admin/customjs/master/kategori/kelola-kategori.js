@@ -155,6 +155,7 @@ $(document).ready( function() {
 			}
 		});
 	}
+	
 
 
 	$("#form-kategori").on("submit", function(event) {
