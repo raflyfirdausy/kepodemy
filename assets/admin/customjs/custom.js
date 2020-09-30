@@ -78,6 +78,9 @@ $(document).ready(function(){
 	$('#select-pengajar').select2({
 		placeholder: "Pilih pengajar"
 	});
+	$('#select-jenis-kelas').select2({
+		placeholder: "Pilih jenis kelas"
+	});
 });
 
 

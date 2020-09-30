@@ -72,23 +72,8 @@
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td><span class="txt-kelas">Kelas Programming</span></td>
-							<td>Web</td>
-							<td class="text-right">RP. 150.000</td>
-							<td>Rafly Firadusy Irawan</td>
-							<td>26-09-2020 13:00</td>
-							<td class="text-center">
-								<a href="<?= base_url("kelas/edit_data") ?>" type="button" class="btn btn-sm btn-clean btn-icon btn-edit-kelas" data-id="2" title="Edit">
-									<i class="la la-edit text-warning"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-kelas">
+						
 					</tbody>
 
 				</table>
@@ -101,36 +86,6 @@
 </div>
 <!--end::Entry-->
 
-
-<!-- Modal-->
-<div class="modal fade" id="kelasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="labelKelasModal">Tambah Kelas</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <i aria-hidden="true" class="ki ki-close"></i>
-                </button>
-            </div>
-			<form id="form-kelas" method="POST">
-            <div class="modal-body">
-				<div class="col-md-12">
-					<input type="hidden" name="idKelas" id="id-kelas" value="">
-					<div class="form-group row">
-						<label>Nama Kelas</label>
-						<input type="text" name="namaKelas" id="nama-kelas" class="form-control" placeholder="Nama kelas" required/>
-					</div>
-				</div>
-					
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default font-weight-bold" data-dismiss="modal">Batal</button>
-				<button type="submit" class="btn btn-primary font-weight-bold">Simpan</button>
-			</div>
-			</form>
-        </div>
-    </div>
-</div>
 
 
 <script src="<?= asset("admin/customjs/master/kelas/kelola-kelas.js") ?>"></script>

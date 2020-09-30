@@ -5,7 +5,9 @@ class Kelas extends Admin_Controller
 {
     public function __construct()
     {
-        parent::__construct();
+		parent::__construct();
+		$this->load->model("Produk_model", "produk");
+		$this->load->model("Pengajar_model", "pengajar");
     }
 
     public function index()
@@ -15,8 +17,40 @@ class Kelas extends Admin_Controller
 
     public function tambah_data()
     {
-        $this->loadViewAdmin("master/kelas/v_tambahkelas");
+		$listPengajar = $this->pengajar->get_all_data();
+		$data = [
+			'listPengajar'	=> $listPengajar
+		];
+        $this->loadViewAdmin("master/kelas/v_tambahkelas", $data);
 	}
+
+	public function get_all_data()
+	{
+		$all = $this->produk->get_all_kelas();
+		$output = "";
+		$i = 1;
+		foreach ($all as $dt) {
+			$output .= "<tr>";
+			$output .= "<td class='text-center'>". $i++ ."</td>";
+			$output .= "<td><span class='txt-merchandise'>". $dt->nama ."</span></td>";
+			$output .= "<td>". $dt->kategori ."/td>";
+			$output .= "<td>". $dt->harga ."/td>";
+			$output .= "<td>". $dt->pengajar ."/td>";
+			$output .= "<td>". just_date($dt->tanggal) ." ". just_time($dt->jam_mulai)." - ". just_time($dt->jam_selesai) ."/td>";
+			$output .= "<td class='text-center'>";
+			$output .= "<a href='" . base_url('kelas/detail/'). $dt->id. "' type='button' class='btn btn-sm btn-clean btn-icon btn-edit-merchandise' title='Edit'><i class='la la-edit text-warning'></i></a>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
+			$output .= "</td>";
+			$output .= "</tr>";
+		}
+
+		echo json_encode([
+			'response_code'	=> 200,
+			'response_message'	=> "Berhasil load data",
+			'output'	=> $output
+		]);
+	}
+
 
     public function edit_data()
     {
@@ -33,9 +67,9 @@ class Kelas extends Admin_Controller
 		// foreach( $namemember as $value ) {
 		// 	print $value;
 		// }
-		$data = $dataInput["tglPembelajaran"] ." ". $dataInput["jamPembelajaran"];
-		$dataInput['waktuPembelajaran'] = date("d-m-Y H:i", strtotime($data));
-		unset($dataInput["tglPembelajaran"], $dataInput["jamPembelajaran"]);
+		// $data = $dataInput["tglPembelajaran"] ." ". $dataInput["jamPembelajaran"];
+		// $dataInput['waktuPembelajaran'] = date("d-m-Y H:i", strtotime($data));
+		// unset($dataInput["tglPembelajaran"], $dataInput["jamPembelajaran"]);
 		var_dump($dataInput);
 	}
 	
@@ -90,7 +124,7 @@ class Kelas extends Admin_Controller
 			'status' => $status,
 			'namakelas' => 'Web'
 		];
-        $this->loadViewAdmin("master/kelas/v_subkelas", $data);
+        $this->loadViewAdmin("master/kelas/v_editkelas", $data);
 	}
 	
 

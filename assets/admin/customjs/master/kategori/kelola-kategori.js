@@ -155,11 +155,12 @@ $(document).ready( function() {
 					success: function(data) { // Ketika proses pengiriman berhasil
 						if (data.response_code == 200) {
 							Swal.close();
-							Swal.fire("Done", data.response_message, "success");
-							$("#kategoriModal").modal("hide");
-							$('#table-kategori').DataTable().clear();
-							$('#table-kategori').DataTable().destroy();
-							getTable();
+							Swal.fire('Done', data.response_message, 'success').then((result) => {
+								$("#kategoriModal").modal("hide");
+								$('#table-kategori').DataTable().clear();
+								$('#table-kategori').DataTable().destroy();
+								getTable();
+							})
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");
