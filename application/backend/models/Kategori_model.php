@@ -15,7 +15,13 @@ class Kategori_model extends Custom_model
 	
 	public function get_all_data()
 	{
-		$qry = $this->order_by("created_at", "DESC")->get_all() ? : [];
+		$qry = $this->where(['id_induk' => ''])->order_by("created_at", "DESC")->get_all() ? : [];
+		return $qry ;
+	}
+
+	public function get_subkategori($idInduk)
+	{
+		$qry = $this->where(['id_induk' => $idInduk])->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;
 	}
 
