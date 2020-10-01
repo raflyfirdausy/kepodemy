@@ -113,8 +113,11 @@
 							<label>Jenis pembelajaran <span class="text-danger">*</span></label>
 							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
 								<option value=""></option>
-								<option value="vicon" <?= $data->jenis == 'vicon' ? 'selected' : '' ?>>Video Conference</option>
-								<option value="download" <?= $data->jenis == 'download' ? 'selected' : '' ?>>Download</option>
+								<?php foreach (jenis_pembelajaran() as $jp) : ?>
+									<option value="<?= $jp ?>" <?= $jp == $data->jenis ? 'selected' : ''?>><?= ucwords($jp) ?></option>
+								<?php endforeach; ?>
+								<!-- <option value="vicon" <?= $data->jenis == 'vicon' ? 'selected' : '' ?>>Video Conference</option>
+								<option value="download" <?= $data->jenis == 'download' ? 'selected' : '' ?>>Download</option> -->
 							</select>
 						</div>
 					</div>

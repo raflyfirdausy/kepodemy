@@ -102,14 +102,16 @@
 								<?php foreach ($listKategori as $kt) : ?>
 									<option value="<?= $kt->id ?>"><?= $kt->nama ?></option>
 								<?php endforeach; ?>
+								
 							</select>
 						</div>
 						<div class="col-lg-6">
 							<label>Jenis pembelajaran <span class="text-danger">*</span></label>
 							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
 								<option value=""></option>
-								<option value="vicon">Video Conference</option>
-								<option value="download">Download</option>
+								<?php foreach (jenis_pembelajaran() as $jp) : ?>
+									<option value="<?= $jp ?>"><?= ucwords($jp) ?></option>
+								<?php endforeach; ?>
 							</select>
 						</div>
 					</div>
