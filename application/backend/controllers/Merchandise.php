@@ -44,7 +44,7 @@ class Merchandise extends Admin_Controller
 	{
 		$dataInput = $this->input->post();
 		unset($dataInput["id"]);
-		$dataInput['kategori'] = "merchandise";
+		$dataInput['tipe_produk'] = "merchandise";
 		$cekdata = $this->produk->where(['nama' => $dataInput['nama']])->count_rows();
 		if($cekdata > 0){
 			echo json_encode([

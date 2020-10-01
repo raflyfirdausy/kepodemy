@@ -79,7 +79,7 @@ $(document).ready(function(){
 		placeholder: "Pilih pengajar"
 	});
 	$('#select-jenis-kelas').select2({
-		placeholder: "Pilih jenis kelas"
+		placeholder: "Pilih jenis pembelajaran"
 	});
 });
 

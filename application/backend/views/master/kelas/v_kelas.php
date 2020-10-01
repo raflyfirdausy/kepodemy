@@ -67,8 +67,8 @@
 							<th style="width: 20%">Kategori</th>
 							<th style="width: 10%">Harga</th>
 							<th style="width: 15%">Pengajar</th>
-							<th style="width: 15%">Waktu Pembelajaran</th>
-							<th class="text-center" style="width: 15%">Action</th>
+							<th style="width: 20%">Waktu Pembelajaran</th>
+							<th class="text-center" style="width: 10%">Action</th>
 						</tr>
 					</thead>
 
@@ -90,5 +90,6 @@
 
 <script src="<?= asset("admin/customjs/master/kelas/kelola-kelas.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
+
 
 

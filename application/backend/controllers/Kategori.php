@@ -16,7 +16,7 @@ class Kategori extends Admin_Controller
 
 	public function get_all_data()
 	{
-		$all = $this->kategori->get_all_data();
+		$all = $this->kategori->get_induk();
 		$output = "";
 		$i = 1;
 		foreach ($all as $dt) {

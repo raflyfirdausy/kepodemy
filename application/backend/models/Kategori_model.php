@@ -12,8 +12,20 @@ class Kategori_model extends Custom_model
     {
         parent::__construct();
 	}
+
+	public function get_lookup_kategori()
+	{
+		$qry = $this->order_by("nama", "ASC")->get_all() ? : [];
+		return $qry ;
+	}
+
+	public function get_kategori($id)
+	{
+		$qry = $this->where(['id' => $id])->get() ? : [];
+		return $qry ;
+	}
 	
-	public function get_all_data()
+	public function get_induk()
 	{
 		$qry = $this->where(['id_induk' => ''])->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;

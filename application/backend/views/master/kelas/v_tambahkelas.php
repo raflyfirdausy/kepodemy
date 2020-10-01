@@ -69,7 +69,7 @@
 										<button type="button" class="btn btn-primary"><i class="fa fa-upload text-white"></i></button>
 									</div>
                                     <div class="custom-file">
-                                        <input required="" accept="image/*" type="file" class="custom-file-input" id="file_gambar_header" name="file_gambar_header">
+                                        <input accept="image/*" type="file" class="custom-file-input" id="file_gambar_header" name="file_gambar_header">
                                         <label class="custom-file-label" for="inputGroupFile">Pilih File Gambar Header</label>
                                     </div>
                                     <div class="col-12 pr-0 pl-0">
@@ -88,16 +88,35 @@
 							<label>Nama Pengajar<span class="text-danger">*</span></label>
 							<select class="form-control select2" id="select-pengajar" name="id_pengajar" style="width:100%" required>
 								<option value=""></option>
-								<?php foreach ($listPengajar as $pengajar) : ?>
-									<option value="<?= $pengajar->id ?>"><?= $penggajar->nama ?></option>
+								<?php foreach ($listPengajar as $dt) : ?>
+									<option value="<?= $dt->id ?>"><?= $dt->nama ?></option>
 								<?php endforeach; ?>
 							</select>
 							
 						</div>
 					</div>
 					<div class="form-group row">
-						<div class="col-lg-2">
-							<label>Tanggal <span class="text-danger">*</span></label>
+						<div class="col-lg-6">
+							<label>Kategori <span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-kategori" name="kategori[]" style="width:100%" multiple="multiple" required>
+								<option value=""></option>
+								<?php foreach ($listKategori as $kt) : ?>
+									<option value="<?= $kt->id ?>"><?= $kt->nama ?></option>
+								<?php endforeach; ?>
+							</select>
+						</div>
+						<div class="col-lg-6">
+							<label>Jenis pembelajaran <span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
+								<option value=""></option>
+								<option value="vicon">Video Conference</option>
+								<option value="download">Download</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Tanggal Pembelajaran <span class="text-danger">*</span></label>
 							<div class="input-group date">
 								<input type="text" class="form-control datepicker" id="tgl-pembelajaran" name="tanggal" placeholder="Select date" required/>
 								<div class="input-group-append btn-icon-date">
@@ -107,7 +126,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2">
+						<div class="col-lg-3">
 							<label>Jam mulai <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input class="form-control timepicker" id="jam-,ulai" name="jam_mulai" placeholder="Select time" type="text" required/>
@@ -118,7 +137,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2">
+						<div class="col-lg-3">
 							<label>Jam Selesai <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input class="form-control timepicker" id="jam-selesai" name="jam_selesai" placeholder="Select time" type="text" required/>
@@ -128,14 +147,6 @@
 									</span>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-6">
-							<label>Jenis pembelajaran<span class="text-danger">*</span></label>
-							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
-								<option value=""></option>
-								<option value="vicon">Video Conference</option>
-								<option value="download">Download</option>
-							</select>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -185,7 +196,7 @@
 <!--end::Entry-->
 </form>
 
-<script src="<?= asset("admin/customjs/master/kelas/kelola-kelas.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/kelas/proses-kelas.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 <script>
 	

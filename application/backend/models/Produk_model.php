@@ -11,10 +11,10 @@ class Produk_model extends Custom_model
     public function __construct()
     {
 
-		$this->has_one['user'] = array(
+		$this->has_one['pengajar'] = array(
             'foreign_model'     => 'Pengajar_model',
             'foreign_table'     => 'pengajar',
-            'foreign_key'       => 'id_pengajar',
+            'foreign_key'       => 'id',
             'local_key'         => 'id_pengajar'
         );
         parent::__construct();
@@ -22,13 +22,13 @@ class Produk_model extends Custom_model
 	
 	public function get_all_merchandise()
 	{
-		$qry = $this->where(['kategori' => 'merchandise'])->order_by("created_at", "DESC")->get_all() ? : [];
+		$qry = $this->where(['tipe_produk' => 'merchandise'])->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;
 	}
 
 	public function get_all_kelas()
 	{
-		$qry = $this->where(['kategori' => 'kelas'])->order_by("created_at", "DESC")->get_all() ? : [];
+		$qry = $this->where(['tipe_produk' => 'kelas'])->with_pengajar("fields:nama")->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;
 	}
 
