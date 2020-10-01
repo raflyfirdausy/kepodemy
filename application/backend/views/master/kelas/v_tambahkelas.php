@@ -62,7 +62,7 @@
 						<div class="col-lg-6">
 							<!-- <div class="card-body"> -->
                                 <div class="mb-10">
-                                    <img style="width: 100%" id="imgPreview" src="https://demo.sisdes.id/assets/website/img/ukuran-banner.jpg" alt="">
+                                    <img style="width: 100%" id="imgPreview" src="<?= asset("gambar/ukuran-banner.jpg") ?>" alt="">
                                 </div>
                                 <div class="input-group">
 									<div class="input-group-append">
@@ -92,7 +92,6 @@
 									<option value="<?= $dt->id ?>"><?= $dt->nama ?></option>
 								<?php endforeach; ?>
 							</select>
-							
 						</div>
 					</div>
 					<div class="form-group row">
@@ -116,6 +115,16 @@
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
+							<label>Media Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" required/>
+						</div>
+						<div class="col-lg-6">
+							<label>Link Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="link_pembelajaran" id="link-belajar" placeholder="Link pembelajaran" required/>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-2">
 							<label>Tanggal Pembelajaran <span class="text-danger">*</span></label>
 							<div class="input-group date">
 								<input type="text" class="form-control datepicker" id="tgl-pembelajaran" name="tanggal" placeholder="Select date" required/>
@@ -126,10 +135,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-2">
 							<label>Jam mulai <span class="text-danger">*</span></label>
 							<div class="input-group">
-								<input class="form-control timepicker" id="jam-,ulai" name="jam_mulai" placeholder="Select time" type="text" required/>
+								<input class="form-control timepicker" id="jam-mulai" name="jam_mulai" placeholder="Select time" type="text" required/>
 								<div class="input-group-append btn-icon-time">
 									<span class="input-group-text">
 										<i class="ki ki-clock"></i>
@@ -137,26 +146,20 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-2">
 							<label>Jam Selesai <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input class="form-control timepicker" id="jam-selesai" name="jam_selesai" placeholder="Select time" type="text" required/>
-								<div class="input-group-append btn-icon-time">
+								<div class="input-group-append btn-icon-time2">
 									<span class="input-group-text">
 										<i class="ki ki-clock"></i>
 									</span>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Harga <span class="text-danger">*</span></label>
 							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="0" required/>
-						</div>
-						<div class="col-lg-6">
-							<label>Media Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" required/>
 						</div>
 					</div>
 					<div class="form-group row">

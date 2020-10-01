@@ -6614,3 +6614,2452 @@ INFO - 2020-10-01 13:16:24 --> Model "ProdukKategori_model" initialized
 INFO - 2020-10-01 13:16:24 --> Upload Class Initialized
 INFO - 2020-10-01 13:16:24 --> Final output sent to browser
 DEBUG - 2020-10-01 13:16:24 --> Total execution time: 0.5626
+ERROR - 2020-10-01 19:38:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:38:41 --> Config Class Initialized
+INFO - 2020-10-01 19:38:41 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:38:41 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:38:41 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:38:41 --> URI Class Initialized
+DEBUG - 2020-10-01 19:38:41 --> No URI present. Default controller set.
+INFO - 2020-10-01 19:38:41 --> Router Class Initialized
+INFO - 2020-10-01 19:38:42 --> Output Class Initialized
+INFO - 2020-10-01 19:38:42 --> Security Class Initialized
+DEBUG - 2020-10-01 19:38:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:38:42 --> Input Class Initialized
+INFO - 2020-10-01 19:38:42 --> Language Class Initialized
+ERROR - 2020-10-01 19:38:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:38:53 --> Config Class Initialized
+INFO - 2020-10-01 19:38:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:38:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:38:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:38:53 --> URI Class Initialized
+INFO - 2020-10-01 19:38:53 --> Router Class Initialized
+INFO - 2020-10-01 19:38:53 --> Output Class Initialized
+INFO - 2020-10-01 19:38:53 --> Security Class Initialized
+DEBUG - 2020-10-01 19:38:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:38:53 --> Input Class Initialized
+INFO - 2020-10-01 19:38:53 --> Language Class Initialized
+ERROR - 2020-10-01 19:38:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:38:55 --> Config Class Initialized
+INFO - 2020-10-01 19:38:55 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:38:55 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:38:55 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:38:55 --> URI Class Initialized
+INFO - 2020-10-01 19:38:55 --> Router Class Initialized
+INFO - 2020-10-01 19:38:55 --> Output Class Initialized
+INFO - 2020-10-01 19:38:55 --> Security Class Initialized
+DEBUG - 2020-10-01 19:38:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:38:55 --> Input Class Initialized
+INFO - 2020-10-01 19:38:55 --> Language Class Initialized
+ERROR - 2020-10-01 19:39:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:39:03 --> Config Class Initialized
+INFO - 2020-10-01 19:39:03 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:39:03 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:39:03 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:39:03 --> URI Class Initialized
+INFO - 2020-10-01 19:39:03 --> Router Class Initialized
+INFO - 2020-10-01 19:39:03 --> Output Class Initialized
+INFO - 2020-10-01 19:39:03 --> Security Class Initialized
+DEBUG - 2020-10-01 19:39:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:39:03 --> Input Class Initialized
+INFO - 2020-10-01 19:39:03 --> Language Class Initialized
+ERROR - 2020-10-01 19:39:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:39:05 --> Config Class Initialized
+INFO - 2020-10-01 19:39:05 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:39:05 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:39:05 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:39:05 --> URI Class Initialized
+INFO - 2020-10-01 19:39:05 --> Router Class Initialized
+INFO - 2020-10-01 19:39:05 --> Output Class Initialized
+INFO - 2020-10-01 19:39:05 --> Security Class Initialized
+DEBUG - 2020-10-01 19:39:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:39:05 --> Input Class Initialized
+INFO - 2020-10-01 19:39:05 --> Language Class Initialized
+ERROR - 2020-10-01 19:39:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:39:14 --> Config Class Initialized
+INFO - 2020-10-01 19:39:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:39:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:39:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:39:14 --> URI Class Initialized
+INFO - 2020-10-01 19:39:14 --> Router Class Initialized
+INFO - 2020-10-01 19:39:14 --> Output Class Initialized
+INFO - 2020-10-01 19:39:14 --> Security Class Initialized
+DEBUG - 2020-10-01 19:39:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:39:15 --> Input Class Initialized
+INFO - 2020-10-01 19:39:15 --> Language Class Initialized
+ERROR - 2020-10-01 19:39:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:39:16 --> Config Class Initialized
+INFO - 2020-10-01 19:39:16 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:39:16 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:39:16 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:39:17 --> URI Class Initialized
+INFO - 2020-10-01 19:39:17 --> Router Class Initialized
+INFO - 2020-10-01 19:39:17 --> Output Class Initialized
+INFO - 2020-10-01 19:39:17 --> Security Class Initialized
+DEBUG - 2020-10-01 19:39:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:39:17 --> Input Class Initialized
+INFO - 2020-10-01 19:39:17 --> Language Class Initialized
+ERROR - 2020-10-01 19:39:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:39:20 --> Config Class Initialized
+INFO - 2020-10-01 19:39:20 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:39:20 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:39:20 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:39:20 --> URI Class Initialized
+INFO - 2020-10-01 19:39:20 --> Router Class Initialized
+INFO - 2020-10-01 19:39:20 --> Output Class Initialized
+INFO - 2020-10-01 19:39:20 --> Security Class Initialized
+DEBUG - 2020-10-01 19:39:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:39:20 --> Input Class Initialized
+INFO - 2020-10-01 19:39:21 --> Language Class Initialized
+ERROR - 2020-10-01 19:44:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:44:40 --> Config Class Initialized
+INFO - 2020-10-01 19:44:40 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:44:40 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:44:40 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:44:40 --> URI Class Initialized
+INFO - 2020-10-01 19:44:40 --> Router Class Initialized
+INFO - 2020-10-01 19:44:40 --> Output Class Initialized
+INFO - 2020-10-01 19:44:40 --> Security Class Initialized
+DEBUG - 2020-10-01 19:44:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:44:40 --> Input Class Initialized
+INFO - 2020-10-01 19:44:40 --> Language Class Initialized
+ERROR - 2020-10-01 19:45:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:45:46 --> Config Class Initialized
+INFO - 2020-10-01 19:45:46 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:45:46 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:45:46 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:45:46 --> URI Class Initialized
+INFO - 2020-10-01 19:45:46 --> Router Class Initialized
+INFO - 2020-10-01 19:45:46 --> Output Class Initialized
+INFO - 2020-10-01 19:45:46 --> Security Class Initialized
+DEBUG - 2020-10-01 19:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:45:46 --> Input Class Initialized
+INFO - 2020-10-01 19:45:46 --> Language Class Initialized
+ERROR - 2020-10-01 19:46:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:46:59 --> Config Class Initialized
+INFO - 2020-10-01 19:46:59 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:46:59 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:46:59 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:46:59 --> URI Class Initialized
+INFO - 2020-10-01 19:46:59 --> Router Class Initialized
+INFO - 2020-10-01 19:46:59 --> Output Class Initialized
+INFO - 2020-10-01 19:46:59 --> Security Class Initialized
+DEBUG - 2020-10-01 19:46:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:46:59 --> Input Class Initialized
+INFO - 2020-10-01 19:46:59 --> Language Class Initialized
+ERROR - 2020-10-01 19:47:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:47:13 --> Config Class Initialized
+INFO - 2020-10-01 19:47:13 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:47:13 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:47:13 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:47:13 --> URI Class Initialized
+INFO - 2020-10-01 19:47:13 --> Router Class Initialized
+INFO - 2020-10-01 19:47:13 --> Output Class Initialized
+INFO - 2020-10-01 19:47:13 --> Security Class Initialized
+DEBUG - 2020-10-01 19:47:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:47:13 --> Input Class Initialized
+INFO - 2020-10-01 19:47:13 --> Language Class Initialized
+ERROR - 2020-10-01 19:51:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:51:11 --> Config Class Initialized
+INFO - 2020-10-01 19:51:11 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:51:11 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:51:11 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:51:12 --> URI Class Initialized
+INFO - 2020-10-01 19:51:12 --> Router Class Initialized
+INFO - 2020-10-01 19:51:12 --> Output Class Initialized
+INFO - 2020-10-01 19:51:12 --> Security Class Initialized
+DEBUG - 2020-10-01 19:51:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:51:12 --> Input Class Initialized
+INFO - 2020-10-01 19:51:12 --> Language Class Initialized
+ERROR - 2020-10-01 19:52:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:52:32 --> Config Class Initialized
+INFO - 2020-10-01 19:52:32 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:52:32 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:52:32 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:52:32 --> URI Class Initialized
+INFO - 2020-10-01 19:52:32 --> Router Class Initialized
+INFO - 2020-10-01 19:52:32 --> Output Class Initialized
+INFO - 2020-10-01 19:52:32 --> Security Class Initialized
+DEBUG - 2020-10-01 19:52:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:52:32 --> Input Class Initialized
+INFO - 2020-10-01 19:52:33 --> Language Class Initialized
+ERROR - 2020-10-01 19:55:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:55:17 --> Config Class Initialized
+INFO - 2020-10-01 19:55:17 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:55:17 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:55:17 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:55:17 --> URI Class Initialized
+INFO - 2020-10-01 19:55:17 --> Router Class Initialized
+INFO - 2020-10-01 19:55:17 --> Output Class Initialized
+INFO - 2020-10-01 19:55:17 --> Security Class Initialized
+DEBUG - 2020-10-01 19:55:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:55:17 --> Input Class Initialized
+INFO - 2020-10-01 19:55:17 --> Language Class Initialized
+ERROR - 2020-10-01 19:56:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:56:27 --> Config Class Initialized
+INFO - 2020-10-01 19:56:27 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:56:27 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:56:27 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:56:27 --> URI Class Initialized
+INFO - 2020-10-01 19:56:27 --> Router Class Initialized
+INFO - 2020-10-01 19:56:27 --> Output Class Initialized
+INFO - 2020-10-01 19:56:28 --> Security Class Initialized
+DEBUG - 2020-10-01 19:56:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:56:28 --> Input Class Initialized
+INFO - 2020-10-01 19:56:28 --> Language Class Initialized
+ERROR - 2020-10-01 19:58:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:58:59 --> Config Class Initialized
+INFO - 2020-10-01 19:58:59 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:58:59 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:58:59 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:58:59 --> URI Class Initialized
+INFO - 2020-10-01 19:58:59 --> Router Class Initialized
+INFO - 2020-10-01 19:58:59 --> Output Class Initialized
+INFO - 2020-10-01 19:58:59 --> Security Class Initialized
+DEBUG - 2020-10-01 19:58:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:58:59 --> Input Class Initialized
+INFO - 2020-10-01 19:58:59 --> Language Class Initialized
+ERROR - 2020-10-01 19:59:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:59:20 --> Config Class Initialized
+INFO - 2020-10-01 19:59:20 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:59:20 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:59:20 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:59:20 --> URI Class Initialized
+INFO - 2020-10-01 19:59:20 --> Router Class Initialized
+INFO - 2020-10-01 19:59:20 --> Output Class Initialized
+INFO - 2020-10-01 19:59:20 --> Security Class Initialized
+DEBUG - 2020-10-01 19:59:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:59:20 --> Input Class Initialized
+INFO - 2020-10-01 19:59:20 --> Language Class Initialized
+ERROR - 2020-10-01 19:59:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 19:59:22 --> Config Class Initialized
+INFO - 2020-10-01 19:59:22 --> Hooks Class Initialized
+DEBUG - 2020-10-01 19:59:22 --> UTF-8 Support Enabled
+INFO - 2020-10-01 19:59:22 --> Utf8 Class Initialized
+INFO - 2020-10-01 19:59:22 --> URI Class Initialized
+INFO - 2020-10-01 19:59:22 --> Router Class Initialized
+INFO - 2020-10-01 19:59:22 --> Output Class Initialized
+INFO - 2020-10-01 19:59:22 --> Security Class Initialized
+DEBUG - 2020-10-01 19:59:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 19:59:22 --> Input Class Initialized
+INFO - 2020-10-01 19:59:22 --> Language Class Initialized
+ERROR - 2020-10-01 20:03:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:03:16 --> Config Class Initialized
+INFO - 2020-10-01 20:03:16 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:03:17 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:03:17 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:03:17 --> URI Class Initialized
+INFO - 2020-10-01 20:03:17 --> Router Class Initialized
+INFO - 2020-10-01 20:03:17 --> Output Class Initialized
+INFO - 2020-10-01 20:03:17 --> Security Class Initialized
+DEBUG - 2020-10-01 20:03:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:03:17 --> Input Class Initialized
+INFO - 2020-10-01 20:03:17 --> Language Class Initialized
+ERROR - 2020-10-01 20:04:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:04:14 --> Config Class Initialized
+INFO - 2020-10-01 20:04:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:04:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:04:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:04:14 --> URI Class Initialized
+INFO - 2020-10-01 20:04:14 --> Router Class Initialized
+INFO - 2020-10-01 20:04:14 --> Output Class Initialized
+INFO - 2020-10-01 20:04:14 --> Security Class Initialized
+DEBUG - 2020-10-01 20:04:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:04:14 --> Input Class Initialized
+INFO - 2020-10-01 20:04:14 --> Language Class Initialized
+ERROR - 2020-10-01 20:05:33 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:05:33 --> Config Class Initialized
+INFO - 2020-10-01 20:05:33 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:05:33 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:05:33 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:05:33 --> URI Class Initialized
+INFO - 2020-10-01 20:05:34 --> Router Class Initialized
+INFO - 2020-10-01 20:05:34 --> Output Class Initialized
+INFO - 2020-10-01 20:05:34 --> Security Class Initialized
+DEBUG - 2020-10-01 20:05:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:05:34 --> Input Class Initialized
+INFO - 2020-10-01 20:05:34 --> Language Class Initialized
+ERROR - 2020-10-01 20:06:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:06:28 --> Config Class Initialized
+INFO - 2020-10-01 20:06:28 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:06:28 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:06:28 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:06:28 --> URI Class Initialized
+INFO - 2020-10-01 20:06:28 --> Router Class Initialized
+INFO - 2020-10-01 20:06:28 --> Output Class Initialized
+INFO - 2020-10-01 20:06:28 --> Security Class Initialized
+DEBUG - 2020-10-01 20:06:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:06:28 --> Input Class Initialized
+INFO - 2020-10-01 20:06:29 --> Language Class Initialized
+ERROR - 2020-10-01 20:06:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:06:39 --> Config Class Initialized
+INFO - 2020-10-01 20:06:39 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:06:39 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:06:39 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:06:39 --> URI Class Initialized
+INFO - 2020-10-01 20:06:39 --> Router Class Initialized
+INFO - 2020-10-01 20:06:39 --> Output Class Initialized
+INFO - 2020-10-01 20:06:39 --> Security Class Initialized
+DEBUG - 2020-10-01 20:06:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:06:39 --> Input Class Initialized
+INFO - 2020-10-01 20:06:39 --> Language Class Initialized
+ERROR - 2020-10-01 20:06:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:06:41 --> Config Class Initialized
+INFO - 2020-10-01 20:06:41 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:06:41 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:06:41 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:06:41 --> URI Class Initialized
+INFO - 2020-10-01 20:06:41 --> Router Class Initialized
+INFO - 2020-10-01 20:06:41 --> Output Class Initialized
+INFO - 2020-10-01 20:06:41 --> Security Class Initialized
+DEBUG - 2020-10-01 20:06:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:06:42 --> Input Class Initialized
+INFO - 2020-10-01 20:06:42 --> Language Class Initialized
+ERROR - 2020-10-01 20:19:56 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:19:56 --> Config Class Initialized
+INFO - 2020-10-01 20:19:56 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:19:56 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:19:56 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:19:56 --> URI Class Initialized
+INFO - 2020-10-01 20:19:56 --> Router Class Initialized
+INFO - 2020-10-01 20:19:56 --> Output Class Initialized
+INFO - 2020-10-01 20:19:56 --> Security Class Initialized
+DEBUG - 2020-10-01 20:19:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:19:56 --> Input Class Initialized
+INFO - 2020-10-01 20:19:56 --> Language Class Initialized
+ERROR - 2020-10-01 20:19:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:19:58 --> Config Class Initialized
+INFO - 2020-10-01 20:19:58 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:19:58 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:19:58 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:19:58 --> URI Class Initialized
+INFO - 2020-10-01 20:19:58 --> Router Class Initialized
+INFO - 2020-10-01 20:19:58 --> Output Class Initialized
+INFO - 2020-10-01 20:19:58 --> Security Class Initialized
+DEBUG - 2020-10-01 20:19:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:19:58 --> Input Class Initialized
+INFO - 2020-10-01 20:19:59 --> Language Class Initialized
+ERROR - 2020-10-01 20:20:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:20:08 --> Config Class Initialized
+INFO - 2020-10-01 20:20:08 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:20:08 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:20:08 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:20:08 --> URI Class Initialized
+INFO - 2020-10-01 20:20:08 --> Router Class Initialized
+INFO - 2020-10-01 20:20:08 --> Output Class Initialized
+INFO - 2020-10-01 20:20:08 --> Security Class Initialized
+DEBUG - 2020-10-01 20:20:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:20:08 --> Input Class Initialized
+INFO - 2020-10-01 20:20:08 --> Language Class Initialized
+ERROR - 2020-10-01 20:20:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:20:51 --> Config Class Initialized
+INFO - 2020-10-01 20:20:51 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:20:51 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:20:51 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:20:51 --> URI Class Initialized
+INFO - 2020-10-01 20:20:51 --> Router Class Initialized
+INFO - 2020-10-01 20:20:51 --> Output Class Initialized
+INFO - 2020-10-01 20:20:51 --> Security Class Initialized
+DEBUG - 2020-10-01 20:20:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:20:51 --> Input Class Initialized
+INFO - 2020-10-01 20:20:51 --> Language Class Initialized
+ERROR - 2020-10-01 20:20:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:20:53 --> Config Class Initialized
+INFO - 2020-10-01 20:20:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:20:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:20:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:20:53 --> URI Class Initialized
+INFO - 2020-10-01 20:20:53 --> Router Class Initialized
+INFO - 2020-10-01 20:20:53 --> Output Class Initialized
+INFO - 2020-10-01 20:20:53 --> Security Class Initialized
+DEBUG - 2020-10-01 20:20:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:20:53 --> Input Class Initialized
+INFO - 2020-10-01 20:20:53 --> Language Class Initialized
+ERROR - 2020-10-01 20:22:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:22:36 --> Config Class Initialized
+INFO - 2020-10-01 20:22:36 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:22:36 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:22:36 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:22:36 --> URI Class Initialized
+INFO - 2020-10-01 20:22:36 --> Router Class Initialized
+INFO - 2020-10-01 20:22:36 --> Output Class Initialized
+INFO - 2020-10-01 20:22:36 --> Security Class Initialized
+DEBUG - 2020-10-01 20:22:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:22:36 --> Input Class Initialized
+INFO - 2020-10-01 20:22:36 --> Language Class Initialized
+ERROR - 2020-10-01 20:22:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:22:40 --> Config Class Initialized
+INFO - 2020-10-01 20:22:40 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:22:40 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:22:40 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:22:40 --> URI Class Initialized
+INFO - 2020-10-01 20:22:40 --> Router Class Initialized
+INFO - 2020-10-01 20:22:40 --> Output Class Initialized
+INFO - 2020-10-01 20:22:40 --> Security Class Initialized
+DEBUG - 2020-10-01 20:22:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:22:40 --> Input Class Initialized
+INFO - 2020-10-01 20:22:41 --> Language Class Initialized
+ERROR - 2020-10-01 20:22:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:22:42 --> Config Class Initialized
+INFO - 2020-10-01 20:22:42 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:22:42 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:22:42 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:22:42 --> URI Class Initialized
+INFO - 2020-10-01 20:22:42 --> Router Class Initialized
+INFO - 2020-10-01 20:22:42 --> Output Class Initialized
+INFO - 2020-10-01 20:22:42 --> Security Class Initialized
+DEBUG - 2020-10-01 20:22:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:22:42 --> Input Class Initialized
+INFO - 2020-10-01 20:22:42 --> Language Class Initialized
+ERROR - 2020-10-01 20:25:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:25:38 --> Config Class Initialized
+INFO - 2020-10-01 20:25:38 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:25:38 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:25:38 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:25:38 --> URI Class Initialized
+INFO - 2020-10-01 20:25:38 --> Router Class Initialized
+INFO - 2020-10-01 20:25:38 --> Output Class Initialized
+INFO - 2020-10-01 20:25:38 --> Security Class Initialized
+DEBUG - 2020-10-01 20:25:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:25:38 --> Input Class Initialized
+INFO - 2020-10-01 20:25:38 --> Language Class Initialized
+ERROR - 2020-10-01 20:25:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:25:42 --> Config Class Initialized
+INFO - 2020-10-01 20:25:42 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:25:42 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:25:42 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:25:42 --> URI Class Initialized
+INFO - 2020-10-01 20:25:42 --> Router Class Initialized
+INFO - 2020-10-01 20:25:42 --> Output Class Initialized
+INFO - 2020-10-01 20:25:42 --> Security Class Initialized
+DEBUG - 2020-10-01 20:25:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:25:42 --> Input Class Initialized
+INFO - 2020-10-01 20:25:42 --> Language Class Initialized
+ERROR - 2020-10-01 20:25:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:25:53 --> Config Class Initialized
+INFO - 2020-10-01 20:25:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:25:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:25:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:25:53 --> URI Class Initialized
+INFO - 2020-10-01 20:25:53 --> Router Class Initialized
+INFO - 2020-10-01 20:25:54 --> Output Class Initialized
+INFO - 2020-10-01 20:25:54 --> Security Class Initialized
+DEBUG - 2020-10-01 20:25:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:25:54 --> Input Class Initialized
+INFO - 2020-10-01 20:25:54 --> Language Class Initialized
+ERROR - 2020-10-01 20:25:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:25:55 --> Config Class Initialized
+INFO - 2020-10-01 20:25:55 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:25:55 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:25:55 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:25:55 --> URI Class Initialized
+INFO - 2020-10-01 20:25:55 --> Router Class Initialized
+INFO - 2020-10-01 20:25:55 --> Output Class Initialized
+INFO - 2020-10-01 20:25:55 --> Security Class Initialized
+DEBUG - 2020-10-01 20:25:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:25:55 --> Input Class Initialized
+INFO - 2020-10-01 20:25:55 --> Language Class Initialized
+ERROR - 2020-10-01 20:25:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:25:58 --> Config Class Initialized
+INFO - 2020-10-01 20:25:58 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:25:58 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:25:58 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:25:58 --> URI Class Initialized
+INFO - 2020-10-01 20:25:58 --> Router Class Initialized
+INFO - 2020-10-01 20:25:58 --> Output Class Initialized
+INFO - 2020-10-01 20:25:58 --> Security Class Initialized
+DEBUG - 2020-10-01 20:25:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:25:58 --> Input Class Initialized
+INFO - 2020-10-01 20:25:58 --> Language Class Initialized
+ERROR - 2020-10-01 20:26:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:26:45 --> Config Class Initialized
+INFO - 2020-10-01 20:26:45 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:26:45 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:26:46 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:26:46 --> URI Class Initialized
+INFO - 2020-10-01 20:26:46 --> Router Class Initialized
+INFO - 2020-10-01 20:26:46 --> Output Class Initialized
+INFO - 2020-10-01 20:26:46 --> Security Class Initialized
+DEBUG - 2020-10-01 20:26:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:26:46 --> Input Class Initialized
+INFO - 2020-10-01 20:26:46 --> Language Class Initialized
+ERROR - 2020-10-01 20:26:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:26:49 --> Config Class Initialized
+INFO - 2020-10-01 20:26:49 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:26:49 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:26:49 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:26:49 --> URI Class Initialized
+INFO - 2020-10-01 20:26:49 --> Router Class Initialized
+INFO - 2020-10-01 20:26:49 --> Output Class Initialized
+INFO - 2020-10-01 20:26:49 --> Security Class Initialized
+DEBUG - 2020-10-01 20:26:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:26:49 --> Input Class Initialized
+INFO - 2020-10-01 20:26:49 --> Language Class Initialized
+ERROR - 2020-10-01 20:26:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:26:51 --> Config Class Initialized
+INFO - 2020-10-01 20:26:51 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:26:51 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:26:51 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:26:51 --> URI Class Initialized
+INFO - 2020-10-01 20:26:51 --> Router Class Initialized
+INFO - 2020-10-01 20:26:51 --> Output Class Initialized
+INFO - 2020-10-01 20:26:51 --> Security Class Initialized
+DEBUG - 2020-10-01 20:26:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:26:51 --> Input Class Initialized
+INFO - 2020-10-01 20:26:51 --> Language Class Initialized
+ERROR - 2020-10-01 20:27:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:27:07 --> Config Class Initialized
+INFO - 2020-10-01 20:27:07 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:27:07 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:27:07 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:27:07 --> URI Class Initialized
+INFO - 2020-10-01 20:27:07 --> Router Class Initialized
+INFO - 2020-10-01 20:27:07 --> Output Class Initialized
+INFO - 2020-10-01 20:27:07 --> Security Class Initialized
+DEBUG - 2020-10-01 20:27:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:27:07 --> Input Class Initialized
+INFO - 2020-10-01 20:27:07 --> Language Class Initialized
+ERROR - 2020-10-01 20:27:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:27:09 --> Config Class Initialized
+INFO - 2020-10-01 20:27:09 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:27:09 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:27:09 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:27:09 --> URI Class Initialized
+INFO - 2020-10-01 20:27:09 --> Router Class Initialized
+INFO - 2020-10-01 20:27:09 --> Output Class Initialized
+INFO - 2020-10-01 20:27:09 --> Security Class Initialized
+DEBUG - 2020-10-01 20:27:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:27:09 --> Input Class Initialized
+INFO - 2020-10-01 20:27:09 --> Language Class Initialized
+ERROR - 2020-10-01 20:41:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:41:36 --> Config Class Initialized
+INFO - 2020-10-01 20:41:36 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:41:36 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:41:36 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:41:36 --> URI Class Initialized
+INFO - 2020-10-01 20:41:36 --> Router Class Initialized
+INFO - 2020-10-01 20:41:36 --> Output Class Initialized
+INFO - 2020-10-01 20:41:36 --> Security Class Initialized
+DEBUG - 2020-10-01 20:41:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:41:36 --> Input Class Initialized
+INFO - 2020-10-01 20:41:36 --> Language Class Initialized
+ERROR - 2020-10-01 20:42:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:42:59 --> Config Class Initialized
+INFO - 2020-10-01 20:42:59 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:42:59 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:42:59 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:42:59 --> URI Class Initialized
+INFO - 2020-10-01 20:42:59 --> Router Class Initialized
+INFO - 2020-10-01 20:42:59 --> Output Class Initialized
+INFO - 2020-10-01 20:42:59 --> Security Class Initialized
+DEBUG - 2020-10-01 20:42:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:42:59 --> Input Class Initialized
+INFO - 2020-10-01 20:42:59 --> Language Class Initialized
+ERROR - 2020-10-01 20:43:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:43:01 --> Config Class Initialized
+INFO - 2020-10-01 20:43:01 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:43:01 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:43:01 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:43:01 --> URI Class Initialized
+INFO - 2020-10-01 20:43:01 --> Router Class Initialized
+INFO - 2020-10-01 20:43:01 --> Output Class Initialized
+INFO - 2020-10-01 20:43:01 --> Security Class Initialized
+DEBUG - 2020-10-01 20:43:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:43:01 --> Input Class Initialized
+INFO - 2020-10-01 20:43:01 --> Language Class Initialized
+ERROR - 2020-10-01 20:43:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:43:46 --> Config Class Initialized
+INFO - 2020-10-01 20:43:46 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:43:47 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:43:47 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:43:47 --> URI Class Initialized
+INFO - 2020-10-01 20:43:47 --> Router Class Initialized
+INFO - 2020-10-01 20:43:47 --> Output Class Initialized
+INFO - 2020-10-01 20:43:47 --> Security Class Initialized
+DEBUG - 2020-10-01 20:43:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:43:47 --> Input Class Initialized
+INFO - 2020-10-01 20:43:47 --> Language Class Initialized
+ERROR - 2020-10-01 20:43:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:43:48 --> Config Class Initialized
+INFO - 2020-10-01 20:43:48 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:43:48 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:43:48 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:43:49 --> URI Class Initialized
+INFO - 2020-10-01 20:43:49 --> Router Class Initialized
+INFO - 2020-10-01 20:43:49 --> Output Class Initialized
+INFO - 2020-10-01 20:43:49 --> Security Class Initialized
+DEBUG - 2020-10-01 20:43:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:43:49 --> Input Class Initialized
+INFO - 2020-10-01 20:43:49 --> Language Class Initialized
+ERROR - 2020-10-01 20:45:04 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:45:04 --> Config Class Initialized
+INFO - 2020-10-01 20:45:04 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:45:04 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:45:04 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:45:05 --> URI Class Initialized
+INFO - 2020-10-01 20:45:05 --> Router Class Initialized
+INFO - 2020-10-01 20:45:05 --> Output Class Initialized
+INFO - 2020-10-01 20:45:05 --> Security Class Initialized
+DEBUG - 2020-10-01 20:45:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:45:05 --> Input Class Initialized
+INFO - 2020-10-01 20:45:05 --> Language Class Initialized
+ERROR - 2020-10-01 20:45:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:45:07 --> Config Class Initialized
+INFO - 2020-10-01 20:45:07 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:45:07 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:45:07 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:45:07 --> URI Class Initialized
+INFO - 2020-10-01 20:45:07 --> Router Class Initialized
+INFO - 2020-10-01 20:45:07 --> Output Class Initialized
+INFO - 2020-10-01 20:45:07 --> Security Class Initialized
+DEBUG - 2020-10-01 20:45:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:45:07 --> Input Class Initialized
+INFO - 2020-10-01 20:45:07 --> Language Class Initialized
+ERROR - 2020-10-01 20:45:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:45:25 --> Config Class Initialized
+INFO - 2020-10-01 20:45:25 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:45:25 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:45:25 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:45:25 --> URI Class Initialized
+INFO - 2020-10-01 20:45:25 --> Router Class Initialized
+INFO - 2020-10-01 20:45:25 --> Output Class Initialized
+INFO - 2020-10-01 20:45:25 --> Security Class Initialized
+DEBUG - 2020-10-01 20:45:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:45:25 --> Input Class Initialized
+INFO - 2020-10-01 20:45:25 --> Language Class Initialized
+ERROR - 2020-10-01 20:48:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:48:41 --> Config Class Initialized
+INFO - 2020-10-01 20:48:41 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:48:41 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:48:41 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:48:41 --> URI Class Initialized
+INFO - 2020-10-01 20:48:41 --> Router Class Initialized
+INFO - 2020-10-01 20:48:41 --> Output Class Initialized
+INFO - 2020-10-01 20:48:41 --> Security Class Initialized
+DEBUG - 2020-10-01 20:48:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:48:41 --> Input Class Initialized
+INFO - 2020-10-01 20:48:41 --> Language Class Initialized
+ERROR - 2020-10-01 20:54:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:54:49 --> Config Class Initialized
+INFO - 2020-10-01 20:54:49 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:54:49 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:54:49 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:54:49 --> URI Class Initialized
+INFO - 2020-10-01 20:54:49 --> Router Class Initialized
+INFO - 2020-10-01 20:54:49 --> Output Class Initialized
+INFO - 2020-10-01 20:54:49 --> Security Class Initialized
+DEBUG - 2020-10-01 20:54:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:54:49 --> Input Class Initialized
+INFO - 2020-10-01 20:54:49 --> Language Class Initialized
+ERROR - 2020-10-01 20:54:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:54:51 --> Config Class Initialized
+INFO - 2020-10-01 20:54:51 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:54:51 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:54:51 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:54:51 --> URI Class Initialized
+INFO - 2020-10-01 20:54:51 --> Router Class Initialized
+INFO - 2020-10-01 20:54:51 --> Output Class Initialized
+INFO - 2020-10-01 20:54:51 --> Security Class Initialized
+DEBUG - 2020-10-01 20:54:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:54:51 --> Input Class Initialized
+INFO - 2020-10-01 20:54:51 --> Language Class Initialized
+ERROR - 2020-10-01 20:54:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:54:53 --> Config Class Initialized
+INFO - 2020-10-01 20:54:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:54:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:54:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:54:53 --> URI Class Initialized
+INFO - 2020-10-01 20:54:54 --> Router Class Initialized
+INFO - 2020-10-01 20:54:54 --> Output Class Initialized
+INFO - 2020-10-01 20:54:54 --> Security Class Initialized
+DEBUG - 2020-10-01 20:54:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:54:54 --> Input Class Initialized
+INFO - 2020-10-01 20:54:54 --> Language Class Initialized
+ERROR - 2020-10-01 20:55:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:55:06 --> Config Class Initialized
+INFO - 2020-10-01 20:55:06 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:55:06 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:55:06 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:55:06 --> URI Class Initialized
+INFO - 2020-10-01 20:55:06 --> Router Class Initialized
+INFO - 2020-10-01 20:55:06 --> Output Class Initialized
+INFO - 2020-10-01 20:55:06 --> Security Class Initialized
+DEBUG - 2020-10-01 20:55:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:55:06 --> Input Class Initialized
+INFO - 2020-10-01 20:55:06 --> Language Class Initialized
+ERROR - 2020-10-01 20:55:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:55:41 --> Config Class Initialized
+INFO - 2020-10-01 20:55:41 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:55:41 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:55:41 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:55:41 --> URI Class Initialized
+INFO - 2020-10-01 20:55:41 --> Router Class Initialized
+INFO - 2020-10-01 20:55:41 --> Output Class Initialized
+INFO - 2020-10-01 20:55:41 --> Security Class Initialized
+DEBUG - 2020-10-01 20:55:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:55:41 --> Input Class Initialized
+INFO - 2020-10-01 20:55:41 --> Language Class Initialized
+ERROR - 2020-10-01 20:58:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:58:13 --> Config Class Initialized
+INFO - 2020-10-01 20:58:13 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:58:13 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:58:13 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:58:13 --> URI Class Initialized
+INFO - 2020-10-01 20:58:13 --> Router Class Initialized
+INFO - 2020-10-01 20:58:13 --> Output Class Initialized
+INFO - 2020-10-01 20:58:13 --> Security Class Initialized
+DEBUG - 2020-10-01 20:58:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:58:13 --> Input Class Initialized
+INFO - 2020-10-01 20:58:13 --> Language Class Initialized
+ERROR - 2020-10-01 20:58:33 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 20:58:33 --> Config Class Initialized
+INFO - 2020-10-01 20:58:33 --> Hooks Class Initialized
+DEBUG - 2020-10-01 20:58:33 --> UTF-8 Support Enabled
+INFO - 2020-10-01 20:58:33 --> Utf8 Class Initialized
+INFO - 2020-10-01 20:58:33 --> URI Class Initialized
+INFO - 2020-10-01 20:58:33 --> Router Class Initialized
+INFO - 2020-10-01 20:58:33 --> Output Class Initialized
+INFO - 2020-10-01 20:58:33 --> Security Class Initialized
+DEBUG - 2020-10-01 20:58:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 20:58:34 --> Input Class Initialized
+INFO - 2020-10-01 20:58:34 --> Language Class Initialized
+ERROR - 2020-10-01 21:02:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:02:15 --> Config Class Initialized
+INFO - 2020-10-01 21:02:15 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:02:15 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:02:15 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:02:15 --> URI Class Initialized
+INFO - 2020-10-01 21:02:15 --> Router Class Initialized
+INFO - 2020-10-01 21:02:15 --> Output Class Initialized
+INFO - 2020-10-01 21:02:15 --> Security Class Initialized
+DEBUG - 2020-10-01 21:02:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:02:15 --> Input Class Initialized
+INFO - 2020-10-01 21:02:16 --> Language Class Initialized
+ERROR - 2020-10-01 21:18:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:18:17 --> Config Class Initialized
+INFO - 2020-10-01 21:18:17 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:18:17 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:18:17 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:18:17 --> URI Class Initialized
+INFO - 2020-10-01 21:18:17 --> Router Class Initialized
+INFO - 2020-10-01 21:18:17 --> Output Class Initialized
+INFO - 2020-10-01 21:18:17 --> Security Class Initialized
+DEBUG - 2020-10-01 21:18:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:18:17 --> Input Class Initialized
+INFO - 2020-10-01 21:18:17 --> Language Class Initialized
+ERROR - 2020-10-01 21:18:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:18:38 --> Config Class Initialized
+INFO - 2020-10-01 21:18:38 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:18:38 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:18:38 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:18:38 --> URI Class Initialized
+INFO - 2020-10-01 21:18:38 --> Router Class Initialized
+INFO - 2020-10-01 21:18:38 --> Output Class Initialized
+INFO - 2020-10-01 21:18:38 --> Security Class Initialized
+DEBUG - 2020-10-01 21:18:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:18:38 --> Input Class Initialized
+INFO - 2020-10-01 21:18:38 --> Language Class Initialized
+ERROR - 2020-10-01 21:21:04 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:21:04 --> Config Class Initialized
+INFO - 2020-10-01 21:21:04 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:21:04 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:21:04 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:21:04 --> URI Class Initialized
+INFO - 2020-10-01 21:21:04 --> Router Class Initialized
+INFO - 2020-10-01 21:21:04 --> Output Class Initialized
+INFO - 2020-10-01 21:21:04 --> Security Class Initialized
+DEBUG - 2020-10-01 21:21:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:21:04 --> Input Class Initialized
+INFO - 2020-10-01 21:21:04 --> Language Class Initialized
+ERROR - 2020-10-01 21:21:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:21:38 --> Config Class Initialized
+INFO - 2020-10-01 21:21:38 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:21:38 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:21:38 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:21:38 --> URI Class Initialized
+INFO - 2020-10-01 21:21:38 --> Router Class Initialized
+INFO - 2020-10-01 21:21:38 --> Output Class Initialized
+INFO - 2020-10-01 21:21:38 --> Security Class Initialized
+DEBUG - 2020-10-01 21:21:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:21:38 --> Input Class Initialized
+INFO - 2020-10-01 21:21:38 --> Language Class Initialized
+ERROR - 2020-10-01 21:22:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:22:21 --> Config Class Initialized
+INFO - 2020-10-01 21:22:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:22:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:22:21 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:22:21 --> URI Class Initialized
+INFO - 2020-10-01 21:22:21 --> Router Class Initialized
+INFO - 2020-10-01 21:22:21 --> Output Class Initialized
+INFO - 2020-10-01 21:22:21 --> Security Class Initialized
+DEBUG - 2020-10-01 21:22:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:22:21 --> Input Class Initialized
+INFO - 2020-10-01 21:22:21 --> Language Class Initialized
+ERROR - 2020-10-01 21:22:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:22:22 --> Config Class Initialized
+INFO - 2020-10-01 21:22:22 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:22:22 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:22:22 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:22:22 --> URI Class Initialized
+INFO - 2020-10-01 21:22:22 --> Router Class Initialized
+INFO - 2020-10-01 21:22:23 --> Output Class Initialized
+INFO - 2020-10-01 21:22:23 --> Security Class Initialized
+DEBUG - 2020-10-01 21:22:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:22:23 --> Input Class Initialized
+INFO - 2020-10-01 21:22:23 --> Language Class Initialized
+ERROR - 2020-10-01 21:22:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:22:23 --> Config Class Initialized
+INFO - 2020-10-01 21:22:23 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:22:23 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:22:23 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:22:23 --> URI Class Initialized
+INFO - 2020-10-01 21:22:23 --> Router Class Initialized
+INFO - 2020-10-01 21:22:23 --> Output Class Initialized
+INFO - 2020-10-01 21:22:23 --> Security Class Initialized
+DEBUG - 2020-10-01 21:22:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:22:23 --> Input Class Initialized
+INFO - 2020-10-01 21:22:23 --> Language Class Initialized
+ERROR - 2020-10-01 21:22:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:22:26 --> Config Class Initialized
+INFO - 2020-10-01 21:22:26 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:22:26 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:22:26 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:22:26 --> URI Class Initialized
+INFO - 2020-10-01 21:22:26 --> Router Class Initialized
+INFO - 2020-10-01 21:22:26 --> Output Class Initialized
+INFO - 2020-10-01 21:22:26 --> Security Class Initialized
+DEBUG - 2020-10-01 21:22:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:22:26 --> Input Class Initialized
+INFO - 2020-10-01 21:22:27 --> Language Class Initialized
+ERROR - 2020-10-01 21:24:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:24:20 --> Config Class Initialized
+INFO - 2020-10-01 21:24:20 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:24:20 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:24:20 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:24:20 --> URI Class Initialized
+INFO - 2020-10-01 21:24:20 --> Router Class Initialized
+INFO - 2020-10-01 21:24:20 --> Output Class Initialized
+INFO - 2020-10-01 21:24:20 --> Security Class Initialized
+DEBUG - 2020-10-01 21:24:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:24:20 --> Input Class Initialized
+INFO - 2020-10-01 21:24:20 --> Language Class Initialized
+ERROR - 2020-10-01 21:24:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:24:55 --> Config Class Initialized
+INFO - 2020-10-01 21:24:55 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:24:55 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:24:55 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:24:55 --> URI Class Initialized
+INFO - 2020-10-01 21:24:55 --> Router Class Initialized
+INFO - 2020-10-01 21:24:55 --> Output Class Initialized
+INFO - 2020-10-01 21:24:55 --> Security Class Initialized
+DEBUG - 2020-10-01 21:24:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:24:55 --> Input Class Initialized
+INFO - 2020-10-01 21:24:55 --> Language Class Initialized
+ERROR - 2020-10-01 21:25:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:25:27 --> Config Class Initialized
+INFO - 2020-10-01 21:25:27 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:25:27 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:25:27 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:25:27 --> URI Class Initialized
+INFO - 2020-10-01 21:25:27 --> Router Class Initialized
+INFO - 2020-10-01 21:25:27 --> Output Class Initialized
+INFO - 2020-10-01 21:25:27 --> Security Class Initialized
+DEBUG - 2020-10-01 21:25:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:25:27 --> Input Class Initialized
+INFO - 2020-10-01 21:25:27 --> Language Class Initialized
+ERROR - 2020-10-01 21:26:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:26:07 --> Config Class Initialized
+INFO - 2020-10-01 21:26:07 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:26:07 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:26:07 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:26:07 --> URI Class Initialized
+INFO - 2020-10-01 21:26:07 --> Router Class Initialized
+INFO - 2020-10-01 21:26:07 --> Output Class Initialized
+INFO - 2020-10-01 21:26:07 --> Security Class Initialized
+DEBUG - 2020-10-01 21:26:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:26:07 --> Input Class Initialized
+INFO - 2020-10-01 21:26:07 --> Language Class Initialized
+ERROR - 2020-10-01 21:27:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:27:16 --> Config Class Initialized
+INFO - 2020-10-01 21:27:16 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:27:16 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:27:16 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:27:16 --> URI Class Initialized
+INFO - 2020-10-01 21:27:16 --> Router Class Initialized
+INFO - 2020-10-01 21:27:16 --> Output Class Initialized
+INFO - 2020-10-01 21:27:16 --> Security Class Initialized
+DEBUG - 2020-10-01 21:27:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:27:16 --> Input Class Initialized
+INFO - 2020-10-01 21:27:16 --> Language Class Initialized
+ERROR - 2020-10-01 21:28:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:28:01 --> Config Class Initialized
+INFO - 2020-10-01 21:28:01 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:28:01 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:28:01 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:28:01 --> URI Class Initialized
+INFO - 2020-10-01 21:28:01 --> Router Class Initialized
+INFO - 2020-10-01 21:28:01 --> Output Class Initialized
+INFO - 2020-10-01 21:28:01 --> Security Class Initialized
+DEBUG - 2020-10-01 21:28:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:28:01 --> Input Class Initialized
+INFO - 2020-10-01 21:28:01 --> Language Class Initialized
+ERROR - 2020-10-01 21:28:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:28:29 --> Config Class Initialized
+INFO - 2020-10-01 21:28:30 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:28:30 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:28:30 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:28:30 --> URI Class Initialized
+INFO - 2020-10-01 21:28:30 --> Router Class Initialized
+INFO - 2020-10-01 21:28:30 --> Output Class Initialized
+INFO - 2020-10-01 21:28:30 --> Security Class Initialized
+DEBUG - 2020-10-01 21:28:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:28:30 --> Input Class Initialized
+INFO - 2020-10-01 21:28:30 --> Language Class Initialized
+ERROR - 2020-10-01 21:29:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:29:10 --> Config Class Initialized
+INFO - 2020-10-01 21:29:10 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:29:10 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:29:10 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:29:10 --> URI Class Initialized
+INFO - 2020-10-01 21:29:10 --> Router Class Initialized
+INFO - 2020-10-01 21:29:10 --> Output Class Initialized
+INFO - 2020-10-01 21:29:10 --> Security Class Initialized
+DEBUG - 2020-10-01 21:29:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:29:10 --> Input Class Initialized
+INFO - 2020-10-01 21:29:10 --> Language Class Initialized
+ERROR - 2020-10-01 21:29:37 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:29:37 --> Config Class Initialized
+INFO - 2020-10-01 21:29:37 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:29:37 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:29:37 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:29:37 --> URI Class Initialized
+INFO - 2020-10-01 21:29:37 --> Router Class Initialized
+INFO - 2020-10-01 21:29:37 --> Output Class Initialized
+INFO - 2020-10-01 21:29:37 --> Security Class Initialized
+DEBUG - 2020-10-01 21:29:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:29:37 --> Input Class Initialized
+INFO - 2020-10-01 21:29:37 --> Language Class Initialized
+ERROR - 2020-10-01 21:29:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:29:52 --> Config Class Initialized
+INFO - 2020-10-01 21:29:52 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:29:52 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:29:52 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:29:52 --> URI Class Initialized
+INFO - 2020-10-01 21:29:52 --> Router Class Initialized
+INFO - 2020-10-01 21:29:52 --> Output Class Initialized
+INFO - 2020-10-01 21:29:52 --> Security Class Initialized
+DEBUG - 2020-10-01 21:29:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:29:52 --> Input Class Initialized
+INFO - 2020-10-01 21:29:52 --> Language Class Initialized
+ERROR - 2020-10-01 21:30:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:30:50 --> Config Class Initialized
+INFO - 2020-10-01 21:30:50 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:30:50 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:30:50 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:30:50 --> URI Class Initialized
+INFO - 2020-10-01 21:30:50 --> Router Class Initialized
+INFO - 2020-10-01 21:30:50 --> Output Class Initialized
+INFO - 2020-10-01 21:30:50 --> Security Class Initialized
+DEBUG - 2020-10-01 21:30:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:30:50 --> Input Class Initialized
+INFO - 2020-10-01 21:30:50 --> Language Class Initialized
+ERROR - 2020-10-01 21:31:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:31:09 --> Config Class Initialized
+INFO - 2020-10-01 21:31:09 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:31:09 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:31:09 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:31:09 --> URI Class Initialized
+INFO - 2020-10-01 21:31:09 --> Router Class Initialized
+INFO - 2020-10-01 21:31:09 --> Output Class Initialized
+INFO - 2020-10-01 21:31:09 --> Security Class Initialized
+DEBUG - 2020-10-01 21:31:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:31:09 --> Input Class Initialized
+INFO - 2020-10-01 21:31:09 --> Language Class Initialized
+ERROR - 2020-10-01 21:31:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:31:44 --> Config Class Initialized
+INFO - 2020-10-01 21:31:44 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:31:44 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:31:44 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:31:44 --> URI Class Initialized
+INFO - 2020-10-01 21:31:44 --> Router Class Initialized
+INFO - 2020-10-01 21:31:44 --> Output Class Initialized
+INFO - 2020-10-01 21:31:44 --> Security Class Initialized
+DEBUG - 2020-10-01 21:31:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:31:44 --> Input Class Initialized
+INFO - 2020-10-01 21:31:44 --> Language Class Initialized
+ERROR - 2020-10-01 21:32:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:32:08 --> Config Class Initialized
+INFO - 2020-10-01 21:32:08 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:32:08 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:32:08 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:32:08 --> URI Class Initialized
+INFO - 2020-10-01 21:32:08 --> Router Class Initialized
+INFO - 2020-10-01 21:32:08 --> Output Class Initialized
+INFO - 2020-10-01 21:32:08 --> Security Class Initialized
+DEBUG - 2020-10-01 21:32:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:32:08 --> Input Class Initialized
+INFO - 2020-10-01 21:32:08 --> Language Class Initialized
+ERROR - 2020-10-01 21:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:32:24 --> Config Class Initialized
+INFO - 2020-10-01 21:32:24 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:32:24 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:32:24 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:32:24 --> URI Class Initialized
+INFO - 2020-10-01 21:32:24 --> Router Class Initialized
+INFO - 2020-10-01 21:32:24 --> Output Class Initialized
+INFO - 2020-10-01 21:32:24 --> Security Class Initialized
+DEBUG - 2020-10-01 21:32:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:32:24 --> Input Class Initialized
+INFO - 2020-10-01 21:32:24 --> Language Class Initialized
+ERROR - 2020-10-01 21:32:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:32:44 --> Config Class Initialized
+INFO - 2020-10-01 21:32:44 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:32:44 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:32:44 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:32:44 --> URI Class Initialized
+INFO - 2020-10-01 21:32:44 --> Router Class Initialized
+INFO - 2020-10-01 21:32:44 --> Output Class Initialized
+INFO - 2020-10-01 21:32:44 --> Security Class Initialized
+DEBUG - 2020-10-01 21:32:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:32:44 --> Input Class Initialized
+INFO - 2020-10-01 21:32:44 --> Language Class Initialized
+ERROR - 2020-10-01 21:33:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:33:28 --> Config Class Initialized
+INFO - 2020-10-01 21:33:28 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:33:28 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:33:28 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:33:28 --> URI Class Initialized
+INFO - 2020-10-01 21:33:28 --> Router Class Initialized
+INFO - 2020-10-01 21:33:28 --> Output Class Initialized
+INFO - 2020-10-01 21:33:28 --> Security Class Initialized
+DEBUG - 2020-10-01 21:33:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:33:28 --> Input Class Initialized
+INFO - 2020-10-01 21:33:28 --> Language Class Initialized
+ERROR - 2020-10-01 21:33:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:33:30 --> Config Class Initialized
+INFO - 2020-10-01 21:33:30 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:33:30 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:33:30 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:33:30 --> URI Class Initialized
+INFO - 2020-10-01 21:33:30 --> Router Class Initialized
+INFO - 2020-10-01 21:33:30 --> Output Class Initialized
+INFO - 2020-10-01 21:33:30 --> Security Class Initialized
+DEBUG - 2020-10-01 21:33:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:33:30 --> Input Class Initialized
+INFO - 2020-10-01 21:33:30 --> Language Class Initialized
+ERROR - 2020-10-01 21:33:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:33:31 --> Config Class Initialized
+INFO - 2020-10-01 21:33:31 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:33:31 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:33:31 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:33:31 --> URI Class Initialized
+INFO - 2020-10-01 21:33:31 --> Router Class Initialized
+INFO - 2020-10-01 21:33:31 --> Output Class Initialized
+INFO - 2020-10-01 21:33:31 --> Security Class Initialized
+DEBUG - 2020-10-01 21:33:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:33:31 --> Input Class Initialized
+INFO - 2020-10-01 21:33:31 --> Language Class Initialized
+ERROR - 2020-10-01 21:33:33 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:33:33 --> Config Class Initialized
+INFO - 2020-10-01 21:33:33 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:33:33 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:33:33 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:33:33 --> URI Class Initialized
+INFO - 2020-10-01 21:33:33 --> Router Class Initialized
+INFO - 2020-10-01 21:33:33 --> Output Class Initialized
+INFO - 2020-10-01 21:33:33 --> Security Class Initialized
+DEBUG - 2020-10-01 21:33:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:33:33 --> Input Class Initialized
+INFO - 2020-10-01 21:33:33 --> Language Class Initialized
+ERROR - 2020-10-01 21:33:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:33:40 --> Config Class Initialized
+INFO - 2020-10-01 21:33:40 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:33:40 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:33:40 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:33:40 --> URI Class Initialized
+INFO - 2020-10-01 21:33:40 --> Router Class Initialized
+INFO - 2020-10-01 21:33:40 --> Output Class Initialized
+INFO - 2020-10-01 21:33:40 --> Security Class Initialized
+DEBUG - 2020-10-01 21:33:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:33:40 --> Input Class Initialized
+INFO - 2020-10-01 21:33:40 --> Language Class Initialized
+ERROR - 2020-10-01 21:33:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:33:41 --> Config Class Initialized
+INFO - 2020-10-01 21:33:41 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:33:41 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:33:41 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:33:41 --> URI Class Initialized
+INFO - 2020-10-01 21:33:41 --> Router Class Initialized
+INFO - 2020-10-01 21:33:41 --> Output Class Initialized
+INFO - 2020-10-01 21:33:41 --> Security Class Initialized
+DEBUG - 2020-10-01 21:33:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:33:41 --> Input Class Initialized
+INFO - 2020-10-01 21:33:41 --> Language Class Initialized
+ERROR - 2020-10-01 21:34:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:34:05 --> Config Class Initialized
+INFO - 2020-10-01 21:34:05 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:34:05 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:34:05 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:34:05 --> URI Class Initialized
+INFO - 2020-10-01 21:34:05 --> Router Class Initialized
+INFO - 2020-10-01 21:34:05 --> Output Class Initialized
+INFO - 2020-10-01 21:34:05 --> Security Class Initialized
+DEBUG - 2020-10-01 21:34:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:34:05 --> Input Class Initialized
+INFO - 2020-10-01 21:34:05 --> Language Class Initialized
+ERROR - 2020-10-01 21:34:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:34:20 --> Config Class Initialized
+INFO - 2020-10-01 21:34:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:34:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:34:21 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:34:21 --> URI Class Initialized
+INFO - 2020-10-01 21:34:21 --> Router Class Initialized
+INFO - 2020-10-01 21:34:21 --> Output Class Initialized
+INFO - 2020-10-01 21:34:21 --> Security Class Initialized
+DEBUG - 2020-10-01 21:34:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:34:21 --> Input Class Initialized
+INFO - 2020-10-01 21:34:21 --> Language Class Initialized
+ERROR - 2020-10-01 21:34:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:34:21 --> Config Class Initialized
+INFO - 2020-10-01 21:34:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:34:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:34:22 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:34:22 --> URI Class Initialized
+INFO - 2020-10-01 21:34:22 --> Router Class Initialized
+INFO - 2020-10-01 21:34:22 --> Output Class Initialized
+INFO - 2020-10-01 21:34:22 --> Security Class Initialized
+DEBUG - 2020-10-01 21:34:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:34:22 --> Input Class Initialized
+INFO - 2020-10-01 21:34:22 --> Language Class Initialized
+ERROR - 2020-10-01 21:38:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:38:18 --> Config Class Initialized
+INFO - 2020-10-01 21:38:18 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:38:18 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:38:18 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:38:18 --> URI Class Initialized
+INFO - 2020-10-01 21:38:18 --> Router Class Initialized
+INFO - 2020-10-01 21:38:18 --> Output Class Initialized
+INFO - 2020-10-01 21:38:18 --> Security Class Initialized
+DEBUG - 2020-10-01 21:38:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:38:18 --> Input Class Initialized
+INFO - 2020-10-01 21:38:18 --> Language Class Initialized
+ERROR - 2020-10-01 21:38:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:38:58 --> Config Class Initialized
+INFO - 2020-10-01 21:38:58 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:38:58 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:38:58 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:38:58 --> URI Class Initialized
+INFO - 2020-10-01 21:38:58 --> Router Class Initialized
+INFO - 2020-10-01 21:38:58 --> Output Class Initialized
+INFO - 2020-10-01 21:38:58 --> Security Class Initialized
+DEBUG - 2020-10-01 21:38:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:38:58 --> Input Class Initialized
+INFO - 2020-10-01 21:38:58 --> Language Class Initialized
+ERROR - 2020-10-01 21:39:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:39:36 --> Config Class Initialized
+INFO - 2020-10-01 21:39:36 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:39:36 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:39:36 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:39:36 --> URI Class Initialized
+INFO - 2020-10-01 21:39:36 --> Router Class Initialized
+INFO - 2020-10-01 21:39:36 --> Output Class Initialized
+INFO - 2020-10-01 21:39:36 --> Security Class Initialized
+DEBUG - 2020-10-01 21:39:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:39:36 --> Input Class Initialized
+INFO - 2020-10-01 21:39:36 --> Language Class Initialized
+ERROR - 2020-10-01 21:39:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:39:39 --> Config Class Initialized
+INFO - 2020-10-01 21:39:39 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:39:39 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:39:39 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:39:39 --> URI Class Initialized
+INFO - 2020-10-01 21:39:39 --> Router Class Initialized
+INFO - 2020-10-01 21:39:39 --> Output Class Initialized
+INFO - 2020-10-01 21:39:39 --> Security Class Initialized
+DEBUG - 2020-10-01 21:39:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:39:39 --> Input Class Initialized
+INFO - 2020-10-01 21:39:39 --> Language Class Initialized
+ERROR - 2020-10-01 21:39:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:39:58 --> Config Class Initialized
+INFO - 2020-10-01 21:39:58 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:39:58 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:39:58 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:39:59 --> URI Class Initialized
+INFO - 2020-10-01 21:39:59 --> Router Class Initialized
+INFO - 2020-10-01 21:39:59 --> Output Class Initialized
+INFO - 2020-10-01 21:39:59 --> Security Class Initialized
+DEBUG - 2020-10-01 21:39:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:39:59 --> Input Class Initialized
+INFO - 2020-10-01 21:39:59 --> Language Class Initialized
+ERROR - 2020-10-01 21:40:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:40:13 --> Config Class Initialized
+INFO - 2020-10-01 21:40:13 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:40:13 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:40:13 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:40:13 --> URI Class Initialized
+INFO - 2020-10-01 21:40:13 --> Router Class Initialized
+INFO - 2020-10-01 21:40:13 --> Output Class Initialized
+INFO - 2020-10-01 21:40:13 --> Security Class Initialized
+DEBUG - 2020-10-01 21:40:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:40:13 --> Input Class Initialized
+INFO - 2020-10-01 21:40:14 --> Language Class Initialized
+ERROR - 2020-10-01 21:42:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:42:38 --> Config Class Initialized
+INFO - 2020-10-01 21:42:38 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:42:38 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:42:38 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:42:38 --> URI Class Initialized
+INFO - 2020-10-01 21:42:38 --> Router Class Initialized
+INFO - 2020-10-01 21:42:38 --> Output Class Initialized
+INFO - 2020-10-01 21:42:38 --> Security Class Initialized
+DEBUG - 2020-10-01 21:42:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:42:38 --> Input Class Initialized
+INFO - 2020-10-01 21:42:38 --> Language Class Initialized
+ERROR - 2020-10-01 21:42:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:42:39 --> Config Class Initialized
+INFO - 2020-10-01 21:42:39 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:42:39 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:42:39 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:42:39 --> URI Class Initialized
+INFO - 2020-10-01 21:42:39 --> Router Class Initialized
+INFO - 2020-10-01 21:42:39 --> Output Class Initialized
+INFO - 2020-10-01 21:42:39 --> Security Class Initialized
+DEBUG - 2020-10-01 21:42:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:42:39 --> Input Class Initialized
+INFO - 2020-10-01 21:42:39 --> Language Class Initialized
+ERROR - 2020-10-01 21:42:56 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:42:56 --> Config Class Initialized
+INFO - 2020-10-01 21:42:56 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:42:56 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:42:56 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:42:56 --> URI Class Initialized
+INFO - 2020-10-01 21:42:56 --> Router Class Initialized
+INFO - 2020-10-01 21:42:56 --> Output Class Initialized
+INFO - 2020-10-01 21:42:56 --> Security Class Initialized
+DEBUG - 2020-10-01 21:42:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:42:56 --> Input Class Initialized
+INFO - 2020-10-01 21:42:56 --> Language Class Initialized
+ERROR - 2020-10-01 21:42:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:42:58 --> Config Class Initialized
+INFO - 2020-10-01 21:42:58 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:42:58 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:42:58 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:42:58 --> URI Class Initialized
+INFO - 2020-10-01 21:42:58 --> Router Class Initialized
+INFO - 2020-10-01 21:42:58 --> Output Class Initialized
+INFO - 2020-10-01 21:42:58 --> Security Class Initialized
+DEBUG - 2020-10-01 21:42:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:42:58 --> Input Class Initialized
+INFO - 2020-10-01 21:42:58 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:14 --> Config Class Initialized
+INFO - 2020-10-01 21:43:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:14 --> URI Class Initialized
+INFO - 2020-10-01 21:43:14 --> Router Class Initialized
+INFO - 2020-10-01 21:43:14 --> Output Class Initialized
+INFO - 2020-10-01 21:43:14 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:14 --> Input Class Initialized
+INFO - 2020-10-01 21:43:14 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:15 --> Config Class Initialized
+INFO - 2020-10-01 21:43:15 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:15 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:15 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:15 --> URI Class Initialized
+INFO - 2020-10-01 21:43:15 --> Router Class Initialized
+INFO - 2020-10-01 21:43:15 --> Output Class Initialized
+INFO - 2020-10-01 21:43:15 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:15 --> Input Class Initialized
+INFO - 2020-10-01 21:43:15 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:28 --> Config Class Initialized
+INFO - 2020-10-01 21:43:28 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:28 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:28 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:28 --> URI Class Initialized
+INFO - 2020-10-01 21:43:28 --> Router Class Initialized
+INFO - 2020-10-01 21:43:28 --> Output Class Initialized
+INFO - 2020-10-01 21:43:28 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:28 --> Input Class Initialized
+INFO - 2020-10-01 21:43:28 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:30 --> Config Class Initialized
+INFO - 2020-10-01 21:43:30 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:30 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:30 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:30 --> URI Class Initialized
+INFO - 2020-10-01 21:43:30 --> Router Class Initialized
+INFO - 2020-10-01 21:43:30 --> Output Class Initialized
+INFO - 2020-10-01 21:43:30 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:30 --> Input Class Initialized
+INFO - 2020-10-01 21:43:30 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:36 --> Config Class Initialized
+INFO - 2020-10-01 21:43:36 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:36 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:36 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:36 --> URI Class Initialized
+INFO - 2020-10-01 21:43:36 --> Router Class Initialized
+INFO - 2020-10-01 21:43:36 --> Output Class Initialized
+INFO - 2020-10-01 21:43:36 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:36 --> Input Class Initialized
+INFO - 2020-10-01 21:43:36 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:38 --> Config Class Initialized
+INFO - 2020-10-01 21:43:38 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:38 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:38 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:38 --> URI Class Initialized
+INFO - 2020-10-01 21:43:38 --> Router Class Initialized
+INFO - 2020-10-01 21:43:38 --> Output Class Initialized
+INFO - 2020-10-01 21:43:38 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:38 --> Input Class Initialized
+INFO - 2020-10-01 21:43:38 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:52 --> Config Class Initialized
+INFO - 2020-10-01 21:43:52 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:52 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:52 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:52 --> URI Class Initialized
+INFO - 2020-10-01 21:43:52 --> Router Class Initialized
+INFO - 2020-10-01 21:43:52 --> Output Class Initialized
+INFO - 2020-10-01 21:43:52 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:52 --> Input Class Initialized
+INFO - 2020-10-01 21:43:52 --> Language Class Initialized
+ERROR - 2020-10-01 21:43:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:43:53 --> Config Class Initialized
+INFO - 2020-10-01 21:43:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:43:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:43:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:43:53 --> URI Class Initialized
+INFO - 2020-10-01 21:43:53 --> Router Class Initialized
+INFO - 2020-10-01 21:43:53 --> Output Class Initialized
+INFO - 2020-10-01 21:43:53 --> Security Class Initialized
+DEBUG - 2020-10-01 21:43:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:43:54 --> Input Class Initialized
+INFO - 2020-10-01 21:43:54 --> Language Class Initialized
+ERROR - 2020-10-01 21:44:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:44:00 --> Config Class Initialized
+INFO - 2020-10-01 21:44:00 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:44:00 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:44:00 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:44:00 --> URI Class Initialized
+INFO - 2020-10-01 21:44:00 --> Router Class Initialized
+INFO - 2020-10-01 21:44:00 --> Output Class Initialized
+INFO - 2020-10-01 21:44:00 --> Security Class Initialized
+DEBUG - 2020-10-01 21:44:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:44:00 --> Input Class Initialized
+INFO - 2020-10-01 21:44:00 --> Language Class Initialized
+ERROR - 2020-10-01 21:44:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:44:01 --> Config Class Initialized
+INFO - 2020-10-01 21:44:01 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:44:01 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:44:01 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:44:01 --> URI Class Initialized
+INFO - 2020-10-01 21:44:01 --> Router Class Initialized
+INFO - 2020-10-01 21:44:01 --> Output Class Initialized
+INFO - 2020-10-01 21:44:01 --> Security Class Initialized
+DEBUG - 2020-10-01 21:44:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:44:01 --> Input Class Initialized
+INFO - 2020-10-01 21:44:01 --> Language Class Initialized
+ERROR - 2020-10-01 21:44:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:44:48 --> Config Class Initialized
+INFO - 2020-10-01 21:44:48 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:44:48 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:44:48 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:44:48 --> URI Class Initialized
+INFO - 2020-10-01 21:44:48 --> Router Class Initialized
+INFO - 2020-10-01 21:44:48 --> Output Class Initialized
+INFO - 2020-10-01 21:44:48 --> Security Class Initialized
+DEBUG - 2020-10-01 21:44:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:44:48 --> Input Class Initialized
+INFO - 2020-10-01 21:44:48 --> Language Class Initialized
+ERROR - 2020-10-01 21:44:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:44:49 --> Config Class Initialized
+INFO - 2020-10-01 21:44:49 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:44:49 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:44:49 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:44:49 --> URI Class Initialized
+INFO - 2020-10-01 21:44:49 --> Router Class Initialized
+INFO - 2020-10-01 21:44:49 --> Output Class Initialized
+INFO - 2020-10-01 21:44:49 --> Security Class Initialized
+DEBUG - 2020-10-01 21:44:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:44:49 --> Input Class Initialized
+INFO - 2020-10-01 21:44:49 --> Language Class Initialized
+ERROR - 2020-10-01 21:44:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:44:55 --> Config Class Initialized
+INFO - 2020-10-01 21:44:55 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:44:55 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:44:55 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:44:55 --> URI Class Initialized
+INFO - 2020-10-01 21:44:55 --> Router Class Initialized
+INFO - 2020-10-01 21:44:55 --> Output Class Initialized
+INFO - 2020-10-01 21:44:55 --> Security Class Initialized
+DEBUG - 2020-10-01 21:44:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:44:55 --> Input Class Initialized
+INFO - 2020-10-01 21:44:55 --> Language Class Initialized
+ERROR - 2020-10-01 21:45:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:45:11 --> Config Class Initialized
+INFO - 2020-10-01 21:45:11 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:45:11 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:45:11 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:45:11 --> URI Class Initialized
+INFO - 2020-10-01 21:45:11 --> Router Class Initialized
+INFO - 2020-10-01 21:45:11 --> Output Class Initialized
+INFO - 2020-10-01 21:45:11 --> Security Class Initialized
+DEBUG - 2020-10-01 21:45:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:45:11 --> Input Class Initialized
+INFO - 2020-10-01 21:45:11 --> Language Class Initialized
+ERROR - 2020-10-01 21:45:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:45:11 --> Config Class Initialized
+INFO - 2020-10-01 21:45:11 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:45:11 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:45:11 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:45:11 --> URI Class Initialized
+INFO - 2020-10-01 21:45:11 --> Router Class Initialized
+INFO - 2020-10-01 21:45:12 --> Output Class Initialized
+INFO - 2020-10-01 21:45:12 --> Security Class Initialized
+DEBUG - 2020-10-01 21:45:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:45:12 --> Input Class Initialized
+INFO - 2020-10-01 21:45:12 --> Language Class Initialized
+ERROR - 2020-10-01 21:45:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:45:13 --> Config Class Initialized
+INFO - 2020-10-01 21:45:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:45:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:45:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:45:14 --> URI Class Initialized
+INFO - 2020-10-01 21:45:14 --> Router Class Initialized
+INFO - 2020-10-01 21:45:14 --> Output Class Initialized
+INFO - 2020-10-01 21:45:14 --> Security Class Initialized
+DEBUG - 2020-10-01 21:45:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:45:14 --> Input Class Initialized
+INFO - 2020-10-01 21:45:14 --> Language Class Initialized
+ERROR - 2020-10-01 21:45:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:45:18 --> Config Class Initialized
+INFO - 2020-10-01 21:45:18 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:45:18 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:45:18 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:45:18 --> URI Class Initialized
+INFO - 2020-10-01 21:45:18 --> Router Class Initialized
+INFO - 2020-10-01 21:45:18 --> Output Class Initialized
+INFO - 2020-10-01 21:45:18 --> Security Class Initialized
+DEBUG - 2020-10-01 21:45:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:45:18 --> Input Class Initialized
+INFO - 2020-10-01 21:45:18 --> Language Class Initialized
+ERROR - 2020-10-01 21:45:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:45:19 --> Config Class Initialized
+INFO - 2020-10-01 21:45:19 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:45:19 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:45:19 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:45:19 --> URI Class Initialized
+INFO - 2020-10-01 21:45:19 --> Router Class Initialized
+INFO - 2020-10-01 21:45:19 --> Output Class Initialized
+INFO - 2020-10-01 21:45:19 --> Security Class Initialized
+DEBUG - 2020-10-01 21:45:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:45:19 --> Input Class Initialized
+INFO - 2020-10-01 21:45:19 --> Language Class Initialized
+ERROR - 2020-10-01 21:45:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:45:21 --> Config Class Initialized
+INFO - 2020-10-01 21:45:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:45:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:45:21 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:45:21 --> URI Class Initialized
+INFO - 2020-10-01 21:45:21 --> Router Class Initialized
+INFO - 2020-10-01 21:45:21 --> Output Class Initialized
+INFO - 2020-10-01 21:45:21 --> Security Class Initialized
+DEBUG - 2020-10-01 21:45:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:45:21 --> Input Class Initialized
+INFO - 2020-10-01 21:45:21 --> Language Class Initialized
+ERROR - 2020-10-01 21:46:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:46:11 --> Config Class Initialized
+INFO - 2020-10-01 21:46:11 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:46:11 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:46:11 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:46:11 --> URI Class Initialized
+INFO - 2020-10-01 21:46:11 --> Router Class Initialized
+INFO - 2020-10-01 21:46:11 --> Output Class Initialized
+INFO - 2020-10-01 21:46:11 --> Security Class Initialized
+DEBUG - 2020-10-01 21:46:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:46:11 --> Input Class Initialized
+INFO - 2020-10-01 21:46:11 --> Language Class Initialized
+ERROR - 2020-10-01 21:46:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:46:12 --> Config Class Initialized
+INFO - 2020-10-01 21:46:12 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:46:12 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:46:12 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:46:12 --> URI Class Initialized
+INFO - 2020-10-01 21:46:13 --> Router Class Initialized
+INFO - 2020-10-01 21:46:13 --> Output Class Initialized
+INFO - 2020-10-01 21:46:13 --> Security Class Initialized
+DEBUG - 2020-10-01 21:46:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:46:13 --> Input Class Initialized
+INFO - 2020-10-01 21:46:13 --> Language Class Initialized
+ERROR - 2020-10-01 21:46:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:46:13 --> Config Class Initialized
+INFO - 2020-10-01 21:46:13 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:46:13 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:46:13 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:46:13 --> URI Class Initialized
+INFO - 2020-10-01 21:46:13 --> Router Class Initialized
+INFO - 2020-10-01 21:46:13 --> Output Class Initialized
+INFO - 2020-10-01 21:46:13 --> Security Class Initialized
+DEBUG - 2020-10-01 21:46:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:46:14 --> Input Class Initialized
+INFO - 2020-10-01 21:46:14 --> Language Class Initialized
+ERROR - 2020-10-01 21:46:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:46:45 --> Config Class Initialized
+INFO - 2020-10-01 21:46:45 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:46:45 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:46:45 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:46:45 --> URI Class Initialized
+INFO - 2020-10-01 21:46:45 --> Router Class Initialized
+INFO - 2020-10-01 21:46:45 --> Output Class Initialized
+INFO - 2020-10-01 21:46:45 --> Security Class Initialized
+DEBUG - 2020-10-01 21:46:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:46:45 --> Input Class Initialized
+INFO - 2020-10-01 21:46:45 --> Language Class Initialized
+ERROR - 2020-10-01 21:46:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:46:54 --> Config Class Initialized
+INFO - 2020-10-01 21:46:54 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:46:54 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:46:54 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:46:54 --> URI Class Initialized
+INFO - 2020-10-01 21:46:54 --> Router Class Initialized
+INFO - 2020-10-01 21:46:54 --> Output Class Initialized
+INFO - 2020-10-01 21:46:54 --> Security Class Initialized
+DEBUG - 2020-10-01 21:46:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:46:54 --> Input Class Initialized
+INFO - 2020-10-01 21:46:54 --> Language Class Initialized
+ERROR - 2020-10-01 21:46:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:46:55 --> Config Class Initialized
+INFO - 2020-10-01 21:46:55 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:46:55 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:46:55 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:46:55 --> URI Class Initialized
+INFO - 2020-10-01 21:46:55 --> Router Class Initialized
+INFO - 2020-10-01 21:46:55 --> Output Class Initialized
+INFO - 2020-10-01 21:46:55 --> Security Class Initialized
+DEBUG - 2020-10-01 21:46:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:46:55 --> Input Class Initialized
+INFO - 2020-10-01 21:46:55 --> Language Class Initialized
+ERROR - 2020-10-01 21:47:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:47:02 --> Config Class Initialized
+INFO - 2020-10-01 21:47:02 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:47:02 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:47:02 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:47:02 --> URI Class Initialized
+INFO - 2020-10-01 21:47:02 --> Router Class Initialized
+INFO - 2020-10-01 21:47:02 --> Output Class Initialized
+INFO - 2020-10-01 21:47:02 --> Security Class Initialized
+DEBUG - 2020-10-01 21:47:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:47:02 --> Input Class Initialized
+INFO - 2020-10-01 21:47:02 --> Language Class Initialized
+ERROR - 2020-10-01 21:47:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 21:47:26 --> Config Class Initialized
+INFO - 2020-10-01 21:47:26 --> Hooks Class Initialized
+DEBUG - 2020-10-01 21:47:26 --> UTF-8 Support Enabled
+INFO - 2020-10-01 21:47:26 --> Utf8 Class Initialized
+INFO - 2020-10-01 21:47:26 --> URI Class Initialized
+INFO - 2020-10-01 21:47:26 --> Router Class Initialized
+INFO - 2020-10-01 21:47:26 --> Output Class Initialized
+INFO - 2020-10-01 21:47:26 --> Security Class Initialized
+DEBUG - 2020-10-01 21:47:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 21:47:27 --> Input Class Initialized
+INFO - 2020-10-01 21:47:27 --> Language Class Initialized
+ERROR - 2020-10-01 22:02:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:02:59 --> Config Class Initialized
+INFO - 2020-10-01 22:02:59 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:02:59 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:02:59 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:02:59 --> URI Class Initialized
+INFO - 2020-10-01 22:02:59 --> Router Class Initialized
+INFO - 2020-10-01 22:02:59 --> Output Class Initialized
+INFO - 2020-10-01 22:02:59 --> Security Class Initialized
+DEBUG - 2020-10-01 22:02:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:02:59 --> Input Class Initialized
+INFO - 2020-10-01 22:02:59 --> Language Class Initialized
+ERROR - 2020-10-01 22:03:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:03:18 --> Config Class Initialized
+INFO - 2020-10-01 22:03:18 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:03:18 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:03:18 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:03:18 --> URI Class Initialized
+INFO - 2020-10-01 22:03:18 --> Router Class Initialized
+INFO - 2020-10-01 22:03:18 --> Output Class Initialized
+INFO - 2020-10-01 22:03:18 --> Security Class Initialized
+DEBUG - 2020-10-01 22:03:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:03:18 --> Input Class Initialized
+INFO - 2020-10-01 22:03:18 --> Language Class Initialized
+ERROR - 2020-10-01 22:12:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:12:30 --> Config Class Initialized
+INFO - 2020-10-01 22:12:30 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:12:30 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:12:30 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:12:31 --> URI Class Initialized
+INFO - 2020-10-01 22:12:31 --> Router Class Initialized
+INFO - 2020-10-01 22:12:31 --> Output Class Initialized
+INFO - 2020-10-01 22:12:31 --> Security Class Initialized
+DEBUG - 2020-10-01 22:12:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:12:31 --> Input Class Initialized
+INFO - 2020-10-01 22:12:31 --> Language Class Initialized
+ERROR - 2020-10-01 22:12:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:12:31 --> Config Class Initialized
+INFO - 2020-10-01 22:12:31 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:12:31 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:12:31 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:12:32 --> URI Class Initialized
+INFO - 2020-10-01 22:12:32 --> Router Class Initialized
+INFO - 2020-10-01 22:12:32 --> Output Class Initialized
+INFO - 2020-10-01 22:12:32 --> Security Class Initialized
+DEBUG - 2020-10-01 22:12:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:12:32 --> Input Class Initialized
+INFO - 2020-10-01 22:12:32 --> Language Class Initialized
+ERROR - 2020-10-01 22:12:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:12:47 --> Config Class Initialized
+INFO - 2020-10-01 22:12:47 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:12:47 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:12:47 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:12:47 --> URI Class Initialized
+INFO - 2020-10-01 22:12:47 --> Router Class Initialized
+INFO - 2020-10-01 22:12:47 --> Output Class Initialized
+INFO - 2020-10-01 22:12:47 --> Security Class Initialized
+DEBUG - 2020-10-01 22:12:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:12:47 --> Input Class Initialized
+INFO - 2020-10-01 22:12:47 --> Language Class Initialized
+ERROR - 2020-10-01 22:12:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:12:48 --> Config Class Initialized
+INFO - 2020-10-01 22:12:48 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:12:48 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:12:48 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:12:48 --> URI Class Initialized
+INFO - 2020-10-01 22:12:48 --> Router Class Initialized
+INFO - 2020-10-01 22:12:48 --> Output Class Initialized
+INFO - 2020-10-01 22:12:48 --> Security Class Initialized
+DEBUG - 2020-10-01 22:12:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:12:48 --> Input Class Initialized
+INFO - 2020-10-01 22:12:48 --> Language Class Initialized
+ERROR - 2020-10-01 22:13:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:13:07 --> Config Class Initialized
+INFO - 2020-10-01 22:13:07 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:13:07 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:13:07 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:13:07 --> URI Class Initialized
+INFO - 2020-10-01 22:13:07 --> Router Class Initialized
+INFO - 2020-10-01 22:13:07 --> Output Class Initialized
+INFO - 2020-10-01 22:13:07 --> Security Class Initialized
+DEBUG - 2020-10-01 22:13:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:13:07 --> Input Class Initialized
+INFO - 2020-10-01 22:13:07 --> Language Class Initialized
+ERROR - 2020-10-01 22:13:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:13:08 --> Config Class Initialized
+INFO - 2020-10-01 22:13:08 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:13:08 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:13:08 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:13:08 --> URI Class Initialized
+INFO - 2020-10-01 22:13:08 --> Router Class Initialized
+INFO - 2020-10-01 22:13:08 --> Output Class Initialized
+INFO - 2020-10-01 22:13:08 --> Security Class Initialized
+DEBUG - 2020-10-01 22:13:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:13:08 --> Input Class Initialized
+INFO - 2020-10-01 22:13:08 --> Language Class Initialized
+ERROR - 2020-10-01 22:13:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:13:35 --> Config Class Initialized
+INFO - 2020-10-01 22:13:35 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:13:35 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:13:35 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:13:35 --> URI Class Initialized
+INFO - 2020-10-01 22:13:35 --> Router Class Initialized
+INFO - 2020-10-01 22:13:35 --> Output Class Initialized
+INFO - 2020-10-01 22:13:35 --> Security Class Initialized
+DEBUG - 2020-10-01 22:13:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:13:35 --> Input Class Initialized
+INFO - 2020-10-01 22:13:35 --> Language Class Initialized
+ERROR - 2020-10-01 22:13:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:13:36 --> Config Class Initialized
+INFO - 2020-10-01 22:13:36 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:13:36 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:13:36 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:13:36 --> URI Class Initialized
+INFO - 2020-10-01 22:13:36 --> Router Class Initialized
+INFO - 2020-10-01 22:13:36 --> Output Class Initialized
+INFO - 2020-10-01 22:13:36 --> Security Class Initialized
+DEBUG - 2020-10-01 22:13:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:13:36 --> Input Class Initialized
+INFO - 2020-10-01 22:13:36 --> Language Class Initialized
+ERROR - 2020-10-01 22:14:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:14:14 --> Config Class Initialized
+INFO - 2020-10-01 22:14:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:14:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:14:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:14:14 --> URI Class Initialized
+INFO - 2020-10-01 22:14:14 --> Router Class Initialized
+INFO - 2020-10-01 22:14:14 --> Output Class Initialized
+INFO - 2020-10-01 22:14:14 --> Security Class Initialized
+DEBUG - 2020-10-01 22:14:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:14:14 --> Input Class Initialized
+INFO - 2020-10-01 22:14:14 --> Language Class Initialized
+ERROR - 2020-10-01 22:14:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:14:15 --> Config Class Initialized
+INFO - 2020-10-01 22:14:15 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:14:15 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:14:15 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:14:15 --> URI Class Initialized
+INFO - 2020-10-01 22:14:15 --> Router Class Initialized
+INFO - 2020-10-01 22:14:15 --> Output Class Initialized
+INFO - 2020-10-01 22:14:15 --> Security Class Initialized
+DEBUG - 2020-10-01 22:14:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:14:15 --> Input Class Initialized
+INFO - 2020-10-01 22:14:15 --> Language Class Initialized
+ERROR - 2020-10-01 22:14:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:14:43 --> Config Class Initialized
+INFO - 2020-10-01 22:14:43 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:14:43 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:14:43 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:14:43 --> URI Class Initialized
+INFO - 2020-10-01 22:14:43 --> Router Class Initialized
+INFO - 2020-10-01 22:14:43 --> Output Class Initialized
+INFO - 2020-10-01 22:14:43 --> Security Class Initialized
+DEBUG - 2020-10-01 22:14:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:14:43 --> Input Class Initialized
+INFO - 2020-10-01 22:14:43 --> Language Class Initialized
+ERROR - 2020-10-01 22:14:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:14:44 --> Config Class Initialized
+INFO - 2020-10-01 22:14:44 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:14:44 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:14:44 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:14:44 --> URI Class Initialized
+INFO - 2020-10-01 22:14:44 --> Router Class Initialized
+INFO - 2020-10-01 22:14:44 --> Output Class Initialized
+INFO - 2020-10-01 22:14:44 --> Security Class Initialized
+DEBUG - 2020-10-01 22:14:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:14:44 --> Input Class Initialized
+INFO - 2020-10-01 22:14:44 --> Language Class Initialized
+ERROR - 2020-10-01 22:14:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:14:55 --> Config Class Initialized
+INFO - 2020-10-01 22:14:55 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:14:55 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:14:55 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:14:55 --> URI Class Initialized
+INFO - 2020-10-01 22:14:55 --> Router Class Initialized
+INFO - 2020-10-01 22:14:55 --> Output Class Initialized
+INFO - 2020-10-01 22:14:55 --> Security Class Initialized
+DEBUG - 2020-10-01 22:14:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:14:55 --> Input Class Initialized
+INFO - 2020-10-01 22:14:55 --> Language Class Initialized
+ERROR - 2020-10-01 22:14:56 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:14:56 --> Config Class Initialized
+INFO - 2020-10-01 22:14:56 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:14:56 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:14:56 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:14:56 --> URI Class Initialized
+INFO - 2020-10-01 22:14:56 --> Router Class Initialized
+INFO - 2020-10-01 22:14:56 --> Output Class Initialized
+INFO - 2020-10-01 22:14:56 --> Security Class Initialized
+DEBUG - 2020-10-01 22:14:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:14:56 --> Input Class Initialized
+INFO - 2020-10-01 22:14:56 --> Language Class Initialized
+ERROR - 2020-10-01 22:15:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:15:09 --> Config Class Initialized
+INFO - 2020-10-01 22:15:09 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:15:09 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:15:09 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:15:09 --> URI Class Initialized
+INFO - 2020-10-01 22:15:09 --> Router Class Initialized
+INFO - 2020-10-01 22:15:10 --> Output Class Initialized
+INFO - 2020-10-01 22:15:10 --> Security Class Initialized
+DEBUG - 2020-10-01 22:15:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:15:10 --> Input Class Initialized
+INFO - 2020-10-01 22:15:10 --> Language Class Initialized
+ERROR - 2020-10-01 22:15:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:15:15 --> Config Class Initialized
+INFO - 2020-10-01 22:15:15 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:15:15 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:15:15 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:15:15 --> URI Class Initialized
+INFO - 2020-10-01 22:15:15 --> Router Class Initialized
+INFO - 2020-10-01 22:15:15 --> Output Class Initialized
+INFO - 2020-10-01 22:15:15 --> Security Class Initialized
+DEBUG - 2020-10-01 22:15:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:15:15 --> Input Class Initialized
+INFO - 2020-10-01 22:15:15 --> Language Class Initialized
+ERROR - 2020-10-01 22:15:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:15:16 --> Config Class Initialized
+INFO - 2020-10-01 22:15:16 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:15:16 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:15:16 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:15:16 --> URI Class Initialized
+INFO - 2020-10-01 22:15:16 --> Router Class Initialized
+INFO - 2020-10-01 22:15:16 --> Output Class Initialized
+INFO - 2020-10-01 22:15:16 --> Security Class Initialized
+DEBUG - 2020-10-01 22:15:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:15:16 --> Input Class Initialized
+INFO - 2020-10-01 22:15:16 --> Language Class Initialized
+ERROR - 2020-10-01 22:15:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:15:39 --> Config Class Initialized
+INFO - 2020-10-01 22:15:39 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:15:39 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:15:39 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:15:39 --> URI Class Initialized
+INFO - 2020-10-01 22:15:39 --> Router Class Initialized
+INFO - 2020-10-01 22:15:39 --> Output Class Initialized
+INFO - 2020-10-01 22:15:39 --> Security Class Initialized
+DEBUG - 2020-10-01 22:15:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:15:40 --> Input Class Initialized
+INFO - 2020-10-01 22:15:40 --> Language Class Initialized
+ERROR - 2020-10-01 22:15:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:15:40 --> Config Class Initialized
+INFO - 2020-10-01 22:15:40 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:15:40 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:15:40 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:15:40 --> URI Class Initialized
+INFO - 2020-10-01 22:15:40 --> Router Class Initialized
+INFO - 2020-10-01 22:15:40 --> Output Class Initialized
+INFO - 2020-10-01 22:15:41 --> Security Class Initialized
+DEBUG - 2020-10-01 22:15:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:15:41 --> Input Class Initialized
+INFO - 2020-10-01 22:15:41 --> Language Class Initialized
+ERROR - 2020-10-01 22:21:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:21:11 --> Config Class Initialized
+INFO - 2020-10-01 22:21:11 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:21:11 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:21:11 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:21:11 --> URI Class Initialized
+INFO - 2020-10-01 22:21:11 --> Router Class Initialized
+INFO - 2020-10-01 22:21:11 --> Output Class Initialized
+INFO - 2020-10-01 22:21:11 --> Security Class Initialized
+DEBUG - 2020-10-01 22:21:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:21:11 --> Input Class Initialized
+INFO - 2020-10-01 22:21:11 --> Language Class Initialized
+ERROR - 2020-10-01 22:21:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:21:11 --> Config Class Initialized
+INFO - 2020-10-01 22:21:11 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:21:11 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:21:11 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:21:11 --> URI Class Initialized
+INFO - 2020-10-01 22:21:12 --> Router Class Initialized
+INFO - 2020-10-01 22:21:12 --> Output Class Initialized
+INFO - 2020-10-01 22:21:12 --> Security Class Initialized
+DEBUG - 2020-10-01 22:21:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:21:12 --> Input Class Initialized
+INFO - 2020-10-01 22:21:12 --> Language Class Initialized
+ERROR - 2020-10-01 22:21:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:21:14 --> Config Class Initialized
+INFO - 2020-10-01 22:21:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:21:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:21:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:21:14 --> URI Class Initialized
+INFO - 2020-10-01 22:21:14 --> Router Class Initialized
+INFO - 2020-10-01 22:21:14 --> Output Class Initialized
+INFO - 2020-10-01 22:21:14 --> Security Class Initialized
+DEBUG - 2020-10-01 22:21:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:21:14 --> Input Class Initialized
+INFO - 2020-10-01 22:21:14 --> Language Class Initialized
+ERROR - 2020-10-01 22:21:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:21:14 --> Config Class Initialized
+INFO - 2020-10-01 22:21:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:21:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:21:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:21:14 --> URI Class Initialized
+INFO - 2020-10-01 22:21:15 --> Router Class Initialized
+INFO - 2020-10-01 22:21:15 --> Output Class Initialized
+INFO - 2020-10-01 22:21:15 --> Security Class Initialized
+DEBUG - 2020-10-01 22:21:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:21:15 --> Input Class Initialized
+INFO - 2020-10-01 22:21:15 --> Language Class Initialized
+ERROR - 2020-10-01 22:23:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:23:13 --> Config Class Initialized
+INFO - 2020-10-01 22:23:13 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:23:13 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:23:13 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:23:13 --> URI Class Initialized
+INFO - 2020-10-01 22:23:13 --> Router Class Initialized
+INFO - 2020-10-01 22:23:13 --> Output Class Initialized
+INFO - 2020-10-01 22:23:13 --> Security Class Initialized
+DEBUG - 2020-10-01 22:23:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:23:13 --> Input Class Initialized
+INFO - 2020-10-01 22:23:13 --> Language Class Initialized
+ERROR - 2020-10-01 22:23:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:23:14 --> Config Class Initialized
+INFO - 2020-10-01 22:23:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:23:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:23:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:23:14 --> URI Class Initialized
+INFO - 2020-10-01 22:23:14 --> Router Class Initialized
+INFO - 2020-10-01 22:23:14 --> Output Class Initialized
+INFO - 2020-10-01 22:23:14 --> Security Class Initialized
+DEBUG - 2020-10-01 22:23:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:23:14 --> Input Class Initialized
+INFO - 2020-10-01 22:23:14 --> Language Class Initialized
+ERROR - 2020-10-01 22:24:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:24:07 --> Config Class Initialized
+INFO - 2020-10-01 22:24:07 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:24:07 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:24:07 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:24:07 --> URI Class Initialized
+INFO - 2020-10-01 22:24:07 --> Router Class Initialized
+INFO - 2020-10-01 22:24:07 --> Output Class Initialized
+INFO - 2020-10-01 22:24:07 --> Security Class Initialized
+DEBUG - 2020-10-01 22:24:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:24:07 --> Input Class Initialized
+INFO - 2020-10-01 22:24:07 --> Language Class Initialized
+ERROR - 2020-10-01 22:24:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:24:08 --> Config Class Initialized
+INFO - 2020-10-01 22:24:08 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:24:08 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:24:08 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:24:08 --> URI Class Initialized
+INFO - 2020-10-01 22:24:08 --> Router Class Initialized
+INFO - 2020-10-01 22:24:08 --> Output Class Initialized
+INFO - 2020-10-01 22:24:08 --> Security Class Initialized
+DEBUG - 2020-10-01 22:24:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:24:08 --> Input Class Initialized
+INFO - 2020-10-01 22:24:08 --> Language Class Initialized
+ERROR - 2020-10-01 22:24:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:24:47 --> Config Class Initialized
+INFO - 2020-10-01 22:24:47 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:24:47 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:24:47 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:24:47 --> URI Class Initialized
+INFO - 2020-10-01 22:24:47 --> Router Class Initialized
+INFO - 2020-10-01 22:24:47 --> Output Class Initialized
+INFO - 2020-10-01 22:24:47 --> Security Class Initialized
+DEBUG - 2020-10-01 22:24:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:24:47 --> Input Class Initialized
+INFO - 2020-10-01 22:24:47 --> Language Class Initialized
+ERROR - 2020-10-01 22:25:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:25:42 --> Config Class Initialized
+INFO - 2020-10-01 22:25:42 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:25:42 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:25:42 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:25:42 --> URI Class Initialized
+INFO - 2020-10-01 22:25:42 --> Router Class Initialized
+INFO - 2020-10-01 22:25:42 --> Output Class Initialized
+INFO - 2020-10-01 22:25:42 --> Security Class Initialized
+DEBUG - 2020-10-01 22:25:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:25:42 --> Input Class Initialized
+INFO - 2020-10-01 22:25:42 --> Language Class Initialized
+ERROR - 2020-10-01 22:28:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:28:35 --> Config Class Initialized
+INFO - 2020-10-01 22:28:35 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:28:35 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:28:35 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:28:35 --> URI Class Initialized
+INFO - 2020-10-01 22:28:35 --> Router Class Initialized
+INFO - 2020-10-01 22:28:35 --> Output Class Initialized
+INFO - 2020-10-01 22:28:35 --> Security Class Initialized
+DEBUG - 2020-10-01 22:28:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:28:35 --> Input Class Initialized
+INFO - 2020-10-01 22:28:35 --> Language Class Initialized
+ERROR - 2020-10-01 22:28:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:28:39 --> Config Class Initialized
+INFO - 2020-10-01 22:28:39 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:28:39 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:28:39 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:28:39 --> URI Class Initialized
+INFO - 2020-10-01 22:28:39 --> Router Class Initialized
+INFO - 2020-10-01 22:28:39 --> Output Class Initialized
+INFO - 2020-10-01 22:28:39 --> Security Class Initialized
+DEBUG - 2020-10-01 22:28:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:28:39 --> Input Class Initialized
+INFO - 2020-10-01 22:28:39 --> Language Class Initialized
+ERROR - 2020-10-01 22:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:28:50 --> Config Class Initialized
+INFO - 2020-10-01 22:28:50 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:28:50 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:28:50 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:28:50 --> URI Class Initialized
+INFO - 2020-10-01 22:28:50 --> Router Class Initialized
+INFO - 2020-10-01 22:28:50 --> Output Class Initialized
+INFO - 2020-10-01 22:28:50 --> Security Class Initialized
+DEBUG - 2020-10-01 22:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:28:50 --> Input Class Initialized
+INFO - 2020-10-01 22:28:50 --> Language Class Initialized
+ERROR - 2020-10-01 22:28:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:28:58 --> Config Class Initialized
+INFO - 2020-10-01 22:28:58 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:28:58 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:28:58 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:28:58 --> URI Class Initialized
+INFO - 2020-10-01 22:28:58 --> Router Class Initialized
+INFO - 2020-10-01 22:28:58 --> Output Class Initialized
+INFO - 2020-10-01 22:28:58 --> Security Class Initialized
+DEBUG - 2020-10-01 22:28:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:28:58 --> Input Class Initialized
+INFO - 2020-10-01 22:28:58 --> Language Class Initialized
+ERROR - 2020-10-01 22:30:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:30:01 --> Config Class Initialized
+INFO - 2020-10-01 22:30:01 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:30:01 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:30:01 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:30:01 --> URI Class Initialized
+INFO - 2020-10-01 22:30:01 --> Router Class Initialized
+INFO - 2020-10-01 22:30:01 --> Output Class Initialized
+INFO - 2020-10-01 22:30:01 --> Security Class Initialized
+DEBUG - 2020-10-01 22:30:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:30:01 --> Input Class Initialized
+INFO - 2020-10-01 22:30:01 --> Language Class Initialized
+ERROR - 2020-10-01 22:30:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:30:02 --> Config Class Initialized
+INFO - 2020-10-01 22:30:02 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:30:02 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:30:02 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:30:02 --> URI Class Initialized
+INFO - 2020-10-01 22:30:02 --> Router Class Initialized
+INFO - 2020-10-01 22:30:02 --> Output Class Initialized
+INFO - 2020-10-01 22:30:02 --> Security Class Initialized
+DEBUG - 2020-10-01 22:30:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:30:02 --> Input Class Initialized
+INFO - 2020-10-01 22:30:02 --> Language Class Initialized
+ERROR - 2020-10-01 22:30:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:30:21 --> Config Class Initialized
+INFO - 2020-10-01 22:30:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:30:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:30:21 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:30:21 --> URI Class Initialized
+INFO - 2020-10-01 22:30:21 --> Router Class Initialized
+INFO - 2020-10-01 22:30:21 --> Output Class Initialized
+INFO - 2020-10-01 22:30:21 --> Security Class Initialized
+DEBUG - 2020-10-01 22:30:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:30:21 --> Input Class Initialized
+INFO - 2020-10-01 22:30:21 --> Language Class Initialized
+ERROR - 2020-10-01 22:34:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:34:44 --> Config Class Initialized
+INFO - 2020-10-01 22:34:44 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:34:44 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:34:44 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:34:44 --> URI Class Initialized
+INFO - 2020-10-01 22:34:44 --> Router Class Initialized
+INFO - 2020-10-01 22:34:44 --> Output Class Initialized
+INFO - 2020-10-01 22:34:44 --> Security Class Initialized
+DEBUG - 2020-10-01 22:34:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:34:44 --> Input Class Initialized
+INFO - 2020-10-01 22:34:44 --> Language Class Initialized
+ERROR - 2020-10-01 22:38:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:38:08 --> Config Class Initialized
+INFO - 2020-10-01 22:38:08 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:38:08 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:38:08 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:38:08 --> URI Class Initialized
+INFO - 2020-10-01 22:38:08 --> Router Class Initialized
+INFO - 2020-10-01 22:38:08 --> Output Class Initialized
+INFO - 2020-10-01 22:38:08 --> Security Class Initialized
+DEBUG - 2020-10-01 22:38:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:38:08 --> Input Class Initialized
+INFO - 2020-10-01 22:38:08 --> Language Class Initialized
+ERROR - 2020-10-01 22:38:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:38:28 --> Config Class Initialized
+INFO - 2020-10-01 22:38:28 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:38:28 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:38:29 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:38:29 --> URI Class Initialized
+INFO - 2020-10-01 22:38:29 --> Router Class Initialized
+INFO - 2020-10-01 22:38:29 --> Output Class Initialized
+INFO - 2020-10-01 22:38:29 --> Security Class Initialized
+DEBUG - 2020-10-01 22:38:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:38:29 --> Input Class Initialized
+INFO - 2020-10-01 22:38:29 --> Language Class Initialized
+ERROR - 2020-10-01 22:38:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:38:45 --> Config Class Initialized
+INFO - 2020-10-01 22:38:45 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:38:45 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:38:45 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:38:45 --> URI Class Initialized
+INFO - 2020-10-01 22:38:45 --> Router Class Initialized
+INFO - 2020-10-01 22:38:45 --> Output Class Initialized
+INFO - 2020-10-01 22:38:45 --> Security Class Initialized
+DEBUG - 2020-10-01 22:38:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:38:45 --> Input Class Initialized
+INFO - 2020-10-01 22:38:45 --> Language Class Initialized
+ERROR - 2020-10-01 22:39:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:39:03 --> Config Class Initialized
+INFO - 2020-10-01 22:39:03 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:39:03 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:39:03 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:39:03 --> URI Class Initialized
+INFO - 2020-10-01 22:39:03 --> Router Class Initialized
+INFO - 2020-10-01 22:39:03 --> Output Class Initialized
+INFO - 2020-10-01 22:39:03 --> Security Class Initialized
+DEBUG - 2020-10-01 22:39:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:39:03 --> Input Class Initialized
+INFO - 2020-10-01 22:39:03 --> Language Class Initialized
+ERROR - 2020-10-01 22:39:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:39:06 --> Config Class Initialized
+INFO - 2020-10-01 22:39:06 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:39:06 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:39:06 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:39:06 --> URI Class Initialized
+INFO - 2020-10-01 22:39:06 --> Router Class Initialized
+INFO - 2020-10-01 22:39:06 --> Output Class Initialized
+INFO - 2020-10-01 22:39:06 --> Security Class Initialized
+DEBUG - 2020-10-01 22:39:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:39:06 --> Input Class Initialized
+INFO - 2020-10-01 22:39:06 --> Language Class Initialized
+ERROR - 2020-10-01 22:41:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:41:26 --> Config Class Initialized
+INFO - 2020-10-01 22:41:26 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:41:26 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:41:26 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:41:26 --> URI Class Initialized
+INFO - 2020-10-01 22:41:26 --> Router Class Initialized
+INFO - 2020-10-01 22:41:26 --> Output Class Initialized
+INFO - 2020-10-01 22:41:26 --> Security Class Initialized
+DEBUG - 2020-10-01 22:41:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:41:26 --> Input Class Initialized
+INFO - 2020-10-01 22:41:26 --> Language Class Initialized
+ERROR - 2020-10-01 22:44:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:44:34 --> Config Class Initialized
+INFO - 2020-10-01 22:44:34 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:44:34 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:44:34 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:44:34 --> URI Class Initialized
+INFO - 2020-10-01 22:44:34 --> Router Class Initialized
+INFO - 2020-10-01 22:44:34 --> Output Class Initialized
+INFO - 2020-10-01 22:44:34 --> Security Class Initialized
+DEBUG - 2020-10-01 22:44:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:44:34 --> Input Class Initialized
+INFO - 2020-10-01 22:44:34 --> Language Class Initialized
+ERROR - 2020-10-01 22:45:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:45:09 --> Config Class Initialized
+INFO - 2020-10-01 22:45:09 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:45:09 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:45:09 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:45:09 --> URI Class Initialized
+INFO - 2020-10-01 22:45:09 --> Router Class Initialized
+INFO - 2020-10-01 22:45:09 --> Output Class Initialized
+INFO - 2020-10-01 22:45:09 --> Security Class Initialized
+DEBUG - 2020-10-01 22:45:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:45:09 --> Input Class Initialized
+INFO - 2020-10-01 22:45:09 --> Language Class Initialized
+ERROR - 2020-10-01 22:45:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 22:45:14 --> Config Class Initialized
+INFO - 2020-10-01 22:45:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 22:45:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 22:45:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 22:45:14 --> URI Class Initialized
+INFO - 2020-10-01 22:45:14 --> Router Class Initialized
+INFO - 2020-10-01 22:45:14 --> Output Class Initialized
+INFO - 2020-10-01 22:45:14 --> Security Class Initialized
+DEBUG - 2020-10-01 22:45:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 22:45:14 --> Input Class Initialized
+INFO - 2020-10-01 22:45:14 --> Language Class Initialized
+ERROR - 2020-10-01 23:00:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:00:07 --> Config Class Initialized
+INFO - 2020-10-01 23:00:07 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:00:07 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:00:07 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:00:07 --> URI Class Initialized
+INFO - 2020-10-01 23:00:07 --> Router Class Initialized
+INFO - 2020-10-01 23:00:07 --> Output Class Initialized
+INFO - 2020-10-01 23:00:07 --> Security Class Initialized
+DEBUG - 2020-10-01 23:00:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:00:07 --> Input Class Initialized
+INFO - 2020-10-01 23:00:07 --> Language Class Initialized
+ERROR - 2020-10-01 23:14:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:14:47 --> Config Class Initialized
+INFO - 2020-10-01 23:14:47 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:14:47 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:14:47 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:14:47 --> URI Class Initialized
+INFO - 2020-10-01 23:14:47 --> Router Class Initialized
+INFO - 2020-10-01 23:14:47 --> Output Class Initialized
+INFO - 2020-10-01 23:14:47 --> Security Class Initialized
+DEBUG - 2020-10-01 23:14:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:14:47 --> Input Class Initialized
+INFO - 2020-10-01 23:14:47 --> Language Class Initialized
+ERROR - 2020-10-01 23:15:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:15:59 --> Config Class Initialized
+INFO - 2020-10-01 23:15:59 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:15:59 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:15:59 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:15:59 --> URI Class Initialized
+INFO - 2020-10-01 23:15:59 --> Router Class Initialized
+INFO - 2020-10-01 23:15:59 --> Output Class Initialized
+INFO - 2020-10-01 23:15:59 --> Security Class Initialized
+DEBUG - 2020-10-01 23:15:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:15:59 --> Input Class Initialized
+INFO - 2020-10-01 23:15:59 --> Language Class Initialized
+ERROR - 2020-10-01 23:16:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:16:22 --> Config Class Initialized
+INFO - 2020-10-01 23:16:22 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:16:22 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:16:22 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:16:22 --> URI Class Initialized
+INFO - 2020-10-01 23:16:22 --> Router Class Initialized
+INFO - 2020-10-01 23:16:22 --> Output Class Initialized
+INFO - 2020-10-01 23:16:22 --> Security Class Initialized
+DEBUG - 2020-10-01 23:16:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:16:22 --> Input Class Initialized
+INFO - 2020-10-01 23:16:22 --> Language Class Initialized
+ERROR - 2020-10-01 23:18:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:18:29 --> Config Class Initialized
+INFO - 2020-10-01 23:18:29 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:18:29 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:18:29 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:18:29 --> URI Class Initialized
+INFO - 2020-10-01 23:18:29 --> Router Class Initialized
+INFO - 2020-10-01 23:18:29 --> Output Class Initialized
+INFO - 2020-10-01 23:18:29 --> Security Class Initialized
+DEBUG - 2020-10-01 23:18:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:18:29 --> Input Class Initialized
+INFO - 2020-10-01 23:18:29 --> Language Class Initialized
+ERROR - 2020-10-01 23:19:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:19:02 --> Config Class Initialized
+INFO - 2020-10-01 23:19:02 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:19:02 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:19:02 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:19:02 --> URI Class Initialized
+INFO - 2020-10-01 23:19:02 --> Router Class Initialized
+INFO - 2020-10-01 23:19:02 --> Output Class Initialized
+INFO - 2020-10-01 23:19:03 --> Security Class Initialized
+DEBUG - 2020-10-01 23:19:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:19:03 --> Input Class Initialized
+INFO - 2020-10-01 23:19:03 --> Language Class Initialized
+ERROR - 2020-10-01 23:20:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:20:20 --> Config Class Initialized
+INFO - 2020-10-01 23:20:20 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:20:20 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:20:20 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:20:20 --> URI Class Initialized
+INFO - 2020-10-01 23:20:20 --> Router Class Initialized
+INFO - 2020-10-01 23:20:20 --> Output Class Initialized
+INFO - 2020-10-01 23:20:20 --> Security Class Initialized
+DEBUG - 2020-10-01 23:20:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:20:20 --> Input Class Initialized
+INFO - 2020-10-01 23:20:20 --> Language Class Initialized
+ERROR - 2020-10-01 23:21:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:21:47 --> Config Class Initialized
+INFO - 2020-10-01 23:21:47 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:21:47 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:21:47 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:21:47 --> URI Class Initialized
+INFO - 2020-10-01 23:21:47 --> Router Class Initialized
+INFO - 2020-10-01 23:21:47 --> Output Class Initialized
+INFO - 2020-10-01 23:21:47 --> Security Class Initialized
+DEBUG - 2020-10-01 23:21:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:21:47 --> Input Class Initialized
+INFO - 2020-10-01 23:21:47 --> Language Class Initialized
+ERROR - 2020-10-01 23:22:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:22:52 --> Config Class Initialized
+INFO - 2020-10-01 23:22:52 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:22:52 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:22:52 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:22:52 --> URI Class Initialized
+INFO - 2020-10-01 23:22:52 --> Router Class Initialized
+INFO - 2020-10-01 23:22:52 --> Output Class Initialized
+INFO - 2020-10-01 23:22:52 --> Security Class Initialized
+DEBUG - 2020-10-01 23:22:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:22:52 --> Input Class Initialized
+INFO - 2020-10-01 23:22:52 --> Language Class Initialized
+ERROR - 2020-10-01 23:25:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:25:14 --> Config Class Initialized
+INFO - 2020-10-01 23:25:14 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:25:14 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:25:14 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:25:14 --> URI Class Initialized
+INFO - 2020-10-01 23:25:14 --> Router Class Initialized
+INFO - 2020-10-01 23:25:14 --> Output Class Initialized
+INFO - 2020-10-01 23:25:14 --> Security Class Initialized
+DEBUG - 2020-10-01 23:25:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:25:14 --> Input Class Initialized
+INFO - 2020-10-01 23:25:14 --> Language Class Initialized
+ERROR - 2020-10-01 23:26:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:26:01 --> Config Class Initialized
+INFO - 2020-10-01 23:26:01 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:26:01 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:26:01 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:26:01 --> URI Class Initialized
+INFO - 2020-10-01 23:26:01 --> Router Class Initialized
+INFO - 2020-10-01 23:26:01 --> Output Class Initialized
+INFO - 2020-10-01 23:26:01 --> Security Class Initialized
+DEBUG - 2020-10-01 23:26:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:26:01 --> Input Class Initialized
+INFO - 2020-10-01 23:26:01 --> Language Class Initialized
+ERROR - 2020-10-01 23:26:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:26:32 --> Config Class Initialized
+INFO - 2020-10-01 23:26:32 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:26:32 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:26:32 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:26:32 --> URI Class Initialized
+INFO - 2020-10-01 23:26:32 --> Router Class Initialized
+INFO - 2020-10-01 23:26:32 --> Output Class Initialized
+INFO - 2020-10-01 23:26:32 --> Security Class Initialized
+DEBUG - 2020-10-01 23:26:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:26:32 --> Input Class Initialized
+INFO - 2020-10-01 23:26:32 --> Language Class Initialized
+ERROR - 2020-10-01 23:30:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:30:29 --> Config Class Initialized
+INFO - 2020-10-01 23:30:29 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:30:29 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:30:29 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:30:29 --> URI Class Initialized
+INFO - 2020-10-01 23:30:29 --> Router Class Initialized
+INFO - 2020-10-01 23:30:29 --> Output Class Initialized
+INFO - 2020-10-01 23:30:29 --> Security Class Initialized
+DEBUG - 2020-10-01 23:30:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:30:29 --> Input Class Initialized
+INFO - 2020-10-01 23:30:29 --> Language Class Initialized
+ERROR - 2020-10-01 23:49:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:49:17 --> Config Class Initialized
+INFO - 2020-10-01 23:49:17 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:49:17 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:49:17 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:49:17 --> URI Class Initialized
+INFO - 2020-10-01 23:49:17 --> Router Class Initialized
+INFO - 2020-10-01 23:49:17 --> Output Class Initialized
+INFO - 2020-10-01 23:49:17 --> Security Class Initialized
+DEBUG - 2020-10-01 23:49:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:49:17 --> Input Class Initialized
+INFO - 2020-10-01 23:49:17 --> Language Class Initialized
+ERROR - 2020-10-01 23:49:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:49:17 --> Config Class Initialized
+INFO - 2020-10-01 23:49:17 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:49:17 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:49:17 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:49:17 --> URI Class Initialized
+INFO - 2020-10-01 23:49:18 --> Router Class Initialized
+INFO - 2020-10-01 23:49:18 --> Output Class Initialized
+INFO - 2020-10-01 23:49:18 --> Security Class Initialized
+DEBUG - 2020-10-01 23:49:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:49:18 --> Input Class Initialized
+INFO - 2020-10-01 23:49:18 --> Language Class Initialized
+ERROR - 2020-10-01 23:49:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:49:52 --> Config Class Initialized
+INFO - 2020-10-01 23:49:52 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:49:52 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:49:52 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:49:52 --> URI Class Initialized
+INFO - 2020-10-01 23:49:52 --> Router Class Initialized
+INFO - 2020-10-01 23:49:52 --> Output Class Initialized
+INFO - 2020-10-01 23:49:52 --> Security Class Initialized
+DEBUG - 2020-10-01 23:49:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:49:52 --> Input Class Initialized
+INFO - 2020-10-01 23:49:52 --> Language Class Initialized
+ERROR - 2020-10-01 23:49:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:49:53 --> Config Class Initialized
+INFO - 2020-10-01 23:49:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:49:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:49:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:49:53 --> URI Class Initialized
+INFO - 2020-10-01 23:49:53 --> Router Class Initialized
+INFO - 2020-10-01 23:49:53 --> Output Class Initialized
+INFO - 2020-10-01 23:49:53 --> Security Class Initialized
+DEBUG - 2020-10-01 23:49:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:49:53 --> Input Class Initialized
+INFO - 2020-10-01 23:49:53 --> Language Class Initialized
+ERROR - 2020-10-01 23:50:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:50:12 --> Config Class Initialized
+INFO - 2020-10-01 23:50:12 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:50:12 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:50:12 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:50:12 --> URI Class Initialized
+INFO - 2020-10-01 23:50:12 --> Router Class Initialized
+INFO - 2020-10-01 23:50:12 --> Output Class Initialized
+INFO - 2020-10-01 23:50:12 --> Security Class Initialized
+DEBUG - 2020-10-01 23:50:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:50:12 --> Input Class Initialized
+INFO - 2020-10-01 23:50:12 --> Language Class Initialized
+ERROR - 2020-10-01 23:50:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:50:12 --> Config Class Initialized
+INFO - 2020-10-01 23:50:12 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:50:12 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:50:12 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:50:12 --> URI Class Initialized
+INFO - 2020-10-01 23:50:12 --> Router Class Initialized
+INFO - 2020-10-01 23:50:12 --> Output Class Initialized
+INFO - 2020-10-01 23:50:12 --> Security Class Initialized
+DEBUG - 2020-10-01 23:50:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:50:12 --> Input Class Initialized
+INFO - 2020-10-01 23:50:12 --> Language Class Initialized
+ERROR - 2020-10-01 23:50:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:50:21 --> Config Class Initialized
+INFO - 2020-10-01 23:50:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:50:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:50:21 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:50:21 --> URI Class Initialized
+INFO - 2020-10-01 23:50:21 --> Router Class Initialized
+INFO - 2020-10-01 23:50:21 --> Output Class Initialized
+INFO - 2020-10-01 23:50:21 --> Security Class Initialized
+DEBUG - 2020-10-01 23:50:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:50:21 --> Input Class Initialized
+INFO - 2020-10-01 23:50:21 --> Language Class Initialized
+ERROR - 2020-10-01 23:50:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:50:21 --> Config Class Initialized
+INFO - 2020-10-01 23:50:21 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:50:21 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:50:21 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:50:21 --> URI Class Initialized
+INFO - 2020-10-01 23:50:21 --> Router Class Initialized
+INFO - 2020-10-01 23:50:21 --> Output Class Initialized
+INFO - 2020-10-01 23:50:21 --> Security Class Initialized
+DEBUG - 2020-10-01 23:50:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:50:21 --> Input Class Initialized
+INFO - 2020-10-01 23:50:21 --> Language Class Initialized
+ERROR - 2020-10-01 23:57:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:57:34 --> Config Class Initialized
+INFO - 2020-10-01 23:57:34 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:57:34 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:57:34 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:57:34 --> URI Class Initialized
+INFO - 2020-10-01 23:57:34 --> Router Class Initialized
+INFO - 2020-10-01 23:57:34 --> Output Class Initialized
+INFO - 2020-10-01 23:57:34 --> Security Class Initialized
+DEBUG - 2020-10-01 23:57:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:57:34 --> Input Class Initialized
+INFO - 2020-10-01 23:57:34 --> Language Class Initialized
+ERROR - 2020-10-01 23:57:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:57:35 --> Config Class Initialized
+INFO - 2020-10-01 23:57:35 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:57:35 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:57:35 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:57:35 --> URI Class Initialized
+INFO - 2020-10-01 23:57:35 --> Router Class Initialized
+INFO - 2020-10-01 23:57:35 --> Output Class Initialized
+INFO - 2020-10-01 23:57:35 --> Security Class Initialized
+DEBUG - 2020-10-01 23:57:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:57:35 --> Input Class Initialized
+INFO - 2020-10-01 23:57:35 --> Language Class Initialized
+ERROR - 2020-10-01 23:57:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:57:53 --> Config Class Initialized
+INFO - 2020-10-01 23:57:53 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:57:53 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:57:53 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:57:53 --> URI Class Initialized
+INFO - 2020-10-01 23:57:53 --> Router Class Initialized
+INFO - 2020-10-01 23:57:53 --> Output Class Initialized
+INFO - 2020-10-01 23:57:53 --> Security Class Initialized
+DEBUG - 2020-10-01 23:57:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:57:53 --> Input Class Initialized
+INFO - 2020-10-01 23:57:53 --> Language Class Initialized
+ERROR - 2020-10-01 23:58:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:58:16 --> Config Class Initialized
+INFO - 2020-10-01 23:58:16 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:58:16 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:58:16 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:58:16 --> URI Class Initialized
+INFO - 2020-10-01 23:58:16 --> Router Class Initialized
+INFO - 2020-10-01 23:58:16 --> Output Class Initialized
+INFO - 2020-10-01 23:58:16 --> Security Class Initialized
+DEBUG - 2020-10-01 23:58:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:58:16 --> Input Class Initialized
+INFO - 2020-10-01 23:58:16 --> Language Class Initialized
+ERROR - 2020-10-01 23:58:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-01 23:58:17 --> Config Class Initialized
+INFO - 2020-10-01 23:58:17 --> Hooks Class Initialized
+DEBUG - 2020-10-01 23:58:17 --> UTF-8 Support Enabled
+INFO - 2020-10-01 23:58:17 --> Utf8 Class Initialized
+INFO - 2020-10-01 23:58:17 --> URI Class Initialized
+INFO - 2020-10-01 23:58:17 --> Router Class Initialized
+INFO - 2020-10-01 23:58:17 --> Output Class Initialized
+INFO - 2020-10-01 23:58:17 --> Security Class Initialized
+DEBUG - 2020-10-01 23:58:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-01 23:58:17 --> Input Class Initialized
+INFO - 2020-10-01 23:58:17 --> Language Class Initialized

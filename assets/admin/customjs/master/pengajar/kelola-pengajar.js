@@ -224,45 +224,50 @@ $(document).ready( function() {
 
 	$("#form-add-pengajar").on("submit", function(event) {
 		event.preventDefault();
-		
-		// $("#form-edit-general-service")
-		Swal.fire({
-			title: 'Harap menunggu',
-			text: 'Sedang menghapus',
-			// timer: 2000,
-			onBeforeOpen: () => {
-				Swal.showLoading();
-				// //START AJAX
-				$.ajax({
-					type: "POST", // Method pengiriman data bisa dengan GET atau POST
-					url: base_url + "kelola_pengajar/simpan_data", // Isi dengan url/path file php yang dituju
-					// data: {
-					//     "ID": id,
-					// }, // data yang akan dikirim ke file yang dituju
-					data: new FormData(this),
-					dataType: "JSON",
-					contentType: false,
-					cache: false,
-					processData: false,
-					success: function (data) { // Ketika proses pengiriman berhasil
-						if (data.response_code == 200) {
-							Swal.close();
-							Swal.fire('Success', data.response_message, 'success').then((result) => {
-								window.location.href = base_url + "kelola_pengajar";
-							})
-
-						} else {
-							Swal.close();
-							Swal.fire("Oops", data.response_message, "error");
+		if($('#password-pengajar').val() != $('#password-retype-pengajar').val()){
+			Swal.fire("Oops", "Password konfirmasi harus sama, silahkan dicek kembali", "error");
+		}
+		else{
+			Swal.fire({
+				title: 'Harap menunggu',
+				text: 'Sedang menghapus',
+				// timer: 2000,
+				onBeforeOpen: () => {
+					Swal.showLoading();
+					// //START AJAX
+					$.ajax({
+						type: "POST", // Method pengiriman data bisa dengan GET atau POST
+						url: base_url + "kelola_pengajar/simpan_data", // Isi dengan url/path file php yang dituju
+						// data: {
+						//     "ID": id,
+						// }, // data yang akan dikirim ke file yang dituju
+						data: new FormData(this),
+						dataType: "JSON",
+						contentType: false,
+						cache: false,
+						processData: false,
+						success: function (data) { // Ketika proses pengiriman berhasil
+							if (data.response_code == 200) {
+								Swal.close();
+								Swal.fire('Success', data.response_message, 'success').then((result) => {
+									window.location.href = base_url + "kelola_pengajar";
+								})
+	
+							} else {
+								Swal.close();
+								Swal.fire("Oops", data.response_message, "error");
+							}
+						},
+						error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
+							Swal.fire("Oops", xhr.responseText, "error");
 						}
-					},
-					error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
-						Swal.fire("Oops", xhr.responseText, "error");
-					}
-				});
-				//  // END AJAX
-			}
-		});
+					});
+					//  // END AJAX
+				}
+			});
+		
+		}
+		// $("#form-edit-general-service")
 	});
 
 

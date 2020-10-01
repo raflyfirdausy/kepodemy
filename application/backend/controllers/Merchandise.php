@@ -27,7 +27,7 @@ class Merchandise extends Admin_Controller
 			$output .= "<td><input type='hidden' class='txt-harga' value='". $dt->harga ."'>".  Rupiah($dt->harga) ."</td>";
 			$output .= "<td><input type='hidden' class='txt-harga-diskon' value='". $dt->harga_diskon ."'>".  Rupiah($dt->harga_diskon) ."</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-edit-merchandise' data-id='". $dt->id ."' title='Edit'><i class='la la-edit text-warning'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-edit-merchandise' data-id='". $dt->id ."' title='Edit'><i class='la la-edit text-success'></i></button>";
 			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
@@ -113,12 +113,12 @@ class Merchandise extends Admin_Controller
 		if($delete){
 			echo json_encode([
 				'response_code'	=> 200,
-				'response_message'	=> "Berhasil menghapus data"
+				'response_message'	=> "Data berhasil dihapus"
 			]);
 		}else{
 			echo json_encode([
 				'response_code'	=> 500,
-				'response_message'	=> "Gagal menghapus data"
+				'response_message'	=> "Data gagal dihapus"
 			]);
 		}
 	}

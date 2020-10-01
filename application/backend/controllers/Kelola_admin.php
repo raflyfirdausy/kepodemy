@@ -145,12 +145,12 @@ class Kelola_admin extends Admin_Controller
 		if($delete){
 			echo json_encode([
 				'response_code'	=> 200,
-				'response_message'	=> "Berhasil menghapus data"
+				'response_message'	=> "Data berhasil dihapus"
 			]);
 		}else{
 			echo json_encode([
 				'response_code'	=> 500,
-				'response_message'	=> "Gagal menghapus data"
+				'response_message'	=> "Data gagal dihapus"
 			]);
 		}
 	}

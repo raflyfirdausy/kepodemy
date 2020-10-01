@@ -51,7 +51,8 @@
 		<div class="card card-custom gutter-b example example-compact">
 			<div class="card-header">
 				<h3 class="card-title">
-					Edit Kelas - <?= $namakelas ?>
+					Edit Kelas - <?= $data->nama ?>
+					<input type="hidden" id="id-kelas" name="id" value="<?= $data->id ?>">
 				</h3>
 			</div>
 			
@@ -61,7 +62,7 @@
 						<div class="col-lg-6">
 							<!-- <div class="card-body"> -->
                                 <div class="mb-10">
-                                    <img style="width: 100%" id="imgPreview" src="<?= asset('admin/media/bg/bg-invoice-5.jpg') ?>" alt="">
+                                    <img style="width: 100%" id="imgPreview" src="<?= isset($data->gambar) ?  asset("gambar/" . $data->gambar) :  asset("gambar/ukuran-banner.jpg") ?>" alt="">
                                 </div>
                                 <div class="input-group">
 									<div class="input-group-append">
@@ -81,25 +82,58 @@
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Judul <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="nama" id="judul" placeholder="Masukkan judul" required/>
+							<input type="text" class="form-control" name="nama" id="judul" placeholder="Masukkan judul" value="<?= $data->nama ?>" required/>
 						</div>
 						<div class="col-lg-6">
 							<label>Nama Pengajar<span class="text-danger">*</span></label>
 							<select class="form-control select2" id="select-pengajar" name="id_pengajar" style="width:100%" required>
 								<option value=""></option>
-								<?php foreach ($listPengajar as $pengajar) : ?>
-									<option value="<?= $pengajar->id ?>"><?= $penggajar->nama ?></option>
+								<?php foreach ($listPengajar as $dt) : ?>
+									<option value="<?= $dt->id ?>" <?= $dt->id == $data->id_pengajar ? 'selected' : '' ?>><?= $dt->nama ?></option>
 								<?php endforeach; ?>
 							</select>
 							
 						</div>
 					</div>
 					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Kategori <span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-kategori" name="kategori[]" style="width:100%" multiple="multiple" required>
+								<option value=""></option>
+								<?php foreach ($listKategori as $kt) : ?>
+									<?php if(in_array($kt->id, $produk_kategori)){ ?>
+										<option value="<?= $kt->id ?>" selected><?= $kt->nama ?></option>
+									<?php }else{ ?>
+										<option value="<?= $kt->id ?>"><?= $kt->nama ?></option>
+									<?php } ?>
+								<?php endforeach; ?>
+							</select>
+						</div>
+						<div class="col-lg-6">
+							<label>Jenis pembelajaran <span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
+								<option value=""></option>
+								<option value="vicon" <?= $data->jenis == 'vicon' ? 'selected' : '' ?>>Video Conference</option>
+								<option value="download" <?= $data->jenis == 'download' ? 'selected' : '' ?>>Download</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Media Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" value="<?= $data->media ?>" required/>
+						</div>
+						<div class="col-lg-6">
+							<label>Link Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="link_pembelajaran" id="link-belajar" placeholder="Link pembelajaran" value="<?= $data->link_pembelajaran ?>" required/>
+						</div>
+					</div>
+					<div class="form-group row">
 						<div class="col-lg-2">
-							<label>Tanggal <span class="text-danger">*</span></label>
+							<label>Tanggal Pembelajaran <span class="text-danger">*</span></label>
 							<div class="input-group date">
-								<input type="text" class="form-control datepicker" id="tgl-pembelajaran" name="tanggal" placeholder="Select date" required/>
-								<div class="input-group-append btn-icon-date">
+								<input type="text" class="form-control datepicker2" id="tgl-pembelajaran" name="tanggal" placeholder="Select date" value="<?= just_date($data->tanggal) ?>" required/>
+								<div class="input-group-append btn-icon-date2">
 									<span class="input-group-text">
 										<i class="ki ki-calendar"></i>
 									</span>
@@ -109,7 +143,7 @@
 						<div class="col-lg-2">
 							<label>Jam mulai <span class="text-danger">*</span></label>
 							<div class="input-group">
-								<input class="form-control timepicker" id="jam-,ulai" name="jam_mulai" placeholder="Select time" type="text" required/>
+								<input class="form-control timepicker" id="jam-mulai" name="jam_mulai" placeholder="Select time" type="text" value="<?= $data->jam_mulai ?>" required/>
 								<div class="input-group-append btn-icon-time">
 									<span class="input-group-text">
 										<i class="ki ki-clock"></i>
@@ -120,8 +154,8 @@
 						<div class="col-lg-2">
 							<label>Jam Selesai <span class="text-danger">*</span></label>
 							<div class="input-group">
-								<input class="form-control timepicker" id="jam-selesai" name="jam_selesai" placeholder="Select time" type="text" required/>
-								<div class="input-group-append btn-icon-time">
+								<input class="form-control timepicker" id="jam-selesai" name="jam_selesai" placeholder="Select time" type="text" value="<?= $data->jam_selesai ?>" required/>
+								<div class="input-group-append btn-icon-time2">
 									<span class="input-group-text">
 										<i class="ki ki-clock"></i>
 									</span>
@@ -129,22 +163,8 @@
 							</div>
 						</div>
 						<div class="col-lg-6">
-							<label>Jenis pembelajaran<span class="text-danger">*</span></label>
-							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
-								<option value=""></option>
-								<option value="vicon">Video Conference</option>
-								<option value="download">Download</option>
-							</select>
-						</div>
-					</div>
-					<div class="form-group row">
-						<div class="col-lg-6">
 							<label>Harga <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="0" required/>
-						</div>
-						<div class="col-lg-6">
-							<label>Media Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" required/>
+							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="0" value="<?= $data->harga ?>" required/>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -152,11 +172,11 @@
 							<!-- <label>Nomor pokok pembelajaran <span class="text-danger">*</span></label>
 							<input type="text" class="form-control" name="nomorpokok" id="nomor-pokok" placeholder="Masukkan nomor pokok pembelajaran" required/> -->
 							<label>Keterangan</label>
-							<input type="text" class="form-control" name="keterangan" id="keterangan-pokok" placeholder="Masukkan nomor keterangan" required/>
+							<input type="text" class="form-control" name="keterangan" id="keterangan-pokok" placeholder="Masukkan nomor keterangan" value="<?= $data->keterangan ?>" required/>
 						</div>
 						<div class="col-lg-6">
 						<label>Harga Diskon <span class="text-muted">(optional)</span></label>
-							<input type="text" class="form-control valid-number" name="harga_diskon" id="harga-diskon" placeholder="0"/>
+							<input type="text" class="form-control valid-number" name="harga_diskon" id="harga-diskon" value="<?= $data->harga_diskon ?>" placeholder="0"/>
 						</div>
 						<!-- <div class="col-lg-6">
 							<label>Deskripsi</label>
@@ -167,7 +187,7 @@
 						<div class="col-lg-12">
 							<label>Deskripsi <span class="text-danger">*</span></label>
 							<!-- <div class="summernote" id="kt_summernote_1"></div> -->
-							<textarea class="summernote" id="kt_summernote_1" name="deskripsi"></textarea>
+							<textarea class="summernote" id="kt_summernote_1" name="deskripsi"><?= $data->deskripsi ?></textarea>
 						</div>
 						
 					</div>
@@ -184,10 +204,11 @@
 <!--end::Entry-->
 </form>
 
-<script src="<?= asset("admin/customjs/master/kelas/kelola-kelas.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/kelas/proses-kelas.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 <script>
 	
+
 	$("#file_gambar_header").change(function() {
         readURL(this, false);
     });

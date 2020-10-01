@@ -83,10 +83,19 @@
 							<label>Email address <span class="text-danger">*</span></label>
 							<input type="email" class="form-control" name="email" id="email-pengajar" placeholder="Masukkan email" required/>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-3">
 							<label for="exampleInputPassword1">Password <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input type="password" class="form-control password" id="password-pengajar" name="password" placeholder="Password" required/>
+								<div class="input-group-append">
+									<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<label for="exampleInputPassword1">Retype Password <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<input type="password" class="form-control password" id="password-retype-pengajar" name="passwordConfirm" placeholder="Retype Password" required/>
 								<div class="input-group-append">
 									<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
 								</div>
@@ -116,16 +125,17 @@
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Kategori</label>
-							<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" multiple="multiple" required>
+							<select class="form-control select2" id="select-kategori" name="kategori[]" style="width:100%" multiple="multiple" required>
 								<option value=""></option>
-								<option value="Web Programming">Web Programming</option>
-								<option value="Web Programming">Mobile Programming</option>
+								<?php foreach ($listKategori as $kt) : ?>
+									<option value="<?= $kt->id ?>"><?= $kt->nama ?></option>
+								<?php endforeach; ?>
 							</select>
 						</div>
 						<div class="col-lg-6">
 							<label>Lampiran (CV, dan lain-lain)</label>
 							<div class="custom-file">
-								<input type="file" class="custom-file-input" id="customFile" name="lampiran" />
+								<input type="file" class="custom-file-input" id="customFile" name="cv" />
 								<label class="custom-file-label" for="customFile">Choose file</label>
 							</div>
 						</div>
@@ -140,19 +150,19 @@
 							<div class="cloned-row-pendidikan">
 								<div class="row mb-4">
 									<div class="col-md-3">
-										<input type="text" name="NamaPendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
+										<input type="text" name="nama_pendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
 										<div class="d-md-none mb-2"></div>
 									</div>
 									<div class="col-md-2">
-										<input type="number" name="WaktuMasuk[]" class="form-control" placeholder="Tahun Masuk" />
+										<input type="number" name="tahun_masuk[]" class="form-control" placeholder="Tahun Masuk" />
 										<div class="d-md-none mb-2"></div>
 									</div>
 									<div class="col-md-2">
-										<input type="number" name="WaktuKeluar[]" class="form-control" placeholder="Tahun Keluar" />
+										<input type="number" name="tahun_keluar[]" class="form-control" placeholder="Tahun Keluar" />
 										<div class="d-md-none mb-2"></div>
 									</div>
 									<div class="col-md-2">
-										<input type="text" name="Jurusan[]" class="form-control" placeholder="Jurusan" />
+										<input type="text" name="jurusan[]" class="form-control" placeholder="Jurusan" />
 										<div class="d-md-none mb-2"></div>
 									</div>
 									<div class="col-md-2">
@@ -186,31 +196,41 @@
 						<div class="col-lg-12">
 							<label>Pekerjaan</label>
 							<div class="cloned-row-pekerjaan">
-								<div class="row mb-4">
-									<div class="col-md-3">
-										<input type="text" name="NamaPerusahaan[]" class="form-control" placeholder="Nama Perusahaan" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="number" name="WaktuMasukPekerjaan[]" class="form-control" placeholder="Tahun Masuk" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="number" name="WaktuKeluarPekerjaan[]" class="form-control" placeholder="Tahun Keluar" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="text" name="Posisi[]" class="form-control" placeholder="Posisi" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="text" name="keteranganPekerjaan[]" class="form-control" placeholder="Keterangan" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-1">
-										<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" title="Hapus">
-											<i class="la la-trash-o"></i>
-										</button>
+								<div class="row rowdetail mb-5">
+									<div class="col-lg-12">
+										<div class="row mb-4">
+											<div class="col-md-4">
+												<input type="text" name="nama_pekerjaan[]" class="form-control" placeholder="Nama Perusahaan" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-3">
+												<input type="text" name="posisi[]" class="form-control" placeholder="Posisi" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-2">
+												<input type="number" name="tahun_masuk_kerja[]" class="form-control" placeholder="Tahun Masuk" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-2">
+												<input type="number" name="tahun_keluar_kerja[]" class="form-control" placeholder="Tahun Keluar" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-md-7">
+												<input type="text" name="pencapaian[]" class="form-control" placeholder="Masukkan pencapaian" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-4">
+												<input type="text" name="keterangan[]" class="form-control" placeholder="Keterangan" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-1">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" title="Hapus">
+													<i class="la la-trash-o"></i>
+												</button>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -252,7 +272,7 @@
 <!--end::Entry-->
 </form>
 
-<script src="<?= asset("admin/customjs/master/pengajar/kelola-pengajar.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/pengajar/proses-pengajar.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

@@ -51,12 +51,27 @@ $(document).ready(function(){
 		showMeridian: false,
 	});
 
+	$('.datepicker2').datepicker({
+		format: 'dd-mm-yyyy',
+		orientation: "bottom left",
+		templates: arrows,
+		autoclose: true
+	});
+
+	$('.btn-icon-date2').on("click", function(){
+		$('.datepicker2').datepicker('show');
+	}) 
+
 	$('.btn-icon-date').on("click", function(){
 		$('.datepicker').datepicker('show');
 	})
 
 	$('.btn-icon-time').on("click", function(){
-		$('.timepicker').timepicker().focus();
+		$('#jam-mulai').timepicker().focus();
+	})
+
+	$('.btn-icon-time2').on("click", function(){
+		$('#jam-selesai').timepicker().focus();
 	})
 
 	$('#select-kelas').select2({

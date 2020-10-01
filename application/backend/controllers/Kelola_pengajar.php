@@ -6,6 +6,8 @@ class Kelola_pengajar extends Admin_Controller
     public function __construct()
     {
         parent::__construct();
+		$this->load->model("Pengajar_model", "pengajar");
+		$this->load->model("Kategori_model", "kategori");
     }
 
     public function index()
@@ -13,9 +15,45 @@ class Kelola_pengajar extends Admin_Controller
         $this->loadViewAdmin("master/pengajar/v_kelolapengajar");
 	}
 
+	public function config($lokasiArsip,$namafilebaru){
+		$config  = [
+            "upload_path"       => $lokasiArsip,
+            "allowed_types"     => 'gif|jpg|jpeg|png',
+            "max_size"          => 2048,
+            "file_ext_tolower"  => FALSE,
+            "overwrite"         => TRUE,
+            "remove_spaces"     => TRUE,
+            "file_name"         => $namafilebaru
+		];
+		
+		return $config;
+	}
+
+	public function insertKategoriProduk($array, $idkelas)
+	{
+		$data = [];
+		foreach ($array as $key => $val) {
+			$getKategori = $this->kategori->get_kategori($val);
+			$data = [
+				'id_kelas' => $idkelas,
+				'id_kategori' => $getKategori->id,
+				'keterangan' => $getKategori->keterangan,
+			];
+
+			$insert = $this->produk_kategori->save($data);
+		}
+
+		return true;
+	}
+
     public function tambah_data()
     {
-        $this->loadViewAdmin("master/pengajar/v_tambahpengajar");
+		$listKategori = $this->kategori->get_lookup_kategori();
+		// d($listPengajar);
+		$data = [
+			'listKategori'	=> $listKategori
+		];
+        $this->loadViewAdmin("master/pengajar/v_tambahpengajar", $data);
 	}
 	
 	public function simpan_data()
@@ -25,7 +63,8 @@ class Kelola_pengajar extends Admin_Controller
 		// foreach( $namemember as $value ) {
 		// 	print $value;
 		// }
-		var_dump($dataInput);
+		unset($dataInput['foto_pengajar_remove'], $dataInput['passwordConfirm']);
+		var_dump($_FILES["foto_pengajar"]["name"]);
 	}
 
 	public function get_data()

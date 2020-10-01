@@ -13,6 +13,8 @@ $(document).ready( function() {
 		$('#form-subkategori')[0].reset();
 		$("#kategori-induk").val(namaindukkategori);
 		$("#id-induk-kategori").val(id_induk);
+		urlgambar = asset + 'gambar/ukuran-banner.jpg';
+		$('#imgPreview').attr('src', urlgambar);
 	});
 
 
@@ -28,6 +30,15 @@ $(document).ready( function() {
 		
 		var getKategori = $(this).closest("tr").find('.txt-kategori').text();
 		var getKeterangan = $(this).closest("tr").find('.txt-keterangan').text();
+		var getGambar = $(this).closest("tr").find('.txt-gambar').val();
+		var urlgambar;
+		if(getGambar == ''){
+			urlgambar = asset + 'gambar/ukuran-banner.jpg';
+		}
+		else{
+			urlgambar = asset + 'gambar/' + getGambar;
+		}
+		$('#imgPreview').attr('src', urlgambar);
 		$("#nama-kategori").val(getKategori);
 		$("#keterangan-kategori").val(getKeterangan);
 		$("#kategori-induk").val(namaindukkategori);
@@ -141,11 +152,12 @@ $(document).ready( function() {
 
 	$("#form-subkategori").on("submit", function(event) {
 		event.preventDefault();
-		
+		var btn = $('.btn-simpan');
+		btn.attr('disabled', true);
 		// $("#form-edit-general-service")
 		Swal.fire({
 			title: 'Harap menunggu',
-			text: 'Sedang menghapus',
+			text: 'Sedang memproses',
 			// timer: 2000,
 			onBeforeOpen: () => {
 				Swal.showLoading();
@@ -168,16 +180,19 @@ $(document).ready( function() {
 								$('#table-subkategori').DataTable().clear();
 								$('#table-subkategori').DataTable().destroy();
 								getTable(id_induk);
+								btn.attr('disabled', false);
 							})
 							
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");
+							btn.attr('disabled', false);
 						
 						}
 					},
 					error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
 						Swal.fire("Oops", xhr.responseText, "error");
+						btn.attr('disabled', false);
 					}
 				});
 				// END AJAX
