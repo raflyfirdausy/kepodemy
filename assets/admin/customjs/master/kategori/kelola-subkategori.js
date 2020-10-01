@@ -17,7 +17,6 @@ $(document).ready( function() {
 		$('#imgPreview').attr('src', urlgambar);
 	});
 
-
 	$(document).on("click", ".btn-edit-subkategori", function(event){
 		event.preventDefault();
 		var id = $(this).data("id");
