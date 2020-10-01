@@ -5,7 +5,7 @@
 		<div class="d-flex align-items-center flex-wrap mr-2">
 
 			<!--begin::Page Title-->
-			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kategori</h5>
+			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Merchandise</h5>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -14,7 +14,10 @@
 					<a href="javascript:;" class="text-muted">Master</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Kategori</a>
+					<a href="javascript:;" class="text-muted">Produk</a>
+				</li>
+				<li class="breadcrumb-item">
+					<a href="javascript:;" class="text-muted">Merchandise</a>
 				</li>
 			</ul>
 			<!--end::Breadcrumb-->
@@ -22,7 +25,7 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
-			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-kategori">
+			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-merchandise">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -50,24 +53,25 @@
 			<div class="card-header">
 				<div class="col-md-8 m-0 p-0">
 					<div class="mt-8">
-						<h3 class="card-label">Kelola Kategori</h3>
+						<h3 class="card-label">Kelola Merchandise</h3>
 					</div>
 				</div>
 			</div>
 			<div class="card-body">
 				<!--begin: Datatable-->
-				<table class="table table-bordered table-hover table-checkable" id="table-kategori" style="margin-top: 13px !important">
+				<table class="table table-bordered table-hover table-checkable" id="table-merchandise" style="margin-top: 13px !important">
 					<thead>
 						<tr>
 							<th class="text-center" style="width: 5%">No</th>
-							<th style="width: 25%">Nama Kategori</th>
+							<th style="width: 20%">Nama Merchandise</th>
 							<th style="width: 30%">Keterangan</th>
-							<th style="width: 25%">Jumlah Subkategori</th>
+							<th style="width: 15%">Harga</th>
+							<th style="width: 15%">Harga Diskon</th>
 							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>
 
-					<tbody id="body-kategori">
+					<tbody id="body-merchandise">
 					
 					</tbody>
 
@@ -83,27 +87,34 @@
 
 
 <!-- Modal-->
-<div class="modal fade" id="kategoriModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
+<div class="modal fade" id="merchandiseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="labelKategoriModal">Tambah Kategori</h5>
+                <h5 class="modal-title" id="labelMerchandiseModal">Tambah Merchandise</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
-			<form id="form-kategori" method="POST">
+			<form id="form-merchandise" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="id" id="id-kategori" value="">
-					<input type="hidden" name="id_induk" id="id-induk-kategori" value="">
+					<input type="hidden" name="id" id="id-merchandise" value="">
 					<div class="form-group row">
-						<label>Nama Kategori</label>
-						<input type="text" name="nama" id="nama-kategori" class="form-control" placeholder="Nama kategori" required/>
+						<label>Nama Merchandise</label>
+						<input type="text" name="nama" id="nama-merchandise" class="form-control" placeholder="Nama merchandise" required/>
 					</div>
 					<div class="form-group row">
 						<label>Keterangan</label>
-						<textarea name="keterangan" id="keterangan-kategori" class="form-control" placeholder="Keterangan" rows="3"></textarea>
+						<textarea name="keterangan" id="keterangan-merchandise" class="form-control" placeholder="Keterangan" rows="3"></textarea>
+					</div>
+					<div class="form-group row">
+						<label>Harga</label>
+						<input type="text" name="harga" id="harga-merchandise" class="form-control valid-number" placeholder="0"/>
+					</div>
+					<div class="form-group row">
+						<label>Harga Diskon</label>
+						<input type="text" name="harga_diskon" id="harga-diskon" class="form-control valid-number" placeholder="0"/>
 					</div>
 				</div>
 					
@@ -118,7 +129,7 @@
 </div>
 
 
-<script src="<?= asset("admin/customjs/master/kategori/kelola-kategori.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/merchandise/kelola-merchandise.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

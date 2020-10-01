@@ -1,8 +1,8 @@
 <?php
 
-class Admin_model extends Custom_model
+class Pengajar_model extends Custom_model
 {
-    public $table           = 'admin';
+    public $table           = 'pengajar';
     public $primary_key     = 'id';
     public $soft_deletes    = TRUE;
     public $timestamps      = TRUE;
@@ -10,13 +10,20 @@ class Admin_model extends Custom_model
 
     public function __construct()
     {
+
+		// $this->has_one['user'] = array(
+        //     'foreign_model'     => 'Pengajar_model',
+        //     'foreign_table'     => 'pengajar',
+        //     'foreign_key'       => 'id_pengajar',
+        //     'local_key'         => 'id_pengajar'
+        // );
         parent::__construct();
 	}
 	
 	public function get_all_data()
 	{
 		$qry = $this->order_by("created_at", "DESC")->get_all() ? : [];
-		return $qry;
+		return $qry ;
 	}
 
 	public function save($array)

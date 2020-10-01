@@ -285,6 +285,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datetimepicker.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datepicker.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-timepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/editors/summernote.js") ?>"></script>
 
 	<script>
 	$(function() {

@@ -15,6 +15,9 @@
 					<a href="javascript:;" class="text-muted">Master</a>
 				</li>
 				<li class="breadcrumb-item">
+					<a href="javascript:;" class="text-muted">Produk</a>
+				</li>	
+				<li class="breadcrumb-item">
 					<a href="javascript:;" class="text-muted">Kelas</a>
 				</li>
 				<li class="breadcrumb-item">
@@ -54,7 +57,7 @@
 			
 			<div class="card-body">
 				<div class="col-md-12">
-				<div class="form-group row">
+					<div class="form-group row">
 						<div class="col-lg-6">
 							<!-- <div class="card-body"> -->
                                 <div class="mb-10">
@@ -78,72 +81,95 @@
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Judul <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="judul" id="judul" placeholder="Masukkan judul" value="Kelas Programming" required/>
+							<input type="text" class="form-control" name="nama" id="judul" placeholder="Masukkan judul" required/>
 						</div>
 						<div class="col-lg-6">
-							<label for="exampleInputPassword1">Waktu Pembelajaran <span class="text-danger">*</span></label>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="input-group date">
-										<input type="text" class="form-control datepicker" id="date-pembelajaran" placeholder="Select date"/>
-										<div class="input-group-append btn-icon-date">
-											<span class="input-group-text">
-												<i class="ki ki-calendar"></i>
-											</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="input-group">
-										<input class="form-control timepicker" id="time-pembelajaran" readonly placeholder="Select time" type="text"/>
-										<div class="input-group-append btn-icon-time">
-											<span class="input-group-text">
-												<i class="ki ki-clock"></i>
-											</span>
-										</div>
-									</div>
-								</div>
-							</div>
+							<label>Nama Pengajar<span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-pengajar" name="id_pengajar" style="width:100%" required>
+								<option value=""></option>
+								<?php foreach ($listPengajar as $pengajar) : ?>
+									<option value="<?= $pengajar->id ?>"><?= $penggajar->nama ?></option>
+								<?php endforeach; ?>
+							</select>
 							
 						</div>
 					</div>
 					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Kategori<span class="text-danger">*</span></label>
-							<select class="form-control select2" id="select-kategori" name="KategoriPengajar" style="width:100%" multiple="multiple" required>
-								<option value=""></option>
-								<option value="Web Programming">Web Programming</option>
-								<option value="Web Programming" selected>Mobile Programming</option>
-							</select>
+						<div class="col-lg-2">
+							<label>Tanggal <span class="text-danger">*</span></label>
+							<div class="input-group date">
+								<input type="text" class="form-control datepicker" id="tgl-pembelajaran" name="tanggal" placeholder="Select date" required/>
+								<div class="input-group-append btn-icon-date">
+									<span class="input-group-text">
+										<i class="ki ki-calendar"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2">
+							<label>Jam mulai <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<input class="form-control timepicker" id="jam-,ulai" name="jam_mulai" placeholder="Select time" type="text" required/>
+								<div class="input-group-append btn-icon-time">
+									<span class="input-group-text">
+										<i class="ki ki-clock"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2">
+							<label>Jam Selesai <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<input class="form-control timepicker" id="jam-selesai" name="jam_selesai" placeholder="Select time" type="text" required/>
+								<div class="input-group-append btn-icon-time">
+									<span class="input-group-text">
+										<i class="ki ki-clock"></i>
+									</span>
+								</div>
+							</div>
 						</div>
 						<div class="col-lg-6">
-							<label>Nama Pengajar<span class="text-danger">*</span></label>
-							<select class="form-control select2" id="select-pengajar" name="pengajar" style="width:100%" required>
+							<label>Jenis pembelajaran<span class="text-danger">*</span></label>
+							<select class="form-control select2" id="select-jenis-kelas" name="jenis" style="width:100%" required>
 								<option value=""></option>
-								<option value="Rafly Firdausy Irawan" selected>Rafly Firdausy Irawan</option>
-								<option value="Zulkifli">Zulkifli</option>
+								<option value="vicon">Video Conference</option>
+								<option value="download">Download</option>
 							</select>
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
 							<label>Harga <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="Masukkan harga" value="150000" required/>
+							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="0" required/>
 						</div>
 						<div class="col-lg-6">
-							<label>Akses Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="aksespembelajaran" id="akses-belajar" placeholder="Ex: Link atau sejenisnya" value="www.ultanesia.id/meet" required/>
+							<label>Media Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" required/>
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
-							<label>Nomor pokok pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="nomorpokok" id="nomor-pokok" placeholder="Masukkan nomor pokok pembelajaran" value="25" required/>
+							<!-- <label>Nomor pokok pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="nomorpokok" id="nomor-pokok" placeholder="Masukkan nomor pokok pembelajaran" required/> -->
+							<label>Keterangan</label>
+							<input type="text" class="form-control" name="keterangan" id="keterangan-pokok" placeholder="Masukkan nomor keterangan" required/>
 						</div>
 						<div class="col-lg-6">
-							<label>Deskripsi</label>
-							<textarea class="form-control" name="deskripsi" id="deskripsi" placeholder="Masukkan deskripsi kelas" rows="2">Kelas web programming</textarea>
+						<label>Harga Diskon <span class="text-muted">(optional)</span></label>
+							<input type="text" class="form-control valid-number" name="harga_diskon" id="harga-diskon" placeholder="0"/>
 						</div>
+						<!-- <div class="col-lg-6">
+							<label>Deskripsi</label>
+							<textarea class="form-control" name="deskripsi" id="deskripsi" placeholder="Masukkan deskripsi kelas" rows="2"></textarea>
+						</div> -->
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-12">
+							<label>Deskripsi <span class="text-danger">*</span></label>
+							<!-- <div class="summernote" id="kt_summernote_1"></div> -->
+							<textarea class="summernote" id="kt_summernote_1" name="deskripsi"></textarea>
+						</div>
+						
 					</div>
 					
 				</div>

@@ -25,6 +25,9 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
+			<a href="javascript:history.back()" class="btn btn-default font-weight-bold mr-2">
+				Kembali
+			</a>
 			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-subkategori">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -53,7 +56,9 @@
 			<div class="card-header">
 				<div class="col-md-8 m-0 p-0">
 					<div class="mt-8">
-						<h3 class="card-label">Subkategori - <?= $namakategori?></h3>
+						<h3 class="card-label">Subkategori - <span class="judul-subkategori"><?= ucwords($namakategori)?></span></h3>
+						<input type="hidden" id="id-induk" value="<?= $id_induk ?>">
+						<input type="hidden" id="nama-induk-kategori" value="<?= $namakategori ?>">
 					</div>
 				</div>
 			</div>
@@ -70,41 +75,7 @@
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td><span class="txt-kategori">Web Programming</span></td>
-							<td>1</td>
-							<td>26-09-2020</td>
-							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-edit-subkategori" data-id="2" title="Edit">
-									<i class="la la-edit text-warning"></i>
-								</button>
-								<a href="<?= base_url('kategori/detail/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Subkategori">
-									<i class="la la-list-ul text-success"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
-						<tr>
-							<td class="text-center">2</td>
-							<td><span class="txt-kategori">Web Desain</span></td>
-							<td>1</td>
-							<td>26-09-2020</td>
-							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-edit-subkategori" data-id="2" title="Edit">
-									<i class="la la-edit text-warning"></i>
-								</button>
-								<a href="<?= base_url('kategori/detail/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Subkategori">
-									<i class="la la-list-ul text-success"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-subkategori">
 					</tbody>
 
 				</table>
@@ -131,11 +102,19 @@
 			<form id="form-subkategori" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="id_kategori" id="id-kategori" value="">
+					<input type="hidden" name="id" id="id-kategori" value="">
 					<input type="hidden" name="id_induk" id="id-induk-kategori" value="">
 					<div class="form-group row">
+						<label>Induk Kategori</label>
+						<input type="text" name="namainduk" id="kategori-induk" class="form-control" disabled/>
+					</div>
+					<div class="form-group row">
 						<label>Nama Kategori</label>
-						<input type="text" name="namaKategori" id="nama-kategori" class="form-control" placeholder="Nama kategori" required/>
+						<input type="text" name="nama" id="nama-kategori" class="form-control" placeholder="Nama kategori" required/>
+					</div>
+					<div class="form-group row">
+						<label>Keterangan</label>
+						<textarea name="keterangan" id="keterangan-kategori" class="form-control" placeholder="Keterangan" rows="3"></textarea>
 					</div>
 				</div>
 					
@@ -150,7 +129,7 @@
 </div>
 
 
-<script src="<?= asset("admin/customjs/master/kategori/kelola-kategori.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/kategori/kelola-subkategori.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

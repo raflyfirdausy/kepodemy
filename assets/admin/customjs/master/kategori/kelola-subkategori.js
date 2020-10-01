@@ -1,31 +1,38 @@
 
 $(document).ready( function() { 
+	var id_induk = $("#id-induk").val();
+	var namaindukkategori = $("#nama-induk-kategori").val();
 	
-	getTable();
+	getTable(id_induk);
 
-	$('.btn-add-kategori').on("click", function(){
-		$("#kategoriModal").modal("show");
-		$("#labelKategoriModal").html("Tambah Kategori");
-		$("#form-kategori").attr("action", base_url + 'kategori/simpan_kategori');
-		$('#form-kategori')[0].reset();
+
+	$('.btn-add-subkategori').on("click", function(){
+		$("#subkategoriModal").modal("show");
+		$("#labelSubkategoriModal").html("Tambah Subkategori");
+		$("#form-subkategori").attr("action", base_url + 'kategori/simpan_kategori');
+		$('#form-subkategori')[0].reset();
+		$("#kategori-induk").val(namaindukkategori);
+		$("#id-induk-kategori").val(id_induk);
 	});
 
-	$(document).on("click", ".btn-edit-kategori", function(event){
+
+	$(document).on("click", ".btn-edit-subkategori", function(event){
 		event.preventDefault();
 		var id = $(this).data("id");
+		$("#subkategoriModal").modal("show");
 		
-		$("#labelKategoriModal").html("Edit Kategori");
-		$("#form-kategori").attr("action", base_url + 'kategori/update_kategori');
-		$('#form-kategori')[0].reset();
+		$("#labelSubkategoriModal").html("Edit Subkategori");
+		$("#form-subkategori").attr("action", base_url + 'kategori/update_kategori');
+		$('#form-subkategori')[0].reset();
 		$("#id-kategori").val(id);
 		
 		var getKategori = $(this).closest("tr").find('.txt-kategori').text();
 		var getKeterangan = $(this).closest("tr").find('.txt-keterangan').text();
 		$("#nama-kategori").val(getKategori);
 		$("#keterangan-kategori").val(getKeterangan);
+		$("#kategori-induk").val(namaindukkategori);
+		$("#id-induk-kategori").val(id_induk);
 
-
-		$("#kategoriModal").modal("show");
 	});
 
 	
@@ -86,7 +93,7 @@ $(document).ready( function() {
 		});
 	})
 
-	function getTable() {
+	function getTable(id_induk) {
 		Swal.fire({
 			title: 'Harap menunggu',
 			text: 'Sedang memproses',
@@ -96,17 +103,20 @@ $(document).ready( function() {
 				
 				$.ajax({
 					type: "POST", // Method pengiriman data bisa dengan GET atau POST
-					url: base_url + 'kategori/get_all_data', // Isi dengan url/path file php yang dituju
+					url: base_url + 'kategori/get_subkategori', // Isi dengan url/path file php yang dituju
+					data: {
+						'id_induk': id_induk
+					},
 					dataType: 'JSON',
 					success: function (data) { // Ketika proses pengiriman berhasil
 						// var data = JSON.parse(data);
 						console.log(data.output);
 						Swal.close();
-						$("#body-kategori").html("");
-						$("#body-kategori").append(data.output);
+						$("#body-subkategori").html("");
+						$("#body-subkategori").append(data.output);
 						
 						
-						$('#table-kategori').dataTable({
+						$('#table-subkategori').dataTable({
 							"paging": true,
 							"lengthChange": true,
 							"searching": true,
@@ -129,9 +139,7 @@ $(document).ready( function() {
 		});
 	}
 
-
-
-	$("#form-kategori").on("submit", function(event) {
+	$("#form-subkategori").on("submit", function(event) {
 		event.preventDefault();
 		
 		// $("#form-edit-general-service")
@@ -156,11 +164,12 @@ $(document).ready( function() {
 						if (data.response_code == 200) {
 							Swal.close();
 							Swal.fire('Done', data.response_message, 'success').then((result) => {
-								$("#kategoriModal").modal("hide");
-								$('#table-kategori').DataTable().clear();
-								$('#table-kategori').DataTable().destroy();
-								getTable();
+								$("#subkategoriModal").modal("hide");
+								$('#table-subkategori').DataTable().clear();
+								$('#table-subkategori').DataTable().destroy();
+								getTable(id_induk);
 							})
+							
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");
@@ -175,6 +184,5 @@ $(document).ready( function() {
 			}
 		});
 	});
-
 
 })
