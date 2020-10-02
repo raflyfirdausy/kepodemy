@@ -22,7 +22,7 @@ class Kelas extends Admin_Controller
 		$config  = [
             "upload_path"       => $lokasiArsip,
             "allowed_types"     => 'gif|jpg|jpeg|png',
-            "max_size"          => 2048,
+            "max_size"          => 10240,
             "file_ext_tolower"  => FALSE,
             "overwrite"         => TRUE,
             "remove_spaces"     => TRUE,

@@ -7,33 +7,38 @@ $(document).ready( function() {
 		// $(this).slideDown();
 		// $(".cloned-row:first").clone().find("input").val("").end().insertAfter(".cloned-row:last");
 		var output = "";
-		output += `<div class="row mb-4">
-				<div class="col-md-3">
-					<input type="text" name="NamaPendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
-					<div class="d-md-none mb-2"></div>
-				</div>
-				<div class="col-md-2">
-					<input type="text" name="WaktuMasuk[]" class="form-control" placeholder="Tahun Masuk" />
-					<div class="d-md-none mb-2"></div>
-				</div>
-				<div class="col-md-2">
-					<input type="text" name  ="WaktuKeluar[]" class="form-control" placeholder="Tahun Keluar" />
-					<div class="d-md-none mb-2"></div>
-				</div>
-				<div class="col-md-2">
-					<input type="text" name="Jurusan[]" class="form-control" placeholder="Jurusan" />
-					<div class="d-md-none mb-2"></div>
-				</div>
-				<div class="col-md-2">
-					<input type="text" name="keterangan[]" class="form-control" placeholder="Keterangan" />
-					<div class="d-md-none mb-2"></div>
-				</div>
-				<div class="col-md-1">
-					<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
-						<i class="la la-trash-o"></i>
-					</button>
-				</div>
-			</div>`;
+		output += `<div class="row rowdetailpendidikan mb-3">
+					<div class="col-lg-12">
+						<div class="row mb-4">
+							<div class="col-md-3">
+								<input type="text" name="nama_pendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
+								<div class="d-md-none mb-2"></div>
+							</div>
+							<div class="col-md-2">
+								<input type="number" name="tahun_masuk[]" class="form-control" placeholder="Tahun Masuk" />
+								<div class="d-md-none mb-2"></div>
+							</div>
+							<div class="col-md-2">
+								<input type="number" name="tahun_keluar[]" class="form-control" placeholder="Tahun Keluar" />
+								<div class="d-md-none mb-2"></div>
+							</div>
+							<div class="col-md-2">
+								<input type="text" name="jurusan[]" class="form-control" placeholder="Jurusan" />
+								<div class="d-md-none mb-2"></div>
+							</div>
+							<div class="col-md-2">
+								<input type="text" name="keterangan_pendidikan[]" class="form-control" placeholder="Keterangan" />
+								<div class="d-md-none mb-2"></div>
+							</div>
+							<div class="col-md-1">
+								<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
+									<i class="la la-trash-o"></i>
+								</button>
+							</div>
+						</div>
+						<hr>
+					</div>
+					</div>`;
 		$('.cloned-row-pendidikan').append(output);
 		$("html, body").animate({ scrollTop: $(document).height() }, 1000);
 	});
@@ -42,7 +47,7 @@ $(document).ready( function() {
 		// $(this).slideDown();
 		// $(".cloned-row:first").clone().find("input").val("").end().insertAfter(".cloned-row:last");
 		var output = "";
-		output += `<div class="row rowdetail mb-5">
+		output += `<div class="row rowdetail mb-3">
 					<div class="col-lg-12">
 						<div class="row mb-4">
 							<div class="col-md-4">
@@ -68,7 +73,7 @@ $(document).ready( function() {
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-4">
-								<input type="text" name="keterangan[]" class="form-control" placeholder="Keterangan" />
+								<input type="text" name="keterangan_pekerjaan[]" class="form-control" placeholder="Keterangan" />
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-1">
@@ -77,6 +82,7 @@ $(document).ready( function() {
 								</button>
 							</div>
 						</div>
+						<hr>
 					</div>
 				</div>`;
 		$('.cloned-row-pekerjaan').append(output);
@@ -84,7 +90,7 @@ $(document).ready( function() {
 	});
 
 	$(document).on("click", ".btn-delete-pendidikan", function() {
-		$(this).closest(".row").remove();
+		$(this).closest(".rowdetailpendidikan").remove();
 	});
 
 	$(document).on("click", ".btn-delete-pekerjaan", function() {
@@ -101,7 +107,7 @@ $(document).ready( function() {
 		else{
 			Swal.fire({
 				title: 'Harap menunggu',
-				text: 'Sedang menghapus',
+				text: 'Sedang memproses',
 				// timer: 2000,
 				onBeforeOpen: () => {
 					Swal.showLoading();

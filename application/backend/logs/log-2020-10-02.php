@@ -7748,3 +7748,4984 @@ INFO - 2020-10-02 05:48:47 --> File loaded: C:\xampp\htdocs\kepodemy\application
 INFO - 2020-10-02 05:48:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
 INFO - 2020-10-02 05:48:47 --> Final output sent to browser
 DEBUG - 2020-10-02 05:48:47 --> Total execution time: 1.6540
+ERROR - 2020-10-02 05:09:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:09:27 --> Config Class Initialized
+INFO - 2020-10-02 05:09:27 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:09:27 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:09:28 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:09:28 --> URI Class Initialized
+DEBUG - 2020-10-02 05:09:28 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:09:28 --> Router Class Initialized
+INFO - 2020-10-02 05:09:28 --> Output Class Initialized
+INFO - 2020-10-02 05:09:28 --> Security Class Initialized
+DEBUG - 2020-10-02 05:09:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:09:28 --> Input Class Initialized
+INFO - 2020-10-02 05:09:28 --> Language Class Initialized
+INFO - 2020-10-02 10:09:28 --> Loader Class Initialized
+INFO - 2020-10-02 10:09:28 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:09:28 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:09:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:09:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:09:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:09:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:09:28 --> Encryption Class Initialized
+INFO - 2020-10-02 10:09:28 --> Controller Class Initialized
+INFO - 2020-10-02 10:09:28 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-02 10:09:28 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 10:09:28 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 10:09:28 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 10:09:29 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 10:09:29 --> Final output sent to browser
+DEBUG - 2020-10-02 10:09:29 --> Total execution time: 1.2349
+ERROR - 2020-10-02 05:49:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:49:35 --> Config Class Initialized
+INFO - 2020-10-02 05:49:35 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:49:35 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:49:35 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:49:35 --> URI Class Initialized
+INFO - 2020-10-02 05:49:35 --> Router Class Initialized
+INFO - 2020-10-02 05:49:35 --> Output Class Initialized
+INFO - 2020-10-02 05:49:35 --> Security Class Initialized
+DEBUG - 2020-10-02 05:49:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:49:35 --> Input Class Initialized
+INFO - 2020-10-02 05:49:35 --> Language Class Initialized
+INFO - 2020-10-02 10:49:36 --> Loader Class Initialized
+INFO - 2020-10-02 10:49:36 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:49:36 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:49:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:49:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:49:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:49:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:49:36 --> Encryption Class Initialized
+INFO - 2020-10-02 10:49:37 --> Controller Class Initialized
+INFO - 2020-10-02 10:49:37 --> MY_Model class loaded
+INFO - 2020-10-02 10:49:37 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:49:37 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:49:37 --> Model "Kategori_model" initialized
+ERROR - 2020-10-02 10:49:37 --> Severity: error --> Exception: C:\xampp\htdocs\kepodemy\application\backend\models/PengajarPendidikan_model.php exists, but doesn't declare class PengajarPendidikan_model C:\xampp\htdocs\kepodemy\system\core\Loader.php 340
+ERROR - 2020-10-02 05:50:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:50:01 --> Config Class Initialized
+INFO - 2020-10-02 05:50:01 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:50:01 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:50:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:50:02 --> URI Class Initialized
+INFO - 2020-10-02 05:50:02 --> Router Class Initialized
+INFO - 2020-10-02 05:50:02 --> Output Class Initialized
+INFO - 2020-10-02 05:50:02 --> Security Class Initialized
+DEBUG - 2020-10-02 05:50:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:50:02 --> Input Class Initialized
+INFO - 2020-10-02 05:50:02 --> Language Class Initialized
+INFO - 2020-10-02 10:50:02 --> Loader Class Initialized
+INFO - 2020-10-02 10:50:02 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:50:02 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:50:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:50:02 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:50:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:50:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:50:02 --> Encryption Class Initialized
+INFO - 2020-10-02 10:50:02 --> Controller Class Initialized
+INFO - 2020-10-02 10:50:02 --> MY_Model class loaded
+INFO - 2020-10-02 10:50:03 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:50:03 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:50:03 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:50:03 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:50:03 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:50:03 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 10:50:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 10:50:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 10:50:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 10:50:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 10:50:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 10:50:03 --> Final output sent to browser
+DEBUG - 2020-10-02 10:50:03 --> Total execution time: 1.7442
+ERROR - 2020-10-02 05:50:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:50:06 --> Config Class Initialized
+INFO - 2020-10-02 05:50:06 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:50:06 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:50:06 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:50:06 --> URI Class Initialized
+INFO - 2020-10-02 05:50:06 --> Router Class Initialized
+INFO - 2020-10-02 05:50:06 --> Output Class Initialized
+INFO - 2020-10-02 05:50:06 --> Security Class Initialized
+DEBUG - 2020-10-02 05:50:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:50:06 --> Input Class Initialized
+INFO - 2020-10-02 05:50:06 --> Language Class Initialized
+INFO - 2020-10-02 10:50:06 --> Loader Class Initialized
+INFO - 2020-10-02 10:50:06 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:50:06 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:50:06 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:50:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:50:06 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:50:06 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:50:06 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:50:07 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:50:07 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:50:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:50:07 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:50:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:50:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:50:07 --> Encryption Class Initialized
+INFO - 2020-10-02 10:50:07 --> Controller Class Initialized
+INFO - 2020-10-02 10:50:07 --> MY_Model class loaded
+INFO - 2020-10-02 10:50:07 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:50:07 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:50:07 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:50:07 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:50:07 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:50:08 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 10:50:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 10:50:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 10:50:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 10:50:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 10:50:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 10:50:08 --> Final output sent to browser
+DEBUG - 2020-10-02 10:50:08 --> Total execution time: 1.8297
+ERROR - 2020-10-02 05:51:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:51:37 --> Config Class Initialized
+INFO - 2020-10-02 05:51:37 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:51:37 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:51:37 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:51:37 --> URI Class Initialized
+INFO - 2020-10-02 05:51:37 --> Router Class Initialized
+INFO - 2020-10-02 05:51:37 --> Output Class Initialized
+INFO - 2020-10-02 05:51:37 --> Security Class Initialized
+DEBUG - 2020-10-02 05:51:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:51:37 --> Input Class Initialized
+INFO - 2020-10-02 05:51:37 --> Language Class Initialized
+INFO - 2020-10-02 10:51:37 --> Loader Class Initialized
+INFO - 2020-10-02 10:51:37 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:51:37 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:51:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:51:37 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:51:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:51:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:51:37 --> Encryption Class Initialized
+INFO - 2020-10-02 10:51:37 --> Controller Class Initialized
+INFO - 2020-10-02 10:51:38 --> MY_Model class loaded
+INFO - 2020-10-02 10:51:38 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:51:38 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:51:38 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:51:38 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:51:38 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:51:38 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 10:51:38 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:51:38 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:51:38 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:51:38 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:51:38 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:51:38 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `pengajar_pendidikan` (`id_pengajar`, `nama_pendidikan`, `tahun_masuk`, `tahun_keluar`, `jurusan`, `keterangan`, `created_at`) VALUES (1, Array, Array, Array, Array, Array, '2020-10-02 10:51:38')
+INFO - 2020-10-02 10:51:38 --> Language file loaded: language/english/db_lang.php
+ERROR - 2020-10-02 10:51:38 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\kepodemy\system\core\Exceptions.php:271) C:\xampp\htdocs\kepodemy\system\core\Common.php 570
+ERROR - 2020-10-02 05:54:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:54:58 --> Config Class Initialized
+INFO - 2020-10-02 05:54:58 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:54:58 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:54:58 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:54:58 --> URI Class Initialized
+INFO - 2020-10-02 05:54:58 --> Router Class Initialized
+INFO - 2020-10-02 05:54:58 --> Output Class Initialized
+INFO - 2020-10-02 05:54:58 --> Security Class Initialized
+DEBUG - 2020-10-02 05:54:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:54:58 --> Input Class Initialized
+INFO - 2020-10-02 05:54:58 --> Language Class Initialized
+INFO - 2020-10-02 10:54:58 --> Loader Class Initialized
+INFO - 2020-10-02 10:54:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:54:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:54:58 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:54:58 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:54:58 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:54:58 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:54:58 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:54:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:54:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:54:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:54:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:54:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:54:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:54:59 --> Encryption Class Initialized
+INFO - 2020-10-02 10:54:59 --> Controller Class Initialized
+INFO - 2020-10-02 10:54:59 --> MY_Model class loaded
+INFO - 2020-10-02 10:54:59 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:54:59 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:54:59 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:54:59 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:54:59 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:54:59 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 10:54:59 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:55:00 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:55:00 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:55:00 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:55:00 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\kepodemy\system\database\DB_driver.php 1471
+ERROR - 2020-10-02 10:55:00 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `pengajar_pendidikan` (`id_pengajar`, `nama_pendidikan`, `tahun_masuk`, `tahun_keluar`, `jurusan`, `keterangan`, `created_at`) VALUES (1, Array, Array, Array, Array, Array, '2020-10-02 10:54:59')
+INFO - 2020-10-02 10:55:00 --> Language file loaded: language/english/db_lang.php
+ERROR - 2020-10-02 10:55:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\kepodemy\system\core\Exceptions.php:271) C:\xampp\htdocs\kepodemy\system\core\Common.php 570
+ERROR - 2020-10-02 05:56:37 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:56:37 --> Config Class Initialized
+INFO - 2020-10-02 05:56:37 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:56:37 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:56:37 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:56:37 --> URI Class Initialized
+INFO - 2020-10-02 05:56:37 --> Router Class Initialized
+INFO - 2020-10-02 05:56:37 --> Output Class Initialized
+INFO - 2020-10-02 05:56:37 --> Security Class Initialized
+DEBUG - 2020-10-02 05:56:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:56:37 --> Input Class Initialized
+INFO - 2020-10-02 05:56:37 --> Language Class Initialized
+INFO - 2020-10-02 10:56:37 --> Loader Class Initialized
+INFO - 2020-10-02 10:56:37 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:56:37 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:56:37 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:56:38 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:56:38 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:56:38 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:56:38 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:56:38 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:56:38 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:56:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:56:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:56:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:56:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:56:38 --> Encryption Class Initialized
+INFO - 2020-10-02 10:56:38 --> Controller Class Initialized
+INFO - 2020-10-02 10:56:38 --> MY_Model class loaded
+INFO - 2020-10-02 10:56:38 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:56:38 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:56:38 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:56:38 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:56:38 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:56:38 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 10:56:38 --> Final output sent to browser
+DEBUG - 2020-10-02 10:56:39 --> Total execution time: 1.4804
+ERROR - 2020-10-02 05:59:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:59:23 --> Config Class Initialized
+INFO - 2020-10-02 05:59:23 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:59:23 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:59:23 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:59:23 --> URI Class Initialized
+INFO - 2020-10-02 05:59:23 --> Router Class Initialized
+INFO - 2020-10-02 05:59:23 --> Output Class Initialized
+INFO - 2020-10-02 05:59:24 --> Security Class Initialized
+DEBUG - 2020-10-02 05:59:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:59:24 --> Input Class Initialized
+INFO - 2020-10-02 05:59:24 --> Language Class Initialized
+INFO - 2020-10-02 10:59:24 --> Loader Class Initialized
+INFO - 2020-10-02 10:59:24 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:59:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:59:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:59:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:59:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:59:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:59:24 --> Encryption Class Initialized
+INFO - 2020-10-02 10:59:24 --> Controller Class Initialized
+INFO - 2020-10-02 10:59:24 --> MY_Model class loaded
+INFO - 2020-10-02 10:59:24 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:59:24 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:59:24 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:59:25 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:59:25 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:59:25 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 10:59:25 --> Final output sent to browser
+DEBUG - 2020-10-02 10:59:25 --> Total execution time: 1.5969
+ERROR - 2020-10-02 05:59:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:59:58 --> Config Class Initialized
+INFO - 2020-10-02 05:59:58 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:59:58 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:59:58 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:59:58 --> URI Class Initialized
+INFO - 2020-10-02 05:59:58 --> Router Class Initialized
+INFO - 2020-10-02 05:59:58 --> Output Class Initialized
+INFO - 2020-10-02 05:59:58 --> Security Class Initialized
+DEBUG - 2020-10-02 05:59:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:59:58 --> Input Class Initialized
+INFO - 2020-10-02 05:59:58 --> Language Class Initialized
+INFO - 2020-10-02 10:59:58 --> Loader Class Initialized
+INFO - 2020-10-02 10:59:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:59:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:59:58 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:59:58 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:59:58 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:59:59 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:59:59 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:59:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:59:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:59:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:59:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:59:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:59:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:59:59 --> Encryption Class Initialized
+INFO - 2020-10-02 10:59:59 --> Controller Class Initialized
+INFO - 2020-10-02 10:59:59 --> MY_Model class loaded
+INFO - 2020-10-02 10:59:59 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:59:59 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 10:59:59 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:59:59 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 10:59:59 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 10:59:59 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 10:59:59 --> Final output sent to browser
+DEBUG - 2020-10-02 10:59:59 --> Total execution time: 1.3286
+ERROR - 2020-10-02 06:00:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:00:38 --> Config Class Initialized
+INFO - 2020-10-02 06:00:38 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:00:38 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:00:38 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:00:38 --> URI Class Initialized
+INFO - 2020-10-02 06:00:38 --> Router Class Initialized
+INFO - 2020-10-02 06:00:38 --> Output Class Initialized
+INFO - 2020-10-02 06:00:38 --> Security Class Initialized
+DEBUG - 2020-10-02 06:00:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:00:38 --> Input Class Initialized
+INFO - 2020-10-02 06:00:38 --> Language Class Initialized
+INFO - 2020-10-02 11:00:38 --> Loader Class Initialized
+INFO - 2020-10-02 11:00:38 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:00:38 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:00:38 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:00:38 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:00:38 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:00:38 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:00:38 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:00:39 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:00:39 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:00:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:00:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:00:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:00:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:00:39 --> Encryption Class Initialized
+INFO - 2020-10-02 11:00:39 --> Controller Class Initialized
+INFO - 2020-10-02 11:00:39 --> MY_Model class loaded
+INFO - 2020-10-02 11:00:39 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:00:39 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:00:39 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:00:39 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:00:39 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:00:39 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:00:39 --> Final output sent to browser
+DEBUG - 2020-10-02 11:00:39 --> Total execution time: 1.4914
+ERROR - 2020-10-02 06:03:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:03:47 --> Config Class Initialized
+INFO - 2020-10-02 06:03:47 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:03:47 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:03:47 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:03:47 --> URI Class Initialized
+INFO - 2020-10-02 06:03:47 --> Router Class Initialized
+INFO - 2020-10-02 06:03:47 --> Output Class Initialized
+INFO - 2020-10-02 06:03:47 --> Security Class Initialized
+DEBUG - 2020-10-02 06:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:03:47 --> Input Class Initialized
+INFO - 2020-10-02 06:03:47 --> Language Class Initialized
+INFO - 2020-10-02 11:03:48 --> Loader Class Initialized
+INFO - 2020-10-02 11:03:48 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:03:48 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:03:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:03:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:03:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:03:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:03:48 --> Encryption Class Initialized
+INFO - 2020-10-02 11:03:48 --> Controller Class Initialized
+INFO - 2020-10-02 11:03:48 --> MY_Model class loaded
+INFO - 2020-10-02 11:03:48 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:03:48 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:03:48 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:03:48 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:03:49 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:03:49 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:03:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:03:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:03:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:03:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:03:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:03:49 --> Final output sent to browser
+DEBUG - 2020-10-02 11:03:49 --> Total execution time: 1.9570
+ERROR - 2020-10-02 06:04:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:04:51 --> Config Class Initialized
+INFO - 2020-10-02 06:04:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:04:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:04:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:04:51 --> URI Class Initialized
+INFO - 2020-10-02 06:04:51 --> Router Class Initialized
+INFO - 2020-10-02 06:04:51 --> Output Class Initialized
+INFO - 2020-10-02 06:04:51 --> Security Class Initialized
+DEBUG - 2020-10-02 06:04:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:04:51 --> Input Class Initialized
+INFO - 2020-10-02 06:04:51 --> Language Class Initialized
+INFO - 2020-10-02 11:04:51 --> Loader Class Initialized
+INFO - 2020-10-02 11:04:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:04:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:04:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:04:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:04:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:04:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:04:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:04:52 --> Encryption Class Initialized
+INFO - 2020-10-02 11:04:52 --> Controller Class Initialized
+INFO - 2020-10-02 11:04:52 --> MY_Model class loaded
+INFO - 2020-10-02 11:04:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:04:52 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:04:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:04:52 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:04:52 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:04:52 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 06:10:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:10:15 --> Config Class Initialized
+INFO - 2020-10-02 06:10:15 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:10:15 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:10:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:10:16 --> URI Class Initialized
+INFO - 2020-10-02 06:10:16 --> Router Class Initialized
+INFO - 2020-10-02 06:10:16 --> Output Class Initialized
+INFO - 2020-10-02 06:10:16 --> Security Class Initialized
+DEBUG - 2020-10-02 06:10:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:10:16 --> Input Class Initialized
+INFO - 2020-10-02 06:10:16 --> Language Class Initialized
+INFO - 2020-10-02 11:10:16 --> Loader Class Initialized
+INFO - 2020-10-02 11:10:16 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:10:16 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:10:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:10:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:10:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:10:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:10:17 --> Encryption Class Initialized
+INFO - 2020-10-02 11:10:17 --> Controller Class Initialized
+INFO - 2020-10-02 11:10:17 --> MY_Model class loaded
+INFO - 2020-10-02 11:10:17 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:10:17 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:10:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:10:17 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:10:17 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:10:17 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 06:15:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:15:54 --> Config Class Initialized
+INFO - 2020-10-02 06:15:54 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:15:54 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:15:54 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:15:54 --> URI Class Initialized
+INFO - 2020-10-02 06:15:54 --> Router Class Initialized
+INFO - 2020-10-02 06:15:55 --> Output Class Initialized
+INFO - 2020-10-02 06:15:55 --> Security Class Initialized
+DEBUG - 2020-10-02 06:15:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:15:55 --> Input Class Initialized
+INFO - 2020-10-02 06:15:55 --> Language Class Initialized
+INFO - 2020-10-02 11:15:55 --> Loader Class Initialized
+INFO - 2020-10-02 11:15:55 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:15:55 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:15:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:15:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:15:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:15:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:15:56 --> Encryption Class Initialized
+INFO - 2020-10-02 11:15:56 --> Controller Class Initialized
+INFO - 2020-10-02 11:15:56 --> MY_Model class loaded
+INFO - 2020-10-02 11:15:56 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:15:56 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:15:56 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:15:56 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:15:56 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:15:56 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 06:19:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:19:26 --> Config Class Initialized
+INFO - 2020-10-02 06:19:26 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:19:26 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:19:26 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:19:26 --> URI Class Initialized
+INFO - 2020-10-02 06:19:26 --> Router Class Initialized
+INFO - 2020-10-02 06:19:26 --> Output Class Initialized
+INFO - 2020-10-02 06:19:26 --> Security Class Initialized
+DEBUG - 2020-10-02 06:19:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:19:26 --> Input Class Initialized
+INFO - 2020-10-02 06:19:26 --> Language Class Initialized
+INFO - 2020-10-02 11:19:26 --> Loader Class Initialized
+INFO - 2020-10-02 11:19:26 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:19:26 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:19:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:19:26 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:19:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:19:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:19:26 --> Encryption Class Initialized
+INFO - 2020-10-02 11:19:26 --> Controller Class Initialized
+INFO - 2020-10-02 11:19:27 --> MY_Model class loaded
+INFO - 2020-10-02 11:19:27 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:19:27 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:19:27 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:19:27 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:19:27 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:19:27 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:19:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:19:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:19:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:19:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:19:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:19:27 --> Final output sent to browser
+DEBUG - 2020-10-02 11:19:27 --> Total execution time: 1.9056
+ERROR - 2020-10-02 06:19:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:19:51 --> Config Class Initialized
+INFO - 2020-10-02 06:19:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:19:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:19:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:19:51 --> URI Class Initialized
+INFO - 2020-10-02 06:19:51 --> Router Class Initialized
+INFO - 2020-10-02 06:19:51 --> Output Class Initialized
+INFO - 2020-10-02 06:19:51 --> Security Class Initialized
+DEBUG - 2020-10-02 06:19:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:19:51 --> Input Class Initialized
+INFO - 2020-10-02 06:19:51 --> Language Class Initialized
+INFO - 2020-10-02 11:19:51 --> Loader Class Initialized
+INFO - 2020-10-02 11:19:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:19:51 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:19:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:19:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:19:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:19:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:19:52 --> Encryption Class Initialized
+INFO - 2020-10-02 11:19:52 --> Controller Class Initialized
+INFO - 2020-10-02 11:19:52 --> MY_Model class loaded
+INFO - 2020-10-02 11:19:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:19:52 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:19:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:19:52 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:19:52 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:19:52 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:19:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:19:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:19:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:19:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:19:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:19:52 --> Final output sent to browser
+DEBUG - 2020-10-02 11:19:53 --> Total execution time: 1.7904
+ERROR - 2020-10-02 06:20:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:20:38 --> Config Class Initialized
+INFO - 2020-10-02 06:20:38 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:20:38 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:20:38 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:20:38 --> URI Class Initialized
+INFO - 2020-10-02 06:20:38 --> Router Class Initialized
+INFO - 2020-10-02 06:20:39 --> Output Class Initialized
+INFO - 2020-10-02 06:20:39 --> Security Class Initialized
+DEBUG - 2020-10-02 06:20:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:20:39 --> Input Class Initialized
+INFO - 2020-10-02 06:20:39 --> Language Class Initialized
+INFO - 2020-10-02 11:20:39 --> Loader Class Initialized
+INFO - 2020-10-02 11:20:39 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:20:39 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:20:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:20:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:20:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:20:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:20:39 --> Encryption Class Initialized
+INFO - 2020-10-02 11:20:39 --> Controller Class Initialized
+INFO - 2020-10-02 11:20:39 --> MY_Model class loaded
+INFO - 2020-10-02 11:20:39 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:20:39 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:20:39 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:20:40 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:20:40 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:20:40 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 06:21:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:21:00 --> Config Class Initialized
+INFO - 2020-10-02 06:21:00 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:21:00 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:21:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:21:00 --> URI Class Initialized
+INFO - 2020-10-02 06:21:00 --> Router Class Initialized
+INFO - 2020-10-02 06:21:00 --> Output Class Initialized
+INFO - 2020-10-02 06:21:00 --> Security Class Initialized
+DEBUG - 2020-10-02 06:21:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:21:00 --> Input Class Initialized
+INFO - 2020-10-02 06:21:00 --> Language Class Initialized
+INFO - 2020-10-02 11:21:00 --> Loader Class Initialized
+INFO - 2020-10-02 11:21:00 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:21:00 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:21:00 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:21:00 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:21:01 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:21:01 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:21:01 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:21:01 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:21:01 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:21:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:21:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:21:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:21:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:21:01 --> Encryption Class Initialized
+INFO - 2020-10-02 11:21:01 --> Controller Class Initialized
+INFO - 2020-10-02 11:21:01 --> MY_Model class loaded
+INFO - 2020-10-02 11:21:01 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:21:01 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:21:01 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:21:01 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:21:01 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:21:02 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:21:02 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:21:02 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:21:02 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:21:02 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:21:02 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:21:02 --> Final output sent to browser
+DEBUG - 2020-10-02 11:21:02 --> Total execution time: 2.2213
+ERROR - 2020-10-02 06:22:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:22:15 --> Config Class Initialized
+INFO - 2020-10-02 06:22:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:22:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:22:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:22:16 --> URI Class Initialized
+INFO - 2020-10-02 06:22:16 --> Router Class Initialized
+INFO - 2020-10-02 06:22:16 --> Output Class Initialized
+INFO - 2020-10-02 06:22:16 --> Security Class Initialized
+DEBUG - 2020-10-02 06:22:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:22:16 --> Input Class Initialized
+INFO - 2020-10-02 06:22:16 --> Language Class Initialized
+INFO - 2020-10-02 11:22:16 --> Loader Class Initialized
+INFO - 2020-10-02 11:22:16 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:22:16 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:22:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:22:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:22:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:22:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:22:16 --> Encryption Class Initialized
+INFO - 2020-10-02 11:22:16 --> Controller Class Initialized
+INFO - 2020-10-02 11:22:17 --> MY_Model class loaded
+INFO - 2020-10-02 11:22:17 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:22:17 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:22:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:22:17 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:22:17 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:22:17 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:22:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:22:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:22:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:22:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:22:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:22:17 --> Final output sent to browser
+DEBUG - 2020-10-02 11:22:17 --> Total execution time: 1.6497
+ERROR - 2020-10-02 06:23:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:23:03 --> Config Class Initialized
+INFO - 2020-10-02 06:23:03 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:23:03 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:23:03 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:23:03 --> URI Class Initialized
+INFO - 2020-10-02 06:23:03 --> Router Class Initialized
+INFO - 2020-10-02 06:23:03 --> Output Class Initialized
+INFO - 2020-10-02 06:23:03 --> Security Class Initialized
+DEBUG - 2020-10-02 06:23:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:23:03 --> Input Class Initialized
+INFO - 2020-10-02 06:23:03 --> Language Class Initialized
+INFO - 2020-10-02 11:23:03 --> Loader Class Initialized
+INFO - 2020-10-02 11:23:03 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:23:03 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:23:03 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:23:03 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:23:04 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:23:04 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:23:04 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:23:04 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:23:04 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:23:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:23:04 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:23:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:23:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:23:04 --> Encryption Class Initialized
+INFO - 2020-10-02 11:23:04 --> Controller Class Initialized
+INFO - 2020-10-02 11:23:04 --> MY_Model class loaded
+INFO - 2020-10-02 11:23:04 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:23:04 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:23:04 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:23:04 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:23:04 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:23:05 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 06:23:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:23:54 --> Config Class Initialized
+INFO - 2020-10-02 06:23:54 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:23:54 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:23:54 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:23:54 --> URI Class Initialized
+INFO - 2020-10-02 06:23:54 --> Router Class Initialized
+INFO - 2020-10-02 06:23:55 --> Output Class Initialized
+INFO - 2020-10-02 06:23:55 --> Security Class Initialized
+DEBUG - 2020-10-02 06:23:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:23:55 --> Input Class Initialized
+INFO - 2020-10-02 06:23:55 --> Language Class Initialized
+INFO - 2020-10-02 11:23:55 --> Loader Class Initialized
+INFO - 2020-10-02 11:23:55 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:23:55 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:23:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:23:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:23:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:23:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:23:55 --> Encryption Class Initialized
+INFO - 2020-10-02 11:23:55 --> Controller Class Initialized
+INFO - 2020-10-02 11:23:55 --> MY_Model class loaded
+INFO - 2020-10-02 11:23:55 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:23:56 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:23:56 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:23:56 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:23:56 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:23:56 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:23:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:23:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:23:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:23:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:23:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:23:56 --> Final output sent to browser
+DEBUG - 2020-10-02 11:23:56 --> Total execution time: 1.8181
+ERROR - 2020-10-02 06:24:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:24:03 --> Config Class Initialized
+INFO - 2020-10-02 06:24:04 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:24:04 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:24:04 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:24:04 --> URI Class Initialized
+DEBUG - 2020-10-02 06:24:04 --> No URI present. Default controller set.
+INFO - 2020-10-02 06:24:04 --> Router Class Initialized
+INFO - 2020-10-02 06:24:04 --> Output Class Initialized
+INFO - 2020-10-02 06:24:04 --> Security Class Initialized
+DEBUG - 2020-10-02 06:24:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:24:04 --> Input Class Initialized
+INFO - 2020-10-02 06:24:04 --> Language Class Initialized
+INFO - 2020-10-02 11:24:04 --> Loader Class Initialized
+INFO - 2020-10-02 11:24:04 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:24:04 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:24:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:24:04 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:24:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:24:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:24:05 --> Encryption Class Initialized
+INFO - 2020-10-02 11:24:05 --> Controller Class Initialized
+INFO - 2020-10-02 11:24:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-02 11:24:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:24:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:24:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:24:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:24:05 --> Final output sent to browser
+DEBUG - 2020-10-02 11:24:05 --> Total execution time: 1.3749
+ERROR - 2020-10-02 06:24:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:24:10 --> Config Class Initialized
+INFO - 2020-10-02 06:24:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:24:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:24:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:24:10 --> URI Class Initialized
+INFO - 2020-10-02 06:24:10 --> Router Class Initialized
+INFO - 2020-10-02 06:24:10 --> Output Class Initialized
+INFO - 2020-10-02 06:24:10 --> Security Class Initialized
+DEBUG - 2020-10-02 06:24:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:24:10 --> Input Class Initialized
+INFO - 2020-10-02 06:24:10 --> Language Class Initialized
+INFO - 2020-10-02 11:24:10 --> Loader Class Initialized
+INFO - 2020-10-02 11:24:10 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:24:10 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:24:11 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:24:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:24:11 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:24:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:24:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:24:11 --> Encryption Class Initialized
+INFO - 2020-10-02 11:24:11 --> Controller Class Initialized
+INFO - 2020-10-02 11:24:11 --> MY_Model class loaded
+INFO - 2020-10-02 11:24:11 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:24:11 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:24:11 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:24:11 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:24:11 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:24:11 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:24:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 11:24:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:24:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:24:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:24:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:24:12 --> Final output sent to browser
+DEBUG - 2020-10-02 11:24:12 --> Total execution time: 1.7956
+ERROR - 2020-10-02 06:24:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:24:15 --> Config Class Initialized
+INFO - 2020-10-02 06:24:15 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:24:15 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:24:15 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:24:15 --> URI Class Initialized
+INFO - 2020-10-02 06:24:15 --> Router Class Initialized
+INFO - 2020-10-02 06:24:15 --> Output Class Initialized
+INFO - 2020-10-02 06:24:15 --> Security Class Initialized
+DEBUG - 2020-10-02 06:24:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:24:15 --> Input Class Initialized
+INFO - 2020-10-02 06:24:15 --> Language Class Initialized
+INFO - 2020-10-02 11:24:15 --> Loader Class Initialized
+INFO - 2020-10-02 11:24:15 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:24:15 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:24:15 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:24:15 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:24:15 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:24:16 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:24:16 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:24:16 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:24:16 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:24:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:24:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:24:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:24:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:24:16 --> Encryption Class Initialized
+INFO - 2020-10-02 11:24:16 --> Controller Class Initialized
+INFO - 2020-10-02 11:24:16 --> MY_Model class loaded
+INFO - 2020-10-02 11:24:16 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:24:16 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:24:16 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:24:16 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:24:16 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:24:16 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 11:24:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 11:24:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 11:24:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 11:24:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 11:24:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 11:24:17 --> Final output sent to browser
+DEBUG - 2020-10-02 11:24:17 --> Total execution time: 1.8785
+ERROR - 2020-10-02 06:25:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 06:25:46 --> Config Class Initialized
+INFO - 2020-10-02 06:25:46 --> Hooks Class Initialized
+DEBUG - 2020-10-02 06:25:46 --> UTF-8 Support Enabled
+INFO - 2020-10-02 06:25:46 --> Utf8 Class Initialized
+INFO - 2020-10-02 06:25:46 --> URI Class Initialized
+INFO - 2020-10-02 06:25:46 --> Router Class Initialized
+INFO - 2020-10-02 06:25:46 --> Output Class Initialized
+INFO - 2020-10-02 06:25:46 --> Security Class Initialized
+DEBUG - 2020-10-02 06:25:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 06:25:46 --> Input Class Initialized
+INFO - 2020-10-02 06:25:46 --> Language Class Initialized
+INFO - 2020-10-02 11:25:46 --> Loader Class Initialized
+INFO - 2020-10-02 11:25:46 --> Helper loaded: url_helper
+INFO - 2020-10-02 11:25:46 --> Helper loaded: form_helper
+INFO - 2020-10-02 11:25:46 --> Helper loaded: array_helper
+INFO - 2020-10-02 11:25:47 --> Helper loaded: download_helper
+INFO - 2020-10-02 11:25:47 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 11:25:47 --> Helper loaded: setting_helper
+INFO - 2020-10-02 11:25:47 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 11:25:47 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 11:25:47 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 11:25:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 11:25:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 11:25:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 11:25:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 11:25:47 --> Encryption Class Initialized
+INFO - 2020-10-02 11:25:47 --> Controller Class Initialized
+INFO - 2020-10-02 11:25:47 --> MY_Model class loaded
+INFO - 2020-10-02 11:25:47 --> Database Driver Class Initialized
+INFO - 2020-10-02 11:25:47 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 11:25:47 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 11:25:47 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 11:25:47 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 11:25:47 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 11:25:48 --> Severity: Notice --> Undefined variable: message C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 115
+INFO - 2020-10-02 11:25:48 --> Final output sent to browser
+DEBUG - 2020-10-02 11:25:48 --> Total execution time: 1.6981
+ERROR - 2020-10-02 07:36:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:36:36 --> Config Class Initialized
+INFO - 2020-10-02 07:36:36 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:36:36 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:36:36 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:36:36 --> URI Class Initialized
+INFO - 2020-10-02 07:36:36 --> Router Class Initialized
+INFO - 2020-10-02 07:36:36 --> Output Class Initialized
+INFO - 2020-10-02 07:36:36 --> Security Class Initialized
+DEBUG - 2020-10-02 07:36:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:36:36 --> Input Class Initialized
+INFO - 2020-10-02 07:36:36 --> Language Class Initialized
+INFO - 2020-10-02 12:36:36 --> Loader Class Initialized
+INFO - 2020-10-02 12:36:37 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:36:37 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:36:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:36:37 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:36:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:36:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:36:37 --> Encryption Class Initialized
+INFO - 2020-10-02 12:36:37 --> Controller Class Initialized
+INFO - 2020-10-02 12:36:37 --> MY_Model class loaded
+INFO - 2020-10-02 12:36:37 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:36:37 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:36:37 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:36:37 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:36:38 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:36:38 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:36:38 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:36:38 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:36:38 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:36:38 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:36:38 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:36:38 --> Final output sent to browser
+DEBUG - 2020-10-02 12:36:38 --> Total execution time: 1.8531
+ERROR - 2020-10-02 07:36:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:36:39 --> Config Class Initialized
+INFO - 2020-10-02 07:36:40 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:36:40 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:36:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:36:40 --> URI Class Initialized
+INFO - 2020-10-02 07:36:40 --> Router Class Initialized
+INFO - 2020-10-02 07:36:40 --> Output Class Initialized
+INFO - 2020-10-02 07:36:40 --> Security Class Initialized
+DEBUG - 2020-10-02 07:36:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:36:40 --> Input Class Initialized
+INFO - 2020-10-02 07:36:40 --> Language Class Initialized
+INFO - 2020-10-02 12:36:40 --> Loader Class Initialized
+INFO - 2020-10-02 12:36:40 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:36:40 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:36:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:36:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:36:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:36:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:36:40 --> Encryption Class Initialized
+INFO - 2020-10-02 12:36:40 --> Controller Class Initialized
+INFO - 2020-10-02 12:36:40 --> MY_Model class loaded
+INFO - 2020-10-02 12:36:41 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:36:41 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:36:41 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:36:41 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:36:41 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:36:41 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:36:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:36:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:36:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:36:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:36:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:36:41 --> Final output sent to browser
+DEBUG - 2020-10-02 12:36:41 --> Total execution time: 1.8827
+ERROR - 2020-10-02 07:39:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:39:58 --> Config Class Initialized
+INFO - 2020-10-02 07:39:58 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:39:58 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:39:58 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:39:58 --> URI Class Initialized
+INFO - 2020-10-02 07:39:58 --> Router Class Initialized
+INFO - 2020-10-02 07:39:58 --> Output Class Initialized
+INFO - 2020-10-02 07:39:58 --> Security Class Initialized
+DEBUG - 2020-10-02 07:39:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:39:58 --> Input Class Initialized
+INFO - 2020-10-02 07:39:58 --> Language Class Initialized
+INFO - 2020-10-02 12:39:58 --> Loader Class Initialized
+INFO - 2020-10-02 12:39:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:39:58 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:39:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:39:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:39:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:39:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:39:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:39:59 --> Encryption Class Initialized
+INFO - 2020-10-02 12:39:59 --> Controller Class Initialized
+INFO - 2020-10-02 12:39:59 --> MY_Model class loaded
+INFO - 2020-10-02 12:39:59 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:39:59 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:39:59 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:39:59 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:39:59 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:39:59 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:39:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:39:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:39:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:39:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:39:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:39:59 --> Final output sent to browser
+DEBUG - 2020-10-02 12:40:00 --> Total execution time: 1.9795
+ERROR - 2020-10-02 07:41:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:41:14 --> Config Class Initialized
+INFO - 2020-10-02 07:41:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:41:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:41:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:41:14 --> URI Class Initialized
+INFO - 2020-10-02 07:41:14 --> Router Class Initialized
+INFO - 2020-10-02 07:41:14 --> Output Class Initialized
+INFO - 2020-10-02 07:41:14 --> Security Class Initialized
+DEBUG - 2020-10-02 07:41:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:41:15 --> Input Class Initialized
+INFO - 2020-10-02 07:41:15 --> Language Class Initialized
+INFO - 2020-10-02 12:41:15 --> Loader Class Initialized
+INFO - 2020-10-02 12:41:15 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:41:15 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:41:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:41:15 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:41:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:41:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:41:15 --> Encryption Class Initialized
+INFO - 2020-10-02 12:41:15 --> Controller Class Initialized
+INFO - 2020-10-02 12:41:15 --> MY_Model class loaded
+INFO - 2020-10-02 12:41:15 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:41:15 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:41:15 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:41:15 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:41:16 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:41:16 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:41:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:41:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:41:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:41:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:41:16 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:41:16 --> Final output sent to browser
+DEBUG - 2020-10-02 12:41:16 --> Total execution time: 1.8327
+ERROR - 2020-10-02 07:41:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:41:48 --> Config Class Initialized
+INFO - 2020-10-02 07:41:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:41:48 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:41:48 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:41:48 --> URI Class Initialized
+INFO - 2020-10-02 07:41:48 --> Router Class Initialized
+INFO - 2020-10-02 07:41:48 --> Output Class Initialized
+INFO - 2020-10-02 07:41:48 --> Security Class Initialized
+DEBUG - 2020-10-02 07:41:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:41:48 --> Input Class Initialized
+INFO - 2020-10-02 07:41:48 --> Language Class Initialized
+INFO - 2020-10-02 12:41:48 --> Loader Class Initialized
+INFO - 2020-10-02 12:41:48 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:41:48 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:41:48 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:41:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:41:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:41:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:41:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:41:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:41:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:41:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:41:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:41:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:41:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:41:49 --> Encryption Class Initialized
+INFO - 2020-10-02 12:41:49 --> Controller Class Initialized
+INFO - 2020-10-02 12:41:49 --> MY_Model class loaded
+INFO - 2020-10-02 12:41:49 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:41:49 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:41:49 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:41:49 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:41:49 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:41:50 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:41:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:41:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:41:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:41:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:41:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:41:50 --> Final output sent to browser
+DEBUG - 2020-10-02 12:41:50 --> Total execution time: 1.8134
+ERROR - 2020-10-02 07:42:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:42:05 --> Config Class Initialized
+INFO - 2020-10-02 07:42:05 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:42:05 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:42:05 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:42:05 --> URI Class Initialized
+INFO - 2020-10-02 07:42:05 --> Router Class Initialized
+INFO - 2020-10-02 07:42:05 --> Output Class Initialized
+INFO - 2020-10-02 07:42:05 --> Security Class Initialized
+DEBUG - 2020-10-02 07:42:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:42:05 --> Input Class Initialized
+INFO - 2020-10-02 07:42:05 --> Language Class Initialized
+INFO - 2020-10-02 12:42:05 --> Loader Class Initialized
+INFO - 2020-10-02 12:42:06 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:42:06 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:42:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:42:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:42:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:42:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:42:06 --> Encryption Class Initialized
+INFO - 2020-10-02 12:42:06 --> Controller Class Initialized
+INFO - 2020-10-02 12:42:06 --> MY_Model class loaded
+INFO - 2020-10-02 12:42:06 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:42:06 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:42:06 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:42:06 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:42:07 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:42:07 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:42:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:42:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:42:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:42:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:42:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:42:07 --> Final output sent to browser
+DEBUG - 2020-10-02 12:42:07 --> Total execution time: 2.2312
+ERROR - 2020-10-02 07:42:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:42:42 --> Config Class Initialized
+INFO - 2020-10-02 07:42:42 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:42:42 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:42:42 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:42:42 --> URI Class Initialized
+INFO - 2020-10-02 07:42:42 --> Router Class Initialized
+INFO - 2020-10-02 07:42:42 --> Output Class Initialized
+INFO - 2020-10-02 07:42:42 --> Security Class Initialized
+DEBUG - 2020-10-02 07:42:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:42:42 --> Input Class Initialized
+INFO - 2020-10-02 07:42:42 --> Language Class Initialized
+INFO - 2020-10-02 12:42:42 --> Loader Class Initialized
+INFO - 2020-10-02 12:42:42 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:42:42 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:42:43 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:42:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:42:43 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:42:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:42:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:42:43 --> Encryption Class Initialized
+INFO - 2020-10-02 12:42:43 --> Controller Class Initialized
+INFO - 2020-10-02 12:42:43 --> MY_Model class loaded
+INFO - 2020-10-02 12:42:43 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:42:43 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:42:43 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:42:43 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:42:43 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:42:43 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:42:44 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:42:44 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:42:44 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:42:44 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:42:44 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:42:44 --> Final output sent to browser
+DEBUG - 2020-10-02 12:42:44 --> Total execution time: 1.7208
+ERROR - 2020-10-02 07:42:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:42:55 --> Config Class Initialized
+INFO - 2020-10-02 07:42:55 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:42:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:42:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:42:55 --> URI Class Initialized
+INFO - 2020-10-02 07:42:55 --> Router Class Initialized
+INFO - 2020-10-02 07:42:55 --> Output Class Initialized
+INFO - 2020-10-02 07:42:55 --> Security Class Initialized
+DEBUG - 2020-10-02 07:42:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:42:55 --> Input Class Initialized
+INFO - 2020-10-02 07:42:55 --> Language Class Initialized
+INFO - 2020-10-02 12:42:55 --> Loader Class Initialized
+INFO - 2020-10-02 12:42:55 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:42:55 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:42:55 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:42:56 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:42:56 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:42:56 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:42:56 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:42:56 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:42:56 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:42:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:42:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:42:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:42:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:42:56 --> Encryption Class Initialized
+INFO - 2020-10-02 12:42:56 --> Controller Class Initialized
+INFO - 2020-10-02 12:42:56 --> MY_Model class loaded
+INFO - 2020-10-02 12:42:56 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:42:56 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:42:56 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:42:56 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:42:56 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:42:56 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:42:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:42:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:42:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:42:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:42:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:42:57 --> Final output sent to browser
+DEBUG - 2020-10-02 12:42:57 --> Total execution time: 1.6786
+ERROR - 2020-10-02 07:43:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:43:24 --> Config Class Initialized
+INFO - 2020-10-02 07:43:24 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:43:24 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:43:25 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:43:25 --> URI Class Initialized
+INFO - 2020-10-02 07:43:25 --> Router Class Initialized
+INFO - 2020-10-02 07:43:25 --> Output Class Initialized
+INFO - 2020-10-02 07:43:25 --> Security Class Initialized
+DEBUG - 2020-10-02 07:43:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:43:25 --> Input Class Initialized
+INFO - 2020-10-02 07:43:25 --> Language Class Initialized
+INFO - 2020-10-02 12:43:25 --> Loader Class Initialized
+INFO - 2020-10-02 12:43:25 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:43:25 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:43:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:43:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:43:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:43:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:43:26 --> Encryption Class Initialized
+INFO - 2020-10-02 12:43:26 --> Controller Class Initialized
+INFO - 2020-10-02 12:43:26 --> MY_Model class loaded
+INFO - 2020-10-02 12:43:26 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:43:26 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:43:26 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:43:26 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:43:26 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:43:26 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:43:26 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:43:26 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:43:26 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:43:26 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:43:26 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:43:26 --> Final output sent to browser
+DEBUG - 2020-10-02 12:43:26 --> Total execution time: 2.1385
+ERROR - 2020-10-02 07:43:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:43:58 --> Config Class Initialized
+INFO - 2020-10-02 07:43:58 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:43:58 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:43:58 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:43:58 --> URI Class Initialized
+INFO - 2020-10-02 07:43:58 --> Router Class Initialized
+INFO - 2020-10-02 07:43:58 --> Output Class Initialized
+INFO - 2020-10-02 07:43:58 --> Security Class Initialized
+DEBUG - 2020-10-02 07:43:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:43:58 --> Input Class Initialized
+INFO - 2020-10-02 07:43:58 --> Language Class Initialized
+INFO - 2020-10-02 12:43:58 --> Loader Class Initialized
+INFO - 2020-10-02 12:43:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:43:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:43:58 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:43:59 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:43:59 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:43:59 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:43:59 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:43:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:43:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:43:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:43:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:43:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:43:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:43:59 --> Encryption Class Initialized
+INFO - 2020-10-02 12:43:59 --> Controller Class Initialized
+INFO - 2020-10-02 12:43:59 --> MY_Model class loaded
+INFO - 2020-10-02 12:43:59 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:43:59 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:43:59 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:43:59 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:44:00 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:44:00 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:44:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:44:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:44:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:44:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:44:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:44:00 --> Final output sent to browser
+DEBUG - 2020-10-02 12:44:00 --> Total execution time: 2.1046
+ERROR - 2020-10-02 07:44:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:44:05 --> Config Class Initialized
+INFO - 2020-10-02 07:44:05 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:44:05 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:44:05 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:44:05 --> URI Class Initialized
+INFO - 2020-10-02 07:44:05 --> Router Class Initialized
+INFO - 2020-10-02 07:44:05 --> Output Class Initialized
+INFO - 2020-10-02 07:44:05 --> Security Class Initialized
+DEBUG - 2020-10-02 07:44:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:44:05 --> Input Class Initialized
+INFO - 2020-10-02 07:44:05 --> Language Class Initialized
+INFO - 2020-10-02 12:44:05 --> Loader Class Initialized
+INFO - 2020-10-02 12:44:05 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:44:05 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:44:05 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:44:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:44:06 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:44:06 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:44:06 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:44:06 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:44:06 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:44:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:44:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:44:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:44:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:44:06 --> Encryption Class Initialized
+INFO - 2020-10-02 12:44:06 --> Controller Class Initialized
+INFO - 2020-10-02 12:44:06 --> MY_Model class loaded
+INFO - 2020-10-02 12:44:06 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:44:06 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:44:06 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:44:06 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:44:06 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:44:06 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:44:06 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:44:06 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:44:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:44:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:44:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:44:07 --> Final output sent to browser
+DEBUG - 2020-10-02 12:44:07 --> Total execution time: 1.7134
+ERROR - 2020-10-02 07:44:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:44:17 --> Config Class Initialized
+INFO - 2020-10-02 07:44:17 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:44:17 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:44:17 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:44:17 --> URI Class Initialized
+INFO - 2020-10-02 07:44:17 --> Router Class Initialized
+INFO - 2020-10-02 07:44:17 --> Output Class Initialized
+INFO - 2020-10-02 07:44:17 --> Security Class Initialized
+DEBUG - 2020-10-02 07:44:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:44:18 --> Input Class Initialized
+INFO - 2020-10-02 07:44:18 --> Language Class Initialized
+INFO - 2020-10-02 12:44:18 --> Loader Class Initialized
+INFO - 2020-10-02 12:44:18 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:44:18 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:44:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:44:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:44:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:44:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:44:18 --> Encryption Class Initialized
+INFO - 2020-10-02 12:44:19 --> Controller Class Initialized
+INFO - 2020-10-02 12:44:19 --> MY_Model class loaded
+INFO - 2020-10-02 12:44:19 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:44:19 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:44:19 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:44:19 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:44:19 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:44:19 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:44:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:44:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:44:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:44:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:44:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:44:19 --> Final output sent to browser
+DEBUG - 2020-10-02 12:44:19 --> Total execution time: 2.4255
+ERROR - 2020-10-02 07:45:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:45:10 --> Config Class Initialized
+INFO - 2020-10-02 07:45:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:45:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:45:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:45:10 --> URI Class Initialized
+INFO - 2020-10-02 07:45:10 --> Router Class Initialized
+INFO - 2020-10-02 07:45:10 --> Output Class Initialized
+INFO - 2020-10-02 07:45:10 --> Security Class Initialized
+DEBUG - 2020-10-02 07:45:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:45:11 --> Input Class Initialized
+INFO - 2020-10-02 07:45:11 --> Language Class Initialized
+INFO - 2020-10-02 12:45:11 --> Loader Class Initialized
+INFO - 2020-10-02 12:45:11 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:45:11 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:45:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:45:11 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:45:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:45:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:45:11 --> Encryption Class Initialized
+INFO - 2020-10-02 12:45:11 --> Controller Class Initialized
+INFO - 2020-10-02 12:45:11 --> MY_Model class loaded
+INFO - 2020-10-02 12:45:11 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:45:12 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:45:12 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:45:12 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:45:12 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:45:12 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:45:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:45:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:45:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:45:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:45:12 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:45:12 --> Final output sent to browser
+DEBUG - 2020-10-02 12:45:13 --> Total execution time: 2.5389
+ERROR - 2020-10-02 07:45:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:45:19 --> Config Class Initialized
+INFO - 2020-10-02 07:45:19 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:45:19 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:45:19 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:45:19 --> URI Class Initialized
+INFO - 2020-10-02 07:45:19 --> Router Class Initialized
+INFO - 2020-10-02 07:45:19 --> Output Class Initialized
+INFO - 2020-10-02 07:45:19 --> Security Class Initialized
+DEBUG - 2020-10-02 07:45:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:45:19 --> Input Class Initialized
+INFO - 2020-10-02 07:45:19 --> Language Class Initialized
+INFO - 2020-10-02 12:45:20 --> Loader Class Initialized
+INFO - 2020-10-02 12:45:20 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:45:20 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:45:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:45:20 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:45:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:45:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:45:20 --> Encryption Class Initialized
+INFO - 2020-10-02 12:45:20 --> Controller Class Initialized
+INFO - 2020-10-02 12:45:20 --> MY_Model class loaded
+INFO - 2020-10-02 12:45:20 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:45:20 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:45:20 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:45:20 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:45:20 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:45:21 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:45:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:45:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:45:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:45:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:45:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:45:21 --> Final output sent to browser
+DEBUG - 2020-10-02 12:45:21 --> Total execution time: 1.7364
+ERROR - 2020-10-02 07:45:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:45:53 --> Config Class Initialized
+INFO - 2020-10-02 07:45:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:45:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:45:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:45:53 --> URI Class Initialized
+INFO - 2020-10-02 07:45:53 --> Router Class Initialized
+INFO - 2020-10-02 07:45:53 --> Output Class Initialized
+INFO - 2020-10-02 07:45:53 --> Security Class Initialized
+DEBUG - 2020-10-02 07:45:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:45:54 --> Input Class Initialized
+INFO - 2020-10-02 07:45:54 --> Language Class Initialized
+INFO - 2020-10-02 12:45:54 --> Loader Class Initialized
+INFO - 2020-10-02 12:45:54 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:45:54 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:45:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:45:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:45:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:45:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:45:54 --> Encryption Class Initialized
+INFO - 2020-10-02 12:45:54 --> Controller Class Initialized
+INFO - 2020-10-02 12:45:54 --> MY_Model class loaded
+INFO - 2020-10-02 12:45:54 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:45:54 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:45:55 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:45:55 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:45:55 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:45:55 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:45:55 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:45:55 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:45:55 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:45:55 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:45:55 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:45:55 --> Final output sent to browser
+DEBUG - 2020-10-02 12:45:55 --> Total execution time: 1.9353
+ERROR - 2020-10-02 07:48:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:48:20 --> Config Class Initialized
+INFO - 2020-10-02 07:48:20 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:48:20 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:48:20 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:48:20 --> URI Class Initialized
+INFO - 2020-10-02 07:48:20 --> Router Class Initialized
+INFO - 2020-10-02 07:48:20 --> Output Class Initialized
+INFO - 2020-10-02 07:48:20 --> Security Class Initialized
+DEBUG - 2020-10-02 07:48:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:48:21 --> Input Class Initialized
+INFO - 2020-10-02 07:48:21 --> Language Class Initialized
+INFO - 2020-10-02 12:48:21 --> Loader Class Initialized
+INFO - 2020-10-02 12:48:21 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:48:21 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:48:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:48:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:48:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:48:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:48:21 --> Encryption Class Initialized
+INFO - 2020-10-02 12:48:21 --> Controller Class Initialized
+INFO - 2020-10-02 12:48:21 --> MY_Model class loaded
+INFO - 2020-10-02 12:48:21 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:48:21 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:48:22 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:48:22 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:48:22 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:48:22 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:48:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:48:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:48:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:48:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:48:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:48:22 --> Final output sent to browser
+DEBUG - 2020-10-02 12:48:22 --> Total execution time: 2.0204
+ERROR - 2020-10-02 07:48:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:48:57 --> Config Class Initialized
+INFO - 2020-10-02 07:48:57 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:48:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:48:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:48:57 --> URI Class Initialized
+INFO - 2020-10-02 07:48:57 --> Router Class Initialized
+INFO - 2020-10-02 07:48:57 --> Output Class Initialized
+INFO - 2020-10-02 07:48:57 --> Security Class Initialized
+DEBUG - 2020-10-02 07:48:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:48:57 --> Input Class Initialized
+INFO - 2020-10-02 07:48:57 --> Language Class Initialized
+INFO - 2020-10-02 12:48:57 --> Loader Class Initialized
+INFO - 2020-10-02 12:48:57 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:48:57 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:48:57 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:48:57 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:48:58 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:48:58 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:48:58 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:48:58 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:48:58 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:48:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:48:58 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:48:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:48:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:48:58 --> Encryption Class Initialized
+INFO - 2020-10-02 12:48:58 --> Controller Class Initialized
+INFO - 2020-10-02 12:48:58 --> MY_Model class loaded
+INFO - 2020-10-02 12:48:58 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:48:58 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:48:58 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:48:58 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:48:58 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:48:59 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:48:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:48:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:48:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:48:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:48:59 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:48:59 --> Final output sent to browser
+DEBUG - 2020-10-02 12:48:59 --> Total execution time: 2.0709
+ERROR - 2020-10-02 07:49:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:49:48 --> Config Class Initialized
+INFO - 2020-10-02 07:49:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:49:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:49:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:49:49 --> URI Class Initialized
+INFO - 2020-10-02 07:49:49 --> Router Class Initialized
+INFO - 2020-10-02 07:49:49 --> Output Class Initialized
+INFO - 2020-10-02 07:49:49 --> Security Class Initialized
+DEBUG - 2020-10-02 07:49:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:49:49 --> Input Class Initialized
+INFO - 2020-10-02 07:49:49 --> Language Class Initialized
+INFO - 2020-10-02 12:49:49 --> Loader Class Initialized
+INFO - 2020-10-02 12:49:49 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:49:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:49:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:49:50 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:49:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:49:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:49:50 --> Encryption Class Initialized
+INFO - 2020-10-02 12:49:50 --> Controller Class Initialized
+INFO - 2020-10-02 12:49:50 --> MY_Model class loaded
+INFO - 2020-10-02 12:49:50 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:49:50 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:49:50 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:49:50 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:49:50 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:49:50 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:49:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:49:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:49:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:49:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:49:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:49:50 --> Final output sent to browser
+DEBUG - 2020-10-02 12:49:50 --> Total execution time: 1.9423
+ERROR - 2020-10-02 07:50:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:50:16 --> Config Class Initialized
+INFO - 2020-10-02 07:50:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:50:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:50:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:50:16 --> URI Class Initialized
+INFO - 2020-10-02 07:50:16 --> Router Class Initialized
+INFO - 2020-10-02 07:50:16 --> Output Class Initialized
+INFO - 2020-10-02 07:50:16 --> Security Class Initialized
+DEBUG - 2020-10-02 07:50:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:50:16 --> Input Class Initialized
+INFO - 2020-10-02 07:50:16 --> Language Class Initialized
+INFO - 2020-10-02 12:50:16 --> Loader Class Initialized
+INFO - 2020-10-02 12:50:16 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:50:16 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:50:16 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:50:16 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:50:17 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:50:17 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:50:17 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:50:17 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:50:17 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:50:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:50:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:50:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:50:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:50:17 --> Encryption Class Initialized
+INFO - 2020-10-02 12:50:17 --> Controller Class Initialized
+INFO - 2020-10-02 12:50:17 --> MY_Model class loaded
+INFO - 2020-10-02 12:50:17 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:50:17 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:50:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:50:17 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:50:17 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:50:17 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:50:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:50:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:50:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:50:18 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:50:18 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:50:18 --> Final output sent to browser
+DEBUG - 2020-10-02 12:50:18 --> Total execution time: 1.7315
+ERROR - 2020-10-02 07:50:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:50:48 --> Config Class Initialized
+INFO - 2020-10-02 07:50:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:50:48 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:50:48 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:50:48 --> URI Class Initialized
+INFO - 2020-10-02 07:50:48 --> Router Class Initialized
+INFO - 2020-10-02 07:50:48 --> Output Class Initialized
+INFO - 2020-10-02 07:50:48 --> Security Class Initialized
+DEBUG - 2020-10-02 07:50:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:50:48 --> Input Class Initialized
+INFO - 2020-10-02 07:50:48 --> Language Class Initialized
+INFO - 2020-10-02 12:50:48 --> Loader Class Initialized
+INFO - 2020-10-02 12:50:49 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:50:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:50:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:50:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:50:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:50:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:50:49 --> Encryption Class Initialized
+INFO - 2020-10-02 12:50:49 --> Controller Class Initialized
+INFO - 2020-10-02 12:50:49 --> MY_Model class loaded
+INFO - 2020-10-02 12:50:49 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:50:49 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:50:49 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:50:50 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:50:50 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:50:50 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:50:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:50:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:50:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:50:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:50:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:50:50 --> Final output sent to browser
+DEBUG - 2020-10-02 12:50:50 --> Total execution time: 2.0281
+ERROR - 2020-10-02 07:53:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:53:20 --> Config Class Initialized
+INFO - 2020-10-02 07:53:20 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:53:20 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:53:20 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:53:20 --> URI Class Initialized
+INFO - 2020-10-02 07:53:20 --> Router Class Initialized
+INFO - 2020-10-02 07:53:20 --> Output Class Initialized
+INFO - 2020-10-02 07:53:20 --> Security Class Initialized
+DEBUG - 2020-10-02 07:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:53:20 --> Input Class Initialized
+INFO - 2020-10-02 07:53:20 --> Language Class Initialized
+INFO - 2020-10-02 12:53:20 --> Loader Class Initialized
+INFO - 2020-10-02 12:53:20 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:53:20 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:53:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:53:20 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:53:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:53:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:53:21 --> Encryption Class Initialized
+INFO - 2020-10-02 12:53:21 --> Controller Class Initialized
+INFO - 2020-10-02 12:53:21 --> MY_Model class loaded
+INFO - 2020-10-02 12:53:21 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:53:21 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:53:21 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:53:21 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:53:21 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:53:21 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:53:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:53:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:53:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:53:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:53:21 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:53:21 --> Final output sent to browser
+DEBUG - 2020-10-02 12:53:22 --> Total execution time: 1.8972
+ERROR - 2020-10-02 07:53:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:53:45 --> Config Class Initialized
+INFO - 2020-10-02 07:53:45 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:53:45 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:53:45 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:53:45 --> URI Class Initialized
+INFO - 2020-10-02 07:53:45 --> Router Class Initialized
+INFO - 2020-10-02 07:53:45 --> Output Class Initialized
+INFO - 2020-10-02 07:53:45 --> Security Class Initialized
+DEBUG - 2020-10-02 07:53:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:53:45 --> Input Class Initialized
+INFO - 2020-10-02 07:53:46 --> Language Class Initialized
+INFO - 2020-10-02 12:53:46 --> Loader Class Initialized
+INFO - 2020-10-02 12:53:46 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:53:46 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:53:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:53:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:53:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:53:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:53:46 --> Encryption Class Initialized
+INFO - 2020-10-02 12:53:46 --> Controller Class Initialized
+INFO - 2020-10-02 12:53:46 --> MY_Model class loaded
+INFO - 2020-10-02 12:53:46 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:53:46 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:53:46 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:53:47 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:53:47 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:53:47 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:53:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:53:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:53:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:53:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:53:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:53:47 --> Final output sent to browser
+DEBUG - 2020-10-02 12:53:47 --> Total execution time: 2.1545
+ERROR - 2020-10-02 07:54:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:54:06 --> Config Class Initialized
+INFO - 2020-10-02 07:54:06 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:54:06 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:54:06 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:54:06 --> URI Class Initialized
+INFO - 2020-10-02 07:54:06 --> Router Class Initialized
+INFO - 2020-10-02 07:54:06 --> Output Class Initialized
+INFO - 2020-10-02 07:54:06 --> Security Class Initialized
+DEBUG - 2020-10-02 07:54:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:54:06 --> Input Class Initialized
+INFO - 2020-10-02 07:54:06 --> Language Class Initialized
+INFO - 2020-10-02 12:54:06 --> Loader Class Initialized
+INFO - 2020-10-02 12:54:06 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:54:06 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:54:06 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:54:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:54:07 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:54:07 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:54:07 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:54:07 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:54:07 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:54:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:54:07 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:54:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:54:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:54:07 --> Encryption Class Initialized
+INFO - 2020-10-02 12:54:07 --> Controller Class Initialized
+INFO - 2020-10-02 12:54:07 --> MY_Model class loaded
+INFO - 2020-10-02 12:54:07 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:54:07 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:54:07 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:54:07 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:54:07 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:54:07 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 12:54:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 12:54:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 12:54:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 12:54:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 12:54:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 12:54:08 --> Final output sent to browser
+DEBUG - 2020-10-02 12:54:08 --> Total execution time: 1.9091
+ERROR - 2020-10-02 07:57:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:57:14 --> Config Class Initialized
+INFO - 2020-10-02 07:57:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:57:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:57:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:57:14 --> URI Class Initialized
+INFO - 2020-10-02 07:57:14 --> Router Class Initialized
+INFO - 2020-10-02 07:57:14 --> Output Class Initialized
+INFO - 2020-10-02 07:57:14 --> Security Class Initialized
+DEBUG - 2020-10-02 07:57:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:57:14 --> Input Class Initialized
+INFO - 2020-10-02 07:57:14 --> Language Class Initialized
+INFO - 2020-10-02 12:57:15 --> Loader Class Initialized
+INFO - 2020-10-02 12:57:15 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:57:15 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:57:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:57:15 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:57:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:57:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:57:15 --> Encryption Class Initialized
+INFO - 2020-10-02 12:57:15 --> Controller Class Initialized
+INFO - 2020-10-02 12:57:15 --> MY_Model class loaded
+INFO - 2020-10-02 12:57:15 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:57:15 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:57:15 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:57:16 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:57:16 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:57:16 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 12:57:16 --> Severity: error --> Exception: Call to undefined method Kelola_pengajar::config() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 172
+ERROR - 2020-10-02 07:58:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 07:58:02 --> Config Class Initialized
+INFO - 2020-10-02 07:58:02 --> Hooks Class Initialized
+DEBUG - 2020-10-02 07:58:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 07:58:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 07:58:02 --> URI Class Initialized
+INFO - 2020-10-02 07:58:02 --> Router Class Initialized
+INFO - 2020-10-02 07:58:02 --> Output Class Initialized
+INFO - 2020-10-02 07:58:02 --> Security Class Initialized
+DEBUG - 2020-10-02 07:58:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 07:58:02 --> Input Class Initialized
+INFO - 2020-10-02 07:58:02 --> Language Class Initialized
+INFO - 2020-10-02 12:58:02 --> Loader Class Initialized
+INFO - 2020-10-02 12:58:02 --> Helper loaded: url_helper
+INFO - 2020-10-02 12:58:02 --> Helper loaded: form_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: array_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: download_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: setting_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 12:58:03 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 12:58:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 12:58:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 12:58:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 12:58:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 12:58:03 --> Encryption Class Initialized
+INFO - 2020-10-02 12:58:03 --> Controller Class Initialized
+INFO - 2020-10-02 12:58:03 --> MY_Model class loaded
+INFO - 2020-10-02 12:58:03 --> Database Driver Class Initialized
+INFO - 2020-10-02 12:58:03 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 12:58:03 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 12:58:03 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 12:58:03 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 12:58:04 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 12:58:04 --> Severity: error --> Exception: Call to undefined method Kelola_pengajar::config() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 172
+ERROR - 2020-10-02 08:00:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:00:03 --> Config Class Initialized
+INFO - 2020-10-02 08:00:03 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:00:03 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:00:03 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:00:03 --> URI Class Initialized
+INFO - 2020-10-02 08:00:03 --> Router Class Initialized
+INFO - 2020-10-02 08:00:03 --> Output Class Initialized
+INFO - 2020-10-02 08:00:04 --> Security Class Initialized
+DEBUG - 2020-10-02 08:00:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:00:04 --> Input Class Initialized
+INFO - 2020-10-02 08:00:04 --> Language Class Initialized
+INFO - 2020-10-02 13:00:04 --> Loader Class Initialized
+INFO - 2020-10-02 13:00:04 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:00:04 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:00:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:00:04 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:00:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:00:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:00:04 --> Encryption Class Initialized
+INFO - 2020-10-02 13:00:04 --> Controller Class Initialized
+INFO - 2020-10-02 13:00:04 --> MY_Model class loaded
+INFO - 2020-10-02 13:00:04 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:00:05 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:00:05 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:00:05 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:00:05 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:00:05 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 13:00:05 --> Severity: error --> Exception: Call to undefined function config() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 172
+ERROR - 2020-10-02 08:00:33 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:00:33 --> Config Class Initialized
+INFO - 2020-10-02 08:00:33 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:00:33 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:00:33 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:00:33 --> URI Class Initialized
+INFO - 2020-10-02 08:00:33 --> Router Class Initialized
+INFO - 2020-10-02 08:00:33 --> Output Class Initialized
+INFO - 2020-10-02 08:00:33 --> Security Class Initialized
+DEBUG - 2020-10-02 08:00:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:00:33 --> Input Class Initialized
+INFO - 2020-10-02 08:00:33 --> Language Class Initialized
+INFO - 2020-10-02 13:00:33 --> Loader Class Initialized
+INFO - 2020-10-02 13:00:34 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:00:34 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:00:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:00:34 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:00:34 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:00:34 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:00:34 --> Encryption Class Initialized
+INFO - 2020-10-02 13:00:34 --> Controller Class Initialized
+INFO - 2020-10-02 13:00:34 --> MY_Model class loaded
+INFO - 2020-10-02 13:00:34 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:00:34 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:00:34 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:00:34 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:00:35 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:00:35 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 13:00:35 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 13:00:35 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 13:00:35 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 13:00:35 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 13:00:35 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 13:00:35 --> Final output sent to browser
+DEBUG - 2020-10-02 13:00:35 --> Total execution time: 1.9830
+ERROR - 2020-10-02 08:00:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:00:45 --> Config Class Initialized
+INFO - 2020-10-02 08:00:45 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:00:45 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:00:45 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:00:45 --> URI Class Initialized
+INFO - 2020-10-02 08:00:45 --> Router Class Initialized
+INFO - 2020-10-02 08:00:45 --> Output Class Initialized
+INFO - 2020-10-02 08:00:45 --> Security Class Initialized
+DEBUG - 2020-10-02 08:00:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:00:45 --> Input Class Initialized
+INFO - 2020-10-02 08:00:45 --> Language Class Initialized
+INFO - 2020-10-02 13:00:45 --> Loader Class Initialized
+INFO - 2020-10-02 13:00:45 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:00:45 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:00:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:00:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:00:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:00:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:00:46 --> Encryption Class Initialized
+INFO - 2020-10-02 13:00:46 --> Controller Class Initialized
+INFO - 2020-10-02 13:00:46 --> MY_Model class loaded
+INFO - 2020-10-02 13:00:46 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:00:46 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:00:46 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:00:46 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:00:46 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:00:46 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 13:00:46 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 13:00:46 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 13:00:46 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 13:00:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 13:00:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 13:00:47 --> Final output sent to browser
+DEBUG - 2020-10-02 13:00:47 --> Total execution time: 2.0432
+ERROR - 2020-10-02 08:02:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:02:51 --> Config Class Initialized
+INFO - 2020-10-02 08:02:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:02:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:02:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:02:51 --> URI Class Initialized
+INFO - 2020-10-02 08:02:51 --> Router Class Initialized
+INFO - 2020-10-02 08:02:51 --> Output Class Initialized
+INFO - 2020-10-02 08:02:51 --> Security Class Initialized
+DEBUG - 2020-10-02 08:02:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:02:52 --> Input Class Initialized
+INFO - 2020-10-02 08:02:52 --> Language Class Initialized
+INFO - 2020-10-02 13:02:52 --> Loader Class Initialized
+INFO - 2020-10-02 13:02:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:02:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:02:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:02:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:02:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:02:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:02:52 --> Encryption Class Initialized
+INFO - 2020-10-02 13:02:52 --> Controller Class Initialized
+INFO - 2020-10-02 13:02:52 --> MY_Model class loaded
+INFO - 2020-10-02 13:02:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:02:52 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:02:53 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:02:53 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:02:53 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:02:53 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 13:02:53 --> Severity: error --> Exception: Call to undefined function config() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 172
+ERROR - 2020-10-02 08:05:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:05:20 --> Config Class Initialized
+INFO - 2020-10-02 08:05:21 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:05:21 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:05:21 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:05:21 --> URI Class Initialized
+INFO - 2020-10-02 08:05:21 --> Router Class Initialized
+INFO - 2020-10-02 08:05:21 --> Output Class Initialized
+INFO - 2020-10-02 08:05:21 --> Security Class Initialized
+DEBUG - 2020-10-02 08:05:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:05:21 --> Input Class Initialized
+INFO - 2020-10-02 08:05:21 --> Language Class Initialized
+INFO - 2020-10-02 13:05:21 --> Loader Class Initialized
+INFO - 2020-10-02 13:05:21 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:05:21 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:05:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:05:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:05:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:05:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:05:22 --> Encryption Class Initialized
+INFO - 2020-10-02 13:05:22 --> Controller Class Initialized
+INFO - 2020-10-02 13:05:22 --> MY_Model class loaded
+INFO - 2020-10-02 13:05:22 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:05:22 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:05:22 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:05:22 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:05:22 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:05:22 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 13:05:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 13:05:23 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 13:05:23 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 13:05:23 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 13:05:23 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 13:05:23 --> Final output sent to browser
+DEBUG - 2020-10-02 13:05:23 --> Total execution time: 2.2004
+ERROR - 2020-10-02 08:08:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:08:40 --> Config Class Initialized
+INFO - 2020-10-02 08:08:40 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:08:40 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:08:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:08:40 --> URI Class Initialized
+INFO - 2020-10-02 08:08:40 --> Router Class Initialized
+INFO - 2020-10-02 08:08:40 --> Output Class Initialized
+INFO - 2020-10-02 08:08:40 --> Security Class Initialized
+DEBUG - 2020-10-02 08:08:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:08:40 --> Input Class Initialized
+INFO - 2020-10-02 08:08:40 --> Language Class Initialized
+INFO - 2020-10-02 13:08:40 --> Loader Class Initialized
+INFO - 2020-10-02 13:08:40 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:08:41 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:08:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:08:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:08:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:08:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:08:41 --> Encryption Class Initialized
+INFO - 2020-10-02 13:08:41 --> Controller Class Initialized
+INFO - 2020-10-02 13:08:41 --> MY_Model class loaded
+INFO - 2020-10-02 13:08:41 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:08:41 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:08:41 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:08:41 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:08:41 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:08:42 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 13:08:42 --> Severity: error --> Exception: Call to undefined function config() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 172
+ERROR - 2020-10-02 08:12:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:12:29 --> Config Class Initialized
+INFO - 2020-10-02 08:12:29 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:12:29 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:12:29 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:12:29 --> URI Class Initialized
+INFO - 2020-10-02 08:12:29 --> Router Class Initialized
+INFO - 2020-10-02 08:12:29 --> Output Class Initialized
+INFO - 2020-10-02 08:12:29 --> Security Class Initialized
+DEBUG - 2020-10-02 08:12:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:12:29 --> Input Class Initialized
+INFO - 2020-10-02 08:12:29 --> Language Class Initialized
+INFO - 2020-10-02 13:12:30 --> Loader Class Initialized
+INFO - 2020-10-02 13:12:30 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:12:30 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:12:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:12:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:12:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:12:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:12:31 --> Encryption Class Initialized
+INFO - 2020-10-02 13:12:31 --> Controller Class Initialized
+INFO - 2020-10-02 13:12:31 --> MY_Model class loaded
+INFO - 2020-10-02 13:12:31 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:12:31 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:12:31 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:12:31 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:12:31 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:12:31 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 13:12:31 --> Severity: error --> Exception: Call to undefined function config() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 172
+ERROR - 2020-10-02 08:28:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:28:02 --> Config Class Initialized
+INFO - 2020-10-02 08:28:02 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:28:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:28:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:28:02 --> URI Class Initialized
+INFO - 2020-10-02 08:28:02 --> Router Class Initialized
+INFO - 2020-10-02 08:28:02 --> Output Class Initialized
+INFO - 2020-10-02 08:28:02 --> Security Class Initialized
+DEBUG - 2020-10-02 08:28:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:28:02 --> Input Class Initialized
+INFO - 2020-10-02 08:28:03 --> Language Class Initialized
+INFO - 2020-10-02 13:28:03 --> Loader Class Initialized
+INFO - 2020-10-02 13:28:03 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:28:03 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:28:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:28:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:28:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:28:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:28:04 --> Encryption Class Initialized
+INFO - 2020-10-02 13:28:04 --> Controller Class Initialized
+INFO - 2020-10-02 13:28:04 --> MY_Model class loaded
+INFO - 2020-10-02 13:28:04 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:28:04 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:28:04 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:28:04 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:28:05 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:28:05 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 13:28:05 --> Severity: Notice --> Undefined index: no_hp C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 195
+INFO - 2020-10-02 13:28:05 --> Upload Class Initialized
+INFO - 2020-10-02 13:28:05 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 13:28:05 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 13:28:05 --> Final output sent to browser
+DEBUG - 2020-10-02 13:28:05 --> Total execution time: 3.5198
+ERROR - 2020-10-02 08:28:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:28:58 --> Config Class Initialized
+INFO - 2020-10-02 08:28:58 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:28:58 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:28:59 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:28:59 --> URI Class Initialized
+INFO - 2020-10-02 08:28:59 --> Router Class Initialized
+INFO - 2020-10-02 08:28:59 --> Output Class Initialized
+INFO - 2020-10-02 08:28:59 --> Security Class Initialized
+DEBUG - 2020-10-02 08:28:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:28:59 --> Input Class Initialized
+INFO - 2020-10-02 08:28:59 --> Language Class Initialized
+INFO - 2020-10-02 13:28:59 --> Loader Class Initialized
+INFO - 2020-10-02 13:28:59 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:28:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:28:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:28:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:28:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:28:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:28:59 --> Encryption Class Initialized
+INFO - 2020-10-02 13:28:59 --> Controller Class Initialized
+INFO - 2020-10-02 13:28:59 --> MY_Model class loaded
+INFO - 2020-10-02 13:29:00 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:29:00 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:29:00 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:29:00 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:29:00 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:29:00 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 13:29:00 --> Severity: Notice --> Undefined index: no_hp C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 195
+INFO - 2020-10-02 13:29:00 --> Upload Class Initialized
+INFO - 2020-10-02 13:29:00 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 13:29:01 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 13:29:01 --> Final output sent to browser
+DEBUG - 2020-10-02 13:29:01 --> Total execution time: 2.2524
+ERROR - 2020-10-02 08:29:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:29:05 --> Config Class Initialized
+INFO - 2020-10-02 08:29:05 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:29:05 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:29:05 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:29:05 --> URI Class Initialized
+INFO - 2020-10-02 08:29:05 --> Router Class Initialized
+INFO - 2020-10-02 08:29:05 --> Output Class Initialized
+INFO - 2020-10-02 08:29:05 --> Security Class Initialized
+DEBUG - 2020-10-02 08:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:29:06 --> Input Class Initialized
+INFO - 2020-10-02 08:29:06 --> Language Class Initialized
+INFO - 2020-10-02 13:29:06 --> Loader Class Initialized
+INFO - 2020-10-02 13:29:06 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:29:06 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:29:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:29:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:29:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:29:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:29:06 --> Encryption Class Initialized
+INFO - 2020-10-02 13:29:07 --> Controller Class Initialized
+INFO - 2020-10-02 13:29:07 --> MY_Model class loaded
+INFO - 2020-10-02 13:29:07 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:29:07 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:29:07 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:29:07 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:29:07 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:29:07 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 13:29:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 13:29:07 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 13:29:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 13:29:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 13:29:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 13:29:08 --> Final output sent to browser
+DEBUG - 2020-10-02 13:29:08 --> Total execution time: 2.6478
+ERROR - 2020-10-02 08:56:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 08:56:43 --> Config Class Initialized
+INFO - 2020-10-02 08:56:43 --> Hooks Class Initialized
+DEBUG - 2020-10-02 08:56:43 --> UTF-8 Support Enabled
+INFO - 2020-10-02 08:56:43 --> Utf8 Class Initialized
+INFO - 2020-10-02 08:56:43 --> URI Class Initialized
+INFO - 2020-10-02 08:56:44 --> Router Class Initialized
+INFO - 2020-10-02 08:56:44 --> Output Class Initialized
+INFO - 2020-10-02 08:56:44 --> Security Class Initialized
+DEBUG - 2020-10-02 08:56:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 08:56:44 --> Input Class Initialized
+INFO - 2020-10-02 08:56:44 --> Language Class Initialized
+INFO - 2020-10-02 13:56:45 --> Loader Class Initialized
+INFO - 2020-10-02 13:56:45 --> Helper loaded: url_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: form_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: array_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: download_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: setting_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 13:56:45 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 13:56:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 13:56:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 13:56:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 13:56:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 13:56:46 --> Encryption Class Initialized
+INFO - 2020-10-02 13:56:46 --> Controller Class Initialized
+INFO - 2020-10-02 13:56:46 --> MY_Model class loaded
+INFO - 2020-10-02 13:56:46 --> Database Driver Class Initialized
+INFO - 2020-10-02 13:56:46 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 13:56:47 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 13:56:47 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 13:56:47 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 13:56:47 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 13:56:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 13:56:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 13:56:48 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 13:56:48 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 13:56:48 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 13:56:48 --> Final output sent to browser
+DEBUG - 2020-10-02 13:56:48 --> Total execution time: 4.9178
+ERROR - 2020-10-02 09:07:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 09:07:08 --> Config Class Initialized
+INFO - 2020-10-02 09:07:08 --> Hooks Class Initialized
+DEBUG - 2020-10-02 09:07:08 --> UTF-8 Support Enabled
+INFO - 2020-10-02 09:07:08 --> Utf8 Class Initialized
+INFO - 2020-10-02 09:07:09 --> URI Class Initialized
+INFO - 2020-10-02 09:07:09 --> Router Class Initialized
+INFO - 2020-10-02 09:07:09 --> Output Class Initialized
+INFO - 2020-10-02 09:07:09 --> Security Class Initialized
+DEBUG - 2020-10-02 09:07:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 09:07:09 --> Input Class Initialized
+INFO - 2020-10-02 09:07:09 --> Language Class Initialized
+INFO - 2020-10-02 14:07:09 --> Loader Class Initialized
+INFO - 2020-10-02 14:07:09 --> Helper loaded: url_helper
+INFO - 2020-10-02 14:07:09 --> Helper loaded: form_helper
+INFO - 2020-10-02 14:07:09 --> Helper loaded: array_helper
+INFO - 2020-10-02 14:07:09 --> Helper loaded: download_helper
+INFO - 2020-10-02 14:07:09 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 14:07:09 --> Helper loaded: setting_helper
+INFO - 2020-10-02 14:07:09 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 14:07:10 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 14:07:10 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 14:07:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 14:07:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 14:07:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 14:07:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 14:07:10 --> Encryption Class Initialized
+INFO - 2020-10-02 14:07:10 --> Controller Class Initialized
+INFO - 2020-10-02 14:07:10 --> MY_Model class loaded
+INFO - 2020-10-02 14:07:10 --> Database Driver Class Initialized
+INFO - 2020-10-02 14:07:10 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 14:07:10 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 14:07:10 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 14:07:10 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 14:07:10 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 14:07:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 14:07:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 14:07:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 14:07:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 14:07:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 14:07:11 --> Final output sent to browser
+DEBUG - 2020-10-02 14:07:11 --> Total execution time: 2.3579
+ERROR - 2020-10-02 12:59:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 12:59:57 --> Config Class Initialized
+INFO - 2020-10-02 12:59:57 --> Hooks Class Initialized
+DEBUG - 2020-10-02 12:59:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 12:59:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 12:59:58 --> URI Class Initialized
+DEBUG - 2020-10-02 12:59:58 --> No URI present. Default controller set.
+INFO - 2020-10-02 12:59:58 --> Router Class Initialized
+INFO - 2020-10-02 12:59:58 --> Output Class Initialized
+INFO - 2020-10-02 12:59:58 --> Security Class Initialized
+DEBUG - 2020-10-02 12:59:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 12:59:58 --> Input Class Initialized
+INFO - 2020-10-02 12:59:58 --> Language Class Initialized
+INFO - 2020-10-02 17:59:58 --> Loader Class Initialized
+INFO - 2020-10-02 17:59:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 17:59:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: array_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: download_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: setting_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 17:59:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 17:59:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 17:59:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 17:59:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 18:00:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 18:00:00 --> Encryption Class Initialized
+INFO - 2020-10-02 18:00:00 --> Controller Class Initialized
+INFO - 2020-10-02 18:00:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-02 18:00:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 18:00:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 18:00:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 18:00:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 18:00:00 --> Final output sent to browser
+DEBUG - 2020-10-02 18:00:00 --> Total execution time: 2.9224
+ERROR - 2020-10-02 13:00:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 13:00:08 --> Config Class Initialized
+INFO - 2020-10-02 13:00:08 --> Hooks Class Initialized
+DEBUG - 2020-10-02 13:00:08 --> UTF-8 Support Enabled
+INFO - 2020-10-02 13:00:08 --> Utf8 Class Initialized
+INFO - 2020-10-02 13:00:08 --> URI Class Initialized
+INFO - 2020-10-02 13:00:08 --> Router Class Initialized
+INFO - 2020-10-02 13:00:08 --> Output Class Initialized
+INFO - 2020-10-02 13:00:08 --> Security Class Initialized
+DEBUG - 2020-10-02 13:00:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 13:00:08 --> Input Class Initialized
+INFO - 2020-10-02 13:00:08 --> Language Class Initialized
+INFO - 2020-10-02 18:00:08 --> Loader Class Initialized
+INFO - 2020-10-02 18:00:08 --> Helper loaded: url_helper
+INFO - 2020-10-02 18:00:08 --> Helper loaded: form_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: array_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: download_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: setting_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 18:00:09 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 18:00:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 18:00:09 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 18:00:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 18:00:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 18:00:09 --> Encryption Class Initialized
+INFO - 2020-10-02 18:00:09 --> Controller Class Initialized
+INFO - 2020-10-02 18:00:09 --> MY_Model class loaded
+INFO - 2020-10-02 18:00:10 --> Database Driver Class Initialized
+INFO - 2020-10-02 18:00:10 --> Model "Produk_model" initialized
+INFO - 2020-10-02 18:00:10 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 18:00:10 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 18:00:10 --> Model "ProdukKategori_model" initialized
+INFO - 2020-10-02 18:00:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/kelas/v_kelas.php
+INFO - 2020-10-02 18:00:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 18:00:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 18:00:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 18:00:11 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 18:00:11 --> Final output sent to browser
+DEBUG - 2020-10-02 18:00:11 --> Total execution time: 2.9638
+ERROR - 2020-10-02 13:00:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 13:00:12 --> Config Class Initialized
+INFO - 2020-10-02 13:00:12 --> Hooks Class Initialized
+DEBUG - 2020-10-02 13:00:12 --> UTF-8 Support Enabled
+INFO - 2020-10-02 13:00:12 --> Utf8 Class Initialized
+INFO - 2020-10-02 13:00:12 --> URI Class Initialized
+INFO - 2020-10-02 13:00:12 --> Router Class Initialized
+INFO - 2020-10-02 13:00:12 --> Output Class Initialized
+INFO - 2020-10-02 13:00:12 --> Security Class Initialized
+DEBUG - 2020-10-02 13:00:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 13:00:12 --> Input Class Initialized
+INFO - 2020-10-02 13:00:12 --> Language Class Initialized
+INFO - 2020-10-02 18:00:13 --> Loader Class Initialized
+INFO - 2020-10-02 18:00:13 --> Helper loaded: url_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: form_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: array_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: download_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: setting_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 18:00:13 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 18:00:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 18:00:13 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 18:00:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 18:00:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 18:00:14 --> Encryption Class Initialized
+INFO - 2020-10-02 18:00:14 --> Controller Class Initialized
+INFO - 2020-10-02 18:00:14 --> MY_Model class loaded
+INFO - 2020-10-02 18:00:14 --> Database Driver Class Initialized
+INFO - 2020-10-02 18:00:14 --> Model "Produk_model" initialized
+INFO - 2020-10-02 18:00:14 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 18:00:14 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 18:00:14 --> Model "ProdukKategori_model" initialized
+INFO - 2020-10-02 18:00:14 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 18:00:14 --> Model "ProdukKategori_model" initialized
+INFO - 2020-10-02 18:00:14 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 18:00:15 --> Final output sent to browser
+DEBUG - 2020-10-02 18:00:15 --> Total execution time: 2.8391
+ERROR - 2020-10-02 13:00:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 13:00:16 --> Config Class Initialized
+INFO - 2020-10-02 13:00:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 13:00:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 13:00:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 13:00:16 --> URI Class Initialized
+INFO - 2020-10-02 13:00:16 --> Router Class Initialized
+INFO - 2020-10-02 13:00:16 --> Output Class Initialized
+INFO - 2020-10-02 13:00:16 --> Security Class Initialized
+DEBUG - 2020-10-02 13:00:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 13:00:16 --> Input Class Initialized
+INFO - 2020-10-02 13:00:16 --> Language Class Initialized
+INFO - 2020-10-02 18:00:16 --> Loader Class Initialized
+INFO - 2020-10-02 18:00:17 --> Helper loaded: url_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: form_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: array_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: download_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: setting_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 18:00:17 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 18:00:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 18:00:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 18:00:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 18:00:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 18:00:17 --> Encryption Class Initialized
+INFO - 2020-10-02 18:00:17 --> Controller Class Initialized
+INFO - 2020-10-02 18:00:17 --> MY_Model class loaded
+INFO - 2020-10-02 18:00:17 --> Database Driver Class Initialized
+INFO - 2020-10-02 18:00:17 --> Model "Produk_model" initialized
+INFO - 2020-10-02 18:00:17 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 18:00:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 18:00:17 --> Model "ProdukKategori_model" initialized
+INFO - 2020-10-02 18:00:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/kelas/v_tambahkelas.php
+INFO - 2020-10-02 18:00:18 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 18:00:18 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 18:00:18 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 18:00:18 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 18:00:18 --> Final output sent to browser
+DEBUG - 2020-10-02 18:00:18 --> Total execution time: 1.6908
+ERROR - 2020-10-02 15:38:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 15:38:48 --> Config Class Initialized
+INFO - 2020-10-02 15:38:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 15:38:48 --> UTF-8 Support Enabled
+INFO - 2020-10-02 15:38:48 --> Utf8 Class Initialized
+INFO - 2020-10-02 15:38:48 --> URI Class Initialized
+DEBUG - 2020-10-02 15:38:48 --> No URI present. Default controller set.
+INFO - 2020-10-02 15:38:48 --> Router Class Initialized
+INFO - 2020-10-02 15:38:48 --> Output Class Initialized
+INFO - 2020-10-02 15:38:48 --> Security Class Initialized
+DEBUG - 2020-10-02 15:38:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 15:38:48 --> Input Class Initialized
+INFO - 2020-10-02 15:38:48 --> Language Class Initialized
+INFO - 2020-10-02 20:38:48 --> Loader Class Initialized
+INFO - 2020-10-02 20:38:48 --> Helper loaded: url_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: form_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: array_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 20:38:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 20:38:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 20:38:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 20:38:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 20:38:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 20:38:49 --> Encryption Class Initialized
+INFO - 2020-10-02 20:38:49 --> Controller Class Initialized
+INFO - 2020-10-02 20:38:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-02 20:38:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 20:38:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 20:38:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 20:38:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 20:38:49 --> Final output sent to browser
+DEBUG - 2020-10-02 20:38:49 --> Total execution time: 1.4424
+ERROR - 2020-10-02 15:42:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 15:42:16 --> Config Class Initialized
+INFO - 2020-10-02 15:42:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 15:42:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 15:42:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 15:42:16 --> URI Class Initialized
+INFO - 2020-10-02 15:42:16 --> Router Class Initialized
+INFO - 2020-10-02 15:42:16 --> Output Class Initialized
+INFO - 2020-10-02 15:42:16 --> Security Class Initialized
+DEBUG - 2020-10-02 15:42:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 15:42:16 --> Input Class Initialized
+INFO - 2020-10-02 15:42:16 --> Language Class Initialized
+INFO - 2020-10-02 20:42:17 --> Loader Class Initialized
+INFO - 2020-10-02 20:42:17 --> Helper loaded: url_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: form_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: array_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: download_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: setting_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 20:42:17 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 20:42:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 20:42:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 20:42:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 20:42:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 20:42:18 --> Encryption Class Initialized
+INFO - 2020-10-02 20:42:18 --> Controller Class Initialized
+INFO - 2020-10-02 20:42:18 --> MY_Model class loaded
+INFO - 2020-10-02 20:42:18 --> Database Driver Class Initialized
+INFO - 2020-10-02 20:42:18 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 20:42:18 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 20:42:18 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 20:42:19 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 20:42:19 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 20:42:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 20:42:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 20:42:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 20:42:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 20:42:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 20:42:19 --> Final output sent to browser
+DEBUG - 2020-10-02 20:42:19 --> Total execution time: 3.5487
+ERROR - 2020-10-02 15:42:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 15:42:23 --> Config Class Initialized
+INFO - 2020-10-02 15:42:23 --> Hooks Class Initialized
+DEBUG - 2020-10-02 15:42:23 --> UTF-8 Support Enabled
+INFO - 2020-10-02 15:42:23 --> Utf8 Class Initialized
+INFO - 2020-10-02 15:42:23 --> URI Class Initialized
+INFO - 2020-10-02 15:42:23 --> Router Class Initialized
+INFO - 2020-10-02 15:42:23 --> Output Class Initialized
+INFO - 2020-10-02 15:42:23 --> Security Class Initialized
+DEBUG - 2020-10-02 15:42:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 15:42:23 --> Input Class Initialized
+INFO - 2020-10-02 15:42:23 --> Language Class Initialized
+INFO - 2020-10-02 20:42:23 --> Loader Class Initialized
+INFO - 2020-10-02 20:42:23 --> Helper loaded: url_helper
+INFO - 2020-10-02 20:42:23 --> Helper loaded: form_helper
+INFO - 2020-10-02 20:42:23 --> Helper loaded: array_helper
+INFO - 2020-10-02 20:42:24 --> Helper loaded: download_helper
+INFO - 2020-10-02 20:42:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 20:42:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 20:42:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 20:42:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 20:42:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 20:42:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 20:42:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 20:42:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 20:42:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 20:42:24 --> Encryption Class Initialized
+INFO - 2020-10-02 20:42:24 --> Controller Class Initialized
+INFO - 2020-10-02 20:42:24 --> MY_Model class loaded
+INFO - 2020-10-02 20:42:24 --> Database Driver Class Initialized
+INFO - 2020-10-02 20:42:24 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 20:42:24 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 20:42:24 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 20:42:24 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 20:42:25 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 20:42:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 20:42:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 20:42:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 20:42:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 20:42:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 20:42:25 --> Final output sent to browser
+DEBUG - 2020-10-02 20:42:25 --> Total execution time: 1.9877
+ERROR - 2020-10-02 16:00:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:00:55 --> Config Class Initialized
+INFO - 2020-10-02 16:00:55 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:00:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:00:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:00:56 --> URI Class Initialized
+INFO - 2020-10-02 16:00:56 --> Router Class Initialized
+INFO - 2020-10-02 16:00:56 --> Output Class Initialized
+INFO - 2020-10-02 16:00:56 --> Security Class Initialized
+DEBUG - 2020-10-02 16:00:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:00:56 --> Input Class Initialized
+INFO - 2020-10-02 16:00:56 --> Language Class Initialized
+INFO - 2020-10-02 21:00:56 --> Loader Class Initialized
+INFO - 2020-10-02 21:00:56 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:00:56 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:00:56 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:00:56 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:00:57 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:00:57 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:00:57 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:00:57 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:00:57 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:00:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:00:57 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:00:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:00:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:00:57 --> Encryption Class Initialized
+INFO - 2020-10-02 21:00:57 --> Controller Class Initialized
+INFO - 2020-10-02 21:00:57 --> MY_Model class loaded
+INFO - 2020-10-02 21:00:58 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:00:58 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:00:58 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:00:58 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:00:58 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:00:58 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:00:58 --> Upload Class Initialized
+INFO - 2020-10-02 21:00:58 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:00:58 --> You did not select a file to upload.
+INFO - 2020-10-02 21:00:58 --> Final output sent to browser
+DEBUG - 2020-10-02 21:00:59 --> Total execution time: 3.3736
+ERROR - 2020-10-02 16:02:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:02:50 --> Config Class Initialized
+INFO - 2020-10-02 16:02:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:02:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:02:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:02:50 --> URI Class Initialized
+INFO - 2020-10-02 16:02:50 --> Router Class Initialized
+INFO - 2020-10-02 16:02:50 --> Output Class Initialized
+INFO - 2020-10-02 16:02:50 --> Security Class Initialized
+DEBUG - 2020-10-02 16:02:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:02:50 --> Input Class Initialized
+INFO - 2020-10-02 16:02:50 --> Language Class Initialized
+INFO - 2020-10-02 21:02:51 --> Loader Class Initialized
+INFO - 2020-10-02 21:02:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:02:51 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:02:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:02:51 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:02:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:02:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:02:51 --> Encryption Class Initialized
+INFO - 2020-10-02 21:02:51 --> Controller Class Initialized
+INFO - 2020-10-02 21:02:51 --> MY_Model class loaded
+INFO - 2020-10-02 21:02:51 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:02:52 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:02:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:02:52 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:02:52 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:02:52 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:02:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:02:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:02:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:02:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:02:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:02:52 --> Final output sent to browser
+DEBUG - 2020-10-02 21:02:52 --> Total execution time: 2.2264
+ERROR - 2020-10-02 16:05:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:05:52 --> Config Class Initialized
+INFO - 2020-10-02 16:05:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:05:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:05:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:05:52 --> URI Class Initialized
+INFO - 2020-10-02 16:05:52 --> Router Class Initialized
+INFO - 2020-10-02 16:05:52 --> Output Class Initialized
+INFO - 2020-10-02 16:05:52 --> Security Class Initialized
+DEBUG - 2020-10-02 16:05:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:05:52 --> Input Class Initialized
+INFO - 2020-10-02 16:05:52 --> Language Class Initialized
+INFO - 2020-10-02 21:05:52 --> Loader Class Initialized
+INFO - 2020-10-02 21:05:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:05:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:05:52 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:05:53 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:05:53 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:05:53 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:05:53 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:05:53 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:05:53 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:05:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:05:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:05:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:05:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:05:53 --> Encryption Class Initialized
+INFO - 2020-10-02 21:05:53 --> Controller Class Initialized
+INFO - 2020-10-02 21:05:53 --> MY_Model class loaded
+INFO - 2020-10-02 21:05:53 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:05:53 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:05:53 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:05:53 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:05:53 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:05:54 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:05:54 --> Upload Class Initialized
+INFO - 2020-10-02 21:05:54 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:05:54 --> You did not select a file to upload.
+INFO - 2020-10-02 21:05:54 --> Final output sent to browser
+DEBUG - 2020-10-02 21:05:54 --> Total execution time: 1.8331
+ERROR - 2020-10-02 16:06:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:06:07 --> Config Class Initialized
+INFO - 2020-10-02 16:06:07 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:06:07 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:06:08 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:06:08 --> URI Class Initialized
+INFO - 2020-10-02 16:06:08 --> Router Class Initialized
+INFO - 2020-10-02 16:06:08 --> Output Class Initialized
+INFO - 2020-10-02 16:06:08 --> Security Class Initialized
+DEBUG - 2020-10-02 16:06:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:06:08 --> Input Class Initialized
+INFO - 2020-10-02 16:06:08 --> Language Class Initialized
+INFO - 2020-10-02 21:06:08 --> Loader Class Initialized
+INFO - 2020-10-02 21:06:08 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:06:08 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:06:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:06:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:06:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:06:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:06:08 --> Encryption Class Initialized
+INFO - 2020-10-02 21:06:08 --> Controller Class Initialized
+INFO - 2020-10-02 21:06:08 --> MY_Model class loaded
+INFO - 2020-10-02 21:06:09 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:06:09 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:06:09 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:06:09 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:06:09 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:06:09 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:06:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:06:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:06:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:06:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:06:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:06:09 --> Final output sent to browser
+DEBUG - 2020-10-02 21:06:09 --> Total execution time: 1.8111
+ERROR - 2020-10-02 16:09:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:09:07 --> Config Class Initialized
+INFO - 2020-10-02 16:09:07 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:09:07 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:09:07 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:09:07 --> URI Class Initialized
+INFO - 2020-10-02 16:09:07 --> Router Class Initialized
+INFO - 2020-10-02 16:09:07 --> Output Class Initialized
+INFO - 2020-10-02 16:09:07 --> Security Class Initialized
+DEBUG - 2020-10-02 16:09:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:09:07 --> Input Class Initialized
+INFO - 2020-10-02 16:09:07 --> Language Class Initialized
+INFO - 2020-10-02 21:09:07 --> Loader Class Initialized
+INFO - 2020-10-02 21:09:07 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:09:07 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:09:07 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:09:07 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:09:07 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:09:08 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:09:08 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:09:08 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:09:08 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:09:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:09:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:09:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:09:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:09:08 --> Encryption Class Initialized
+INFO - 2020-10-02 21:09:08 --> Controller Class Initialized
+INFO - 2020-10-02 21:09:08 --> MY_Model class loaded
+INFO - 2020-10-02 21:09:08 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:09:08 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:09:08 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:09:08 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:09:08 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:09:08 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:09:08 --> Upload Class Initialized
+INFO - 2020-10-02 21:09:09 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:09:09 --> You did not select a file to upload.
+INFO - 2020-10-02 21:09:09 --> Final output sent to browser
+DEBUG - 2020-10-02 21:09:09 --> Total execution time: 1.7117
+ERROR - 2020-10-02 16:12:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:12:00 --> Config Class Initialized
+INFO - 2020-10-02 16:12:00 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:12:00 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:12:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:12:00 --> URI Class Initialized
+INFO - 2020-10-02 16:12:00 --> Router Class Initialized
+INFO - 2020-10-02 16:12:00 --> Output Class Initialized
+INFO - 2020-10-02 16:12:00 --> Security Class Initialized
+DEBUG - 2020-10-02 16:12:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:12:00 --> Input Class Initialized
+INFO - 2020-10-02 16:12:00 --> Language Class Initialized
+INFO - 2020-10-02 21:12:00 --> Loader Class Initialized
+INFO - 2020-10-02 21:12:00 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:12:00 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:12:00 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:12:01 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:12:01 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:12:01 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:12:01 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:12:01 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:12:01 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:12:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:12:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:12:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:12:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:12:01 --> Encryption Class Initialized
+INFO - 2020-10-02 21:12:01 --> Controller Class Initialized
+INFO - 2020-10-02 21:12:01 --> MY_Model class loaded
+INFO - 2020-10-02 21:12:02 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:12:02 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:12:02 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:12:02 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:12:02 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:12:02 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:12:02 --> Upload Class Initialized
+INFO - 2020-10-02 21:12:02 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:12:02 --> You did not select a file to upload.
+INFO - 2020-10-02 21:12:02 --> Final output sent to browser
+DEBUG - 2020-10-02 21:12:02 --> Total execution time: 2.4205
+ERROR - 2020-10-02 16:12:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:12:13 --> Config Class Initialized
+INFO - 2020-10-02 16:12:13 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:12:13 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:12:13 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:12:13 --> URI Class Initialized
+INFO - 2020-10-02 16:12:13 --> Router Class Initialized
+INFO - 2020-10-02 16:12:13 --> Output Class Initialized
+INFO - 2020-10-02 16:12:13 --> Security Class Initialized
+DEBUG - 2020-10-02 16:12:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:12:13 --> Input Class Initialized
+INFO - 2020-10-02 16:12:13 --> Language Class Initialized
+INFO - 2020-10-02 21:12:13 --> Loader Class Initialized
+INFO - 2020-10-02 21:12:13 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:12:13 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:12:13 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:12:13 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:12:13 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:12:13 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:12:14 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:12:14 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:12:14 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:12:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:12:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:12:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:12:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:12:14 --> Encryption Class Initialized
+INFO - 2020-10-02 21:12:14 --> Controller Class Initialized
+INFO - 2020-10-02 21:12:14 --> MY_Model class loaded
+INFO - 2020-10-02 21:12:14 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:12:14 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:12:14 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:12:14 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:12:14 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:12:15 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:12:15 --> Upload Class Initialized
+INFO - 2020-10-02 21:12:15 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:12:15 --> You did not select a file to upload.
+INFO - 2020-10-02 21:12:15 --> Final output sent to browser
+DEBUG - 2020-10-02 21:12:15 --> Total execution time: 1.9475
+ERROR - 2020-10-02 16:13:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:13:28 --> Config Class Initialized
+INFO - 2020-10-02 16:13:28 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:13:28 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:13:28 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:13:28 --> URI Class Initialized
+INFO - 2020-10-02 16:13:28 --> Router Class Initialized
+INFO - 2020-10-02 16:13:29 --> Output Class Initialized
+INFO - 2020-10-02 16:13:29 --> Security Class Initialized
+DEBUG - 2020-10-02 16:13:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:13:29 --> Input Class Initialized
+INFO - 2020-10-02 16:13:29 --> Language Class Initialized
+INFO - 2020-10-02 21:13:29 --> Loader Class Initialized
+INFO - 2020-10-02 21:13:29 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:13:29 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:13:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:13:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:13:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:13:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:13:29 --> Encryption Class Initialized
+INFO - 2020-10-02 21:13:29 --> Controller Class Initialized
+INFO - 2020-10-02 21:13:29 --> MY_Model class loaded
+INFO - 2020-10-02 21:13:29 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:13:30 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:13:30 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:13:30 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:13:30 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:13:30 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:13:30 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:13:30 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:13:30 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:13:30 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:13:30 --> Final output sent to browser
+DEBUG - 2020-10-02 21:13:30 --> Total execution time: 1.8750
+ERROR - 2020-10-02 16:16:56 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:16:56 --> Config Class Initialized
+INFO - 2020-10-02 16:16:56 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:16:56 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:16:56 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:16:56 --> URI Class Initialized
+INFO - 2020-10-02 16:16:56 --> Router Class Initialized
+INFO - 2020-10-02 16:16:56 --> Output Class Initialized
+INFO - 2020-10-02 16:16:56 --> Security Class Initialized
+DEBUG - 2020-10-02 16:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:16:56 --> Input Class Initialized
+INFO - 2020-10-02 16:16:56 --> Language Class Initialized
+INFO - 2020-10-02 21:16:56 --> Loader Class Initialized
+INFO - 2020-10-02 21:16:56 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:16:56 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:16:56 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:16:56 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:16:56 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:16:56 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:16:57 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:16:57 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:16:57 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:16:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:16:57 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:16:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:16:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:16:57 --> Encryption Class Initialized
+INFO - 2020-10-02 21:16:57 --> Controller Class Initialized
+INFO - 2020-10-02 21:16:57 --> MY_Model class loaded
+INFO - 2020-10-02 21:16:57 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:16:57 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:16:57 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:16:57 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:16:57 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:16:57 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:16:58 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:16:58 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:16:58 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:16:58 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:16:58 --> Final output sent to browser
+DEBUG - 2020-10-02 21:16:58 --> Total execution time: 1.9301
+ERROR - 2020-10-02 16:17:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:17:23 --> Config Class Initialized
+INFO - 2020-10-02 16:17:23 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:17:23 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:17:23 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:17:23 --> URI Class Initialized
+INFO - 2020-10-02 16:17:23 --> Router Class Initialized
+INFO - 2020-10-02 16:17:23 --> Output Class Initialized
+INFO - 2020-10-02 16:17:23 --> Security Class Initialized
+DEBUG - 2020-10-02 16:17:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:17:23 --> Input Class Initialized
+INFO - 2020-10-02 16:17:23 --> Language Class Initialized
+INFO - 2020-10-02 21:17:23 --> Loader Class Initialized
+INFO - 2020-10-02 21:17:24 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:17:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:17:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:17:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:17:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:17:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:17:24 --> Encryption Class Initialized
+INFO - 2020-10-02 21:17:24 --> Controller Class Initialized
+INFO - 2020-10-02 21:17:24 --> MY_Model class loaded
+INFO - 2020-10-02 21:17:24 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:17:24 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:17:25 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:17:25 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:17:25 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:17:25 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:17:25 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:17:25 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:17:25 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:17:25 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:17:25 --> Final output sent to browser
+DEBUG - 2020-10-02 21:17:25 --> Total execution time: 2.0925
+ERROR - 2020-10-02 16:17:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:17:29 --> Config Class Initialized
+INFO - 2020-10-02 16:17:29 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:17:29 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:17:29 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:17:29 --> URI Class Initialized
+INFO - 2020-10-02 16:17:29 --> Router Class Initialized
+INFO - 2020-10-02 16:17:29 --> Output Class Initialized
+INFO - 2020-10-02 16:17:29 --> Security Class Initialized
+DEBUG - 2020-10-02 16:17:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:17:29 --> Input Class Initialized
+INFO - 2020-10-02 16:17:30 --> Language Class Initialized
+INFO - 2020-10-02 21:17:30 --> Loader Class Initialized
+INFO - 2020-10-02 21:17:30 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:17:30 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:17:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:17:30 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:17:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:17:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:17:30 --> Encryption Class Initialized
+INFO - 2020-10-02 21:17:30 --> Controller Class Initialized
+INFO - 2020-10-02 21:17:30 --> MY_Model class loaded
+INFO - 2020-10-02 21:17:30 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:17:30 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:17:31 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:17:31 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:17:31 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:17:31 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:17:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:17:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:17:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:17:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:17:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:17:31 --> Final output sent to browser
+DEBUG - 2020-10-02 21:17:31 --> Total execution time: 1.9004
+ERROR - 2020-10-02 16:19:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:19:51 --> Config Class Initialized
+INFO - 2020-10-02 16:19:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:19:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:19:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:19:51 --> URI Class Initialized
+INFO - 2020-10-02 16:19:51 --> Router Class Initialized
+INFO - 2020-10-02 16:19:51 --> Output Class Initialized
+INFO - 2020-10-02 16:19:51 --> Security Class Initialized
+DEBUG - 2020-10-02 16:19:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:19:51 --> Input Class Initialized
+INFO - 2020-10-02 16:19:51 --> Language Class Initialized
+INFO - 2020-10-02 21:19:51 --> Loader Class Initialized
+INFO - 2020-10-02 21:19:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:19:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:19:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:19:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:19:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:19:52 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:19:52 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:19:52 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:19:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:19:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:19:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:19:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:19:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:19:52 --> Encryption Class Initialized
+INFO - 2020-10-02 21:19:52 --> Controller Class Initialized
+INFO - 2020-10-02 21:19:52 --> MY_Model class loaded
+INFO - 2020-10-02 21:19:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:19:52 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:19:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:19:52 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:19:52 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:19:52 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:19:53 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:19:53 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:19:53 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:19:53 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:19:53 --> Final output sent to browser
+DEBUG - 2020-10-02 21:19:53 --> Total execution time: 1.9242
+ERROR - 2020-10-02 16:20:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:20:52 --> Config Class Initialized
+INFO - 2020-10-02 16:20:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:20:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:20:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:20:52 --> URI Class Initialized
+INFO - 2020-10-02 16:20:53 --> Router Class Initialized
+INFO - 2020-10-02 16:20:53 --> Output Class Initialized
+INFO - 2020-10-02 16:20:53 --> Security Class Initialized
+DEBUG - 2020-10-02 16:20:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:20:53 --> Input Class Initialized
+INFO - 2020-10-02 16:20:53 --> Language Class Initialized
+INFO - 2020-10-02 21:20:53 --> Loader Class Initialized
+INFO - 2020-10-02 21:20:53 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:20:53 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:20:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:20:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:20:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:20:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:20:53 --> Encryption Class Initialized
+INFO - 2020-10-02 21:20:53 --> Controller Class Initialized
+INFO - 2020-10-02 21:20:53 --> MY_Model class loaded
+INFO - 2020-10-02 21:20:53 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:20:54 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:20:54 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:20:54 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:20:54 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:20:54 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:20:54 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:20:54 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:20:54 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:20:54 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:20:54 --> Final output sent to browser
+DEBUG - 2020-10-02 21:20:54 --> Total execution time: 1.8374
+ERROR - 2020-10-02 16:21:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:21:19 --> Config Class Initialized
+INFO - 2020-10-02 16:21:19 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:21:19 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:21:19 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:21:19 --> URI Class Initialized
+INFO - 2020-10-02 16:21:19 --> Router Class Initialized
+INFO - 2020-10-02 16:21:19 --> Output Class Initialized
+INFO - 2020-10-02 16:21:19 --> Security Class Initialized
+DEBUG - 2020-10-02 16:21:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:21:19 --> Input Class Initialized
+INFO - 2020-10-02 16:21:19 --> Language Class Initialized
+INFO - 2020-10-02 21:21:19 --> Loader Class Initialized
+INFO - 2020-10-02 21:21:19 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:21:19 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:21:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:21:20 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:21:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:21:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:21:20 --> Encryption Class Initialized
+INFO - 2020-10-02 21:21:20 --> Controller Class Initialized
+INFO - 2020-10-02 21:21:20 --> MY_Model class loaded
+INFO - 2020-10-02 21:21:20 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:21:20 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:21:20 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:21:20 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:21:20 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:21:20 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:21:21 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:21:21 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:21:21 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:21:21 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:21:21 --> Final output sent to browser
+DEBUG - 2020-10-02 21:21:21 --> Total execution time: 2.3593
+ERROR - 2020-10-02 16:22:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:22:07 --> Config Class Initialized
+INFO - 2020-10-02 16:22:07 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:22:07 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:22:07 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:22:07 --> URI Class Initialized
+DEBUG - 2020-10-02 16:22:07 --> No URI present. Default controller set.
+INFO - 2020-10-02 16:22:08 --> Router Class Initialized
+INFO - 2020-10-02 16:22:08 --> Output Class Initialized
+INFO - 2020-10-02 16:22:08 --> Security Class Initialized
+DEBUG - 2020-10-02 16:22:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:22:08 --> Input Class Initialized
+INFO - 2020-10-02 16:22:08 --> Language Class Initialized
+INFO - 2020-10-02 21:22:08 --> Loader Class Initialized
+INFO - 2020-10-02 21:22:08 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:22:08 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:22:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:22:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:22:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:22:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:22:08 --> Encryption Class Initialized
+INFO - 2020-10-02 21:22:08 --> Controller Class Initialized
+INFO - 2020-10-02 21:22:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-02 21:22:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:22:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:22:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:22:09 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:22:09 --> Final output sent to browser
+DEBUG - 2020-10-02 21:22:09 --> Total execution time: 1.4686
+ERROR - 2020-10-02 16:22:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:22:17 --> Config Class Initialized
+INFO - 2020-10-02 16:22:17 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:22:17 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:22:17 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:22:17 --> URI Class Initialized
+INFO - 2020-10-02 16:22:17 --> Router Class Initialized
+INFO - 2020-10-02 16:22:17 --> Output Class Initialized
+INFO - 2020-10-02 16:22:17 --> Security Class Initialized
+DEBUG - 2020-10-02 16:22:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:22:17 --> Input Class Initialized
+INFO - 2020-10-02 16:22:17 --> Language Class Initialized
+INFO - 2020-10-02 21:22:17 --> Loader Class Initialized
+INFO - 2020-10-02 21:22:17 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:22:17 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:22:17 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:22:18 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:22:18 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:22:18 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:22:18 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:22:18 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:22:18 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:22:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:22:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:22:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:22:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:22:18 --> Encryption Class Initialized
+INFO - 2020-10-02 21:22:18 --> Controller Class Initialized
+INFO - 2020-10-02 21:22:18 --> MY_Model class loaded
+INFO - 2020-10-02 21:22:19 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:22:19 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:22:19 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:22:19 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:22:19 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:22:19 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:22:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 21:22:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:22:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:22:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:22:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:22:19 --> Final output sent to browser
+DEBUG - 2020-10-02 21:22:20 --> Total execution time: 2.8329
+ERROR - 2020-10-02 16:22:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:22:46 --> Config Class Initialized
+INFO - 2020-10-02 16:22:46 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:22:46 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:22:46 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:22:46 --> URI Class Initialized
+INFO - 2020-10-02 16:22:46 --> Router Class Initialized
+INFO - 2020-10-02 16:22:46 --> Output Class Initialized
+INFO - 2020-10-02 16:22:46 --> Security Class Initialized
+DEBUG - 2020-10-02 16:22:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:22:46 --> Input Class Initialized
+INFO - 2020-10-02 16:22:46 --> Language Class Initialized
+INFO - 2020-10-02 21:22:46 --> Loader Class Initialized
+INFO - 2020-10-02 21:22:46 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:22:46 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:22:47 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:22:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:22:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:22:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:22:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:22:47 --> Encryption Class Initialized
+INFO - 2020-10-02 21:22:47 --> Controller Class Initialized
+INFO - 2020-10-02 21:22:47 --> MY_Model class loaded
+INFO - 2020-10-02 21:22:47 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:22:47 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:22:47 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:22:47 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:22:47 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:22:47 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:22:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:22:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:22:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:22:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:22:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:22:47 --> Final output sent to browser
+DEBUG - 2020-10-02 21:22:48 --> Total execution time: 1.8100
+ERROR - 2020-10-02 16:24:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:24:57 --> Config Class Initialized
+INFO - 2020-10-02 16:24:57 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:24:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:24:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:24:57 --> URI Class Initialized
+INFO - 2020-10-02 16:24:57 --> Router Class Initialized
+INFO - 2020-10-02 16:24:57 --> Output Class Initialized
+INFO - 2020-10-02 16:24:57 --> Security Class Initialized
+DEBUG - 2020-10-02 16:24:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:24:58 --> Input Class Initialized
+INFO - 2020-10-02 16:24:58 --> Language Class Initialized
+INFO - 2020-10-02 21:24:58 --> Loader Class Initialized
+INFO - 2020-10-02 21:24:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:24:58 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:24:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:24:58 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:24:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:24:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:24:58 --> Encryption Class Initialized
+INFO - 2020-10-02 21:24:58 --> Controller Class Initialized
+INFO - 2020-10-02 21:24:58 --> MY_Model class loaded
+INFO - 2020-10-02 21:24:59 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:24:59 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:24:59 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:24:59 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:24:59 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:24:59 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:24:59 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:24:59 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:24:59 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:24:59 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:25:00 --> Final output sent to browser
+DEBUG - 2020-10-02 21:25:00 --> Total execution time: 2.4266
+ERROR - 2020-10-02 16:25:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:25:11 --> Config Class Initialized
+INFO - 2020-10-02 16:25:11 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:25:11 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:25:11 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:25:11 --> URI Class Initialized
+INFO - 2020-10-02 16:25:11 --> Router Class Initialized
+INFO - 2020-10-02 16:25:11 --> Output Class Initialized
+INFO - 2020-10-02 16:25:11 --> Security Class Initialized
+DEBUG - 2020-10-02 16:25:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:25:11 --> Input Class Initialized
+INFO - 2020-10-02 16:25:11 --> Language Class Initialized
+INFO - 2020-10-02 21:25:12 --> Loader Class Initialized
+INFO - 2020-10-02 21:25:12 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:25:12 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:25:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:25:12 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:25:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:25:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:25:12 --> Encryption Class Initialized
+INFO - 2020-10-02 21:25:12 --> Controller Class Initialized
+INFO - 2020-10-02 21:25:12 --> MY_Model class loaded
+INFO - 2020-10-02 21:25:12 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:25:12 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:25:13 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:25:13 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:25:13 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:25:13 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:25:13 --> Upload Class Initialized
+DEBUG - 2020-10-02 21:25:13 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-10-02 21:25:13 --> Final output sent to browser
+DEBUG - 2020-10-02 21:25:13 --> Total execution time: 2.2918
+ERROR - 2020-10-02 16:25:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:25:17 --> Config Class Initialized
+INFO - 2020-10-02 16:25:17 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:25:17 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:25:17 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:25:17 --> URI Class Initialized
+INFO - 2020-10-02 16:25:17 --> Router Class Initialized
+INFO - 2020-10-02 16:25:17 --> Output Class Initialized
+INFO - 2020-10-02 16:25:17 --> Security Class Initialized
+DEBUG - 2020-10-02 16:25:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:25:17 --> Input Class Initialized
+INFO - 2020-10-02 16:25:17 --> Language Class Initialized
+INFO - 2020-10-02 21:25:17 --> Loader Class Initialized
+INFO - 2020-10-02 21:25:17 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:25:17 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:25:17 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:25:17 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:25:17 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:25:18 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:25:18 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:25:18 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:25:18 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:25:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:25:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:25:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:25:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:25:18 --> Encryption Class Initialized
+INFO - 2020-10-02 21:25:18 --> Controller Class Initialized
+INFO - 2020-10-02 21:25:18 --> MY_Model class loaded
+INFO - 2020-10-02 21:25:18 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:25:18 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:25:18 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:25:18 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:25:18 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:25:19 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:25:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 21:25:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:25:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:25:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:25:19 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:25:19 --> Final output sent to browser
+DEBUG - 2020-10-02 21:25:19 --> Total execution time: 2.3177
+ERROR - 2020-10-02 16:26:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:26:58 --> Config Class Initialized
+INFO - 2020-10-02 16:26:58 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:26:58 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:26:58 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:26:58 --> URI Class Initialized
+INFO - 2020-10-02 16:26:58 --> Router Class Initialized
+INFO - 2020-10-02 16:26:58 --> Output Class Initialized
+INFO - 2020-10-02 16:26:58 --> Security Class Initialized
+DEBUG - 2020-10-02 16:26:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:26:58 --> Input Class Initialized
+INFO - 2020-10-02 16:26:58 --> Language Class Initialized
+INFO - 2020-10-02 21:26:58 --> Loader Class Initialized
+INFO - 2020-10-02 21:26:58 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:26:58 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:26:58 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:26:58 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:26:58 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:26:58 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:26:58 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:26:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:26:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:26:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:26:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:26:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:26:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:26:59 --> Encryption Class Initialized
+INFO - 2020-10-02 21:26:59 --> Controller Class Initialized
+INFO - 2020-10-02 21:26:59 --> MY_Model class loaded
+INFO - 2020-10-02 21:26:59 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:26:59 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:26:59 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:26:59 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:26:59 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:26:59 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:27:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 21:27:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:27:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:27:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:27:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:27:00 --> Final output sent to browser
+DEBUG - 2020-10-02 21:27:00 --> Total execution time: 2.0275
+ERROR - 2020-10-02 16:27:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:27:02 --> Config Class Initialized
+INFO - 2020-10-02 16:27:02 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:27:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:27:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:27:02 --> URI Class Initialized
+INFO - 2020-10-02 16:27:02 --> Router Class Initialized
+INFO - 2020-10-02 16:27:02 --> Output Class Initialized
+INFO - 2020-10-02 16:27:02 --> Security Class Initialized
+DEBUG - 2020-10-02 16:27:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:27:02 --> Input Class Initialized
+INFO - 2020-10-02 16:27:03 --> Language Class Initialized
+INFO - 2020-10-02 21:27:03 --> Loader Class Initialized
+INFO - 2020-10-02 21:27:03 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:27:03 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:27:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:27:03 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:27:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:27:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:27:03 --> Encryption Class Initialized
+INFO - 2020-10-02 21:27:04 --> Controller Class Initialized
+INFO - 2020-10-02 21:27:04 --> MY_Model class loaded
+INFO - 2020-10-02 21:27:04 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:27:04 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:27:04 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:27:04 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:27:04 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:27:04 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:27:04 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:27:04 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:27:04 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:27:04 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:27:04 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:27:04 --> Final output sent to browser
+DEBUG - 2020-10-02 21:27:04 --> Total execution time: 2.6024
+ERROR - 2020-10-02 16:28:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:28:59 --> Config Class Initialized
+INFO - 2020-10-02 16:28:59 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:28:59 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:28:59 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:28:59 --> URI Class Initialized
+INFO - 2020-10-02 16:28:59 --> Router Class Initialized
+INFO - 2020-10-02 16:28:59 --> Output Class Initialized
+INFO - 2020-10-02 16:28:59 --> Security Class Initialized
+DEBUG - 2020-10-02 16:28:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:28:59 --> Input Class Initialized
+INFO - 2020-10-02 16:28:59 --> Language Class Initialized
+INFO - 2020-10-02 21:29:00 --> Loader Class Initialized
+INFO - 2020-10-02 21:29:00 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:29:00 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:29:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:29:00 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:29:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:29:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:29:00 --> Encryption Class Initialized
+INFO - 2020-10-02 21:29:00 --> Controller Class Initialized
+INFO - 2020-10-02 21:29:00 --> MY_Model class loaded
+INFO - 2020-10-02 21:29:00 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:29:00 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:29:01 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:29:01 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:29:01 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:29:01 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:29:01 --> Upload Class Initialized
+INFO - 2020-10-02 21:29:01 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:29:01 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:29:01 --> Final output sent to browser
+DEBUG - 2020-10-02 21:29:01 --> Total execution time: 1.9939
+ERROR - 2020-10-02 16:32:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:32:20 --> Config Class Initialized
+INFO - 2020-10-02 16:32:20 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:32:20 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:32:20 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:32:20 --> URI Class Initialized
+INFO - 2020-10-02 16:32:20 --> Router Class Initialized
+INFO - 2020-10-02 16:32:20 --> Output Class Initialized
+INFO - 2020-10-02 16:32:20 --> Security Class Initialized
+DEBUG - 2020-10-02 16:32:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:32:20 --> Input Class Initialized
+INFO - 2020-10-02 16:32:20 --> Language Class Initialized
+INFO - 2020-10-02 21:32:20 --> Loader Class Initialized
+INFO - 2020-10-02 21:32:21 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:32:21 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:32:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:32:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:32:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:32:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:32:21 --> Encryption Class Initialized
+INFO - 2020-10-02 21:32:21 --> Controller Class Initialized
+INFO - 2020-10-02 21:32:21 --> MY_Model class loaded
+INFO - 2020-10-02 21:32:21 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:32:21 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:32:21 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:32:21 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:32:22 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:32:22 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 21:32:22 --> Severity: error --> Exception: Call to undefined method Kelola_pengajar::_file_mime_type() C:\xampp\htdocs\kepodemy\application\backend\controllers\Kelola_pengajar.php 177
+ERROR - 2020-10-02 16:33:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:33:35 --> Config Class Initialized
+INFO - 2020-10-02 16:33:35 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:33:36 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:33:36 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:33:36 --> URI Class Initialized
+INFO - 2020-10-02 16:33:36 --> Router Class Initialized
+INFO - 2020-10-02 16:33:36 --> Output Class Initialized
+INFO - 2020-10-02 16:33:36 --> Security Class Initialized
+DEBUG - 2020-10-02 16:33:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:33:36 --> Input Class Initialized
+INFO - 2020-10-02 16:33:36 --> Language Class Initialized
+INFO - 2020-10-02 21:33:36 --> Loader Class Initialized
+INFO - 2020-10-02 21:33:36 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:33:36 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:33:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:33:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:33:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:33:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:33:37 --> Encryption Class Initialized
+INFO - 2020-10-02 21:33:37 --> Controller Class Initialized
+INFO - 2020-10-02 21:33:37 --> MY_Model class loaded
+INFO - 2020-10-02 21:33:37 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:33:37 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:33:37 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:33:37 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:33:37 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:33:37 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:33:37 --> Upload Class Initialized
+INFO - 2020-10-02 21:33:37 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:33:37 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:33:37 --> Final output sent to browser
+DEBUG - 2020-10-02 21:33:37 --> Total execution time: 1.9117
+ERROR - 2020-10-02 16:35:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:35:12 --> Config Class Initialized
+INFO - 2020-10-02 16:35:12 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:35:12 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:35:12 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:35:12 --> URI Class Initialized
+INFO - 2020-10-02 16:35:12 --> Router Class Initialized
+INFO - 2020-10-02 16:35:12 --> Output Class Initialized
+INFO - 2020-10-02 16:35:12 --> Security Class Initialized
+DEBUG - 2020-10-02 16:35:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:35:12 --> Input Class Initialized
+INFO - 2020-10-02 16:35:12 --> Language Class Initialized
+INFO - 2020-10-02 21:35:12 --> Loader Class Initialized
+INFO - 2020-10-02 21:35:12 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:35:12 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:35:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:35:12 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:35:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:35:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:35:13 --> Encryption Class Initialized
+INFO - 2020-10-02 21:35:13 --> Controller Class Initialized
+INFO - 2020-10-02 21:35:13 --> MY_Model class loaded
+INFO - 2020-10-02 21:35:13 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:35:13 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:35:13 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:35:13 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:35:13 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:35:13 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:35:13 --> Upload Class Initialized
+INFO - 2020-10-02 21:35:13 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:35:13 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:35:13 --> Final output sent to browser
+DEBUG - 2020-10-02 21:35:13 --> Total execution time: 1.8173
+ERROR - 2020-10-02 16:36:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:36:54 --> Config Class Initialized
+INFO - 2020-10-02 16:36:55 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:36:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:36:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:36:55 --> URI Class Initialized
+INFO - 2020-10-02 16:36:55 --> Router Class Initialized
+INFO - 2020-10-02 16:36:55 --> Output Class Initialized
+INFO - 2020-10-02 16:36:55 --> Security Class Initialized
+DEBUG - 2020-10-02 16:36:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:36:55 --> Input Class Initialized
+INFO - 2020-10-02 16:36:55 --> Language Class Initialized
+INFO - 2020-10-02 21:36:55 --> Loader Class Initialized
+INFO - 2020-10-02 21:36:55 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:36:55 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:36:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:36:55 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:36:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:36:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:36:56 --> Encryption Class Initialized
+INFO - 2020-10-02 21:36:56 --> Controller Class Initialized
+INFO - 2020-10-02 21:36:56 --> MY_Model class loaded
+INFO - 2020-10-02 21:36:56 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:36:56 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:36:56 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:36:56 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:36:56 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:36:56 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:36:56 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:36:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:36:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:36:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:36:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:36:57 --> Final output sent to browser
+DEBUG - 2020-10-02 21:36:57 --> Total execution time: 2.3986
+ERROR - 2020-10-02 16:38:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:38:28 --> Config Class Initialized
+INFO - 2020-10-02 16:38:28 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:38:28 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:38:28 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:38:28 --> URI Class Initialized
+INFO - 2020-10-02 16:38:28 --> Router Class Initialized
+INFO - 2020-10-02 16:38:28 --> Output Class Initialized
+INFO - 2020-10-02 16:38:28 --> Security Class Initialized
+DEBUG - 2020-10-02 16:38:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:38:28 --> Input Class Initialized
+INFO - 2020-10-02 16:38:28 --> Language Class Initialized
+INFO - 2020-10-02 21:38:28 --> Loader Class Initialized
+INFO - 2020-10-02 21:38:28 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:38:28 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:38:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:38:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:38:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:38:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:38:29 --> Encryption Class Initialized
+INFO - 2020-10-02 21:38:29 --> Controller Class Initialized
+INFO - 2020-10-02 21:38:29 --> MY_Model class loaded
+INFO - 2020-10-02 21:38:29 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:38:29 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:38:29 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:38:29 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:38:29 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:38:29 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:38:29 --> Upload Class Initialized
+INFO - 2020-10-02 21:38:29 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:38:29 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:38:29 --> Final output sent to browser
+DEBUG - 2020-10-02 21:38:30 --> Total execution time: 1.9386
+ERROR - 2020-10-02 16:42:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:42:12 --> Config Class Initialized
+INFO - 2020-10-02 16:42:12 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:42:12 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:42:12 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:42:12 --> URI Class Initialized
+INFO - 2020-10-02 16:42:12 --> Router Class Initialized
+INFO - 2020-10-02 16:42:12 --> Output Class Initialized
+INFO - 2020-10-02 16:42:13 --> Security Class Initialized
+DEBUG - 2020-10-02 16:42:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:42:13 --> Input Class Initialized
+INFO - 2020-10-02 16:42:13 --> Language Class Initialized
+INFO - 2020-10-02 21:42:13 --> Loader Class Initialized
+INFO - 2020-10-02 21:42:13 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:42:13 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:42:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:42:13 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:42:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:42:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:42:13 --> Encryption Class Initialized
+INFO - 2020-10-02 21:42:13 --> Controller Class Initialized
+INFO - 2020-10-02 21:42:13 --> MY_Model class loaded
+INFO - 2020-10-02 21:42:13 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:42:14 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:42:14 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:42:14 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:42:14 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:42:14 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:42:14 --> Upload Class Initialized
+INFO - 2020-10-02 21:42:14 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:42:14 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:42:14 --> Final output sent to browser
+DEBUG - 2020-10-02 21:42:14 --> Total execution time: 2.0870
+ERROR - 2020-10-02 16:46:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:46:01 --> Config Class Initialized
+INFO - 2020-10-02 16:46:01 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:46:01 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:46:01 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:46:01 --> URI Class Initialized
+INFO - 2020-10-02 16:46:01 --> Router Class Initialized
+INFO - 2020-10-02 16:46:01 --> Output Class Initialized
+INFO - 2020-10-02 16:46:01 --> Security Class Initialized
+DEBUG - 2020-10-02 16:46:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:46:01 --> Input Class Initialized
+INFO - 2020-10-02 16:46:01 --> Language Class Initialized
+INFO - 2020-10-02 21:46:01 --> Loader Class Initialized
+INFO - 2020-10-02 21:46:01 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:46:02 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:46:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:46:02 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:46:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:46:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:46:02 --> Encryption Class Initialized
+INFO - 2020-10-02 21:46:02 --> Controller Class Initialized
+INFO - 2020-10-02 21:46:02 --> MY_Model class loaded
+INFO - 2020-10-02 21:46:02 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:46:02 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:46:02 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:46:03 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:46:03 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:46:03 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:46:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:46:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:46:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:46:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:46:03 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:46:03 --> Final output sent to browser
+DEBUG - 2020-10-02 21:46:03 --> Total execution time: 2.0138
+ERROR - 2020-10-02 16:47:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:47:23 --> Config Class Initialized
+INFO - 2020-10-02 16:47:23 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:47:23 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:47:23 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:47:23 --> URI Class Initialized
+INFO - 2020-10-02 16:47:23 --> Router Class Initialized
+INFO - 2020-10-02 16:47:23 --> Output Class Initialized
+INFO - 2020-10-02 16:47:23 --> Security Class Initialized
+DEBUG - 2020-10-02 16:47:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:47:23 --> Input Class Initialized
+INFO - 2020-10-02 16:47:24 --> Language Class Initialized
+INFO - 2020-10-02 21:47:24 --> Loader Class Initialized
+INFO - 2020-10-02 21:47:24 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:47:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:47:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:47:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:47:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:47:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:47:24 --> Encryption Class Initialized
+INFO - 2020-10-02 21:47:24 --> Controller Class Initialized
+INFO - 2020-10-02 21:47:24 --> MY_Model class loaded
+INFO - 2020-10-02 21:47:24 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:47:24 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:47:25 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:47:25 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:47:25 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:47:25 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:47:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:47:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:47:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:47:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:47:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:47:25 --> Final output sent to browser
+DEBUG - 2020-10-02 21:47:25 --> Total execution time: 2.0119
+ERROR - 2020-10-02 16:48:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:48:50 --> Config Class Initialized
+INFO - 2020-10-02 16:48:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:48:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:48:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:48:50 --> URI Class Initialized
+INFO - 2020-10-02 16:48:50 --> Router Class Initialized
+INFO - 2020-10-02 16:48:50 --> Output Class Initialized
+INFO - 2020-10-02 16:48:50 --> Security Class Initialized
+DEBUG - 2020-10-02 16:48:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:48:50 --> Input Class Initialized
+INFO - 2020-10-02 16:48:51 --> Language Class Initialized
+INFO - 2020-10-02 21:48:51 --> Loader Class Initialized
+INFO - 2020-10-02 21:48:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:48:51 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:48:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:48:51 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:48:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:48:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:48:51 --> Encryption Class Initialized
+INFO - 2020-10-02 21:48:51 --> Controller Class Initialized
+INFO - 2020-10-02 21:48:51 --> MY_Model class loaded
+INFO - 2020-10-02 21:48:51 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:48:51 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:48:51 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:48:52 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:48:52 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:48:52 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:48:52 --> Upload Class Initialized
+INFO - 2020-10-02 21:48:52 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:48:52 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:48:52 --> Final output sent to browser
+DEBUG - 2020-10-02 21:48:52 --> Total execution time: 1.7868
+ERROR - 2020-10-02 16:49:37 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:49:37 --> Config Class Initialized
+INFO - 2020-10-02 16:49:37 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:49:37 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:49:37 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:49:38 --> URI Class Initialized
+INFO - 2020-10-02 16:49:38 --> Router Class Initialized
+INFO - 2020-10-02 16:49:38 --> Output Class Initialized
+INFO - 2020-10-02 16:49:38 --> Security Class Initialized
+DEBUG - 2020-10-02 16:49:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:49:38 --> Input Class Initialized
+INFO - 2020-10-02 16:49:38 --> Language Class Initialized
+INFO - 2020-10-02 21:49:38 --> Loader Class Initialized
+INFO - 2020-10-02 21:49:38 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:49:38 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:49:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:49:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:49:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:49:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:49:39 --> Encryption Class Initialized
+INFO - 2020-10-02 21:49:39 --> Controller Class Initialized
+INFO - 2020-10-02 21:49:39 --> MY_Model class loaded
+INFO - 2020-10-02 21:49:39 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:49:39 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:49:39 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:49:39 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:49:39 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:49:39 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:49:39 --> Upload Class Initialized
+INFO - 2020-10-02 21:49:39 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:49:39 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:49:39 --> Final output sent to browser
+DEBUG - 2020-10-02 21:49:40 --> Total execution time: 2.0937
+ERROR - 2020-10-02 16:49:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:49:42 --> Config Class Initialized
+INFO - 2020-10-02 16:49:42 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:49:42 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:49:42 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:49:42 --> URI Class Initialized
+INFO - 2020-10-02 16:49:42 --> Router Class Initialized
+INFO - 2020-10-02 16:49:42 --> Output Class Initialized
+INFO - 2020-10-02 16:49:42 --> Security Class Initialized
+DEBUG - 2020-10-02 16:49:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:49:43 --> Input Class Initialized
+INFO - 2020-10-02 16:49:43 --> Language Class Initialized
+INFO - 2020-10-02 21:49:43 --> Loader Class Initialized
+INFO - 2020-10-02 21:49:43 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:49:43 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:49:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:49:43 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:49:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:49:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:49:43 --> Encryption Class Initialized
+INFO - 2020-10-02 21:49:43 --> Controller Class Initialized
+INFO - 2020-10-02 21:49:43 --> MY_Model class loaded
+INFO - 2020-10-02 21:49:43 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:49:44 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:49:44 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:49:44 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:49:44 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:49:44 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:49:44 --> Upload Class Initialized
+INFO - 2020-10-02 21:49:44 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:49:44 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:49:44 --> Final output sent to browser
+DEBUG - 2020-10-02 21:49:44 --> Total execution time: 2.5196
+ERROR - 2020-10-02 16:52:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:52:15 --> Config Class Initialized
+INFO - 2020-10-02 16:52:15 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:52:15 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:52:15 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:52:15 --> URI Class Initialized
+INFO - 2020-10-02 16:52:15 --> Router Class Initialized
+INFO - 2020-10-02 16:52:15 --> Output Class Initialized
+INFO - 2020-10-02 16:52:15 --> Security Class Initialized
+DEBUG - 2020-10-02 16:52:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:52:15 --> Input Class Initialized
+INFO - 2020-10-02 16:52:15 --> Language Class Initialized
+INFO - 2020-10-02 21:52:16 --> Loader Class Initialized
+INFO - 2020-10-02 21:52:16 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:52:16 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:52:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:52:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:52:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:52:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:52:16 --> Encryption Class Initialized
+INFO - 2020-10-02 21:52:16 --> Controller Class Initialized
+INFO - 2020-10-02 21:52:16 --> MY_Model class loaded
+INFO - 2020-10-02 21:52:16 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:52:16 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:52:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:52:17 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:52:17 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:52:17 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:52:17 --> Upload Class Initialized
+INFO - 2020-10-02 21:52:17 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:52:17 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:52:17 --> Final output sent to browser
+DEBUG - 2020-10-02 21:52:17 --> Total execution time: 2.0959
+ERROR - 2020-10-02 16:52:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:52:18 --> Config Class Initialized
+INFO - 2020-10-02 16:52:18 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:52:18 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:52:18 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:52:18 --> URI Class Initialized
+INFO - 2020-10-02 16:52:18 --> Router Class Initialized
+INFO - 2020-10-02 16:52:18 --> Output Class Initialized
+INFO - 2020-10-02 16:52:18 --> Security Class Initialized
+DEBUG - 2020-10-02 16:52:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:52:18 --> Input Class Initialized
+INFO - 2020-10-02 16:52:18 --> Language Class Initialized
+INFO - 2020-10-02 21:52:19 --> Loader Class Initialized
+INFO - 2020-10-02 21:52:19 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:52:19 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:52:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:52:19 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:52:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:52:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:52:19 --> Encryption Class Initialized
+INFO - 2020-10-02 21:52:19 --> Controller Class Initialized
+INFO - 2020-10-02 21:52:19 --> MY_Model class loaded
+INFO - 2020-10-02 21:52:19 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:52:19 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:52:20 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:52:20 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:52:20 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:52:20 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:52:20 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:52:20 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:52:20 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:52:20 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:52:20 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:52:20 --> Final output sent to browser
+DEBUG - 2020-10-02 21:52:20 --> Total execution time: 2.0679
+ERROR - 2020-10-02 16:52:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:52:48 --> Config Class Initialized
+INFO - 2020-10-02 16:52:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:52:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:52:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:52:49 --> URI Class Initialized
+INFO - 2020-10-02 16:52:49 --> Router Class Initialized
+INFO - 2020-10-02 16:52:49 --> Output Class Initialized
+INFO - 2020-10-02 16:52:49 --> Security Class Initialized
+DEBUG - 2020-10-02 16:52:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:52:49 --> Input Class Initialized
+INFO - 2020-10-02 16:52:49 --> Language Class Initialized
+INFO - 2020-10-02 21:52:49 --> Loader Class Initialized
+INFO - 2020-10-02 21:52:49 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:52:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:52:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:52:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:52:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:52:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:52:50 --> Encryption Class Initialized
+INFO - 2020-10-02 21:52:50 --> Controller Class Initialized
+INFO - 2020-10-02 21:52:50 --> MY_Model class loaded
+INFO - 2020-10-02 21:52:50 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:52:50 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:52:50 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:52:50 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:52:50 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:52:50 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:52:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:52:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:52:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:52:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:52:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:52:51 --> Final output sent to browser
+DEBUG - 2020-10-02 21:52:51 --> Total execution time: 2.1273
+ERROR - 2020-10-02 16:53:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:53:38 --> Config Class Initialized
+INFO - 2020-10-02 16:53:38 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:53:38 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:53:38 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:53:38 --> URI Class Initialized
+INFO - 2020-10-02 16:53:38 --> Router Class Initialized
+INFO - 2020-10-02 16:53:38 --> Output Class Initialized
+INFO - 2020-10-02 16:53:38 --> Security Class Initialized
+DEBUG - 2020-10-02 16:53:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:53:38 --> Input Class Initialized
+INFO - 2020-10-02 16:53:39 --> Language Class Initialized
+INFO - 2020-10-02 21:53:39 --> Loader Class Initialized
+INFO - 2020-10-02 21:53:39 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:53:39 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:53:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:53:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:53:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:53:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:53:39 --> Encryption Class Initialized
+INFO - 2020-10-02 21:53:39 --> Controller Class Initialized
+INFO - 2020-10-02 21:53:39 --> MY_Model class loaded
+INFO - 2020-10-02 21:53:39 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:53:39 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:53:40 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:53:40 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:53:40 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:53:40 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:53:40 --> Upload Class Initialized
+INFO - 2020-10-02 21:53:40 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2020-10-02 21:53:40 --> A problem was encountered while attempting to move the uploaded file to the final destination.
+INFO - 2020-10-02 21:53:40 --> Final output sent to browser
+DEBUG - 2020-10-02 21:53:40 --> Total execution time: 1.8630
+ERROR - 2020-10-02 16:54:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:54:03 --> Config Class Initialized
+INFO - 2020-10-02 16:54:03 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:54:03 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:54:03 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:54:04 --> URI Class Initialized
+INFO - 2020-10-02 16:54:04 --> Router Class Initialized
+INFO - 2020-10-02 16:54:04 --> Output Class Initialized
+INFO - 2020-10-02 16:54:04 --> Security Class Initialized
+DEBUG - 2020-10-02 16:54:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:54:04 --> Input Class Initialized
+INFO - 2020-10-02 16:54:04 --> Language Class Initialized
+INFO - 2020-10-02 21:54:04 --> Loader Class Initialized
+INFO - 2020-10-02 21:54:04 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:54:04 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:54:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:54:04 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:54:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:54:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:54:05 --> Encryption Class Initialized
+INFO - 2020-10-02 21:54:05 --> Controller Class Initialized
+INFO - 2020-10-02 21:54:05 --> MY_Model class loaded
+INFO - 2020-10-02 21:54:05 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:54:05 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:54:05 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:54:05 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:54:05 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:54:05 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:54:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:54:05 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:54:06 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:54:06 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:54:06 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:54:06 --> Final output sent to browser
+DEBUG - 2020-10-02 21:54:06 --> Total execution time: 2.3947
+ERROR - 2020-10-02 16:54:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:54:39 --> Config Class Initialized
+INFO - 2020-10-02 16:54:39 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:54:39 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:54:39 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:54:39 --> URI Class Initialized
+INFO - 2020-10-02 16:54:39 --> Router Class Initialized
+INFO - 2020-10-02 16:54:39 --> Output Class Initialized
+INFO - 2020-10-02 16:54:39 --> Security Class Initialized
+DEBUG - 2020-10-02 16:54:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:54:39 --> Input Class Initialized
+INFO - 2020-10-02 16:54:39 --> Language Class Initialized
+INFO - 2020-10-02 21:54:39 --> Loader Class Initialized
+INFO - 2020-10-02 21:54:39 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:54:39 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:54:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:54:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:54:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:54:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:54:40 --> Encryption Class Initialized
+INFO - 2020-10-02 21:54:40 --> Controller Class Initialized
+INFO - 2020-10-02 21:54:40 --> MY_Model class loaded
+INFO - 2020-10-02 21:54:40 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:54:40 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:54:40 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:54:40 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:54:40 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:54:40 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:54:40 --> Upload Class Initialized
+INFO - 2020-10-02 21:54:40 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2020-10-02 21:54:40 --> A problem was encountered while attempting to move the uploaded file to the final destination.
+INFO - 2020-10-02 21:54:40 --> Final output sent to browser
+DEBUG - 2020-10-02 21:54:40 --> Total execution time: 1.8746
+ERROR - 2020-10-02 16:55:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:55:52 --> Config Class Initialized
+INFO - 2020-10-02 16:55:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:55:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:55:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:55:52 --> URI Class Initialized
+INFO - 2020-10-02 16:55:52 --> Router Class Initialized
+INFO - 2020-10-02 16:55:52 --> Output Class Initialized
+INFO - 2020-10-02 16:55:52 --> Security Class Initialized
+DEBUG - 2020-10-02 16:55:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:55:52 --> Input Class Initialized
+INFO - 2020-10-02 16:55:53 --> Language Class Initialized
+INFO - 2020-10-02 21:55:53 --> Loader Class Initialized
+INFO - 2020-10-02 21:55:53 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:55:53 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:55:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:55:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:55:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:55:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:55:53 --> Encryption Class Initialized
+INFO - 2020-10-02 21:55:53 --> Controller Class Initialized
+INFO - 2020-10-02 21:55:53 --> MY_Model class loaded
+INFO - 2020-10-02 21:55:53 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:55:53 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:55:54 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:55:54 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:55:54 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:55:54 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:55:54 --> Upload Class Initialized
+INFO - 2020-10-02 21:55:54 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:55:54 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:55:54 --> Final output sent to browser
+DEBUG - 2020-10-02 21:55:54 --> Total execution time: 1.8901
+ERROR - 2020-10-02 16:56:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:56:23 --> Config Class Initialized
+INFO - 2020-10-02 16:56:23 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:56:23 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:56:23 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:56:23 --> URI Class Initialized
+INFO - 2020-10-02 16:56:23 --> Router Class Initialized
+INFO - 2020-10-02 16:56:23 --> Output Class Initialized
+INFO - 2020-10-02 16:56:23 --> Security Class Initialized
+DEBUG - 2020-10-02 16:56:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:56:23 --> Input Class Initialized
+INFO - 2020-10-02 16:56:23 --> Language Class Initialized
+INFO - 2020-10-02 21:56:23 --> Loader Class Initialized
+INFO - 2020-10-02 21:56:23 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:56:23 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:56:23 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:56:23 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:56:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:56:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:56:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:56:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:56:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:56:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:56:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:56:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:56:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:56:24 --> Encryption Class Initialized
+INFO - 2020-10-02 21:56:24 --> Controller Class Initialized
+INFO - 2020-10-02 21:56:24 --> MY_Model class loaded
+INFO - 2020-10-02 21:56:24 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:56:24 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:56:24 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:56:24 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:56:24 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:56:24 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:56:24 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 21:56:24 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 21:56:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 21:56:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 21:56:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 21:56:25 --> Final output sent to browser
+DEBUG - 2020-10-02 21:56:25 --> Total execution time: 1.9194
+ERROR - 2020-10-02 16:56:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 16:56:50 --> Config Class Initialized
+INFO - 2020-10-02 16:56:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 16:56:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 16:56:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 16:56:50 --> URI Class Initialized
+INFO - 2020-10-02 16:56:50 --> Router Class Initialized
+INFO - 2020-10-02 16:56:50 --> Output Class Initialized
+INFO - 2020-10-02 16:56:50 --> Security Class Initialized
+DEBUG - 2020-10-02 16:56:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 16:56:50 --> Input Class Initialized
+INFO - 2020-10-02 16:56:50 --> Language Class Initialized
+INFO - 2020-10-02 21:56:50 --> Loader Class Initialized
+INFO - 2020-10-02 21:56:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: setting_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 21:56:51 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 21:56:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 21:56:51 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 21:56:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 21:56:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 21:56:51 --> Encryption Class Initialized
+INFO - 2020-10-02 21:56:51 --> Controller Class Initialized
+INFO - 2020-10-02 21:56:51 --> MY_Model class loaded
+INFO - 2020-10-02 21:56:51 --> Database Driver Class Initialized
+INFO - 2020-10-02 21:56:51 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 21:56:51 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 21:56:52 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 21:56:52 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 21:56:52 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 21:56:52 --> Upload Class Initialized
+INFO - 2020-10-02 21:56:52 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 21:56:52 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 21:56:52 --> Final output sent to browser
+DEBUG - 2020-10-02 21:56:52 --> Total execution time: 1.8775
+ERROR - 2020-10-02 17:00:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:00:51 --> Config Class Initialized
+INFO - 2020-10-02 17:00:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:00:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:00:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:00:51 --> URI Class Initialized
+INFO - 2020-10-02 17:00:51 --> Router Class Initialized
+INFO - 2020-10-02 17:00:51 --> Output Class Initialized
+INFO - 2020-10-02 17:00:52 --> Security Class Initialized
+DEBUG - 2020-10-02 17:00:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:00:52 --> Input Class Initialized
+INFO - 2020-10-02 17:00:52 --> Language Class Initialized
+INFO - 2020-10-02 22:00:52 --> Loader Class Initialized
+INFO - 2020-10-02 22:00:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:00:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:00:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:00:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:00:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:00:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:00:52 --> Encryption Class Initialized
+INFO - 2020-10-02 22:00:53 --> Controller Class Initialized
+INFO - 2020-10-02 22:00:53 --> MY_Model class loaded
+INFO - 2020-10-02 22:00:53 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:00:53 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:00:53 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:00:53 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:00:53 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:00:53 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:00:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 22:00:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:00:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:00:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:00:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:00:53 --> Final output sent to browser
+DEBUG - 2020-10-02 22:00:53 --> Total execution time: 2.4408
+ERROR - 2020-10-02 17:01:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:01:23 --> Config Class Initialized
+INFO - 2020-10-02 17:01:23 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:01:23 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:01:23 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:01:24 --> URI Class Initialized
+INFO - 2020-10-02 17:01:24 --> Router Class Initialized
+INFO - 2020-10-02 17:01:24 --> Output Class Initialized
+INFO - 2020-10-02 17:01:24 --> Security Class Initialized
+DEBUG - 2020-10-02 17:01:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:01:24 --> Input Class Initialized
+INFO - 2020-10-02 17:01:24 --> Language Class Initialized
+INFO - 2020-10-02 22:01:24 --> Loader Class Initialized
+INFO - 2020-10-02 22:01:24 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:01:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:01:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:01:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:01:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:01:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:01:24 --> Encryption Class Initialized
+INFO - 2020-10-02 22:01:25 --> Controller Class Initialized
+INFO - 2020-10-02 22:01:25 --> MY_Model class loaded
+INFO - 2020-10-02 22:01:25 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:01:25 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:01:25 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:01:25 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:01:25 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:01:25 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 17:01:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:01:52 --> Config Class Initialized
+INFO - 2020-10-02 17:01:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:01:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:01:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:01:52 --> URI Class Initialized
+INFO - 2020-10-02 17:01:52 --> Router Class Initialized
+INFO - 2020-10-02 17:01:52 --> Output Class Initialized
+INFO - 2020-10-02 17:01:52 --> Security Class Initialized
+DEBUG - 2020-10-02 17:01:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:01:52 --> Input Class Initialized
+INFO - 2020-10-02 17:01:52 --> Language Class Initialized
+INFO - 2020-10-02 22:01:52 --> Loader Class Initialized
+INFO - 2020-10-02 22:01:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:01:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:01:53 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:01:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:01:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:01:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:01:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:01:53 --> Encryption Class Initialized
+INFO - 2020-10-02 22:01:53 --> Controller Class Initialized
+INFO - 2020-10-02 22:01:53 --> MY_Model class loaded
+INFO - 2020-10-02 22:01:53 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:01:53 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:01:53 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:01:54 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:01:54 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:01:54 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:01:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 22:01:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:01:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:01:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:01:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:01:54 --> Final output sent to browser
+DEBUG - 2020-10-02 22:01:54 --> Total execution time: 2.1717
+ERROR - 2020-10-02 17:02:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:02:18 --> Config Class Initialized
+INFO - 2020-10-02 17:02:18 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:02:18 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:02:18 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:02:18 --> URI Class Initialized
+INFO - 2020-10-02 17:02:18 --> Router Class Initialized
+INFO - 2020-10-02 17:02:18 --> Output Class Initialized
+INFO - 2020-10-02 17:02:18 --> Security Class Initialized
+DEBUG - 2020-10-02 17:02:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:02:18 --> Input Class Initialized
+INFO - 2020-10-02 17:02:18 --> Language Class Initialized
+INFO - 2020-10-02 22:02:18 --> Loader Class Initialized
+INFO - 2020-10-02 22:02:18 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:02:18 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:02:18 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:02:19 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:02:19 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:02:19 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:02:19 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:02:19 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:02:19 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:02:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:02:19 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:02:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:02:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:02:19 --> Encryption Class Initialized
+INFO - 2020-10-02 22:02:19 --> Controller Class Initialized
+INFO - 2020-10-02 22:02:19 --> MY_Model class loaded
+INFO - 2020-10-02 22:02:19 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:02:19 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:02:19 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:02:19 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:02:20 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:02:20 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 17:02:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:02:49 --> Config Class Initialized
+INFO - 2020-10-02 17:02:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:02:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:02:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:02:49 --> URI Class Initialized
+INFO - 2020-10-02 17:02:49 --> Router Class Initialized
+INFO - 2020-10-02 17:02:49 --> Output Class Initialized
+INFO - 2020-10-02 17:02:49 --> Security Class Initialized
+DEBUG - 2020-10-02 17:02:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:02:49 --> Input Class Initialized
+INFO - 2020-10-02 17:02:49 --> Language Class Initialized
+INFO - 2020-10-02 22:02:49 --> Loader Class Initialized
+INFO - 2020-10-02 22:02:50 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:02:50 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:02:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:02:50 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:02:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:02:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:02:50 --> Encryption Class Initialized
+INFO - 2020-10-02 22:02:50 --> Controller Class Initialized
+INFO - 2020-10-02 22:02:50 --> MY_Model class loaded
+INFO - 2020-10-02 22:02:50 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:02:50 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:02:50 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:02:51 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:02:51 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:02:51 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:02:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 22:02:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:02:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:02:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:02:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:02:51 --> Final output sent to browser
+DEBUG - 2020-10-02 22:02:51 --> Total execution time: 2.1629
+ERROR - 2020-10-02 17:03:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:03:05 --> Config Class Initialized
+INFO - 2020-10-02 17:03:05 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:03:05 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:03:05 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:03:05 --> URI Class Initialized
+INFO - 2020-10-02 17:03:05 --> Router Class Initialized
+INFO - 2020-10-02 17:03:05 --> Output Class Initialized
+INFO - 2020-10-02 17:03:05 --> Security Class Initialized
+DEBUG - 2020-10-02 17:03:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:03:05 --> Input Class Initialized
+INFO - 2020-10-02 17:03:05 --> Language Class Initialized
+INFO - 2020-10-02 22:03:05 --> Loader Class Initialized
+INFO - 2020-10-02 22:03:05 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:03:05 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:03:05 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:03:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:03:06 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:03:06 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:03:06 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:03:06 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:03:06 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:03:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:03:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:03:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:03:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:03:06 --> Encryption Class Initialized
+INFO - 2020-10-02 22:03:06 --> Controller Class Initialized
+INFO - 2020-10-02 22:03:06 --> MY_Model class loaded
+INFO - 2020-10-02 22:03:06 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:03:06 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:03:06 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:03:06 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:03:07 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:03:07 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 17:03:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:03:15 --> Config Class Initialized
+INFO - 2020-10-02 17:03:15 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:03:15 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:03:15 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:03:15 --> URI Class Initialized
+INFO - 2020-10-02 17:03:15 --> Router Class Initialized
+INFO - 2020-10-02 17:03:16 --> Output Class Initialized
+INFO - 2020-10-02 17:03:16 --> Security Class Initialized
+DEBUG - 2020-10-02 17:03:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:03:16 --> Input Class Initialized
+INFO - 2020-10-02 17:03:16 --> Language Class Initialized
+INFO - 2020-10-02 22:03:16 --> Loader Class Initialized
+INFO - 2020-10-02 22:03:16 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:03:16 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:03:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:03:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:03:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:03:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:03:16 --> Encryption Class Initialized
+INFO - 2020-10-02 22:03:16 --> Controller Class Initialized
+INFO - 2020-10-02 22:03:16 --> MY_Model class loaded
+INFO - 2020-10-02 22:03:16 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:03:17 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:03:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:03:17 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:03:17 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:03:17 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:03:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 22:03:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:03:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:03:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:03:17 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:03:17 --> Final output sent to browser
+DEBUG - 2020-10-02 22:03:17 --> Total execution time: 1.8814
+ERROR - 2020-10-02 17:04:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:04:01 --> Config Class Initialized
+INFO - 2020-10-02 17:04:01 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:04:01 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:04:01 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:04:01 --> URI Class Initialized
+INFO - 2020-10-02 17:04:01 --> Router Class Initialized
+INFO - 2020-10-02 17:04:01 --> Output Class Initialized
+INFO - 2020-10-02 17:04:01 --> Security Class Initialized
+DEBUG - 2020-10-02 17:04:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:04:01 --> Input Class Initialized
+INFO - 2020-10-02 17:04:01 --> Language Class Initialized
+INFO - 2020-10-02 22:04:01 --> Loader Class Initialized
+INFO - 2020-10-02 22:04:01 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:04:02 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:04:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:04:02 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:04:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:04:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:04:02 --> Encryption Class Initialized
+INFO - 2020-10-02 22:04:02 --> Controller Class Initialized
+INFO - 2020-10-02 22:04:02 --> MY_Model class loaded
+INFO - 2020-10-02 22:04:02 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:04:02 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:04:02 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:04:03 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:04:03 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:04:03 --> Model "PengajarKategori_model" initialized
+ERROR - 2020-10-02 17:07:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:07:21 --> Config Class Initialized
+INFO - 2020-10-02 17:07:21 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:07:21 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:07:21 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:07:21 --> URI Class Initialized
+DEBUG - 2020-10-02 17:07:21 --> No URI present. Default controller set.
+INFO - 2020-10-02 17:07:21 --> Router Class Initialized
+INFO - 2020-10-02 17:07:22 --> Output Class Initialized
+INFO - 2020-10-02 17:07:22 --> Security Class Initialized
+DEBUG - 2020-10-02 17:07:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:07:22 --> Input Class Initialized
+INFO - 2020-10-02 17:07:22 --> Language Class Initialized
+INFO - 2020-10-02 22:07:22 --> Loader Class Initialized
+INFO - 2020-10-02 22:07:22 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:07:22 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:07:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:07:22 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:07:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:07:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:07:22 --> Encryption Class Initialized
+INFO - 2020-10-02 22:07:22 --> Controller Class Initialized
+INFO - 2020-10-02 22:07:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-02 22:07:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:07:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:07:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:07:22 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:07:22 --> Final output sent to browser
+DEBUG - 2020-10-02 22:07:22 --> Total execution time: 0.5476
+ERROR - 2020-10-02 17:07:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:07:24 --> Config Class Initialized
+INFO - 2020-10-02 17:07:24 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:07:24 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:07:24 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:07:24 --> URI Class Initialized
+INFO - 2020-10-02 17:07:24 --> Router Class Initialized
+INFO - 2020-10-02 17:07:24 --> Output Class Initialized
+INFO - 2020-10-02 17:07:24 --> Security Class Initialized
+DEBUG - 2020-10-02 17:07:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:07:24 --> Input Class Initialized
+INFO - 2020-10-02 17:07:24 --> Language Class Initialized
+INFO - 2020-10-02 22:07:24 --> Loader Class Initialized
+INFO - 2020-10-02 22:07:24 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:07:24 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:07:25 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:07:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:07:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:07:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:07:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:07:25 --> Encryption Class Initialized
+INFO - 2020-10-02 22:07:25 --> Controller Class Initialized
+INFO - 2020-10-02 22:07:25 --> MY_Model class loaded
+INFO - 2020-10-02 22:07:25 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:07:25 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:07:25 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:07:25 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:07:25 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:07:25 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:07:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_kelolapengajar.php
+INFO - 2020-10-02 22:07:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:07:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:07:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:07:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:07:25 --> Final output sent to browser
+DEBUG - 2020-10-02 22:07:25 --> Total execution time: 0.8702
+ERROR - 2020-10-02 17:07:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:07:27 --> Config Class Initialized
+INFO - 2020-10-02 17:07:27 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:07:27 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:07:27 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:07:27 --> URI Class Initialized
+INFO - 2020-10-02 17:07:27 --> Router Class Initialized
+INFO - 2020-10-02 17:07:27 --> Output Class Initialized
+INFO - 2020-10-02 17:07:27 --> Security Class Initialized
+DEBUG - 2020-10-02 17:07:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:07:27 --> Input Class Initialized
+INFO - 2020-10-02 17:07:27 --> Language Class Initialized
+INFO - 2020-10-02 22:07:27 --> Loader Class Initialized
+INFO - 2020-10-02 22:07:27 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:07:27 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:07:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:07:27 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:07:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:07:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:07:27 --> Encryption Class Initialized
+INFO - 2020-10-02 22:07:27 --> Controller Class Initialized
+INFO - 2020-10-02 22:07:27 --> MY_Model class loaded
+INFO - 2020-10-02 22:07:27 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:07:27 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:07:27 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:07:27 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:07:27 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:07:27 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:07:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\master/pengajar/v_tambahpengajar.php
+INFO - 2020-10-02 22:07:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-02 22:07:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-02 22:07:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-02 22:07:27 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-02 22:07:27 --> Final output sent to browser
+DEBUG - 2020-10-02 22:07:27 --> Total execution time: 0.7253
+ERROR - 2020-10-02 17:07:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:07:55 --> Config Class Initialized
+INFO - 2020-10-02 17:07:55 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:07:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:07:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:07:55 --> URI Class Initialized
+INFO - 2020-10-02 17:07:56 --> Router Class Initialized
+INFO - 2020-10-02 17:07:56 --> Output Class Initialized
+INFO - 2020-10-02 17:07:56 --> Security Class Initialized
+DEBUG - 2020-10-02 17:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:07:56 --> Input Class Initialized
+INFO - 2020-10-02 17:07:56 --> Language Class Initialized
+INFO - 2020-10-02 22:07:56 --> Loader Class Initialized
+INFO - 2020-10-02 22:07:56 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:07:56 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:07:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:07:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:07:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:07:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:07:57 --> Encryption Class Initialized
+INFO - 2020-10-02 22:07:57 --> Controller Class Initialized
+INFO - 2020-10-02 22:07:57 --> MY_Model class loaded
+INFO - 2020-10-02 22:07:57 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:07:57 --> Model "Pengajar_model" initialized
+INFO - 2020-10-02 22:07:57 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:07:57 --> Model "PengajarPendidikan_model" initialized
+INFO - 2020-10-02 22:07:57 --> Model "PengajarPekerjaan_model" initialized
+INFO - 2020-10-02 22:07:57 --> Model "PengajarKategori_model" initialized
+INFO - 2020-10-02 22:07:57 --> Upload Class Initialized
+INFO - 2020-10-02 22:07:57 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2020-10-02 22:07:57 --> The filetype you are attempting to upload is not allowed.
+INFO - 2020-10-02 22:07:57 --> Final output sent to browser
+DEBUG - 2020-10-02 22:07:57 --> Total execution time: 2.0225

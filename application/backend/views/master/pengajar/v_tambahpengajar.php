@@ -1,4 +1,5 @@
-<form id="form-add-pengajar" method="POST">
+<form id="form-add-pengajar" method="POST" enctype="multipart/form-data">
+<!-- <form id="form-add-pengajarxx" action="<?= base_url('kelola_pengajar/cek')?>" method="POST" enctype="multipart/form-data"> -->
 <!--begin::Subheader-->
 <div class="subheader py-2 py-lg-4  subheader-solid " id="kt_subheader">
 	<div class=" container-fluid  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
@@ -109,7 +110,7 @@
 						</div>
 						<div class="col-lg-6">
 							<label>No. Hp <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" id="nohp-pengajar" name="nohp" placeholder="Masukkan Nomor Handphone" required/>
+							<input type="text" class="form-control valid-number" id="nohp-pengajar" name="no_hp" placeholder="Masukkan Nomor Handphone" required/>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -148,31 +149,36 @@
 						<div class="col-lg-12">
 							<label>Pendidikan</label>
 							<div class="cloned-row-pendidikan">
-								<div class="row mb-4">
-									<div class="col-md-3">
-										<input type="text" name="nama_pendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="number" name="tahun_masuk[]" class="form-control" placeholder="Tahun Masuk" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="number" name="tahun_keluar[]" class="form-control" placeholder="Tahun Keluar" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="text" name="jurusan[]" class="form-control" placeholder="Jurusan" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-2">
-										<input type="text" name="keterangan[]" class="form-control" placeholder="Keterangan" />
-										<div class="d-md-none mb-2"></div>
-									</div>
-									<div class="col-md-1">
-										<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
-											<i class="la la-trash-o"></i>
-										</button>
+								<div class="row rowdetailpendidikan mb-3">
+									<div class="col-lg-12">
+										<div class="row mb-4">
+											<div class="col-md-3">
+												<input type="text" name="nama_pendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-2">
+												<input type="number" name="tahun_masuk[]" class="form-control" placeholder="Tahun Masuk" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-2">
+												<input type="number" name="tahun_keluar[]" class="form-control" placeholder="Tahun Keluar" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-2">
+												<input type="text" name="jurusan[]" class="form-control" placeholder="Jurusan" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-2">
+												<input type="text" name="keterangan_pendidikan[]" class="form-control" placeholder="Keterangan" />
+												<div class="d-md-none mb-2"></div>
+											</div>
+											<div class="col-md-1">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
+													<i class="la la-trash-o"></i>
+												</button>
+											</div>
+										</div>
+										<hr>
 									</div>
 								</div>
 							</div>
@@ -196,7 +202,7 @@
 						<div class="col-lg-12">
 							<label>Pekerjaan</label>
 							<div class="cloned-row-pekerjaan">
-								<div class="row rowdetail mb-5">
+								<div class="row rowdetail mb-3">
 									<div class="col-lg-12">
 										<div class="row mb-4">
 											<div class="col-md-4">
@@ -222,7 +228,7 @@
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-4">
-												<input type="text" name="keterangan[]" class="form-control" placeholder="Keterangan" />
+												<input type="text" name="keterangan_pekerjaan[]" class="form-control" placeholder="Keterangan" />
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-1">
@@ -231,6 +237,8 @@
 												</button>
 											</div>
 										</div>
+										<hr>
+										
 									</div>
 								</div>
 							</div>

@@ -133,3 +133,22 @@ if (!function_exists("validasi_input_artikel")) {
         return str_replace("'", "", remove_line_break($string));
     }
 }
+
+if (!function_exists("config")) {
+    function config($lokasiArsip,$namafilebaru)
+    {
+        $config  = [
+            "upload_path"       => $lokasiArsip,
+            "allowed_types"     => 'gif|jpg|jpeg|png',
+            "max_size"          => 10240,
+            "file_ext_tolower"  => FALSE,
+            "overwrite"         => TRUE,
+            "remove_spaces"     => TRUE,
+            "file_name"         => $namafilebaru
+		];
+		
+		return $config;
+    }
+}
+
+

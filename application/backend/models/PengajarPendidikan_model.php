@@ -1,8 +1,8 @@
 <?php
 
-class PengajarKategori_model extends Custom_model
+class PengajarPendidikan_model extends Custom_model
 {
-    public $table           = 'pengajar_kategori';
+    public $table           = 'pengajar_pendidikan';
     public $primary_key     = 'id';
     public $soft_deletes    = TRUE;
     public $timestamps      = TRUE;
@@ -10,12 +10,12 @@ class PengajarKategori_model extends Custom_model
 
     public function __construct()
     {
-		$this->has_one['kategori'] = array(
-            'foreign_model'     => 'Kategori_model',
-            'foreign_table'     => 'kategori',
-            'foreign_key'       => 'id',
-            'local_key'         => 'id_kategori'
-		);
+		// $this->has_one['kategori'] = array(
+        //     'foreign_model'     => 'Kategori_model',
+        //     'foreign_table'     => 'kategori',
+        //     'foreign_key'       => 'id',
+        //     'local_key'         => 'id_kategori'
+		// );
 
         parent::__construct();
 	}

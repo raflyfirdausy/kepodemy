@@ -37,5 +37,19 @@ class Admin_Controller extends MY_Controller
     {
         //GAJADI AOWKOAW
         return $this->load->view($view, NULL, TRUE);
-    }
+	}
+	
+	// protected function config($lokasiArsip,$namafilebaru){
+	// 	$config  = [
+    //         "upload_path"       => $lokasiArsip,
+    //         "allowed_types"     => 'gif|jpg|jpeg|png',
+    //         "max_size"          => 10240,
+    //         "file_ext_tolower"  => FALSE,
+    //         "overwrite"         => TRUE,
+    //         "remove_spaces"     => TRUE,
+    //         "file_name"         => $namafilebaru
+	// 	];
+		
+	// 	return $config;
+	// }
 }

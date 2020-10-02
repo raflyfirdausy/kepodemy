@@ -18,7 +18,7 @@ class Kategori extends Admin_Controller
 		$config  = [
             "upload_path"       => $lokasiArsip,
             "allowed_types"     => 'gif|jpg|jpeg|png',
-            "max_size"          => 2048,
+            "max_size"          => 10240,
             "file_ext_tolower"  => FALSE,
             "overwrite"         => TRUE,
             "remove_spaces"     => TRUE,
@@ -159,7 +159,7 @@ class Kategori extends Admin_Controller
 		$code = "";
 		$message = "";
 		$namafilebaru =  "kategori_". $namakategori . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
-        $lokasiArsip = "assets/gambar/";
+        $lokasiArsip = "assets/kategori/";
 		$config = $this->config($lokasiArsip,$namafilebaru);
 		
         $this->load->library('upload', $config);
@@ -219,7 +219,7 @@ class Kategori extends Admin_Controller
 		$code = "";
 		$message = "";
 		$namafilebaru =  "kategori_". $namakategori . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
-        $lokasiArsip = "assets/gambar/";
+        $lokasiArsip = "assets/kategori/";
 		$config = $this->config($lokasiArsip,$namafilebaru);
 		
         $this->load->library('upload', $config);
@@ -231,8 +231,8 @@ class Kategori extends Admin_Controller
 			$message = $update['message'];
 		}else{
 			if ($this->upload->do_upload("file_gambar_header")) {
-				if (is_file(FCPATH . 'assets/gambar/' . $datakategori->gambar)) {
-                    unlink(FCPATH . 'assets/gambar/' . $datakategori->gambar);
+				if (is_file(FCPATH . 'assets/kategori/' . $datakategori->gambar)) {
+                    unlink(FCPATH . 'assets/kategori/' . $datakategori->gambar);
                 }
 				$dataInput['gambar'] = $namafilebaru;
 				$update = $this->proses_update_kategori($dataInput, $id);
