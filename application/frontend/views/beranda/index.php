@@ -113,10 +113,10 @@
                  <div class="col-lg-6 col-md-12">
                      <div class="collection-post">
                          <div class="inner-collection">
-                             <img src="<?= asset("user/upload/slider/slider-image-1.jpg") ?>" alt="">
+                             <img style="width:120%; height: 422px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[0]["gambar"]) ?>" alt="">
                              <a href="#" class="hover-post">
-                                 <span class="title">Kategori 1</span>
-                                 <span class="numb-courses">3 Courses</span>
+                                 <span class="title"><?= $kategori_populer[0]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[0]["produk_kategori"]) ?> Kelas</span>
                              </a>
                          </div>
                      </div>
@@ -124,19 +124,19 @@
                  <div class="col-lg-3 col-md-6">
                      <div class="collection-post">
                          <div class="inner-collection">
-                             <img src="<?= asset("user/upload/slider/slider-image-1.jpg") ?>" alt="">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[1]["gambar"]) ?>" alt="">
                              <a href="#" class="hover-post">
-                                 <span class="title">Kategori 1</span>
-                                 <span class="numb-courses">3 Courses</span>
+                                 <span class="title"><?= $kategori_populer[1]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[1]["produk_kategori"]) ?> Kelas</span>
                              </a>
                          </div>
                      </div>
                      <div class="collection-post">
                          <div class="inner-collection">
-                             <img src="<?= asset("user/upload/slider/slider-image-1.jpg") ?>" alt="">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[2]["gambar"]) ?>" alt="">
                              <a href="#" class="hover-post">
-                                 <span class="title">Kategori 1</span>
-                                 <span class="numb-courses">3 Courses</span>
+                                 <span class="title"><?= $kategori_populer[2]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[2]["produk_kategori"]) ?> Kelas</span>
                              </a>
                          </div>
                      </div>
@@ -144,19 +144,19 @@
                  <div class="col-lg-3 col-md-6">
                      <div class="collection-post">
                          <div class="inner-collection">
-                             <img src="<?= asset("user/upload/slider/slider-image-1.jpg") ?>" alt="">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[3]["gambar"]) ?>" alt="">
                              <a href="#" class="hover-post">
-                                 <span class="title">Kategori 1</span>
-                                 <span class="numb-courses">3 Courses</span>
+                                 <span class="title"><?= $kategori_populer[3]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[3]["produk_kategori"]) ?> Kelas</span>
                              </a>
                          </div>
                      </div>
                      <div class="collection-post">
-                         <div class="inner-collection">
-                             <img src="<?= asset("user/upload/slider/slider-image-1.jpg") ?>" alt="">
+                     <div class="inner-collection">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[4]["gambar"]) ?>" alt="">
                              <a href="#" class="hover-post">
-                                 <span class="title">Kategori 1</span>
-                                 <span class="numb-courses">3 Courses</span>
+                                 <span class="title"><?= $kategori_populer[4]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[4]["produk_kategori"]) ?> Kelas</span>
                              </a>
                          </div>
                      </div>

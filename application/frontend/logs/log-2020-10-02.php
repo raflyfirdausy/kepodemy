@@ -6232,3 +6232,3321 @@ ERROR - 2020-10-02 09:45:57 --> 404 Page Not Found: Upload/slider
 INFO - 2020-10-02 04:45:57 --> Input Class Initialized
 INFO - 2020-10-02 04:45:57 --> Language Class Initialized
 ERROR - 2020-10-02 09:45:57 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 04:54:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:54:39 --> Config Class Initialized
+INFO - 2020-10-02 04:54:40 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:54:40 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:54:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:54:40 --> URI Class Initialized
+DEBUG - 2020-10-02 04:54:40 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:54:40 --> Router Class Initialized
+INFO - 2020-10-02 04:54:40 --> Output Class Initialized
+INFO - 2020-10-02 04:54:40 --> Security Class Initialized
+DEBUG - 2020-10-02 04:54:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:54:40 --> Input Class Initialized
+INFO - 2020-10-02 04:54:40 --> Language Class Initialized
+INFO - 2020-10-02 09:54:40 --> Loader Class Initialized
+INFO - 2020-10-02 09:54:40 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:54:40 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:54:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:54:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:54:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:54:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:54:40 --> Encryption Class Initialized
+INFO - 2020-10-02 09:54:40 --> Controller Class Initialized
+INFO - 2020-10-02 09:54:40 --> MY_Model class loaded
+INFO - 2020-10-02 09:54:40 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:54:40 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:54:40 --> Model "Kategori_model" initialized
+ERROR - 2020-10-02 04:54:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:54:54 --> Config Class Initialized
+INFO - 2020-10-02 04:54:54 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:54:54 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:54:54 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:54:54 --> URI Class Initialized
+DEBUG - 2020-10-02 04:54:54 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:54:54 --> Router Class Initialized
+INFO - 2020-10-02 04:54:54 --> Output Class Initialized
+INFO - 2020-10-02 04:54:54 --> Security Class Initialized
+DEBUG - 2020-10-02 04:54:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:54:54 --> Input Class Initialized
+INFO - 2020-10-02 04:54:54 --> Language Class Initialized
+INFO - 2020-10-02 09:54:54 --> Loader Class Initialized
+INFO - 2020-10-02 09:54:54 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:54:54 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:54:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:54:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:54:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:54:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:54:54 --> Encryption Class Initialized
+INFO - 2020-10-02 09:54:54 --> Controller Class Initialized
+INFO - 2020-10-02 09:54:54 --> MY_Model class loaded
+INFO - 2020-10-02 09:54:54 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:54:54 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:54:54 --> Model "Kategori_model" initialized
+ERROR - 2020-10-02 04:55:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:55:51 --> Config Class Initialized
+INFO - 2020-10-02 04:55:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:55:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:55:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:55:51 --> URI Class Initialized
+DEBUG - 2020-10-02 04:55:51 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:55:51 --> Router Class Initialized
+INFO - 2020-10-02 04:55:51 --> Output Class Initialized
+INFO - 2020-10-02 04:55:51 --> Security Class Initialized
+DEBUG - 2020-10-02 04:55:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:55:51 --> Input Class Initialized
+INFO - 2020-10-02 04:55:51 --> Language Class Initialized
+INFO - 2020-10-02 09:55:51 --> Loader Class Initialized
+INFO - 2020-10-02 09:55:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:55:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:55:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:55:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:55:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:55:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:55:52 --> Encryption Class Initialized
+INFO - 2020-10-02 09:55:52 --> Controller Class Initialized
+INFO - 2020-10-02 09:55:52 --> MY_Model class loaded
+INFO - 2020-10-02 09:55:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:55:52 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:55:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:55:52 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:56:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:56:01 --> Config Class Initialized
+INFO - 2020-10-02 04:56:01 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:56:01 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:56:01 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:56:01 --> URI Class Initialized
+DEBUG - 2020-10-02 04:56:01 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:56:01 --> Router Class Initialized
+INFO - 2020-10-02 04:56:01 --> Output Class Initialized
+INFO - 2020-10-02 04:56:01 --> Security Class Initialized
+DEBUG - 2020-10-02 04:56:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:56:01 --> Input Class Initialized
+INFO - 2020-10-02 04:56:01 --> Language Class Initialized
+INFO - 2020-10-02 09:56:01 --> Loader Class Initialized
+INFO - 2020-10-02 09:56:01 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:56:01 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:56:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:56:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:56:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:56:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:56:01 --> Encryption Class Initialized
+INFO - 2020-10-02 09:56:01 --> Controller Class Initialized
+INFO - 2020-10-02 09:56:01 --> MY_Model class loaded
+INFO - 2020-10-02 09:56:01 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:56:01 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:56:01 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:56:01 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:56:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:56:35 --> Config Class Initialized
+INFO - 2020-10-02 04:56:35 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:56:35 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:56:35 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:56:35 --> URI Class Initialized
+DEBUG - 2020-10-02 04:56:35 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:56:35 --> Router Class Initialized
+INFO - 2020-10-02 04:56:35 --> Output Class Initialized
+INFO - 2020-10-02 04:56:35 --> Security Class Initialized
+DEBUG - 2020-10-02 04:56:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:56:35 --> Input Class Initialized
+INFO - 2020-10-02 04:56:35 --> Language Class Initialized
+INFO - 2020-10-02 09:56:35 --> Loader Class Initialized
+INFO - 2020-10-02 09:56:35 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:56:35 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:56:35 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:56:35 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:56:35 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:56:35 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:56:35 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:56:36 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:56:36 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:56:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:56:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:56:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:56:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:56:36 --> Encryption Class Initialized
+INFO - 2020-10-02 09:56:36 --> Controller Class Initialized
+INFO - 2020-10-02 09:56:36 --> MY_Model class loaded
+INFO - 2020-10-02 09:56:36 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:56:36 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:56:36 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:56:36 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:56:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:56:57 --> Config Class Initialized
+INFO - 2020-10-02 04:56:57 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:56:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:56:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:56:57 --> URI Class Initialized
+DEBUG - 2020-10-02 04:56:57 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:56:57 --> Router Class Initialized
+INFO - 2020-10-02 04:56:57 --> Output Class Initialized
+INFO - 2020-10-02 04:56:57 --> Security Class Initialized
+DEBUG - 2020-10-02 04:56:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:56:57 --> Input Class Initialized
+INFO - 2020-10-02 04:56:57 --> Language Class Initialized
+INFO - 2020-10-02 09:56:57 --> Loader Class Initialized
+INFO - 2020-10-02 09:56:57 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:56:57 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:56:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:56:57 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:56:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:56:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:56:57 --> Encryption Class Initialized
+INFO - 2020-10-02 09:56:57 --> Controller Class Initialized
+INFO - 2020-10-02 09:56:57 --> MY_Model class loaded
+INFO - 2020-10-02 09:56:57 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:56:57 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:56:57 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:56:57 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:57:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:57:40 --> Config Class Initialized
+INFO - 2020-10-02 04:57:40 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:57:40 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:57:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:57:40 --> URI Class Initialized
+DEBUG - 2020-10-02 04:57:40 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:57:40 --> Router Class Initialized
+INFO - 2020-10-02 04:57:40 --> Output Class Initialized
+INFO - 2020-10-02 04:57:40 --> Security Class Initialized
+DEBUG - 2020-10-02 04:57:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:57:40 --> Input Class Initialized
+INFO - 2020-10-02 04:57:40 --> Language Class Initialized
+INFO - 2020-10-02 09:57:40 --> Loader Class Initialized
+INFO - 2020-10-02 09:57:40 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:57:40 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:57:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:57:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:57:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:57:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:57:40 --> Encryption Class Initialized
+INFO - 2020-10-02 09:57:40 --> Controller Class Initialized
+INFO - 2020-10-02 09:57:40 --> MY_Model class loaded
+INFO - 2020-10-02 09:57:40 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:57:40 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:57:40 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:57:40 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:57:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:57:46 --> Config Class Initialized
+INFO - 2020-10-02 04:57:46 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:57:46 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:57:46 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:57:46 --> URI Class Initialized
+DEBUG - 2020-10-02 04:57:46 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:57:46 --> Router Class Initialized
+INFO - 2020-10-02 04:57:46 --> Output Class Initialized
+INFO - 2020-10-02 04:57:46 --> Security Class Initialized
+DEBUG - 2020-10-02 04:57:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:57:46 --> Input Class Initialized
+INFO - 2020-10-02 04:57:46 --> Language Class Initialized
+INFO - 2020-10-02 09:57:46 --> Loader Class Initialized
+INFO - 2020-10-02 09:57:46 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:57:46 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:57:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:57:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:57:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:57:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:57:47 --> Encryption Class Initialized
+INFO - 2020-10-02 09:57:47 --> Controller Class Initialized
+INFO - 2020-10-02 09:57:47 --> MY_Model class loaded
+INFO - 2020-10-02 09:57:47 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:57:47 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:57:47 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:57:47 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:59:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:59:25 --> Config Class Initialized
+INFO - 2020-10-02 04:59:25 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:59:25 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:59:25 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:59:25 --> URI Class Initialized
+DEBUG - 2020-10-02 04:59:25 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:59:25 --> Router Class Initialized
+INFO - 2020-10-02 04:59:25 --> Output Class Initialized
+INFO - 2020-10-02 04:59:25 --> Security Class Initialized
+DEBUG - 2020-10-02 04:59:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:59:25 --> Input Class Initialized
+INFO - 2020-10-02 04:59:25 --> Language Class Initialized
+INFO - 2020-10-02 09:59:25 --> Loader Class Initialized
+INFO - 2020-10-02 09:59:25 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:59:25 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:59:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:59:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:59:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:59:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:59:25 --> Encryption Class Initialized
+INFO - 2020-10-02 09:59:25 --> Controller Class Initialized
+INFO - 2020-10-02 09:59:25 --> MY_Model class loaded
+INFO - 2020-10-02 09:59:25 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:59:25 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:59:25 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:59:26 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:59:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:59:31 --> Config Class Initialized
+INFO - 2020-10-02 04:59:31 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:59:31 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:59:31 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:59:31 --> URI Class Initialized
+DEBUG - 2020-10-02 04:59:31 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:59:31 --> Router Class Initialized
+INFO - 2020-10-02 04:59:31 --> Output Class Initialized
+INFO - 2020-10-02 04:59:31 --> Security Class Initialized
+DEBUG - 2020-10-02 04:59:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:59:31 --> Input Class Initialized
+INFO - 2020-10-02 04:59:31 --> Language Class Initialized
+INFO - 2020-10-02 09:59:31 --> Loader Class Initialized
+INFO - 2020-10-02 09:59:31 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:59:31 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:59:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:59:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:59:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:59:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:59:31 --> Encryption Class Initialized
+INFO - 2020-10-02 09:59:32 --> Controller Class Initialized
+INFO - 2020-10-02 09:59:32 --> MY_Model class loaded
+INFO - 2020-10-02 09:59:32 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:59:32 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:59:32 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:59:32 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:59:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:59:39 --> Config Class Initialized
+INFO - 2020-10-02 04:59:39 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:59:39 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:59:39 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:59:39 --> URI Class Initialized
+DEBUG - 2020-10-02 04:59:39 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:59:39 --> Router Class Initialized
+INFO - 2020-10-02 04:59:39 --> Output Class Initialized
+INFO - 2020-10-02 04:59:39 --> Security Class Initialized
+DEBUG - 2020-10-02 04:59:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:59:39 --> Input Class Initialized
+INFO - 2020-10-02 04:59:39 --> Language Class Initialized
+INFO - 2020-10-02 09:59:39 --> Loader Class Initialized
+INFO - 2020-10-02 09:59:40 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:59:40 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:59:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:59:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:59:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:59:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:59:40 --> Encryption Class Initialized
+INFO - 2020-10-02 09:59:40 --> Controller Class Initialized
+INFO - 2020-10-02 09:59:40 --> MY_Model class loaded
+INFO - 2020-10-02 09:59:40 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:59:40 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:59:40 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:59:40 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:59:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:59:49 --> Config Class Initialized
+INFO - 2020-10-02 04:59:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:59:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:59:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:59:49 --> URI Class Initialized
+DEBUG - 2020-10-02 04:59:49 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:59:49 --> Router Class Initialized
+INFO - 2020-10-02 04:59:49 --> Output Class Initialized
+INFO - 2020-10-02 04:59:49 --> Security Class Initialized
+DEBUG - 2020-10-02 04:59:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:59:49 --> Input Class Initialized
+INFO - 2020-10-02 04:59:49 --> Language Class Initialized
+INFO - 2020-10-02 09:59:49 --> Loader Class Initialized
+INFO - 2020-10-02 09:59:49 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:59:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:59:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:59:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:59:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:59:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:59:49 --> Encryption Class Initialized
+INFO - 2020-10-02 09:59:49 --> Controller Class Initialized
+INFO - 2020-10-02 09:59:49 --> MY_Model class loaded
+INFO - 2020-10-02 09:59:49 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:59:49 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:59:49 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:59:49 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 04:59:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 04:59:50 --> Config Class Initialized
+INFO - 2020-10-02 04:59:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 04:59:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 04:59:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 04:59:50 --> URI Class Initialized
+DEBUG - 2020-10-02 04:59:50 --> No URI present. Default controller set.
+INFO - 2020-10-02 04:59:50 --> Router Class Initialized
+INFO - 2020-10-02 04:59:50 --> Output Class Initialized
+INFO - 2020-10-02 04:59:50 --> Security Class Initialized
+DEBUG - 2020-10-02 04:59:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 04:59:50 --> Input Class Initialized
+INFO - 2020-10-02 04:59:50 --> Language Class Initialized
+INFO - 2020-10-02 09:59:50 --> Loader Class Initialized
+INFO - 2020-10-02 09:59:50 --> Helper loaded: url_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: form_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: array_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: download_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: setting_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 09:59:50 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 09:59:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 09:59:50 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 09:59:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 09:59:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 09:59:50 --> Encryption Class Initialized
+INFO - 2020-10-02 09:59:50 --> Controller Class Initialized
+INFO - 2020-10-02 09:59:51 --> MY_Model class loaded
+INFO - 2020-10-02 09:59:51 --> Database Driver Class Initialized
+INFO - 2020-10-02 09:59:51 --> Model "Slider_model" initialized
+INFO - 2020-10-02 09:59:51 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 09:59:51 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:00:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:00:00 --> Config Class Initialized
+INFO - 2020-10-02 05:00:00 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:00:00 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:00:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:00:00 --> URI Class Initialized
+DEBUG - 2020-10-02 05:00:00 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:00:00 --> Router Class Initialized
+INFO - 2020-10-02 05:00:00 --> Output Class Initialized
+INFO - 2020-10-02 05:00:00 --> Security Class Initialized
+DEBUG - 2020-10-02 05:00:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:00:00 --> Input Class Initialized
+INFO - 2020-10-02 05:00:00 --> Language Class Initialized
+INFO - 2020-10-02 10:00:00 --> Loader Class Initialized
+INFO - 2020-10-02 10:00:00 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:00:00 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:00:00 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:00:00 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:00:00 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:00:00 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:00:01 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:00:01 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:00:01 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:00:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:00:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:00:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:00:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:00:01 --> Encryption Class Initialized
+INFO - 2020-10-02 10:00:01 --> Controller Class Initialized
+INFO - 2020-10-02 10:00:01 --> MY_Model class loaded
+INFO - 2020-10-02 10:00:01 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:00:01 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:00:01 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:00:01 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 10:00:01 --> Severity: Notice --> Undefined index: produk_kategori C:\xampp\htdocs\kepodemy\application\frontend\controllers\Beranda.php 22
+ERROR - 2020-10-02 05:00:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:00:02 --> Config Class Initialized
+INFO - 2020-10-02 05:00:02 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:00:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:00:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:00:02 --> URI Class Initialized
+DEBUG - 2020-10-02 05:00:02 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:00:02 --> Router Class Initialized
+INFO - 2020-10-02 05:00:02 --> Output Class Initialized
+INFO - 2020-10-02 05:00:02 --> Security Class Initialized
+DEBUG - 2020-10-02 05:00:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:00:02 --> Input Class Initialized
+INFO - 2020-10-02 05:00:02 --> Language Class Initialized
+INFO - 2020-10-02 10:00:02 --> Loader Class Initialized
+INFO - 2020-10-02 10:00:02 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:00:02 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:00:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:00:02 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:00:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:00:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:00:02 --> Encryption Class Initialized
+INFO - 2020-10-02 10:00:02 --> Controller Class Initialized
+INFO - 2020-10-02 10:00:02 --> MY_Model class loaded
+INFO - 2020-10-02 10:00:02 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:00:02 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:00:02 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:00:02 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:00:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:00:10 --> Config Class Initialized
+INFO - 2020-10-02 05:00:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:00:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:00:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:00:10 --> URI Class Initialized
+DEBUG - 2020-10-02 05:00:10 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:00:10 --> Router Class Initialized
+INFO - 2020-10-02 05:00:10 --> Output Class Initialized
+INFO - 2020-10-02 05:00:10 --> Security Class Initialized
+DEBUG - 2020-10-02 05:00:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:00:10 --> Input Class Initialized
+INFO - 2020-10-02 05:00:10 --> Language Class Initialized
+INFO - 2020-10-02 10:00:10 --> Loader Class Initialized
+INFO - 2020-10-02 10:00:10 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:00:10 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:00:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:00:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:00:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:00:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:00:10 --> Encryption Class Initialized
+INFO - 2020-10-02 10:00:10 --> Controller Class Initialized
+INFO - 2020-10-02 10:00:10 --> MY_Model class loaded
+INFO - 2020-10-02 10:00:10 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:00:10 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:00:10 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:00:10 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:00:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:00:20 --> Config Class Initialized
+INFO - 2020-10-02 05:00:20 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:00:20 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:00:20 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:00:20 --> URI Class Initialized
+DEBUG - 2020-10-02 05:00:20 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:00:20 --> Router Class Initialized
+INFO - 2020-10-02 05:00:20 --> Output Class Initialized
+INFO - 2020-10-02 05:00:20 --> Security Class Initialized
+DEBUG - 2020-10-02 05:00:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:00:20 --> Input Class Initialized
+INFO - 2020-10-02 05:00:20 --> Language Class Initialized
+INFO - 2020-10-02 10:00:20 --> Loader Class Initialized
+INFO - 2020-10-02 10:00:20 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:00:20 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:00:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:00:20 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:00:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:00:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:00:20 --> Encryption Class Initialized
+INFO - 2020-10-02 10:00:20 --> Controller Class Initialized
+INFO - 2020-10-02 10:00:20 --> MY_Model class loaded
+INFO - 2020-10-02 10:00:20 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:00:20 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:00:20 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:00:20 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:01:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:01:30 --> Config Class Initialized
+INFO - 2020-10-02 05:01:30 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:01:30 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:30 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:30 --> URI Class Initialized
+DEBUG - 2020-10-02 05:01:30 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:01:30 --> Router Class Initialized
+INFO - 2020-10-02 05:01:30 --> Output Class Initialized
+INFO - 2020-10-02 05:01:30 --> Security Class Initialized
+DEBUG - 2020-10-02 05:01:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:01:30 --> Input Class Initialized
+INFO - 2020-10-02 05:01:30 --> Language Class Initialized
+INFO - 2020-10-02 10:01:30 --> Loader Class Initialized
+INFO - 2020-10-02 10:01:30 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:01:30 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:01:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:01:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:01:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:01:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:01:31 --> Encryption Class Initialized
+INFO - 2020-10-02 10:01:31 --> Controller Class Initialized
+INFO - 2020-10-02 10:01:31 --> MY_Model class loaded
+INFO - 2020-10-02 10:01:31 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:01:31 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:01:31 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:01:31 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:01:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:01:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:01:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:01:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:01:31 --> Final output sent to browser
+DEBUG - 2020-10-02 10:01:31 --> Total execution time: 0.7075
+ERROR - 2020-10-02 05:01:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:01:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:01:31 --> Config Class Initialized
+INFO - 2020-10-02 05:01:31 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:01:31 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:31 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:31 --> URI Class Initialized
+ERROR - 2020-10-02 05:01:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:01:31 --> Router Class Initialized
+INFO - 2020-10-02 05:01:31 --> Config Class Initialized
+INFO - 2020-10-02 05:01:31 --> Hooks Class Initialized
+INFO - 2020-10-02 05:01:31 --> Output Class Initialized
+INFO - 2020-10-02 05:01:31 --> Security Class Initialized
+DEBUG - 2020-10-02 05:01:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:01:31 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:31 --> Input Class Initialized
+INFO - 2020-10-02 05:01:31 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:31 --> URI Class Initialized
+INFO - 2020-10-02 05:01:31 --> Router Class Initialized
+ERROR - 2020-10-02 05:01:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:01:31 --> Language Class Initialized
+INFO - 2020-10-02 05:01:31 --> Config Class Initialized
+INFO - 2020-10-02 05:01:31 --> Hooks Class Initialized
+INFO - 2020-10-02 05:01:31 --> Output Class Initialized
+ERROR - 2020-10-02 10:01:31 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:01:31 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:31 --> Security Class Initialized
+INFO - 2020-10-02 05:01:31 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:31 --> Config Class Initialized
+INFO - 2020-10-02 05:01:31 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:01:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:01:31 --> Input Class Initialized
+INFO - 2020-10-02 05:01:31 --> URI Class Initialized
+INFO - 2020-10-02 05:01:31 --> Language Class Initialized
+DEBUG - 2020-10-02 05:01:31 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:31 --> Router Class Initialized
+ERROR - 2020-10-02 10:01:31 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:01:31 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:31 --> URI Class Initialized
+INFO - 2020-10-02 05:01:31 --> Output Class Initialized
+INFO - 2020-10-02 05:01:31 --> Router Class Initialized
+INFO - 2020-10-02 05:01:31 --> Security Class Initialized
+INFO - 2020-10-02 05:01:31 --> Output Class Initialized
+DEBUG - 2020-10-02 05:01:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:01:31 --> Input Class Initialized
+INFO - 2020-10-02 05:01:31 --> Language Class Initialized
+INFO - 2020-10-02 05:01:31 --> Security Class Initialized
+DEBUG - 2020-10-02 05:01:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-10-02 10:01:31 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:01:31 --> Input Class Initialized
+INFO - 2020-10-02 05:01:31 --> Language Class Initialized
+ERROR - 2020-10-02 10:01:31 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:01:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:01:38 --> Config Class Initialized
+INFO - 2020-10-02 05:01:38 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:01:38 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:38 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:38 --> URI Class Initialized
+DEBUG - 2020-10-02 05:01:38 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:01:38 --> Router Class Initialized
+INFO - 2020-10-02 05:01:38 --> Output Class Initialized
+INFO - 2020-10-02 05:01:38 --> Security Class Initialized
+DEBUG - 2020-10-02 05:01:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:01:38 --> Input Class Initialized
+INFO - 2020-10-02 05:01:38 --> Language Class Initialized
+INFO - 2020-10-02 10:01:38 --> Loader Class Initialized
+INFO - 2020-10-02 10:01:38 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:01:38 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:01:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:01:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:01:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:01:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:01:38 --> Encryption Class Initialized
+INFO - 2020-10-02 10:01:39 --> Controller Class Initialized
+INFO - 2020-10-02 10:01:39 --> MY_Model class loaded
+INFO - 2020-10-02 10:01:39 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:01:39 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:01:39 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:01:39 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:01:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:01:43 --> Config Class Initialized
+INFO - 2020-10-02 05:01:43 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:01:43 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:01:43 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:01:43 --> URI Class Initialized
+DEBUG - 2020-10-02 05:01:43 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:01:43 --> Router Class Initialized
+INFO - 2020-10-02 05:01:44 --> Output Class Initialized
+INFO - 2020-10-02 05:01:44 --> Security Class Initialized
+DEBUG - 2020-10-02 05:01:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:01:44 --> Input Class Initialized
+INFO - 2020-10-02 05:01:44 --> Language Class Initialized
+INFO - 2020-10-02 10:01:44 --> Loader Class Initialized
+INFO - 2020-10-02 10:01:44 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:01:44 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:01:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:01:44 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:01:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:01:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:01:44 --> Encryption Class Initialized
+INFO - 2020-10-02 10:01:44 --> Controller Class Initialized
+INFO - 2020-10-02 10:01:44 --> MY_Model class loaded
+INFO - 2020-10-02 10:01:44 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:01:44 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:01:44 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:01:44 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 10:01:44 --> Severity: Notice --> Undefined index: produk_kategori C:\xampp\htdocs\kepodemy\application\frontend\controllers\Beranda.php 24
+ERROR - 2020-10-02 05:02:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:02:03 --> Config Class Initialized
+INFO - 2020-10-02 05:02:03 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:02:03 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:03 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:03 --> URI Class Initialized
+DEBUG - 2020-10-02 05:02:03 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:02:03 --> Router Class Initialized
+INFO - 2020-10-02 05:02:03 --> Output Class Initialized
+INFO - 2020-10-02 05:02:03 --> Security Class Initialized
+DEBUG - 2020-10-02 05:02:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:03 --> Input Class Initialized
+INFO - 2020-10-02 05:02:04 --> Language Class Initialized
+INFO - 2020-10-02 10:02:04 --> Loader Class Initialized
+INFO - 2020-10-02 10:02:04 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:02:04 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:02:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:02:04 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:02:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:02:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:02:04 --> Encryption Class Initialized
+INFO - 2020-10-02 10:02:04 --> Controller Class Initialized
+INFO - 2020-10-02 10:02:04 --> MY_Model class loaded
+INFO - 2020-10-02 10:02:04 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:02:04 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:02:04 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:02:04 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:02:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:02:16 --> Config Class Initialized
+INFO - 2020-10-02 05:02:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:02:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:16 --> URI Class Initialized
+DEBUG - 2020-10-02 05:02:16 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:02:16 --> Router Class Initialized
+INFO - 2020-10-02 05:02:16 --> Output Class Initialized
+INFO - 2020-10-02 05:02:16 --> Security Class Initialized
+DEBUG - 2020-10-02 05:02:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:16 --> Input Class Initialized
+INFO - 2020-10-02 05:02:16 --> Language Class Initialized
+INFO - 2020-10-02 10:02:17 --> Loader Class Initialized
+INFO - 2020-10-02 10:02:17 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:02:17 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:02:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:02:17 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:02:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:02:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:02:17 --> Encryption Class Initialized
+INFO - 2020-10-02 10:02:17 --> Controller Class Initialized
+INFO - 2020-10-02 10:02:17 --> MY_Model class loaded
+INFO - 2020-10-02 10:02:17 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:02:17 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:02:17 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:02:17 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:02:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:02:35 --> Config Class Initialized
+INFO - 2020-10-02 05:02:35 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:02:35 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:35 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:35 --> URI Class Initialized
+DEBUG - 2020-10-02 05:02:35 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:02:35 --> Router Class Initialized
+INFO - 2020-10-02 05:02:35 --> Output Class Initialized
+INFO - 2020-10-02 05:02:35 --> Security Class Initialized
+DEBUG - 2020-10-02 05:02:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:35 --> Input Class Initialized
+INFO - 2020-10-02 05:02:35 --> Language Class Initialized
+INFO - 2020-10-02 10:02:35 --> Loader Class Initialized
+INFO - 2020-10-02 10:02:35 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:02:35 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:02:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:02:35 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:02:35 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:02:35 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:02:35 --> Encryption Class Initialized
+INFO - 2020-10-02 10:02:35 --> Controller Class Initialized
+INFO - 2020-10-02 10:02:36 --> MY_Model class loaded
+INFO - 2020-10-02 10:02:36 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:02:36 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:02:36 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:02:36 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:02:36 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:02:36 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:02:36 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:02:36 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:02:36 --> Final output sent to browser
+DEBUG - 2020-10-02 10:02:36 --> Total execution time: 0.8807
+ERROR - 2020-10-02 05:02:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:02:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:02:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:02:36 --> Config Class Initialized
+INFO - 2020-10-02 05:02:36 --> Hooks Class Initialized
+INFO - 2020-10-02 05:02:36 --> Config Class Initialized
+ERROR - 2020-10-02 05:02:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:02:36 --> Hooks Class Initialized
+INFO - 2020-10-02 05:02:36 --> Config Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:36 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:36 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:36 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:36 --> URI Class Initialized
+INFO - 2020-10-02 05:02:36 --> URI Class Initialized
+INFO - 2020-10-02 05:02:36 --> Router Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:36 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:36 --> Output Class Initialized
+INFO - 2020-10-02 05:02:36 --> URI Class Initialized
+INFO - 2020-10-02 05:02:36 --> Security Class Initialized
+INFO - 2020-10-02 05:02:36 --> Router Class Initialized
+INFO - 2020-10-02 05:02:36 --> Router Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:36 --> Input Class Initialized
+INFO - 2020-10-02 05:02:36 --> Language Class Initialized
+INFO - 2020-10-02 05:02:36 --> Output Class Initialized
+ERROR - 2020-10-02 10:02:36 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:02:36 --> Security Class Initialized
+INFO - 2020-10-02 05:02:36 --> Output Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:36 --> Input Class Initialized
+INFO - 2020-10-02 05:02:36 --> Language Class Initialized
+INFO - 2020-10-02 05:02:36 --> Security Class Initialized
+ERROR - 2020-10-02 10:02:36 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:02:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:36 --> Input Class Initialized
+INFO - 2020-10-02 05:02:36 --> Language Class Initialized
+INFO - 2020-10-02 05:02:36 --> Config Class Initialized
+INFO - 2020-10-02 05:02:36 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:02:36 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:02:36 --> URI Class Initialized
+INFO - 2020-10-02 05:02:36 --> Router Class Initialized
+INFO - 2020-10-02 05:02:36 --> Output Class Initialized
+INFO - 2020-10-02 05:02:36 --> Security Class Initialized
+DEBUG - 2020-10-02 05:02:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:02:36 --> Input Class Initialized
+INFO - 2020-10-02 05:02:36 --> Language Class Initialized
+ERROR - 2020-10-02 10:02:36 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 10:02:36 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:03:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:03:52 --> Config Class Initialized
+INFO - 2020-10-02 05:03:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:03:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:03:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:03:52 --> URI Class Initialized
+DEBUG - 2020-10-02 05:03:52 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:03:52 --> Router Class Initialized
+INFO - 2020-10-02 05:03:52 --> Output Class Initialized
+INFO - 2020-10-02 05:03:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:03:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:03:52 --> Input Class Initialized
+INFO - 2020-10-02 05:03:52 --> Language Class Initialized
+INFO - 2020-10-02 10:03:52 --> Loader Class Initialized
+INFO - 2020-10-02 10:03:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:03:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:03:53 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:03:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:03:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:03:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:03:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:03:53 --> Encryption Class Initialized
+INFO - 2020-10-02 10:03:53 --> Controller Class Initialized
+INFO - 2020-10-02 10:03:53 --> MY_Model class loaded
+INFO - 2020-10-02 10:03:53 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:03:53 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:03:53 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:03:53 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:03:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:03:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:03:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:03:53 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:03:53 --> Final output sent to browser
+DEBUG - 2020-10-02 10:03:53 --> Total execution time: 0.7143
+ERROR - 2020-10-02 05:03:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:03:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:03:53 --> Config Class Initialized
+INFO - 2020-10-02 05:03:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:03:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:03:53 --> URI Class Initialized
+INFO - 2020-10-02 05:03:53 --> Router Class Initialized
+INFO - 2020-10-02 05:03:53 --> Output Class Initialized
+INFO - 2020-10-02 05:03:53 --> Security Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:03:53 --> Input Class Initialized
+INFO - 2020-10-02 05:03:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:03:53 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:03:53 --> Config Class Initialized
+INFO - 2020-10-02 05:03:53 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:03:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:03:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:03:53 --> Config Class Initialized
+INFO - 2020-10-02 05:03:53 --> Hooks Class Initialized
+INFO - 2020-10-02 05:03:53 --> Config Class Initialized
+INFO - 2020-10-02 05:03:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:03:53 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:03:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:03:53 --> URI Class Initialized
+INFO - 2020-10-02 05:03:53 --> URI Class Initialized
+INFO - 2020-10-02 05:03:53 --> Router Class Initialized
+INFO - 2020-10-02 05:03:53 --> Router Class Initialized
+INFO - 2020-10-02 05:03:53 --> Output Class Initialized
+INFO - 2020-10-02 05:03:53 --> Security Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:03:53 --> Input Class Initialized
+INFO - 2020-10-02 05:03:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:03:53 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:03:53 --> Output Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:03:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:03:53 --> URI Class Initialized
+INFO - 2020-10-02 05:03:53 --> Router Class Initialized
+INFO - 2020-10-02 05:03:53 --> Output Class Initialized
+INFO - 2020-10-02 05:03:53 --> Security Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:03:53 --> Input Class Initialized
+INFO - 2020-10-02 05:03:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:03:53 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:03:53 --> Security Class Initialized
+DEBUG - 2020-10-02 05:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:03:53 --> Input Class Initialized
+INFO - 2020-10-02 05:03:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:03:53 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:04:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:04:40 --> Config Class Initialized
+INFO - 2020-10-02 05:04:40 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:04:40 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:04:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:04:40 --> URI Class Initialized
+DEBUG - 2020-10-02 05:04:40 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:04:40 --> Router Class Initialized
+INFO - 2020-10-02 05:04:40 --> Output Class Initialized
+INFO - 2020-10-02 05:04:40 --> Security Class Initialized
+DEBUG - 2020-10-02 05:04:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:04:40 --> Input Class Initialized
+INFO - 2020-10-02 05:04:40 --> Language Class Initialized
+INFO - 2020-10-02 10:04:40 --> Loader Class Initialized
+INFO - 2020-10-02 10:04:40 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:04:40 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:04:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:04:40 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:04:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:04:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:04:41 --> Encryption Class Initialized
+INFO - 2020-10-02 10:04:41 --> Controller Class Initialized
+INFO - 2020-10-02 10:04:41 --> MY_Model class loaded
+INFO - 2020-10-02 10:04:41 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:04:41 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:04:41 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:04:41 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:06:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:06:22 --> Config Class Initialized
+INFO - 2020-10-02 05:06:22 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:06:22 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:06:22 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:06:22 --> URI Class Initialized
+DEBUG - 2020-10-02 05:06:22 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:06:22 --> Router Class Initialized
+INFO - 2020-10-02 05:06:23 --> Output Class Initialized
+INFO - 2020-10-02 05:06:23 --> Security Class Initialized
+DEBUG - 2020-10-02 05:06:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:06:23 --> Input Class Initialized
+INFO - 2020-10-02 05:06:23 --> Language Class Initialized
+INFO - 2020-10-02 10:06:23 --> Loader Class Initialized
+INFO - 2020-10-02 10:06:23 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:06:23 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:06:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:06:23 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:06:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:06:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:06:23 --> Encryption Class Initialized
+INFO - 2020-10-02 10:06:23 --> Controller Class Initialized
+INFO - 2020-10-02 10:06:23 --> MY_Model class loaded
+INFO - 2020-10-02 10:06:23 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:06:23 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:06:23 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:06:23 --> Model "Produk_kategori_model" initialized
+ERROR - 2020-10-02 05:07:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:38 --> Config Class Initialized
+INFO - 2020-10-02 05:07:38 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:38 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:38 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:39 --> URI Class Initialized
+DEBUG - 2020-10-02 05:07:39 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:07:39 --> Router Class Initialized
+INFO - 2020-10-02 05:07:39 --> Output Class Initialized
+INFO - 2020-10-02 05:07:39 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:39 --> Input Class Initialized
+INFO - 2020-10-02 05:07:39 --> Language Class Initialized
+INFO - 2020-10-02 10:07:39 --> Loader Class Initialized
+INFO - 2020-10-02 10:07:39 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:07:39 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:07:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:07:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:07:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:07:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:07:39 --> Encryption Class Initialized
+INFO - 2020-10-02 10:07:40 --> Controller Class Initialized
+INFO - 2020-10-02 10:07:40 --> MY_Model class loaded
+INFO - 2020-10-02 10:07:40 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:07:40 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:07:40 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:07:40 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:07:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:07:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:07:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:07:40 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:07:40 --> Final output sent to browser
+DEBUG - 2020-10-02 10:07:40 --> Total execution time: 1.6469
+ERROR - 2020-10-02 05:07:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:07:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:40 --> Config Class Initialized
+INFO - 2020-10-02 05:07:40 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:07:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:40 --> Config Class Initialized
+INFO - 2020-10-02 05:07:40 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:40 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:07:40 --> UTF-8 Support Enabled
+ERROR - 2020-10-02 05:07:40 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:40 --> URI Class Initialized
+INFO - 2020-10-02 05:07:40 --> URI Class Initialized
+INFO - 2020-10-02 05:07:40 --> Config Class Initialized
+INFO - 2020-10-02 05:07:40 --> Hooks Class Initialized
+INFO - 2020-10-02 05:07:40 --> Router Class Initialized
+INFO - 2020-10-02 05:07:40 --> Output Class Initialized
+DEBUG - 2020-10-02 05:07:40 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:40 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:40 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:40 --> Input Class Initialized
+INFO - 2020-10-02 05:07:41 --> Router Class Initialized
+INFO - 2020-10-02 05:07:41 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:41 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:07:41 --> Output Class Initialized
+INFO - 2020-10-02 05:07:41 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:41 --> Config Class Initialized
+INFO - 2020-10-02 05:07:41 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:41 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:41 --> URI Class Initialized
+INFO - 2020-10-02 05:07:41 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:41 --> URI Class Initialized
+INFO - 2020-10-02 05:07:41 --> Router Class Initialized
+INFO - 2020-10-02 05:07:41 --> Router Class Initialized
+INFO - 2020-10-02 05:07:41 --> Output Class Initialized
+INFO - 2020-10-02 05:07:41 --> Output Class Initialized
+INFO - 2020-10-02 05:07:41 --> Security Class Initialized
+INFO - 2020-10-02 05:07:41 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:41 --> Input Class Initialized
+DEBUG - 2020-10-02 05:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:41 --> Input Class Initialized
+INFO - 2020-10-02 05:07:41 --> Language Class Initialized
+INFO - 2020-10-02 05:07:41 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:41 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 10:07:41 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:07:41 --> Input Class Initialized
+INFO - 2020-10-02 05:07:41 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:41 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:07:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:46 --> Config Class Initialized
+INFO - 2020-10-02 05:07:46 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:46 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:46 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:46 --> URI Class Initialized
+DEBUG - 2020-10-02 05:07:46 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:07:46 --> Router Class Initialized
+INFO - 2020-10-02 05:07:46 --> Output Class Initialized
+INFO - 2020-10-02 05:07:46 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:46 --> Input Class Initialized
+INFO - 2020-10-02 05:07:46 --> Language Class Initialized
+INFO - 2020-10-02 10:07:46 --> Loader Class Initialized
+INFO - 2020-10-02 10:07:46 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:07:46 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:07:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:07:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:07:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:07:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:07:47 --> Encryption Class Initialized
+INFO - 2020-10-02 10:07:47 --> Controller Class Initialized
+INFO - 2020-10-02 10:07:47 --> MY_Model class loaded
+INFO - 2020-10-02 10:07:47 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:07:47 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:07:47 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:07:47 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:07:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:07:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:07:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:07:47 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:07:47 --> Final output sent to browser
+DEBUG - 2020-10-02 10:07:47 --> Total execution time: 1.4715
+ERROR - 2020-10-02 05:07:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:47 --> Config Class Initialized
+INFO - 2020-10-02 05:07:47 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:07:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:07:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:07:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:47 --> Config Class Initialized
+INFO - 2020-10-02 05:07:47 --> Config Class Initialized
+INFO - 2020-10-02 05:07:47 --> Hooks Class Initialized
+INFO - 2020-10-02 05:07:47 --> Hooks Class Initialized
+INFO - 2020-10-02 05:07:47 --> Config Class Initialized
+INFO - 2020-10-02 05:07:47 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:47 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:47 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:47 --> URI Class Initialized
+INFO - 2020-10-02 05:07:47 --> Router Class Initialized
+INFO - 2020-10-02 05:07:47 --> Output Class Initialized
+INFO - 2020-10-02 05:07:47 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:47 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:47 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:07:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:47 --> Input Class Initialized
+INFO - 2020-10-02 05:07:47 --> Language Class Initialized
+INFO - 2020-10-02 05:07:47 --> URI Class Initialized
+ERROR - 2020-10-02 10:07:47 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:07:47 --> Router Class Initialized
+DEBUG - 2020-10-02 05:07:47 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:47 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:47 --> URI Class Initialized
+INFO - 2020-10-02 05:07:47 --> Output Class Initialized
+INFO - 2020-10-02 05:07:47 --> Router Class Initialized
+INFO - 2020-10-02 05:07:47 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:47 --> Output Class Initialized
+INFO - 2020-10-02 05:07:47 --> Input Class Initialized
+INFO - 2020-10-02 05:07:47 --> Language Class Initialized
+INFO - 2020-10-02 05:07:47 --> Security Class Initialized
+ERROR - 2020-10-02 10:07:47 --> 404 Page Not Found: Images/tp.png
+DEBUG - 2020-10-02 05:07:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:47 --> Input Class Initialized
+INFO - 2020-10-02 05:07:47 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:47 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:07:48 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:48 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:48 --> URI Class Initialized
+INFO - 2020-10-02 05:07:48 --> Router Class Initialized
+INFO - 2020-10-02 05:07:48 --> Output Class Initialized
+INFO - 2020-10-02 05:07:48 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:48 --> Input Class Initialized
+INFO - 2020-10-02 05:07:48 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:48 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:07:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:50 --> Config Class Initialized
+INFO - 2020-10-02 05:07:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:50 --> URI Class Initialized
+DEBUG - 2020-10-02 05:07:50 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:07:50 --> Router Class Initialized
+INFO - 2020-10-02 05:07:50 --> Output Class Initialized
+INFO - 2020-10-02 05:07:50 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:50 --> Input Class Initialized
+INFO - 2020-10-02 05:07:50 --> Language Class Initialized
+INFO - 2020-10-02 10:07:50 --> Loader Class Initialized
+INFO - 2020-10-02 10:07:50 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:07:50 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:07:50 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:07:50 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:07:50 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:07:50 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:07:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:07:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:07:51 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:07:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:07:51 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:07:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:07:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:07:51 --> Encryption Class Initialized
+INFO - 2020-10-02 10:07:51 --> Controller Class Initialized
+INFO - 2020-10-02 10:07:51 --> MY_Model class loaded
+INFO - 2020-10-02 10:07:51 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:07:51 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:07:51 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:07:51 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:07:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:07:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:07:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:07:51 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:07:51 --> Final output sent to browser
+DEBUG - 2020-10-02 10:07:52 --> Total execution time: 1.6393
+ERROR - 2020-10-02 05:07:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:52 --> Config Class Initialized
+INFO - 2020-10-02 05:07:52 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:07:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:07:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:52 --> Config Class Initialized
+INFO - 2020-10-02 05:07:52 --> Hooks Class Initialized
+INFO - 2020-10-02 05:07:52 --> Config Class Initialized
+INFO - 2020-10-02 05:07:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:07:52 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:07:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:52 --> URI Class Initialized
+INFO - 2020-10-02 05:07:52 --> URI Class Initialized
+INFO - 2020-10-02 05:07:52 --> Router Class Initialized
+INFO - 2020-10-02 05:07:52 --> Output Class Initialized
+INFO - 2020-10-02 05:07:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:07:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:52 --> Input Class Initialized
+ERROR - 2020-10-02 05:07:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:07:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:52 --> Language Class Initialized
+INFO - 2020-10-02 05:07:52 --> URI Class Initialized
+ERROR - 2020-10-02 10:07:52 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:07:52 --> Router Class Initialized
+INFO - 2020-10-02 05:07:52 --> Output Class Initialized
+INFO - 2020-10-02 05:07:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:52 --> Config Class Initialized
+INFO - 2020-10-02 05:07:52 --> Hooks Class Initialized
+INFO - 2020-10-02 05:07:52 --> Input Class Initialized
+INFO - 2020-10-02 05:07:52 --> Language Class Initialized
+DEBUG - 2020-10-02 05:07:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:07:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:07:52 --> URI Class Initialized
+ERROR - 2020-10-02 10:07:52 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:07:52 --> Router Class Initialized
+INFO - 2020-10-02 05:07:52 --> Output Class Initialized
+INFO - 2020-10-02 05:07:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:52 --> Input Class Initialized
+INFO - 2020-10-02 05:07:52 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:52 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:07:52 --> Router Class Initialized
+INFO - 2020-10-02 05:07:52 --> Output Class Initialized
+INFO - 2020-10-02 05:07:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:07:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:07:52 --> Input Class Initialized
+INFO - 2020-10-02 05:07:52 --> Language Class Initialized
+ERROR - 2020-10-02 10:07:52 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:08:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:08:48 --> Config Class Initialized
+INFO - 2020-10-02 05:08:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:08:48 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:48 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:48 --> URI Class Initialized
+DEBUG - 2020-10-02 05:08:48 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:08:48 --> Router Class Initialized
+INFO - 2020-10-02 05:08:48 --> Output Class Initialized
+INFO - 2020-10-02 05:08:48 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:48 --> Input Class Initialized
+INFO - 2020-10-02 05:08:48 --> Language Class Initialized
+INFO - 2020-10-02 10:08:48 --> Loader Class Initialized
+INFO - 2020-10-02 10:08:48 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:08:48 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:08:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:08:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:08:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:08:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:08:48 --> Encryption Class Initialized
+INFO - 2020-10-02 10:08:48 --> Controller Class Initialized
+INFO - 2020-10-02 10:08:49 --> MY_Model class loaded
+INFO - 2020-10-02 10:08:49 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:08:49 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:08:49 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:08:49 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:08:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:08:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:08:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:08:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:08:49 --> Final output sent to browser
+DEBUG - 2020-10-02 10:08:49 --> Total execution time: 0.6555
+ERROR - 2020-10-02 05:08:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:08:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:08:49 --> Config Class Initialized
+INFO - 2020-10-02 05:08:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:49 --> URI Class Initialized
+INFO - 2020-10-02 05:08:49 --> Router Class Initialized
+INFO - 2020-10-02 05:08:49 --> Output Class Initialized
+INFO - 2020-10-02 05:08:49 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:49 --> Input Class Initialized
+INFO - 2020-10-02 05:08:49 --> Language Class Initialized
+ERROR - 2020-10-02 10:08:49 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:08:49 --> Config Class Initialized
+ERROR - 2020-10-02 05:08:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:08:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:08:49 --> Config Class Initialized
+INFO - 2020-10-02 05:08:49 --> Hooks Class Initialized
+INFO - 2020-10-02 05:08:49 --> Config Class Initialized
+INFO - 2020-10-02 05:08:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:49 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:49 --> URI Class Initialized
+INFO - 2020-10-02 05:08:49 --> URI Class Initialized
+INFO - 2020-10-02 05:08:49 --> Hooks Class Initialized
+INFO - 2020-10-02 05:08:49 --> Router Class Initialized
+INFO - 2020-10-02 05:08:49 --> Router Class Initialized
+INFO - 2020-10-02 05:08:49 --> Output Class Initialized
+INFO - 2020-10-02 05:08:49 --> Output Class Initialized
+INFO - 2020-10-02 05:08:49 --> Security Class Initialized
+INFO - 2020-10-02 05:08:49 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:49 --> Input Class Initialized
+INFO - 2020-10-02 05:08:49 --> Language Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:49 --> Input Class Initialized
+INFO - 2020-10-02 05:08:49 --> Language Class Initialized
+ERROR - 2020-10-02 10:08:49 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:08:49 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:08:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:49 --> URI Class Initialized
+INFO - 2020-10-02 05:08:49 --> Router Class Initialized
+INFO - 2020-10-02 05:08:49 --> Output Class Initialized
+INFO - 2020-10-02 05:08:49 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:49 --> Input Class Initialized
+INFO - 2020-10-02 05:08:49 --> Language Class Initialized
+ERROR - 2020-10-02 10:08:49 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:08:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:08:52 --> Config Class Initialized
+INFO - 2020-10-02 05:08:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:52 --> URI Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:08:52 --> Router Class Initialized
+INFO - 2020-10-02 05:08:52 --> Output Class Initialized
+INFO - 2020-10-02 05:08:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:52 --> Input Class Initialized
+INFO - 2020-10-02 05:08:52 --> Language Class Initialized
+INFO - 2020-10-02 10:08:52 --> Loader Class Initialized
+INFO - 2020-10-02 10:08:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:08:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:08:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:08:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:08:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:08:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:08:52 --> Encryption Class Initialized
+INFO - 2020-10-02 10:08:52 --> Controller Class Initialized
+INFO - 2020-10-02 10:08:52 --> MY_Model class loaded
+INFO - 2020-10-02 10:08:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:08:52 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:08:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:08:52 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:08:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:08:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:08:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:08:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:08:52 --> Final output sent to browser
+DEBUG - 2020-10-02 10:08:52 --> Total execution time: 0.5789
+ERROR - 2020-10-02 05:08:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:08:52 --> Config Class Initialized
+INFO - 2020-10-02 05:08:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:52 --> Utf8 Class Initialized
+ERROR - 2020-10-02 05:08:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:08:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:08:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:08:52 --> Config Class Initialized
+INFO - 2020-10-02 05:08:52 --> Config Class Initialized
+INFO - 2020-10-02 05:08:52 --> Hooks Class Initialized
+INFO - 2020-10-02 05:08:52 --> Config Class Initialized
+INFO - 2020-10-02 05:08:52 --> Hooks Class Initialized
+INFO - 2020-10-02 05:08:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:08:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:52 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:08:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:08:52 --> URI Class Initialized
+INFO - 2020-10-02 05:08:52 --> URI Class Initialized
+INFO - 2020-10-02 05:08:52 --> URI Class Initialized
+INFO - 2020-10-02 05:08:52 --> Router Class Initialized
+INFO - 2020-10-02 05:08:52 --> Router Class Initialized
+INFO - 2020-10-02 05:08:52 --> Router Class Initialized
+INFO - 2020-10-02 05:08:52 --> Output Class Initialized
+INFO - 2020-10-02 05:08:52 --> Output Class Initialized
+INFO - 2020-10-02 05:08:52 --> Security Class Initialized
+INFO - 2020-10-02 05:08:52 --> Output Class Initialized
+INFO - 2020-10-02 05:08:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:52 --> Security Class Initialized
+INFO - 2020-10-02 05:08:52 --> Input Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:52 --> Input Class Initialized
+INFO - 2020-10-02 05:08:52 --> Language Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:52 --> Input Class Initialized
+INFO - 2020-10-02 05:08:52 --> Language Class Initialized
+INFO - 2020-10-02 05:08:52 --> Language Class Initialized
+ERROR - 2020-10-02 10:08:52 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:08:52 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:08:52 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:08:52 --> URI Class Initialized
+INFO - 2020-10-02 05:08:52 --> Router Class Initialized
+INFO - 2020-10-02 05:08:52 --> Output Class Initialized
+INFO - 2020-10-02 05:08:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:08:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:08:52 --> Input Class Initialized
+INFO - 2020-10-02 05:08:52 --> Language Class Initialized
+ERROR - 2020-10-02 10:08:52 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:17:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:41 --> Config Class Initialized
+INFO - 2020-10-02 05:17:41 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:41 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:41 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:41 --> URI Class Initialized
+DEBUG - 2020-10-02 05:17:41 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:17:41 --> Router Class Initialized
+INFO - 2020-10-02 05:17:41 --> Output Class Initialized
+INFO - 2020-10-02 05:17:41 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:41 --> Input Class Initialized
+INFO - 2020-10-02 05:17:41 --> Language Class Initialized
+INFO - 2020-10-02 10:17:42 --> Loader Class Initialized
+INFO - 2020-10-02 10:17:42 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:17:42 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:17:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:17:42 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:17:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:17:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:17:42 --> Encryption Class Initialized
+INFO - 2020-10-02 10:17:42 --> Controller Class Initialized
+INFO - 2020-10-02 10:17:42 --> MY_Model class loaded
+INFO - 2020-10-02 10:17:42 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:17:42 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:17:42 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:17:42 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:17:42 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:17:42 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:17:42 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:17:42 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:17:42 --> Final output sent to browser
+DEBUG - 2020-10-02 10:17:42 --> Total execution time: 0.6696
+ERROR - 2020-10-02 05:17:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:17:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:42 --> Config Class Initialized
+INFO - 2020-10-02 05:17:42 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:42 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:42 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:42 --> URI Class Initialized
+ERROR - 2020-10-02 05:17:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:42 --> Router Class Initialized
+INFO - 2020-10-02 05:17:42 --> Config Class Initialized
+INFO - 2020-10-02 05:17:42 --> Hooks Class Initialized
+INFO - 2020-10-02 05:17:42 --> Output Class Initialized
+INFO - 2020-10-02 05:17:42 --> Security Class Initialized
+ERROR - 2020-10-02 05:17:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2020-10-02 05:17:42 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:42 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:17:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:42 --> Input Class Initialized
+INFO - 2020-10-02 05:17:42 --> Language Class Initialized
+INFO - 2020-10-02 05:17:42 --> URI Class Initialized
+INFO - 2020-10-02 05:17:42 --> Config Class Initialized
+INFO - 2020-10-02 05:17:42 --> Hooks Class Initialized
+INFO - 2020-10-02 05:17:42 --> Router Class Initialized
+ERROR - 2020-10-02 10:17:42 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:17:42 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:42 --> Output Class Initialized
+INFO - 2020-10-02 05:17:42 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:42 --> URI Class Initialized
+INFO - 2020-10-02 05:17:42 --> Security Class Initialized
+INFO - 2020-10-02 05:17:42 --> Config Class Initialized
+INFO - 2020-10-02 05:17:42 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:42 --> Input Class Initialized
+INFO - 2020-10-02 05:17:42 --> Language Class Initialized
+DEBUG - 2020-10-02 05:17:42 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:42 --> Utf8 Class Initialized
+ERROR - 2020-10-02 10:17:42 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:17:42 --> URI Class Initialized
+INFO - 2020-10-02 05:17:42 --> Router Class Initialized
+INFO - 2020-10-02 05:17:42 --> Output Class Initialized
+INFO - 2020-10-02 05:17:42 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:42 --> Input Class Initialized
+INFO - 2020-10-02 05:17:42 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:42 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:17:42 --> Router Class Initialized
+INFO - 2020-10-02 05:17:42 --> Output Class Initialized
+INFO - 2020-10-02 05:17:42 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:42 --> Input Class Initialized
+INFO - 2020-10-02 05:17:42 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:42 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:17:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:49 --> Config Class Initialized
+INFO - 2020-10-02 05:17:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:49 --> URI Class Initialized
+DEBUG - 2020-10-02 05:17:49 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:17:49 --> Router Class Initialized
+INFO - 2020-10-02 05:17:49 --> Output Class Initialized
+INFO - 2020-10-02 05:17:49 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:49 --> Input Class Initialized
+INFO - 2020-10-02 05:17:49 --> Language Class Initialized
+INFO - 2020-10-02 10:17:49 --> Loader Class Initialized
+INFO - 2020-10-02 10:17:49 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:17:49 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:17:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:17:50 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:17:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:17:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:17:50 --> Encryption Class Initialized
+INFO - 2020-10-02 10:17:50 --> Controller Class Initialized
+INFO - 2020-10-02 10:17:50 --> MY_Model class loaded
+INFO - 2020-10-02 10:17:50 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:17:50 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:17:50 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:17:50 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:17:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:17:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:17:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:17:50 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:17:50 --> Final output sent to browser
+DEBUG - 2020-10-02 10:17:50 --> Total execution time: 1.1961
+ERROR - 2020-10-02 05:17:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:50 --> Config Class Initialized
+INFO - 2020-10-02 05:17:50 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:17:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:17:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:50 --> Config Class Initialized
+ERROR - 2020-10-02 05:17:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:50 --> Hooks Class Initialized
+INFO - 2020-10-02 05:17:50 --> Config Class Initialized
+INFO - 2020-10-02 05:17:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:50 --> Config Class Initialized
+INFO - 2020-10-02 05:17:50 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:50 --> URI Class Initialized
+INFO - 2020-10-02 05:17:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:50 --> URI Class Initialized
+INFO - 2020-10-02 05:17:50 --> Router Class Initialized
+DEBUG - 2020-10-02 05:17:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:50 --> Router Class Initialized
+INFO - 2020-10-02 05:17:50 --> Output Class Initialized
+INFO - 2020-10-02 05:17:50 --> URI Class Initialized
+INFO - 2020-10-02 05:17:50 --> Security Class Initialized
+INFO - 2020-10-02 05:17:50 --> Router Class Initialized
+DEBUG - 2020-10-02 05:17:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:17:50 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:50 --> Input Class Initialized
+INFO - 2020-10-02 05:17:50 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:50 --> Language Class Initialized
+INFO - 2020-10-02 05:17:50 --> URI Class Initialized
+INFO - 2020-10-02 05:17:50 --> Output Class Initialized
+ERROR - 2020-10-02 10:17:50 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:17:50 --> Security Class Initialized
+INFO - 2020-10-02 05:17:50 --> Router Class Initialized
+DEBUG - 2020-10-02 05:17:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:50 --> Input Class Initialized
+INFO - 2020-10-02 05:17:50 --> Output Class Initialized
+INFO - 2020-10-02 05:17:50 --> Language Class Initialized
+INFO - 2020-10-02 05:17:50 --> Security Class Initialized
+ERROR - 2020-10-02 10:17:50 --> 404 Page Not Found: Images/tp.png
+DEBUG - 2020-10-02 05:17:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:50 --> Input Class Initialized
+INFO - 2020-10-02 05:17:50 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:50 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:17:50 --> Output Class Initialized
+INFO - 2020-10-02 05:17:50 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:51 --> Input Class Initialized
+INFO - 2020-10-02 05:17:51 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:51 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:17:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:52 --> Config Class Initialized
+INFO - 2020-10-02 05:17:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:52 --> URI Class Initialized
+DEBUG - 2020-10-02 05:17:52 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:17:52 --> Router Class Initialized
+INFO - 2020-10-02 05:17:52 --> Output Class Initialized
+INFO - 2020-10-02 05:17:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:52 --> Input Class Initialized
+INFO - 2020-10-02 05:17:52 --> Language Class Initialized
+INFO - 2020-10-02 10:17:52 --> Loader Class Initialized
+INFO - 2020-10-02 10:17:52 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:17:52 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:17:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:17:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:17:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:17:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:17:52 --> Encryption Class Initialized
+INFO - 2020-10-02 10:17:52 --> Controller Class Initialized
+INFO - 2020-10-02 10:17:52 --> MY_Model class loaded
+INFO - 2020-10-02 10:17:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:17:52 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:17:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:17:52 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:17:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:17:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:17:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:17:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:17:52 --> Final output sent to browser
+DEBUG - 2020-10-02 10:17:52 --> Total execution time: 0.8233
+ERROR - 2020-10-02 05:17:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:17:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:53 --> Config Class Initialized
+INFO - 2020-10-02 05:17:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:53 --> URI Class Initialized
+INFO - 2020-10-02 05:17:53 --> Router Class Initialized
+INFO - 2020-10-02 05:17:53 --> Output Class Initialized
+INFO - 2020-10-02 05:17:53 --> Config Class Initialized
+INFO - 2020-10-02 05:17:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:53 --> URI Class Initialized
+INFO - 2020-10-02 05:17:53 --> Router Class Initialized
+INFO - 2020-10-02 05:17:53 --> Output Class Initialized
+INFO - 2020-10-02 05:17:53 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:53 --> Input Class Initialized
+INFO - 2020-10-02 05:17:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:53 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:17:53 --> Security Class Initialized
+ERROR - 2020-10-02 05:17:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:17:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:17:53 --> Config Class Initialized
+INFO - 2020-10-02 05:17:53 --> Hooks Class Initialized
+INFO - 2020-10-02 05:17:53 --> Config Class Initialized
+INFO - 2020-10-02 05:17:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:17:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:53 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:17:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:17:53 --> URI Class Initialized
+INFO - 2020-10-02 05:17:53 --> URI Class Initialized
+INFO - 2020-10-02 05:17:53 --> Router Class Initialized
+INFO - 2020-10-02 05:17:53 --> Router Class Initialized
+INFO - 2020-10-02 05:17:53 --> Output Class Initialized
+INFO - 2020-10-02 05:17:53 --> Output Class Initialized
+INFO - 2020-10-02 05:17:53 --> Security Class Initialized
+INFO - 2020-10-02 05:17:53 --> Security Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:53 --> Input Class Initialized
+DEBUG - 2020-10-02 05:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:17:53 --> Input Class Initialized
+INFO - 2020-10-02 05:17:53 --> Language Class Initialized
+INFO - 2020-10-02 05:17:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:53 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:17:53 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:17:53 --> Input Class Initialized
+INFO - 2020-10-02 05:17:53 --> Language Class Initialized
+ERROR - 2020-10-02 10:17:53 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:19:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:19:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:13 --> Config Class Initialized
+INFO - 2020-10-02 05:19:13 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:13 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:13 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:13 --> URI Class Initialized
+INFO - 2020-10-02 05:19:13 --> Router Class Initialized
+INFO - 2020-10-02 05:19:13 --> Output Class Initialized
+INFO - 2020-10-02 05:19:13 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:13 --> Config Class Initialized
+INFO - 2020-10-02 05:19:13 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:13 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:13 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:13 --> URI Class Initialized
+INFO - 2020-10-02 05:19:13 --> Router Class Initialized
+INFO - 2020-10-02 05:19:13 --> Output Class Initialized
+INFO - 2020-10-02 05:19:13 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:13 --> Input Class Initialized
+INFO - 2020-10-02 05:19:13 --> Language Class Initialized
+ERROR - 2020-10-02 10:19:13 --> 404 Page Not Found: Assets/user
+INFO - 2020-10-02 05:19:13 --> Input Class Initialized
+INFO - 2020-10-02 05:19:13 --> Language Class Initialized
+ERROR - 2020-10-02 10:19:13 --> 404 Page Not Found: Assets/user
+ERROR - 2020-10-02 05:19:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:24 --> Config Class Initialized
+INFO - 2020-10-02 05:19:24 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:24 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:24 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:24 --> URI Class Initialized
+DEBUG - 2020-10-02 05:19:24 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:19:24 --> Router Class Initialized
+INFO - 2020-10-02 05:19:24 --> Output Class Initialized
+INFO - 2020-10-02 05:19:24 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:24 --> Input Class Initialized
+INFO - 2020-10-02 05:19:24 --> Language Class Initialized
+INFO - 2020-10-02 10:19:24 --> Loader Class Initialized
+INFO - 2020-10-02 10:19:24 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:19:24 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:19:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:19:24 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:19:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:19:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:19:24 --> Encryption Class Initialized
+INFO - 2020-10-02 10:19:24 --> Controller Class Initialized
+INFO - 2020-10-02 10:19:24 --> MY_Model class loaded
+INFO - 2020-10-02 10:19:24 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:19:24 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:19:24 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:19:24 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:19:24 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:19:24 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:19:24 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:19:25 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:19:25 --> Final output sent to browser
+DEBUG - 2020-10-02 10:19:25 --> Total execution time: 0.6197
+ERROR - 2020-10-02 05:19:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:19:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:19:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:25 --> Config Class Initialized
+INFO - 2020-10-02 05:19:25 --> Hooks Class Initialized
+INFO - 2020-10-02 05:19:25 --> Config Class Initialized
+INFO - 2020-10-02 05:19:25 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:19:25 --> UTF-8 Support Enabled
+ERROR - 2020-10-02 05:19:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:25 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:25 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:25 --> URI Class Initialized
+INFO - 2020-10-02 05:19:25 --> URI Class Initialized
+INFO - 2020-10-02 05:19:25 --> Config Class Initialized
+INFO - 2020-10-02 05:19:25 --> Hooks Class Initialized
+INFO - 2020-10-02 05:19:25 --> Router Class Initialized
+INFO - 2020-10-02 05:19:25 --> Router Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:25 --> Output Class Initialized
+INFO - 2020-10-02 05:19:25 --> Output Class Initialized
+INFO - 2020-10-02 05:19:25 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:25 --> URI Class Initialized
+INFO - 2020-10-02 05:19:25 --> Security Class Initialized
+INFO - 2020-10-02 05:19:25 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:25 --> Router Class Initialized
+INFO - 2020-10-02 05:19:25 --> Input Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:25 --> Input Class Initialized
+INFO - 2020-10-02 05:19:25 --> Language Class Initialized
+INFO - 2020-10-02 05:19:25 --> Language Class Initialized
+INFO - 2020-10-02 05:19:25 --> Output Class Initialized
+ERROR - 2020-10-02 10:19:25 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:19:25 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:19:25 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:25 --> Config Class Initialized
+INFO - 2020-10-02 05:19:25 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:25 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:25 --> URI Class Initialized
+INFO - 2020-10-02 05:19:25 --> Router Class Initialized
+INFO - 2020-10-02 05:19:25 --> Output Class Initialized
+INFO - 2020-10-02 05:19:25 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:25 --> Input Class Initialized
+INFO - 2020-10-02 05:19:25 --> Language Class Initialized
+ERROR - 2020-10-02 10:19:25 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:19:25 --> Input Class Initialized
+INFO - 2020-10-02 05:19:25 --> Language Class Initialized
+ERROR - 2020-10-02 10:19:25 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:19:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:28 --> Config Class Initialized
+INFO - 2020-10-02 05:19:28 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:28 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:28 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:28 --> URI Class Initialized
+DEBUG - 2020-10-02 05:19:28 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:19:28 --> Router Class Initialized
+INFO - 2020-10-02 05:19:28 --> Output Class Initialized
+INFO - 2020-10-02 05:19:28 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:28 --> Input Class Initialized
+INFO - 2020-10-02 05:19:28 --> Language Class Initialized
+INFO - 2020-10-02 10:19:28 --> Loader Class Initialized
+INFO - 2020-10-02 10:19:29 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:19:29 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:19:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:19:29 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:19:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:19:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:19:29 --> Encryption Class Initialized
+INFO - 2020-10-02 10:19:29 --> Controller Class Initialized
+INFO - 2020-10-02 10:19:29 --> MY_Model class loaded
+INFO - 2020-10-02 10:19:29 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:19:29 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:19:29 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:19:29 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:19:29 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:19:29 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:19:29 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:19:29 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:19:29 --> Final output sent to browser
+DEBUG - 2020-10-02 10:19:29 --> Total execution time: 0.6577
+ERROR - 2020-10-02 05:19:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:29 --> Config Class Initialized
+INFO - 2020-10-02 05:19:29 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:19:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:19:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:19:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:19:29 --> Config Class Initialized
+INFO - 2020-10-02 05:19:29 --> Hooks Class Initialized
+INFO - 2020-10-02 05:19:29 --> Config Class Initialized
+INFO - 2020-10-02 05:19:29 --> Hooks Class Initialized
+INFO - 2020-10-02 05:19:29 --> Config Class Initialized
+INFO - 2020-10-02 05:19:29 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:19:29 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:29 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:19:29 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:29 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:29 --> URI Class Initialized
+DEBUG - 2020-10-02 05:19:29 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:29 --> URI Class Initialized
+INFO - 2020-10-02 05:19:29 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:29 --> Router Class Initialized
+INFO - 2020-10-02 05:19:29 --> Router Class Initialized
+INFO - 2020-10-02 05:19:29 --> URI Class Initialized
+INFO - 2020-10-02 05:19:29 --> Output Class Initialized
+INFO - 2020-10-02 05:19:29 --> Router Class Initialized
+INFO - 2020-10-02 05:19:29 --> Output Class Initialized
+INFO - 2020-10-02 05:19:29 --> Security Class Initialized
+INFO - 2020-10-02 05:19:29 --> Security Class Initialized
+INFO - 2020-10-02 05:19:29 --> Output Class Initialized
+DEBUG - 2020-10-02 05:19:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:19:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:29 --> Input Class Initialized
+INFO - 2020-10-02 05:19:29 --> Input Class Initialized
+INFO - 2020-10-02 05:19:29 --> Security Class Initialized
+INFO - 2020-10-02 05:19:29 --> Language Class Initialized
+INFO - 2020-10-02 05:19:29 --> Language Class Initialized
+DEBUG - 2020-10-02 05:19:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:29 --> Input Class Initialized
+INFO - 2020-10-02 05:19:29 --> Language Class Initialized
+ERROR - 2020-10-02 10:19:29 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:19:29 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:19:29 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:19:29 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:19:29 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:19:29 --> URI Class Initialized
+INFO - 2020-10-02 05:19:29 --> Router Class Initialized
+INFO - 2020-10-02 05:19:29 --> Output Class Initialized
+INFO - 2020-10-02 05:19:29 --> Security Class Initialized
+DEBUG - 2020-10-02 05:19:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:19:29 --> Input Class Initialized
+INFO - 2020-10-02 05:19:29 --> Language Class Initialized
+ERROR - 2020-10-02 10:19:29 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:20:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:09 --> Config Class Initialized
+INFO - 2020-10-02 05:20:09 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:09 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:09 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:09 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:09 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:20:09 --> Router Class Initialized
+INFO - 2020-10-02 05:20:09 --> Output Class Initialized
+INFO - 2020-10-02 05:20:09 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:09 --> Input Class Initialized
+INFO - 2020-10-02 05:20:09 --> Language Class Initialized
+INFO - 2020-10-02 10:20:09 --> Loader Class Initialized
+INFO - 2020-10-02 10:20:10 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:20:10 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:20:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:20:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:20:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:20:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:20:10 --> Encryption Class Initialized
+INFO - 2020-10-02 10:20:10 --> Controller Class Initialized
+INFO - 2020-10-02 10:20:10 --> MY_Model class loaded
+INFO - 2020-10-02 10:20:10 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:20:10 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:20:10 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:20:10 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:20:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:20:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:20:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:20:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:20:10 --> Final output sent to browser
+DEBUG - 2020-10-02 10:20:10 --> Total execution time: 1.1355
+ERROR - 2020-10-02 05:20:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:10 --> Config Class Initialized
+INFO - 2020-10-02 05:20:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:10 --> URI Class Initialized
+INFO - 2020-10-02 05:20:10 --> Router Class Initialized
+INFO - 2020-10-02 05:20:10 --> Output Class Initialized
+INFO - 2020-10-02 05:20:10 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:10 --> Input Class Initialized
+INFO - 2020-10-02 05:20:10 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:10 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:20:10 --> Config Class Initialized
+INFO - 2020-10-02 05:20:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:10 --> URI Class Initialized
+INFO - 2020-10-02 05:20:10 --> Router Class Initialized
+INFO - 2020-10-02 05:20:10 --> Output Class Initialized
+INFO - 2020-10-02 05:20:10 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:10 --> Input Class Initialized
+INFO - 2020-10-02 05:20:10 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:10 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:20:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:10 --> Config Class Initialized
+INFO - 2020-10-02 05:20:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:10 --> URI Class Initialized
+INFO - 2020-10-02 05:20:10 --> Router Class Initialized
+INFO - 2020-10-02 05:20:10 --> Output Class Initialized
+INFO - 2020-10-02 05:20:10 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:10 --> Input Class Initialized
+INFO - 2020-10-02 05:20:10 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:10 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:20:10 --> Config Class Initialized
+INFO - 2020-10-02 05:20:11 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:11 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:11 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:11 --> URI Class Initialized
+INFO - 2020-10-02 05:20:11 --> Router Class Initialized
+INFO - 2020-10-02 05:20:11 --> Output Class Initialized
+INFO - 2020-10-02 05:20:11 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:11 --> Input Class Initialized
+INFO - 2020-10-02 05:20:11 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:11 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:20:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:13 --> Config Class Initialized
+INFO - 2020-10-02 05:20:13 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:13 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:13 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:13 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:13 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:20:13 --> Router Class Initialized
+INFO - 2020-10-02 05:20:13 --> Output Class Initialized
+INFO - 2020-10-02 05:20:13 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:13 --> Input Class Initialized
+INFO - 2020-10-02 05:20:13 --> Language Class Initialized
+INFO - 2020-10-02 10:20:14 --> Loader Class Initialized
+INFO - 2020-10-02 10:20:14 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:20:14 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:20:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:20:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:20:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:20:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:20:14 --> Encryption Class Initialized
+INFO - 2020-10-02 10:20:14 --> Controller Class Initialized
+INFO - 2020-10-02 10:20:14 --> MY_Model class loaded
+INFO - 2020-10-02 10:20:14 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:20:14 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:20:14 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:20:14 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:20:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:20:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:20:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:20:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:20:14 --> Final output sent to browser
+DEBUG - 2020-10-02 10:20:14 --> Total execution time: 0.9781
+ERROR - 2020-10-02 05:20:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:14 --> Config Class Initialized
+INFO - 2020-10-02 05:20:14 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:20:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:14 --> Config Class Initialized
+INFO - 2020-10-02 05:20:14 --> Hooks Class Initialized
+INFO - 2020-10-02 05:20:14 --> Config Class Initialized
+INFO - 2020-10-02 05:20:14 --> Config Class Initialized
+INFO - 2020-10-02 05:20:14 --> Hooks Class Initialized
+INFO - 2020-10-02 05:20:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:14 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:20:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:14 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:20:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:14 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:14 --> URI Class Initialized
+INFO - 2020-10-02 05:20:14 --> URI Class Initialized
+INFO - 2020-10-02 05:20:14 --> Router Class Initialized
+INFO - 2020-10-02 05:20:14 --> Router Class Initialized
+INFO - 2020-10-02 05:20:15 --> Router Class Initialized
+INFO - 2020-10-02 05:20:15 --> Output Class Initialized
+INFO - 2020-10-02 05:20:15 --> Output Class Initialized
+INFO - 2020-10-02 05:20:15 --> Output Class Initialized
+INFO - 2020-10-02 05:20:15 --> Security Class Initialized
+INFO - 2020-10-02 05:20:15 --> Security Class Initialized
+INFO - 2020-10-02 05:20:15 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:20:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:15 --> Input Class Initialized
+DEBUG - 2020-10-02 05:20:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:15 --> Input Class Initialized
+INFO - 2020-10-02 05:20:15 --> Input Class Initialized
+INFO - 2020-10-02 05:20:15 --> Language Class Initialized
+INFO - 2020-10-02 05:20:15 --> Language Class Initialized
+INFO - 2020-10-02 05:20:15 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:15 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:20:15 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:20:15 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:20:15 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:15 --> URI Class Initialized
+INFO - 2020-10-02 05:20:15 --> Router Class Initialized
+INFO - 2020-10-02 05:20:15 --> Output Class Initialized
+INFO - 2020-10-02 05:20:15 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:15 --> Input Class Initialized
+INFO - 2020-10-02 05:20:15 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:15 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:20:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:38 --> Config Class Initialized
+INFO - 2020-10-02 05:20:38 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:38 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:38 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:38 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:38 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:20:38 --> Router Class Initialized
+INFO - 2020-10-02 05:20:38 --> Output Class Initialized
+INFO - 2020-10-02 05:20:38 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:38 --> Input Class Initialized
+INFO - 2020-10-02 05:20:38 --> Language Class Initialized
+INFO - 2020-10-02 10:20:38 --> Loader Class Initialized
+INFO - 2020-10-02 10:20:38 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:20:38 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:20:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:20:38 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:20:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:20:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:20:38 --> Encryption Class Initialized
+INFO - 2020-10-02 10:20:38 --> Controller Class Initialized
+INFO - 2020-10-02 10:20:38 --> MY_Model class loaded
+INFO - 2020-10-02 10:20:38 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:20:38 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:20:38 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:20:39 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:20:39 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:20:39 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:20:39 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:20:39 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:20:39 --> Final output sent to browser
+DEBUG - 2020-10-02 10:20:39 --> Total execution time: 1.0152
+ERROR - 2020-10-02 05:20:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:39 --> Config Class Initialized
+INFO - 2020-10-02 05:20:39 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:39 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:39 --> URI Class Initialized
+INFO - 2020-10-02 05:20:39 --> Config Class Initialized
+INFO - 2020-10-02 05:20:39 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:39 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:39 --> URI Class Initialized
+INFO - 2020-10-02 05:20:39 --> Router Class Initialized
+INFO - 2020-10-02 05:20:39 --> Output Class Initialized
+INFO - 2020-10-02 05:20:39 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:39 --> Input Class Initialized
+INFO - 2020-10-02 05:20:39 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:39 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:20:39 --> Router Class Initialized
+ERROR - 2020-10-02 05:20:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:39 --> Config Class Initialized
+INFO - 2020-10-02 05:20:39 --> Config Class Initialized
+INFO - 2020-10-02 05:20:39 --> Hooks Class Initialized
+INFO - 2020-10-02 05:20:39 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:39 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:39 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:39 --> URI Class Initialized
+INFO - 2020-10-02 05:20:39 --> URI Class Initialized
+INFO - 2020-10-02 05:20:39 --> Router Class Initialized
+INFO - 2020-10-02 05:20:39 --> Router Class Initialized
+INFO - 2020-10-02 05:20:39 --> Output Class Initialized
+INFO - 2020-10-02 05:20:39 --> Security Class Initialized
+INFO - 2020-10-02 05:20:39 --> Output Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:39 --> Input Class Initialized
+INFO - 2020-10-02 05:20:39 --> Security Class Initialized
+INFO - 2020-10-02 05:20:39 --> Language Class Initialized
+INFO - 2020-10-02 05:20:39 --> Output Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:39 --> Input Class Initialized
+INFO - 2020-10-02 05:20:39 --> Language Class Initialized
+INFO - 2020-10-02 05:20:39 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-10-02 10:20:39 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:20:39 --> Input Class Initialized
+INFO - 2020-10-02 05:20:39 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:39 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:20:39 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:20:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:53 --> Config Class Initialized
+INFO - 2020-10-02 05:20:53 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:53 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:53 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:53 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:54 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:20:54 --> Router Class Initialized
+INFO - 2020-10-02 05:20:54 --> Output Class Initialized
+INFO - 2020-10-02 05:20:54 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:54 --> Input Class Initialized
+INFO - 2020-10-02 05:20:54 --> Language Class Initialized
+INFO - 2020-10-02 10:20:54 --> Loader Class Initialized
+INFO - 2020-10-02 10:20:54 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:20:54 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:20:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:20:54 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:20:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:20:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:20:54 --> Encryption Class Initialized
+INFO - 2020-10-02 10:20:54 --> Controller Class Initialized
+INFO - 2020-10-02 10:20:54 --> MY_Model class loaded
+INFO - 2020-10-02 10:20:54 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:20:54 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:20:54 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:20:54 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:20:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:20:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:20:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:20:54 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:20:54 --> Final output sent to browser
+DEBUG - 2020-10-02 10:20:54 --> Total execution time: 1.1498
+ERROR - 2020-10-02 05:20:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:55 --> Config Class Initialized
+INFO - 2020-10-02 05:20:55 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:20:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:55 --> Config Class Initialized
+INFO - 2020-10-02 05:20:55 --> Config Class Initialized
+INFO - 2020-10-02 05:20:55 --> Hooks Class Initialized
+INFO - 2020-10-02 05:20:55 --> Config Class Initialized
+INFO - 2020-10-02 05:20:55 --> Hooks Class Initialized
+INFO - 2020-10-02 05:20:55 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:55 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:20:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:55 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:20:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:55 --> URI Class Initialized
+INFO - 2020-10-02 05:20:55 --> URI Class Initialized
+INFO - 2020-10-02 05:20:55 --> URI Class Initialized
+INFO - 2020-10-02 05:20:55 --> Router Class Initialized
+INFO - 2020-10-02 05:20:55 --> Router Class Initialized
+DEBUG - 2020-10-02 05:20:55 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:55 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:55 --> Output Class Initialized
+INFO - 2020-10-02 05:20:55 --> Output Class Initialized
+INFO - 2020-10-02 05:20:55 --> URI Class Initialized
+INFO - 2020-10-02 05:20:55 --> Security Class Initialized
+INFO - 2020-10-02 05:20:55 --> Security Class Initialized
+INFO - 2020-10-02 05:20:55 --> Router Class Initialized
+DEBUG - 2020-10-02 05:20:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:20:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:55 --> Input Class Initialized
+INFO - 2020-10-02 05:20:55 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:55 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:20:55 --> Output Class Initialized
+INFO - 2020-10-02 05:20:55 --> Input Class Initialized
+INFO - 2020-10-02 05:20:55 --> Language Class Initialized
+INFO - 2020-10-02 05:20:55 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:55 --> Input Class Initialized
+ERROR - 2020-10-02 10:20:55 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:20:55 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:55 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:20:55 --> Router Class Initialized
+INFO - 2020-10-02 05:20:55 --> Output Class Initialized
+INFO - 2020-10-02 05:20:55 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:55 --> Input Class Initialized
+INFO - 2020-10-02 05:20:55 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:55 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:20:56 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:56 --> Config Class Initialized
+INFO - 2020-10-02 05:20:56 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:56 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:56 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:56 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:56 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:20:56 --> Router Class Initialized
+INFO - 2020-10-02 05:20:56 --> Output Class Initialized
+INFO - 2020-10-02 05:20:56 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:56 --> Input Class Initialized
+INFO - 2020-10-02 05:20:56 --> Language Class Initialized
+INFO - 2020-10-02 10:20:56 --> Loader Class Initialized
+INFO - 2020-10-02 10:20:56 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:20:56 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:20:56 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:20:56 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:20:56 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:20:56 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:20:56 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:20:57 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:20:57 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:20:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:20:57 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:20:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:20:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:20:57 --> Encryption Class Initialized
+INFO - 2020-10-02 10:20:57 --> Controller Class Initialized
+INFO - 2020-10-02 10:20:57 --> MY_Model class loaded
+INFO - 2020-10-02 10:20:57 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:20:57 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:20:57 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:20:57 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:20:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:20:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:20:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:20:57 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:20:57 --> Final output sent to browser
+DEBUG - 2020-10-02 10:20:57 --> Total execution time: 1.0856
+ERROR - 2020-10-02 05:20:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:57 --> Config Class Initialized
+INFO - 2020-10-02 05:20:57 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:57 --> URI Class Initialized
+INFO - 2020-10-02 05:20:57 --> Router Class Initialized
+INFO - 2020-10-02 05:20:57 --> Output Class Initialized
+INFO - 2020-10-02 05:20:57 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:57 --> Input Class Initialized
+INFO - 2020-10-02 05:20:57 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:57 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:20:57 --> Config Class Initialized
+INFO - 2020-10-02 05:20:57 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:20:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:20:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:20:57 --> Config Class Initialized
+INFO - 2020-10-02 05:20:57 --> Config Class Initialized
+INFO - 2020-10-02 05:20:57 --> Hooks Class Initialized
+INFO - 2020-10-02 05:20:57 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:57 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:57 --> URI Class Initialized
+INFO - 2020-10-02 05:20:57 --> URI Class Initialized
+INFO - 2020-10-02 05:20:57 --> Router Class Initialized
+INFO - 2020-10-02 05:20:57 --> Router Class Initialized
+INFO - 2020-10-02 05:20:57 --> Output Class Initialized
+INFO - 2020-10-02 05:20:57 --> Output Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:20:57 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:20:57 --> Security Class Initialized
+INFO - 2020-10-02 05:20:57 --> URI Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:57 --> Input Class Initialized
+INFO - 2020-10-02 05:20:57 --> Language Class Initialized
+INFO - 2020-10-02 05:20:57 --> Router Class Initialized
+ERROR - 2020-10-02 10:20:57 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:20:57 --> Output Class Initialized
+INFO - 2020-10-02 05:20:57 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:57 --> Input Class Initialized
+INFO - 2020-10-02 05:20:57 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:57 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:20:57 --> Security Class Initialized
+DEBUG - 2020-10-02 05:20:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:20:58 --> Input Class Initialized
+INFO - 2020-10-02 05:20:58 --> Language Class Initialized
+ERROR - 2020-10-02 10:20:58 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:21:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:21:30 --> Config Class Initialized
+INFO - 2020-10-02 05:21:30 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:21:30 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:30 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:30 --> URI Class Initialized
+DEBUG - 2020-10-02 05:21:30 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:21:30 --> Router Class Initialized
+INFO - 2020-10-02 05:21:31 --> Output Class Initialized
+INFO - 2020-10-02 05:21:31 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:31 --> Input Class Initialized
+INFO - 2020-10-02 05:21:31 --> Language Class Initialized
+INFO - 2020-10-02 10:21:31 --> Loader Class Initialized
+INFO - 2020-10-02 10:21:31 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:21:31 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:21:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:21:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:21:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:21:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:21:31 --> Encryption Class Initialized
+INFO - 2020-10-02 10:21:31 --> Controller Class Initialized
+INFO - 2020-10-02 10:21:31 --> MY_Model class loaded
+INFO - 2020-10-02 10:21:31 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:21:31 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:21:31 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:21:31 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:21:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:21:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:21:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:21:31 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:21:31 --> Final output sent to browser
+DEBUG - 2020-10-02 10:21:31 --> Total execution time: 1.0013
+ERROR - 2020-10-02 05:21:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:21:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:21:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:21:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:21:32 --> Config Class Initialized
+INFO - 2020-10-02 05:21:32 --> Hooks Class Initialized
+INFO - 2020-10-02 05:21:32 --> Config Class Initialized
+INFO - 2020-10-02 05:21:32 --> Config Class Initialized
+INFO - 2020-10-02 05:21:32 --> Hooks Class Initialized
+INFO - 2020-10-02 05:21:32 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:32 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:32 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:32 --> URI Class Initialized
+INFO - 2020-10-02 05:21:32 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:32 --> URI Class Initialized
+INFO - 2020-10-02 05:21:32 --> URI Class Initialized
+INFO - 2020-10-02 05:21:32 --> Router Class Initialized
+INFO - 2020-10-02 05:21:32 --> Router Class Initialized
+INFO - 2020-10-02 05:21:32 --> Router Class Initialized
+INFO - 2020-10-02 05:21:32 --> Output Class Initialized
+INFO - 2020-10-02 05:21:32 --> Output Class Initialized
+INFO - 2020-10-02 05:21:32 --> Output Class Initialized
+INFO - 2020-10-02 05:21:32 --> Security Class Initialized
+INFO - 2020-10-02 05:21:32 --> Security Class Initialized
+INFO - 2020-10-02 05:21:32 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:21:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:32 --> Input Class Initialized
+INFO - 2020-10-02 05:21:32 --> Input Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:32 --> Input Class Initialized
+INFO - 2020-10-02 05:21:32 --> Language Class Initialized
+INFO - 2020-10-02 05:21:32 --> Language Class Initialized
+INFO - 2020-10-02 05:21:32 --> Language Class Initialized
+ERROR - 2020-10-02 10:21:32 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:21:32 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:21:32 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:21:32 --> Config Class Initialized
+INFO - 2020-10-02 05:21:32 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:32 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:32 --> URI Class Initialized
+INFO - 2020-10-02 05:21:32 --> Router Class Initialized
+INFO - 2020-10-02 05:21:32 --> Output Class Initialized
+INFO - 2020-10-02 05:21:32 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:32 --> Input Class Initialized
+INFO - 2020-10-02 05:21:32 --> Language Class Initialized
+ERROR - 2020-10-02 10:21:32 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:21:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:21:51 --> Config Class Initialized
+INFO - 2020-10-02 05:21:51 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:21:51 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:51 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:51 --> URI Class Initialized
+DEBUG - 2020-10-02 05:21:51 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:21:51 --> Router Class Initialized
+INFO - 2020-10-02 05:21:51 --> Output Class Initialized
+INFO - 2020-10-02 05:21:51 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:51 --> Input Class Initialized
+INFO - 2020-10-02 05:21:51 --> Language Class Initialized
+INFO - 2020-10-02 10:21:51 --> Loader Class Initialized
+INFO - 2020-10-02 10:21:51 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:21:51 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:21:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:21:52 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:21:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:21:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:21:52 --> Encryption Class Initialized
+INFO - 2020-10-02 10:21:52 --> Controller Class Initialized
+INFO - 2020-10-02 10:21:52 --> MY_Model class loaded
+INFO - 2020-10-02 10:21:52 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:21:52 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:21:52 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:21:52 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:21:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:21:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:21:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:21:52 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:21:52 --> Final output sent to browser
+DEBUG - 2020-10-02 10:21:52 --> Total execution time: 0.9360
+ERROR - 2020-10-02 05:21:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:21:52 --> Config Class Initialized
+INFO - 2020-10-02 05:21:52 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:21:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:21:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:21:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:21:52 --> Config Class Initialized
+INFO - 2020-10-02 05:21:52 --> Config Class Initialized
+INFO - 2020-10-02 05:21:52 --> Hooks Class Initialized
+INFO - 2020-10-02 05:21:52 --> Hooks Class Initialized
+INFO - 2020-10-02 05:21:52 --> Config Class Initialized
+INFO - 2020-10-02 05:21:52 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:21:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:52 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:52 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:52 --> URI Class Initialized
+INFO - 2020-10-02 05:21:52 --> URI Class Initialized
+INFO - 2020-10-02 05:21:52 --> URI Class Initialized
+INFO - 2020-10-02 05:21:52 --> Router Class Initialized
+INFO - 2020-10-02 05:21:52 --> Router Class Initialized
+INFO - 2020-10-02 05:21:52 --> Router Class Initialized
+INFO - 2020-10-02 05:21:52 --> Output Class Initialized
+INFO - 2020-10-02 05:21:52 --> Output Class Initialized
+INFO - 2020-10-02 05:21:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:52 --> Security Class Initialized
+INFO - 2020-10-02 05:21:52 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:52 --> Input Class Initialized
+INFO - 2020-10-02 05:21:52 --> URI Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:52 --> Language Class Initialized
+INFO - 2020-10-02 05:21:52 --> Input Class Initialized
+INFO - 2020-10-02 05:21:52 --> Language Class Initialized
+INFO - 2020-10-02 05:21:52 --> Router Class Initialized
+ERROR - 2020-10-02 10:21:52 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:21:52 --> Output Class Initialized
+ERROR - 2020-10-02 10:21:52 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:21:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:52 --> Input Class Initialized
+INFO - 2020-10-02 05:21:52 --> Language Class Initialized
+ERROR - 2020-10-02 10:21:52 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:21:52 --> Output Class Initialized
+INFO - 2020-10-02 05:21:52 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:52 --> Input Class Initialized
+INFO - 2020-10-02 05:21:52 --> Language Class Initialized
+ERROR - 2020-10-02 10:21:52 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:21:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:21:59 --> Config Class Initialized
+INFO - 2020-10-02 05:21:59 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:21:59 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:21:59 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:21:59 --> URI Class Initialized
+DEBUG - 2020-10-02 05:21:59 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:21:59 --> Router Class Initialized
+INFO - 2020-10-02 05:21:59 --> Output Class Initialized
+INFO - 2020-10-02 05:21:59 --> Security Class Initialized
+DEBUG - 2020-10-02 05:21:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:21:59 --> Input Class Initialized
+INFO - 2020-10-02 05:21:59 --> Language Class Initialized
+INFO - 2020-10-02 10:21:59 --> Loader Class Initialized
+INFO - 2020-10-02 10:21:59 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:21:59 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:21:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:21:59 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:22:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:22:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:22:00 --> Encryption Class Initialized
+INFO - 2020-10-02 10:22:00 --> Controller Class Initialized
+INFO - 2020-10-02 10:22:00 --> MY_Model class loaded
+INFO - 2020-10-02 10:22:00 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:22:00 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:22:00 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:22:00 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:22:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:22:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:22:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:22:00 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:22:00 --> Final output sent to browser
+DEBUG - 2020-10-02 10:22:00 --> Total execution time: 0.8463
+ERROR - 2020-10-02 05:22:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:00 --> Config Class Initialized
+INFO - 2020-10-02 05:22:00 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:00 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:00 --> URI Class Initialized
+INFO - 2020-10-02 05:22:00 --> Router Class Initialized
+INFO - 2020-10-02 05:22:00 --> Output Class Initialized
+INFO - 2020-10-02 05:22:00 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:00 --> Input Class Initialized
+INFO - 2020-10-02 05:22:00 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:00 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:22:00 --> Config Class Initialized
+INFO - 2020-10-02 05:22:00 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:22:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:00 --> Config Class Initialized
+INFO - 2020-10-02 05:22:00 --> Config Class Initialized
+INFO - 2020-10-02 05:22:00 --> Hooks Class Initialized
+INFO - 2020-10-02 05:22:00 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:00 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:22:00 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:00 --> URI Class Initialized
+INFO - 2020-10-02 05:22:00 --> URI Class Initialized
+INFO - 2020-10-02 05:22:00 --> Router Class Initialized
+INFO - 2020-10-02 05:22:00 --> Router Class Initialized
+INFO - 2020-10-02 05:22:00 --> Output Class Initialized
+INFO - 2020-10-02 05:22:00 --> Output Class Initialized
+INFO - 2020-10-02 05:22:00 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:00 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:22:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:00 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:00 --> Input Class Initialized
+INFO - 2020-10-02 05:22:00 --> Language Class Initialized
+INFO - 2020-10-02 05:22:00 --> URI Class Initialized
+INFO - 2020-10-02 05:22:00 --> Router Class Initialized
+ERROR - 2020-10-02 10:22:00 --> 404 Page Not Found: Images/tp.png
+INFO - 2020-10-02 05:22:00 --> Output Class Initialized
+INFO - 2020-10-02 05:22:00 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:00 --> Input Class Initialized
+INFO - 2020-10-02 05:22:00 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:00 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:22:00 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:00 --> Input Class Initialized
+INFO - 2020-10-02 05:22:00 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:00 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:22:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:09 --> Config Class Initialized
+INFO - 2020-10-02 05:22:09 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:09 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:09 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:09 --> URI Class Initialized
+DEBUG - 2020-10-02 05:22:09 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:22:09 --> Router Class Initialized
+INFO - 2020-10-02 05:22:09 --> Output Class Initialized
+INFO - 2020-10-02 05:22:09 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:09 --> Input Class Initialized
+INFO - 2020-10-02 05:22:09 --> Language Class Initialized
+INFO - 2020-10-02 10:22:09 --> Loader Class Initialized
+INFO - 2020-10-02 10:22:09 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:22:09 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:22:10 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:22:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:22:10 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:22:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:22:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:22:10 --> Encryption Class Initialized
+INFO - 2020-10-02 10:22:10 --> Controller Class Initialized
+INFO - 2020-10-02 10:22:10 --> MY_Model class loaded
+INFO - 2020-10-02 10:22:10 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:22:10 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:22:10 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:22:10 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:22:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:22:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:22:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:22:10 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:22:10 --> Final output sent to browser
+DEBUG - 2020-10-02 10:22:10 --> Total execution time: 0.9118
+ERROR - 2020-10-02 05:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:10 --> Config Class Initialized
+INFO - 2020-10-02 05:22:10 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:10 --> Config Class Initialized
+INFO - 2020-10-02 05:22:10 --> Hooks Class Initialized
+INFO - 2020-10-02 05:22:10 --> Config Class Initialized
+INFO - 2020-10-02 05:22:10 --> Config Class Initialized
+INFO - 2020-10-02 05:22:10 --> Hooks Class Initialized
+INFO - 2020-10-02 05:22:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:10 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:22:10 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:22:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:10 --> URI Class Initialized
+INFO - 2020-10-02 05:22:10 --> URI Class Initialized
+INFO - 2020-10-02 05:22:10 --> URI Class Initialized
+INFO - 2020-10-02 05:22:10 --> Router Class Initialized
+INFO - 2020-10-02 05:22:10 --> Router Class Initialized
+INFO - 2020-10-02 05:22:10 --> Router Class Initialized
+INFO - 2020-10-02 05:22:10 --> Output Class Initialized
+INFO - 2020-10-02 05:22:10 --> Output Class Initialized
+INFO - 2020-10-02 05:22:10 --> Output Class Initialized
+INFO - 2020-10-02 05:22:10 --> Security Class Initialized
+INFO - 2020-10-02 05:22:10 --> Security Class Initialized
+INFO - 2020-10-02 05:22:10 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:10 --> Input Class Initialized
+DEBUG - 2020-10-02 05:22:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:10 --> Input Class Initialized
+INFO - 2020-10-02 05:22:10 --> Input Class Initialized
+INFO - 2020-10-02 05:22:10 --> Language Class Initialized
+INFO - 2020-10-02 05:22:10 --> Language Class Initialized
+INFO - 2020-10-02 05:22:10 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:10 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:22:10 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:22:10 --> 404 Page Not Found: Upload/testimonials
+DEBUG - 2020-10-02 05:22:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:10 --> URI Class Initialized
+INFO - 2020-10-02 05:22:10 --> Router Class Initialized
+INFO - 2020-10-02 05:22:10 --> Output Class Initialized
+INFO - 2020-10-02 05:22:10 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:10 --> Input Class Initialized
+INFO - 2020-10-02 05:22:10 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:10 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:22:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:13 --> Config Class Initialized
+INFO - 2020-10-02 05:22:13 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:13 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:13 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:13 --> URI Class Initialized
+DEBUG - 2020-10-02 05:22:13 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:22:13 --> Router Class Initialized
+INFO - 2020-10-02 05:22:13 --> Output Class Initialized
+INFO - 2020-10-02 05:22:13 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:13 --> Input Class Initialized
+INFO - 2020-10-02 05:22:13 --> Language Class Initialized
+INFO - 2020-10-02 10:22:13 --> Loader Class Initialized
+INFO - 2020-10-02 10:22:13 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:22:13 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:22:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:22:13 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:22:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:22:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:22:13 --> Encryption Class Initialized
+INFO - 2020-10-02 10:22:13 --> Controller Class Initialized
+INFO - 2020-10-02 10:22:13 --> MY_Model class loaded
+INFO - 2020-10-02 10:22:13 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:22:13 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:22:13 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:22:14 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:22:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:22:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:22:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:22:14 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:22:14 --> Final output sent to browser
+DEBUG - 2020-10-02 10:22:14 --> Total execution time: 0.8390
+ERROR - 2020-10-02 05:22:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:14 --> Config Class Initialized
+INFO - 2020-10-02 05:22:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:14 --> URI Class Initialized
+INFO - 2020-10-02 05:22:14 --> Router Class Initialized
+INFO - 2020-10-02 05:22:14 --> Output Class Initialized
+INFO - 2020-10-02 05:22:14 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:14 --> Input Class Initialized
+INFO - 2020-10-02 05:22:14 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:14 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:22:14 --> Config Class Initialized
+INFO - 2020-10-02 05:22:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:14 --> URI Class Initialized
+INFO - 2020-10-02 05:22:14 --> Router Class Initialized
+INFO - 2020-10-02 05:22:14 --> Output Class Initialized
+INFO - 2020-10-02 05:22:14 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:14 --> Input Class Initialized
+INFO - 2020-10-02 05:22:14 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:14 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:22:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:14 --> Config Class Initialized
+INFO - 2020-10-02 05:22:14 --> Config Class Initialized
+INFO - 2020-10-02 05:22:14 --> Hooks Class Initialized
+INFO - 2020-10-02 05:22:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:22:14 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:14 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:14 --> URI Class Initialized
+INFO - 2020-10-02 05:22:14 --> URI Class Initialized
+INFO - 2020-10-02 05:22:14 --> Router Class Initialized
+INFO - 2020-10-02 05:22:14 --> Output Class Initialized
+INFO - 2020-10-02 05:22:14 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:14 --> Input Class Initialized
+INFO - 2020-10-02 05:22:14 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:14 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:22:14 --> Router Class Initialized
+INFO - 2020-10-02 05:22:14 --> Output Class Initialized
+INFO - 2020-10-02 05:22:14 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:14 --> Input Class Initialized
+INFO - 2020-10-02 05:22:14 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:14 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:22:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:48 --> Config Class Initialized
+INFO - 2020-10-02 05:22:48 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:48 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:48 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:48 --> URI Class Initialized
+DEBUG - 2020-10-02 05:22:48 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:22:48 --> Router Class Initialized
+INFO - 2020-10-02 05:22:48 --> Output Class Initialized
+INFO - 2020-10-02 05:22:48 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:48 --> Input Class Initialized
+INFO - 2020-10-02 05:22:48 --> Language Class Initialized
+INFO - 2020-10-02 10:22:48 --> Loader Class Initialized
+INFO - 2020-10-02 10:22:48 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:22:48 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:22:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:22:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:22:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:22:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:22:48 --> Encryption Class Initialized
+INFO - 2020-10-02 10:22:48 --> Controller Class Initialized
+INFO - 2020-10-02 10:22:48 --> MY_Model class loaded
+INFO - 2020-10-02 10:22:48 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:22:48 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:22:48 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:22:48 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:22:48 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:22:48 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:22:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:22:49 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:22:49 --> Final output sent to browser
+DEBUG - 2020-10-02 10:22:49 --> Total execution time: 0.9801
+ERROR - 2020-10-02 05:22:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:22:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:22:49 --> Config Class Initialized
+INFO - 2020-10-02 05:22:49 --> Config Class Initialized
+INFO - 2020-10-02 05:22:49 --> Hooks Class Initialized
+INFO - 2020-10-02 05:22:49 --> Config Class Initialized
+INFO - 2020-10-02 05:22:49 --> Hooks Class Initialized
+INFO - 2020-10-02 05:22:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:49 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:49 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:49 --> URI Class Initialized
+INFO - 2020-10-02 05:22:49 --> URI Class Initialized
+INFO - 2020-10-02 05:22:49 --> URI Class Initialized
+INFO - 2020-10-02 05:22:49 --> Router Class Initialized
+INFO - 2020-10-02 05:22:49 --> Router Class Initialized
+INFO - 2020-10-02 05:22:49 --> Router Class Initialized
+INFO - 2020-10-02 05:22:49 --> Output Class Initialized
+INFO - 2020-10-02 05:22:49 --> Output Class Initialized
+INFO - 2020-10-02 05:22:49 --> Output Class Initialized
+INFO - 2020-10-02 05:22:49 --> Security Class Initialized
+INFO - 2020-10-02 05:22:49 --> Security Class Initialized
+INFO - 2020-10-02 05:22:49 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-10-02 05:22:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:49 --> Input Class Initialized
+INFO - 2020-10-02 05:22:49 --> Input Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:49 --> Language Class Initialized
+INFO - 2020-10-02 05:22:49 --> Language Class Initialized
+INFO - 2020-10-02 05:22:49 --> Input Class Initialized
+INFO - 2020-10-02 05:22:49 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:49 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 10:22:49 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:22:49 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:22:49 --> Config Class Initialized
+INFO - 2020-10-02 05:22:49 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:22:49 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:22:49 --> URI Class Initialized
+INFO - 2020-10-02 05:22:49 --> Router Class Initialized
+INFO - 2020-10-02 05:22:49 --> Output Class Initialized
+INFO - 2020-10-02 05:22:49 --> Security Class Initialized
+DEBUG - 2020-10-02 05:22:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:22:49 --> Input Class Initialized
+INFO - 2020-10-02 05:22:49 --> Language Class Initialized
+ERROR - 2020-10-02 10:22:49 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:23:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:01 --> Config Class Initialized
+INFO - 2020-10-02 05:23:01 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:01 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:01 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:01 --> URI Class Initialized
+DEBUG - 2020-10-02 05:23:01 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:23:01 --> Router Class Initialized
+INFO - 2020-10-02 05:23:01 --> Output Class Initialized
+INFO - 2020-10-02 05:23:01 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:01 --> Input Class Initialized
+INFO - 2020-10-02 05:23:01 --> Language Class Initialized
+INFO - 2020-10-02 10:23:01 --> Loader Class Initialized
+INFO - 2020-10-02 10:23:01 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:23:01 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:23:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:23:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:23:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:23:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:23:01 --> Encryption Class Initialized
+INFO - 2020-10-02 10:23:01 --> Controller Class Initialized
+INFO - 2020-10-02 10:23:01 --> MY_Model class loaded
+INFO - 2020-10-02 10:23:01 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:23:01 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:23:01 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:23:01 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:23:01 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:23:01 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:23:01 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:23:02 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:23:02 --> Final output sent to browser
+DEBUG - 2020-10-02 10:23:02 --> Total execution time: 0.9491
+ERROR - 2020-10-02 05:23:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:02 --> Config Class Initialized
+ERROR - 2020-10-02 05:23:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:23:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:23:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:02 --> Config Class Initialized
+INFO - 2020-10-02 05:23:02 --> Hooks Class Initialized
+INFO - 2020-10-02 05:23:02 --> Config Class Initialized
+INFO - 2020-10-02 05:23:02 --> Hooks Class Initialized
+INFO - 2020-10-02 05:23:02 --> Config Class Initialized
+INFO - 2020-10-02 05:23:02 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> UTF-8 Support Enabled
+DEBUG - 2020-10-02 05:23:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:02 --> Hooks Class Initialized
+INFO - 2020-10-02 05:23:02 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:02 --> URI Class Initialized
+INFO - 2020-10-02 05:23:02 --> URI Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:02 --> Router Class Initialized
+INFO - 2020-10-02 05:23:02 --> URI Class Initialized
+INFO - 2020-10-02 05:23:02 --> Router Class Initialized
+INFO - 2020-10-02 05:23:02 --> Output Class Initialized
+INFO - 2020-10-02 05:23:02 --> Router Class Initialized
+INFO - 2020-10-02 05:23:02 --> Output Class Initialized
+INFO - 2020-10-02 05:23:02 --> Security Class Initialized
+INFO - 2020-10-02 05:23:02 --> Output Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:02 --> Security Class Initialized
+INFO - 2020-10-02 05:23:02 --> Input Class Initialized
+INFO - 2020-10-02 05:23:02 --> Language Class Initialized
+INFO - 2020-10-02 05:23:02 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:02 --> Input Class Initialized
+INFO - 2020-10-02 05:23:02 --> Language Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-10-02 10:23:02 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:23:02 --> Input Class Initialized
+INFO - 2020-10-02 05:23:02 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:02 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 10:23:02 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:23:02 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:02 --> URI Class Initialized
+INFO - 2020-10-02 05:23:02 --> Router Class Initialized
+INFO - 2020-10-02 05:23:02 --> Output Class Initialized
+INFO - 2020-10-02 05:23:02 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:02 --> Input Class Initialized
+INFO - 2020-10-02 05:23:02 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:02 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:23:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:07 --> Config Class Initialized
+INFO - 2020-10-02 05:23:07 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:07 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:07 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:07 --> URI Class Initialized
+DEBUG - 2020-10-02 05:23:07 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:23:07 --> Router Class Initialized
+INFO - 2020-10-02 05:23:07 --> Output Class Initialized
+INFO - 2020-10-02 05:23:08 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:08 --> Input Class Initialized
+INFO - 2020-10-02 05:23:08 --> Language Class Initialized
+INFO - 2020-10-02 10:23:08 --> Loader Class Initialized
+INFO - 2020-10-02 10:23:08 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:23:08 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:23:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:23:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:23:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:23:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:23:08 --> Encryption Class Initialized
+INFO - 2020-10-02 10:23:08 --> Controller Class Initialized
+INFO - 2020-10-02 10:23:08 --> MY_Model class loaded
+INFO - 2020-10-02 10:23:08 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:23:08 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:23:08 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:23:08 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:23:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:23:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:23:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:23:08 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:23:08 --> Final output sent to browser
+DEBUG - 2020-10-02 10:23:08 --> Total execution time: 0.9256
+ERROR - 2020-10-02 05:23:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:23:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:08 --> Config Class Initialized
+INFO - 2020-10-02 05:23:08 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:08 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:08 --> URI Class Initialized
+INFO - 2020-10-02 05:23:08 --> Router Class Initialized
+INFO - 2020-10-02 05:23:08 --> Output Class Initialized
+INFO - 2020-10-02 05:23:08 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:08 --> Input Class Initialized
+INFO - 2020-10-02 05:23:08 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:08 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:23:08 --> Config Class Initialized
+INFO - 2020-10-02 05:23:08 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:08 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:08 --> URI Class Initialized
+INFO - 2020-10-02 05:23:08 --> Router Class Initialized
+INFO - 2020-10-02 05:23:08 --> Output Class Initialized
+INFO - 2020-10-02 05:23:08 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:08 --> Input Class Initialized
+INFO - 2020-10-02 05:23:08 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:08 --> 404 Page Not Found: Upload/slider
+ERROR - 2020-10-02 05:23:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:23:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:08 --> Config Class Initialized
+INFO - 2020-10-02 05:23:08 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:08 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:08 --> URI Class Initialized
+INFO - 2020-10-02 05:23:08 --> Router Class Initialized
+INFO - 2020-10-02 05:23:08 --> Output Class Initialized
+INFO - 2020-10-02 05:23:08 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:08 --> Input Class Initialized
+INFO - 2020-10-02 05:23:08 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:08 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:23:08 --> Config Class Initialized
+INFO - 2020-10-02 05:23:09 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:09 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:09 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:09 --> URI Class Initialized
+INFO - 2020-10-02 05:23:09 --> Router Class Initialized
+INFO - 2020-10-02 05:23:09 --> Output Class Initialized
+INFO - 2020-10-02 05:23:09 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:09 --> Input Class Initialized
+INFO - 2020-10-02 05:23:09 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:09 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 05:23:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:14 --> Config Class Initialized
+INFO - 2020-10-02 05:23:14 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:15 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:15 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:15 --> URI Class Initialized
+DEBUG - 2020-10-02 05:23:15 --> No URI present. Default controller set.
+INFO - 2020-10-02 05:23:15 --> Router Class Initialized
+INFO - 2020-10-02 05:23:15 --> Output Class Initialized
+INFO - 2020-10-02 05:23:15 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:15 --> Input Class Initialized
+INFO - 2020-10-02 05:23:15 --> Language Class Initialized
+INFO - 2020-10-02 10:23:15 --> Loader Class Initialized
+INFO - 2020-10-02 10:23:15 --> Helper loaded: url_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: form_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: array_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: download_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: setting_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 10:23:15 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 10:23:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 10:23:15 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 10:23:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 10:23:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 10:23:15 --> Encryption Class Initialized
+INFO - 2020-10-02 10:23:15 --> Controller Class Initialized
+INFO - 2020-10-02 10:23:15 --> MY_Model class loaded
+INFO - 2020-10-02 10:23:15 --> Database Driver Class Initialized
+INFO - 2020-10-02 10:23:15 --> Model "Slider_model" initialized
+INFO - 2020-10-02 10:23:15 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 10:23:15 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 10:23:15 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\beranda/index.php
+INFO - 2020-10-02 10:23:15 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/header.php
+INFO - 2020-10-02 10:23:15 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/footer.php
+INFO - 2020-10-02 10:23:15 --> File loaded: C:\xampp\htdocs\kepodemy\application\frontend\views\template/main.php
+INFO - 2020-10-02 10:23:15 --> Final output sent to browser
+DEBUG - 2020-10-02 10:23:15 --> Total execution time: 1.0188
+ERROR - 2020-10-02 05:23:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:16 --> Config Class Initialized
+ERROR - 2020-10-02 05:23:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:23:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:16 --> Hooks Class Initialized
+ERROR - 2020-10-02 05:23:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:16 --> Config Class Initialized
+INFO - 2020-10-02 05:23:16 --> Config Class Initialized
+INFO - 2020-10-02 05:23:16 --> Hooks Class Initialized
+INFO - 2020-10-02 05:23:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:16 --> URI Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:16 --> Utf8 Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:16 --> Router Class Initialized
+INFO - 2020-10-02 05:23:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:16 --> URI Class Initialized
+INFO - 2020-10-02 05:23:16 --> URI Class Initialized
+INFO - 2020-10-02 05:23:16 --> Output Class Initialized
+INFO - 2020-10-02 05:23:16 --> Router Class Initialized
+INFO - 2020-10-02 05:23:16 --> Router Class Initialized
+INFO - 2020-10-02 05:23:16 --> Output Class Initialized
+INFO - 2020-10-02 05:23:16 --> Security Class Initialized
+INFO - 2020-10-02 05:23:16 --> Output Class Initialized
+INFO - 2020-10-02 05:23:16 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:16 --> Input Class Initialized
+INFO - 2020-10-02 05:23:16 --> Security Class Initialized
+INFO - 2020-10-02 05:23:16 --> Language Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:16 --> Input Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:16 --> Language Class Initialized
+INFO - 2020-10-02 05:23:16 --> Input Class Initialized
+ERROR - 2020-10-02 10:23:16 --> 404 Page Not Found: Upload/slider
+INFO - 2020-10-02 05:23:16 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:16 --> 404 Page Not Found: Images/tp.png
+ERROR - 2020-10-02 10:23:16 --> 404 Page Not Found: Upload/testimonials
+INFO - 2020-10-02 05:23:16 --> Config Class Initialized
+INFO - 2020-10-02 05:23:16 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:16 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:16 --> URI Class Initialized
+INFO - 2020-10-02 05:23:16 --> Router Class Initialized
+INFO - 2020-10-02 05:23:16 --> Output Class Initialized
+INFO - 2020-10-02 05:23:16 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:16 --> Input Class Initialized
+INFO - 2020-10-02 05:23:16 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:16 --> 404 Page Not Found: Upload/testimonials
+ERROR - 2020-10-02 05:23:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2020-10-02 05:23:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 05:23:18 --> Config Class Initialized
+INFO - 2020-10-02 05:23:18 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:18 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:18 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:18 --> URI Class Initialized
+INFO - 2020-10-02 05:23:18 --> Router Class Initialized
+INFO - 2020-10-02 05:23:18 --> Output Class Initialized
+INFO - 2020-10-02 05:23:18 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:19 --> Input Class Initialized
+INFO - 2020-10-02 05:23:19 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:19 --> 404 Page Not Found: Assets/user
+INFO - 2020-10-02 05:23:19 --> Config Class Initialized
+INFO - 2020-10-02 05:23:19 --> Hooks Class Initialized
+DEBUG - 2020-10-02 05:23:19 --> UTF-8 Support Enabled
+INFO - 2020-10-02 05:23:19 --> Utf8 Class Initialized
+INFO - 2020-10-02 05:23:19 --> URI Class Initialized
+INFO - 2020-10-02 05:23:19 --> Router Class Initialized
+INFO - 2020-10-02 05:23:19 --> Output Class Initialized
+INFO - 2020-10-02 05:23:19 --> Security Class Initialized
+DEBUG - 2020-10-02 05:23:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 05:23:19 --> Input Class Initialized
+INFO - 2020-10-02 05:23:19 --> Language Class Initialized
+ERROR - 2020-10-02 10:23:19 --> 404 Page Not Found: Assets/user
