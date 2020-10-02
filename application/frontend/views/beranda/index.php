@@ -152,7 +152,7 @@
                          </div>
                      </div>
                      <div class="collection-post">
-                     <div class="inner-collection">
+                         <div class="inner-collection">
                              <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[4]["gambar"]) ?>" alt="">
                              <a href="#" class="hover-post">
                                  <span class="title"><?= $kategori_populer[4]["nama"] ?></span>
@@ -183,146 +183,43 @@
          <div class="popular-courses-box">
              <div class="row">
 
-                 <div class="col-lg-3 col-md-6">
-                     <div class="course-post">
-                         <div class="course-thumbnail-holder">
-                             <a href="single-course.html">
-                                 <img style="height: 200px;" src="upload/slider/slider-image-1.jpg" alt="">
-                             </a>
-                         </div>
-                         <div class="course-content-holder">
-                             <div class="course-content-main">
-                                 <h2 class="course-title">
-                                     <a href="single-course.html">Judul kelas 1</a>
-                                 </h2>
-                                 <div class="course-rating-teacher">
-                                     <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
-                                         <span style="width:100%">
-                                             <span class="rating">5.00</span>
-                                             <span class="votes-number">1 Votes</span>
-                                         </span>
-                                     </div>
-                                     <a href="#" class="course-loop-teacher">Rafli Firdausy Irawan</a>
-                                 </div>
+                 <?php foreach ($kelas as $kel) : ?>
+                     <div class="col-lg-3 col-md-6">
+                         <div class="course-post">
+                             <div class="course-thumbnail-holder">
+                                 <a href="single-course.html">
+                                     <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
+                                 </a>
                              </div>
-                             <div class="course-content-bottom">
-                                 <div class="course-students">
-                                     <i class="material-icons">group</i>
-                                     <span>64</span>
+                             <div class="course-content-holder">
+                                 <div class="course-content-main">
+                                     <h2 class="course-title">
+                                         <a href="single-course.html"><?= $kel["nama"] ?></a>
+                                     </h2>
+                                     <div class="course-rating-teacher">
+                                         <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
+                                             <span style="width:100%">
+                                                 <span class="rating">0.00</span>
+                                                 <span class="votes-number">0 Votes</span>
+                                             </span>
+                                         </div>
+                                         <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     </div>
                                  </div>
-                                 <div class="course-price">
-                                     <span>Rp 100K</span>
+                                 <div class="course-content-bottom">
+                                     <div class="course-students">
+                                         <i class="material-icons">group</i>
+                                         <span>0</span>
+                                     </div>
+                                     <div class="course-price">
+                                         <span>Rp <?= $kel["harga_diskon"] > 0 ? ("<strike>" . Rupiah3($kel["harga"]) . "</strike> " . Rupiah3($kel["harga_diskon"])) : Rupiah3($kel["harga"]) ?></span>
+                                     </div>
                                  </div>
                              </div>
                          </div>
                      </div>
-                 </div>
 
-                 <div class="col-lg-3 col-md-6">
-                     <div class="course-post">
-                         <div class="course-thumbnail-holder">
-                             <a href="single-course.html">
-                                 <img style="height: 200px;" src="upload/slider/slider-image-1.jpg" alt="">
-                             </a>
-                         </div>
-                         <div class="course-content-holder">
-                             <div class="course-content-main">
-                                 <h2 class="course-title">
-                                     <a href="single-course.html">Judul kelas 2</a>
-                                 </h2>
-                                 <div class="course-rating-teacher">
-                                     <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
-                                         <span style="width:100%">
-                                             <span class="rating">5.00</span>
-                                             <span class="votes-number">1 Votes</span>
-                                         </span>
-                                     </div>
-                                     <a href="#" class="course-loop-teacher">Rafli Firdausy Irawan</a>
-                                 </div>
-                             </div>
-                             <div class="course-content-bottom">
-                                 <div class="course-students">
-                                     <i class="material-icons">group</i>
-                                     <span>64</span>
-                                 </div>
-                                 <div class="course-price">
-                                     <span>Rp 100K</span>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-                 <div class="col-lg-3 col-md-6">
-                     <div class="course-post">
-                         <div class="course-thumbnail-holder">
-                             <a href="single-course.html">
-                                 <img style="height: 200px;" src="upload/slider/slider-image-1.jpg" alt="">
-                             </a>
-                         </div>
-                         <div class="course-content-holder">
-                             <div class="course-content-main">
-                                 <h2 class="course-title">
-                                     <a href="single-course.html">Judul kelas 3</a>
-                                 </h2>
-                                 <div class="course-rating-teacher">
-                                     <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
-                                         <span style="width:100%">
-                                             <span class="rating">5.00</span>
-                                             <span class="votes-number">1 Votes</span>
-                                         </span>
-                                     </div>
-                                     <a href="#" class="course-loop-teacher">Rafli Firdausy Irawan</a>
-                                 </div>
-                             </div>
-                             <div class="course-content-bottom">
-                                 <div class="course-students">
-                                     <i class="material-icons">group</i>
-                                     <span>64</span>
-                                 </div>
-                                 <div class="course-price">
-                                     <span>Rp 100K</span>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-                 <div class="col-lg-3 col-md-6">
-                     <div class="course-post">
-                         <div class="course-thumbnail-holder">
-                             <a href="single-course.html">
-                                 <img style="height: 200px;" src="upload/slider/slider-image-1.jpg" alt="">
-                             </a>
-                         </div>
-                         <div class="course-content-holder">
-                             <div class="course-content-main">
-                                 <h2 class="course-title">
-                                     <a href="single-course.html">Judul kelas 4</a>
-                                 </h2>
-                                 <div class="course-rating-teacher">
-                                     <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
-                                         <span style="width:100%">
-                                             <span class="rating">5.00</span>
-                                             <span class="votes-number">1 Votes</span>
-                                         </span>
-                                     </div>
-                                     <a href="#" class="course-loop-teacher">Rafli Firdausy Irawan</a>
-                                 </div>
-                             </div>
-                             <div class="course-content-bottom">
-                                 <div class="course-students">
-                                     <i class="material-icons">group</i>
-                                     <span>64</span>
-                                 </div>
-                                 <div class="course-price">
-                                     <span>Rp 100K</span>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
+                 <?php endforeach ?>
              </div>
          </div>
      </div>

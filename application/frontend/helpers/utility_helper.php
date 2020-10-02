@@ -28,7 +28,7 @@ if (!function_exists('asset')) {
 if (!function_exists('d')) {
     function d($x)
     {
-        return die(json_encode($x));
+        return die(json_encode($x, JSON_HEX_QUOT | JSON_HEX_TAG));
     }
 }
 

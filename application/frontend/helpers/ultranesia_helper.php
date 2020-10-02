@@ -84,6 +84,7 @@ if (!function_exists('Rupiah3')) {
         }
         $rp = strrev($str2);
         if ($rp != 0) {
+            $rp = str_replace(",00", "", $rp);
             return "$rp";
         } else {
             return "-";
