@@ -1,22 +1,77 @@
-<!--begin::Footer-->
-<div class="footer bg-white py-4 d-flex flex-lg-column " id="kt_footer">
-    <!--begin::Container-->
-    <div class=" container-fluid  d-flex flex-column flex-md-row align-items-center justify-content-between">
-        <!--begin::Copyright-->
-        <div class="text-dark order-2 order-md-1">
-            <span class="text-muted font-weight-bold mr-2">2020&copy;</span>
-            <a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">Keenthemes</a>
-        </div>
-        <!--end::Copyright-->
+ <!-- footer -->
+ <footer>
+     <div class="container">
 
-        <!--begin::Nav-->
-        <div class="nav nav-dark">
-            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">About</a>
-            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">Team</a>
-            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-0">Contact</a>
-        </div>
-        <!--end::Nav-->
-    </div>
-    <!--end::Container-->
-</div>
-<!--end::Footer-->
+         <div class="up-footer">
+             <div class="row">
+
+                 <div class="col-lg-4 col-md-6">
+                     <div class="footer-widget text-widget">
+                         <a href="index.html" class="footer-logo"><img src="images/tp.png" alt=""></a>
+                         <p>We named our theme Tambahpintar because to us,<br> the best brands are simple ones. Brands thrive<br> on their ability to be understood.</p>
+                         <ul>
+                             <li>
+                                 <div class="contact-info-icon">
+                                     <i class="material-icons">location_on</i>
+                                 </div>
+                                 <div class="contact-info-value">Purwokerto, Jawa Tengah</div>
+                             </li>
+                             <li>
+                                 <div class="contact-info-icon">
+                                     <i class="material-icons">phone_android</i>
+                                 </div>
+                                 <div class="contact-info-value">+62-8572-6096-515</div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+
+                 <div class="col-lg-4 col-md-6">
+                     <div class="footer-widget quick-widget">
+                         <h2>Quick Links</h2>
+                         <ul class="quick-list">
+                             <li><a href="contact.html">Contact</a></li>
+                             <li><a href="pricing.html">Pricing Packages</a></li>
+                             <li><a href="about.html">About Us</a></li>
+                             <li><a href="courses.html">Courses</a></li>
+                             <li><a href="blog.html">News</a></li>
+                             <li><a href="index.html">Home</a></li>
+                             <li><a href="#">Sample Page</a></li>
+                         </ul>
+                     </div>
+                 </div>
+
+                 <div class="col-lg-4 col-md-6">
+                     <div class="footer-widget subscribe-widget">
+                         <h2>Newsletter</h2>
+                         <p>Don’t miss anything, sign up now and keep informed about our company.</p>
+                         <div class="newsletter-form">
+                             <input class="form-control" type="email" name="EMAIL" placeholder="Enter Your E-mail" required="">
+                             <input type="submit" value="Subscribe">
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+
+     </div>
+
+     <div class="footer-copyright copyrights-layout-default">
+         <div class="container">
+             <div class="copyright-inner">
+                 <div class="copyright-cell"> &copy; 2020 <span class="highlight">Tambah Pintar</span>. Created by Innocircle.</div>
+                 <div class="copyright-cell">
+                     <ul class="studiare-social-links">
+                         <li><a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a></li>
+                         <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                         <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                         <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ </footer>
+ <!-- End footer -->

@@ -18,24 +18,13 @@ class User_Controller extends MY_Controller
         return "waawaw";
     }
 
-    protected function loadViewAdmin($view = NULL, $local_data = array(), $asData = FALSE)
+    protected function loadViewUser($view = NULL, $local_data = array(), $asData = FALSE)
     {
         if (!file_exists(APPPATH . "views/$view" . ".php")) {
             show_404();
         }
 
-        $local_data["__content"] =  $this->load->view($view, $local_data, TRUE);
-    
+        $local_data["__content"] =  $this->loadView($view, $local_data, TRUE);
         $this->loadView("template/main", $local_data);
-        // $this->loadView("template/header", $local_data, $asData);
-        // $this->loadView("template/sidebar", $local_data, $asData);
-        // $this->loadView($view, $local_data, $asData);
-        // $this->loadView("template/footer", $local_data, $asData);
-    }
-
-    private function loadKonten($view)
-    {
-        //GAJADI AOWKOAW
-        return $this->load->view($view, NULL, TRUE);
-    }
+    }  
 }
