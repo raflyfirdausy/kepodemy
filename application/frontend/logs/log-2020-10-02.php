@@ -14751,3 +14751,39 @@ INFO - 2020-10-02 17:25:03 --> Model "Kategori_model" initialized
 INFO - 2020-10-02 17:25:03 --> Model "Produk_model" initialized
 INFO - 2020-10-02 17:25:03 --> Model "Produk_kategori_model" initialized
 INFO - 2020-10-02 17:25:03 --> Model "Pengajar_model" initialized
+ERROR - 2020-10-02 17:27:05 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 17:27:05 --> Config Class Initialized
+INFO - 2020-10-02 17:27:05 --> Hooks Class Initialized
+DEBUG - 2020-10-02 17:27:05 --> UTF-8 Support Enabled
+INFO - 2020-10-02 17:27:05 --> Utf8 Class Initialized
+INFO - 2020-10-02 17:27:05 --> URI Class Initialized
+DEBUG - 2020-10-02 17:27:05 --> No URI present. Default controller set.
+INFO - 2020-10-02 17:27:05 --> Router Class Initialized
+INFO - 2020-10-02 17:27:05 --> Output Class Initialized
+INFO - 2020-10-02 17:27:05 --> Security Class Initialized
+DEBUG - 2020-10-02 17:27:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 17:27:06 --> Input Class Initialized
+INFO - 2020-10-02 17:27:06 --> Language Class Initialized
+INFO - 2020-10-02 22:27:06 --> Loader Class Initialized
+INFO - 2020-10-02 22:27:06 --> Helper loaded: url_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: form_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: array_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: download_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: inflector_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: setting_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: waktu_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-02 22:27:06 --> Helper loaded: utility_helper
+DEBUG - 2020-10-02 22:27:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-02 22:27:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-02 22:27:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-02 22:27:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-02 22:27:06 --> Encryption Class Initialized
+INFO - 2020-10-02 22:27:06 --> Controller Class Initialized
+INFO - 2020-10-02 22:27:06 --> MY_Model class loaded
+INFO - 2020-10-02 22:27:06 --> Database Driver Class Initialized
+INFO - 2020-10-02 22:27:07 --> Model "Slider_model" initialized
+INFO - 2020-10-02 22:27:07 --> Model "Kategori_model" initialized
+INFO - 2020-10-02 22:27:07 --> Model "Produk_model" initialized
+INFO - 2020-10-02 22:27:07 --> Model "Produk_kategori_model" initialized
+INFO - 2020-10-02 22:27:07 --> Model "Pengajar_model" initialized
