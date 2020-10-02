@@ -6,6 +6,11 @@ class Kelola_pengajar extends Admin_Controller
     public function __construct()
     {
         parent::__construct();
+		$this->load->model("Pengajar_model", "pengajar");
+		$this->load->model("Kategori_model", "kategori");
+		$this->load->model("PengajarPendidikan_model", "pengajar_pendidikan");
+		$this->load->model("PengajarPekerjaan_model", "pengajar_pekerjaan");
+		$this->load->model("PengajarKategori_model", "pengajar_kategori");
     }
 
     public function index()
@@ -13,19 +18,269 @@ class Kelola_pengajar extends Admin_Controller
         $this->loadViewAdmin("master/pengajar/v_kelolapengajar");
 	}
 
+	public function configuration($lokasiArsip,$namafilebaru){
+		$config  = [
+            "upload_path"       => $lokasiArsip,
+            "allowed_types"     => 'gif|jpg|jpeg|png|pdf|docx|doc|xlsx|xls|ppt|pptx|txt|text/plain',
+            "max_size"          => 10240,
+            "file_ext_tolower"  => FALSE,
+            "overwrite"         => TRUE,
+            "remove_spaces"     => TRUE,
+            "file_name"         => $namafilebaru
+		];
+		
+		return $config;
+	}
+
+	public function insertKategoriPengajar($array, $idpengajar)
+	{
+		$data = [];
+		foreach ($array as $key => $val) {
+			$getKategori = $this->kategori->get_kategori($val);
+			$data = [
+				'id_pengajar' => $idpengajar,
+				'id_kategori' => $getKategori->id,
+				'keterangan' => $getKategori->keterangan,
+			];
+
+			$insert = $this->pengajar_kategori->save($data);
+		}
+
+		return true;
+	}
+
     public function tambah_data()
     {
-        $this->loadViewAdmin("master/pengajar/v_tambahpengajar");
+		$listKategori = $this->kategori->get_lookup_kategori();
+		// d($listPengajar);
+		$data = [
+			'listKategori'	=> $listKategori
+		];
+        $this->loadViewAdmin("master/pengajar/v_tambahpengajar", $data);
+	}
+	
+	public function proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori)
+	{
+		$cekdata = $this->pengajar->where(['email' => $dataheaderpengajar['email']])->count_rows();
+		if($cekdata > 0){
+			$code = "500";
+			$message = "Email sudah pernah terdaftar, silahkan email yang lain";
+		}else{
+			$save = $this->pengajar->save($dataheaderpengajar);
+			$idpengajar = $save;
+			if($save){
+				$insertKategoriPengajar = $this->insertKategoriPengajar($datakategori, $idpengajar);
+				if (isset($dataInput['nama_pendidikan'])) {
+					$rows = count($dataInput['nama_pendidikan']);
+					$dataPendidikan[] = []; 
+					for ($i = 0; $i < $rows; $i++) {
+						$dataPendidikan[$i] = [
+							"id_pengajar"	=> $idpengajar,
+							"nama_pendidikan"	=> $dataInput['nama_pendidikan'][$i],
+							"tahun_masuk"	=> $dataInput['tahun_masuk'][$i],
+							"tahun_keluar"	=> $dataInput['tahun_keluar'][$i],
+							"jurusan"	=> $dataInput['jurusan'][$i],
+							"keterangan"	=> $dataInput['keterangan_pendidikan'][$i],
+						];
+					}
+					$savependidikan = $this->pengajar_pendidikan->save($dataPendidikan);
+				}
+		
+				if (isset($dataInput['nama_pekerjaan'])) {
+					$rows_pk = count($dataInput['nama_pekerjaan']);
+					$dataPekerjaan[] = []; 
+					for ($x = 0; $x < $rows_pk; $x++) {
+						$dataPekerjaan[$x] = [
+							"id_pengajar"	=> $idpengajar,
+							"nama_pekerjaan"	=> $dataInput['nama_pekerjaan'][$x],
+							"tahun_masuk"	=> $dataInput['tahun_masuk_kerja'][$x],
+							"tahun_keluar"	=> $dataInput['tahun_keluar_kerja'][$x],
+							"posisi"	=> $dataInput['posisi'][$x],
+							"pencapaian"	=> $dataInput['pencapaian'][$x],
+							"keterangan"	=> $dataInput['keterangan_pekerjaan'][$x],
+						];
+					}
+		
+					$savepekerjaan = $this->pengajar_pekerjaan->save($dataPekerjaan);
+				}
+				$code = "200";
+				$message = "Data berhasil disimpan";
+			}else{
+				$code = "500";
+				$message = "Data gagal disimpan";
+			}
+		}
+
+		$dataarray = [
+			"code"	=> $code,
+			"message"	=> $message
+		];
+		return $dataarray;
+	}
+
+	public function proses_update_pengajar($dataInput, $id)
+	{
+		$update = $this->pengajar->update($dataInput, $id);
+		if($update){
+			$code = "200";
+			$message = "Data berhasil diubah";
+		}
+		else{
+			$code = "500";
+			$message = "Data gagal diubah";
+		}
+
+		$dataarray = [
+			"code"	=> $code,
+			"message"	=> $message
+		];
+		return $dataarray;
+	}
+
+	public function cek()
+	{
+		d($_FILES["cv"]);
+		$dataInput = $this->input->post();
+		// d($dataInput);
+		if (isset($dataInput['nama_pendidikan'])) {
+			$rows = count($dataInput['nama_pendidikan']);
+			$dataPendidikan[] = []; 
+			for ($i = 0; $i < $rows; $i++) {
+				$dataPendidikan[$i] = [
+					"id_pengajar"	=> 1,
+					"nama_pendidikan"	=> $dataInput['nama_pendidikan'][$i],
+					"tahun_masuk"	=> $dataInput['tahun_masuk'][$i],
+					"tahun_keluar"	=> $dataInput['tahun_keluar'][$i],
+					"jurusan"	=> $dataInput['jurusan'][$i],
+					"keterangan"	=> $dataInput['keterangan_pendidikan'][$i],
+				];
+			}
+			// d($dataPendidikan);
+			$savependidikan = $this->pengajar_pendidikan->save($dataPendidikan);
+			if($savependidikan){
+				echo json_encode([
+					'response_code'	=> 200,
+					'response_message'	=> $message
+				]);
+			}else{
+				echo json_encode([
+					'response_code'	=> 500,
+					'response_message'	=> $message
+				]);
+			}
+
+
+		}
 	}
 	
 	public function simpan_data()
 	{
 		$dataInput = $this->input->post();
-		// $namemember = unserialize($dataInput['NamaPendidikan']);
-		// foreach( $namemember as $value ) {
-		// 	print $value;
-		// }
-		var_dump($dataInput);
+		
+		$pengajar = str_replace(' ', '_', strtolower($dataInput['nama']));
+		$code = "";
+		$message = "";
+		$namafilebaru =  "pengajar_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
+		$cvbaru =  "cv_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
+        $lokasiArsip = "assets/pengajar/";
+		$lokasiCV = "assets/lampiran/";
+		
+		$config = $this->configuration($lokasiArsip,$namafilebaru);
+		$config2 = $this->configuration($lokasiCV,$cvbaru);
+
+		$datakategori = $dataInput['kategori'];
+
+		$dataheaderpengajar = [
+			'email'			=> $dataInput['email'],
+			'nama'			=> $dataInput['nama'],
+			'password'		=> md5($dataInput['password']),
+			'no_hp'			=> $dataInput['no_hp'],
+			'jabatan'		=> $dataInput['jabatan'],
+			'deskripsi'		=> $dataInput['deskripsi'],
+			'foto'			=> '',
+			'cv'			=> '',
+		];
+        // $this->load->library('upload', $config);
+		// $uploadfoto = $this->upload->initialize($config);
+
+	
+		if($_FILES["foto_pengajar"]["name"] == ''){
+			if($_FILES["cv"]["name"] == ''){
+				$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
+				$code = $insert['code'];
+				$message = $insert['message'];
+			}
+			else{
+				$this->load->library('upload', $config2);
+				$uploadcv = $this->upload->initialize($config2);
+				if ($this->upload->do_upload("cv")) {
+					$dataheaderpengajar['cv'] = $cvbaru;
+					$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
+					$code = $insert['code'];
+					$message = $insert['message'];
+				}
+				else{
+					$error = array('error' => $this->upload->display_errors("", ""));
+					$code = "500";
+					$message = implode("<br>", $error);
+				}
+			}
+		}
+		else{
+			if($_FILES["cv"]["name"] == ''){
+				$this->load->library('upload', $config);
+				$uploadfoto = $this->upload->initialize($config);
+				if ($this->upload->do_upload("foto_pengajar")) {
+					$dataheaderpengajar['foto'] = $namafilebaru;
+					$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
+					$code = $insert['code'];
+					$message = $insert['message'];
+				}
+				else{
+					$error = array('error' => $this->upload->display_errors("", ""));
+					$code = "500";
+					$message = implode("<br>", $error);
+				}
+			}
+			else{
+				$this->load->library('upload', $config);
+				$uploadfoto = $this->upload->initialize($config);
+				if ($this->upload->do_upload("foto_pengajar")) {
+					$dataheaderpengajar['foto'] = $namafilebaru;
+					$this->load->library('upload', $config2);
+					$uploadcv = $this->upload->initialize($config2);
+					if ($this->upload->do_upload("cv")) {
+						$dataheaderpengajar['cv'] = $cvbaru;
+						$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
+						$code = $insert['code'];
+						$message = $insert['message'];
+					}
+					else{
+						$error = array('error' => $this->upload->display_errors("", ""));
+						$code = "500";
+						$message = implode("<br>", $error);
+					}
+				}
+				else{
+					$error = array('error' => $this->upload->display_errors("", ""));
+					$code = "500";
+					$message = implode("<br>", $error);
+				}
+			}
+		}
+
+
+		if($code == 200){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> $message
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> $message
+			]);
+		}
 	}
 
 	public function get_data()

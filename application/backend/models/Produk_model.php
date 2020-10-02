@@ -16,7 +16,15 @@ class Produk_model extends Custom_model
             'foreign_table'     => 'pengajar',
             'foreign_key'       => 'id',
             'local_key'         => 'id_pengajar'
-        );
+		);
+
+		$this->has_many['produkkategori'] = array(
+            'foreign_model'     => 'ProdukKategori_model',
+            'foreign_table'     => 'produk_kategori',
+            'foreign_key'       => 'id_kelas',
+            'local_key'         => 'id'
+		);
+		
         parent::__construct();
 	}
 	
@@ -28,7 +36,7 @@ class Produk_model extends Custom_model
 
 	public function get_all_kelas()
 	{
-		$qry = $this->where(['tipe_produk' => 'kelas'])->with_pengajar("fields:nama")->order_by("created_at", "DESC")->get_all() ? : [];
+		$qry = $this->where(['tipe_produk' => 'kelas'])->with_pengajar("fields:nama")->with_produkkategori(['fields'=>'id_kategori','with'=>['relation'=>'kategori','fields'=>'nama'] ])->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;
 	}
 

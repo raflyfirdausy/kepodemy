@@ -314,3 +314,15 @@ if (!function_exists('Gender')) {
 		);
     }
 }
+
+if (!function_exists('jenis_pembelajaran')) {
+    function jenis_pembelajaran()
+    {
+        return array(
+            ("video conference"),
+            ("video"),
+            ("e book"),            
+            ("materi presentasi"),       
+        );
+    }
+}

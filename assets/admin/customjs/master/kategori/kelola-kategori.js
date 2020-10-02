@@ -8,12 +8,13 @@ $(document).ready( function() {
 		$("#labelKategoriModal").html("Tambah Kategori");
 		$("#form-kategori").attr("action", base_url + 'kategori/simpan_kategori');
 		$('#form-kategori')[0].reset();
+		urlgambar = asset + 'gambar/ukuran-banner.jpg';
+		$('#imgPreview').attr('src', urlgambar);
 	});
 
 	$(document).on("click", ".btn-edit-kategori", function(event){
 		event.preventDefault();
 		var id = $(this).data("id");
-		
 		$("#labelKategoriModal").html("Edit Kategori");
 		$("#form-kategori").attr("action", base_url + 'kategori/update_kategori');
 		$('#form-kategori')[0].reset();
@@ -21,6 +22,15 @@ $(document).ready( function() {
 		
 		var getKategori = $(this).closest("tr").find('.txt-kategori').text();
 		var getKeterangan = $(this).closest("tr").find('.txt-keterangan').text();
+		var getGambar = $(this).closest("tr").find('.txt-gambar').val();
+		var urlgambar;
+		if(getGambar == ''){
+			urlgambar = asset + 'gambar/ukuran-banner.jpg';
+		}
+		else{
+			urlgambar = asset + 'gambar/' + getGambar;
+		}
+		$('#imgPreview').attr('src', urlgambar);
 		$("#nama-kategori").val(getKategori);
 		$("#keterangan-kategori").val(getKeterangan);
 
@@ -133,11 +143,12 @@ $(document).ready( function() {
 
 	$("#form-kategori").on("submit", function(event) {
 		event.preventDefault();
-		
+		var btn = $('.btn-simpan');
+		btn.attr('disabled', true);
 		// $("#form-edit-general-service")
 		Swal.fire({
 			title: 'Harap menunggu',
-			text: 'Sedang menghapus',
+			text: 'Sedang memproses',
 			// timer: 2000,
 			onBeforeOpen: () => {
 				Swal.showLoading();
@@ -156,6 +167,7 @@ $(document).ready( function() {
 						if (data.response_code == 200) {
 							Swal.close();
 							Swal.fire('Done', data.response_message, 'success').then((result) => {
+								btn.attr('disabled', false);
 								$("#kategoriModal").modal("hide");
 								$('#table-kategori').DataTable().clear();
 								$('#table-kategori').DataTable().destroy();
@@ -164,11 +176,13 @@ $(document).ready( function() {
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");
+							btn.attr('disabled', false);
 						
 						}
 					},
 					error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
 						Swal.fire("Oops", xhr.responseText, "error");
+						btn.attr('disabled', false);
 					}
 				});
 				// END AJAX

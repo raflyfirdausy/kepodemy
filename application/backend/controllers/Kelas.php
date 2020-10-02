@@ -22,7 +22,7 @@ class Kelas extends Admin_Controller
 		$config  = [
             "upload_path"       => $lokasiArsip,
             "allowed_types"     => 'gif|jpg|jpeg|png',
-            "max_size"          => 2048,
+            "max_size"          => 10240,
             "file_ext_tolower"  => FALSE,
             "overwrite"         => TRUE,
             "remove_spaces"     => TRUE,
@@ -70,12 +70,22 @@ class Kelas extends Admin_Controller
 			$output .= "<tr>";
 			$output .= "<td class='text-center'>". $i++ ."</td>";
 			$output .= "<td><span class='txt-kelas'>". $dt->nama ."</span></td>";
-			$output .= "<td>". $dt->tipe_produk ."</td>";
-			$output .= "<td>". $dt->harga ."</td>";
+			$size = sizeof((array)$dt->produkkategori);
+			$i = 0;
+			$kategori = "";
+			foreach ($dt->produkkategori as $pk) {
+				$kategori .= $pk->kategori->nama;
+				if (++$i !== $size){
+					$kategori .= ", ";
+				}
+			}
+			$output .= "<td>". $kategori ."</td>";
+			$output .= "<td class='text-right'>". Rupiah($dt->harga) ."</td>";
+			$output .= "<td class='text-right'>". Rupiah($dt->harga_diskon) ."</td>";
 			$output .= "<td>". $dt->pengajar->nama ."</td>";
 			$output .= "<td>". just_date($dt->tanggal) ." ". just_time($dt->jam_mulai)." - ". just_time($dt->jam_selesai) ."</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<a href='" . base_url('kelas/detail/'). $dt->id. "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-warning'></i></a>";
+			$output .= "<a href='" . base_url('kelas/detail/'). $dt->id. "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
 			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
@@ -89,13 +99,13 @@ class Kelas extends Admin_Controller
 	}
 
 
-    public function edit_data()
-    {
-		$data = [
-			'namakelas'	=> "Kelas Programming",
-		];
-        $this->loadViewAdmin("master/kelas/v_editkelas", $data);
-	}
+    // public function edit_data()
+    // {
+	// 	$data = [
+	// 		'namakelas'	=> "Kelas Programming",
+	// 	];
+    //     $this->loadViewAdmin("master/kelas/v_editkelas", $data);
+	// }
 
 	public function proses_simpan_kelas($dataInput, $datakategori)
 	{
@@ -124,14 +134,36 @@ class Kelas extends Admin_Controller
 		return $dataarray;
 	}
 
+	public function proses_update_kelas($dataInput, $datakategori, $idkelas)
+	{
+		$updateproduk = $this->produk->update($dataInput, $idkelas);
+		if($updateproduk){
+			$insertkategoriproduk = $this->insertKategoriProduk($datakategori, $idkelas);
+			$code = "200";
+			$message = "Data berhasil diubah";
+		}
+		else{
+			$code = "500";
+			$message = "Data gagal diubah";
+		}
+
+		$dataarray = [
+			"code"	=> $code,
+			"message"	=> $message
+		];
+		return $dataarray;
+	}
+
 	public function simpan_data()
 	{
 		$dataInput = $this->input->post();
 		$dataInput['tipe_produk'] = "kelas";
+		$dataInput['tanggal'] = date('Y-m-d', strtotime($dataInput['tanggal']));
+		$namakelas = str_replace(' ', '_', strtolower($dataInput['nama']));
 		$code = "";
 		$message = "";
-		$namafilebaru =  "produk_". $dataInput['nama'] . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
-        $lokasiArsip = "assets/website/desa/";
+		$namafilebaru =  "produk_". $namakelas . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
+        $lokasiArsip = "assets/gambar/";
 		$config = $this->config($lokasiArsip,$namafilebaru);
 		
         $this->load->library('upload', $config);
@@ -172,58 +204,86 @@ class Kelas extends Admin_Controller
 		}
 		
 	}
-	
-	public function get_data()
-	{
-		$dataInput  = $this->input->post();
-		$id = $dataInput["ID"];
-		$data = [
-			'email'	=> "Rafly@gmail.com",
-			'password'	=> "12345678",
-			'nama'	=> "Rafly Firadusy Irawan",
-			'alamat'	=> "Sokaraja, Banyumas",
-			'keterangan'	=> "Belum Menikah",
-			'nohp'	=> "087712341122",
-		];
-
-		$gender = "";
-		$jk = "Perempuan";
-		foreach (Gender() as $xx) {
-			$select = $xx == $jk ? "selected" : "";
-			$gender .= "<option value='". $xx ."' $select>". $xx ."</option>";
-		}
-
-		$level = "";
-		$lvl = "Super Admin";
-		foreach (Level() as $yy) {
-			$selected = $yy == $lvl ? "selected" : "";
-			$level .= "<option value='". $yy ."' $selected>". $yy ."</option>";
-		}
-
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Berhasil ambil data",
-			'datapersonal' => $data,
-			'gender' => $gender,
-			'level' => $level
-		]);
-	}
 
 	public function update_data()
 	{
 		$dataInput  = $this->input->post();
-		$data = $dataInput["tglPembelajaran"] ." ". $dataInput["jamPembelajaran"];
-		$dataInput['waktuPembelajaran'] = date("d-m-Y H:i", strtotime($data));
-		unset($dataInput["tglPembelajaran"], $dataInput["jamPembelajaran"]);
-		var_dump($dataInput);
+		$id = $dataInput['id'];
+		$datakelas = $this->produk->where(['id' => $id])->get();
+
+		//hapus produk kategori
+		$deleteprodukkategori = $this->produk_kategori->where(['id_kelas' => $id])->delete();
+
+		$dataInput['tanggal'] = date('Y-m-d', strtotime($dataInput['tanggal']));
+		$namakelas = str_replace(' ', '_', strtolower($dataInput['nama']));
+		$code = "";
+		$message = "";
+		$namafilebaru =  "produk_". $namakelas . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
+        $lokasiArsip = "assets/gambar/";
+		$config = $this->config($lokasiArsip,$namafilebaru);
+		
+        $this->load->library('upload', $config);
+		$this->upload->initialize($config);
+
+		$datakategori = $dataInput['kategori'];
+		unset($dataInput['kategori'], $dataInput['id']);
+
+		if($_FILES["file_gambar_header"]["name"] == ''){
+			$updatekelas = $this->proses_update_kelas($dataInput, $datakategori, $id);
+			$code = $updatekelas['code'];
+			$message = $updatekelas['message'];
+		}else{
+			if ($this->upload->do_upload("file_gambar_header")) {
+				if (is_file(FCPATH . 'assets/gambar/' . $datakelas->gambar)) {
+                    unlink(FCPATH . 'assets/gambar/' . $datakelas->gambar);
+                }
+				$dataInput['gambar'] = $namafilebaru;
+				$updatekelas = $this->proses_update_kelas($dataInput, $datakategori, $id);
+				$code = $updatekelas['code'];
+				$message = $updatekelas['message'];
+			}
+			else{
+				$error = array('error' => $this->upload->display_errors("", ""));
+				$code = "500";
+				$message = implode("<br>", $error);
+			}
+		}
+
+
+
+		if($code == 200){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> $message
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> $message
+			]);
+		}
 	}
 
-	public function detail($status)
+	public function detail($id)
     {
+		$getdata = $this->produk->where(['id' => $id])->get();
+		$listPengajar = $this->pengajar->get_all_data();
+		$listKategori = $this->kategori->get_lookup_kategori();
+		$getprodukkategori = $this->produk_kategori->where(['id_kelas' => $id])->get_all();
+		$produk_kategori = [];
+        foreach($getprodukkategori as $pk)
+        {
+            $produk_kategori[] = $pk->id_kategori;
+		}
+		
+		// d($produk_kategori);
 		$data = [
-			'status' => $status,
-			'namakelas' => 'Web'
+			'data' => $getdata,
+			'listPengajar'	=> $listPengajar,
+			'listKategori'	=> $listKategori,
+			'produk_kategori' => $produk_kategori
 		];
+
         $this->loadViewAdmin("master/kelas/v_editkelas", $data);
 	}
 	
@@ -233,9 +293,20 @@ class Kelas extends Admin_Controller
 		$dataInput  = $this->input->post();
 		$id = $dataInput["ID"];
 
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Data berhasil terhapus",
-		]);
+		$deleteprodukkategori = $this->produk_kategori->delete_byidkelas($id);
+		$delete = $this->produk->delete($id);
+
+
+		if($delete){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil dihapus"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal dihapus"
+			]);
+		}
 	}
 }

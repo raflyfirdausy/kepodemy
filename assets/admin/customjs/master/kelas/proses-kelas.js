@@ -1,13 +1,26 @@
 
 $(document).ready( function() { 
+	// var tgl = $('#tgl-pembelajaran').val();
+	// $('.datepicker2').datepicker({
+	// 	format: 'dd-mm-yyyy',
+	// 	orientation: "bottom left",
+	// 	templates: arrows,
+	// 	autoclose: true
+	// }).datepicker('setDate', '');
+
+	// $('.btn-icon-date2').on("click", function(){
+	// 	alert("cek")
+	// 	$('.datepicker2').datepicker('show');
+	// }) 
 
 	$("#form-add-kelas").on("submit", function(event) {
 		event.preventDefault();
-		
+		var btn = $('.btn-simpan-kelas');
+		btn.attr('disabled', true);
 		// $("#form-edit-general-service")
 		Swal.fire({
 			title: 'Harap menunggu',
-			text: 'Sedang menghapus',
+			text: 'Sedang memproses',
 			// timer: 2000,
 			onBeforeOpen: () => {
 				Swal.showLoading();
@@ -25,16 +38,19 @@ $(document).ready( function() {
 					success: function(data) { // Ketika proses pengiriman berhasil
 						if (data.response_code == 200) {
 							Swal.close();
-							Swal.fire("Done", data.response_message, "success");
-							$("#kelasModal").modal("show");
+							Swal.fire('Done', data.response_message, 'success').then((result) => {
+								window.location.href = base_url + 'kelas';
+								btn.attr('disabled', false);
+							})
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");
-						
+							btn.attr('disabled', false);
 						}
 					},
 					error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
 						Swal.fire("Oops", xhr.responseText, "error");
+						btn.attr('disabled', false);
 					}
 				});
 				// END AJAX
@@ -44,11 +60,12 @@ $(document).ready( function() {
 
 	$("#form-edit-kelas").on("submit", function(event) {
 		event.preventDefault();
-		
+		var btn = $('.btn-simpan-kelas');
+		btn.attr('disabled', true);
 		// $("#form-edit-general-service")
 		Swal.fire({
 			title: 'Harap menunggu',
-			text: 'Sedang menghapus',
+			text: 'Sedang memproses',
 			// timer: 2000,
 			onBeforeOpen: () => {
 				Swal.showLoading();
@@ -66,16 +83,20 @@ $(document).ready( function() {
 					success: function(data) { // Ketika proses pengiriman berhasil
 						if (data.response_code == 200) {
 							Swal.close();
-							Swal.fire("Done", data.response_message, "success");
-							$("#kelasModal").modal("show");
+							Swal.fire('Done', data.response_message, 'success').then((result) => {
+								window.location.href = base_url + 'kelas';
+								btn.attr('disabled', false);
+							})
 						} else {
 							Swal.close();
 							Swal.fire("Oops", data.response_message, "error");
+							btn.attr('disabled', false);
 						
 						}
 					},
 					error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
 						Swal.fire("Oops", xhr.responseText, "error");
+						btn.attr('disabled', false);
 					}
 				});
 				// END AJAX

@@ -105,6 +105,23 @@
 					<input type="hidden" name="id" id="id-kategori" value="">
 					<input type="hidden" name="id_induk" id="id-induk-kategori" value="">
 					<div class="form-group row">
+						<div class="mb-10">
+							<img style="width: 100%" id="imgPreview" src="<?= asset("gambar/ukuran-banner.jpg") ?>" alt="">
+						</div>
+						<div class="input-group">
+							<div class="input-group-append">
+								<button type="button" class="btn btn-primary"><i class="fa fa-upload text-white"></i></button>
+							</div>
+							<div class="custom-file">
+								<input required="" accept="image/*" type="file" class="custom-file-input" id="file_gambar_header" name="file_gambar_header">
+								<label class="custom-file-label" for="inputGroupFile">Pilih File Gambar Header</label>
+							</div>
+							<div class="col-12 pr-0 pl-0">
+								<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png, .gif)</span>
+							</div>
+						</div>
+					</div>
+					<div class="form-group row">
 						<label>Induk Kategori</label>
 						<input type="text" name="namainduk" id="kategori-induk" class="form-control" disabled/>
 					</div>
@@ -121,15 +138,31 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default font-weight-bold" data-dismiss="modal">Batal</button>
-				<button type="submit" class="btn btn-primary font-weight-bold">Simpan</button>
+				<button type="submit" class="btn btn-primary font-weight-bold btn-simpan">Simpan</button>
 			</div>
 			</form>
         </div>
     </div>
 </div>
 
-
+<script> var asset = "<?= asset() ?>"; </script>
 <script src="<?= asset("admin/customjs/master/kategori/kelola-subkategori.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 
+<script>
+	
+	$("#file_gambar_header").change(function() {
+        readURL(this, false);
+    });
+
+    function readURL(input, modeInsert) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#imgPreview').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

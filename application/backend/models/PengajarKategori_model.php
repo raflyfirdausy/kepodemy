@@ -1,8 +1,8 @@
 <?php
 
-class ProdukKategori_model extends Custom_model
+class PengajarKategori_model extends Custom_model
 {
-    public $table           = 'produk_kategori';
+    public $table           = 'pengajar_kategori';
     public $primary_key     = 'id';
     public $soft_deletes    = TRUE;
     public $timestamps      = TRUE;
@@ -29,12 +29,6 @@ class ProdukKategori_model extends Custom_model
 	public function save($array)
 	{
 		$qry = $this->insert($array);
-		return $qry;
-	}
-
-	public function delete_byidkelas($idkelas)
-	{
-		$qry = $this->where(['id_kelas' => $idkelas])->delete();
 		return $qry;
 	}
 }
