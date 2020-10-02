@@ -180,10 +180,11 @@ class Kelola_pengajar extends Admin_Controller
 		$pengajar = str_replace(' ', '_', strtolower($dataInput['nama']));
 		$code = "";
 		$message = "";
-		// $namafilebaru =  "pengajar_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
+		$namafilebaru =  "pengajar_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
 		$cvbaru =  "cv_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
         $lokasiArsip = "assets/pengajar/";
-        $lokasiCV = "assets/lampiran/";
+		$lokasiCV = "assets/lampiran/";
+		
 		$config = $this->configuration($lokasiArsip,$namafilebaru);
 		$config2 = $this->configuration($lokasiCV,$cvbaru);
 
