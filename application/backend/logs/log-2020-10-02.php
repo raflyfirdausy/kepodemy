@@ -13052,3 +13052,40 @@ INFO - 2020-10-02 22:16:28 --> Language file loaded: language/english/upload_lan
 DEBUG - 2020-10-02 22:16:28 --> The filetype you are attempting to upload is not allowed.
 INFO - 2020-10-02 22:16:28 --> Final output sent to browser
 DEBUG - 2020-10-02 22:16:28 --> Total execution time: 2.0077
+ERROR - 2020-10-02 23:56:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 23:56:07 --> Config Class Initialized
+INFO - 2020-10-02 23:56:07 --> Hooks Class Initialized
+DEBUG - 2020-10-02 23:56:07 --> UTF-8 Support Enabled
+INFO - 2020-10-02 23:56:07 --> Utf8 Class Initialized
+INFO - 2020-10-02 23:56:07 --> URI Class Initialized
+DEBUG - 2020-10-02 23:56:07 --> No URI present. Default controller set.
+INFO - 2020-10-02 23:56:07 --> Router Class Initialized
+INFO - 2020-10-02 23:56:07 --> Output Class Initialized
+INFO - 2020-10-02 23:56:08 --> Security Class Initialized
+DEBUG - 2020-10-02 23:56:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 23:56:08 --> Input Class Initialized
+INFO - 2020-10-02 23:56:08 --> Language Class Initialized
+ERROR - 2020-10-02 23:56:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 23:56:10 --> Config Class Initialized
+INFO - 2020-10-02 23:56:10 --> Hooks Class Initialized
+DEBUG - 2020-10-02 23:56:10 --> UTF-8 Support Enabled
+INFO - 2020-10-02 23:56:10 --> Utf8 Class Initialized
+INFO - 2020-10-02 23:56:10 --> URI Class Initialized
+INFO - 2020-10-02 23:56:10 --> Router Class Initialized
+INFO - 2020-10-02 23:56:10 --> Output Class Initialized
+INFO - 2020-10-02 23:56:10 --> Security Class Initialized
+DEBUG - 2020-10-02 23:56:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 23:56:10 --> Input Class Initialized
+INFO - 2020-10-02 23:56:10 --> Language Class Initialized
+ERROR - 2020-10-02 23:56:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-02 23:56:18 --> Config Class Initialized
+INFO - 2020-10-02 23:56:18 --> Hooks Class Initialized
+DEBUG - 2020-10-02 23:56:18 --> UTF-8 Support Enabled
+INFO - 2020-10-02 23:56:18 --> Utf8 Class Initialized
+INFO - 2020-10-02 23:56:18 --> URI Class Initialized
+INFO - 2020-10-02 23:56:18 --> Router Class Initialized
+INFO - 2020-10-02 23:56:18 --> Output Class Initialized
+INFO - 2020-10-02 23:56:18 --> Security Class Initialized
+DEBUG - 2020-10-02 23:56:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-02 23:56:18 --> Input Class Initialized
+INFO - 2020-10-02 23:56:18 --> Language Class Initialized
