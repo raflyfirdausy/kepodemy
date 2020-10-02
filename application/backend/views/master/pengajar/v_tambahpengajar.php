@@ -1,5 +1,5 @@
 <form id="form-add-pengajar" method="POST" enctype="multipart/form-data">
-<!-- <form id="form-add-pengajarxx" action="<?= base_url('kelola_pengajar/cek')?>" method="POST" enctype="multipart/form-data"> -->
+<!-- <form id="form-add-pengajarxx" action="<?= base_url('kelola_pengajar/simpan_data')?>" method="POST" enctype="multipart/form-data"> -->
 <!--begin::Subheader-->
 <div class="subheader py-2 py-lg-4  subheader-solid " id="kt_subheader">
 	<div class=" container-fluid  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
