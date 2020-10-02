@@ -3,32 +3,33 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Kelola_pengajar extends Admin_Controller
 {
-    public function __construct()
-    {
-        parent::__construct();
+	public function __construct()
+	{
+		parent::__construct();
 		$this->load->model("Pengajar_model", "pengajar");
 		$this->load->model("Kategori_model", "kategori");
 		$this->load->model("PengajarPendidikan_model", "pengajar_pendidikan");
 		$this->load->model("PengajarPekerjaan_model", "pengajar_pekerjaan");
 		$this->load->model("PengajarKategori_model", "pengajar_kategori");
-    }
-
-    public function index()
-    {
-        $this->loadViewAdmin("master/pengajar/v_kelolapengajar");
 	}
 
-	public function configuration($lokasiArsip,$namafilebaru){
+	public function index()
+	{
+		$this->loadViewAdmin("master/pengajar/v_kelolapengajar");
+	}
+
+	public function configuration($lokasiArsip, $namafilebaru)
+	{
 		$config  = [
-            "upload_path"       => $lokasiArsip,
-            "allowed_types"     => 'gif|jpg|jpeg|png|pdf|docx|doc|xlsx|xls|ppt|pptx|txt|text/plain',
-            "max_size"          => 10240,
-            "file_ext_tolower"  => FALSE,
-            "overwrite"         => TRUE,
-            "remove_spaces"     => TRUE,
-            "file_name"         => $namafilebaru
+			"upload_path"       => $lokasiArsip,
+			"allowed_types"     => 'gif|jpg|jpeg|png|pdf|docx|doc|xlsx|xls|ppt|pptx|txt|text/plain',
+			"max_size"          => 10240,
+			"file_ext_tolower"  => FALSE,
+			"overwrite"         => TRUE,
+			"remove_spaces"     => TRUE,
+			"file_name"         => $namafilebaru
 		];
-		
+
 		return $config;
 	}
 
@@ -49,30 +50,30 @@ class Kelola_pengajar extends Admin_Controller
 		return true;
 	}
 
-    public function tambah_data()
-    {
+	public function tambah_data()
+	{
 		$listKategori = $this->kategori->get_lookup_kategori();
 		// d($listPengajar);
 		$data = [
 			'listKategori'	=> $listKategori
 		];
-        $this->loadViewAdmin("master/pengajar/v_tambahpengajar", $data);
+		$this->loadViewAdmin("master/pengajar/v_tambahpengajar", $data);
 	}
-	
+
 	public function proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori)
 	{
 		$cekdata = $this->pengajar->where(['email' => $dataheaderpengajar['email']])->count_rows();
-		if($cekdata > 0){
+		if ($cekdata > 0) {
 			$code = "500";
 			$message = "Email sudah pernah terdaftar, silahkan email yang lain";
-		}else{
+		} else {
 			$save = $this->pengajar->save($dataheaderpengajar);
 			$idpengajar = $save;
-			if($save){
+			if ($save) {
 				$insertKategoriPengajar = $this->insertKategoriPengajar($datakategori, $idpengajar);
 				if (isset($dataInput['nama_pendidikan'])) {
 					$rows = count($dataInput['nama_pendidikan']);
-					$dataPendidikan[] = []; 
+					$dataPendidikan[] = [];
 					for ($i = 0; $i < $rows; $i++) {
 						$dataPendidikan[$i] = [
 							"id_pengajar"	=> $idpengajar,
@@ -85,10 +86,10 @@ class Kelola_pengajar extends Admin_Controller
 					}
 					$savependidikan = $this->pengajar_pendidikan->save($dataPendidikan);
 				}
-		
+
 				if (isset($dataInput['nama_pekerjaan'])) {
 					$rows_pk = count($dataInput['nama_pekerjaan']);
-					$dataPekerjaan[] = []; 
+					$dataPekerjaan[] = [];
 					for ($x = 0; $x < $rows_pk; $x++) {
 						$dataPekerjaan[$x] = [
 							"id_pengajar"	=> $idpengajar,
@@ -100,12 +101,12 @@ class Kelola_pengajar extends Admin_Controller
 							"keterangan"	=> $dataInput['keterangan_pekerjaan'][$x],
 						];
 					}
-		
+
 					$savepekerjaan = $this->pengajar_pekerjaan->save($dataPekerjaan);
 				}
 				$code = "200";
 				$message = "Data berhasil disimpan";
-			}else{
+			} else {
 				$code = "500";
 				$message = "Data gagal disimpan";
 			}
@@ -121,11 +122,10 @@ class Kelola_pengajar extends Admin_Controller
 	public function proses_update_pengajar($dataInput, $id)
 	{
 		$update = $this->pengajar->update($dataInput, $id);
-		if($update){
+		if ($update) {
 			$code = "200";
 			$message = "Data berhasil diubah";
-		}
-		else{
+		} else {
 			$code = "500";
 			$message = "Data gagal diubah";
 		}
@@ -144,7 +144,7 @@ class Kelola_pengajar extends Admin_Controller
 		// d($dataInput);
 		if (isset($dataInput['nama_pendidikan'])) {
 			$rows = count($dataInput['nama_pendidikan']);
-			$dataPendidikan[] = []; 
+			$dataPendidikan[] = [];
 			for ($i = 0; $i < $rows; $i++) {
 				$dataPendidikan[$i] = [
 					"id_pengajar"	=> 1,
@@ -157,22 +157,20 @@ class Kelola_pengajar extends Admin_Controller
 			}
 			// d($dataPendidikan);
 			$savependidikan = $this->pengajar_pendidikan->save($dataPendidikan);
-			if($savependidikan){
+			if ($savependidikan) {
 				echo json_encode([
 					'response_code'	=> 200,
 					'response_message'	=> $message
 				]);
-			}else{
+			} else {
 				echo json_encode([
 					'response_code'	=> 500,
 					'response_message'	=> $message
 				]);
 			}
-
-
 		}
 	}
-	
+
 	public function simpan_data()
 	{
 		$dataInput = $this->input->post();
@@ -180,13 +178,15 @@ class Kelola_pengajar extends Admin_Controller
 		$pengajar = str_replace(' ', '_', strtolower($dataInput['nama']));
 		$code = "";
 		$message = "";
-		$namafilebaru =  "pengajar_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
-		$cvbaru =  "cv_". $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
-        $lokasiArsip = "assets/pengajar/";
+		$namafilebaru =  "pengajar_" . $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
+		$cvbaru =  "cv_" . $pengajar . "_" . time() . "." . pathinfo($_FILES["cv"]["name"], PATHINFO_EXTENSION);
+		$lokasiArsip = "assets/pengajar/";
 		$lokasiCV = "assets/lampiran/";
-		
-		$config = $this->configuration($lokasiArsip,$namafilebaru);
-		$config2 = $this->configuration($lokasiCV,$cvbaru);
+
+		$config = $this->configuration($lokasiArsip, $namafilebaru);
+		$config2 = $this->configuration($lokasiCV, $cvbaru);
+
+		// d($config2);
 
 		$datakategori = $dataInput['kategori'];
 
@@ -200,17 +200,16 @@ class Kelola_pengajar extends Admin_Controller
 			'foto'			=> '',
 			'cv'			=> '',
 		];
-        // $this->load->library('upload', $config);
+		// $this->load->library('upload', $config);
 		// $uploadfoto = $this->upload->initialize($config);
 
-	
-		if($_FILES["foto_pengajar"]["name"] == ''){
-			if($_FILES["cv"]["name"] == ''){
+
+		if ($_FILES["foto_pengajar"]["name"] == '') {
+			if ($_FILES["cv"]["name"] == '') {
 				$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
 				$code = $insert['code'];
 				$message = $insert['message'];
-			}
-			else{
+			} else {
 				$this->load->library('upload', $config2);
 				$uploadcv = $this->upload->initialize($config2);
 				if ($this->upload->do_upload("cv")) {
@@ -218,16 +217,14 @@ class Kelola_pengajar extends Admin_Controller
 					$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
 					$code = $insert['code'];
 					$message = $insert['message'];
-				}
-				else{
+				} else {
 					$error = array('error' => $this->upload->display_errors("", ""));
 					$code = "500";
 					$message = implode("<br>", $error);
 				}
 			}
-		}
-		else{
-			if($_FILES["cv"]["name"] == ''){
+		} else {
+			if ($_FILES["cv"]["name"] == '') {
 				$this->load->library('upload', $config);
 				$uploadfoto = $this->upload->initialize($config);
 				if ($this->upload->do_upload("foto_pengajar")) {
@@ -235,14 +232,12 @@ class Kelola_pengajar extends Admin_Controller
 					$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
 					$code = $insert['code'];
 					$message = $insert['message'];
-				}
-				else{
+				} else {
 					$error = array('error' => $this->upload->display_errors("", ""));
 					$code = "500";
 					$message = implode("<br>", $error);
 				}
-			}
-			else{
+			} else {
 				$this->load->library('upload', $config);
 				$uploadfoto = $this->upload->initialize($config);
 				if ($this->upload->do_upload("foto_pengajar")) {
@@ -254,14 +249,12 @@ class Kelola_pengajar extends Admin_Controller
 						$insert = $this->proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori);
 						$code = $insert['code'];
 						$message = $insert['message'];
-					}
-					else{
+					} else {
 						$error = array('error' => $this->upload->display_errors("", ""));
 						$code = "500";
 						$message = implode("<br>", $error);
 					}
-				}
-				else{
+				} else {
 					$error = array('error' => $this->upload->display_errors("", ""));
 					$code = "500";
 					$message = implode("<br>", $error);
@@ -270,12 +263,12 @@ class Kelola_pengajar extends Admin_Controller
 		}
 
 
-		if($code == 200){
+		if ($code == 200) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> $message
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> $message
@@ -300,14 +293,14 @@ class Kelola_pengajar extends Admin_Controller
 		$jk = "Perempuan";
 		foreach (Gender() as $xx) {
 			$select = $xx == $jk ? "selected" : "";
-			$gender .= "<option value='". $xx ."' $select>". $xx ."</option>";
+			$gender .= "<option value='" . $xx . "' $select>" . $xx . "</option>";
 		}
 
 		$level = "";
 		$lvl = "Super Admin";
 		foreach (Level() as $yy) {
 			$selected = $yy == $lvl ? "selected" : "";
-			$level .= "<option value='". $yy ."' $selected>". $yy ."</option>";
+			$level .= "<option value='" . $yy . "' $selected>" . $yy . "</option>";
 		}
 
 		echo json_encode([
@@ -331,7 +324,7 @@ class Kelola_pengajar extends Admin_Controller
 			'keterangan'	=> "Web Programming Technical",
 		];
 
-	
+
 		echo json_encode([
 			'response_code' => 200,
 			'response_message'	=> "Berhasil ambil data",
@@ -351,7 +344,7 @@ class Kelola_pengajar extends Admin_Controller
 			'keterangan'	=> "Teknik Informatika Programming",
 		];
 
-	
+
 		echo json_encode([
 			'response_code' => 200,
 			'response_message'	=> "Berhasil ambil data",
@@ -366,26 +359,26 @@ class Kelola_pengajar extends Admin_Controller
 	}
 
 	public function detail_pengajar($status)
-    {
+	{
 		$data = [
 			'status' => $status
 		];
-        $this->loadViewAdmin("master/pengajar/v_keloladetailpengajar", $data);
+		$this->loadViewAdmin("master/pengajar/v_keloladetailpengajar", $data);
 	}
-	
+
 	public function upload_file()
 	{
-		if(!empty($_FILES['file']['name'])){
+		if (!empty($_FILES['file']['name'])) {
 			$file = $_FILES['file']['name'];
 			// // Set preference
 			// $config['upload_path'] = 'uploads/'; 
 			// $config['allowed_types'] = 'jpg|jpeg|png|gif';
 			// $config['max_size'] = '1024'; // max_size in kb
 			// $config['file_name'] = $_FILES['file']['name'];
-	   
+
 			// //Load upload library
 			// $this->load->library('upload',$config); 
-	   
+
 			// // File upload
 			// if($this->upload->do_upload('file')){
 			//   // Get data about the file
@@ -397,8 +390,7 @@ class Kelola_pengajar extends Admin_Controller
 				'response_message' => "Upload berhasil",
 				'nama_file'	=> $file
 			]);
-		  }
-		
+		}
 	}
 
 
