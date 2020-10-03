@@ -3,28 +3,29 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Kategori extends Admin_Controller
 {
-    public function __construct()
-    {
+	public function __construct()
+	{
 		parent::__construct();
 		$this->load->model("Kategori_model", "kategori");
-    }
-
-    public function index()
-    {
-        $this->loadViewAdmin("master/kategori/v_kategori");
 	}
 
-	public function config($lokasiArsip,$namafilebaru){
+	public function index()
+	{
+		$this->loadViewAdmin("master/kategori/v_kategori");
+	}
+
+	public function config($lokasiArsip, $namafilebaru)
+	{
 		$config  = [
-            "upload_path"       => $lokasiArsip,
-            "allowed_types"     => 'gif|jpg|jpeg|png',
-            "max_size"          => 10240,
-            "file_ext_tolower"  => FALSE,
-            "overwrite"         => TRUE,
-            "remove_spaces"     => TRUE,
-            "file_name"         => $namafilebaru
+			"upload_path"       => $lokasiArsip,
+			"allowed_types"     => 'gif|jpg|jpeg|png',
+			"max_size"          => 10240,
+			"file_ext_tolower"  => FALSE,
+			"overwrite"         => TRUE,
+			"remove_spaces"     => TRUE,
+			"file_name"         => $namafilebaru
 		];
-		
+
 		return $config;
 	}
 
@@ -35,14 +36,14 @@ class Kategori extends Admin_Controller
 		$i = 1;
 		foreach ($all as $dt) {
 			$output .= "<tr>";
-			$output .= "<td class='text-center'>". $i++ ."</td>";
-			$output .= "<td><span class='txt-kategori'>". $dt->nama ."</span></td>";
-			$output .= "<td><span class='txt-keterangan'>". $dt->keterangan ."</span></td>";
-			$output .= "<td><input type='hidden' class='txt-gambar' value='". $dt->gambar ."'>". $this->kategori->get_jumah_sub($dt->id) ."</td>";
+			$output .= "<td class='text-center'>" . $i++ . "</td>";
+			$output .= "<td><span class='txt-kategori'>" . $dt->nama . "</span></td>";
+			$output .= "<td><span class='txt-keterangan'>" . $dt->keterangan . "</span></td>";
+			$output .= "<td><input type='hidden' class='txt-gambar' value='" . $dt->gambar . "'>" . $this->kategori->get_jumah_sub($dt->id) . "</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-edit-kategori' data-id='". $dt->id ."' title='Edit'><i class='la la-edit text-warning'></i></button>";
-			$output .= "<a href='". base_url('kategori/detail/') . $dt->id  ."' type='button' class='btn btn-sm btn-clean btn-icon' title='Subkategori'><i class='la la-list-ul text-success'></i></a>";
-			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-edit-kategori' data-id='" . $dt->id . "' title='Edit'><i class='la la-edit text-warning'></i></button>";
+			$output .= "<a href='" . base_url('kategori/detail/') . $dt->id  . "' type='button' class='btn btn-sm btn-clean btn-icon' title='Subkategori'><i class='la la-list-ul text-success'></i></a>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
 		}
@@ -62,14 +63,14 @@ class Kategori extends Admin_Controller
 		$i = 1;
 		foreach ($all as $dt) {
 			$output .= "<tr>";
-			$output .= "<td class='text-center'>". $i++ ."</td>";
-			$output .= "<td><span class='txt-kategori'>". $dt->nama ."</span></td>";
-			$output .= "<td><span class='txt-keterangan'>". $dt->keterangan ."</span></td>";
-			$output .= "<td><input type='hidden' class='txt-gambar' value='". $dt->gambar ."'>". $this->kategori->get_jumah_sub($dt->id) ."</td>";
+			$output .= "<td class='text-center'>" . $i++ . "</td>";
+			$output .= "<td><span class='txt-kategori'>" . $dt->nama . "</span></td>";
+			$output .= "<td><span class='txt-keterangan'>" . $dt->keterangan . "</span></td>";
+			$output .= "<td><input type='hidden' class='txt-gambar' value='" . $dt->gambar . "'>" . $this->kategori->get_jumah_sub($dt->id) . "</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-edit-subkategori' data-id='". $dt->id ."' title='Edit'><i class='la la-edit text-warning'></i></button>";
-			$output .= "<a href='". base_url('kategori/detail/') . $dt->id  ."' type='button' class='btn btn-sm btn-clean btn-icon' title='Subkategori'><i class='la la-list-ul text-success'></i></a>";
-			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-edit-subkategori' data-id='" . $dt->id . "' title='Edit'><i class='la la-edit text-warning'></i></button>";
+			$output .= "<a href='" . base_url('kategori/detail/') . $dt->id  . "' type='button' class='btn btn-sm btn-clean btn-icon' title='Subkategori'><i class='la la-list-ul text-success'></i></a>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
 		}
@@ -110,15 +111,15 @@ class Kategori extends Admin_Controller
 	public function proses_simpan_kategori($dataInput)
 	{
 		$cekdata = $this->kategori->where(['nama' => $dataInput['nama']])->count_rows();
-		if($cekdata > 0){
+		if ($cekdata > 0) {
 			$code = "500";
 			$message = "Nama kategori sudah pernah diinput, silahkan gunakan nama yang lain";
-		}else{
+		} else {
 			$save = $this->kategori->save($dataInput);
-			if($save){
+			if ($save) {
 				$code = "200";
 				$message = "Data berhasil disimpan";
-			}else{
+			} else {
 				$code = "500";
 				$message = "Data gagal disimpan";
 			}
@@ -134,11 +135,10 @@ class Kategori extends Admin_Controller
 	public function proses_update_kategori($dataInput, $id)
 	{
 		$update = $this->kategori->update($dataInput, $id);
-		if($update){
+		if ($update) {
 			$code = "200";
 			$message = "Data berhasil diubah";
-		}
-		else{
+		} else {
 			$code = "500";
 			$message = "Data gagal diubah";
 		}
@@ -158,44 +158,43 @@ class Kategori extends Admin_Controller
 		$namakategori = str_replace(' ', '_', strtolower($dataInput['nama']));
 		$code = "";
 		$message = "";
-		$namafilebaru =  "kategori_". $namakategori . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
-        $lokasiArsip = "assets/kategori/";
-		$config = $this->config($lokasiArsip,$namafilebaru);
-		
-        $this->load->library('upload', $config);
+		$namafilebaru =  "kategori_" . $namakategori . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
+		$lokasiArsip = "assets/kategori/";
+		$config = $this->config($lokasiArsip, $namafilebaru);
+
+		$this->load->library('upload', $config);
 		$this->upload->initialize($config);
 
-		if($_FILES["file_gambar_header"]["name"] == ''){
+		if ($_FILES["file_gambar_header"]["name"] == '') {
 			$insert = $this->proses_simpan_kategori($dataInput);
 			$code = $insert['code'];
 			$message = $insert['message'];
-		}else{
+		} else {
 			if ($this->upload->do_upload("file_gambar_header")) {
 				$dataInput['gambar'] = $namafilebaru;
 				$insert = $this->proses_simpan_kategori($dataInput);
 				$code = $insert['code'];
 				$message = $insert['message'];
-			}
-			else{
+			} else {
 				$error = array('error' => $this->upload->display_errors("", ""));
 				$code = "500";
 				$message = implode("<br>", $error);
 			}
 		}
 
-		if($code == 200){
+		if ($code == 200) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> $message
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> $message
 			]);
 		}
 	}
-	
+
 	// public function simpan_subkategori()
 	// {
 	// 	$dataInput = $this->input->post();
@@ -218,46 +217,44 @@ class Kategori extends Admin_Controller
 
 		$code = "";
 		$message = "";
-		$namafilebaru =  "kategori_". $namakategori . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
-        $lokasiArsip = "assets/kategori/";
-		$config = $this->config($lokasiArsip,$namafilebaru);
-		
-        $this->load->library('upload', $config);
+		$namafilebaru =  "kategori_" . $namakategori . "_" . time() . "." . pathinfo($_FILES["file_gambar_header"]["name"], PATHINFO_EXTENSION);
+		$lokasiArsip = "assets/kategori/";
+		$config = $this->config($lokasiArsip, $namafilebaru);
+
+		$this->load->library('upload', $config);
 		$this->upload->initialize($config);
 
-		if($_FILES["file_gambar_header"]["name"] == ''){
+		if ($_FILES["file_gambar_header"]["name"] == '') {
 			$update = $this->proses_update_kategori($dataInput, $id);
 			$code = $update['code'];
 			$message = $update['message'];
-		}else{
+		} else {
 			if ($this->upload->do_upload("file_gambar_header")) {
 				if (is_file(FCPATH . 'assets/kategori/' . $datakategori->gambar)) {
-                    unlink(FCPATH . 'assets/kategori/' . $datakategori->gambar);
-                }
+					unlink(FCPATH . 'assets/kategori/' . $datakategori->gambar);
+				}
 				$dataInput['gambar'] = $namafilebaru;
 				$update = $this->proses_update_kategori($dataInput, $id);
 				$code = $update['code'];
 				$message = $update['message'];
-			}
-			else{
+			} else {
 				$error = array('error' => $this->upload->display_errors("", ""));
 				$code = "500";
 				$message = implode("<br>", $error);
 			}
 		}
 
-		if($code == 200){
+		if ($code == 200) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> $message
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> $message
 			]);
 		}
-				
 	}
 	// public function update_kategori()
 	// {
@@ -281,15 +278,15 @@ class Kategori extends Admin_Controller
 	// }
 
 	public function detail($id)
-    {
+	{
 		$data = $this->kategori->where(['id' => $id])->get();
 		$data = [
 			'id_induk' => $id,
 			'namakategori'	=> $data->nama
 		];
-        $this->loadViewAdmin("master/kategori/v_subkategori", $data);
+		$this->loadViewAdmin("master/kategori/v_subkategori", $data);
 	}
-	
+
 
 	public function hapus_kategori()
 	{
@@ -298,12 +295,12 @@ class Kategori extends Admin_Controller
 
 		$delete = $this->kategori->delete($id);
 
-		if($delete){
+		if ($delete) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil dihapus"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal dihapus"

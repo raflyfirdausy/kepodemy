@@ -82,24 +82,28 @@ class Kelola_pengajar extends Admin_Controller
 		$i = 1;
 		foreach ($all as $dt) {
 			$output .= "<tr>";
-			$output .= "<td class='text-center'>". $i++ ."</td>";
-			$output .= "<td>". $dt->nama ."</td>";
-			$output .= "<td>". $dt->email ."</td>";
+			$output .= "<td class='text-center'>" . $i++ . "</td>";
+			$output .= "<td>" . $dt->nama . "</td>";
+			$output .= "<td>" . $dt->email . "</td>";
 			$kategori = "";
-			$size = sizeof((array)$dt->pengajarkategori);
-			$x = 0;
-			foreach ($dt->pengajarkategori as $pk) {
-				$kategori .= $pk->kategori->nama;
-				if (++$x !== $size){
-					$kategori .= ", ";
+			
+			if (!empty($dt->pengajarkategori)) {
+				$size = sizeof((array)$dt->pengajarkategori);
+				$x = 0;
+				foreach ($dt->pengajarkategori as $pk) {
+					$kategori .= $pk->kategori->nama;
+					if (++$x !== $size) {
+						$kategori .= ", ";
+					}
 				}
 			}
-			$output .= "<td>". $kategori ."</td>";
-			$output .= "<td>". $dt->jabatan ."</td>";
-			$output .= "<td>". $dt->no_hp ."</td>";
+			
+			$output .= "<td>" . $kategori . "</td>";
+			$output .= "<td>" . $dt->jabatan . "</td>";
+			$output .= "<td>" . $dt->no_hp . "</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<a href='" . base_url('kelola_pengajar/detail/'). $dt->id. "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
-			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
+			$output .= "<a href='" . base_url('kelola_pengajar/detail/') . $dt->id . "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
 		}
@@ -109,6 +113,46 @@ class Kelola_pengajar extends Admin_Controller
 			'response_message'	=> "Berhasil load data",
 			'output'	=> $output
 		]);
+	}
+
+	public function get_all_data_array()
+	{
+		$all = $this->pengajar->all(TRUE);
+		// d($all);
+		$output = "";
+		$i = 1;
+		foreach ($all as $dt) {
+			$output .= "<tr>";
+			$output .= "<td class='text-center'>" . $i++ . "</td>";
+			$output .= "<td>" . $dt["nama"] . "</td>";
+			$output .= "<td>" . $dt["email"] . "</td>";
+			$kategori = "";
+
+			if (!empty($dt["pengajarkategori"])) {
+				$x = 0;
+				$size = sizeof($dt["pengajarkategori"]);
+				foreach ($dt["pengajarkategori"] as $pk) {
+					$kategori .= $pk->kategori->nama;
+					if (++$x !== $size) {
+						$kategori .= ", ";
+					}
+				}
+			}			
+			$output .= "<td>" . $kategori . "</td>";
+			$output .= "<td>" . $dt["jabatan"] . "</td>";
+			$output .= "<td>" . $dt["no_hp"] . "</td>";
+			$output .= "<td class='text-center'>";
+			$output .= "<a href='" . base_url('kelola_pengajar/detail/') . $dt["id"] . "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='" . $dt["id"] . "' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
+			$output .= "</td>";
+			$output .= "</tr>";
+		}
+
+		echo json_encode([
+			'response_code'	=> 200,
+			'response_message'	=> "Berhasil load data",
+			'output'	=> $output
+		], JSON_HEX_QUOT | JSON_HEX_TAG);
 	}
 
 	public function proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori)
@@ -226,7 +270,7 @@ class Kelola_pengajar extends Admin_Controller
 	public function simpan_data()
 	{
 		$dataInput = $this->input->post();
-		
+
 		$pengajar = str_replace(' ', '_', strtolower($dataInput['nama']));
 		$code = "";
 		$message = "";
@@ -424,28 +468,26 @@ class Kelola_pengajar extends Admin_Controller
 		$this->upload->initialize($config);
 
 		$datakategori = $dataInput['kategori'];
-		if(!isset($dataInput['password'])){
+		if (!isset($dataInput['password'])) {
 			unset($dataInput['kategori'], $dataInput['password'], $dataInput['id'], $dataInput['foto_pengajar_remove']);
-		}
-		else{
+		} else {
 			unset($dataInput['kategori'], $dataInput['id'], $dataInput['foto_pengajar_remove']);
 			$dataInput['password'] = md5($dataInput['password']);
 		}
-		if($_FILES["foto_pengajar"]["name"] == ''){
+		if ($_FILES["foto_pengajar"]["name"] == '') {
 			$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
 			$code = $update['code'];
 			$message = $update['message'];
-		}else{
+		} else {
 			if ($this->upload->do_upload("foto_pengajar")) {
 				if (is_file(FCPATH . 'assets/pengajar/' . $datapengajar->foto)) {
-                    unlink(FCPATH . 'assets/pengajar/' . $datapengajar->foto);
-                }
+					unlink(FCPATH . 'assets/pengajar/' . $datapengajar->foto);
+				}
 				$dataInput['foto'] = $namafilebaru;
 				$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
 				$code = $update['code'];
 				$message = $update['message'];
-			}
-			else{
+			} else {
 				$error = array('error' => $this->upload->display_errors("", ""));
 				$code = "500";
 				$message = implode("<br>", $error);
@@ -454,12 +496,12 @@ class Kelola_pengajar extends Admin_Controller
 
 
 
-		if($code == 200){
+		if ($code == 200) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> $message
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> $message
@@ -474,11 +516,10 @@ class Kelola_pengajar extends Admin_Controller
 		$getpengajarkategori = $this->pengajar_kategori->where(['id_pengajar' => $id])->get_all();
 		// d($listKategori);
 		$pengajar_kategori = [];
-        foreach($getpengajarkategori as $pk)
-        {
-            $pengajar_kategori[] = $pk->id_kategori;
+		foreach ($getpengajarkategori as $pk) {
+			$pengajar_kategori[] = $pk->id_kategori;
 		}
-		
+
 		// d($pengajar_kategori);
 		$data = [
 			'data' => $getdata,
@@ -497,15 +538,15 @@ class Kelola_pengajar extends Admin_Controller
 		$output = "";
 		foreach ($getdata as $dt) {
 			$output .= "<tr>";
-			$output .= "<td>". $dt->nama_pekerjaan ."</td>";
-			$output .= "<td>". $dt->tahun_masuk ."</td>";
-			$output .= "<td>". $dt->tahun_keluar ."</td>";
-			$output .= "<td>". $dt->posisi ."</td>";
-			$output .= "<td>". $dt->pencapaian ."</td>";
-			$output .= "<td>". $dt->keterangan ."</td>";
+			$output .= "<td>" . $dt->nama_pekerjaan . "</td>";
+			$output .= "<td>" . $dt->tahun_masuk . "</td>";
+			$output .= "<td>" . $dt->tahun_keluar . "</td>";
+			$output .= "<td>" . $dt->posisi . "</td>";
+			$output .= "<td>" . $dt->pencapaian . "</td>";
+			$output .= "<td>" . $dt->keterangan . "</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan mr-2' title='Edit' data-id='". $dt->id ."'><i class='la la-edit'></i></button>";
-			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash-o'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan mr-2' title='Edit' data-id='" . $dt->id . "'><i class='la la-edit'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash-o'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
 		}
@@ -525,14 +566,14 @@ class Kelola_pengajar extends Admin_Controller
 		$output = "";
 		foreach ($getdata as $dt) {
 			$output .= "<tr>";
-			$output .= "<td>". $dt->nama_pendidikan ."</td>";
-			$output .= "<td>". $dt->tahun_masuk ."</td>";
-			$output .= "<td>". $dt->tahun_keluar ."</td>";
-			$output .= "<td>". $dt->jurusan ."</td>";
-			$output .= "<td>". $dt->keterangan ."</td>";
+			$output .= "<td>" . $dt->nama_pendidikan . "</td>";
+			$output .= "<td>" . $dt->tahun_masuk . "</td>";
+			$output .= "<td>" . $dt->tahun_keluar . "</td>";
+			$output .= "<td>" . $dt->jurusan . "</td>";
+			$output .= "<td>" . $dt->keterangan . "</td>";
 			$output .= "<td class='text-center'>";
-			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan mr-2' title='Edit' data-id='". $dt->id ."'><i class='la la-edit'></i></button>";
-			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash-o'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan mr-2' title='Edit' data-id='" . $dt->id . "'><i class='la la-edit'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash-o'></i></button>";
 			$output .= "</td>";
 			$output .= "</tr>";
 		}
@@ -546,7 +587,6 @@ class Kelola_pengajar extends Admin_Controller
 
 	public function getLampiran()
 	{
-
 	}
 
 	public function getPekerjaanPengajarById()
@@ -554,7 +594,7 @@ class Kelola_pengajar extends Admin_Controller
 		$dataInput  = $this->input->post();
 		$id = $dataInput["ID"];
 		$data = $this->pengajar_pekerjaan->where(['id' => $id])->get();
-		
+
 
 		echo json_encode([
 			'response_code' => 200,
@@ -568,7 +608,7 @@ class Kelola_pengajar extends Admin_Controller
 		$dataInput  = $this->input->post();
 		$id = $dataInput["ID"];
 		$data = $this->pengajar_pendidikan->where(['id' => $id])->get();
-		
+
 
 		echo json_encode([
 			'response_code' => 200,
@@ -583,12 +623,12 @@ class Kelola_pengajar extends Admin_Controller
 		// var_dump($dataInput);
 		unset($dataInput["id"]);
 		$save = $this->pengajar_pekerjaan->save($dataInput);
-		if($save){
+		if ($save) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil disimpan"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal disimpan"
@@ -601,12 +641,12 @@ class Kelola_pengajar extends Admin_Controller
 		$dataInput  = $this->input->post();
 		unset($dataInput["id"]);
 		$save = $this->pengajar_pendidikan->save($dataInput);
-		if($save){
+		if ($save) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil disimpan"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal disimpan"
@@ -620,12 +660,12 @@ class Kelola_pengajar extends Admin_Controller
 		$id = $dataInput['id'];
 		unset($dataInput["id"], $dataInput['id_pengajar']);
 		$update = $this->pengajar_pekerjaan->update($dataInput, $id);
-		if($update){
+		if ($update) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil diupdate"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal diupdate"
@@ -639,12 +679,12 @@ class Kelola_pengajar extends Admin_Controller
 		$id = $dataInput['id'];
 		unset($dataInput["id"], $dataInput['id_pengajar']);
 		$update = $this->pengajar_pendidikan->update($dataInput, $id);
-		if($update){
+		if ($update) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil diupdate"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal diupdate"
@@ -659,12 +699,12 @@ class Kelola_pengajar extends Admin_Controller
 
 		$delete = $this->pengajar_pekerjaan->delete($id);
 
-		if($delete){
+		if ($delete) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil dihapus"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal dihapus"
@@ -679,12 +719,12 @@ class Kelola_pengajar extends Admin_Controller
 
 		$delete = $this->pengajar_pendidikan->delete($id);
 
-		if($delete){
+		if ($delete) {
 			echo json_encode([
 				'response_code'	=> 200,
 				'response_message'	=> "Data berhasil dihapus"
 			]);
-		}else{
+		} else {
 			echo json_encode([
 				'response_code'	=> 500,
 				'response_message'	=> "Data gagal dihapus"

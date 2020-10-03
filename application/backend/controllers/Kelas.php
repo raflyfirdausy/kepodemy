@@ -71,15 +71,19 @@ class Kelas extends Admin_Controller
 			$output .= "<tr>";
 			$output .= "<td class='text-center'>". $i++ ."</td>";
 			$output .= "<td><span class='txt-kelas'>". $dt->nama ."</span></td>";
-			$size = sizeof((array)$dt->produkkategori);
-			$x = 0;
 			$kategori = "";
-			foreach ($dt->produkkategori as $pk) {
-				$kategori .= $pk->kategori->nama;
-				if (++$x !== $size){
-					$kategori .= ", ";
+			
+			if(!empty($dt->produkkategori)){
+				$size = sizeof((array)$dt->produkkategori);
+				$x = 0;				
+				foreach ($dt->produkkategori as $pk) {
+					$kategori .= $pk->kategori->nama;
+					if (++$x !== $size){
+						$kategori .= ", ";
+					}
 				}
 			}
+			
 			$output .= "<td>". $kategori ."</td>";
 			$output .= "<td class='text-right'>". Rupiah($dt->harga) ."</td>";
 			$output .= "<td class='text-right'>". Rupiah($dt->harga_diskon) ."</td>";

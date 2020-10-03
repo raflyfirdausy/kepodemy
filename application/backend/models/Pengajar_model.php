@@ -20,10 +20,16 @@ class Pengajar_model extends Custom_model
         );
     }
 
-    public function all()
+    public function all($asArray = FALSE)
     {
-        $qry = $this->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->order_by("created_at", "DESC")->get_all() ?: [];
-        return $qry;
+        if($asArray){
+            $qry = $this->as_array()->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->order_by("created_at", "DESC")->get_all() ?: [];
+            return $qry;
+        } else {
+            $qry = $this->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->order_by("created_at", "DESC")->get_all() ?: [];
+            return $qry;
+        }
+        
     }
 
     public function save($array)
