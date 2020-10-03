@@ -9158,3 +9158,39 @@ INFO - 2020-10-03 08:11:29 --> Model "PengajarPekerjaan_model" initialized
 INFO - 2020-10-03 08:11:29 --> Model "PengajarKategori_model" initialized
 INFO - 2020-10-03 08:11:29 --> Model "PengajarKategori_model" initialized
 INFO - 2020-10-03 08:11:29 --> Model "Kategori_model" initialized
+ERROR - 2020-10-03 08:03:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2020-10-03 08:03:39 --> Config Class Initialized
+INFO - 2020-10-03 08:03:39 --> Hooks Class Initialized
+DEBUG - 2020-10-03 08:03:39 --> UTF-8 Support Enabled
+INFO - 2020-10-03 08:03:39 --> Utf8 Class Initialized
+INFO - 2020-10-03 08:03:39 --> URI Class Initialized
+DEBUG - 2020-10-03 08:03:39 --> No URI present. Default controller set.
+INFO - 2020-10-03 08:03:39 --> Router Class Initialized
+INFO - 2020-10-03 08:03:40 --> Output Class Initialized
+INFO - 2020-10-03 08:03:40 --> Security Class Initialized
+DEBUG - 2020-10-03 08:03:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-10-03 08:03:40 --> Input Class Initialized
+INFO - 2020-10-03 08:03:40 --> Language Class Initialized
+INFO - 2020-10-03 13:03:40 --> Loader Class Initialized
+INFO - 2020-10-03 13:03:40 --> Helper loaded: url_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: form_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: array_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: download_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: inflector_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: setting_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: waktu_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: ultranesia_helper
+INFO - 2020-10-03 13:03:40 --> Helper loaded: utility_helper
+DEBUG - 2020-10-03 13:03:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-10-03 13:03:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2020-10-03 13:03:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-10-03 13:03:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-10-03 13:03:41 --> Encryption Class Initialized
+INFO - 2020-10-03 13:03:41 --> Controller Class Initialized
+INFO - 2020-10-03 13:03:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\beranda/index.php
+INFO - 2020-10-03 13:03:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/sidebar.php
+INFO - 2020-10-03 13:03:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/header.php
+INFO - 2020-10-03 13:03:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/footer.php
+INFO - 2020-10-03 13:03:41 --> File loaded: C:\xampp\htdocs\kepodemy\application\backend\views\template/main.php
+INFO - 2020-10-03 13:03:41 --> Final output sent to browser
+DEBUG - 2020-10-03 13:03:41 --> Total execution time: 2.1279
