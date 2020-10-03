@@ -174,7 +174,7 @@
          <div class="title-section">
              <div class="left-part">
                  <span></span>
-                 <h1>Pilihan kelas terbanyak</h1>
+                 <h1>Pilihan Kelas Terbaik</h1>
              </div>
              <div class="right-part">
                  <a class="button-one" href="#">Lihat semua kelas</a>
@@ -236,81 +236,40 @@
                          <span>Kalender</span>
                          <h1>kelas Terdekat</h1>
                      </div>
+                     <div class="right-part">
+                         <a class="button-one" href="#">Lihat Kalender</a>
+                     </div>
                  </div>
 
                  <div class="events-box">
 
-                     <div class="events-post">
-                         <div class="event-inner-content">
-                             <div class="top-part">
-                                 <div class="date-holder">
-                                     <div class="date">
-                                         <span class="date-day">22</span>
-                                         <span class="date-month">Oct</span>
-                                     </div>
-                                 </div>
-                                 <div class="content">
-                                     <div class="event-meta">
-                                         <span class="event-meta-piece start-time">
-                                             <i class="material-icons">access_time</i> 6:00 am - 12:00 pm
-                                         </span>
-                                         <span class="event-meta-piece location">
-                                             <i class="material-icons">location_on</i> Purwokerto, Jawa Tengah
-                                         </span>
-                                     </div>
-                                     <h2 class="title"><a href="#">Contoh Judul kelas 1 </a></h2>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
+                     <?php foreach ($terdekat as $dekat) : ?>
 
-                     <div class="events-post">
-                         <div class="event-inner-content">
-                             <div class="top-part">
-                                 <div class="date-holder">
-                                     <div class="date">
-                                         <span class="date-day">23</span>
-                                         <span class="date-month">Oct</span>
+                         <div class="events-post" style="margin-bottom: 10px;">
+                             <div class="event-inner-content">
+                                 <div class="top-part">
+                                     <div class="date-holder">
+                                         <div class="date">
+                                             <span class="date-day"><?= date("d", strtotime($dekat["tanggal"])) ?></span>
+                                             <span class="date-month"><?= date("M", strtotime($dekat["tanggal"])) ?></span>
+                                         </div>
                                      </div>
-                                 </div>
-                                 <div class="content">
-                                     <div class="event-meta">
-                                         <span class="event-meta-piece start-time">
-                                             <i class="material-icons">access_time</i> 6:00 am - 12:00 pm
-                                         </span>
-                                         <span class="event-meta-piece location">
-                                             <i class="material-icons">location_on</i> Purwokerto, Jawa Tengah
-                                         </span>
+                                     <div class="content">
+                                         <div class="event-meta">
+                                             <span class="event-meta-piece start-time">
+                                                 <i class="material-icons">access_time</i> <?= $dekat["jam_mulai"] . " - " .  $dekat["jam_selesai"] ?>
+                                             </span>
+                                             <span class="event-meta-piece location">
+                                                 <i class="material-icons">location_on</i> <?= $dekat["media"] ?>
+                                             </span>
+                                         </div>
+                                         <h2 class="title"><a href="#"><?= $dekat["nama"] ?> </a></h2>
                                      </div>
-                                     <h2 class="title"><a href="#">Contoh Judul kelas 2 </a></h2>
                                  </div>
                              </div>
                          </div>
-                     </div>
 
-                     <div class="events-post">
-                         <div class="event-inner-content">
-                             <div class="top-part">
-                                 <div class="date-holder">
-                                     <div class="date">
-                                         <span class="date-day">24</span>
-                                         <span class="date-month">Oct</span>
-                                     </div>
-                                 </div>
-                                 <div class="content">
-                                     <div class="event-meta">
-                                         <span class="event-meta-piece start-time">
-                                             <i class="material-icons">access_time</i> 6:00 am - 12:00 pm
-                                         </span>
-                                         <span class="event-meta-piece location">
-                                             <i class="material-icons">location_on</i> Purwokerto, Jawa Tengah
-                                         </span>
-                                     </div>
-                                     <h2 class="title"><a href="#">Contoh Judul kelas 3 </a></h2>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
+                     <?php endforeach ?>
 
                  </div>
              </div>
