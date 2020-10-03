@@ -72,32 +72,14 @@
 							<th class="text-center" style="width: 5%">No</th>
 							<th style="width: 15%">Nama</th>
 							<th style="width: 15%">email</th>
-							<th style="width: 15%">Kategori</th>
+							<th style="width: 30%">Kategori</th>
 							<th style="width: 15%">Jabatan</th>
 							<th style="width: 10%">No. Hp</th>
-							<th style="width: 15%">Tanggal Daftar</th>
 							<th class="text-center" style="width: 10%">Action</th>
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td>M. I. Zulkifli M.</td>
-							<td>akunpaten27@gmail.com</td>
-							<td>Pemograman</td>
-							<td>Teacher</td>
-							<td>087812348877</td>
-							<td>24-09-2020</td>
-							<td class="text-center">
-								<a href="<?= base_url('kelola_pengajar/detail_pengajar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Details">
-									<i class="la la-edit text-success"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-pengajar">
 					</tbody>
 
 				</table>

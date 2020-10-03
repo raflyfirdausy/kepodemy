@@ -14,7 +14,8 @@ class Kelas extends Admin_Controller
 
     public function index()
     {
-		
+		// $all = $this->produk->get_all_kelas();
+		// d($all);
         $this->loadViewAdmin("master/kelas/v_kelas");
 	}
 
@@ -71,11 +72,11 @@ class Kelas extends Admin_Controller
 			$output .= "<td class='text-center'>". $i++ ."</td>";
 			$output .= "<td><span class='txt-kelas'>". $dt->nama ."</span></td>";
 			$size = sizeof((array)$dt->produkkategori);
-			$i = 0;
+			$x = 0;
 			$kategori = "";
 			foreach ($dt->produkkategori as $pk) {
 				$kategori .= $pk->kategori->nama;
-				if (++$i !== $size){
+				if (++$x !== $size){
 					$kategori .= ", ";
 				}
 			}

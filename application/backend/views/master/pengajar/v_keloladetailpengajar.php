@@ -6,7 +6,6 @@
 
 			<!--begin::Page Title-->
 			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelola Pengajar</h5>
-			<input type="hidden" class="form-control" id="status-pengajar" value="<?= $status ?>" disabled/>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -154,8 +153,8 @@
 									<label class="col-xl-3 col-lg-3 col-form-label">Foto</label>
 									<div class="col-lg-9 col-xl-6">
 										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
-											<a class="image-popup-vertical-fit el-link" href="<?= asset('admin/media/users/300_21.jpg') ?>" target="_blank">
-												<div class="image-input-wrapper" style="background-image: url(<?= asset('admin/media/users/300_21.jpg') ?>)">
+											<a class="image-popup-vertical-fit el-link" href="<?= isset($data->foto) ?  asset("pengajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>" target="_blank">
+												<div class="image-input-wrapper" style="background-image: url(<?= isset($data->foto) ?  asset("pengajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>)">
 												</div>
 											</a>
 
@@ -179,34 +178,40 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nama</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" name="nama" value="M. I. Zulkifli M."/>
+										<input class="form-control form-control-lg" type="hidden" name="id" id="id-pengajar" value="<?= $data->id ?>"/>
+										<input class="form-control form-control-lg" type="text" name="nama" value="<?= $data->nama ?>"/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Kategori Pengajar</label>
 									<div class="col-lg-9 col-xl-6">
-										<select class="form-control" id="select-kategori" name="KategoriPengajar" style="width:100%" multiple="multiple" required>
-											<option value="Web Programming">Web Programming</option>
-											<option value="Web Programming" selected>Mobile Programming</option>
+										<select class="form-control" id="select-kategori" name="kategori[]" style="width:100%" multiple="multiple" required>
+										<?php foreach ($listKategori as $kt) : ?>
+											<?php if(in_array($kt->id, $pengajar_kategori)){ ?>
+												<option value="<?= $kt->id ?>" selected><?= $kt->nama ?></option>
+											<?php }else{ ?>
+												<option value="<?= $kt->id ?>"><?= $kt->nama ?></option>
+											<?php } ?>
+										<?php endforeach; ?>
 										</select>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Jabatan / Fungsi Pekerjaan</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" name="jabatan" value="Instruktur"/>
+										<input class="form-control form-control-lg" type="text" name="jabatan" value="<?= $data->jabatan ?>"/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
 									<div class="col-lg-9 col-xl-6">
-										<textarea  class="form-control form-control-lg" name="deskripsi" rows="2">Instruktur Pemrograman Game</textarea>
+										<textarea  class="form-control form-control-lg" name="deskripsi" rows="2"><?= $data->deskripsi ?></textarea>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="2020-09-24 13:30:00" disabled/>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="<?= date("d-m-Y H:i:s", strtotime($data->created_at)); ?>" disabled/>
 									</div>
 								</div>
 								
@@ -222,7 +227,7 @@
 									<div class="col-lg-9 col-xl-6">
 										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-											<input type="text" class="form-control form-control-lg valid-number" name="nohp" value="087812347788" />
+											<input type="text" class="form-control form-control-lg valid-number" name="no_hp" value="<?= $data->no_hp ?>" />
 										</div>
 									</div>
 								</div>
@@ -231,8 +236,27 @@
 									<div class="col-lg-9 col-xl-6">
 										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-at"></i></span></div>
-											<input type="text" class="form-control form-control-lg" value="akunpaten27@gmail.com" name="email" />
+											<input type="email" class="form-control form-control-lg" value="<?= $data->email ?>" name="email" />
 										</div>
+									</div>
+								</div>
+								<!-- INFO KONTAK -->
+								<div class="row">
+									<label class="col-xl-3"></label>
+									<div class="col-lg-9 col-xl-6">
+										<h5 class="font-weight-bold mt-10 mb-6">Ubah password</h5>
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-xl-3 col-lg-3 col-form-label">Password</label>
+									<div class="col-lg-9 col-xl-6">
+										<div class="input-group">
+											<input type="password" class="form-control password" id="password-admin" name="password" placeholder="Password"/>
+											<div class="input-group-append">
+												<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
+											</div>
+										</div>
+										<span class="form-text text-muted txt-edit-password" style="display:none;">Kosongkan jika tidak ingin mengubah password</span>
 									</div>
 								</div>
 							</div>
@@ -265,35 +289,19 @@
 
 							 <!--begin::Table-->
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_1">
+								<table class="table table-head-custom table-vertical-center" id="table-pendidikan">
 									<thead>
 										<tr>
-											<th>No</th>
-											<th>Nama Sekolah / Perguruan Tinggi</th>
-											<th>Waktu Masuk</th>
-											<th>Waktu Keluar</th>
-											<th>Jurusan</th>
-											<th>Keterangan</th>
-											<th class="text-center">Action</th>
+											<th style="width:20%">Nama Pendidikan</th>
+											<th style="width:15%">Tahun Masuk</th>
+											<th style="width:15%">Tahun Keluar</th>
+											<th style="width:20%">Jurusan</th>
+											<th style="width:20%">Keterangan</th>
+											<th style="width:10%" class="text-center">Action</th>
 										</tr>
 									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Universitas Amikom Purwokerto</td>
-											<td>2016</td>
-											<td>2020</td>
-											<td>Informatika</td>
-											<td>Teknik Informatika Programming</td>
-											<td class="text-center">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan" data-id="1" title="Edit">
-													<i class="la la-edit"></i>
-												</button>
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" data-id="1" title="Hapus">
-													<i class="la la-trash-o"></i>
-												</button>
-											</td>
-										</tr>
+									<tbody id="body-pendidikan">
+										
 									</tbody>
 								</table>
 							</div>
@@ -316,35 +324,19 @@
 								</div>
 							</div>
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_2">
+								<table class="table table-head-custom table-vertical-center" id="table-pekerjaan">
 									<thead>
 										<tr>
-											<th>No</th>
-											<th>Nama Perusahaan</th>
-											<th>Waktu Masuk</th>
-											<th>Waktu Keluar</th>
-											<th>Posisi</th>
-											<th>Keterangan</th>
-											<th class="text-center">Action</th>
+											<th style="width:15%">Nama Perusahaan</th>
+											<th style="width:10%">Tahun Masuk</th>
+											<th style="width:10%">Tahun Keluar</th>
+											<th style="width:12%">Posisi</th>
+											<th style="width:25%">Pencapaian</th>
+											<th style="width:17%">Keterangan</th>
+											<th style="width:10%" class="text-center">Action</th>
 										</tr>
 									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Ultranesia.com</td>
-											<td>2019</td>
-											<td>2020</td>
-											<td>Web Developer</td>
-											<td>Web Programming Technical</td>
-											<td class="text-center">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan" data-id="1" title="Edit">
-													<i class="la la-edit"></i>
-												</button>
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" data-id="1" title="Hapus">
-													<i class="la la-trash-o"></i>
-												</button>
-											</td>
-										</tr>
+									<tbody id="body-pekerjaan">
 									</tbody>
 								</table>
 							</div>
@@ -425,26 +417,31 @@
 			<form id="form-pekerjaan" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="idPekerjaan" id="id-pekerjaan" value="">
+					<input type="hidden" name="id" id="id-pekerjaan" value="">
+					<input type="hidden" name="id_pengajar" id="id-pengajar-pekerjaan" value="">
 					<div class="form-group row">
 						<label>Nama Perusahaan</label>
-						<input type="text" name="NamaPerusahaan" id="nama-perusahaan" class="form-control" placeholder="Nama perusahaan" />
+						<input type="text" name="nama_pekerjaan" id="nama-pekerjaan" class="form-control" placeholder="Nama pekerjaan" />
 					</div>
 					<div class="form-group row">
-						<label>Waktu Masuk</label>
-						<input type="number" name="waktuMasuk" id="waktu-masuk-kerja" class="form-control" placeholder="Tahun masuk kerja" />
+						<label>Tahun Masuk</label>
+						<input type="text" name="tahun_masuk" id="waktu-masuk-kerja" class="form-control valid-number" placeholder="Tahun masuk kerja" />
 					</div>
 					<div class="form-group row">
-						<label>Waktu Keluar</label>
-						<input type="number" name="waktuKeluar" id="waktu-keluar-kerja" class="form-control" placeholder="Tahun keluar kerja" />
+						<label>Tahun Keluar</label>
+						<input type="text" name="tahun_keluar" id="waktu-keluar-kerja" class="form-control valid-number" placeholder="Tahun keluar kerja" />
 					</div>
 					<div class="form-group row">
-						<label>Nama Perusahaan</label>
-						<input type="text" name="Posisi" id="posisi-kerja" class="form-control" placeholder="Posisi Pekerjaan" />
+						<label>Posisi</label>
+						<input type="text" name="posisi" id="posisi-kerja" class="form-control" placeholder="Posisi Pekerjaan" />
+					</div>
+					<div class="form-group row">
+						<label>Pencapaian</label>
+						<textarea name="pencapaian" id="pencapaian-kerja" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
 					</div>
 					<div class="form-group row">
 						<label>Keterangan</label>
-						<textarea name="KeteranganPekerjaan" id="keterangan-kerja" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
+						<textarea name="keterangan" id="keterangan-kerja" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
 					</div>
 				</div>
 					
@@ -471,26 +468,27 @@
 			<form id="form-pendidikan" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="idPendidikan" id="id-pendidikan" value="">
+					<input type="hidden" name="id" id="id-pendidikan" value="">
+					<input type="hidden" name="id_pengajar" id="id-pengajar-pendidikan" value="">
 					<div class="form-group row">
 						<label>Nama Pendidikan</label>
-						<input type="text" name="NamaPendidikan" id="nama-pendidikan" class="form-control" placeholder="Nama Pendidikan" />
+						<input type="text" name="nama_pendidikan" id="nama-pendidikan" class="form-control" placeholder="Nama Pendidikan" />
 					</div>
 					<div class="form-group row">
-						<label>Waktu Masuk</label>
-						<input type="number" name="waktuMasuk" id="waktu-keluar-pendidikan" class="form-control" placeholder="Tahun masuk" />
+						<label>Tahun Masuk</label>
+						<input type="text" name="tahun_masuk" id="waktu-masuk-pendidikan" class="form-control valid-number" placeholder="Tahun masuk" />
 					</div>
 					<div class="form-group row">
-						<label>Waktu Keluar</label>
-						<input type="number" name="waktuKeluar" id="waktu-masuk-pendidikan" class="form-control" placeholder="Tahun keluar" />
+						<label>Tahun Keluar</label>
+						<input type="text" name="tahun_keluar" id="waktu-keluar-pendidikan" class="form-control valid-number" placeholder="Tahun keluar" />
 					</div>
 					<div class="form-group row">
 						<label>Jurusan</label>
-						<input type="text" name="Jurusan" id="jurusan-pendidikan" class="form-control" placeholder="Jurusan" />
+						<input type="text" name="jurusan" id="jurusan-pendidikan" class="form-control" placeholder="Jurusan" />
 					</div>
 					<div class="form-group row">
 						<label>Keterangan</label>
-						<textarea name="KeteranganPendidikan" id="keterangan-pendidikan" class="form-control" placeholder="Keterangan Pendidikan" rows="3"></textarea>
+						<textarea name="keterangan" id="keterangan-pendidikan" class="form-control" placeholder="Keterangan Pendidikan" rows="3"></textarea>
 					</div>
 				</div>
 					

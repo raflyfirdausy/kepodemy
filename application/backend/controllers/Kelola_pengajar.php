@@ -15,10 +15,24 @@ class Kelola_pengajar extends Admin_Controller
 
 	public function index()
 	{
+		// $all = $this->pengajar->all();
+		// d($all);
+		// foreach ($all as $dt) {
+		// 	$size = sizeof((array)$dt->pengajarkategori);
+		// 	$x = 0;
+		// 	$kategori = "";
+		// 	foreach ($dt->pengajarkategori as $pk) {
+		// 		$kategori .= $pk->kategori->nama;
+		// 		if (++$x !== $size){
+		// 			$kategori .= ", ";
+		// 		}
+		// 	}
+		// }
+		// d($kategori);
 		$this->loadViewAdmin("master/pengajar/v_kelolapengajar");
 	}
 
-	public function configuration($lokasiArsip, $namafilebaru)
+	public function config($lokasiArsip, $namafilebaru)
 	{
 		$config  = [
 			"upload_path"       => $lokasiArsip,
@@ -58,6 +72,43 @@ class Kelola_pengajar extends Admin_Controller
 			'listKategori'	=> $listKategori
 		];
 		$this->loadViewAdmin("master/pengajar/v_tambahpengajar", $data);
+	}
+
+	public function get_all_data()
+	{
+		$all = $this->pengajar->all();
+		// d($all);
+		$output = "";
+		$i = 1;
+		foreach ($all as $dt) {
+			$output .= "<tr>";
+			$output .= "<td class='text-center'>". $i++ ."</td>";
+			$output .= "<td>". $dt->nama ."</td>";
+			$output .= "<td>". $dt->email ."</td>";
+			$kategori = "";
+			$size = sizeof((array)$dt->pengajarkategori);
+			$x = 0;
+			foreach ($dt->pengajarkategori as $pk) {
+				$kategori .= $pk->kategori->nama;
+				if (++$x !== $size){
+					$kategori .= ", ";
+				}
+			}
+			$output .= "<td>". $kategori ."</td>";
+			$output .= "<td>". $dt->jabatan ."</td>";
+			$output .= "<td>". $dt->no_hp ."</td>";
+			$output .= "<td class='text-center'>";
+			$output .= "<a href='" . base_url('kelola_pengajar/detail/'). $dt->id. "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
+			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
+			$output .= "</td>";
+			$output .= "</tr>";
+		}
+
+		echo json_encode([
+			'response_code'	=> 200,
+			'response_message'	=> "Berhasil load data",
+			'output'	=> $output
+		]);
 	}
 
 	public function proses_simpan_pengajar($dataheaderpengajar, $dataInput, $datakategori)
@@ -119,10 +170,11 @@ class Kelola_pengajar extends Admin_Controller
 		return $dataarray;
 	}
 
-	public function proses_update_pengajar($dataInput, $id)
+	public function proses_update_pengajar($dataInput, $datakategori, $id)
 	{
 		$update = $this->pengajar->update($dataInput, $id);
 		if ($update) {
+			$insertKategoriPengajar = $this->insertKategoriPengajar($datakategori, $id);
 			$code = "200";
 			$message = "Data berhasil diubah";
 		} else {
@@ -183,8 +235,8 @@ class Kelola_pengajar extends Admin_Controller
 		$lokasiArsip = "assets/pengajar/";
 		$lokasiCV = "assets/lampiran/";
 
-		$config = $this->configuration($lokasiArsip, $namafilebaru);
-		$config2 = $this->configuration($lokasiCV, $cvbaru);
+		$config = $this->config($lokasiArsip, $namafilebaru);
+		$config2 = $this->config($lokasiCV, $cvbaru);
 
 		// d($config2);
 
@@ -355,15 +407,289 @@ class Kelola_pengajar extends Admin_Controller
 	public function update_pengajar()
 	{
 		$dataInput  = $this->input->post();
-		var_dump($dataInput);
+		$id =  $dataInput['id'];
+		$datapengajar = $this->pengajar->where(['id' => $id])->get();
+
+		//hapus kategori
+		$deletekategori = $this->pengajar_kategori->where(['id_pengajar' => $id])->delete();
+
+		$pengajar = str_replace(' ', '_', strtolower($dataInput['nama']));
+		$code = "";
+		$message = "";
+		$namafilebaru =  "pengajar_" . $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
+		$lokasiArsip = "assets/pengajar/";
+
+		$config = $this->config($lokasiArsip, $namafilebaru);
+		$this->load->library('upload', $config);
+		$this->upload->initialize($config);
+
+		$datakategori = $dataInput['kategori'];
+		if(!isset($dataInput['password'])){
+			unset($dataInput['kategori'], $dataInput['password'], $dataInput['id'], $dataInput['foto_pengajar_remove']);
+		}
+		else{
+			unset($dataInput['kategori'], $dataInput['id'], $dataInput['foto_pengajar_remove']);
+			$dataInput['password'] = md5($dataInput['password']);
+		}
+		if($_FILES["foto_pengajar"]["name"] == ''){
+			$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
+			$code = $update['code'];
+			$message = $update['message'];
+		}else{
+			if ($this->upload->do_upload("foto_pengajar")) {
+				if (is_file(FCPATH . 'assets/pengajar/' . $datapengajar->foto)) {
+                    unlink(FCPATH . 'assets/pengajar/' . $datapengajar->foto);
+                }
+				$dataInput['foto'] = $namafilebaru;
+				$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
+				$code = $update['code'];
+				$message = $update['message'];
+			}
+			else{
+				$error = array('error' => $this->upload->display_errors("", ""));
+				$code = "500";
+				$message = implode("<br>", $error);
+			}
+		}
+
+
+
+		if($code == 200){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> $message
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> $message
+			]);
+		}
 	}
 
-	public function detail_pengajar($status)
+	public function detail($id)
 	{
+		$getdata = $this->pengajar->where(['id' => $id])->get();
+		$listKategori = $this->kategori->get_lookup_kategori();
+		$getpengajarkategori = $this->pengajar_kategori->where(['id_pengajar' => $id])->get_all();
+		// d($listKategori);
+		$pengajar_kategori = [];
+        foreach($getpengajarkategori as $pk)
+        {
+            $pengajar_kategori[] = $pk->id_kategori;
+		}
+		
+		// d($pengajar_kategori);
 		$data = [
-			'status' => $status
+			'data' => $getdata,
+			'listKategori'	=> $listKategori,
+			'pengajar_kategori' => $pengajar_kategori
 		];
+
 		$this->loadViewAdmin("master/pengajar/v_keloladetailpengajar", $data);
+	}
+
+	public function getPekerjaanPengajar()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+		$getdata = $this->pengajar_pekerjaan->where(['id_pengajar' => $id])->get_all();
+		$output = "";
+		foreach ($getdata as $dt) {
+			$output .= "<tr>";
+			$output .= "<td>". $dt->nama_pekerjaan ."</td>";
+			$output .= "<td>". $dt->tahun_masuk ."</td>";
+			$output .= "<td>". $dt->tahun_keluar ."</td>";
+			$output .= "<td>". $dt->posisi ."</td>";
+			$output .= "<td>". $dt->pencapaian ."</td>";
+			$output .= "<td>". $dt->keterangan ."</td>";
+			$output .= "<td class='text-center'>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-success btn-edit-pekerjaan mr-2' title='Edit' data-id='". $dt->id ."'><i class='la la-edit'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash-o'></i></button>";
+			$output .= "</td>";
+			$output .= "</tr>";
+		}
+
+		echo json_encode([
+			'response_code'	=> 200,
+			'response_message'	=> "Berhasil load data",
+			'output'	=> $output
+		]);
+	}
+
+	public function getPendidikanPengajar()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+		$getdata = $this->pengajar_pendidikan->where(['id_pengajar' => $id])->get_all();
+		$output = "";
+		foreach ($getdata as $dt) {
+			$output .= "<tr>";
+			$output .= "<td>". $dt->nama_pendidikan ."</td>";
+			$output .= "<td>". $dt->tahun_masuk ."</td>";
+			$output .= "<td>". $dt->tahun_keluar ."</td>";
+			$output .= "<td>". $dt->jurusan ."</td>";
+			$output .= "<td>". $dt->keterangan ."</td>";
+			$output .= "<td class='text-center'>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-success btn-edit-pendidikan mr-2' title='Edit' data-id='". $dt->id ."'><i class='la la-edit'></i></button>";
+			$output .= "<button type='button' class='btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan' data-id='". $dt->id ."' title='Hapus data'><i class='la la-trash-o'></i></button>";
+			$output .= "</td>";
+			$output .= "</tr>";
+		}
+
+		echo json_encode([
+			'response_code'	=> 200,
+			'response_message'	=> "Berhasil load data",
+			'output'	=> $output
+		]);
+	}
+
+	public function getLampiran()
+	{
+
+	}
+
+	public function getPekerjaanPengajarById()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+		$data = $this->pengajar_pekerjaan->where(['id' => $id])->get();
+		
+
+		echo json_encode([
+			'response_code' => 200,
+			'response_message'	=> "Data telah ditemukan",
+			'datapekerjaan' => $data,
+		]);
+	}
+
+	public function getPendidikanPengajarById()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+		$data = $this->pengajar_pendidikan->where(['id' => $id])->get();
+		
+
+		echo json_encode([
+			'response_code' => 200,
+			'response_message'	=> "Data telah ditemukan",
+			'datapendidikan' => $data,
+		]);
+	}
+
+	public function savePekerjaanPengajar()
+	{
+		$dataInput  = $this->input->post();
+		// var_dump($dataInput);
+		unset($dataInput["id"]);
+		$save = $this->pengajar_pekerjaan->save($dataInput);
+		if($save){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil disimpan"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal disimpan"
+			]);
+		}
+	}
+
+	public function savePendidikanPengajar()
+	{
+		$dataInput  = $this->input->post();
+		unset($dataInput["id"]);
+		$save = $this->pengajar_pendidikan->save($dataInput);
+		if($save){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil disimpan"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal disimpan"
+			]);
+		}
+	}
+
+	public function updatePekerjaanPengajar()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput['id'];
+		unset($dataInput["id"], $dataInput['id_pengajar']);
+		$update = $this->pengajar_pekerjaan->update($dataInput, $id);
+		if($update){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil diupdate"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal diupdate"
+			]);
+		}
+	}
+
+	public function updatePendidikanPengajar()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput['id'];
+		unset($dataInput["id"], $dataInput['id_pengajar']);
+		$update = $this->pengajar_pendidikan->update($dataInput, $id);
+		if($update){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil diupdate"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal diupdate"
+			]);
+		}
+	}
+
+	public function hapus_pekerjaan()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+
+		$delete = $this->pengajar_pekerjaan->delete($id);
+
+		if($delete){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil dihapus"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal dihapus"
+			]);
+		}
+	}
+
+	public function hapus_pendidikan()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+
+		$delete = $this->pengajar_pendidikan->delete($id);
+
+		if($delete){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil dihapus"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal dihapus"
+			]);
+		}
 	}
 
 	public function upload_file()
@@ -391,55 +717,6 @@ class Kelola_pengajar extends Admin_Controller
 				'nama_file'	=> $file
 			]);
 		}
-	}
-
-
-	public function simpan_pendidikan()
-	{
-		$dataInput  = $this->input->post();
-		unset($dataInput["idPendidikan"]);
-		var_dump($dataInput);
-	}
-
-	public function simpan_pekerjaan()
-	{
-		$dataInput  = $this->input->post();
-		unset($dataInput["idPekerjaan"]);
-		var_dump($dataInput);
-	}
-
-	public function update_pekerjaan()
-	{
-		$dataInput  = $this->input->post();
-		var_dump($dataInput);
-	}
-
-	public function update_pendidikan()
-	{
-		$dataInput  = $this->input->post();
-		var_dump($dataInput);
-	}
-
-	public function hapus_pekerjaan()
-	{
-		$dataInput  = $this->input->post();
-		$id = $dataInput["ID"];
-
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Data berhasil terhapus",
-		]);
-	}
-
-	public function hapus_pendidikan()
-	{
-		$dataInput  = $this->input->post();
-		$id = $dataInput["ID"];
-
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Data berhasil terhapus",
-		]);
 	}
 
 	public function hapus_lampiran()
