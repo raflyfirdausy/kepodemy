@@ -101,6 +101,7 @@ $(document).ready( function() {
 			}
 		});
 	}
+	
 
 	$(document).on("click", ".btn-verifikasi", function(event){
 		event.preventDefault();
