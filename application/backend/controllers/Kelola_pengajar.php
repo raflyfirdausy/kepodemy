@@ -15,18 +15,24 @@ class Kelola_pengajar extends Admin_Controller
 
 	public function index()
 	{
-		// $all = $this->pengajar->all();
-		// d($all);
+		// $all = $this->pengajar->get_all_data();
+		// // d($all);
+		// $kategori = "";
 		// foreach ($all as $dt) {
-		// 	$size = sizeof((array)$dt->pengajarkategori);
-		// 	$x = 0;
-		// 	$kategori = "";
-		// 	foreach ($dt->pengajarkategori as $pk) {
-		// 		$kategori .= $pk->kategori->nama;
-		// 		if (++$x !== $size){
-		// 			$kategori .= ", ";
-		// 		}
+		// 	// if (!isset($dt->pengajarkategori)) {
+		// 		if (!empty($dt->pengajarkategori)) {
+		// 			$size = sizeof((array)$dt->pengajarkategori);
+		// 			$x = 0;
+		// 			$kategori = "";
+		// 			foreach ($dt->pengajarkategori as $pk) {
+		// 				$kategori .= $pk->kategori->nama;
+		// 				if (++$x !== $size){
+		// 					$kategori .= ", ";
+		// 				}
+		// 			}
+		// 		// }
 		// 	}
+			
 		// }
 		// d($kategori);
 		$this->loadViewAdmin("master/pengajar/v_kelolapengajar");
@@ -76,7 +82,7 @@ class Kelola_pengajar extends Admin_Controller
 
 	public function get_all_data()
 	{
-		$all = $this->pengajar->all();
+		$all = $this->pengajar->get_all_data();
 		// d($all);
 		$output = "";
 		$i = 1;
@@ -86,21 +92,32 @@ class Kelola_pengajar extends Admin_Controller
 			$output .= "<td>" . $dt->nama . "</td>";
 			$output .= "<td>" . $dt->email . "</td>";
 			$kategori = "";
+			$status = "";
 			
-			if (!empty($dt->pengajarkategori)) {
-				$size = sizeof((array)$dt->pengajarkategori);
-				$x = 0;
-				foreach ($dt->pengajarkategori as $pk) {
-					$kategori .= $pk->kategori->nama;
-					if (++$x !== $size) {
-						$kategori .= ", ";
+			// if (!isset($dt->pengajarkategori)) {
+				if (!empty($dt->pengajarkategori)) {
+					$size = sizeof((array)$dt->pengajarkategori);
+					$x = 0;
+					foreach ($dt->pengajarkategori as $pk) {
+						$kategori .= $pk->kategori->nama;
+						if (++$x !== $size) {
+							$kategori .= ", ";
+						}
 					}
 				}
+			// }
+			if($dt->is_verified == 1){
+				$status .= '<span class="label label-inline label-light-success font-weight-bold status-pembelajar">Diterima</span>';
+			}
+			elseif($dt->is_verified == 2){
+				$status .= '<span class="label label-inline label-light-warning font-weight-bold status-pembelajar">Menunggu</span>';
+			}else{
+				$status .= '<span class="label label-inline label-light-danger font-weight-bold status-pembelajar">Ditolak</span>';
 			}
 			
 			$output .= "<td>" . $kategori . "</td>";
 			$output .= "<td>" . $dt->jabatan . "</td>";
-			$output .= "<td>" . $dt->no_hp . "</td>";
+			$output .= "<td class='text-center'>" . $status . "</td>";
 			$output .= "<td class='text-center'>";
 			$output .= "<a href='" . base_url('kelola_pengajar/detail/') . $dt->id . "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
 			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
@@ -293,6 +310,7 @@ class Kelola_pengajar extends Admin_Controller
 			'no_hp'			=> $dataInput['no_hp'],
 			'jabatan'		=> $dataInput['jabatan'],
 			'deskripsi'		=> $dataInput['deskripsi'],
+			'is_verified'	=> 1,
 			'foto'			=> '',
 			'cv'			=> '',
 		];
@@ -420,7 +438,6 @@ class Kelola_pengajar extends Admin_Controller
 			'keterangan'	=> "Web Programming Technical",
 		];
 
-
 		echo json_encode([
 			'response_code' => 200,
 			'response_message'	=> "Berhasil ambil data",
@@ -448,6 +465,30 @@ class Kelola_pengajar extends Admin_Controller
 		]);
 	}
 
+	public function hapus_data()
+	{
+		$dataInput  = $this->input->post();
+		$id = $dataInput["ID"];
+
+		$deletekategori = $this->pengajar_kategori->where(['id_pengajar' => $id])->delete();
+		$deletepekerjaan = $this->pengajar_pekerjaan->where(['id_pengajar' => $id])->delete();
+		$deletependidikan = $this->pengajar_pendidikan->where(['id_pengajar' => $id])->delete();
+		$delete = $this->pengajar->delete($id);
+
+
+		if($delete){
+			echo json_encode([
+				'response_code'	=> 200,
+				'response_message'	=> "Data berhasil dihapus"
+			]);
+		}else{
+			echo json_encode([
+				'response_code'	=> 500,
+				'response_message'	=> "Data gagal dihapus"
+			]);
+		}
+	}
+
 	public function update_pengajar()
 	{
 		$dataInput  = $this->input->post();
@@ -461,11 +502,13 @@ class Kelola_pengajar extends Admin_Controller
 		$code = "";
 		$message = "";
 		$namafilebaru =  "pengajar_" . $pengajar . "_" . time() . "." . pathinfo($_FILES["foto_pengajar"]["name"], PATHINFO_EXTENSION);
+		$cvbaru =  "cv_" . $pengajar . "_" . time() . "." . pathinfo($_FILES["cv"]["name"], PATHINFO_EXTENSION);
 		$lokasiArsip = "assets/pengajar/";
+		$lokasiCV = "assets/lampiran/";
 
 		$config = $this->config($lokasiArsip, $namafilebaru);
-		$this->load->library('upload', $config);
-		$this->upload->initialize($config);
+		$config2 = $this->config($lokasiCV, $cvbaru);
+
 
 		$datakategori = $dataInput['kategori'];
 		if (!isset($dataInput['password'])) {
@@ -474,24 +517,81 @@ class Kelola_pengajar extends Admin_Controller
 			unset($dataInput['kategori'], $dataInput['id'], $dataInput['foto_pengajar_remove']);
 			$dataInput['password'] = md5($dataInput['password']);
 		}
+
+
 		if ($_FILES["foto_pengajar"]["name"] == '') {
-			$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
-			$code = $update['code'];
-			$message = $update['message'];
-		} else {
-			if ($this->upload->do_upload("foto_pengajar")) {
-				if (is_file(FCPATH . 'assets/pengajar/' . $datapengajar->foto)) {
-					unlink(FCPATH . 'assets/pengajar/' . $datapengajar->foto);
-				}
-				$dataInput['foto'] = $namafilebaru;
+			if ($_FILES["cv"]["name"] == '') {
 				$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
 				$code = $update['code'];
 				$message = $update['message'];
-			} else {
-				$error = array('error' => $this->upload->display_errors("", ""));
-				$code = "500";
-				$message = implode("<br>", $error);
 			}
+			else{
+				$this->load->library('upload', $config2);
+				$uploadcv = $this->upload->initialize($config2);
+				if ($this->upload->do_upload("cv")) {
+					if (is_file(FCPATH . 'assets/lampiran/' . $datapengajar->cv)) {
+						unlink(FCPATH . 'assets/lampiran/' . $datapengajar->cv);
+					}
+					$dataInput['cv'] = $cvbaru;
+					$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
+					$code = $update['code'];
+					$message = $update['message'];
+				} else {
+					$error = array('error' => $this->upload->display_errors("", ""));
+					$code = "500";
+					$message = implode("<br>", $error);
+				}
+			}
+			
+		} else {
+			if ($_FILES["cv"]["name"] == '') {
+				$this->load->library('upload', $config);
+				$uploadfoto = $this->upload->initialize($config);
+				if ($this->upload->do_upload("foto_pengajar")) {
+					if (is_file(FCPATH . 'assets/pengajar/' . $datapengajar->foto)) {
+						unlink(FCPATH . 'assets/pengajar/' . $datapengajar->foto);
+					}
+					$dataInput['foto'] = $namafilebaru;
+					$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
+					$code = $update['code'];
+					$message = $update['message'];
+				} else {
+					$error = array('error' => $this->upload->display_errors("", ""));
+					$code = "500";
+					$message = implode("<br>", $error);
+				}
+			}
+			else{
+				$this->load->library('upload', $config);
+				$uploadfoto = $this->upload->initialize($config);
+				if ($this->upload->do_upload("foto_pengajar")) {
+					if (is_file(FCPATH . 'assets/pengajar/' . $datapengajar->foto)) {
+						unlink(FCPATH . 'assets/pengajar/' . $datapengajar->foto);
+					}
+					$dataInput['foto'] = $namafilebaru;
+					$this->load->library('upload', $config2);
+					$uploadcv = $this->upload->initialize($config2);
+					if ($this->upload->do_upload("cv")) {
+						if (is_file(FCPATH . 'assets/lampiran/' . $datapengajar->cv)) {
+							unlink(FCPATH . 'assets/lampiran/' . $datapengajar->cv);
+						}
+						$dataInput['cv'] = $cvbaru;
+						$update = $this->proses_update_pengajar($dataInput, $datakategori, $id);
+						$code = $update['code'];
+						$message = $update['message'];
+					} else {
+						$error = array('error' => $this->upload->display_errors("", ""));
+						$code = "500";
+						$message = implode("<br>", $error);
+					}
+				} else {
+					$error = array('error' => $this->upload->display_errors("", ""));
+					$code = "500";
+					$message = implode("<br>", $error);
+				}
+			}
+
+			
 		}
 
 
@@ -583,10 +683,6 @@ class Kelola_pengajar extends Admin_Controller
 			'response_message'	=> "Berhasil load data",
 			'output'	=> $output
 		]);
-	}
-
-	public function getLampiran()
-	{
 	}
 
 	public function getPekerjaanPengajarById()
@@ -732,41 +828,70 @@ class Kelola_pengajar extends Admin_Controller
 		}
 	}
 
-	public function upload_file()
+	
+
+	public function download_file($fileName)
 	{
-		if (!empty($_FILES['file']['name'])) {
-			$file = $_FILES['file']['name'];
-			// // Set preference
-			// $config['upload_path'] = 'uploads/'; 
-			// $config['allowed_types'] = 'jpg|jpeg|png|gif';
-			// $config['max_size'] = '1024'; // max_size in kb
-			// $config['file_name'] = $_FILES['file']['name'];
+		$file = asset('lampiran/' . $fileName);
+		$data = file_get_contents($file);
+		force_download($fileName,$data );
+		// if ($fileName) {
+			// $file = asset('lampiran/' . $fileName);
+			// // // check file exists    
+			// // if (file_exists($file)) {
+			// // get file content
+			// 	$data = file_get_contents($file);  
+			// 	//force download
+			// 	force_download($fileName,$data );
+		// 	} else {
+		// 	// Redirect to base url
+		// 		redirect(base_url());
+		// 	}
+		// }
+		
+		// force_download($namafile,$data); 
+		// $nama = explode(".", $namafile)[0];
+		// $cc = explode(".", $namafile)[1];
+        // $fileext = strtolower($cc); 
 
-			// //Load upload library
-			// $this->load->library('upload',$config); 
+		// switch($fileext){
+		// 	case 'pdf':
+		// 		header('Content-type: application/pdf');
+		// 		$filename = $nama.".pdf";
+		// 		break;
+		// 	case 'doc':
+		// 		header('Content-type: application/msword');
+		// 		break;
+		// 	case 'docx':
+		// 		header('Content-type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+		// 		break;
+		// 	case 'xls':
+		// 		header('Content-type: application/vnd.ms-excel');
+		// 		break;
+		// 	case 'xlsx':
+		// 		header('Content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+		// 		break;
+		// 	case 'ppt':
+		// 		header('Content-type: application/vnd.ms-powerpoint');
+		// 		break;
+		// 	case 'pptx':
+		// 		header('Content-type: application/vnd.openxmlformats-officedocument.presentationml.presentation');
+		// 		break;
+		// 	case 'jpg':
+		// 		header('Content-type: image/jpg');
+		// 		break;
+		// 	case 'jpeg':
+		// 		header('Content-type: image/jpeg');
+		// 		break;
+		// 	case 'png':
+		// 		header('Content-type: image/png');
+		// 		break;
+		// 	default:
+		// 		header('Content-type: plain/text');
+		// }
 
-			// // File upload
-			// if($this->upload->do_upload('file')){
-			//   // Get data about the file
-			//   $uploadData = $this->upload->data();
-			// }
 
-			echo json_encode([
-				'response_code' => 200,
-				'response_message' => "Upload berhasil",
-				'nama_file'	=> $file
-			]);
-		}
-	}
-
-	public function hapus_lampiran()
-	{
-		$dataInput  = $this->input->post();
-		$id = $dataInput["ID"];
-
-		echo json_encode([
-			'response_code' => 200,
-			'response_message'	=> "Data berhasil terhapus",
-		]);
+		// header("Content-Disposition: inline; filename=\"" . $filename . "\"");
+		// readfile($data);
 	}
 }

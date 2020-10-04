@@ -6,7 +6,6 @@
 
 			<!--begin::Page Title-->
 			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelola Pembelajar</h5>
-			<input type="hidden" class="form-control" id="status-pembelajar" value="<?= $status ?>" disabled/>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -93,8 +92,8 @@
 									<label class="col-xl-3 col-lg-3 col-form-label">Foto</label>
 									<div class="col-lg-9 col-xl-6">
 										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
-											<a class="image-popup-vertical-fit el-link" href="<?= asset('admin/media/users/300_21.jpg') ?>" target="_blank">
-												<div class="image-input-wrapper" style="background-image: url(<?= asset('admin/media/users/300_21.jpg') ?>)">
+											<a class="image-popup-vertical-fit el-link" href="<?= isset($data->foto) ?  asset("pembelajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>" target="_blank">
+												<div class="image-input-wrapper" style="background-image: url(<?= isset($data->foto) ?  asset("pembelajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>)">
 												</div>
 											</a>
 
@@ -118,39 +117,26 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nama</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" name="nama" value="M. I. Zulkifli M."/>
+										<input class="form-control form-control-lg" type="hidden" name="id" id="id-pembelajar" value="<?= $data->id ?>"/>
+										<input class="form-control form-control-lg" type="text" name="nama" value="<?= $data->nama ?>"/>
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Kelas</label>
+									<label class="col-xl-3 col-lg-3 col-form-label">Jabatan / Fungsi Pekerjaan</label>
 									<div class="col-lg-9 col-xl-6">
-										<select class="form-control" id="select-kelas" name="kelas" style="width:100%" required>
-											<option value=""></option>
-											<option value="Kelas Web" selected>Kelas Web</option>
-											<option value="Kelas Mobile">Kelas Mobile</option>
-										</select>
+										<input class="form-control form-control-lg" type="text" name="jabatan" value="<?= $data->jabatan ?>"/>
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Pengajar</label>
+									<label class="col-xl-3 col-lg-3 col-form-label">Pendidikan Terakhir</label>
 									<div class="col-lg-9 col-xl-6">
-										<select class="form-control select2" id="select-pengajar" name="pengajar" style="width:100%" required>
-											<option value=""></option>
-											<option value="Rafly Firdausy Irawan">Rafly Firdausy Irawan</option>
-											<option value="Zulkifli" selected>Zulkifli</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
-									<div class="col-lg-9 col-xl-6">
-										<input type="text" class="form-control" name="pendidikanTerakhir" id="pendidikan-terakhir" value="Sarjana S1" required/>
+										<input type="text" class="form-control" name="pendidikan" id="pendidikan-terakhir" value="<?= $data->pendidikan ?>" required/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="2020-09-24 13:30:00" disabled/>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="<?= date("d-m-Y H:i:s", strtotime($data->created_at)); ?>" disabled/>
 									</div>
 								</div>
 								
@@ -166,7 +152,7 @@
 									<div class="col-lg-9 col-xl-6">
 										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-											<input type="text" class="form-control form-control-lg valid-number" name="nohp" value="087812347788" />
+											<input type="text" class="form-control form-control-lg valid-number" name="no_hp" value="<?= $data->no_hp ?>" />
 										</div>
 									</div>
 								</div>
@@ -175,10 +161,30 @@
 									<div class="col-lg-9 col-xl-6">
 										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-at"></i></span></div>
-											<input type="text" class="form-control form-control-lg" value="akunpaten27@gmail.com" name="email"/>
+											<input type="text" class="form-control form-control-lg" value="<?= $data->email ?>" name="email"/>
 										</div>
 									</div>
 								</div>
+								<!-- INFO KONTAK -->
+								<div class="row">
+									<label class="col-xl-3"></label>
+									<div class="col-lg-9 col-xl-6">
+										<h5 class="font-weight-bold mt-10 mb-6">Ubah password</h5>
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-xl-3 col-lg-3 col-form-label">Password</label>
+									<div class="col-lg-9 col-xl-6">
+										<div class="input-group">
+											<input type="password" class="form-control password" id="password-admin" name="password" placeholder="Password"/>
+											<div class="input-group-append">
+												<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
+											</div>
+										</div>
+										<span class="form-text text-muted txt-edit-password">Kosongkan jika tidak ingin mengubah password</span>
+									</div>
+								</div>
+								
 							</div>
 							<!--end::Body-->
 							<div class="card-footer">

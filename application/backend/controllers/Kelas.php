@@ -52,7 +52,7 @@ class Kelas extends Admin_Controller
 
     public function tambah_data()
     {
-		$listPengajar = $this->pengajar->get_all_data();
+		$listPengajar = $this->pengajar->pengajar_aktif();
 		$listKategori = $this->kategori->get_lookup_kategori();
 		// d($listPengajar);
 		$data = [
@@ -65,6 +65,7 @@ class Kelas extends Admin_Controller
 	public function get_all_data()
 	{
 		$all = $this->produk->get_all_kelas();
+		
 		$output = "";
 		$i = 1;
 		foreach ($all as $dt) {
@@ -72,22 +73,29 @@ class Kelas extends Admin_Controller
 			$output .= "<td class='text-center'>". $i++ ."</td>";
 			$output .= "<td><span class='txt-kelas'>". $dt->nama ."</span></td>";
 			$kategori = "";
-			
-			if(!empty($dt->produkkategori)){
-				$size = sizeof((array)$dt->produkkategori);
-				$x = 0;				
-				foreach ($dt->produkkategori as $pk) {
-					$kategori .= $pk->kategori->nama;
-					if (++$x !== $size){
-						$kategori .= ", ";
+			$pengajarnama = "";
+			// if(!isset($dt->pengajar)){
+				if(!empty($dt->pengajar)){
+					$pengajarnama = $dt->pengajar->nama;
+				}
+			// }
+			// if(!isset($dt->produkkategori)){
+				if(!empty($dt->produkkategori)){
+					$size = sizeof((array)$dt->produkkategori);
+					$x = 0;				
+					foreach ($dt->produkkategori as $pk) {
+						$kategori .= $pk->kategori->nama;
+						if (++$x !== $size){
+							$kategori .= ", ";
+						}
 					}
 				}
-			}
+			// }
 			
 			$output .= "<td>". $kategori ."</td>";
 			$output .= "<td class='text-right'>". Rupiah($dt->harga) ."</td>";
 			$output .= "<td class='text-right'>". Rupiah($dt->harga_diskon) ."</td>";
-			$output .= "<td>". $dt->pengajar->nama ."</td>";
+			$output .= "<td>". $pengajarnama ."</td>";
 			$output .= "<td>". just_date($dt->tanggal) ." ". just_time($dt->jam_mulai)." - ". just_time($dt->jam_selesai) ."</td>";
 			$output .= "<td class='text-center'>";
 			$output .= "<a href='" . base_url('kelas/detail/'). $dt->id. "' type='button' class='btn btn-sm btn-clean btn-icon' title='Edit'><i class='la la-edit text-success'></i></a>";
@@ -272,7 +280,7 @@ class Kelas extends Admin_Controller
 	public function detail($id)
     {
 		$getdata = $this->produk->where(['id' => $id])->get();
-		$listPengajar = $this->pengajar->get_all_data();
+		$listPengajar = $this->pengajar->pengajar_aktif();
 		$listKategori = $this->kategori->get_lookup_kategori();
 		$getprodukkategori = $this->produk_kategori->where(['id_kelas' => $id])->get_all();
 		$produk_kategori = [];

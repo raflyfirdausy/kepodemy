@@ -107,7 +107,7 @@
 							</div>
 							<div class="custom-file">
 								<input required="" accept="image/*" type="file" class="custom-file-input" id="file_gambar_header" name="file_gambar_header">
-								<label class="custom-file-label" for="inputGroupFile">Pilih File Gambar Header</label>
+								<label class="custom-file-label" for="inputGroupFile">Pilih File Gambar</label>
 							</div>
 							<div class="col-12 pr-0 pl-0">
 								<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png, .gif)</span>

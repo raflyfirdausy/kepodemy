@@ -293,6 +293,7 @@ class Kategori extends Admin_Controller
 		$dataInput  = $this->input->post();
 		$id = $dataInput["ID"];
 
+		$delete = $this->kategori->where(['id_induk' => $id])->delete();
 		$delete = $this->kategori->delete($id);
 
 		if ($delete) {

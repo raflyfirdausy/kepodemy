@@ -33,7 +33,7 @@
 			<a href="javascript:history.back()" class="btn btn-default font-weight-bold mr-2">
 				Kembali
 			</a>
-			<button type="reset" class="btn btn-danger mr-2">Reset</button>
+			<!-- <button type="reset" class="btn btn-danger mr-2">Reset</button> -->
 			<button type="submit" class="btn btn-success btn-simpan-kelas">Simpan</button>
 			<!--end::Actions-->
 		</div>

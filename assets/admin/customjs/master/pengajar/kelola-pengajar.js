@@ -6,6 +6,8 @@ $(document).ready( function() {
 	$(document).on("click", ".btn-delete", function(event){
 		event.preventDefault();
 		$(this).attr('disabled', true);
+		var id = $(this).data("id")
+		var row = $(this).closest("tr");
 		Swal.fire({
 			title: 'Apakah anda yakin?',
 			text: "Data pengajar ini akan terhapus",

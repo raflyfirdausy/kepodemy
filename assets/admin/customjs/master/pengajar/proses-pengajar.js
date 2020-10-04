@@ -14,11 +14,11 @@ $(document).ready(function() {
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-2">
-								<input type="number" name="tahun_masuk[]" class="form-control" placeholder="Tahun Masuk" />
+								<input type="text" name="tahun_masuk[]" class="form-control valid-number" placeholder="Tahun Masuk" />
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-2">
-								<input type="number" name="tahun_keluar[]" class="form-control" placeholder="Tahun Keluar" />
+								<input type="text" name="tahun_keluar[]" class="form-control valid-number" placeholder="Tahun Keluar" />
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-2">
@@ -39,7 +39,7 @@ $(document).ready(function() {
 					</div>
 					</div>`;
         $('.cloned-row-pendidikan').append(output);
-        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+        // $("html, body").animate({ scrollTop: $(document).height() }, 1000);
     });
 
     $(".btn-add-pekerjaan").on("click", function() {
@@ -58,11 +58,11 @@ $(document).ready(function() {
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-2">
-								<input type="number" name="tahun_masuk_kerja[]" class="form-control" placeholder="Tahun Masuk" />
+								<input type="text" name="tahun_masuk_kerja[]" class="form-control valid-number" placeholder="Tahun Masuk" />
 								<div class="d-md-none mb-2"></div>
 							</div>
 							<div class="col-md-2">
-								<input type="number" name="tahun_keluar_kerja[]" class="form-control" placeholder="Tahun Keluar" />
+								<input type="text" name="tahun_keluar_kerja[]" class="form-control valid-number" placeholder="Tahun Keluar" />
 								<div class="d-md-none mb-2"></div>
 							</div>
 						</div>
@@ -85,7 +85,7 @@ $(document).ready(function() {
 					</div>
 				</div>`;
         $('.cloned-row-pekerjaan').append(output);
-        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+        // $("html, body").animate({ scrollTop: $(document).height() }, 1000);
     });
 
     $(document).on("click", ".btn-delete-pendidikan", function() {

@@ -68,9 +68,9 @@
 					<thead>
 						<tr>
 							<th class="text-center" style="width: 5%">No</th>
-							<th style="width: 35%">Nama Kategori</th>
-							<th style="width: 25%">Jumlah Subkategori</th>
-							<th style="width: 20%">Terakhir diubah</th>
+							<th style="width: 30%">Nama Kategori</th>
+							<th style="width: 30%">Keterangan</th>
+							<th style="width: 20%">Jumlah Subkategori</th>
 							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>

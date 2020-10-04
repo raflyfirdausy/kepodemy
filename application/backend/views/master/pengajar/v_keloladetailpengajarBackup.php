@@ -116,7 +116,23 @@
 								<span class="nav-text font-weight-bold">Pekerjaan</span>
 							</a>
 						</li>
-						
+						<!-- <li class="nav-item mr-3">
+							<a class="nav-link" data-toggle="tab"
+								href="#tab-attachment">
+								<span class="nav-icon mr-2">
+									<span class="svg-icon mr-3">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+												<rect x="0" y="0" width="24" height="24"/>
+												<path d="M12.4644661,14.5355339 L9.46446609,14.5355339 C8.91218134,14.5355339 8.46446609,14.9832492 8.46446609,15.5355339 C8.46446609,16.0878187 8.91218134,16.5355339 9.46446609,16.5355339 L12.4644661,16.5355339 L12.4644661,17.5355339 C12.4644661,18.6401034 11.5690356,19.5355339 10.4644661,19.5355339 L6.46446609,19.5355339 C5.35989659,19.5355339 4.46446609,18.6401034 4.46446609,17.5355339 L4.46446609,13.5355339 C4.46446609,12.4309644 5.35989659,11.5355339 6.46446609,11.5355339 L10.4644661,11.5355339 C11.5690356,11.5355339 12.4644661,12.4309644 12.4644661,13.5355339 L12.4644661,14.5355339 Z" fill="#000000" opacity="0.3" transform="translate(8.464466, 15.535534) rotate(-45.000000) translate(-8.464466, -15.535534) "/>
+												<path d="M11.5355339,9.46446609 L14.5355339,9.46446609 C15.0878187,9.46446609 15.5355339,9.01675084 15.5355339,8.46446609 C15.5355339,7.91218134 15.0878187,7.46446609 14.5355339,7.46446609 L11.5355339,7.46446609 L11.5355339,6.46446609 C11.5355339,5.35989659 12.4309644,4.46446609 13.5355339,4.46446609 L17.5355339,4.46446609 C18.6401034,4.46446609 19.5355339,5.35989659 19.5355339,6.46446609 L19.5355339,10.4644661 C19.5355339,11.5690356 18.6401034,12.4644661 17.5355339,12.4644661 L13.5355339,12.4644661 C12.4309644,12.4644661 11.5355339,11.5690356 11.5355339,10.4644661 L11.5355339,9.46446609 Z" fill="#000000" transform="translate(15.535534, 8.464466) rotate(-45.000000) translate(-15.535534, -8.464466) "/>
+											</g>
+										</svg>
+									</span>
+								 </span>
+								<span class="nav-text font-weight-bold">Lampiran</span>
+							</a>
+						</li> -->
 					</ul>
 				</div>
 			</div>
@@ -185,16 +201,15 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
+									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="<?= date("d-m-Y H:i:s", strtotime($data->created_at)); ?>" disabled/>
+										<textarea  class="form-control form-control-lg" name="deskripsi" rows="2"><?= $data->deskripsi ?></textarea>
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
+									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
 									<div class="col-lg-9 col-xl-6">
-										<!-- <textarea  class="form-control form-control-lg" name="deskripsi" rows="2"><?= $data->deskripsi ?></textarea> -->
-										<textarea class="summernote" id="kt_summernote_1" name="deskripsi" required><?= $data->deskripsi ?></textarea>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="<?= date("d-m-Y H:i:s", strtotime($data->created_at)); ?>" disabled/>
 									</div>
 								</div>
 								
@@ -352,6 +367,47 @@
 						</div>
 						<!--end::Body-->
 					</div>
+					<!--end::Tab Content-->
+
+					<!--begin::Tab Content-->
+					<!-- <div class="tab-pane" id="tab-attachment" role="tabpanel">
+						<div class="card-body">
+							<div class="row mb-5">
+								<div class="col-lg-12">
+									<div class="dropzone dropzone-default dropzone-primary" id="dropzone_lampiran">
+										<div class="dropzone-msg dz-message needsclick">
+											<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
+											<span class="dropzone-msg-desc">Upload up to 10 files</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="table-responsive">
+								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
+									<thead>
+										<tr>
+											<th style="width:90%">File Lampiran</th>
+											<th style="width:10%" class="text-center">Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<a href="https://google.com" target="_blank">CV_zulkifli.pdf</a>
+											</td>
+											
+											<td class="text-center">
+												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-lampiran" data-id="1" title="Hapus">
+													<i class="la la-trash-o"></i>
+												</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							
+						</div>
+					</div> -->
 					<!--end::Tab Content-->
 				</div>
 			</div>

@@ -31,7 +31,7 @@
 			<a href="javascript:history.back()" class="btn btn-default font-weight-bold mr-2">
 				Kembali
 			</a>
-			<button type="reset" class="btn btn-danger mr-2">Reset</button>
+			<!-- <button type="reset" class="btn btn-danger mr-2">Reset</button> -->
 			<button type="submit" class="btn btn-success btn-simpan-pengajar">Simpan</button>
 			<!--end::Actions-->
 		</div>
@@ -84,7 +84,13 @@
 							<label>Email address <span class="text-danger">*</span></label>
 							<input type="email" class="form-control" name="email" id="email-pengajar" placeholder="Masukkan email" required/>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
+							<label>Nama <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="nama" id="nama-pengajar" placeholder="Masukkan nama" required/>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
 							<label for="exampleInputPassword1">Password <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input type="password" class="form-control password" id="password-pengajar" name="password" placeholder="Password" required/>
@@ -93,7 +99,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
 							<label for="exampleInputPassword1">Retype Password <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input type="password" class="form-control password" id="password-retype-pengajar" name="passwordConfirm" placeholder="Retype Password" required/>
@@ -102,21 +108,16 @@
 								</div>
 							</div>
 						</div>
+						
 					</div>
 					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Nama <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="nama" id="nama-pengajar" placeholder="Masukkan nama" required/>
-						</div>
+						<!-- <div class="col-lg-6">
+							<label>Deskripsi</label>
+							<input type="text" class="form-control" name="deskripsi" id="deskripsi-pengajar" placeholder="Masukkan deskripsi" required/>
+						</div> -->
 						<div class="col-lg-6">
 							<label>No. Hp <span class="text-danger">*</span></label>
 							<input type="text" class="form-control valid-number" id="nohp-pengajar" name="no_hp" placeholder="Masukkan Nomor Handphone" required/>
-						</div>
-					</div>
-					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Deskripsi</label>
-							<input type="text" class="form-control" name="deskripsi" id="deskripsi-pengajar" placeholder="Masukkan deskripsi" required/>
 						</div>
 						<div class="col-lg-6">
 							<label>Jabatan / Fungsi Pekerjaan</label>
@@ -153,29 +154,29 @@
 									<div class="col-lg-12">
 										<div class="row mb-4">
 											<div class="col-md-3">
-												<input type="text" name="nama_pendidikan[]" class="form-control" placeholder="Nama Pendidikan" />
+												<input type="text" name="nama_pendidikan[]" class="form-control" placeholder="Nama Pendidikan" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-2">
-												<input type="number" name="tahun_masuk[]" class="form-control" placeholder="Tahun Masuk" />
+												<input type="text" name="tahun_masuk[]" class="form-control valid-number" placeholder="Tahun Masuk" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-2">
-												<input type="number" name="tahun_keluar[]" class="form-control" placeholder="Tahun Keluar" />
+												<input type="text" name="tahun_keluar[]" class="form-control valid-number" placeholder="Tahun Keluar" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-2">
-												<input type="text" name="jurusan[]" class="form-control" placeholder="Jurusan" />
+												<input type="text" name="jurusan[]" class="form-control" placeholder="Jurusan" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-2">
-												<input type="text" name="keterangan_pendidikan[]" class="form-control" placeholder="Keterangan" />
+												<input type="text" name="keterangan_pendidikan[]" class="form-control" placeholder="Keterangan" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-1">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
+												<!-- <button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pendidikan" title="Hapus">
 													<i class="la la-trash-o"></i>
-												</button>
+												</button> -->
 											</div>
 										</div>
 										<hr>
@@ -206,35 +207,35 @@
 									<div class="col-lg-12">
 										<div class="row mb-4">
 											<div class="col-md-4">
-												<input type="text" name="nama_pekerjaan[]" class="form-control" placeholder="Nama Perusahaan" />
+												<input type="text" name="nama_pekerjaan[]" class="form-control" placeholder="Nama Pekerjaan" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-3">
-												<input type="text" name="posisi[]" class="form-control" placeholder="Posisi" />
+												<input type="text" name="posisi[]" class="form-control" placeholder="Posisi" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-2">
-												<input type="number" name="tahun_masuk_kerja[]" class="form-control" placeholder="Tahun Masuk" />
+												<input type="text" name="tahun_masuk_kerja[]" class="form-control valid-number" placeholder="Tahun Masuk" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-2">
-												<input type="number" name="tahun_keluar_kerja[]" class="form-control" placeholder="Tahun Keluar" />
+												<input type="text" name="tahun_keluar_kerja[]" class="form-control valid-number" placeholder="Tahun Keluar" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 										</div>
 										<div class="row mb-4">
 											<div class="col-md-7">
-												<input type="text" name="pencapaian[]" class="form-control" placeholder="Masukkan pencapaian" />
+												<input type="text" name="pencapaian[]" class="form-control" placeholder="Masukkan pencapaian" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-4">
-												<input type="text" name="keterangan_pekerjaan[]" class="form-control" placeholder="Keterangan" />
+												<input type="text" name="keterangan_pekerjaan[]" class="form-control" placeholder="Keterangan" required/>
 												<div class="d-md-none mb-2"></div>
 											</div>
 											<div class="col-md-1">
-												<button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" title="Hapus">
+												<!-- <button type="button" class="btn btn-sm font-weight-bolder btn-light-danger btn-delete-pekerjaan" title="Hapus">
 													<i class="la la-trash-o"></i>
-												</button>
+												</button> -->
 											</div>
 										</div>
 										<hr>
@@ -256,6 +257,15 @@
 						</div>
 					</div>
 					<!-- END PEKERJAAN -->
+
+					<div class="form-group row">
+						<div class="col-lg-12">
+							<label>Deskripsi <span class="text-danger">*</span></label>
+							<!-- <div class="summernote" id="kt_summernote_1"></div> -->
+							<textarea class="summernote" id="kt_summernote_1" name="deskripsi" required></textarea>
+						</div>
+						
+					</div>
 
 					
 

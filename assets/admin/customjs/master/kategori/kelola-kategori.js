@@ -8,8 +8,11 @@ $(document).ready( function() {
 		$("#labelKategoriModal").html("Tambah Kategori");
 		$("#form-kategori").attr("action", base_url + 'kategori/simpan_kategori');
 		$('#form-kategori')[0].reset();
+		// $('#file_gambar_header').val('');
 		urlgambar = asset + 'gambar/ukuran-banner.jpg';
 		$('#imgPreview').attr('src', urlgambar);
+		$('.custom-file-label').html('Pilih File Gambar');
+		$('#file_gambar_header').prop("required", true);
 	});
 
 	$(document).on("click", ".btn-edit-kategori", function(event){
@@ -19,6 +22,9 @@ $(document).ready( function() {
 		$("#form-kategori").attr("action", base_url + 'kategori/update_kategori');
 		$('#form-kategori')[0].reset();
 		$("#id-kategori").val(id);
+		// $('#file_gambar_header').val('');
+		$('.custom-file-label').html('Pilih File Gambar');
+		$('#file_gambar_header').prop("required", false);
 		
 		var getKategori = $(this).closest("tr").find('.txt-kategori').text();
 		var getKeterangan = $(this).closest("tr").find('.txt-keterangan').text();
@@ -28,7 +34,7 @@ $(document).ready( function() {
 			urlgambar = asset + 'gambar/ukuran-banner.jpg';
 		}
 		else{
-			urlgambar = asset + 'gambar/' + getGambar;
+			urlgambar = asset + 'kategori/' + getGambar;
 		}
 		$('#imgPreview').attr('src', urlgambar);
 		$("#nama-kategori").val(getKategori);

@@ -29,7 +29,7 @@
 			<a href="javascript:history.back()" class="btn btn-default font-weight-bold mr-2">
 				Kembali
 			</a>
-			<button type="reset" class="btn btn-danger mr-2">Reset</button>
+			<!-- <button type="reset" class="btn btn-danger mr-2">Reset</button> -->
 			<button type="submit" class="btn btn-success btn-simpan-pembelajar">Simpan</button>
 			<!--end::Actions-->
 		</div>
@@ -83,6 +83,12 @@
 							<input type="email" class="form-control" name="email" id="email-pembelajar" placeholder="Masukkan email" required/>
 						</div>
 						<div class="col-lg-6">
+							<label>Nama <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="nama" id="nama-pembelajar" placeholder="Masukkan nama" required/>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
 							<label for="exampleInputPassword1">Password <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<input type="password" class="form-control password" id="password-pembelajar" name="password" placeholder="Password" required/>
@@ -91,54 +97,37 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-lg-6">
+							<label for="exampleInputPassword1">Retype Password <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<input type="password" class="form-control password" id="password-retype" name="passwordConfirm" placeholder="Retype Password" required/>
+								<div class="input-group-append">
+									<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Nama <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="nama" id="nama-pembelajar" placeholder="Masukkan nama" required/>
-						</div>
 						<div class="col-lg-6">
 							<label>No. Hp <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" id="nohp-pembelajar" name="nohp" placeholder="Masukkan Nomor Handphone" required/>
+							<input type="text" class="form-control valid-number" id="nohp-pembelajar" name="no_hp" placeholder="Masukkan Nomor Handphone" required/>
+						</div>
+						<div class="col-lg-6">
+							<label>Jabatan / Fungsi Pekerjaan <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="jabatan" id="jabatan-pengajar" placeholder="Masukkan jabatan atau fungsi pekerejaan" required/>
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
-							<label>Kelas</label>
-							<select class="form-control" id="select-kelas" name="kelas" style="width:100%" required>
-								<option value=""></option>
-								<option value="Kelas Web">Kelas Web</option>
-								<option value="Kelas Mobile">Kelas Mobile</option>
-							</select>
-						</div>
-						<div class="col-lg-6">
-							<label>Nama Pengajar<span class="text-danger">*</span></label>
-							<select class="form-control select2" id="select-pengajar" name="pengajar" style="width:100%" required>
-								<option value=""></option>
-								<option value="Rafly Firdausy Irawan">Rafly Firdausy Irawan</option>
-								<option value="Zulkifli">Zulkifli</option>
-							</select>
-						</div>
-					</div>
-					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Pendidikan Terakhir</label>
-							<input type="text" class="form-control" name="pendidikanTerakhir" id="pendidikan-terakhir" placeholder="Masukkan pendidikan terakhir" required/>
+							<label>Pendidikan Terakhir <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="pendidikan" id="pendidikan-terakhir" placeholder="Masukkan pendidikan terakhir" required/>
 						</div>
 					</div>
 
 				</div>
 				
 			</div>
-			<!-- <div class="card-footer">
-				<div class="row">
-					<div class="col-lg-12">
-						<button type="reset" class="btn btn-danger mr-2">Reset</button>
-						<button type="button" class="btn btn-success btn-simpan-pembelajar">Simpan</button>
-					</div>
-				</div>
-			</div> -->
-			
+		
 		</div>
 		<!--end::Card-->
 
@@ -149,7 +138,7 @@
 </form>
 
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
-<script src="<?= asset("admin/customjs/master/pembelajar/kelola-pembelajar.js") ?>"></script>
+<script src="<?= asset("admin/customjs/master/pembelajar/proses-pembelajar.js") ?>"></script>
 
 
 

@@ -74,7 +74,7 @@
 							<th style="width: 15%">email</th>
 							<th style="width: 30%">Kategori</th>
 							<th style="width: 15%">Jabatan</th>
-							<th style="width: 10%">No. Hp</th>
+							<th style="width: 10%">Status</th>
 							<th class="text-center" style="width: 10%">Action</th>
 						</tr>
 					</thead>

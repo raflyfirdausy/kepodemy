@@ -22,32 +22,32 @@ $(document).ready(function(){
 	// 	}
 	// });
 
-	var myDropzone = new Dropzone('#dropzone_lampiran', { // Make the whole body a dropzone
-		url: base_url + 'kelola_pengajar/upload_file', // Set the url for your upload script location
-		renameFile: function(file) {
-			return file.name;
-		},
-			// 		// acceptedFiles: ".jpeg,.jpg,.png,.gif",
-		acceptedFiles: ".jpeg,.jpg,.png,.gif,.doc,.docx,.pdf,.pptx,.ppt,.csv,.zip,.xlsx,.xls",
-		maxFiles: 10,
-		maxFilesize: 10, // MB
-		// addRemoveLinks: true,
-		success: function(file, response) {
-			var response = JSON.parse(response);
-			if (response.response_code == 200) {
-				toastr.success(response.response_message);
-			} else {
-				toastr.error("Upload gagal!");
-			}
-		},
-		error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
-			toastr.error("Gagal Total!");
-		}
-	});
+	// var myDropzone = new Dropzone('#dropzone_lampiran', { // Make the whole body a dropzone
+	// 	url: base_url + 'kelola_pengajar/upload_file', // Set the url for your upload script location
+	// 	renameFile: function(file) {
+	// 		return file.name;
+	// 	},
+	// 		// 		// acceptedFiles: ".jpeg,.jpg,.png,.gif",
+	// 	acceptedFiles: ".jpeg,.jpg,.png,.gif,.doc,.docx,.pdf,.pptx,.ppt,.csv,.zip,.xlsx,.xls",
+	// 	maxFiles: 10,
+	// 	maxFilesize: 10, // MB
+	// 	// addRemoveLinks: true,
+	// 	success: function(file, response) {
+	// 		var response = JSON.parse(response);
+	// 		if (response.response_code == 200) {
+	// 			toastr.success(response.response_message);
+	// 		} else {
+	// 			toastr.error("Upload gagal!");
+	// 		}
+	// 	},
+	// 	error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
+	// 		toastr.error("Gagal Total!");
+	// 	}
+	// });
 
-	myDropzone.on("complete", function(file) {
-        myDropzone.removeFile(file);
-	});
+	// myDropzone.on("complete", function(file) {
+    //     myDropzone.removeFile(file);
+	// });
 	
 
 	$(".btn-add-pekerjaan").on("click", function(){
@@ -342,6 +342,7 @@ $(document).ready(function(){
 
 
 	$('#form-update-pengajar').on("submit", function(event){
+		// alert("cek")
 		event.preventDefault();
 		Swal.fire({
 			title: 'Harap menunggu',

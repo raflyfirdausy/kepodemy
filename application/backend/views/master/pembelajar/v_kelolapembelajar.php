@@ -53,7 +53,7 @@
 						<h3 class="card-label">Data Pembelajar</h3>
 					</div>
 				</div>
-				<div class="col-md-4 m-0 p-0">
+				<!-- <div class="col-md-4 m-0 p-0">
 					<div class="row">
 						<div class="col-md-8 mt-5">
 							<input type="text" class="form-control filter-date" name="filter_date" style="width:100%">
@@ -62,7 +62,7 @@
 							<button class="btn btn-primary" type="button" id="btn-filterDate" style="width:100%">Filter <i class="fas fa-filter"></i></button>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="card-body">
 				<!--begin: Datatable-->
@@ -79,56 +79,8 @@
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td>Rifki Kurniawan</td>
-							<td>rifkikurniawan@gmail.com</td>
-							<td>087812348877</td>
-							<td>24-09-2020</td>
-							<td class="text-center">
-								<span class="label label-inline label-light-danger font-weight-bold status-pembelajar">
-									Belum Verifikasi
-								</span>
-							</td>
-							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-verifikasi" data-id="2" title="Verifikasi akun">
-									<i class="la la-check-circle-o text-success"></i>
-								</button>
-								<a href="<?= base_url('bookingpembelian/detailbooking/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Cek Transaksi">
-									<i class="la la-money-check-alt text-primary"></i>
-								</a>
-								<a href="<?= base_url('kelola_pembelajar/detail_pembelajar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Detail Pembelajar">
-									<i class="la la-edit text-warning"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
-						<tr>
-							<td class="text-center">2</td>
-							<td>Rafly Firadusy Irawan</td>
-							<td>rafly@gmail.com</td>
-							<td>081223121122</td>
-							<td>24-09-2020</td>
-							<td class="text-center">
-								<span class="label label-inline label-light-success font-weight-bold status-pembelajar">
-									Sudah Verifikasi
-								</span>
-							</td>
-							<td class="text-center">
-								<a href="<?= base_url('bookingpembelian/detailbooking/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Cek Transaksi">
-									<i class="la la-money-check-alt text-primary"></i>
-								</a>
-								<a href="<?= base_url('kelola_pembelajar/detail_pembelajar/2') ?>" type="button" class="btn btn-sm btn-clean btn-icon" title="Detail Pembelajar">
-									<i class="la la-edit text-warning"></i>
-								</a>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-pembelajar">
+						
 					</tbody>
 
 				</table>
