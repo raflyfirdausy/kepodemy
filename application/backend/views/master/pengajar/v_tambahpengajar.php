@@ -120,13 +120,13 @@
 							<input type="text" class="form-control valid-number" id="nohp-pengajar" name="no_hp" placeholder="Masukkan Nomor Handphone" required/>
 						</div>
 						<div class="col-lg-6">
-							<label>Jabatan / Fungsi Pekerjaan</label>
+							<label>Jabatan / Fungsi Pekerjaan <span class="text-danger">*</span></label>
 							<input type="text" class="form-control" name="jabatan" id="jabatan-pengajar" placeholder="Masukkan jabatan atau fungsi pekerejaan" required/>
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-6">
-							<label>Kategori</label>
+							<label>Kategori <span class="text-danger">*</span></label>
 							<select class="form-control select2" id="select-kategori" name="kategori[]" style="width:100%" multiple="multiple" required>
 								<option value=""></option>
 								<?php foreach ($listKategori as $kt) : ?>
@@ -141,6 +141,12 @@
 								<label class="custom-file-label" for="customFile">Choose file</label>
 							</div>
 						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Keterangan <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="keterangan" id="keterangan-pengajar" placeholder="keterangan" required/>
+						</div>		
 					</div>
 
 					<div class="separator separator-dashed my-8"></div>

@@ -6,7 +6,6 @@
 
 			<!--begin::Page Title-->
 			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Detail Pengajar</h5>
-			<input type="hidden" class="form-control" id="status-pengajar" value="<?= $status ?>" disabled/>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -117,25 +116,7 @@
 								<span class="nav-text font-weight-bold">Pekerjaan</span>
 							</a>
 						</li>
-						<li class="nav-item mr-3">
-							<a class="nav-link" data-toggle="tab"
-								href="#tab-attachment">
-								<span class="nav-icon mr-2">
-									<span class="svg-icon mr-3">
-										<!--begin::Svg Icon | path:assets/media/svg/icons/Devices/Display1.svg-->
-										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-												<rect x="0" y="0" width="24" height="24"/>
-												<path d="M12.4644661,14.5355339 L9.46446609,14.5355339 C8.91218134,14.5355339 8.46446609,14.9832492 8.46446609,15.5355339 C8.46446609,16.0878187 8.91218134,16.5355339 9.46446609,16.5355339 L12.4644661,16.5355339 L12.4644661,17.5355339 C12.4644661,18.6401034 11.5690356,19.5355339 10.4644661,19.5355339 L6.46446609,19.5355339 C5.35989659,19.5355339 4.46446609,18.6401034 4.46446609,17.5355339 L4.46446609,13.5355339 C4.46446609,12.4309644 5.35989659,11.5355339 6.46446609,11.5355339 L10.4644661,11.5355339 C11.5690356,11.5355339 12.4644661,12.4309644 12.4644661,13.5355339 L12.4644661,14.5355339 Z" fill="#000000" opacity="0.3" transform="translate(8.464466, 15.535534) rotate(-45.000000) translate(-8.464466, -15.535534) "/>
-												<path d="M11.5355339,9.46446609 L14.5355339,9.46446609 C15.0878187,9.46446609 15.5355339,9.01675084 15.5355339,8.46446609 C15.5355339,7.91218134 15.0878187,7.46446609 14.5355339,7.46446609 L11.5355339,7.46446609 L11.5355339,6.46446609 C11.5355339,5.35989659 12.4309644,4.46446609 13.5355339,4.46446609 L17.5355339,4.46446609 C18.6401034,4.46446609 19.5355339,5.35989659 19.5355339,6.46446609 L19.5355339,10.4644661 C19.5355339,11.5690356 18.6401034,12.4644661 17.5355339,12.4644661 L13.5355339,12.4644661 C12.4309644,12.4644661 11.5355339,11.5690356 11.5355339,10.4644661 L11.5355339,9.46446609 Z" fill="#000000" transform="translate(15.535534, 8.464466) rotate(-45.000000) translate(-15.535534, -8.464466) "/>
-											</g>
-										</svg>
-										<!--end::Svg Icon-->
-									</span>
-								 </span>
-								<span class="nav-text font-weight-bold">Lampiran</span>
-							</a>
-						</li>
+						
 					</ul>
 				</div>
 			</div>
@@ -147,22 +128,22 @@
 					<!--begin::Tab Content-->
 					<div class="tab-pane active" id="tab-personal" role="tabpanel">
 						<!--begin::Form-->
-						<form class="form">
+						<form class="form" id="form-update-pengajar" method="POST" enctype="multipart/form-data">
 							<!--begin::Body-->
 							<div class="card-body">
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Foto</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(assets/media/users/blank.png)">
-											<a class="btn default btn-outline image-popup-vertical-fit el-link" href="<?= asset('admin/media/users/300_21.jpg') ?>" target="_blank">
-												<div class="image-input-wrapper" style="background-image: url(<?= asset('admin/media/users/300_21.jpg') ?>)">
+										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
+											<a class="image-popup-vertical-fit el-link" href="<?= isset($data->foto) ?  asset("pengajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>" target="_blank">
+												<div class="image-input-wrapper" style="background-image: url(<?= isset($data->foto) ?  asset("pengajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>)">
 												</div>
 											</a>
 
-											<!-- <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Change avatar">
+											<!-- <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Ubah foto">
 												<i class="fa fa-pen icon-sm text-muted"></i>
-												<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg" />
-												<input type="hidden" name="profile_avatar_remove" />
+												<input type="file" name="foto_pengajar" accept=".png, .jpg, .jpeg"/>
+												<input type="hidden" name="foto_pengajar_remove"/>
 											</label>
 
 											<span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="cancel" data-toggle="tooltip" title="Cancel avatar">
@@ -179,31 +160,40 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nama</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="M. I. Zulkifli M." disabled/>
+										<input class="form-control form-control-lg" type="hidden" name="id" id="id-pengajar" value="<?= $data->id ?>"/>
+										<input class="form-control form-control-lg form-control-solid" type="hidden" id="status-pengajar" name="is_verifiied" value="<?= $data->is_verified ?>" disabled/>
+										<input class="form-control form-control-lg form-control-solid" type="text" name="nama" value="<?= $data->nama ?>" disabled/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Kategori Pengajar</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="Mobilie Programming" disabled/>
+										<textarea class="form-control form-control-lg form-control-solid" name="kategori" rows="2" disabled><?= $kategori ?></textarea>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Jabatan / Fungsi Pekerjaan</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="Instruktur" disabled/>
+										<input class="form-control form-control-lg form-control-solid" type="text" name="jabatan" value="<?= $data->jabatan ?>" disabled/>
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
+									<label class="col-xl-3 col-lg-3 col-form-label">Keterangan</label>
 									<div class="col-lg-9 col-xl-6">
-										<textarea  class="form-control form-control-lg form-control-solid" rows="2" disabled>Instruktur Pemrograman Game</textarea>
+										<input class="form-control form-control-lg form-control-solid" type="text" name="keterangan" value="<?= $data->keterangan ?>" disabled/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="2020-09-24 13:30:00" disabled/>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="<?= date("d-m-Y H:i:s", strtotime($data->created_at)); ?>" disabled/>
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
+									<div class="col-lg-9 col-xl-6">
+										<!-- <textarea class="summernote" id="asa" name="deskripsi" required></textarea> -->
+										<textarea class="form-control form-control-lg" id="deskripsi" name="deskripsi" rows="3" disabled><?= strip_tags($data->deskripsi)?></textarea>
 									</div>
 								</div>
 								
@@ -217,40 +207,46 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nomor Telepon</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg input-group-solid">
+										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-											<input type="text" class="form-control form-control-lg form-control-solid" value="087812347788" placeholder="Phone" disabled/>
+											<input type="text" class="form-control form-control-lg form-control-solid valid-number" name="no_hp" value="<?= $data->no_hp ?>" disabled/>
 										</div>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Email</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg input-group-solid">
+										<div class="input-group input-group-lg">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-at"></i></span></div>
-											<input type="text" class="form-control form-control-lg form-control-solid" value="akunpaten27@gmail.com" placeholder="Email" disabled/>
+											<input type="email" class="form-control form-control-lg form-control-solid" value="<?= $data->email ?>" name="email" disabled/>
 										</div>
 									</div>
 								</div>
-
-								<!-- INFO KONTAK -->
+								<!-- INFO LAMPIRAN -->
 								<div class="row">
 									<label class="col-xl-3"></label>
 									<div class="col-lg-9 col-xl-6">
-										<h5 class="font-weight-bold mt-10 mb-6">Catatan</h5>
+										<h5 class="font-weight-bold mt-10 mb-6">Lampiran</h5>
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Catatan Dari Admin</label>
-									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg input-group-solid">
-											<textarea  class="form-control form-control-lg form-control-solid" rows="2" disabled></textarea>
-										</div>
-									</div>
+									<label class="col-xl-3 col-lg-3 col-form-label">CV atau lain-lain</label>
+									<label class="col-lg-9 col-xl-6 col-form-label">
+										<a href="<?= base_url('kelola_pengajar/download_file/'. $data->cv) ?>" target="_blank"><?= $data->cv ?></a>
+									</label>
 								</div>
-
+								
 							</div>
 							<!--end::Body-->
+							<div class="card-footer">
+								<div class="row">
+									<!-- <div class="col-2">
+									</div> -->
+									<div class="col-12">
+										<button type="submit" class="btn btn-success btn-update-pengajar">Simpan Perubahan</button>
+									</div>
+								</div>
+							</div>
 						</form>
 						<!--end::Form-->
 					</div>
@@ -260,30 +256,28 @@
 					<div class="tab-pane" id="tab-pendidikan" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
+							
+
+							 <!--begin::Table-->
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
+								<table class="table table-head-custom table-vertical-center" id="table-pendidikan">
 									<thead>
 										<tr>
-											<th>No</th>
-											<th>Nama Sekolah / Perguruan Tinggi</th>
-											<th>Waktu Masuk</th>
-											<th>Waktu Keluar</th>
-											<th>Jurusan</th>
-											<th>Keterangan</th>
+											<th style="width:20%">Nama Pendidikan</th>
+											<th style="width:15%">Tahun Masuk</th>
+											<th style="width:15%">Tahun Keluar</th>
+											<th style="width:20%">Jurusan</th>
+											<th style="width:30%">Keterangan</th>
+											<!-- <th style="width:10%" class="text-center">Action</th> -->
 										</tr>
 									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Universitas Amikom Purwokerto</td>
-											<td>2016</td>
-											<td>2020</td>
-											<td>Informatika</td>
-											<td>Teknik Informatika Programming</td>
-										</tr>
+									<tbody id="body-pendidikan">
+										
 									</tbody>
 								</table>
 							</div>
+							<!--end::Table-->
+							
 						</div>
 						<!--end::Body-->
 					</div>
@@ -293,56 +287,23 @@
 					<div class="tab-pane" id="tab-pekerjaan" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
-							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
-									<thead>
-										<tr>
-											<th>No</th>
-											<th>Nama Perusahaan</th>
-											<th>Waktu Masuk</th>
-											<th>Waktu Keluar</th>
-											<th>Posisi</th>
-											<th>Keterangan</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Ultranesia.com</td>
-											<td>2019</td>
-											<td>2020</td>
-											<td>Web Developer</td>
-											<td>Web Programming Technical</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-						<!--end::Body-->
-					</div>
-					<!--end::Tab Content-->
-
-					<!--begin::Tab Content-->
-					<div class="tab-pane" id="tab-attachment" role="tabpanel">
-						<!--begin::Body-->
-						<div class="card-body">
-							<!-- INFO Lampiran -->
-							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
-									<thead>
-										<tr>
-											<th>File Lampiran</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>
-												<a href="https://google.com" target="_blank">CV_zulkifli.pdf</a>
-											</td>
-										</tr>
-									</tbody>
-								</table>
 							
+							<div class="table-responsive">
+								<table class="table table-head-custom table-vertical-center" id="table-pekerjaan">
+									<thead>
+										<tr>
+											<th style="width:15%">Nama Perusahaan</th>
+											<th style="width:10%">Tahun Masuk</th>
+											<th style="width:10%">Tahun Keluar</th>
+											<th style="width:12%">Posisi</th>
+											<th style="width:30%">Pencapaian</th>
+											<th style="width:12%">Keterangan</th>
+											<!-- <th style="width:10%" class="text-center">Action</th> -->
+										</tr>
+									</thead>
+									<tbody id="body-pekerjaan">
+									</tbody>
+								</table>
 							</div>
 						</div>
 						<!--end::Body-->
@@ -373,10 +334,10 @@
 			<form id="form-send-reject-pengajar" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="ID" id="id-transaksi" value="">
+					<input type="hidden" name="id" id="id-pengajar" value="<?= $data->id?>">
 					<div class="form-group">
-						<label for="exampleInputPassword1">Berikan alasan kenapa anda menolak transaki ini</label>
-						<textarea name="Notes" class="form-control" id="messageReject" rows="5" placeholder="catatan" required></textarea>
+						<label for="exampleInputPassword1">Berikan alasan kenapa anda menolak</label>
+						<textarea name="keterangan" class="form-control" id="messageReject" rows="5" placeholder="catatan" required></textarea>
 					</div>
 				</div>
 					

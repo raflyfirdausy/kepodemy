@@ -302,14 +302,14 @@ class Kelola_pengajar extends Admin_Controller
 		// d($config2);
 
 		$datakategori = $dataInput['kategori'];
-
+		
 		$dataheaderpengajar = [
 			'email'			=> $dataInput['email'],
 			'nama'			=> $dataInput['nama'],
 			'password'		=> md5($dataInput['password']),
 			'no_hp'			=> $dataInput['no_hp'],
 			'jabatan'		=> $dataInput['jabatan'],
-			'deskripsi'		=> $dataInput['deskripsi'],
+			'deskripsi'		=> validasi_input_artikel($dataInput['deskripsi']),
 			'is_verified'	=> 1,
 			'foto'			=> '',
 			'cv'			=> '',
@@ -517,6 +517,8 @@ class Kelola_pengajar extends Admin_Controller
 			unset($dataInput['kategori'], $dataInput['id'], $dataInput['foto_pengajar_remove']);
 			$dataInput['password'] = md5($dataInput['password']);
 		}
+
+		$dataInput['deskripsi'] = validasi_input_artikel($dataInput['deskripsi']);
 
 
 		if ($_FILES["foto_pengajar"]["name"] == '') {

@@ -5,16 +5,17 @@
 		<div class="d-flex align-items-center flex-wrap mr-2">
 
 			<!--begin::Page Title-->
-			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Kelola Pengajar</h5>
+			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Detail Pengajar</h5>
+			<input type="hidden" class="form-control" id="status-pengajar" value="<?= $status ?>" disabled/>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
 			<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Master</a>
+					<a href="javascript:;" class="text-muted">Transaksi</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Kelola Pengajar</a>
+					<a href="javascript:;" class="text-muted">Pendaftaran Pengajar</a>
 				</li>
 				<li class="breadcrumb-item">
 					<a href="javascript:;" class="text-muted">Detail</a>
@@ -30,8 +31,8 @@
 				Kembali
 			</a>
 
-			<!-- <button type="button" class="btn btn-danger mr-2 btn-reject-pengajar" style="display:none;">Tolak</button>
-			<button type="button" class="btn btn-success btn-approve-pengajar" style="display:none;">Terima</button> -->
+			<button type="button" class="btn btn-danger mr-2 btn-reject-pengajar" style="display:none;">Tolak</button>
+			<button type="button" class="btn btn-success btn-approve-pengajar" style="display:none;">Terima</button>
 			<!--end::Actions-->
 		</div>
 
@@ -116,7 +117,25 @@
 								<span class="nav-text font-weight-bold">Pekerjaan</span>
 							</a>
 						</li>
-						
+						<li class="nav-item mr-3">
+							<a class="nav-link" data-toggle="tab"
+								href="#tab-attachment">
+								<span class="nav-icon mr-2">
+									<span class="svg-icon mr-3">
+										<!--begin::Svg Icon | path:assets/media/svg/icons/Devices/Display1.svg-->
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+												<rect x="0" y="0" width="24" height="24"/>
+												<path d="M12.4644661,14.5355339 L9.46446609,14.5355339 C8.91218134,14.5355339 8.46446609,14.9832492 8.46446609,15.5355339 C8.46446609,16.0878187 8.91218134,16.5355339 9.46446609,16.5355339 L12.4644661,16.5355339 L12.4644661,17.5355339 C12.4644661,18.6401034 11.5690356,19.5355339 10.4644661,19.5355339 L6.46446609,19.5355339 C5.35989659,19.5355339 4.46446609,18.6401034 4.46446609,17.5355339 L4.46446609,13.5355339 C4.46446609,12.4309644 5.35989659,11.5355339 6.46446609,11.5355339 L10.4644661,11.5355339 C11.5690356,11.5355339 12.4644661,12.4309644 12.4644661,13.5355339 L12.4644661,14.5355339 Z" fill="#000000" opacity="0.3" transform="translate(8.464466, 15.535534) rotate(-45.000000) translate(-8.464466, -15.535534) "/>
+												<path d="M11.5355339,9.46446609 L14.5355339,9.46446609 C15.0878187,9.46446609 15.5355339,9.01675084 15.5355339,8.46446609 C15.5355339,7.91218134 15.0878187,7.46446609 14.5355339,7.46446609 L11.5355339,7.46446609 L11.5355339,6.46446609 C11.5355339,5.35989659 12.4309644,4.46446609 13.5355339,4.46446609 L17.5355339,4.46446609 C18.6401034,4.46446609 19.5355339,5.35989659 19.5355339,6.46446609 L19.5355339,10.4644661 C19.5355339,11.5690356 18.6401034,12.4644661 17.5355339,12.4644661 L13.5355339,12.4644661 C12.4309644,12.4644661 11.5355339,11.5690356 11.5355339,10.4644661 L11.5355339,9.46446609 Z" fill="#000000" transform="translate(15.535534, 8.464466) rotate(-45.000000) translate(-15.535534, -8.464466) "/>
+											</g>
+										</svg>
+										<!--end::Svg Icon-->
+									</span>
+								 </span>
+								<span class="nav-text font-weight-bold">Lampiran</span>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -128,22 +147,22 @@
 					<!--begin::Tab Content-->
 					<div class="tab-pane active" id="tab-personal" role="tabpanel">
 						<!--begin::Form-->
-						<form class="form" id="form-update-pengajar" method="POST" enctype="multipart/form-data">
+						<form class="form">
 							<!--begin::Body-->
 							<div class="card-body">
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Foto</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(<?= asset('admin/media/users/blank.png') ?>)">
-											<a class="image-popup-vertical-fit el-link" href="<?= isset($data->foto) ?  asset("pengajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>" target="_blank">
-												<div class="image-input-wrapper" style="background-image: url(<?= isset($data->foto) ?  asset("pengajar/" . $data->foto) :  asset('admin/media/users/blank.png') ?>)">
+										<div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(assets/media/users/blank.png)">
+											<a class="btn default btn-outline image-popup-vertical-fit el-link" href="<?= asset('admin/media/users/300_21.jpg') ?>" target="_blank">
+												<div class="image-input-wrapper" style="background-image: url(<?= asset('admin/media/users/300_21.jpg') ?>)">
 												</div>
 											</a>
 
-											<label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Ubah foto">
+											<!-- <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Change avatar">
 												<i class="fa fa-pen icon-sm text-muted"></i>
-												<input type="file" name="foto_pengajar" accept=".png, .jpg, .jpeg"/>
-												<input type="hidden" name="foto_pengajar_remove"/>
+												<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg" />
+												<input type="hidden" name="profile_avatar_remove" />
 											</label>
 
 											<span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="cancel" data-toggle="tooltip" title="Cancel avatar">
@@ -152,7 +171,7 @@
 
 											<span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="remove" data-toggle="tooltip" title="Remove avatar">
 												<i class="ki ki-bold-close icon-xs text-muted"></i>
-											</span>
+											</span> -->
 										</div>
 										<!-- <span class="form-text text-muted">Allowed file types: png, jpg, jpeg.</span> -->
 									</div>
@@ -160,47 +179,31 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nama</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="hidden" name="id" id="id-pengajar" value="<?= $data->id ?>"/>
-										<input class="form-control form-control-lg" type="text" name="nama" value="<?= $data->nama ?>" required/>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="M. I. Zulkifli M." disabled/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Kategori Pengajar</label>
 									<div class="col-lg-9 col-xl-6">
-										<select class="form-control" id="select-kategori" name="kategori[]" style="width:100%" multiple="multiple" required>
-										<?php foreach ($listKategori as $kt) : ?>
-											<?php if(in_array($kt->id, $pengajar_kategori)){ ?>
-												<option value="<?= $kt->id ?>" selected><?= $kt->nama ?></option>
-											<?php }else{ ?>
-												<option value="<?= $kt->id ?>"><?= $kt->nama ?></option>
-											<?php } ?>
-										<?php endforeach; ?>
-										</select>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="Mobilie Programming" disabled/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Jabatan / Fungsi Pekerjaan</label>
 									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" name="jabatan" value="<?= $data->jabatan ?>" required/>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Keterangan</label>
-									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg" type="text" name="keterangan" value="<?= $data->keterangan ?>" required/>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
-									<div class="col-lg-9 col-xl-6">
-										<input class="form-control form-control-lg form-control-solid" type="text" value="<?= date("d-m-Y H:i:s", strtotime($data->created_at)); ?>" disabled/>
+										<input class="form-control form-control-lg form-control-solid" type="text" value="Instruktur" disabled/>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Deskripsi</label>
 									<div class="col-lg-9 col-xl-6">
-										<!-- <textarea  class="form-control form-control-lg" name="deskripsi" rows="2"><?= $data->deskripsi ?></textarea> -->
-										<textarea class="summernote" id="kt_summernote_1" name="deskripsi" required><?= validasi_input_artikel($data->deskripsi) ?></textarea>
+										<textarea  class="form-control form-control-lg form-control-solid" rows="2" disabled>Instruktur Pemrograman Game</textarea>
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-xl-3 col-lg-3 col-form-label">Tanggal Mendaftar</label>
+									<div class="col-lg-9 col-xl-6">
+										<input class="form-control form-control-lg form-control-solid" type="text" value="2020-09-24 13:30:00" disabled/>
 									</div>
 								</div>
 								
@@ -214,77 +217,40 @@
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Nomor Telepon</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg">
+										<div class="input-group input-group-lg input-group-solid">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-											<input type="text" class="form-control form-control-lg valid-number" name="no_hp" value="<?= $data->no_hp ?>" required/>
+											<input type="text" class="form-control form-control-lg form-control-solid" value="087812347788" placeholder="Phone" disabled/>
 										</div>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-xl-3 col-lg-3 col-form-label">Email</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group input-group-lg">
+										<div class="input-group input-group-lg input-group-solid">
 											<div class="input-group-prepend"><span class="input-group-text"><i class="la la-at"></i></span></div>
-											<input type="email" class="form-control form-control-lg" value="<?= $data->email ?>" name="email" required/>
+											<input type="text" class="form-control form-control-lg form-control-solid" value="akunpaten27@gmail.com" placeholder="Email" disabled/>
 										</div>
 									</div>
 								</div>
-								<!-- INFO LAMPIRAN -->
-								<div class="row">
-									<label class="col-xl-3"></label>
-									<div class="col-lg-9 col-xl-6">
-										<h5 class="font-weight-bold mt-10 mb-6">Lampiran</h5>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">CV atau lain-lain</label>
-									<label class="col-lg-9 col-xl-6 col-form-label">
-										<a href="<?= base_url('kelola_pengajar/download_file/'. $data->cv) ?>" target="_blank"><?= $data->cv ?></a>
-									</label>
-								</div>
-								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label"></label>
-									<div class="col-lg-9 col-xl-6">
-										<div class="input-group">
-											<div class="custom-file">
-												<input type="file" class="custom-file-input" id="customFile" name="cv" />
-												<label class="custom-file-label" for="customFile">Choose file</label>
-											</div>
-										</div>
-										<span class="form-text text-muted txt-edit-password">Kosongkan jika tidak ingin mengubah file lampiran</span>
-									</div>
-								</div>
+
 								<!-- INFO KONTAK -->
 								<div class="row">
 									<label class="col-xl-3"></label>
 									<div class="col-lg-9 col-xl-6">
-										<h5 class="font-weight-bold mt-10 mb-6">Ubah password</h5>
+										<h5 class="font-weight-bold mt-10 mb-6">Catatan</h5>
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-xl-3 col-lg-3 col-form-label">Password</label>
+									<label class="col-xl-3 col-lg-3 col-form-label">Catatan Dari Admin</label>
 									<div class="col-lg-9 col-xl-6">
-										<div class="input-group">
-											<input type="password" class="form-control password" id="password-admin" name="password" placeholder="Password"/>
-											<div class="input-group-append">
-												<button class="btn btn-secondary btn-lihat-password" type="button"><i class="fa fa-eye"></i></button>
-											</div>
+										<div class="input-group input-group-lg input-group-solid">
+											<textarea  class="form-control form-control-lg form-control-solid" rows="2" disabled></textarea>
 										</div>
-										<span class="form-text text-muted txt-edit-password">Kosongkan jika tidak ingin mengubah password</span>
 									</div>
 								</div>
-								
+
 							</div>
 							<!--end::Body-->
-							<div class="card-footer">
-								<div class="row">
-									<!-- <div class="col-2">
-									</div> -->
-									<div class="col-12">
-										<button type="submit" class="btn btn-success btn-update-pengajar">Simpan Perubahan</button>
-									</div>
-								</div>
-							</div>
 						</form>
 						<!--end::Form-->
 					</div>
@@ -294,34 +260,30 @@
 					<div class="tab-pane" id="tab-pendidikan" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
-							<div class="row mb-5">
-								<div class="col-lg-12">
-									<button type="button" class="btn btn-sm font-weight-bolder btn-light-primary btn-add-pendidikan">
-										<i class="la la-plus"></i>Tambah Pendidikan
-									</button>
-								</div>
-							</div>
-
-							 <!--begin::Table-->
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="table-pendidikan">
+								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
 									<thead>
 										<tr>
-											<th style="width:20%">Nama Pendidikan</th>
-											<th style="width:15%">Tahun Masuk</th>
-											<th style="width:15%">Tahun Keluar</th>
-											<th style="width:20%">Jurusan</th>
-											<th style="width:20%">Keterangan</th>
-											<th style="width:10%" class="text-center">Action</th>
+											<th>No</th>
+											<th>Nama Sekolah / Perguruan Tinggi</th>
+											<th>Waktu Masuk</th>
+											<th>Waktu Keluar</th>
+											<th>Jurusan</th>
+											<th>Keterangan</th>
 										</tr>
 									</thead>
-									<tbody id="body-pendidikan">
-										
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Universitas Amikom Purwokerto</td>
+											<td>2016</td>
+											<td>2020</td>
+											<td>Informatika</td>
+											<td>Teknik Informatika Programming</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
-							<!--end::Table-->
-							
 						</div>
 						<!--end::Body-->
 					</div>
@@ -331,29 +293,56 @@
 					<div class="tab-pane" id="tab-pekerjaan" role="tabpanel">
 						<!--begin::Body-->
 						<div class="card-body">
-							<div class="row mb-5">
-								<div class="col-lg-12">
-									<button type="button" class="btn btn-sm font-weight-bolder btn-light-primary btn-add-pekerjaan">
-										<i class="la la-plus"></i>Tambah Pekerjaan
-									</button>
-								</div>
-							</div>
 							<div class="table-responsive">
-								<table class="table table-head-custom table-vertical-center" id="table-pekerjaan">
+								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
 									<thead>
 										<tr>
-											<th style="width:15%">Nama Perusahaan</th>
-											<th style="width:10%">Tahun Masuk</th>
-											<th style="width:10%">Tahun Keluar</th>
-											<th style="width:12%">Posisi</th>
-											<th style="width:25%">Pencapaian</th>
-											<th style="width:17%">Keterangan</th>
-											<th style="width:10%" class="text-center">Action</th>
+											<th>No</th>
+											<th>Nama Perusahaan</th>
+											<th>Waktu Masuk</th>
+											<th>Waktu Keluar</th>
+											<th>Posisi</th>
+											<th>Keterangan</th>
 										</tr>
 									</thead>
-									<tbody id="body-pekerjaan">
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Ultranesia.com</td>
+											<td>2019</td>
+											<td>2020</td>
+											<td>Web Developer</td>
+											<td>Web Programming Technical</td>
+										</tr>
 									</tbody>
 								</table>
+							</div>
+						</div>
+						<!--end::Body-->
+					</div>
+					<!--end::Tab Content-->
+
+					<!--begin::Tab Content-->
+					<div class="tab-pane" id="tab-attachment" role="tabpanel">
+						<!--begin::Body-->
+						<div class="card-body">
+							<!-- INFO Lampiran -->
+							<div class="table-responsive">
+								<table class="table table-head-custom table-vertical-center" id="kt_advance_table_widget_3">
+									<thead>
+										<tr>
+											<th>File Lampiran</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<a href="https://google.com" target="_blank">CV_zulkifli.pdf</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							
 							</div>
 						</div>
 						<!--end::Body-->
@@ -372,97 +361,29 @@
 
 
 <!-- Modal-->
-<div class="modal fade" id="pekerjaanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
+<div class="modal fade" id="rejectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="labelPekerjaanModal">Tambah Pekerjaan</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Konfirmasi</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
-			<form id="form-pekerjaan" method="POST">
+			<form id="form-send-reject-pengajar" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="id" id="id-pekerjaan" value="">
-					<input type="hidden" name="id_pengajar" id="id-pengajar-pekerjaan" value="">
-					<div class="form-group row">
-						<label>Nama Perusahaan</label>
-						<input type="text" name="nama_pekerjaan" id="nama-pekerjaan" class="form-control" placeholder="Nama pekerjaan" />
-					</div>
-					<div class="form-group row">
-						<label>Tahun Masuk</label>
-						<input type="text" name="tahun_masuk" id="waktu-masuk-kerja" class="form-control valid-number" placeholder="Tahun masuk kerja" />
-					</div>
-					<div class="form-group row">
-						<label>Tahun Keluar</label>
-						<input type="text" name="tahun_keluar" id="waktu-keluar-kerja" class="form-control valid-number" placeholder="Tahun keluar kerja" />
-					</div>
-					<div class="form-group row">
-						<label>Posisi</label>
-						<input type="text" name="posisi" id="posisi-kerja" class="form-control" placeholder="Posisi Pekerjaan" />
-					</div>
-					<div class="form-group row">
-						<label>Pencapaian</label>
-						<textarea name="pencapaian" id="pencapaian-kerja" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
-					</div>
-					<div class="form-group row">
-						<label>Keterangan</label>
-						<textarea name="keterangan" id="keterangan-kerja" class="form-control" placeholder="Keterangan Pekerjaan" rows="3"></textarea>
+					<input type="hidden" name="ID" id="id-transaksi" value="">
+					<div class="form-group">
+						<label for="exampleInputPassword1">Berikan alasan kenapa anda menolak transaki ini</label>
+						<textarea name="Notes" class="form-control" id="messageReject" rows="5" placeholder="catatan" required></textarea>
 					</div>
 				</div>
 					
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default font-weight-bold" data-dismiss="modal">Batal</button>
-				<button type="submit" class="btn btn-primary font-weight-bold">Simpan</button>
-			</div>
-			</form>
-        </div>
-    </div>
-</div>
-
-<!-- MODAL PENDIDIKAN -->
-<div class="modal fade" id="pendidikanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="labelPendidikanModal">Tambah Pendidikan</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <i aria-hidden="true" class="ki ki-close"></i>
-                </button>
-            </div>
-			<form id="form-pendidikan" method="POST">
-            <div class="modal-body">
-				<div class="col-md-12">
-					<input type="hidden" name="id" id="id-pendidikan" value="">
-					<input type="hidden" name="id_pengajar" id="id-pengajar-pendidikan" value="">
-					<div class="form-group row">
-						<label>Nama Pendidikan</label>
-						<input type="text" name="nama_pendidikan" id="nama-pendidikan" class="form-control" placeholder="Nama Pendidikan" />
-					</div>
-					<div class="form-group row">
-						<label>Tahun Masuk</label>
-						<input type="text" name="tahun_masuk" id="waktu-masuk-pendidikan" class="form-control valid-number" placeholder="Tahun masuk" />
-					</div>
-					<div class="form-group row">
-						<label>Tahun Keluar</label>
-						<input type="text" name="tahun_keluar" id="waktu-keluar-pendidikan" class="form-control valid-number" placeholder="Tahun keluar" />
-					</div>
-					<div class="form-group row">
-						<label>Jurusan</label>
-						<input type="text" name="jurusan" id="jurusan-pendidikan" class="form-control" placeholder="Jurusan" />
-					</div>
-					<div class="form-group row">
-						<label>Keterangan</label>
-						<textarea name="keterangan" id="keterangan-pendidikan" class="form-control" placeholder="Keterangan Pendidikan" rows="3"></textarea>
-					</div>
-				</div>
-					
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default font-weight-bold" data-dismiss="modal">Batal</button>
-				<button type="submit" class="btn btn-primary font-weight-bold">Simpan</button>
+				<button type="submit" class="btn btn-danger font-weight-bold">Kirim</button>
 			</div>
 			</form>
         </div>
@@ -471,7 +392,7 @@
 
 
 
-<script src="<?= asset("admin/customjs/master/pengajar/kelola-detail-pengajar.js") ?>"></script>
+<script src="<?= asset("admin/customjs/pendaftaran-pengajar/detail-pengajar.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 

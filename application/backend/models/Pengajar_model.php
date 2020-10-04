@@ -40,7 +40,25 @@ class Pengajar_model extends Custom_model
             $qry = $this->where(['is_verified' => '1'])->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->order_by("created_at", "DESC")->get_all() ?: [];
             return $qry;
         }
-    }
+	}
+	
+	public function get_pengajar($asArray = FALSE, $status)
+    {
+        if($asArray){
+            $qry = $this->as_array()->where(['is_verified' => $status])->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->order_by("created_at", "DESC")->get_all() ?: [];
+            return $qry;
+        } else {
+            $qry = $this->where(['is_verified' => $status])->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->order_by("created_at", "DESC")->get_all() ?: [];
+            return $qry;
+        }
+	}
+
+	public function getdetailpengajar($id)
+	{
+		$qry = $this->where(['id' => $id])->with_pengajarkategori(['fields' => 'id_kategori', 'with' => ['relation' => 'kategori', 'fields' => 'nama']])->get() ?: [];
+		return $qry;
+	}
+
 
     public function save($array)
     {
