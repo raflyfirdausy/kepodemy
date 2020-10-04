@@ -10,7 +10,7 @@ $(document).ready( function() {
 		var row = $(this).closest("tr");
 		Swal.fire({
 			title: 'Apakah anda yakin?',
-			text: "Data slider ini akan terhapus",
+			text: "Data testimoni ini akan terhapus",
 			icon: 'warning',
 			showCancelButton: true,
 			confirmButtonColor: '#d33',
@@ -27,7 +27,7 @@ $(document).ready( function() {
 						//START AJAX
 						$.ajax({
 							type: "POST", // Method pengiriman data bisa dengan GET atau POST
-							url: base_url + 'slider/hapus_data', // Isi dengan url/path file php yang dituju
+							url: base_url + 'testimoni/hapus_data', // Isi dengan url/path file php yang dituju
 							data: {
 								"ID": id,
 							}, // data yang akan dikirim ke file yang dituju
@@ -70,17 +70,17 @@ $(document).ready( function() {
 				
 				$.ajax({
 					type: "POST", // Method pengiriman data bisa dengan GET atau POST
-					url: base_url + 'slider/get_all_data', // Isi dengan url/path file php yang dituju
+					url: base_url + 'testimoni/get_all_data', // Isi dengan url/path file php yang dituju
 					dataType: 'JSON',
 					success: function (data) { // Ketika proses pengiriman berhasil
 						// var data = JSON.parse(data);
 						console.log(data.output);
 						Swal.close();
-						$("#body-slider").html("");
-						$("#body-slider").append(data.output);
+						$("#body-testimoni").html("");
+						$("#body-testimoni").append(data.output);
 						
 						
-						$('#table-slider').dataTable({
+						$('#table-testimoni').dataTable({
 							"paging": true,
 							"lengthChange": true,
 							"searching": true,
@@ -103,48 +103,52 @@ $(document).ready( function() {
 		});
 	}
 
-	$('.btn-add-slider').on("click", function(){
-		$("#sliderModal").modal("show");
-		$("#labelSliderModal").html("Tambah Slider");
-		$("#form-slider").attr("action", base_url + 'slider/simpan_data');
-		$('#form-slider')[0].reset();
-		urlgambar = asset + 'gambar/ukuran-banner.jpg';
-		$('#imgPreview').attr('src', urlgambar);
+	$('.btn-add-testimoni').on("click", function(){
+		$("#testimoniModal").modal("show");
+		$("#labelTestimoniModal").html("Tambah Testimoni");
+		$("#form-testimoni").attr("action", base_url + 'testimoni/simpan_data');
+		$('#form-testimoni')[0].reset();
+		// urlgambar = asset + 'gambar/default-bg.jpg';
+		// $('#imgPreview').attr('src', urlgambar);
+		$('#imgPreview').attr('src', '');
 		$('.custom-file-label').html('Pilih File Gambar');
-		$('#foto_slider').prop("required", true);
+		$('#foto_testimoni').prop("required", true);
 	});
 
 
-	$(document).on("click", ".btn-edit-slider", function(event){
+	$(document).on("click", ".btn-edit-testimoni", function(event){
 		event.preventDefault();
 		var id = $(this).data("id");
 		
-		$("#labelSliderModal").html("Edit Slider");
-		$("#form-slider").attr("action", base_url + 'slider/update_data');
-		$('#form-slider')[0].reset();
+		$("#labelTestimoniModal").html("Edit Testimoni");
+		$("#form-testimoni").attr("action", base_url + 'testimoni/update_data');
+		$('#form-testimoni')[0].reset();
 		$('.custom-file-label').html('Pilih File Gambar');
-		$('#foto_slider').prop("required", false);
+		$('#foto_testimoni').prop("required", false);
 		var getGambar = $(this).closest("tr").find('.txt-gambar').val();
-		var getJudul = $(this).closest("tr").find('.txt-judul').text();
-		var getKeterangan = $(this).closest("tr").find('.txt-keterangan').text();
+		var getNama = $(this).closest("tr").find('.txt-nama').text();
+		var getJabatan = $(this).closest("tr").find('.txt-jabatan').text();
+		var getIsi = $(this).closest("tr").find('.txt-isi').text();
 		var urlgambar;
 		if(getGambar == ''){
-			urlgambar = asset + 'gambar/ukuran-banner.jpg';
+			// urlgambar = asset + 'gambar/ukuran-banner.jpg';
+			urlgambar = '';
 		}
 		else{
-			urlgambar = asset + 'slider/' + getGambar;
+			urlgambar = asset + 'testimoni/' + getGambar;
 		}
 		$('#imgPreview').attr('src', urlgambar);
-		$("#judul-slider").val(getJudul);
-		$("#keterangan-slider").val(getKeterangan);
-		$('#id-slider').val(id);
+		$("#nama-testimoni").val(getNama);
+		$("#jabatan-testimoni").val(getJabatan);
+		$("#isi-testimoni").val(getIsi);
+		$('#id-testimoni').val(id);
 
 
-		$("#sliderModal").modal("show");
+		$("#testimoniModal").modal("show");
 	});
 
 
-	$("#form-slider").on("submit", function(event) {
+	$("#form-testimoni").on("submit", function(event) {
 		event.preventDefault();
 		
 		// $("#form-edit-general-service")
@@ -169,9 +173,9 @@ $(document).ready( function() {
 						if (data.response_code == 200) {
 							Swal.close();
 							Swal.fire('Done', data.response_message, 'success').then((result) => {
-								$("#sliderModal").modal("hide");
-								$('#table-slider').DataTable().clear();
-								$('#table-slider').DataTable().destroy();
+								$("#testimoniModal").modal("hide");
+								$('#table-testimoni').DataTable().clear();
+								$('#table-testimoni').DataTable().destroy();
 								getTable();
 							})
 						} else {
@@ -191,7 +195,7 @@ $(document).ready( function() {
 
 	$(document).on("click", ".btn-active", function(event){
 		event.preventDefault();
-		var $getRows = $(this).closest("tr").find('.status-slider');
+		var $getRows = $(this).closest("tr").find('.status-testimoni');
 		
 		$(this).attr('disabled', true);
 		var btn = $(this);
@@ -199,7 +203,7 @@ $(document).ready( function() {
 		var row = $(this).closest("tr");
 		Swal.fire({
 			title: 'Apakah anda yakin?',
-			text: "Slider akan diaktifkan",
+			text: "Testimoni akan diaktifkan",
 			icon: 'warning',
 			showCancelButton: true,
 			cancelButtonText: 'Batal',
@@ -216,7 +220,7 @@ $(document).ready( function() {
 						// START AJAX
 						$.ajax({
 							type: "POST", // Method pengiriman data bisa dengan GET atau POST
-							url: base_url + 'slider/slider_active', // Isi dengan url/path file php yang dituju
+							url: base_url + 'testimoni/testimoni_active', // Isi dengan url/path file php yang dituju
 							data: {
 								"ID": id,
 							}, // data yang akan dikirim ke file yang dituju
@@ -226,8 +230,8 @@ $(document).ready( function() {
 									Swal.close();
 									
 									Swal.fire('Done', data.response_message, 'success').then((result) => {
-										$('#table-slider').DataTable().clear();
-										$('#table-slider').DataTable().destroy();
+										$('#table-testimoni').DataTable().clear();
+										$('#table-testimoni').DataTable().destroy();
 										getTable();
 									})
 
@@ -255,7 +259,7 @@ $(document).ready( function() {
 
 	$(document).on("click", ".btn-not-active", function(event){
 		event.preventDefault();
-		var $getRows = $(this).closest("tr").find('.status-slider');
+		var $getRows = $(this).closest("tr").find('.status-testimoni');
 		
 		$(this).attr('disabled', true);
 		var btn = $(this);
@@ -263,7 +267,7 @@ $(document).ready( function() {
 		var row = $(this).closest("tr");
 		Swal.fire({
 			title: 'Apakah anda yakin?',
-			text: "Slider akan diaktifkan",
+			text: "Testimoni akan diaktifkan",
 			icon: 'warning',
 			showCancelButton: true,
 			confirmButtonColor: '#d33',
@@ -281,7 +285,7 @@ $(document).ready( function() {
 						// START AJAX
 						$.ajax({
 							type: "POST", // Method pengiriman data bisa dengan GET atau POST
-							url: base_url + 'slider/slider_notactive', // Isi dengan url/path file php yang dituju
+							url: base_url + 'testimoni/testimoni_notactive', // Isi dengan url/path file php yang dituju
 							data: {
 								"ID": id,
 							}, // data yang akan dikirim ke file yang dituju
@@ -291,8 +295,8 @@ $(document).ready( function() {
 									Swal.close();
 									
 									Swal.fire('Done', data.response_message, 'success').then((result) => {
-										$('#table-slider').DataTable().clear();
-										$('#table-slider').DataTable().destroy();
+										$('#table-testimoni').DataTable().clear();
+										$('#table-testimoni').DataTable().destroy();
 										getTable();
 									})
 

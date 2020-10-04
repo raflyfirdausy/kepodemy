@@ -175,8 +175,8 @@ $(document).ready( function() {
 							Swal.fire('Done', data.response_message, 'success').then((result) => {
 								btn.attr('disabled', false);
 								$("#kategoriModal").modal("hide");
-								$('#table-kategori').DataTable().clear();
-								$('#table-kategori').DataTable().destroy();
+									$('#table-kategori').DataTable().clear();
+									$('#table-kategori').DataTable().destroy();
 								getTable();
 							})
 						} else {

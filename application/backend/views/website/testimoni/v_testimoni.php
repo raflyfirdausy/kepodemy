@@ -5,7 +5,7 @@
 		<div class="d-flex align-items-center flex-wrap mr-2">
 
 			<!--begin::Page Title-->
-			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Slider</h5>
+			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Testimoni</h5>
 			<!--end::Page Title-->
 
 			<!--begin::Breadcrumb-->
@@ -14,7 +14,7 @@
 					<a href="javascript:;" class="text-muted">Website</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="javascript:;" class="text-muted">Slider</a>
+					<a href="javascript:;" class="text-muted">Testimoni</a>
 				</li>
 			</ul>
 			<!--end::Breadcrumb-->
@@ -22,7 +22,7 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
-			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-slider">
+			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-testimoni">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -50,24 +50,24 @@
 			<div class="card-header">
 				<div class="col-md-8 m-0 p-0">
 					<div class="mt-8">
-						<h3 class="card-label">Kelola Slider</h3>
+						<h3 class="card-label">Kelola Testimoni</h3>
 					</div>
 				</div>
 			</div>
 			<div class="card-body">
 				<!--begin: Datatable-->
-				<table class="table table-bordered table-hover table-checkable" id="table-slider" style="margin-top: 13px !important">
+				<table class="table table-bordered table-hover table-checkable" id="table-testimoni" style="margin-top: 13px !important">
 					<thead>
 						<tr>
 							<th class="text-center" style="width: 5%">No</th>
-							<th style="width: 30%">Judul</th>
-							<th style="width: 40%">Keterangan</th>
-							<th style="width: 10%">Status</th>
+							<th style="width: 15%">Nama</th>
+							<th style="width: 15%">Jabatan</th>
+							<th style="width: 50%">Isi</th>
 							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>
 
-					<tbody id="body-slider">
+					<tbody id="body-testimoni">
 						
 					</tbody>
 
@@ -83,43 +83,48 @@
 
 
 <!-- Modal-->
-<div class="modal fade" id="sliderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
-    <div class="modal-dialog modal-lg" role="document">
+<div class="modal fade" id="testimoniModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" >
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="labelSliderModal">Tambah Slider</h5>
+                <h5 class="modal-title" id="labelTestimoniModal">Tambah Testimoni</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
             </div>
-			<form id="form-slider" method="POST">
+			<form id="form-testimoni" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="id" id="id-slider" value="">
+					<input type="hidden" name="id" id="id-testimoni" value="">
 					<div class="form-group row">
 						<div class="mb-10">
-							<img style="width: 100%" id="imgPreview" src="<?= asset("gambar/ukuran-banner.jpg") ?>" alt="">
+							<img style="width: 100%" id="imgPreview" src="" alt="">
+							<!-- <img style="width: 100%" id="imgPreview" src="<?= asset("gambar/default-bg.jpg") ?>" alt=""> -->
 						</div>
 						<div class="input-group">
 							<div class="input-group-append">
 								<button type="button" class="btn btn-primary"><i class="fa fa-upload text-white"></i></button>
 							</div>
 							<div class="custom-file">
-								<input required="" accept="image/*" type="file" class="custom-file-input" id="foto_slider" name="foto_slider">
+								<input required="" accept="image/*" type="file" class="custom-file-input" id="foto_testimoni" name="foto_testimoni">
 								<label class="custom-file-label" for="inputGroupFile">Pilih File Gambar</label>
 							</div>
 							<div class="col-12 pr-0 pl-0">
-								<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png,)</span>
+								<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png)</span>
 							</div>
 						</div>
 					</div>
 					<div class="form-group row">
-						<label>Judul <span class="text-danger">*</span></label>
-						<input type="text" name="judul" id="judul-slider" class="form-control" placeholder="Judul slider" required/>
+						<label>Nama <span class="text-danger">*</span></label>
+						<input type="text" name="nama" id="nama-testimoni" class="form-control" placeholder="Nama" required/>
 					</div>
 					<div class="form-group row">
-						<label>Keterangan <span class="text-danger">*</span></label>
-						<textarea name="keterangan" id="keterangan-slider" class="form-control" placeholder="Keterangan slider" rows="4"></textarea>
+						<label>Jabatan <span class="text-danger">*</span></label>
+						<input type="text" name="jabatan" id="jabatan-testimoni" class="form-control" placeholder="Nama" required/>
+					</div>
+					<div class="form-group row">
+						<label>Isi <span class="text-danger">*</span></label>
+						<textarea name="isi" id="isi-testimoni" class="form-control" placeholder="Isi testimoni" rows="4"></textarea>
 					</div>
 				</div>
 					
@@ -135,13 +140,13 @@
 
 
 <script>var asset = "<?= asset() ?>";</script>
-<script src="<?= asset("admin/customjs/website/slider/kelola-slider.js") ?>"></script>
+<script src="<?= asset("admin/customjs/website/testimoni/kelola-testimoni.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
 
 
 <script>
 	
-	$("#foto_slider").change(function() {
+	$("#foto_testimoni").change(function() {
         readURL(this, false);
     });
 

@@ -22,7 +22,7 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
-			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-pengurus">
+			<a href="<?= base_url('pengurus/tambah_data') ?>" type="button" class="btn btn-success font-weight-bolder font-size-sm">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -33,7 +33,7 @@
 				</svg><!--end::Svg Icon-->
 			</span>
 				Tambah Data
-			</button>
+			</a>
 			<!--end::Actions-->
 		</div>
 	</div>
@@ -63,30 +63,13 @@
 							<th style="width: 25%">Nama</th>
 							<th style="width: 20%">Jabatan</th>
 							<th style="width: 25%">Keterangan</th>
-							<th style="width: 13%">Terakhir diubah</th>
+							<th style="width: 13%">Created on</th>
 							<th class="text-center" style="width: 12%">Action</th>
 						</tr>
 					</thead>
 
-					<tbody>
-						<tr>
-							<td class="text-center">1</td>
-							<td>Muhammad Ali Hasani</td>
-							<td>Directur</td>
-							<td>Directur Utama</td>
-							<td>26-09-2020</td>
-							<td class="text-center">
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-detail-pengurus" data-id="2" title="Detail Pengurus">
-									<i class="la la-list-ul text-success"></i>
-								</button>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-edit-pengurus" data-id="2" title="Edit">
-									<i class="la la-edit text-warning"></i>
-								</button>
-								<button type="button" class="btn btn-sm btn-clean btn-icon btn-delete" data-id="2" title="Hapus data">
-									<i class="la la-trash text-danger"></i>
-								</button>
-							</td>
-						</tr>
+					<tbody id="body-pengurus">
+						
 					</tbody>
 
 				</table>

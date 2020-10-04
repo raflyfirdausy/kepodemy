@@ -117,7 +117,7 @@
 								<label class="custom-file-label" for="inputGroupFile">Pilih File Gambar Header</label>
 							</div>
 							<div class="col-12 pr-0 pl-0">
-								<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png, .gif)</span>
+								<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png)</span>
 							</div>
 						</div>
 					</div>

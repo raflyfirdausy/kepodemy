@@ -195,8 +195,8 @@ class Kelola_pembelajar extends Admin_Controller
 			$message = $update['message'];
 		}else{
 			if ($this->upload->do_upload("foto_pembelajar")) {
-				if (is_file(FCPATH . 'assets/lampiran/' . $datapembelajar->foto)) {
-					unlink(FCPATH . 'assets/lampiran/' . $datapembelajar->foto);
+				if (is_file(FCPATH . 'assets/pembelajar/' . $datapembelajar->foto)) {
+					unlink(FCPATH . 'assets/pembelajar/' . $datapembelajar->foto);
 				}
 				$dataInput['foto'] = $namafilebaru;
 				$update = $this->proses_update_pembelajar($dataInput, $id);
