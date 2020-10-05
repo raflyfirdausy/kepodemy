@@ -43,7 +43,7 @@ class Beranda extends User_Controller
             ->as_array()
             ->limit(4)
             ->where(["tipe_produk" => "kelas"])
-            ->where("tanggal >", date("Y-m-d"))
+            ->where("tanggal >=", date("Y-m-d"))
             ->order_by("tanggal", "asc")
             ->with_pengajar("fields:nama,email,jabatan,no_hp")
             ->get_all() ?: [];
