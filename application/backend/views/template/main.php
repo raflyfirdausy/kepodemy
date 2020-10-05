@@ -27,6 +27,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
 	<link href="<?= asset("admin/plugins/custom/datatables/datatables.bundle.css") ?>" rel="stylesheet" type="text/css" />
+	<link href="<?= asset("admin/css/pages/wizard/wizard-4.css") ?>" rel="stylesheet" type="text/css" />
 
     <!--begin::Global Theme Styles(used by all pages)-->
     <link href="<?= asset("admin/plugins/global/plugins.bundle.css") ?>" rel="stylesheet" type="text/css" />
@@ -46,7 +47,8 @@ License: You must have a valid license purchased only from themeforest(the above
 	
 
 	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> -->
-
+	<script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
+	<script> var base_url = "<?= base_url() ?>"; </script>
 </head>
 <!--end::Head-->
 
@@ -106,6 +108,10 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!--begin::Content-->
                 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 					<?= $__content ?>
+
+					
+
+
 					
 				</div>
 
@@ -251,22 +257,46 @@ License: You must have a valid license purchased only from themeforest(the above
             "font-family": "Poppins"
         };
     </script>
-    <!--end::Global Config-->
+	<!--end::Global Config-->
+	
 	
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-    <!--begin::Global Theme Bundle(used by all pages)-->
-    <script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
+	<!--begin::Global Theme Bundle(used by all pages)-->
+	
+	
+	
     <script src="<?= asset("admin/plugins/custom/prismjs/prismjs.bundle.js") ?>"></script>
-    <script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
+	
+	<script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
 	<!--end::Global Theme Bundle-->
 	<script src="<?= asset("admin/plugins/custom/datatables/datatables.bundle.js") ?>"></script>
 	<script src="<?= asset("admin/plugins/custom/fullcalendar/fullcalendar.bundle.js") ?>"></script>
 	<script src="<?= asset("admin/js/pages/widgets.js") ?>"></script>
 
 	<script src="<?= asset("admin/js/pages/features/miscellaneous/sweetalert2.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-daterangepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/custom/profile/profile.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/select2.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/form-repeater.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/custom/user/edit-user.js") ?>"></script>
+	<!-- <script src="<?= asset("admin/js/pages/crud/file-upload/dropzonejs.js") ?>"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.0/dropzone.js"></script> -->
+	<script src="<?= asset("admin/js/pages/features/miscellaneous/toastr.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datetimepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-timepicker.js") ?>"></script>
+	<script src="<?= asset("admin/js/pages/crud/forms/editors/summernote.js") ?>"></script>
 
-	<script src="<?= asset("admin/customjs/kelola_admin.js") ?>"></script>
-
+	<script>
+	$(function() {
+		$(document).on('change, keyup', '.valid-number', function() {
+			var currentInput = $(this).val();
+			var fixedInput = currentInput.replace(/[A-Za-z!@#$%^&*()]/g, '');
+			$(this).val(fixedInput);
+		});
+	});
+	</script>
+	
 </body>
 <!--end::Body-->
 
