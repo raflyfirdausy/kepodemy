@@ -282,7 +282,7 @@ class Kelas extends Admin_Controller
 		$getdata = $this->produk->where(['id' => $id])->get();
 		$listPengajar = $this->pengajar->pengajar_aktif();
 		$listKategori = $this->kategori->get_lookup_kategori();
-		$getprodukkategori = $this->produk_kategori->where(['id_kelas' => $id])->get_all();
+		$getprodukkategori = $this->produk_kategori->where(['id_kelas' => $id])->get_all() ?: [];
 		$produk_kategori = [];
         foreach($getprodukkategori as $pk)
         {
