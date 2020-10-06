@@ -57,6 +57,10 @@
                            </ul>
                        </li>
 
+                       <li class="drop-link">
+                           <a class="" href="<?= "#" ?>">Tentang <?= $app_name ?></a>
+                       </li>e
+
                        <!-- <li><a href="#">Kalender</a></li> -->
                        <!-- <li><a href="#">Buku</a></li>
                 <li><a href="#">Merchandise</a></li> -->
