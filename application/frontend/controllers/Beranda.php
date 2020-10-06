@@ -48,15 +48,16 @@ class Beranda extends User_Controller
             ->with_pengajar("fields:nama,email,jabatan,no_hp")
             ->get_all() ?: [];
         // d($terdekat);
-
-
+              
         //TODO : PREPARE DATA
         $data = [
             "slider"            => $slider,
             "kategori_populer"  => $kategori,
             "kelas"             => $kelas,
-            "terdekat"          => $terdekat
+            "terdekat"          => $terdekat,            
         ];
         $this->loadViewUser('beranda/index', $data);
     }
+
+   
 }

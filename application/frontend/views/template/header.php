@@ -23,45 +23,41 @@
 
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                    <ul class="navbar-nav mr-auto">
-                       <!-- <li class="drop-link">
-                    <a class="active" href="index.html">Home</a>
-                </li> -->
+                       <li class="drop-link">
+                           <a class="active" href="<?= base_url() ?>">Beranda</a>
+                       </li>
 
                        <li class="drop-link">
-                           <a href="#">Topik <i class="fa fa-angle-down"></i></a>
-                           <ul class="dropdown">
-                               <li class="drop-link">
-                                   <a href="#">Strategy management</a>
-                                   <ul class="dropdown level2">
-                                       <li><a href="#">Strategic management</a></li>
-                                       <li><a href="#">Balanced scorecard</a></li>
-                                   </ul>
-                               </li>
-                               <li class="drop-link">
-                                   <a href="#">Operation management</a>
-                                   <ul class="dropdown level2">
-                                       <li><a href="#">Business process</a></li>
-                                       <li><a href="#">Quality management</a></li>
-                                       <li><a href="#">Supply chain management</a></li>
-                                       <li><a href="#">Project management</a></li>
-                                   </ul>
-                               </li>
-                               <li class="drop-link">
-                                   <a href="#">Financial/accounting management</a>
-                                   <ul class="dropdown level2">
-                                       <li class="drop-link"><a href="#">Financial management</a>
-                                           <ul class="dropdown level2">
-                                               <li><a href="#">Financial management</a></li>
-                                           </ul>
-                                       </li>
-                                       <li><a href="#">Accounting management</a></li>
-                                       <li><a href="#"> Financial restructuring management</a></li>
-                                       <li><a href="#">Human capital management</a></li>
-                                   </ul>
-                               </li>
+                           <a href="#">Topik Kelas<i class="fa fa-angle-down"></i></a>
+                           <ul class="dropdown level2">
+                               <?php foreach ($topik as $tp) : ?>
+                                   <li class="<?= (sizeof($tp["sub"]) > 0) ? "drop-link" : "" ?>">
+                                       <a href="#"><?= $tp["nama"] ?></a>
+                                       <?= getSubKategori($tp["sub"]) ?>
+                                   </li>
+                               <?php endforeach ?>
+
+                               <?php
+                                function getSubKategori($kategoriArray = [])
+                                {
+                                    $string = "";
+                                    if (sizeof($kategoriArray) > 0) {
+                                        $string .= '<ul class="dropdown level2">';
+                                        foreach ($kategoriArray as $dt) {
+                                            $class = sizeof($dt["sub"]) > 0 ? "drop-link" : "";
+                                            $string .= '<li class="' . $class . '">';
+                                            $string .= '<a href="#">' . $dt["nama"] . '</a>';
+                                            $string .= getSubKategori($dt["sub"]);
+                                        }
+                                        $string .= "</ul>";
+                                    }
+                                    return $string;
+                                }
+                                ?>
                            </ul>
                        </li>
-                       <li><a href="#">Kalender</a></li>
+
+                       <!-- <li><a href="#">Kalender</a></li> -->
                        <!-- <li><a href="#">Buku</a></li>
                 <li><a href="#">Merchandise</a></li> -->
 

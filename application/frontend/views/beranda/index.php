@@ -196,7 +196,8 @@
                                      <h2 class="course-title">
                                          <a href="single-course.html"><?= $kel["nama"] ?></a>
                                      </h2>
-                                     <div class="course-rating-teacher">
+                                     <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     <!-- <div class="course-rating-teacher">
                                          <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
                                              <span style="width:100%">
                                                  <span class="rating">0.00</span>
@@ -204,7 +205,7 @@
                                              </span>
                                          </div>
                                          <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
-                                     </div>
+                                     </div> -->
                                  </div>
                                  <div class="course-content-bottom">
                                      <div class="course-students">
@@ -276,7 +277,7 @@
              <div class="col-lg-6">
                  <div class="title-section">
                      <div class="left-part">
-                         <span>Tonton Video</span>
+                         <span>Spesial Untuk Kamu</span>
                          <h1>kelas Dimana Saja</h1>
                      </div>
                  </div>
