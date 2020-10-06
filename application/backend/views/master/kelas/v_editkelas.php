@@ -121,16 +121,7 @@
 							</select>
 						</div>
 					</div>
-					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Media Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" value="<?= $data->media ?>" required/>
-						</div>
-						<div class="col-lg-6">
-							<label>Link Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="link_pembelajaran" id="link-belajar" placeholder="Link pembelajaran" value="<?= $data->link_pembelajaran ?>" required/>
-						</div>
-					</div>
+					
 					<div class="form-group row">
 						<div class="col-lg-2">
 							<label>Tanggal Pembelajaran <span class="text-danger">*</span></label>
@@ -185,6 +176,17 @@
 							<label>Deskripsi</label>
 							<textarea class="form-control" name="deskripsi" id="deskripsi" placeholder="Masukkan deskripsi kelas" rows="2"></textarea>
 						</div> -->
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Media Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" value="<?= $data->media ?>" required/>
+						</div>
+						<div class="col-lg-6">
+							<label>Link Pembelajaran <span class="text-danger">*</span></label>
+							<textarea class="summernote" id="kt_summernote_2" name="link_pembelajaran"><?= $data->link_pembelajaran ?></textarea>
+							<!-- <input type="text" class="form-control" name="link_pembelajaran" id="link-belajar" placeholder="Link pembelajaran" value="<?= $data->link_pembelajaran ?>" required/> -->
+						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-12">
