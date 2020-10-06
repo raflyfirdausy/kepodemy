@@ -96,6 +96,66 @@
  </section>
  <!-- End feature section -->
 
+
+ <!-- popular-courses-section  -->
+ <section class="popular-courses-section p-0">
+     <div class="container">
+         <div class="title-section">
+             <div class="left-part">
+                 <span></span>
+                 <h1>Pilihan Kelas Terbaik</h1>
+             </div>
+             <div class="right-part">
+                 <a class="button-one" href="#">Lihat semua kelas</a>
+             </div>
+         </div>
+         <div class="popular-courses-box">
+             <div class="row">
+
+                 <?php foreach ($kelas as $kel) : ?>
+                     <div class="col-lg-3 col-md-6">
+                         <div class="course-post">
+                             <div class="course-thumbnail-holder">
+                                 <a href="single-course.html">
+                                     <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
+                                 </a>
+                             </div>
+                             <div class="course-content-holder">
+                                 <div class="course-content-main">
+                                     <h2 class="course-title">
+                                         <a href="single-course.html"><?= $kel["nama"] ?></a>
+                                     </h2>
+                                     <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     <!-- <div class="course-rating-teacher">
+                                         <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
+                                             <span style="width:100%">
+                                                 <span class="rating">0.00</span>
+                                                 <span class="votes-number">0 Votes</span>
+                                             </span>
+                                         </div>
+                                         <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     </div> -->
+                                 </div>
+                                 <div class="course-content-bottom">
+                                     <div class="course-students">
+                                         <i class="material-icons">group</i>
+                                         <span>0</span>
+                                     </div>
+                                     <div class="course-price">
+                                         <span>Rp <?= $kel["harga_diskon"] > 0 ? ("<strike>" . Rupiah3($kel["harga"]) . "</strike> " . Rupiah3($kel["harga_diskon"])) : Rupiah3($kel["harga"]) ?></span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+
+                 <?php endforeach ?>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- End popular-courses section -->
+
  <!-- collection-section -->
  <section class="collection-section">
      <div class="container">
@@ -168,64 +228,6 @@
  </section>
  <!-- End collection section -->
 
- <!-- popular-courses-section  -->
- <section class="popular-courses-section p-0">
-     <div class="container">
-         <div class="title-section">
-             <div class="left-part">
-                 <span></span>
-                 <h1>Pilihan Kelas Terbaik</h1>
-             </div>
-             <div class="right-part">
-                 <a class="button-one" href="#">Lihat semua kelas</a>
-             </div>
-         </div>
-         <div class="popular-courses-box">
-             <div class="row">
-
-                 <?php foreach ($kelas as $kel) : ?>
-                     <div class="col-lg-3 col-md-6">
-                         <div class="course-post">
-                             <div class="course-thumbnail-holder">
-                                 <a href="single-course.html">
-                                     <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
-                                 </a>
-                             </div>
-                             <div class="course-content-holder">
-                                 <div class="course-content-main">
-                                     <h2 class="course-title">
-                                         <a href="single-course.html"><?= $kel["nama"] ?></a>
-                                     </h2>
-                                     <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
-                                     <!-- <div class="course-rating-teacher">
-                                         <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
-                                             <span style="width:100%">
-                                                 <span class="rating">0.00</span>
-                                                 <span class="votes-number">0 Votes</span>
-                                             </span>
-                                         </div>
-                                         <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
-                                     </div> -->
-                                 </div>
-                                 <div class="course-content-bottom">
-                                     <div class="course-students">
-                                         <i class="material-icons">group</i>
-                                         <span>0</span>
-                                     </div>
-                                     <div class="course-price">
-                                         <span>Rp <?= $kel["harga_diskon"] > 0 ? ("<strike>" . Rupiah3($kel["harga"]) . "</strike> " . Rupiah3($kel["harga_diskon"])) : Rupiah3($kel["harga"]) ?></span>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-
-                 <?php endforeach ?>
-             </div>
-         </div>
-     </div>
- </section>
- <!-- End popular-courses section -->
 
  <!-- events-section  -->
  <section class="events-section">
