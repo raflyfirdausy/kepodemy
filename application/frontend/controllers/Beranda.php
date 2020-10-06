@@ -9,6 +9,7 @@ class Beranda extends User_Controller
         $this->load->model("Slider_model", "slider");
         $this->load->model("Kategori_model", "kategori");
         $this->load->model("Produk_model", "kelas");
+        $this->load->model("Testimoni_model", "testimoni");
     }
 
     public function index()
@@ -25,8 +26,9 @@ class Beranda extends User_Controller
             ->get_all() ?: [];
 
         for ($i = 0; $i < sizeof($kategori); $i++) {
-            $kategori[$i]["produk_kategori"] = isset($kategori[$i]["produk_kategori"]) ? $kategori[0]["produk_kategori"] : [];
+            $kategori[$i]["produk_kategori"] = isset($kategori[$i]["produk_kategori"]) ? $kategori[$i]["produk_kategori"] : [];
         }
+        
 
         //TODO : FIND KELAS POPULER
         $kelas = $this->kelas
@@ -48,16 +50,22 @@ class Beranda extends User_Controller
             ->with_pengajar("fields:nama,email,jabatan,no_hp")
             ->get_all() ?: [];
         // d($terdekat);
-              
+
+        //TODO : FIND TESTIMONI
+        $testimoni = $this->testimoni->as_array()->get_all() ?: [];        
+        for ($i = 0; $i < sizeof($testimoni); $i++) {            
+            $testimoni[$i]["foto"] = asset("testimoni/" . $testimoni[$i]["foto"]);
+        }
+        // d($testimoni);
+
         //TODO : PREPARE DATA
         $data = [
             "slider"            => $slider,
             "kategori_populer"  => $kategori,
             "kelas"             => $kelas,
-            "terdekat"          => $terdekat,            
+            "terdekat"          => $terdekat,
+            "testimoni"         => $testimoni
         ];
         $this->loadViewUser('beranda/index', $data);
     }
-
-   
 }

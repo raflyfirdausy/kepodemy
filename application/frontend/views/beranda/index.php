@@ -320,58 +320,28 @@
  </section>
  <!-- End events section -->
 
- <!-- testimonial-section 
-			================================================== -->
+ <!-- testimonial-section ================================================== -->
  <section class="testimonial-section" style="background-color: white;">
      <div class="container">
          <div class="testimonial-box owl-wrapper">
-
              <div class="owl-carousel" data-num="1">
 
-                 <div class="item">
-                     <div class="testimonial-post">
-                         <p> “Di Tambahpintar, mau kelas kapan aja tuh bisa. Kalo masih kurang jelas, bisa diulang-ulang juga videonya.”</p>
-                         <div class="profile-test">
-                             <div class="avatar-holder">
-                                 <img style="width: 100; height: 100px;   background-position: center center; background-repeat: no-repeat;" src="upload/slider/slider-image-1.jpg" alt="">
-                             </div>
-                             <div class="profile-data">
-                                 <h2>Rafly Firdausy Irawan</h2>
-                                 <p>Programmer</p>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-                 <div class="item">
-                     <div class="testimonial-post">
-                         <p> “Design-driven, customized and reliable solution for your token development and management system to automate sales processes.”</p>
-                         <div class="profile-test">
-                             <div class="avatar-holder">
-                                 <img src="upload/testimonials/testimonial-avatar-3.jpg" alt="">
-                             </div>
-                             <div class="profile-data">
-                                 <h2>Nicole Alatorre</h2>
-                                 <p>Designer</p>
+                 <?php foreach ($testimoni as $ts) : ?>
+                     <div class="item">
+                         <div class="testimonial-post">
+                             <p> “<?= $ts["isi"] ?>”</p>
+                             <div class="profile-test">
+                                 <div class="avatar-holder">
+                                     <img style="width: 100; height: 100px; background-position: center center; background-repeat: no-repeat;" src="<?= $ts["foto"] ?>" alt="">
+                                 </div>
+                                 <div class="profile-data">
+                                     <h2><?= $ts["nama"] ?></h2>
+                                     <p><?= $ts["jabatan"] ?></p>
+                                 </div>
                              </div>
                          </div>
                      </div>
-                 </div>
-
-                 <div class="item">
-                     <div class="testimonial-post">
-                         <p> “Design-driven, customized and reliable solution for your token development and management system to automate sales processes.”</p>
-                         <div class="profile-test">
-                             <div class="avatar-holder">
-                                 <img src="upload/testimonials/testimonial-avatar-4.jpg" alt="">
-                             </div>
-                             <div class="profile-data">
-                                 <h2>Nicole Alatorre</h2>
-                                 <p>Designer</p>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
+                 <?php endforeach ?>
 
              </div>
          </div>
