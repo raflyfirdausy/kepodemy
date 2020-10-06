@@ -369,39 +369,22 @@
              <h1 class="mb-5"><b>Pengurus <?= $app_name ?></b></h1>
              <div class="teachers-box">
                  <div class="row">
-                     <div class="col-md-4">
-                         <div class="teacher-post">
-                             <a href="6. Detail Pengajar.html">
-                                 <img src="<?= asset("user/upload/teachers/teacher4.jpg") ?>" alt="">
-                                 <div class="hover-post">
-                                     <h2>Rafli Firdausy Irawan</h2>
-                                     <span>Web Developer</span>
-                                 </div>
-                             </a>
+
+                     <?php foreach ($pengurus as $dt) : ?>
+                         <div class="col-md-4">
+                             <div class="teacher-post">
+                                 <a href="javascript:void(0)">
+                                     <img style="height: 225px; object-fit: cover" src="<?= $dt["foto"] ?>" alt="">
+                                     <div class="hover-post">
+                                         <h2><?= $dt["nama"] ?></h2>
+                                         <span><?= $dt["jabatan"] ?></span>
+                                     </div>
+                                 </a>
+                             </div>
                          </div>
-                     </div>
-                     <div class="col-md-4">
-                         <div class="teacher-post">
-                             <a href="6. Detail Pengajar.html">
-                                 <img src="<?= asset("user/upload/teachers/teacher4.jpg") ?>" alt="">
-                                 <div class="hover-post">
-                                     <h2>Rafli Firdausy Irawan</h2>
-                                     <span>Web Developer</span>
-                                 </div>
-                             </a>
-                         </div>
-                     </div>
-                     <div class="col-md-4">
-                         <div class="teacher-post">
-                             <a href="6. Detail Pengajar.html">
-                                 <img src="<?= asset("user/upload/teachers/teacher4.jpg") ?>" alt="">
-                                 <div class="hover-post">
-                                     <h2>Rafli Firdausy Irawan</h2>
-                                     <span>Web Developer</span>
-                                 </div>
-                             </a>
-                         </div>
-                     </div>
+                     <?php endforeach ?>
+
+
                  </div>
              </div>
          </div>

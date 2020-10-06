@@ -10,6 +10,7 @@ class Beranda extends User_Controller
         $this->load->model("Kategori_model", "kategori");
         $this->load->model("Produk_model", "kelas");
         $this->load->model("Testimoni_model", "testimoni");
+        $this->load->model("Pengurus_model", "pengurus");
     }
 
     public function index()
@@ -28,7 +29,7 @@ class Beranda extends User_Controller
         for ($i = 0; $i < sizeof($kategori); $i++) {
             $kategori[$i]["produk_kategori"] = isset($kategori[$i]["produk_kategori"]) ? $kategori[$i]["produk_kategori"] : [];
         }
-        
+
 
         //TODO : FIND KELAS POPULER
         $kelas = $this->kelas
@@ -52,11 +53,18 @@ class Beranda extends User_Controller
         // d($terdekat);
 
         //TODO : FIND TESTIMONI
-        $testimoni = $this->testimoni->as_array()->get_all() ?: [];        
-        for ($i = 0; $i < sizeof($testimoni); $i++) {            
+        $testimoni = $this->testimoni->as_array()->get_all() ?: [];
+        for ($i = 0; $i < sizeof($testimoni); $i++) {
             $testimoni[$i]["foto"] = asset("testimoni/" . $testimoni[$i]["foto"]);
         }
         // d($testimoni);
+
+        //TODO : FIND PENGURUS
+        $pengurus = $this->pengurus->as_array()->get_all();
+        for ($i = 0; $i < sizeof($pengurus); $i++) {
+            $pengurus[$i]["foto"] = asset("pengurus/" . $pengurus[$i]["foto"]);
+        }
+        // d($pengurus);
 
         //TODO : PREPARE DATA
         $data = [
@@ -64,7 +72,8 @@ class Beranda extends User_Controller
             "kategori_populer"  => $kategori,
             "kelas"             => $kelas,
             "terdekat"          => $terdekat,
-            "testimoni"         => $testimoni
+            "testimoni"         => $testimoni,
+            "pengurus"          => $pengurus
         ];
         $this->loadViewUser('beranda/index', $data);
     }
