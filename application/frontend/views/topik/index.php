@@ -37,34 +37,43 @@
                     <div class="course-post list-style">
                         <div class="row">
                             <div class="course-thumbnail-holder">
-                                <a href="3. Detail.html">
+                                <a href="<?= base_url("kelas/" . slug($k["nama"])) ?>">
                                     <img style="height: 240px; object-fit:cover;" src="<?= asset("gambar/" . $k["gambar"]) ?>" alt="">
                                 </a>
                             </div>
                             <div class="course-content-holder">
                                 <div class="course-content-main">
                                     <h2 class="course-title">
-                                        <a href="3. Detail.html"><?= $k["nama"] ?></a> <br>
-                                        <span class="text-info" style="font-size: 12px;">Web Development</span>
+                                        <a href="<?= base_url("kelas/" . slug($k["nama"])) ?>"><?= $k["nama"] ?></a> <br>
+                                        <?php foreach ($k["produk_kategori"] as $pk) : ?>
+                                            <a href="<?= base_url("topik/" . $pk->kategori->slug) ?>">
+                                                <span class="text-info" style="font-size: 12px;"><?= $pk->kategori->nama ?>, </span>
+                                            </a>
+                                        <?php endforeach ?>
+
                                     </h2>
                                     <div class="course-rating-teacher">
                                         <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
                                             <span style="width:100%">
-                                                <span class="rating">5.00</span>
-                                                <span class="votes-number">1 Votes</span>
+                                                <!-- <span class="rating">5.00</span>
+                                                <span class="votes-number">0 Votes</span> -->
+                                                <!-- <span class=""><?= $k["tanggal"] . " " . $k["jam_mulai"] . " - " . $k["jam_selesai"] ?></span> -->
+                                                <span class="course-loop-teacher"><?= longdate_indo($k["tanggal"]) ?> |</span>
                                             </span>
                                         </div>
-                                        <a href="#" class="course-loop-teacher">Rafli Firdausy Irawan</a>
+                                        <a href="<?= base_url("pengajar/" . slug($k["pengajar"]->nama)) ?>" class="course-loop-teacher"><?= $k["pengajar"]->nama ?></a>
                                     </div>
-                                    <p>Apa yang akan dipelajari ? Membuat Website AGC untuk Affiliate Program, Membuat Website AGC untuk toko onl...</p>
+                                    <p>
+                                        <?= substr(strip_tags($k['deskripsi']), 0, 110) . "..."; ?>
+                                    </p>
                                 </div>
                                 <div class="course-content-bottom">
                                     <div class="course-students">
-                                        <i class="material-icons">group</i>
-                                        <span>64</span>
+                                        <!-- <i class="material-icons">group</i> -->
+                                        <!-- <span>64</span> -->
                                     </div>
-                                    <div class="course-price">
-                                        <span>IDR 85.5K</span>
+                                    <div class="course-price mr-3">
+                                        <span>Rp <?= $k["harga_diskon"] > 0 ? "<del>" . Rupiah3($k["harga"]) . "</del>" . Rupiah3($k["harga"] - $k["harga_diskon"]) : Rupiah3($k["harga"])  ?></span>
                                     </div>
                                 </div>
                             </div>

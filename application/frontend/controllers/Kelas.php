@@ -1,0 +1,48 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class Kelas extends User_Controller
+{
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model("Kategori_model", "kategori");
+        $this->load->model("Produk_model", "kelas");
+        $this->load->model("Produk_kategori_model", "kelas_detail");
+    }
+
+    public function index($slug = NULL)
+    {
+        //TODO : GET ALL KELAS
+        $idKelas = NULL;
+        $findKelas = $this->kelas->get_all() ?: [];
+        foreach ($findKelas as $kls) {
+            if (slug($kls->nama) == $slug) {
+                $idKelas = $kls->id;
+                break;
+            }
+        }
+        if ($idKelas == NULL) redirect(base_url("topik"));
+
+        //TODO : GET DATA DETAIL KELAS
+        $detailKelas = $this->kelas
+            ->as_array()
+            ->with_pengajar("fields:id,nama,foto,jabatan,deskripsi")
+            ->with_produk_kategori([
+                "fields" => "id,keterangan",
+                "with" => [
+                    "relation" => "kategori",
+                    "fields" => "nama,slug,keterangan,gambar"
+                ]
+            ])
+            ->get($idKelas);
+        // d($detailKelas);
+
+        //TODO : PREPARE DATA
+        $data = [
+            "kelas"     => $detailKelas,
+
+        ];
+        $this->loadViewUser("kelas/index", $data);
+    }
+}

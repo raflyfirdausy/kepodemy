@@ -24,12 +24,15 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                    <ul class="navbar-nav mr-auto">
                        <li class="drop-link">
-                           <a class="active" href="<?= base_url() ?>">Beranda</a>
+                           <a class="" href="<?= base_url() ?>">Beranda</a>
                        </li>
 
                        <li class="drop-link">
                            <a href="javascript.void(0)">Topik Kelas<i class="fa fa-angle-down"></i></a>
                            <ul class="dropdown level2">
+                               <li>
+                                   <a href="<?= base_url("topik/") ?>">Semua Topik</a>
+                               </li>
                                <?php foreach ($topik as $tp) : ?>
                                    <li class="<?= (sizeof($tp["sub"]) > 0) ? "drop-link" : "" ?>">
                                        <a href="<?= base_url("topik/" . $tp["slug"]) ?>"><?= $tp["nama"] ?></a>
