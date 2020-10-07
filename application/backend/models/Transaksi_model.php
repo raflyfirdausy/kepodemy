@@ -34,7 +34,8 @@ class Transaksi_model extends Custom_model
 			$qry = $this->where(['status_bayar' => $statusbayar]);
 		}
 		$qry = $this->with_pembelajar("fields:nama");
-		$qry = $this->with_transaksidetail(['fields' => 'id_transaksi', 'with' => ['relation' => 'produk', 'fields' => 'nama']]);
+		$qry = $this->with_transaksidetail(['fields' => 'id_transaksi','fields' => 'harga', 'with' => ['relation' => 'produk', 'fields' => 'nama']]);
+		// $qry = $this->select_sum("harga");
 		$qry = $this->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;
 	}

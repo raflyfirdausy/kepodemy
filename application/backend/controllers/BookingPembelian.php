@@ -71,18 +71,28 @@ class BookingPembelian extends Admin_Controller
 
     public function diterima()
     {
-        $this->loadViewAdmin("transaksi/pembelian/v_bookingterima");
+        $data = [
+			'statusbayar'	=> 1,
+			'id_pembelajar'	=> "",
+			'nama_pembelajar'	=> ""
+		];
+        $this->loadViewAdmin("transaksi/pembelian/v_bookingtransaksi", $data);
 	
 	}
     public function ditolak()
     {
-        $this->loadViewAdmin("transaksi/pembelian/v_bookingtolak");
+        $data = [
+			'statusbayar'	=> 3,
+			'id_pembelajar'	=> "",
+			'nama_pembelajar'	=> ""
+		];
+        $this->loadViewAdmin("transaksi/pembelian/v_bookingtransaksi", $data);
 	}
 	
-    public function detailbooking($status)
+    public function detail($id)
     {
 		$data = [
-			'status' => $status
+			'status' => $id
 		];
         $this->loadViewAdmin("transaksi/pembelian/v_detailbooking", $data);
 	}

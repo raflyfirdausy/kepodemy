@@ -60,7 +60,7 @@ class Kelola_pembelajar extends Admin_Controller
 			$output .= "<td>" . $verif . "</td>";
 			$output .= "<td class='text-center'>";
 			$output .= $btnverif;
-			$output .= "<a href='" . base_url('bookingpembelian/detailbooking/') . $dt->id . "' type='button' class='btn btn-sm btn-clean btn-icon'title='Cek Transaksi'><i class='la la-money-check-alt text-primary'></i></a>";
+			$output .= "<a href='" . base_url('bookingpembelian/detail/') . $dt->id . "' type='button' class='btn btn-sm btn-clean btn-icon'title='Cek Transaksi'><i class='la la-money-check-alt text-primary'></i></a>";
 			$output .= "<a href='" . base_url('kelola_pembelajar/detail/') . $dt->id . "' type='button' class='btn btn-sm btn-clean btn-icon'title='Detail Pembelajar'><i class='la la-edit text-warning'></i></a>";
 			$output .= "<button type='button' class='btn btn-sm btn-clean btn-icon btn-delete' data-id='" . $dt->id . "' title='Hapus data'><i class='la la-trash text-danger'></i></button>";
 			$output .= "</td>";
