@@ -48,7 +48,7 @@ class BookingPembelian extends Admin_Controller
 				}
 			
 			$output .= "<td>". $kelas ."</td>";
-			$output .= "<td class='text-right'>". Rupiah(20000) ."</td>";
+			$output .= "<td class='text-right'>". Rupiah($dt->total) ."</td>";
 			// $output .= "<td><a href='". base_url('bookingpembelian/download_file/'. $dt->bukti_bayar) ." target='_blank'>". $dt->bukti_bayar ."</a></td>";
 			$output .= "<td>". just_date($dt->created_at) ."</td>";
 			$output .= "<td class='text-center'>". $status ."</td>";
@@ -68,7 +68,7 @@ class BookingPembelian extends Admin_Controller
 	
     public function pending()
     {
-		d($this->transaksi->get_all_data());
+		// d($this->transaksi->get_all_data());
 		// $get = $this->transaksi->get_all_data($id_pembelajar = 1, $statusbayar = 2);
 		// d($get);
 		$data = [
