@@ -38,10 +38,12 @@ class Transaksi_model extends Custom_model
         $qry = $this->order_by("created_at", "DESC")->get_all() ?: [];
         foreach ($qry as $a) {
             $total = 0;
-            foreach ($a->transaksidetail as $dt) {
-                $total += ($dt->harga_diskon > $dt->harga) ? $dt->harga_diskon : $dt->harga;
+            if (isset($a->transaksidetail)) {
+                foreach ($a->transaksidetail as $dt) {
+                    $total += ($dt->harga_diskon > $dt->harga) ? $dt->harga_diskon : $dt->harga;
+                }
+                $a->total = $total;
             }
-            $a->total = $total;
         }
         return $qry;
     }
