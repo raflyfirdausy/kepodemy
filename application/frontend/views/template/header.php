@@ -1,9 +1,9 @@
    <!-- Header ================================================== -->
    <header class="clearfix">
 
-       <form class="search_bar" style="height: 75px; margin-top: 0px;">
+       <form method="get" action="<?= base_url("topik") ?>" class="search_bar" style="height: 75px; margin-top: 0px;">
            <div class="container">
-               <input type="search" class="search-input" placeholder="Cari Apa Saja" style="padding: 23px 45px 32px 0;">
+               <input type="search" name="search" class="search-input" placeholder="Cari Apa Saja" style="padding: 23px 45px 32px 0;">
                <button type="submit" class="submit">
                    <i class="material-icons">search</i>
                </button>
@@ -61,12 +61,12 @@
                        </li>
 
                        <li class="drop-link">
-                           <a class="" href="<?= "#" ?>">Tentang <?= $app_name ?></a>
-                       </li>e
+                           <a class="" href="<?= base_url() ?>">Merchandise</a>
+                       </li>
 
-                       <!-- <li><a href="#">Kalender</a></li> -->
-                       <!-- <li><a href="#">Buku</a></li>
-                <li><a href="#">Merchandise</a></li> -->
+                       <li class="drop-link">
+                           <a class="" href="<?= base_url() ?>">Tentang <?= $app_name ?></a>
+                       </li>
 
                    </ul>
                    <button class="search-icon btn">
@@ -80,7 +80,7 @@
                        </span>
                    </a>
 
-                   <a href="#" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
+                   <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
                    <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
                </div>
            </div>
@@ -88,7 +88,7 @@
 
        <div class="mobile-menu">
            <div class="search-form-box">
-               <form class="search-form">
+               <form method="get" action="<?= base_url("topik") ?>" class="search-form">
                    <input type="search" class="search-field p-2" placeholder="Enter keyword...">
                    <button type="submit" class="search-submit">
                        <i class="material-icons open-search">search</i>

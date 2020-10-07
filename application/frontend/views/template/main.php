@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="<?= asset("user/css/fonts/iconfont/material-icons.css") ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?= asset("user/css/style.css") ?>">
     <script src="<?= asset("user/js/studiare-plugins.min.js") ?>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 
 <body>
@@ -35,7 +36,7 @@
 
     <script src="<?= asset("user/js/jquery.countTo.js") ?>"></script>
     <script src="<?= asset("user/js/popper.js") ?>"></script>
-    <script src="<?= asset("user/js/bootstrap.min.js") ?>"></script>    
+    <script src="<?= asset("user/js/bootstrap.min.js") ?>"></script>
     <script src="<?= asset("user/js/gmap3.min.js") ?>"></script>
     <script src="<?= asset("user/js/script.js") ?>"></script>
 </body>
