@@ -25,6 +25,7 @@ class Transaksidetail_model extends Custom_model
 		if($id_transaksi != null){
 			$qry = $this->where(['id_transaksi' => $id_transaksi]);
 		}
+		$qry = $this->with_produk(['fields'=>'id_produk', 'fields'=>'nama' ,'with'=>['relation'=>'pengajar','fields'=>'nama'] ]);
 		$qry = $this->order_by("created_at", "DESC")->get_all() ? : [];
 		return $qry ;
 	}

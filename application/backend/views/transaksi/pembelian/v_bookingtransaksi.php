@@ -72,9 +72,10 @@
 							<th class="text-center" style="width: 5%">No</th>
 							<th style="width: 18%">Nama Pembelajar</th>
 							<th style="width: 20%">Kelas</th>
-							<th style="width: 15%">Total Bayar</th>
-							<th style="width: 18%">Bukti Pembayaran</th>
+							<th style="width: 17%">Total Bayar</th>
+							<!-- <th style="width: 18%">Bukti Pembayaran</th> -->
 							<th style="width: 14%">Tanggal Booking</th>
+							<th style="width: 16%" class="text-center">Status</th>
 							<th class="text-center" style="width: 10%">Action</th>
 						</tr>
 					</thead>

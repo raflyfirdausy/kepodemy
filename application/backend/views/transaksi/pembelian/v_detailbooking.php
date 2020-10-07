@@ -8,7 +8,8 @@
 			<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Booking / Pembelian</h5>
 			<!--end::Page Title-->
 
-			<input type="hidden" class="form-control" id="status-transaksi" value="<?= $status ?>" disabled/>
+			<input type="hidden" class="form-control" id="status-transaksi" value="<?= $datatransaksi->status_bayar ?>" disabled/>
+			<input type="hidden" id="id-transaksi-header" value="<?= $datatransaksi->id ?>" disabled>
 
 			<!--begin::Breadcrumb-->
 			<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
@@ -90,8 +91,8 @@
 						<div class="d-flex flex-column px-0 order-2 order-md-1">
 							<span
 								class="d-flex flex-column font-size-h5 font-weight-bold text-white">
-								<span>Rafly Firdausy Irawan</span>
-								<span>087812992211</span>
+								<span><?=  ucwords($datapembelajar->nama) ?></span>
+								<span><?= $datapembelajar->no_hp ?></span>
 							</span>
 						</div>
 						<h1 class="display-3 font-weight-boldest text-white order-1 order-md-2">
@@ -104,29 +105,29 @@
 				<div class="col-md-9">
 					<!--begin::Invoice body-->
 					<div class="row pb-26">
-						<div class="col-md-3 border-right-md pr-md-10 py-md-10">
+						<div class="col-md-2 border-right-md pr-md-5 py-md-5">
 							<!--begin::Invoice To-->
 							<div class="text-dark-50 font-size-lg font-weight-bold mb-3">INVOICE TO.
 							</div>
-							<div class="font-size-lg font-weight-bold mb-10">Rafly Firadusy Irawan<br />087812992211 </div>
+							<div class="font-size-lg font-weight-bold mb-10"><?= ucwords($datapembelajar->nama)?><br /><?= $datapembelajar->no_hp ?> </div>
 							<!--end::Invoice To-->
 
 							<!--begin::Invoice No-->
 							<div class="text-dark-50 font-size-lg font-weight-bold mb-3">INVOICE NO.
 							</div>
-							<div class="font-size-lg font-weight-bold mb-10">56758</div>
+							<div class="font-size-lg font-weight-bold mb-10"><?= $datatransaksi->kode_transaksi ?></div>
 							<!--end::Invoice No-->
 
 							<!--begin::Invoice Date-->
 							<div class="text-dark-50 font-size-lg font-weight-bold mb-3">Tanggal Booking</div>
-							<div class="font-size-lg font-weight-bold mb-10">24 Sept, 2020</div>
+							<div class="font-size-lg font-weight-bold mb-10"><?= datetime_eng($datatransaksi->created_at) ?></div>
 							<!--end::Invoice Date-->
 							<!--begin::Invoice Date-->
 							<div class="text-dark-50 font-size-lg font-weight-bold mb-3">Lampiran</div>
-							<div class="font-weight-bold"><a href="https://google.com" target="_blank">invoice24092020.pdf</a></div>
+							<div class="font-weight-bold"><a href="<?= base_url('bookingpembelian/download_file/'. $datatransaksi->bukti_bayar) ?>" target='_blank'><?= $datatransaksi->bukti_bayar ?></a></div>
 							<!--end::Invoice Date-->
 						</div>
-						<div class="col-md-9 py-10 pl-md-10">
+						<div class="col-md-10 py-5 pl-md-5">
 							<div class="table-responsive">
 								<table class="table">
 									<thead>
@@ -144,33 +145,59 @@
 												Keterangan
 											</th>
 											<th class="text-right font-weight-bolder text-muted font-size-lg text-uppercase">
+												Diskon
+											</th>
+											<th class="text-right font-weight-bolder text-muted font-size-lg text-uppercase">
 												Harga
 											</th>
 										</tr>
 									</thead>
 									<tbody>
+									<?php $x = 1; ?>
+									<?php
+										$totalharga = 0;
+										$totalhargadiskon = 0;
+									?>
+									<?php foreach ($transaksi_detail as $detail): ?>
+										
 										<tr class="font-weight-bolder">
-											<td class="pt-7">1</td>
-											<td class="border-top-0 pl-0 pl-md-5 pt-7 d-flex align-items-center">
-												Web Programming
-											</td>
-											<td class="pt-7">Muhammad Ali Hasani</td>
-											<td class="pt-7">Senin-Selasa</td>
+											<td class="pt-7"><?= $x++; ?></td>
+
+											<?php
+											$namakelas = "";
+											$pengajar = "";
+											
+													if(!empty($detail->produk)){
+														$namakelas = $detail->produk->nama;
+														if(!empty($detail->produk->pengajar)){
+															$pengajar = $detail->produk->pengajar->nama;
+														}
+													}
+											?>
+											<td class="border-top-0 pl-0 pl-md-5 pt-7 d-flex align-items-center"><?= $namakelas ?></td>
+											<td class="pt-7"><?= $pengajar ?></td>
+											<td class="pt-7"><?= $detail->keterangan ?></td>
 											<td class="pr-0 pt-7 font-size-h6 font-weight-boldest text-right">
-												Rp. 150.000
+												<?= rupiah($detail->harga_diskon) ?>
+											</td>
+											<td class="pr-0 pt-7 font-size-h6 font-weight-boldest text-right">
+												<?= rupiah($detail->harga) ?>
 											</td>
 										</tr>
-										<tr class="font-weight-bolder">
-											<td class="pt-7">2</td>
-											<td class="border-top-0 pl-0 pl-md-5 pt-7 d-flex align-items-center">
-												Mobile Programming
-											</td>
-											<td class="pt-7">Muhammad Ali Hasani</td>
-											<td class="pt-7">Rabu-Kamis</td>
-											<td class="pr-0 pt-7 font-size-h6 font-weight-boldest text-right">
-												Rp. 150.000
-											</td>
+										<?php $totalharga += $detail->harga ?>
+										<?php $totalhargadiskon += $detail->harga_diskon ?>
+
+									<?php endforeach; ?>
+									<!-- class="font-weight-bolder" -->
+										<tr>
+											<td class="pt-15 text-right" colspan="5">Total Harga</td>
+											<td class="pr-0 pt-15 font-size-h6 font-weight-boldest text-right"><?= rupiah($totalharga) ?></td>
 										</tr>
+										<tr>
+											<td class="pt-7 text-right" colspan="5">Total Diskon</td>
+											<td class="pr-0 pt-7 font-size-h6 font-weight-boldest text-right"><?= rupiah($totalhargadiskon) ?></td>
+										</tr>
+										
 									</tbody>
 								</table>
 							</div>
@@ -220,7 +247,8 @@
 								<!--end::Shape-->
 								<div class="font-weight-boldest font-size-h6">Total Pembayaran</div>
 								<div class="text-right d-flex flex-column">
-									<span class="font-weight-boldest font-size-h3 line-height-sm">Rp. 300.000</span>
+								<?php $total = $totalharga - $totalhargadiskon?>
+									<span class="font-weight-boldest font-size-h3 line-height-sm"><?= rupiah($total) ?></span>
 									<!-- <span class="font-size-sm">Taxes included</span> -->
 								</div>
 							</div>
@@ -270,10 +298,10 @@
 			<form id="form-send-reject" method="POST">
             <div class="modal-body">
 				<div class="col-md-12">
-					<input type="hidden" name="ID" id="id-transaksi" value="">
+					<input type="hidden" name="id" id="id-transaksi" value="<?= $datatransaksi->id ?>">
 					<div class="form-group">
 						<label for="exampleInputPassword1">Berikan alasan kenapa anda menolak transaki ini</label>
-						<textarea name="Notes" class="form-control" id="messageReject" rows="5" placeholder="catatan" required></textarea>
+						<textarea name="keterangan" class="form-control" id="messageReject" rows="5" placeholder="catatan" required></textarea>
 					</div>
 				</div>
 					
