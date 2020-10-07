@@ -12,7 +12,7 @@ class BookingPembelian extends Admin_Controller
 
     public function index()
     {
-        $this->loadViewAdmin("transaksi/pembelian/v_booking");
+		$this->loadViewAdmin("transaksi/pembelian/v_booking");		
 	}
 
 	public function get_all_data()
@@ -59,6 +59,7 @@ class BookingPembelian extends Admin_Controller
 	
     public function pending()
     {
+		d($this->transaksi->get_all_data());
 		// $get = $this->transaksi->get_all_data($id_pembelajar = 1, $statusbayar = 2);
 		// d($get);
 		$data = [
