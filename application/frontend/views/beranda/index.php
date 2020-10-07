@@ -148,7 +148,6 @@
                              </div>
                          </div>
                      </div>
-
                  <?php endforeach ?>
              </div>
          </div>
@@ -280,11 +279,50 @@
                  <div class="title-section">
                      <div class="left-part">
                          <span>Spesial Untuk Kamu</span>
-                         <h1>kelas Dimana Saja</h1>
+                         <h1>kelas Terfavorite</h1>
                      </div>
                  </div>
 
-                 <div class="video-box">
+                 <div class="row">
+
+                     <?php
+                        shuffle($kelas);
+                        $index = 1;
+                        foreach ($kelas as $kel) : ?>
+                         <?php if ($index <= 2) : ?>
+                             <div class="col-md-6">
+                                 <div class="course-post">
+                                     <div class="course-thumbnail-holder">
+                                         <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>">
+                                             <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
+                                         </a>
+                                     </div>
+                                     <div class="course-content-holder">
+                                         <div class="course-content-main">
+                                             <h2 class="course-title">
+                                                 <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>"><?= $kel["nama"] ?></a>
+                                             </h2>
+                                             <a href="<?= base_url("pengajar/" . slug($kel["pengajar"]->nama)) ?>" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                         </div>
+                                         <div class="course-content-bottom">
+                                             <div class="course-students">
+                                                 <i class="material-icons">group</i>
+                                                 <span>0</span>
+                                             </div>
+                                             <div class="course-price">
+                                                 <span>Rp <?= $kel["harga_diskon"] > 0 ? ("<strike>" . Rupiah3($kel["harga"]) . "</strike> " . Rupiah3($kel["harga_diskon"])) : Rupiah3($kel["harga"]) ?></span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         <?php $index++;
+                            endif ?>
+                     <?php endforeach ?>
+
+                 </div>
+
+                 <!-- <div class="video-box">
                      <div class="video-post">
                          <img src="upload/slider/slider-image-1.jpg" alt="">
                          <div class="hover-post">
@@ -314,7 +352,7 @@
                              </div>
                          </div>
                      </div>
-                 </div>
+                 </div> -->
              </div>
          </div>
 
