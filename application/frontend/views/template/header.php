@@ -28,11 +28,11 @@
                        </li>
 
                        <li class="drop-link">
-                           <a href="#">Topik Kelas<i class="fa fa-angle-down"></i></a>
+                           <a href="javascript.void(0)">Topik Kelas<i class="fa fa-angle-down"></i></a>
                            <ul class="dropdown level2">
                                <?php foreach ($topik as $tp) : ?>
                                    <li class="<?= (sizeof($tp["sub"]) > 0) ? "drop-link" : "" ?>">
-                                       <a href="#"><?= $tp["nama"] ?></a>
+                                       <a href="<?= base_url("topik/" . $tp["slug"]) ?>"><?= $tp["nama"] ?></a>
                                        <?= getSubKategori($tp["sub"]) ?>
                                    </li>
                                <?php endforeach ?>
@@ -46,7 +46,7 @@
                                         foreach ($kategoriArray as $dt) {
                                             $class = sizeof($dt["sub"]) > 0 ? "drop-link" : "";
                                             $string .= '<li class="' . $class . '">';
-                                            $string .= '<a href="#">' . $dt["nama"] . '</a>';
+                                            $string .= '<a href="' . base_url("topik/" . $dt["slug"]) . '">' . $dt["nama"] . '</a>';
                                             $string .= getSubKategori($dt["sub"]);
                                         }
                                         $string .= "</ul>";

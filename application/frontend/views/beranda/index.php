@@ -106,7 +106,7 @@
                  <h1>Pilihan Kelas Terbaik</h1>
              </div>
              <div class="right-part">
-                 <a class="button-one" href="#">Lihat semua kelas</a>
+                 <a class="button-one" href="<?= base_url("topik") ?>">Lihat semua kelas</a>
              </div>
          </div>
          <div class="popular-courses-box">

@@ -54,4 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes']  = TRUE;
 
 $route['auth/login']['post']                = "auth/proses_login";
-// $route['din9/penerangan-hukum']['post']     = "din9/proses_penerangan_hukum_edit_insert";
+$route['topik/(:any)']['get']               = "topik/index/$1";
+

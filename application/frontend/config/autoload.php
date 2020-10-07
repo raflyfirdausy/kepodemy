@@ -60,8 +60,9 @@ $autoload['packages'] = array();
 */
 $autoload['libraries'] = array(
     'session',
-    // 'database',
+    'database',
     'encryption',
+    'pagination'
     // 'migration'
 );
 
