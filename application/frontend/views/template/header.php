@@ -28,7 +28,7 @@
                        </li>
 
                        <li class="drop-link">
-                           <a href="javascript.void(0)">Topik Kelas<i class="fa fa-angle-down"></i></a>
+                           <a href="#!">Topik Kelas<i class="fa fa-angle-down"></i></a>
                            <ul class="dropdown level2">
                                <li>
                                    <a href="<?= base_url("topik/") ?>">Semua Topik</a>
@@ -73,10 +73,15 @@
                        <i class="material-icons open-search">search</i>
                        <i class="material-icons close-search" style="display: none;">close</i>
                    </button>
-                   <a href="#" class="btn btn-sm mr-2"><i class="material-icons">shopping_cart</i><span style="vertical-align: top;color:#fff;padding:3px;background-color: #4783f3;line-height: 15px;font-size: 11px;border-radius: 3px;margin-top: -20px;margin-left: 0px;text-align: center;">10</span></a>
+                   <a href="#" class="btn btn-sm mr-2">
+                       <i class="material-icons">shopping_cart</i>
+                       <span style="vertical-align: top;color:#fff;padding:3px;background-color: #4783f3;line-height: 15px;font-size: 11px;border-radius: 3px;margin-top: -20px;margin-left: 0px;text-align: center;">
+                           0
+                       </span>
+                   </a>
 
                    <a href="#" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
-                   <a href="#" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
+                   <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
                </div>
            </div>
        </nav>
@@ -175,7 +180,7 @@
            <div class="modal-content">
                <div class="modal-header">
                    <h2 class="modal-title text-dark font-weight-bold" style="color:#212529 !important;" id="exampleModalCenterTitle">
-                       Kepodemy - Masuk Sekarang</h2>
+                       <?= $app_name ?> - Masuk Sekarang</h2>
                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                        <span aria-hidden="true">&times;</span>
                    </button>
@@ -185,7 +190,7 @@
                        <br>
                        <div class="row">
                            <div class="col-md-6 text-center">
-                               <img src="http://localhost/learnify/assets/img/modal-login-2.png" class="img-fluid img-responsive mx-auto " style="height: 350px;">
+                               <img src="<?= asset("frontend/login.png") ?>" class="img-fluid img-responsive mx-auto " style="height: 350px;">
                            </div>
                            <div class="col-md-6">
                                <form action="" method="post">
@@ -197,15 +202,12 @@
                                        <label class="label-font" for="exampleFormControlInput1">Password</label>
                                        <input type="password" name="password" class="form-control" id="password" placeholder="Masukan password mu disini ..">
                                    </div>
-                                   <div class="form-check mt-2">
-                                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                       <label class="form-check-label" for="defaultCheck1">Ingat saya.
-                                       </label>
-                                   </div>
-                                   <p class="terms">Dengan login anda menyetujui
-                                       <i>privasi dan persyaratan ketentuanhukum kami </i> . belum punya akun? daftar <a href="7. Pendaftaran.html"> disini.</a>
+                                   <p class="terms">
+                                       Belum punya akun? daftar <a href="<?= base_url("auth/register") ?>"> disini.</a>
                                    </p>
-                                   <button class="btn btn-block font-weight-bold" style="background-color: #4dbf1c;color:white;font-size:18px;">Login Sekarang!</button>
+                                   <button class="btn btn-block font-weight-bold" style="background-color: #007aaf;color:white;font-size:18px;">
+                                       Masuk
+                                   </button>
                                </form>
                            </div>
                        </div>

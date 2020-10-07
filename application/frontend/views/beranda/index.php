@@ -116,16 +116,16 @@
                      <div class="col-lg-3 col-md-6">
                          <div class="course-post">
                              <div class="course-thumbnail-holder">
-                                 <a href="single-course.html">
+                                 <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>">
                                      <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
                                  </a>
                              </div>
                              <div class="course-content-holder">
                                  <div class="course-content-main">
                                      <h2 class="course-title">
-                                         <a href="single-course.html"><?= $kel["nama"] ?></a>
+                                         <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>"><?= $kel["nama"] ?></a>
                                      </h2>
-                                     <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     <a href="<?= base_url("pengajar/" . slug($kel["pengajar"]->nama)) ?>" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
                                      <!-- <div class="course-rating-teacher">
                                          <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
                                              <span style="width:100%">
@@ -162,7 +162,7 @@
          <div class="title-section">
              <div class="left-part">
                  <span></span>
-                 <h1>Kategori Paling Populer</h1>
+                 <h1>Topik Kelas Paling Populer</h1>
              </div>
              <div class="right-part">
                  <a class="button-one" href="#">Lihat Semua Kategori</a>
@@ -174,7 +174,7 @@
                      <div class="collection-post">
                          <div class="inner-collection">
                              <img style="width:120%; height: 422px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[0]["gambar"]) ?>" alt="">
-                             <a href="#" class="hover-post">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[0]["nama"])) ?>" class="hover-post">
                                  <span class="title"><?= $kategori_populer[0]["nama"] ?></span>
                                  <span class="numb-courses"><?= sizeof($kategori_populer[0]["produk_kategori"]) ?> Kelas</span>
                              </a>
@@ -185,7 +185,7 @@
                      <div class="collection-post">
                          <div class="inner-collection">
                              <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[1]["gambar"]) ?>" alt="">
-                             <a href="#" class="hover-post">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[1]["nama"])) ?>" class="hover-post">
                                  <span class="title"><?= $kategori_populer[1]["nama"] ?></span>
                                  <span class="numb-courses"><?= sizeof($kategori_populer[1]["produk_kategori"]) ?> Kelas</span>
                              </a>
@@ -194,7 +194,7 @@
                      <div class="collection-post">
                          <div class="inner-collection">
                              <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[2]["gambar"]) ?>" alt="">
-                             <a href="#" class="hover-post">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[2]["nama"])) ?>" class="hover-post">
                                  <span class="title"><?= $kategori_populer[2]["nama"] ?></span>
                                  <span class="numb-courses"><?= sizeof($kategori_populer[2]["produk_kategori"]) ?> Kelas</span>
                              </a>
@@ -205,7 +205,7 @@
                      <div class="collection-post">
                          <div class="inner-collection">
                              <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[3]["gambar"]) ?>" alt="">
-                             <a href="#" class="hover-post">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[3]["nama"])) ?>" class="hover-post">
                                  <span class="title"><?= $kategori_populer[3]["nama"] ?></span>
                                  <span class="numb-courses"><?= sizeof($kategori_populer[3]["produk_kategori"]) ?> Kelas</span>
                              </a>
@@ -214,7 +214,7 @@
                      <div class="collection-post">
                          <div class="inner-collection">
                              <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[4]["gambar"]) ?>" alt="">
-                             <a href="#" class="hover-post">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[4]["nama"])) ?>" class="hover-post">
                                  <span class="title"><?= $kategori_populer[4]["nama"] ?></span>
                                  <span class="numb-courses"><?= sizeof($kategori_populer[4]["produk_kategori"]) ?> Kelas</span>
                              </a>
@@ -266,7 +266,7 @@
                                                  <i class="material-icons">location_on</i> <?= $dekat["media"] ?>
                                              </span>
                                          </div>
-                                         <h2 class="title"><a href="#"><?= $dekat["nama"] ?> </a></h2>
+                                         <h2 class="title"><a href="<?= base_url("kelas/" . slug($dekat["nama"])) ?>"><?= $dekat["nama"] ?> </a></h2>
                                      </div>
                                  </div>
                              </div>

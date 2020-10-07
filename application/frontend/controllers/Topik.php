@@ -12,14 +12,14 @@ class Topik extends User_Controller
     }
 
     public function index($slug = NULL)
-    {        
+    {
         //TODO : CEK SLUG AND KATEGORI DETAIL
         $detailKategori = $this->kelas_detail
             ->fields()
             ->as_array()
-            ->select("DISTINCT(id_kelas) as id")            
+            ->select("DISTINCT(id_kelas) as id")
             ->get_all() ?: [];
-            
+
         $kategori = $this->kategori->where_slug($slug)->get() ?: NULL;
         if ($slug != NULL) {
             if (!$kategori) {
@@ -38,24 +38,29 @@ class Topik extends User_Controller
             array_push($idKelasArr, $dt["id"]);
         }
         // d($idKelasArr);
-        
-        //TODO : FIND KELAS BY SLUG
-        $kelas = $this->kelas
-            ->where("tipe_produk", "kelas")
-            ->where("id", $idKelasArr)
-            ->with_pengajar("fields:id,nama")
-            ->with_produk_kategori([
-                "fields" => "id,keterangan",
-                "with" => [
-                    "relation" => "kategori",
-                    "fields" => "nama,slug,keterangan,gambar"
-                ]
-            ])
-            // ->limit(1,1)
-            ->as_array()
-            ->get_all() ?: [];
 
-        // d($kelas);
+        //TODO : FIND KELAS BY SLUG
+        if (!empty($idKelasArr)) {
+            $kelas = $this->kelas
+                ->where("tipe_produk", "kelas")
+                ->where("id", $idKelasArr)
+                ->with_pengajar("fields:id,nama")
+                ->with_produk_kategori([
+                    "fields" => "id,keterangan",
+                    "with" => [
+                        "relation" => "kategori",
+                        "fields" => "nama,slug,keterangan,gambar"
+                    ]
+                ])
+                // ->limit(1,1)
+                ->as_array()
+                ->get_all() ?: [];
+        } else {
+            $kelas = [];
+        }
+
+
+        
 
         $uriSegment                 = empty($slug) ? 2 : 3;
 
@@ -89,7 +94,7 @@ class Topik extends User_Controller
         $data = [
             "kategori"      => $kategori,
             "kelas"         => $kelas,
-            "page"          => ($this->uri->segment($uriSegment)) ? $this->uri->segment($uriSegment) : 0,        
+            "page"          => ($this->uri->segment($uriSegment)) ? $this->uri->segment($uriSegment) : 0,
             "pagination"    => $this->pagination->create_links()
         ];
         $this->loadViewUser("topik/index", $data);

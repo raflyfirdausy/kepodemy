@@ -14,6 +14,11 @@ class Auth extends Auth_Controller
         redirect(base_url("auth/login"));
     }
 
+    public function register()
+    {
+        d("RAFLY WAS HERE");
+    }
+
     public function login()
     {
 
