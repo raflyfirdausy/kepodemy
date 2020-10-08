@@ -73,12 +73,26 @@ class Auth extends User_Controller
 
     public function login()
     {
+        $email      = $this->input->post("email", TRUE);
+        $password   = md5($this->input->post("password", TRUE));
 
-        d("RAFLY WAS HERE!");
-        // if ($this->session->has_userdata(SESSION)) {
-        //     redirect(base_url("beranda"));
-        // }
-        // $this->loadView('auth/login-kepodemy');
+        $cekCredential = $this->murid->where([
+            "email"     => $email,
+            "password"  => $password
+        ])->get();
+
+        if ($cekCredential) {
+            $this->session->set_userdata(SESSION, $cekCredential);
+            echo json_encode([
+                "response_code"     => 200,
+                "response_message"  => "Berhasil Login"
+            ]);
+        } else {
+            echo json_encode([
+                "response_code"     => 400,
+                "response_message"  => "Email atau password yang anda masukan salah."
+            ]);
+        }
     }
 
     public function proses_login()

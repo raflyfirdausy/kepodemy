@@ -14,7 +14,7 @@
            <div class="container">
 
                <a class="navbar-brand" href="index.html">
-                   <img src="<?= "assets/user/images/tp.png" ?>" height="50px" alt="">
+                   <img src="<?= asset("user/images/tp.png") ?>" height="50px" alt="">
                </a>
 
                <a href="#" class="mobile-nav-toggle">
@@ -79,9 +79,13 @@
                            0
                        </span>
                    </a>
+                   <?php if (!$this->session->has_userdata(SESSION)) : ?>
+                       <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
+                       <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
+                   <?php else : ?>
+                    <a href="<?= base_url("auth/logout") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Keluar</a>
+                   <?php endif ?>
 
-                   <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
-                   <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
                </div>
            </div>
        </nav>
@@ -193,7 +197,7 @@
                                <img src="<?= asset("frontend/login.png") ?>" class="img-fluid img-responsive mx-auto " style="height: 350px;">
                            </div>
                            <div class="col-md-6">
-                               <form action="" method="post">
+                               <form action="<?= base_url("auth/login") ?>" id="formLogin" method="post">
                                    <div class="form-group">
                                        <label class="label-font" for="exampleFormControlInput1">Email</label>
                                        <input type="text" value="" class="form-control" name="email" autocomplete="off" id="email" placeholder="Masukan email mu disini ..">
@@ -205,9 +209,7 @@
                                    <p class="terms">
                                        Belum punya akun? daftar <a href="<?= base_url("auth/register") ?>"> disini.</a>
                                    </p>
-                                   <button class="btn btn-block font-weight-bold" style="background-color: #007aaf;color:white;font-size:18px;">
-                                       Masuk
-                                   </button>
+                                   <button id="btnsubmit" class="btn btn-info text-center" href="#" style="width: 100%;">Masuk</button>
                                </form>
                            </div>
                        </div>

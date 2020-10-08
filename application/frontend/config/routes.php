@@ -53,7 +53,6 @@ $route['default_controller'] = 'beranda';
 $route['404_override'] = '';
 $route['translate_uri_dashes']  = TRUE;
 
-$route['auth/login']['post']                = "auth/proses_login";
 $route['topik/(:any)']['get']               = "topik/index/$1";
 $route['kelas/(:any)']['get']               = "kelas/index/$1";
 

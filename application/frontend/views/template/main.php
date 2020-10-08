@@ -39,6 +39,44 @@
     <script src="<?= asset("user/js/bootstrap.min.js") ?>"></script>
     <script src="<?= asset("user/js/gmap3.min.js") ?>"></script>
     <script src="<?= asset("user/js/script.js") ?>"></script>
+
+    <?php if (!$this->session->has_userdata(SESSION)) : ?>
+        <script>
+            $("#formLogin").submit(function(e) {
+                e.preventDefault();
+                Swal.fire({
+                    title: 'Loading',
+                    text: 'Proses Masuk <?= $app_name ?>',
+                    onBeforeOpen: () => {
+                        Swal.showLoading();
+                        //START AJAX
+                        $.ajax({
+                            type: "POST",
+                            url: '<?= base_url("auth/login") ?>',
+                            data: $(this).serialize(),
+                            dataType: "json",
+                            success: function(data) {
+                                console.log(JSON.stringify(data));
+                                if (data.response_code == 200) {
+                                    Swal.close();
+                                    Swal.fire('Sukses', data.response_message, 'success').then((result) => {
+                                        // $("#formLogin")[0].reset();
+                                        window.location.replace("<?= base_url() ?>");
+                                    })
+                                } else {
+                                    Swal.close();
+                                    Swal.fire("Oops", data.response_message, "error");
+                                }
+                            },
+                            error: function(xhr, ajaxOptions, thrownError) {
+                                Swal.fire("Oops", xhr.responseText, "error");
+                            }
+                        });
+                    }
+                });
+            })
+        </script>
+    <?php endif ?>
 </body>
 
 </html>
