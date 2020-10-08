@@ -12,7 +12,7 @@ class Topik extends User_Controller
     }
 
     public function index($slug = NULL)
-    {
+    {        
         //TODO : CEK SLUG AND KATEGORI DETAIL
         $detailKategori = $this->kelas_detail
             ->fields()
@@ -53,14 +53,13 @@ class Topik extends User_Controller
                     ]
                 ])
                 // ->limit(1,1)
+                ->order_by("created_at", "DESC")
                 ->as_array()
                 ->get_all() ?: [];
         } else {
             $kelas = [];
         }
 
-
-        
 
         $uriSegment                 = empty($slug) ? 2 : 3;
 
