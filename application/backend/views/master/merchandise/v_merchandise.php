@@ -25,7 +25,8 @@
 		<!--end::Info-->
 		<div class="d-flex align-items-center">
 			<!--begin::Actions-->
-			<button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-merchandise">
+			<!-- <button type="button" class="btn btn-success font-weight-bolder font-size-sm btn-add-merchandise"> -->
+			<a href="<?= base_url("merchandise/tambah_data") ?>" type="button" class="btn btn-success font-weight-bolder font-size-sm">
 			<span class="svg-icon svg-icon-md svg-icon-white"><!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -36,7 +37,8 @@
 				</svg><!--end::Svg Icon-->
 			</span>
 				Tambah Data
-			</button>
+			<!-- </button> -->
+			</a>
 			<!--end::Actions-->
 		</div>
 	</div>
@@ -66,7 +68,7 @@
 							<th style="width: 20%">Nama Merchandise</th>
 							<th style="width: 30%">Keterangan</th>
 							<th style="width: 15%">Harga</th>
-							<th style="width: 15%">Harga Diskon</th>
+							<th style="width: 15%">Potongan</th>
 							<th class="text-center" style="width: 15%">Action</th>
 						</tr>
 					</thead>
@@ -105,16 +107,16 @@
 						<input type="text" name="nama" id="nama-merchandise" class="form-control" placeholder="Nama merchandise" required/>
 					</div>
 					<div class="form-group row">
-						<label>Keterangan</label>
-						<textarea name="keterangan" id="keterangan-merchandise" class="form-control" placeholder="Keterangan" rows="3"></textarea>
-					</div>
-					<div class="form-group row">
 						<label>Harga</label>
-						<input type="text" name="harga" id="harga-merchandise" class="form-control valid-number" placeholder="0"/>
+						<input type="text" name="harga" id="harga-merchandise" class="form-control valid-number" placeholder="0" required/>
 					</div>
 					<div class="form-group row">
-						<label>Harga Diskon</label>
+						<label>Potongan <span class="text-muted">(optional)</span></label>
 						<input type="text" name="harga_diskon" id="harga-diskon" class="form-control valid-number" placeholder="0"/>
+					</div>
+					<div class="form-group row">
+						<label>Keterangan</label>
+						<textarea name="keterangan" class="summernote" id="kt_summernote_1"></textarea>
 					</div>
 				</div>
 					

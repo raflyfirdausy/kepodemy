@@ -70,10 +70,10 @@
 									</div>
                                     <div class="custom-file">
                                         <input accept="image/*" type="file" class="custom-file-input" id="file_gambar_header" name="file_gambar_header">
-                                        <label class="custom-file-label" for="inputGroupFile">Pilih File Gambar Header</label>
+                                        <label class="custom-file-label" for="inputGroupFile">Pilih File Gambar</label>
                                     </div>
                                     <div class="col-12 pr-0 pl-0">
-										<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png, .gif)</span>
+										<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png)</span>
                                     </div>
                                 </div>
                             <!-- </div> -->
@@ -169,7 +169,7 @@
 							<input type="text" class="form-control" name="keterangan" id="keterangan-pokok" placeholder="Masukkan nomor keterangan" value="<?= $data->keterangan ?>" required/>
 						</div>
 						<div class="col-lg-6">
-						<label>Harga Diskon <span class="text-muted">(optional)</span></label>
+						<label>Potongan <span class="text-muted">(optional)</span></label>
 							<input type="text" class="form-control valid-number" name="harga_diskon" id="harga-diskon" value="<?= $data->harga_diskon ?>" placeholder="0"/>
 						</div>
 						<!-- <div class="col-lg-6">
