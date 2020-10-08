@@ -279,7 +279,7 @@
                  <div class="title-section">
                      <div class="left-part">
                          <span>Spesial Untuk Kamu</span>
-                         <h1>kelas Terfavorite</h1>
+                         <h1>kelas Favorite</h1>
                      </div>
                  </div>
 

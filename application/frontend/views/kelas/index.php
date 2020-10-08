@@ -235,9 +235,10 @@
                     <div class="widget course-widget">
                         <p class="price">
                             <span class="price-label">Harga</span>
-                            <span class="amount"><?= $kelas["harga_diskon"] > 0 ? " <del> Rp " . Rupiah3($kelas["harga"]) . "</del> Rp " . Rupiah3($kelas["harga"] - $kelas["harga_diskon"]) : Rupiah3($kelas["harga"])  ?></span>
+                            <span class="amount">Rp <?= $kelas["harga_diskon"] > 0 ? " <del> Rp " . Rupiah3($kelas["harga"]) . "</del> Rp " . Rupiah3($kelas["harga"] - $kelas["harga_diskon"]) : Rupiah3($kelas["harga"])  ?></span>
                         </p>
-                        <a class="button-one" href="#">Ambil Kelas Ini</a>
+                        <a href="#" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</a>
+                        <a href="#" id="btnMasuk" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
                     </div>
                     <div class="widget profile-widget">
                         <div class="top-part">
