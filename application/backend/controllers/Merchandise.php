@@ -117,6 +117,8 @@ class Merchandise extends Admin_Controller
 	public function simpan_data()
 	{
 		$dataInput = $this->input->post();
+		$dataInput['harga'] = str_replace('.', '', substr($dataInput['harga'], 0, -3));
+		$dataInput['harga_diskon'] = str_replace('.', '', substr($dataInput['harga_diskon'], 0, -3));
 		$dataInput['tipe_produk'] = "merchandise";
 		$namamerchandise = str_replace(' ', '_', strtolower($dataInput['nama']));
 		$code = "";
@@ -164,6 +166,8 @@ class Merchandise extends Admin_Controller
 
 		$dataInput  = $this->input->post();
 		$id = $dataInput['id'];
+		$dataInput['harga'] = str_replace('.', '', substr($dataInput['harga'], 0, -3));
+		$dataInput['harga_diskon'] = str_replace('.', '', substr($dataInput['harga_diskon'], 0, -3));
 		$datamerchandise = $this->produk->where(['id' => $id])->get();
 
 		$namamerchandise = str_replace(' ', '_', strtolower($dataInput['nama']));

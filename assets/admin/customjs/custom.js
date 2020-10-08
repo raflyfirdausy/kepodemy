@@ -29,7 +29,7 @@ $('.btn-lihat-password').on("click", function(){
 });
 
 $(document).ready(function(){
-
+	
 	var arrows;
 	arrows = {
 		rightArrow: '<i class="la la-angle-right"></i>',

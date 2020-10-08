@@ -86,11 +86,11 @@
 								</div>
 								<div class="form-group row">
 									<label>Harga <span class="text-danger">*</span></label>
-									<input type="text" name="harga" id="harga-merchandise" class="form-control valid-number" placeholder="0" required/>
+									<input type="text" name="harga" id="harga-merchandise" class="form-control valid-number currency" placeholder="0" required/>
 								</div>
 								<div class="form-group row">
 									<label>Potongan <span class="text-muted">(optional)</span></label>
-									<input type="text" name="harga_diskon" id="harga-diskon" class="form-control valid-number" placeholder="0"/>
+									<input type="text" name="harga_diskon" id="harga-diskon" class="form-control valid-number currency" placeholder="0"/>
 								</div>
 							</div>
 						</div>
@@ -117,6 +117,7 @@
 
 <script src="<?= asset("admin/customjs/master/merchandise/proses-merchandise.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
+<script src="<?= asset("admin/customjs/autoNumeric.js") ?>"></script>
 <script>
 	
 	$("#file_gambar_header").change(function() {

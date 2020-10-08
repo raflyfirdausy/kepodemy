@@ -12,7 +12,8 @@ $(document).ready( function() {
 	// 	alert("cek")
 	// 	$('.datepicker2').datepicker('show');
 	// }) 
-
+	$('.currency').autoNumeric('init');
+	
 	$("#form-add-kelas").on("submit", function(event) {
 		event.preventDefault();
 		var btn = $('.btn-simpan-kelas');

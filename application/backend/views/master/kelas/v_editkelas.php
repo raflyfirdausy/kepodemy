@@ -158,7 +158,7 @@
 						</div>
 						<div class="col-lg-6">
 							<label>Harga <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="0" value="<?= $data->harga ?>" required/>
+							<input type="text" class="form-control valid-number currency" name="harga" id="harga" placeholder="0" value="<?= $data->harga ?>" required/>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -170,7 +170,7 @@
 						</div>
 						<div class="col-lg-6">
 						<label>Potongan <span class="text-muted">(optional)</span></label>
-							<input type="text" class="form-control valid-number" name="harga_diskon" id="harga-diskon" value="<?= $data->harga_diskon ?>" placeholder="0"/>
+							<input type="text" class="form-control valid-number currency" name="harga_diskon" id="harga-diskon" value="<?= $data->harga_diskon ?>" placeholder="0"/>
 						</div>
 						<!-- <div class="col-lg-6">
 							<label>Deskripsi</label>
@@ -211,6 +211,7 @@
 
 <script src="<?= asset("admin/customjs/master/kelas/proses-kelas.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
+<script src="<?= asset("admin/customjs/autoNumeric.js") ?>"></script>
 <script>
 	
 

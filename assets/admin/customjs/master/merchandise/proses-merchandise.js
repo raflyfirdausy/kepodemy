@@ -12,6 +12,7 @@ $(document).ready( function() {
 	// 	alert("cek")
 	// 	$('.datepicker2').datepicker('show');
 	// }) 
+	$('.currency').autoNumeric('init');
 
 	$("#form-add-merchandise").on("submit", function(event) {
 		event.preventDefault();
