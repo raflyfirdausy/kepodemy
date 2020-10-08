@@ -70,10 +70,10 @@
 									</div>
                                     <div class="custom-file">
                                         <input accept="image/*" type="file" class="custom-file-input" id="file_gambar_header" name="file_gambar_header">
-                                        <label class="custom-file-label" for="inputGroupFile">Pilih File Gambar Header</label>
+                                        <label class="custom-file-label" for="inputGroupFile">Pilih File Gambar</label>
                                     </div>
                                     <div class="col-12 pr-0 pl-0">
-										<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png, .gif)</span>
+										<span class="form-text text-muted">Max Size : 5 Mb (.jpg, .jpeg, .png)</span>
                                     </div>
                                 </div>
                             <!-- </div> -->
@@ -116,16 +116,6 @@
 						</div>
 					</div>
 					<div class="form-group row">
-						<div class="col-lg-6">
-							<label>Media Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" required/>
-						</div>
-						<div class="col-lg-6">
-							<label>Link Pembelajaran <span class="text-danger">*</span></label>
-							<input type="text" class="form-control" name="link_pembelajaran" id="link-belajar" placeholder="Link pembelajaran" required/>
-						</div>
-					</div>
-					<div class="form-group row">
 						<div class="col-lg-2">
 							<label>Tanggal Pembelajaran <span class="text-danger">*</span></label>
 							<div class="input-group date">
@@ -161,7 +151,7 @@
 						</div>
 						<div class="col-lg-6">
 							<label>Harga <span class="text-danger">*</span></label>
-							<input type="text" class="form-control valid-number" name="harga" id="harga" placeholder="0" required/>
+							<input type="text" class="form-control valid-number currency" name="harga" id="harga" placeholder="0" required/>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -172,13 +162,24 @@
 							<input type="text" class="form-control" name="keterangan" id="keterangan-pokok" placeholder="Masukkan nomor keterangan" required/>
 						</div>
 						<div class="col-lg-6">
-						<label>Harga Diskon <span class="text-muted">(optional)</span></label>
-							<input type="text" class="form-control valid-number" name="harga_diskon" id="harga-diskon" placeholder="0"/>
+						<label>Potongan <span class="text-muted">(optional)</span></label>
+							<input type="text" class="form-control valid-number currency" name="harga_diskon" id="harga-diskon" placeholder="0"/>
 						</div>
 						<!-- <div class="col-lg-6">
 							<label>Deskripsi</label>
 							<textarea class="form-control" name="deskripsi" id="deskripsi" placeholder="Masukkan deskripsi kelas" rows="2"></textarea>
 						</div> -->
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<label>Media Pembelajaran <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" name="media" id="akses-belajar" placeholder="Ex: ZOOM, Google Meet, dll" required/>
+						</div>
+						<div class="col-lg-6">
+							<label>Link Pembelajaran <span class="text-danger">*</span></label>
+							<!-- <input type="text" class="form-control" name="link_pembelajaran" id="link-belajar" placeholder="Link pembelajaran" required/> -->
+							<textarea class="summernote" id="kt_summernote_2" name="link_pembelajaran"></textarea>
+						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-lg-12">
@@ -203,6 +204,7 @@
 
 <script src="<?= asset("admin/customjs/master/kelas/proses-kelas.js") ?>"></script>
 <script src="<?= asset("admin/customjs/custom.js") ?>"></script>
+<script src="<?= asset("admin/customjs/autoNumeric.js") ?>"></script>
 <script>
 	
 	$("#file_gambar_header").change(function() {

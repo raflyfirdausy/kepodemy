@@ -66,7 +66,7 @@
 							<th style="width: 15%">Nama Kelas</th>
 							<th style="width: 18%">Kategori</th>
 							<th style="width: 13%">Harga</th>
-							<th style="width: 12%">Harga Diskon</th>
+							<th style="width: 12%">Potongan</th>
 							<th style="width: 12%">Pengajar</th>
 							<th style="width: 16%">Waktu Pembelajaran</th>
 							<th class="text-center" style="width: 8%">Action</th>

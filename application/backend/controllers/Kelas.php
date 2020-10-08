@@ -170,6 +170,8 @@ class Kelas extends Admin_Controller
 	public function simpan_data()
 	{
 		$dataInput = $this->input->post();
+		$dataInput['harga'] = str_replace('.', '', substr($dataInput['harga'], 0, -3));
+		$dataInput['harga_diskon'] = str_replace('.', '', substr($dataInput['harga_diskon'], 0, -3));
 		$dataInput['tipe_produk'] = "kelas";
 		$dataInput['tanggal'] = date('Y-m-d', strtotime($dataInput['tanggal']));
 		$namakelas = str_replace(' ', '_', strtolower($dataInput['nama']));
@@ -221,6 +223,8 @@ class Kelas extends Admin_Controller
 	public function update_data()
 	{
 		$dataInput  = $this->input->post();
+		$dataInput['harga'] = str_replace('.', '', substr($dataInput['harga'], 0, -3));
+		$dataInput['harga_diskon'] = str_replace('.', '', substr($dataInput['harga_diskon'], 0, -3));
 		$id = $dataInput['id'];
 		$datakelas = $this->produk->where(['id' => $id])->get();
 

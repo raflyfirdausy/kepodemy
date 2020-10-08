@@ -13,10 +13,10 @@ $(document).ready( function() {
 	// 	$('.datepicker2').datepicker('show');
 	// }) 
 	$('.currency').autoNumeric('init');
-	
-	$("#form-add-kelas").on("submit", function(event) {
+
+	$("#form-add-merchandise").on("submit", function(event) {
 		event.preventDefault();
-		var btn = $('.btn-simpan-kelas');
+		var btn = $('.btn-simpan-merchandise');
 		btn.attr('disabled', true);
 		// $("#form-edit-general-service")
 		Swal.fire({
@@ -29,7 +29,7 @@ $(document).ready( function() {
 				$.ajax({
 					type: "POST", // Method pengiriman data bisa dengan GET atau POST
 					// url: this.action,  // Isi dengan url/path file php yang dituju
-					url: base_url + 'kelas/simpan_data', // Isi dengan url/path file php yang dituju
+					url: base_url + 'merchandise/simpan_data', // Isi dengan url/path file php yang dituju
 					data: new FormData(this),
 					dataType: "JSON",
 					contentType: false,
@@ -40,7 +40,7 @@ $(document).ready( function() {
 						if (data.response_code == 200) {
 							Swal.close();
 							Swal.fire('Done', data.response_message, 'success').then((result) => {
-								window.location.href = base_url + 'kelas';
+								window.location.href = base_url + 'merchandise';
 								btn.attr('disabled', false);
 							})
 						} else {
@@ -59,9 +59,9 @@ $(document).ready( function() {
 		});
 	});
 
-	$("#form-edit-kelas").on("submit", function(event) {
+	$("#form-update-merchandise").on("submit", function(event) {
 		event.preventDefault();
-		var btn = $('.btn-simpan-kelas');
+		var btn = $('.btn-simpan-merchandise');
 		btn.attr('disabled', true);
 		// $("#form-edit-general-service")
 		Swal.fire({
@@ -74,7 +74,7 @@ $(document).ready( function() {
 				$.ajax({
 					type: "POST", // Method pengiriman data bisa dengan GET atau POST
 					// url: this.action,  // Isi dengan url/path file php yang dituju
-					url: base_url + 'kelas/update_data', // Isi dengan url/path file php yang dituju
+					url: base_url + 'merchandise/update_data', // Isi dengan url/path file php yang dituju
 					data: new FormData(this),
 					dataType: "JSON",
 					contentType: false,
@@ -85,7 +85,7 @@ $(document).ready( function() {
 						if (data.response_code == 200) {
 							Swal.close();
 							Swal.fire('Done', data.response_message, 'success').then((result) => {
-								window.location.href = base_url + 'kelas';
+								window.location.href = base_url + 'merchandise';
 								btn.attr('disabled', false);
 							})
 						} else {
