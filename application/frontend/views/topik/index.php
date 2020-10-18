@@ -16,17 +16,18 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
+
                 <div class="courses-top-bar">
                     <div class="courses-view">
-                        <select class="custom-select custom-select-ld ">
-                            <option selected>Urutkan</option>
-                            <option value="1">Terbaru</option>
-                            <option value="2">Populer</option>
-                            <option value="3">Peringkat Tinggi</option>
+                        <select class="custom-select custom-select-ld" id="sortSelect">
+                            <option <?= $this->input->get("sort") == null ? "selected" : "" ?>>Urutkan</option>
+                            <option <?= $this->input->get("sort") == "terbaru" ? "selected" : "" ?> value="terbaru">Terbaru</option>
+                            <option <?= $this->input->get("sort") == "populer" ? "selected" : "" ?> value="populer">Populer</option>
+                            <option <?= $this->input->get("sort") == "tertinggi" ? "selected" : "" ?> value="tertinggi">Peringkat Tinggi</option>
                         </select>
                     </div>
-                    <form class="search-course">
-                        <input type="search" name="search" id="search_course" placeholder="Cari Kursus..." />
+                    <form class="search-course" id="searchKelas">
+                        <input value="<?= $this->input->get("search") ?>" type="search" name="search" id="search_kelas" placeholder="Cari kelas..." />
                         <button type="submit">
                             <i class="material-icons">search</i>
                         </button>
@@ -82,9 +83,45 @@
                     </div>
                 <?php endforeach ?>
 
+                <?php
+                function getUrlHalaman($no = 1)
+                {
+                    $x = current_url() . "?" . $_SERVER['QUERY_STRING'];
+                    $parsed = parse_url($x);
+                    if (isset($parsed['query'])) {
+                        $query = $parsed['query'];
+                    } else {
+                        $query = "page=1";
+                    }
+                    parse_str($query, $params);
+                    unset($params['page']);
+                    $params["page"]    = $no;
+                    $string = current_url() . "?" . http_build_query($params);
+                    return $string;
+                }
+                ?>
 
-                <?= $pagination ?>
-
+                <?php if ($totalPage > 1) : ?>
+                    <center>
+                        <ul class="page-pagination" style="margin-bottom: 40px;">
+                            <?php $currentPage = $this->input->get("page") ?: 1; ?>
+                            <li>
+                                <a href="<?= $currentPage == 1 ? "javascript:void(0)" : getUrlHalaman($currentPage - 1) ?>"><i class="fa fa-angle-left"></i></a>
+                            </li>
+                            <?php
+                            for ($i = 1; $i <= $totalPage; $i++) : ?>
+                                <li>
+                                    <a href="<?= getUrlHalaman($i) ?>" class="<?= $currentPage == $i ? "active" : ""  ?>">
+                                        <?= $i ?>
+                                    </a>
+                                </li>
+                            <?php endfor ?>
+                            <li>
+                                <a href="<?= $currentPage == $totalPage ? "javascript:void(0)" : getUrlHalaman($currentPage + 1) ?>"><i class="fa fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </center>
+                <?php endif ?>
             </div>
 
             <div class="col-lg-4">
@@ -142,3 +179,21 @@
 
     </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+        let currentUrl = document.URL;
+        let url = new URL(currentUrl);
+        $("#sortSelect").change(function(e) {
+            url.searchParams.set("sort", this.value); // setting your param            
+            window.location.replace(url.href);
+        });
+
+        $("#searchKelas").submit(function(e) {
+            e.preventDefault();
+            url.searchParams.set("search", $("#search_kelas").val()); // setting your param
+            url.searchParams.set("page", "1"); // setting your param
+            window.location.replace(url.href);
+        })
+    });
+</script>

@@ -1711,7 +1711,16 @@ section.blog-section ul.page-pagination {
     margin-bottom: 40px;
 }
 
+ul.page-pagination {
+    margin-bottom: 40px;
+}
+
 section.blog-section ul.page-pagination li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+ul.page-pagination li {
     display: inline-block;
     margin-right: 8px;
 }
@@ -1729,8 +1738,27 @@ section.blog-section ul.page-pagination li a {
     border-radius: 50%;
 }
 
+ul.page-pagination li a {
+    color: #464749;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f0f0f1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
 section.blog-section ul.page-pagination li a:hover,
 section.blog-section ul.page-pagination li a.active {
+    color: #fff;
+    background-color: #f9a134;
+}
+
+ul.page-pagination li a:hover,
+ul.page-pagination li a.active {
     color: #fff;
     background-color: #f9a134;
 }

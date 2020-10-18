@@ -1,7 +1,7 @@
    <!-- Header ================================================== -->
    <header class="clearfix">
 
-       <form method="get" action="<?= base_url("topik") ?>" class="search_bar" style="height: 75px; margin-top: 0px;">
+       <form method="get" action="<?= base_url("topik") ?>" class="search_bar" id="searchBar" style="height: 75px; margin-top: 0px;">
            <div class="container">
                <input type="search" name="search" class="search-input" placeholder="Cari Apa Saja" style="padding: 23px 45px 32px 0;">
                <button type="submit" class="submit">

@@ -40,6 +40,7 @@
     <script src="<?= asset("user/js/gmap3.min.js") ?>"></script>
     <script src="<?= asset("user/js/script.js") ?>"></script>
 
+
     <?php if (!$this->session->has_userdata(SESSION)) : ?>
         <script>
             $("#formLogin").submit(function(e) {
