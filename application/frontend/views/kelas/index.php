@@ -91,11 +91,12 @@
                                 </div>
                                 <div class="panel-content">
                                     <div class="panel-content-inner">
-                                        <!-- Link : <a target="_blank" href="https://meet.google.com/pem-xkqd-atf">https://meet.google.com/pem-xkqd-atf</a>
-                                        <br> Bergabung melalui telepon: (US) +1 385-404-5382 PIN: 279 975 318# -->
-
-                                        <?php if ($this->session->has_userdata(SESSION)) : ?>
-                                            <?= $kelas["link_pembelajaran"] ?>
+                                        <?php if ($cekKelas) : ?>
+                                            <?php if ($cekKelas->transaksi->status_bayar == 1) : ?>
+                                                <?= $kelas["link_pembelajaran"] ?>
+                                            <?php else : ?>
+                                                <b style="color:red">Silahkan Membeli kelas ini terlebih dahulu untuk membuka akses kelas ini</b>
+                                            <?php endif ?>
                                         <?php else : ?>
                                             <b style="color:red">Silahkan Membeli kelas ini terlebih dahulu untuk membuka akses kelas ini</b>
                                         <?php endif ?>
@@ -145,7 +146,7 @@
                                             <li>
                                                 <span>4 Stars</span>
                                                 <div class="outer">
-                                                    <span class="inner-fill" style="width: 25s%"></span>
+                                                    <span class="inner-fill" style="width: 25%"></span>
                                                 </div>
                                                 <span>1</span>
                                             </li>
@@ -242,13 +243,23 @@
                             <span class="price-label">Harga</span>
                             <span class="amount">Rp <?= $kelas["harga_diskon"] > 0 ? " <del> Rp " . Rupiah3($kelas["harga"]) . "</del> Rp " . Rupiah3($kelas["harga"] - $kelas["harga_diskon"]) : Rupiah3($kelas["harga"])  ?></span>
                         </p>
-                        <?php if ($isKeranjang) : ?>
-                            <button href="#" onclick="addOrDelete('<?= slug($kelas['nama']) ?>')" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</button>
+                        <?php if ($this->session->has_userdata(SESSION)) : ?>
+                            <?php if ($isKeranjang) : ?>
+                                <a href="<?= base_url("keranjang") ?>" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</a>
+                            <?php else : ?>
+                                <button href="#" onclick="addToCart('<?= $kelas['id'] ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
+                            <?php endif ?>
+                            <a href="#" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
                         <?php else : ?>
-                            <button href="#" onclick="addOrDelete('<?= slug($kelas['nama']) ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
+                            <?php if ($isKeranjang) : ?>
+                                <button href="#" class="register-modal-opener btn btn-info col-md-12" data-toggle="modal" data-target="#exampleModalCenter">Ke Keranjang</button>
+                            <?php else : ?>
+                                <button href="#" class="register-modal-opener btn btn-primary col-md-12" data-toggle="modal" data-target="#exampleModalCenter">Tambah Ke Keranjang</button>
+                            <?php endif ?>
+                            <a href="#" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12" data-toggle="modal" data-target="#exampleModalCenter">Bayar Sekarang</a>
                         <?php endif ?>
 
-                        <a href="#" id="btnMasuk" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
+
                     </div>
                     <div class="widget profile-widget">
                         <div class="top-part">
@@ -274,7 +285,36 @@
 </section>
 
 <script>
-    function addOrDelete(id) {
-        alert(id);
+    function addToCart(id) {
+        Swal.fire({
+            title: 'Loading',
+            text: 'Proses Menambahkan Kelas ke Keranjang',
+            onBeforeOpen: () => {
+                Swal.showLoading();
+                //START AJAX
+                $.ajax({
+                    type: "POST",
+                    url: '<?= base_url("transaksi/addToCart") ?>',
+                    data: {
+                        id: id
+                    },
+                    dataType: "json",
+                    success: function(data) {
+                        if (data.response_code == 200) {
+                            Swal.close();
+                            Swal.fire('Sukses', data.response_message, 'success').then((result) => {
+                                window.location.replace("<?= current_url() ?>");
+                            })
+                        } else {
+                            Swal.close();
+                            Swal.fire("Oops", data.response_message, "error");
+                        }
+                    },
+                    error: function(xhr, ajaxOptions, thrownError) {
+                        Swal.fire("Oops", xhr.responseText, "error");
+                    }
+                });
+            }
+        });
     }
 </script>

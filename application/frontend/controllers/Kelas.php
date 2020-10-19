@@ -10,6 +10,8 @@ class Kelas extends User_Controller
         $this->load->model("Produk_model", "kelas");
         $this->load->model("Produk_kategori_model", "kelas_detail");
         $this->load->model("Keranjang_model", "keranjang");
+        $this->load->model("Transaksidetail_model", "tdetail");
+        $this->load->model("Transaksi_model", "transaksi");
     }
 
     public function index($slug = NULL)
@@ -48,10 +50,19 @@ class Kelas extends User_Controller
                 ])->get() ? TRUE : FALSE;
         }
 
+        //TODO : CEK KELASNYA UDAH DI BELI BELUM
+        $cekKelas = $this->tdetail
+            ->where([
+                "id_produk" => $idKelas
+            ])            
+            ->with_transaksi()
+            ->get();
+            // d($cekKelas->transaksi->status_bayar);
         //TODO : PREPARE DATA
         $data = [
             "kelas"         => $detailKelas,
-            "isKeranjang"   => $keranjang
+            "isKeranjang"   => $keranjang,
+            "cekKelas"      => $cekKelas
         ];
         $this->loadViewUser("kelas/index", $data);
     }

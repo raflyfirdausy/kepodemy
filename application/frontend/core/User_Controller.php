@@ -7,14 +7,21 @@ class User_Controller extends MY_Controller
     public function __construct()
     {
         parent::__construct();
+        $this->load->model("Kategori_model", "kategori");
+        $this->load->model("Keranjang_model", "keranjang");
+
+        $this->global_data["keranjang_"] = [];
         if ($this->session->has_userdata(SESSION)) {
             $this->userData = $this->session->userdata(SESSION);
+
+            $this->global_data["keranjang_"] = $this->keranjang
+                ->where([
+                    "id_pembelajar" => $this->userData->id,
+                    "status"        => 0,
+                ])
+                ->as_array()
+                ->get_all() ?: [];
         }
-
-
-        $this->load->model("Kategori_model", "kategori");
-
-
         //TODO : FIND TOPIK
         $topikRoot = $this->kategori
             ->where(["id_induk" => NULL])
