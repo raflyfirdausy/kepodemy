@@ -13,8 +13,8 @@
        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 75px;">
            <div class="container">
 
-               <a class="navbar-brand" href="index.html">
-                   <img src="<?= asset("user/images/tp.png") ?>" height="50px" alt="">
+               <a class="navbar-brand" href="<?= base_url() ?>">
+                   <img src="<?= asset("static/kepodemy.png") ?>" height="50px" alt="">
                </a>
 
                <a href="#" class="mobile-nav-toggle">
@@ -83,7 +83,7 @@
                        <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
                        <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
                    <?php else : ?>
-                    <a href="<?= base_url("auth/logout") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Keluar</a>
+                       <a href="<?= base_url("auth/logout") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Keluar</a>
                    <?php endif ?>
 
                </div>
@@ -93,7 +93,7 @@
        <div class="mobile-menu">
            <div class="search-form-box">
                <form method="get" action="<?= base_url("topik") ?>" class="search-form">
-                   <input type="search" class="search-field p-2" placeholder="Enter keyword...">
+                   <input name="search" type="search" class="search-field p-2" placeholder="Cari Apa Saja ...">
                    <button type="submit" class="search-submit">
                        <i class="material-icons open-search">search</i>
                        <i class="material-icons close-search">close</i>
@@ -101,77 +101,58 @@
                </form>
            </div>
            <div class="shopping-cart-box">
-               <a class="shop-icon" href="cart.html">
+               <a class="shop-icon" href="#">
                    <i class="material-icons">shopping_cart</i> Cart
                    <span class="studiare-cart-number">0</span>
                </a>
            </div>
            <nav class="mobile-nav">
                <ul class="mobile-menu-list">
-                   <li>
-                       <a href="index.html">Home</a>
-                   </li>
                    <li class="drop-link">
-                       <a href="#">Pages</a>
+                       <a class="" href="<?= base_url() ?>">Beranda</a>
+                   </li>
+
+                   <li class="drop-link">
+                       <a href="#">Topik Kelas</a>
                        <ul class="drop-level">
-                           <li><a href="about.html">About Us</a></li>
-                           <li><a href="pricing.html">Pricing Packages</a></li>
-                           <li><a href="portfolio.html">Portfolio</a></li>
-                           <li><a href="single-project.html">Portfolio Single</a></li>
-                           <li><a href="teachers.html">Teachers</a></li>
-                           <li><a href="single-teacher.html">Teacher Single</a></li>
-                           <li><a href="cart.html">Shopping Cart</a></li>
-                           <li><a href="checkout.html">Checkout</a></li>
-                           <li><a href="single-teacher.html">Teacher Single</a></li>
-                           <li class="drop-link">
-                               <a href="#">Submenu Level 1</a>
-                               <ul class="drop-level">
-                                   <li><a href="#">Submenu Level 2</a></li>
-                                   <li class="drop-link">
-                                       <a href="#">Submenu Level 2</a>
-                                       <ul class="drop-level">
-                                           <li><a href="#">Submenu Level 3</a></li>
-                                           <li><a href="#">Submenu Level 3</a></li>
-                                       </ul>
-                                   </li>
-                                   <li><a href="#">Submenu Level 2</a></li>
-                               </ul>
+                           <li>
+                               <a href="<?= base_url("topik/") ?>">Semua Topik</a>
                            </li>
+                           <?php foreach ($topik as $tp) : ?>
+                               <li class="<?= (sizeof($tp["sub"]) > 0) ? "drop-link" : "" ?>">
+                                   <a href="<?= base_url("topik/" . $tp["slug"]) ?>"><?= $tp["nama"] ?></a>
+                                   <?= getSubKategori2($tp["sub"]) ?>
+                               </li>
+                           <?php endforeach ?>
+
+                           <?php
+                            function getSubKategori2($kategoriArray = [])
+                            {
+                                $string = "";
+                                if (sizeof($kategoriArray) > 0) {
+                                    $string .= '<ul class="drop-level">';
+                                    foreach ($kategoriArray as $dt) {
+                                        $class = sizeof($dt["sub"]) > 0 ? "drop-link" : "";
+                                        $string .= '<li class="' . $class . '">';
+                                        $string .= '<a href="' . base_url("topik/" . $dt["slug"]) . '">' . $dt["nama"] . '</a>';
+                                        $string .= getSubKategori2($dt["sub"]);
+                                    }
+                                    $string .= "</ul>";
+                                }
+                                return $string;
+                            }
+                            ?>
                        </ul>
                    </li>
+
                    <li class="drop-link">
-                       <a href="blog.html">Blog</a>
-                       <ul class="drop-level">
-                           <li class="drop-link">
-                               <a href="blog-list.html">Blog List</a>
-                               <ul class="drop-level">
-                                   <li><a href="blog-list-leftsidebar.html">Blog List - Sidebar Left</a></li>
-                                   <li><a href="blog-list-rightsidebar.html">Blog List - Sidebar Right</a></li>
-                                   <li><a href="blog-list.html">No Sidebar</a></li>
-                               </ul>
-                           </li>
-                           <li class="drop-link">
-                               <a href="blog-grid-3.html">Blog Grid</a>
-                               <ul class="drop-level">
-                                   <li><a href="blog-grid-3.html">3 Column</a></li>
-                                   <li><a href="blog-grid-4.html">4 Column</a></li>
-                                   <li><a href="blog-grid-leftsidebar.html">Sidebar Left</a></li>
-                                   <li><a href="blog-grid-rightsidebar.html">Sidebar Right</a></li>
-                               </ul>
-                           </li>
-                           <li><a href="blog.html">Blog Classic</a></li>
-                           <li><a href="single-post.html">Post Single</a></li>
-                       </ul>
+                       <a class="" href="<?= base_url() ?>">Merchandise</a>
                    </li>
-                   <li>
-                       <a href="courses.html">Courses</a>
+
+                   <li class="drop-link">
+                       <a class="" href="<?= base_url() ?>">Tentang <?= $app_name ?></a>
                    </li>
-                   <li>
-                       <a href="events.html">Events</a>
-                   </li>
-                   <li>
-                       <a href="contact.html">Contact</a>
-                   </li>
+
                </ul>
            </nav>
        </div>

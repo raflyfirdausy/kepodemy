@@ -7,7 +7,7 @@
 
                  <div class="col-lg-4 col-md-6">
                      <div class="footer-widget text-widget">
-                         <a href="index.html" class="footer-logo"><img src="images/tp.png" alt=""></a>
+                         <a href="index.html" class="footer-logo"><img width="300px" src="<?= asset("static/kepodemy.png") ?>" alt=""></a>
                          <p>We named our theme Tambahpintar because to us,<br> the best brands are simple ones. Brands thrive<br> on their ability to be understood.</p>
                          <ul>
                              <li>
@@ -27,7 +27,7 @@
                  </div>
 
                  <div class="col-lg-4 col-md-6">
-                     <div class="footer-widget quick-widget">
+                     <!-- <div class="footer-widget quick-widget">
                          <h2>Quick Links</h2>
                          <ul class="quick-list">
                              <li><a href="contact.html">Contact</a></li>
@@ -38,7 +38,7 @@
                              <li><a href="index.html">Home</a></li>
                              <li><a href="#">Sample Page</a></li>
                          </ul>
-                     </div>
+                     </div> -->
                  </div>
 
                  <div class="col-lg-4 col-md-6">
@@ -60,7 +60,7 @@
      <div class="footer-copyright copyrights-layout-default">
          <div class="container">
              <div class="copyright-inner">
-                 <div class="copyright-cell"> &copy; 2020 <span class="highlight">Tambah Pintar</span>. Created by Innocircle.</div>
+                 <div class="copyright-cell"> &copy; 2020 <span class="highlight"><?= $app_name ?></span>. Created by Innocircle.</div>
                  <div class="copyright-cell">
                      <ul class="studiare-social-links">
                          <li><a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a></li>

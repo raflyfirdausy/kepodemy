@@ -3949,7 +3949,7 @@ section.single-course-section .course-section .panel-content .panel-content-inne
 }
 
 section.single-course-section .course-section .course-panel-heading.active+.panel-content {
-    max-height: 106px;
+    max-height: 1000px;
 }
 
 section.single-course-section .course-reviews {

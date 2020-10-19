@@ -76,9 +76,10 @@
                                             <i class="fa fa-play-circle-o"></i>
                                         </div>
                                         <div class="title">
-                                            <h4>Akses Kelas<span class="badge-item video"><?= $kelas["media"] ?></span>
+                                            <h4>Akses Kelas <span class="badge-item video"><?= $kelas["media"] ?></span>
                                             </h4>
-                                            <p class="subtitle"><?= longdate_indo($kelas["tanggal"], TRUE) ?> </p>
+                                            <p class="subtitle"><?= longdate_indo($kelas["tanggal"], TRUE) . " | Pukul : " . $kelas["jam_mulai"] . " - " . $kelas["jam_selesai"] . " WIB" ?> </p>
+                                            <p class="subtitle"><?= "Pukul : " . $kelas["jam_mulai"] . " - " . $kelas["jam_selesai"] . " WIB" ?> </p>
                                         </div>
                                     </div>
                                     <div class="panel-heading-right">
@@ -93,7 +94,11 @@
                                         <!-- Link : <a target="_blank" href="https://meet.google.com/pem-xkqd-atf">https://meet.google.com/pem-xkqd-atf</a>
                                         <br> Bergabung melalui telepon: (US) +1 385-404-5382 PIN: 279 975 318# -->
 
-                                        <b style="color:red">Silahkan Membeli kelas ini terlebih dahulu untuk membuka akses kelas ini</b>
+                                        <?php if ($this->session->has_userdata(SESSION)) : ?>
+                                            <?= $kelas["link_pembelajaran"] ?>
+                                        <?php else : ?>
+                                            <b style="color:red">Silahkan Membeli kelas ini terlebih dahulu untuk membuka akses kelas ini</b>
+                                        <?php endif ?>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +242,12 @@
                             <span class="price-label">Harga</span>
                             <span class="amount">Rp <?= $kelas["harga_diskon"] > 0 ? " <del> Rp " . Rupiah3($kelas["harga"]) . "</del> Rp " . Rupiah3($kelas["harga"] - $kelas["harga_diskon"]) : Rupiah3($kelas["harga"])  ?></span>
                         </p>
-                        <a href="#" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</a>
+                        <?php if ($isKeranjang) : ?>
+                            <button href="#" onclick="addOrDelete('<?= slug($kelas['nama']) ?>')" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</button>
+                        <?php else : ?>
+                            <button href="#" onclick="addOrDelete('<?= slug($kelas['nama']) ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
+                        <?php endif ?>
+
                         <a href="#" id="btnMasuk" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
                     </div>
                     <div class="widget profile-widget">
@@ -262,3 +272,9 @@
 
     </div>
 </section>
+
+<script>
+    function addOrDelete(id) {
+        alert(id);
+    }
+</script>

@@ -7,10 +7,10 @@ class User_Controller extends MY_Controller
     public function __construct()
     {
         parent::__construct();
-        // if (!$this->session->has_userdata(SESSION)) {
-        //     redirect(base_url("auth/login"));
-        // }        
-        // $this->userData = $this->session->userdata(SESSION);
+        if ($this->session->has_userdata(SESSION)) {
+            $this->userData = $this->session->userdata(SESSION);
+        }
+
 
         $this->load->model("Kategori_model", "kategori");
 
@@ -21,7 +21,7 @@ class User_Controller extends MY_Controller
             ->as_array()
             ->order_by("nama", "ASC")
             ->get_all() ?: [];
-            
+
         $output = "";
         $topikArr = [];
         for ($a = 0; $a < sizeof($topikRoot); $a++) {
@@ -41,7 +41,7 @@ class User_Controller extends MY_Controller
             show_404();
         }
         $local_data["__content"] =  $this->loadView($view, $local_data, TRUE);
-        
+
         $this->loadView("template/main", $local_data);
     }
 

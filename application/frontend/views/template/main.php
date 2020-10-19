@@ -62,7 +62,7 @@
                                     Swal.close();
                                     Swal.fire('Sukses', data.response_message, 'success').then((result) => {
                                         // $("#formLogin")[0].reset();
-                                        window.location.replace("<?= base_url() ?>");
+                                        window.location.replace("<?= current_url() ?>");
                                     })
                                 } else {
                                     Swal.close();

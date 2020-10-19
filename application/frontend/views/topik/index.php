@@ -128,13 +128,13 @@
                 <div class="sidebar">
 
                     <div class="category-widget widget">
-                        <h2>Topik Kursus</h2>
+                        <h2>Topik Kelas</h2>
                         <ul class="category-list">
-                            <li><a href="#">Strategic Management <span class="badge badge-primary badge-pill pull-right">14</span></a></li>
-                            <li><a href="#">Operation Management <span class="badge badge-primary badge-pill pull-right">1</span></a></li>
-                            <li><a href="#">Financial Accounting <span class="badge badge-primary badge-pill pull-right">4</span></a></li>
-                            <li><a href="#">Project Management <span class="badge badge-primary badge-pill pull-right">24</span></a></li>
-                            <li><a href="#">Web Development <span class="badge badge-primary badge-pill pull-right">10</span></a></li>
+                            <li><a href="<?= base_url("topik/") ?>">Semua Topik</a></li>
+                            <?php foreach ($topik_root as $tp) : ?>
+                                <li><a href="<?= base_url("topik/" . $tp["slug"]) ?>"><?= $tp["nama"] ?></a></li>
+                            <?php endforeach ?>
+                            <!-- <li><a href="#">Strategic Management <span class="badge badge-primary badge-pill pull-right">14</span></a></li>                             -->
                         </ul>
                     </div>
 

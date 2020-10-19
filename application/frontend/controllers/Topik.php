@@ -54,7 +54,7 @@ class Topik extends User_Controller
         }
 
         //TODO : FIND KELAS BY SLUG
-        $perPage    = 2;
+        $perPage    = 5;
         $page       = $this->input->get("page");
         if (!empty($idKelasArr)) {
             $data      = $this->kelas
@@ -96,12 +96,19 @@ class Topik extends User_Controller
             $total = [];
         }
 
+        //TODO : FIND ROOT TOPIK AND CALCULATE SUB TOPIK
+        $topikRoot = $this->kategori
+            ->where(["id_induk" => NULL])
+            ->as_array()
+            ->order_by("nama", "ASC")
+            ->get_all() ?: [];                              
 
         $data = [
             "kategori"      => $kategori,
             "kelas"         => $kelas,
-            "totalPage"     => floor(sizeof($total) / $perPage),
-            "pagination"    => ""
+            "totalPage"     => ceil(sizeof($total) / $perPage),
+            "pagination"    => "",
+            "topik_root"    => $topikRoot
         ];
 
         $this->loadViewUser("topik/index", $data);

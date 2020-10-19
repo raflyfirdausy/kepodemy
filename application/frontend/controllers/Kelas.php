@@ -9,6 +9,7 @@ class Kelas extends User_Controller
         $this->load->model("Kategori_model", "kategori");
         $this->load->model("Produk_model", "kelas");
         $this->load->model("Produk_kategori_model", "kelas_detail");
+        $this->load->model("Keranjang_model", "keranjang");
     }
 
     public function index($slug = NULL)
@@ -36,12 +37,21 @@ class Kelas extends User_Controller
                 ]
             ])
             ->get($idKelas);
-        // d($detailKelas);
+
+        //TODO : GET SUDAH MASUK KERANJANG BELUM
+        $keranjang = FALSE;
+        if ($this->session->has_userdata(SESSION)) {
+            $keranjang = $this->keranjang
+                ->where([
+                    "id_pembelajar" => $this->userData->id,
+                    "id_produk"     => $idKelas,
+                ])->get() ? TRUE : FALSE;
+        }
 
         //TODO : PREPARE DATA
         $data = [
-            "kelas"     => $detailKelas,
-
+            "kelas"         => $detailKelas,
+            "isKeranjang"   => $keranjang
         ];
         $this->loadViewUser("kelas/index", $data);
     }
