@@ -244,12 +244,16 @@
                             <span class="amount">Rp <?= $kelas["harga_diskon"] > 0 ? " <del> Rp " . Rupiah3($kelas["harga"]) . "</del> Rp " . Rupiah3($kelas["harga"] - $kelas["harga_diskon"]) : Rupiah3($kelas["harga"])  ?></span>
                         </p>
                         <?php if ($this->session->has_userdata(SESSION)) : ?>
-                            <?php if ($isKeranjang) : ?>
-                                <a href="<?= base_url("keranjang") ?>" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</a>
+                            <?php if ($cekKelas && $cekKelas->transaksi->status_bayar == 1) : ?>
+                                <a href="javascript:void(0)" class="btn btn-dark col-md-12">Kelas Sudah dimiliki</a>
                             <?php else : ?>
-                                <button href="#" onclick="addToCart('<?= $kelas['id'] ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
+                                <?php if ($isKeranjang) : ?>
+                                    <a href="<?= base_url("keranjang") ?>" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</a>
+                                <?php else : ?>
+                                    <button href="#" onclick="addToCart('<?= $kelas['id'] ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
+                                <?php endif ?>
+                                <a href="#" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
                             <?php endif ?>
-                            <a href="#" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
                         <?php else : ?>
                             <?php if ($isKeranjang) : ?>
                                 <button href="#" class="register-modal-opener btn btn-info col-md-12" data-toggle="modal" data-target="#exampleModalCenter">Ke Keranjang</button>

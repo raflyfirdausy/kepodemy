@@ -7,16 +7,19 @@ class Auth extends User_Controller
     {
         parent::__construct();
         $this->load->model("Admin_model", "admin");
-        $this->load->model("Pembelajar_model", "murid");
+        $this->load->model("Pembelajar_model", "murid");        
     }
 
     public function index()
     {
-        redirect(base_url("auth/login"));
+        redirect(base_url("auth/register"));
     }
 
     public function register()
     {
+        if ($this->session->has_userdata(SESSION)) {
+            redirect(base_url());
+        }
         $this->loadViewUser("auth/register");
     }
 

@@ -80,7 +80,6 @@
                                <?= sizeof($keranjang_) ?>
                            </span>
                        <?php endif ?>
-
                    </a>
                    <?php if (!$this->session->has_userdata(SESSION)) : ?>
                        <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
