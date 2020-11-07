@@ -60,9 +60,9 @@
                            </ul>
                        </li>
 
-                       <li class="drop-link">
+                       <!-- <li class="drop-link">
                            <a class="" href="<?= base_url() ?>">Merchandise</a>
-                       </li>
+                       </li> -->
 
                        <li class="drop-link">
                            <a class="" href="<?= base_url() ?>">Tentang <?= $app_name ?></a>
@@ -73,14 +73,16 @@
                        <i class="material-icons open-search">search</i>
                        <i class="material-icons close-search" style="display: none;">close</i>
                    </button>
-                   <a href="<?= base_url("keranjang") ?>" class="btn btn-sm mr-2">
-                       <i class="material-icons">shopping_cart</i>
-                       <?php if (sizeof($keranjang_) > 0) : ?>
-                           <span style="vertical-align: top;color:#fff;padding:3px;background-color: #4783f3;line-height: 15px;font-size: 11px;border-radius: 3px;margin-top: -20px;margin-left: 0px;text-align: center;">
-                               <?= sizeof($keranjang_) ?>
-                           </span>
-                       <?php endif ?>
-                   </a>
+                   <?php if ($this->session->has_userdata(SESSION)) : ?>
+                       <a href="<?= base_url("keranjang") ?>" class="btn btn-sm mr-2">
+                           <i class="material-icons">shopping_cart</i>
+                           <?php if (sizeof($keranjang_) > 0) : ?>
+                               <span style="vertical-align: top;color:#fff;padding:3px;background-color: #4783f3;line-height: 15px;font-size: 11px;border-radius: 3px;margin-top: -20px;margin-left: 0px;text-align: center;">
+                                   <?= sizeof($keranjang_) ?>
+                               </span>
+                           <?php endif ?>
+                       </a>
+                   <?php endif ?>
                    <?php if (!$this->session->has_userdata(SESSION)) : ?>
                        <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
                        <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
@@ -102,15 +104,23 @@
                    </button>
                </form>
            </div>
-           <div class="shopping-cart-box">
-               <a class="shop-icon" href="<?= base_url("keranjang") ?>">
-                   <i class="material-icons">shopping_cart</i> Cart
-                   <?php if (sizeof($keranjang_) > 0) : ?>
-                       <span class="studiare-cart-number"><?= sizeof($keranjang_) ?></span>
-                   <?php endif ?>
-               </a>
-           </div>
+           <?php if ($this->session->has_userdata(SESSION)) : ?>
+               <div class="shopping-cart-box">
+                   <a class="shop-icon" href="<?= base_url("keranjang") ?>">
+                       <i class="material-icons">shopping_cart</i> Cart
+                       <?php if (sizeof($keranjang_) > 0) : ?>
+                           <span class="studiare-cart-number"><?= sizeof($keranjang_) ?></span>
+                       <?php endif ?>
+                   </a>
+               </div>
+           <?php endif ?>
            <nav class="mobile-nav">
+               <?php if (!$this->session->has_userdata(SESSION)) : ?>
+                   <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
+                   <a href="<?= base_url("auth/register") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Daftar</a>
+               <?php else : ?>
+                   <a href="<?= base_url("auth/logout") ?>" class="register-modal-opener btn btn-primary pr-3 pl-3">Keluar</a>
+               <?php endif ?>
                <ul class="mobile-menu-list">
                    <li class="drop-link">
                        <a class="" href="<?= base_url() ?>">Beranda</a>
@@ -149,9 +159,9 @@
                        </ul>
                    </li>
 
-                   <li class="drop-link">
+                   <!-- <li class="drop-link">
                        <a class="" href="<?= base_url() ?>">Merchandise</a>
-                   </li>
+                   </li> -->
 
                    <li class="drop-link">
                        <a class="" href="<?= base_url() ?>">Tentang <?= $app_name ?></a>

@@ -244,15 +244,28 @@
                             <span class="amount">Rp <?= $kelas["harga_diskon"] > 0 ? " <del> Rp " . Rupiah3($kelas["harga"]) . "</del> Rp " . Rupiah3($kelas["harga"] - $kelas["harga_diskon"]) : Rupiah3($kelas["harga"])  ?></span>
                         </p>
                         <?php if ($this->session->has_userdata(SESSION)) : ?>
-                            <?php if ($cekKelas && $cekKelas->transaksi->status_bayar == 1) : ?>
-                                <a href="javascript:void(0)" class="btn btn-dark col-md-12">Kelas Sudah dimiliki</a>
+                            <?php if ($cekKelas) : ?>
+                                <?php if ($cekKelas->transaksi->status_bayar == 1) : ?>
+                                    <a href="javascript:void(0)" class="btn btn-dark col-md-12">Kelas Sudah dimiliki</a>
+                                    <?php else :
+                                    if ($cekKelas->transaksi->status_bayar == 2) : ?>
+                                        <a href="javascript:void(0)" class="btn btn-info col-md-12">Menunggu Konfirmasi Pembayaran dari Admin <?= $cekKelas->transaksi->status_bayar ?></a>
+                                    <?php else : ?>
+                                        <?php if ($isKeranjang) : ?>
+                                            <a href="<?= base_url("keranjang") ?>" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</a>
+                                        <?php else : ?>
+                                            <button href="#" onclick="addToCart('<?= $kelas['id'] ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
+                                        <?php endif ?>
+                                        <a href="<?= base_url("kelas/bayar/" . $kelas['id']) ?>" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
+                                    <?php endif ?>
+                                <?php endif ?>
                             <?php else : ?>
                                 <?php if ($isKeranjang) : ?>
                                     <a href="<?= base_url("keranjang") ?>" class="register-modal-opener btn btn-info col-md-12">Ke Keranjang</a>
                                 <?php else : ?>
                                     <button href="#" onclick="addToCart('<?= $kelas['id'] ?>')" class="register-modal-opener btn btn-primary col-md-12">Tambah Ke Keranjang</button>
                                 <?php endif ?>
-                                <a href="#" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
+                                <a href="<?= base_url("kelas/bayar/" . $kelas['id']) ?>" class="register-modal-opener mt-2  btn btn-outline-primary col-md-12">Bayar Sekarang</a>
                             <?php endif ?>
                         <?php else : ?>
                             <?php if ($isKeranjang) : ?>

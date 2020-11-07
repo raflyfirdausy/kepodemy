@@ -12,23 +12,22 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-
                 <?php if ($this->session->flashdata("gagal")) : ?>
                     <div class="alert alert-danger alert-dismissible">
                         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                        <strong>Success!</strong> <?= $this->session->flashdata("sukses") ?>.
+                        <?= $this->session->flashdata("gagal") ?>.
                     </div>
                 <?php endif; ?>
 
                 <?php if ($this->session->flashdata("sukses")) : ?>
                     <div class="alert alert-success alert-dismissible">
                         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                        <strong>Success!</strong> <?= $this->session->flashdata("sukses") ?>.
+                        <?= $this->session->flashdata("sukses") ?>.
                     </div>
                 <?php endif; ?>
 
                 <div class="cart-box">
-                    <table class=" table-responsive">
+                    <table class="table-responsive">
                         <thead>
                             <tr>
                                 <th class="product-remove" style="width: 5%;">&nbsp;</th>
@@ -102,7 +101,7 @@
                             <div class="">
                                 <label for="">Catatan</label>
                                 <textarea class="form-control mb-2" name="catatan" rows="2"></textarea>
-                            </div>                            
+                            </div>
                             <button id="btnsubmit" class="btn btn-primary text-center" href="#" style="width: 100%;">Bayar</button>
                         </form>
                     </div>

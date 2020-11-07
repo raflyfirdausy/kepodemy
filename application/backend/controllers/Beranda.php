@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Beranda extends User_Controller
+class Beranda extends Admin_Controller
 {
     public function __construct()
     {        

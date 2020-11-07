@@ -74,7 +74,7 @@
                                         <!-- <span>64</span> -->
                                     </div>
                                     <div class="course-price mr-3">
-                                        <span>Rp <?= $k["harga_diskon"] > 0 ? "<del>" . Rupiah3($k["harga"]) . "</del>" . Rupiah3($k["harga"] - $k["harga_diskon"]) : Rupiah3($k["harga"])  ?></span>
+                                        <span>Rp <?= $k["harga_diskon"] > 0 ? "<del>" . Rupiah3($k["harga"]) . "</del> " . Rupiah3($k["harga"] - $k["harga_diskon"]) : Rupiah3($k["harga"])  ?></span>
                                     </div>
                                 </div>
                             </div>

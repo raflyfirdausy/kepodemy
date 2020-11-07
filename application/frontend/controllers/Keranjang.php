@@ -107,7 +107,7 @@ class Keranjang extends User_Controller
                             redirect(base_url("keranjang"));
                         }
                     }
-                    echo "MANTAP";
+                    redirect(base_url("transaksi/detail/" . $kodeTransaksi));
                 } else {
                     $this->session->set_flashdata("gagal", "Terjadi kesalahan saat melakukan transaksi (Kode : RFL-002)");
                     redirect(base_url("keranjang"));
@@ -120,5 +120,5 @@ class Keranjang extends User_Controller
             $this->session->set_flashdata("gagal", "Gagal melakukan transaksi, item tidak ditemukan");
             redirect(base_url("keranjang"));
         }
-    }
+    }    
 }
