@@ -93,7 +93,7 @@
                                         <td>
                                             <code class="ml-1">
                                                 <?php if ($data["bukti_bayar"] != NULL) : ?>
-                                                    <a href="<?= asset("bukti/") ?>" target="_blank" rel="noopener noreferrer">
+                                                    <a href="<?= asset("bukti/" . $data["bukti_bayar"]) ?>" target="_blank" rel="noopener noreferrer">
                                                         Lihat Bukti Pembayaran
                                                     </a>
                                                 <?php else : ?>
@@ -130,10 +130,10 @@
                                     <span class="card-text">
                                         Upload Bukti Pembayaran
                                     </span>
-                                    <form action="http://www.bakaranproject.com/daftar_event/upload_bukti" method="post" enctype="multipart/form-data">
+                                    <form action="<?= base_url("transaksi/upload") ?>" method="post" enctype="multipart/form-data">
                                         <div class="form-control">
                                             <input required accept="image/png, image/jpeg, image/jpg" type="file" class="form-input" name="bukti_pembayaran" />
-                                            <input type="hidden" name="kode" value="<?= $data["kode_transaksi"] ?>">
+                                            <input type="hidden" name="kode_transaksi" value="<?= $data["kode_transaksi"] ?>">
                                         </div>
                                         <div class="form-group">
                                             <small><code>Type : .jpeg .jpg .png | Max Size : 3 MB </code></small>

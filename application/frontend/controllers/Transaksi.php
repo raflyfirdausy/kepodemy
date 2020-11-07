@@ -90,9 +90,65 @@ class Transaksi extends User_Controller
         $this->loadViewUser("transaksi/info_bayar", $data);
     }
 
+    public function config($lokasiArsip, $namafilebaru)
+    {
+        $config  = [
+            "upload_path"       => $lokasiArsip,
+            "allowed_types"     => 'gif|jpg|jpeg|png',
+            "max_size"          => 10240,
+            "file_ext_tolower"  => FALSE,
+            "overwrite"         => TRUE,
+            "remove_spaces"     => TRUE,
+            "file_name"         => $namafilebaru
+        ];
+
+        return $config;
+    }
+
     public function upload()
     {
         $kodeTransaksi = $this->input->post("kode_transaksi", TRUE);
-        
+
+        $cek = $this->transaksi
+            ->as_array()
+            ->where([
+                "id_pembelajar"     => $this->userData->id,
+                "kode_transaksi"    => $kodeTransaksi
+            ])
+            ->get();
+
+        if ($cek) {
+            $namafilebaru =  "bukti_" . $$kodeTransaksi . "_" . time() . "." . pathinfo($_FILES["bukti_pembayaran"]["name"], PATHINFO_EXTENSION);
+            $lokasiArsip = "assets/bukti/";
+            $config = $this->config($lokasiArsip, $namafilebaru);
+            $this->load->library('upload', $config);
+            $this->upload->initialize($config);
+            if ($_FILES["bukti_pembayaran"]["name"] != '') {
+                if ($this->upload->do_upload("bukti_pembayaran")) {
+                    $update = $this->transaksi->where(["id" => $cek["id"]])->update(["bukti_bayar" => $namafilebaru]);
+                    if ($update) {
+                        $this->session->set_flashdata("sukses", "Bukti pembayaran berhasil di upload");
+                        // redirect(base_url("keranjang"));
+                        redirect($_SERVER['HTTP_REFERER']);
+                    } else {
+                        $this->session->set_flashdata("gagal", "Terjadi kesalahan saat upload bukti pembayaran");
+                        // redirect(base_url("keranjang"));
+                        redirect(redirect($_SERVER['HTTP_REFERER']));
+                    }
+                } else {
+                    $this->session->set_flashdata("gagal", $this->upload->display_errors("", ""));
+                    // redirect(base_url("keranjang"));
+                    redirect(redirect($_SERVER['HTTP_REFERER']));
+                }
+            } else {
+                $this->session->set_flashdata("gagal", "Gambar tidak ditemukan");
+                // redirect(base_url("keranjang"));
+                redirect(redirect($_SERVER['HTTP_REFERER']));
+            }
+        } else {
+            $this->session->set_flashdata("gagal", "Transaksi tidak ditemukan");
+            // redirect(base_url("keranjang"));
+            redirect(redirect($_SERVER['HTTP_REFERER']));
+        }
     }
 }
