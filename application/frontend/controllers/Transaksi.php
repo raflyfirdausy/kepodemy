@@ -15,6 +15,11 @@ class Transaksi extends User_Controller
         $this->load->model("Transaksidetail_model", "detail");
     }
 
+    public function index()
+    {
+        redirect(base_url("transaksi/saya"));
+    }
+
     public function addToCart()
     {
         $id = $this->input->post("id", TRUE);
@@ -150,5 +155,27 @@ class Transaksi extends User_Controller
             // redirect(base_url("keranjang"));
             redirect(redirect($_SERVER['HTTP_REFERER']));
         }
+    }
+
+    public function saya()
+    {
+        $transaksi = $this->transaksi
+            ->as_array()
+            ->where([
+                "id_pembelajar" => $this->userData->id,
+            ])
+            ->with_transaksidetail([
+                "with"      => [
+                    "relation"  => "produk",
+                    "fields"    => "nama,slug,keterangan,gambar"
+                ]
+            ])
+            ->get_all() ?: [];
+
+        // d($transaksi);
+        $data = [
+            "transaksi" => $transaksi
+        ];
+        $this->loadViewUser("transaksi/saya", $data);
     }
 }

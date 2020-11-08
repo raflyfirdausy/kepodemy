@@ -19,6 +19,10 @@
     <link rel="stylesheet" type="text/css" href="<?= asset("user/css/style.css") ?>">
     <script src="<?= asset("user/js/studiare-plugins.min.js") ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
 </head>
 
 <body>

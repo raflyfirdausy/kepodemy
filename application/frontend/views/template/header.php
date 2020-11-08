@@ -82,6 +82,14 @@
                                </span>
                            <?php endif ?>
                        </a>
+                       <a href="<?= base_url("transaksi") ?>" class="btn btn-sm mr-2">
+                           <i class="material-icons">assignment</i>
+                           <?php if (sizeof($keranjang_) > 0) : ?>
+                               <span style="vertical-align: top;color:#fff;padding:3px;background-color: #4783f3;line-height: 15px;font-size: 11px;border-radius: 3px;margin-top: -20px;margin-left: 0px;text-align: center;">
+                                   <?= sizeof($keranjang_) ?>
+                               </span>
+                           <?php endif ?>
+                       </a>
                    <?php endif ?>
                    <?php if (!$this->session->has_userdata(SESSION)) : ?>
                        <a href="#" id="btnMasuk" class="register-modal-opener btn btn-outline-primary mr-2 pr-3 pl-3" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
