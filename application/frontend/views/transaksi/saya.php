@@ -14,7 +14,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        Daftar
+                        Daftar Pembelian Saya
                     </div>
                     <div class="card-body table-responsive">
                         <table id="mytable" class="table table-striped table-bordered display responsive" width="100%">
@@ -46,13 +46,13 @@
                                         <td>
                                             <?php
                                             if ($tr["status_bayar"] == 1) {
-                                                echo '<h5 style="font-size: 100%;" class="badge badge-success">Sukses</h5>';
+                                                echo '<h5 style="font-size: 90%;" class="badge badge-success">Selesai</h5>';
                                             } else if ($tr["status_bayar"] == 2) {
-                                                echo '<h5 style="font-size: 100%;" class="badge badge-info">Menunggu Admin</h5>';
+                                                echo '<h5 style="font-size: 90%;" class="badge badge-info">Menunggu Admin</h5>';
                                             } else if ($tr["status_bayar"] == 3) {
-                                                echo '<h5 style="font-size: 100%;" class="badge badge-danger">Di Tolak</h5>';
+                                                echo '<h5 style="font-size: 90%;" class="badge badge-danger">Di Tolak</h5>';
                                             } else {
-                                                echo '<h5 style="font-size: 100%;" class="badge badge-dark">Tidak diketahui</h5>';
+                                                echo '<h5 style="font-size: 90%;" class="badge badge-dark">Tidak diketahui</h5>';
                                             }
                                             ?>
                                         </td>
