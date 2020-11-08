@@ -170,6 +170,7 @@ class Transaksi extends User_Controller
                     "fields"    => "nama,slug,keterangan,gambar"
                 ]
             ])
+            ->order_by("id", "DESC")
             ->get_all() ?: [];
 
         // d($transaksi);
