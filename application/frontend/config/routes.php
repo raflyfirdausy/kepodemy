@@ -55,4 +55,5 @@ $route['translate_uri_dashes']  = TRUE;
 
 $route['topik/(:any)']['get']               = "topik/index/$1";
 $route['kelas/(:any)']['get']               = "kelas/index/$1";
+$route['pengajar/(:any)']['get']            = "pengajar/detail/$1";
 

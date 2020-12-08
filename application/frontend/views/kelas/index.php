@@ -37,12 +37,13 @@
                                 <div class="info">
                                     <span class="label">Kategori</span>
                                     <div class="value">
-                                        <?php foreach ($kelas["produk_kategori"] as $pk) : ?>
-                                            <a href="<?= base_url("topik/" . $pk->kategori->slug) ?>">
-                                                <?= $pk->kategori->nama ?>,
-                                            </a>
-                                        <?php endforeach ?>
-
+                                        <?php if ($kelas["produk_kategori"]) : ?>
+                                            <?php foreach ($kelas["produk_kategori"] as $pk) : ?>
+                                                <a href="<?= base_url("topik/" . $pk->kategori->slug) ?>">
+                                                    <?= $pk->kategori->nama ?>,
+                                                </a>
+                                            <?php endforeach ?>
+                                        <?php endif ?>
                                     </div>
                                 </div>
                             </div>

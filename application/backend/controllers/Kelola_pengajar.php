@@ -628,7 +628,7 @@ class Kelola_pengajar extends Admin_Controller
 			'listKategori'	=> $listKategori,
 			'pengajar_kategori' => $pengajar_kategori
 		];
-
+		
 		$this->loadViewAdmin("master/pengajar/v_keloladetailpengajar", $data);
 	}
 

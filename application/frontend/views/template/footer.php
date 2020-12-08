@@ -8,7 +8,7 @@
                  <div class="col-lg-4 col-md-6">
                      <div class="footer-widget text-widget">
                          <a href="index.html" class="footer-logo"><img width="300px" src="<?= asset("static/kepodemy.png") ?>" alt=""></a>
-                         <p>We named our theme Tambahpintar because to us,<br> the best brands are simple ones. Brands thrive<br> on their ability to be understood.</p>
+                         <p>We named our theme Kepodemy because to us,<br> the best brands are simple ones. Brands thrive<br> on their ability to be understood.</p>
                          <ul>
                              <li>
                                  <div class="contact-info-icon">

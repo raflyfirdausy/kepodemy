@@ -60,9 +60,9 @@
                            </ul>
                        </li>
 
-                       <!-- <li class="drop-link">
-                           <a class="" href="<?= base_url() ?>">Merchandise</a>
-                       </li> -->
+                       <li class="drop-link">
+                           <a class="" href="<?= base_url("pengajar") ?>">Pengajar</a>
+                       </li>
 
                        <li class="drop-link">
                            <a class="" href="<?= base_url() ?>">Tentang <?= $app_name ?></a>
@@ -167,9 +167,9 @@
                        </ul>
                    </li>
 
-                   <!-- <li class="drop-link">
-                       <a class="" href="<?= base_url() ?>">Merchandise</a>
-                   </li> -->
+                   <li class="drop-link">
+                       <a class="" href="<?= base_url("pengajar") ?>">Pengajar</a>
+                   </li>
 
                    <li class="drop-link">
                        <a class="" href="<?= base_url() ?>">Tentang <?= $app_name ?></a>

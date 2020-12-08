@@ -25,6 +25,7 @@ class User_Controller extends MY_Controller
         //TODO : FIND TOPIK
         $topikRoot = $this->kategori
             ->where(["id_induk" => NULL])
+            ->where("id_induk", "=" , "0", TRUE)
             ->as_array()
             ->order_by("nama", "ASC")
             ->get_all() ?: [];

@@ -27,7 +27,10 @@ class Kategori_model extends Custom_model
 	
 	public function get_induk()
 	{
-		$qry = $this->where(['id_induk' => ''])->order_by("created_at", "DESC")->get_all() ? : [];
+		$qry = $this->where(['id_induk' => NULL])
+		->where("id_induk", "=", "0", TRUE)
+		->order_by("created_at", "DESC")
+		->get_all() ? : [];
 		return $qry ;
 	}
 
