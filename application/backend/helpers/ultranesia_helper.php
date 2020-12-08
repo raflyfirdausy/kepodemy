@@ -281,3 +281,48 @@ if (!function_exists('SHDK')) {
         );
     }
 }
+
+
+if (!function_exists('Level')) {
+    function Level()
+    {
+        return array(
+            [
+                "id_level" => 1,
+                "level" =>"Super Admin"
+            ],
+            [
+                "id_level" => 2,
+                "level" =>"Admin"
+            ],
+		);
+    }
+}
+
+if (!function_exists('Gender')) {
+    function Gender()
+    {
+        return array(
+            [
+                "id_jk" => 1,
+                "jk" =>"Laki-laki"
+            ],
+            [
+                "id_jk" => 2,
+                "jk" =>"Perempuan"
+            ],
+		);
+    }
+}
+
+if (!function_exists('jenis_pembelajaran')) {
+    function jenis_pembelajaran()
+    {
+        return array(
+            ("video conference"),
+            ("video"),
+            ("e book"),            
+            ("materi presentasi"),       
+        );
+    }
+}

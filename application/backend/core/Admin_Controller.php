@@ -7,10 +7,10 @@ class Admin_Controller extends MY_Controller
     public function __construct()
     {
         parent::__construct();
-        // if (!$this->session->has_userdata(SESSION)) {
-        //     redirect(base_url("auth/login"));
-        // }        
-        // $this->userData = $this->session->userdata(SESSION);
+        if (!$this->session->has_userdata(SESSION)) {
+            redirect(base_url("auth/login"));
+        }        
+        $this->userData = $this->session->userdata(SESSION);
     }
 
     protected function coba()

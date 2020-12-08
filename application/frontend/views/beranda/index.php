@@ -1,1069 +1,542 @@
-<!--begin::Content-->
-<div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
-    <!--begin::Subheader-->
-    <div class="subheader py-2 py-lg-6  subheader-solid " id="kt_subheader">
-        <div class=" container-fluid  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
-            <!--begin::Info-->
-            <div class="d-flex align-items-center flex-wrap mr-1">
+ <!-- home-section -->
+ <section id="home-section">
+     <div id="rev_slider_202_1_wrapper" class="rev_slider_wrapper" data-alias="concept1" style="background-color:#000000;padding:0px;">
+         <!-- START REVOLUTION SLIDER 5.1.1RC fullscreen mode -->
+         <div id="rev_slider_202_1" class="rev_slider" data-version="5.1.1RC">
+             <ul>
+                 <!-- SLIDE  -->
+                 <?php $index = 0;
+                    foreach ($slider as $s) : ?>
 
-                <!--begin::Page Heading-->
-                <div class="d-flex align-items-baseline flex-wrap mr-5">
-                    <!--begin::Page Title-->
-                    <h5 class="text-dark font-weight-bold my-1 mr-5">
-                        Base Controls <?= $rafly ?> </h5>
-                    <!--end::Page Title-->
+                     <li data-index="rs-<?= $index ?>" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="<?= asset("slider/" . $s->foto) ?>" data-rotate="0" data-saveperformance="off" data-title="unique" data-description="">
+                         <!-- MAIN IMAGE -->
+                         <img src="<?= asset("slider/" . $s->foto) ?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                         <!-- LAYERS -->
 
-                    <!--begin::Breadcrumb-->
-                    <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Crud </a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Forms & Controls </a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Form Controls </a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="" class="text-muted">
-                                Base Inputs </a>
-                        </li>
-                    </ul>
-                    <!--end::Breadcrumb-->
-                </div>
-                <!--end::Page Heading-->
-            </div>
-            <!--end::Info-->
+                         <!-- LAYER NR. 1 -->
+                         <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-672-layer-1" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['130','130','130','130']" data-width="['530','530','430','420']" data-height="330" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:left;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="500" data-responsive_offset="on" style="z-index: 5;background-color:rgba(255, 255, 255, 1.00);border-color:rgba(0, 0, 0, 0);">
+                         </div>
 
-            <!--begin::Toolbar-->
-            <div class="d-flex align-items-center">
-                <!--begin::Actions-->
-                <a href="#" class="btn btn-light-primary font-weight-bolder btn-sm">
-                    Actions
-                </a>
-                <!--end::Actions-->
+                         <!-- LAYER NR. 2 -->
+                         <div class="tp-caption Woo-TitleLarge tp-resizeme" id="slide-672-layer-2" data-x="['left','left','left','left']" data-hoffset="['40','40','40','35']" data-y="['top','top','top','top']" data-voffset="['170','170','170','170']" data-width="450" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:left;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; min-width: 370px; max-width: 450px; white-space: normal;text-align:left;">
+                             <?= $s->judul ?>
+                         </div>
 
-                <!--begin::Dropdown-->
-                <div class="dropdown dropdown-inline" data-toggle="tooltip" title="Quick actions" data-placement="left">
-                    <a href="#" class="btn btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="svg-icon svg-icon-success svg-icon-2x">
-                            <!--begin::Svg Icon | path:assets/media/svg/icons/Files/File-plus.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <polygon points="0 0 24 0 24 24 0 24" />
-                                    <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-                                    <path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
-                                </g>
-                            </svg>
-                            <!--end::Svg Icon--></span> </a>
-                    <div class="dropdown-menu dropdown-menu-md dropdown-menu-right p-0 m-0">
-                        <!--begin::Navigation-->
-                        <ul class="navi navi-hover">
-                            <li class="navi-header font-weight-bold py-4">
-                                <span class="font-size-lg">Choose Label:</span>
-                                <i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-                            </li>
-                            <li class="navi-separator mb-3 opacity-70"></li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-success">Customer</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-danger">Partner</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-warning">Suplier</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-primary">Member</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-item">
-                                <a href="#" class="navi-link">
-                                    <span class="navi-text">
-                                        <span class="label label-xl label-inline label-light-dark">Staff</span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navi-separator mt-3 opacity-70"></li>
-                            <li class="navi-footer py-4">
-                                <a class="btn btn-clean font-weight-bold btn-sm" href="#">
-                                    <i class="ki ki-plus icon-sm"></i>
-                                    Add new
-                                </a>
-                            </li>
-                        </ul>
-                        <!--end::Navigation-->
-                    </div>
-                </div>
-                <!--end::Dropdown-->
-            </div>
-            <!--end::Toolbar-->
-        </div>
-    </div>
-    <!--end::Subheader-->
+                         <!-- LAYER NR. 3 -->
+                         <div class="tp-caption tp-shape tp-shapewrapper tp-line-shape tp-resizeme" id="slide-672-layer-3" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['165','165','165','165']" data-width="['3','3','3','3']" data-height="100" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:left;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="700" data-responsive_offset="on" style="z-index: 6;">
+                         </div>
 
-    <!--begin::Entry-->
-    <div class="d-flex flex-column-fluid">
-        <!--begin::Container-->
-        <div class=" container ">
-            <div class="row">
-                <div class="col-md-6">
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Base Controls
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form>
-                            <div class="card-body">
-                                <div class="form-group mb-8">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            The example form below demonstrates common HTML form elements that receive updated styles from Bootstrap with additional classes.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Email address <span class="text-danger">*</span></label>
-                                    <input type="email" class="form-control" placeholder="Enter email" />
-                                    <span class="form-text text-muted">We'll never share your email with anyone else.</span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Password <span class="text-danger">*</span></label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Static:</label>
-                                    <p class="form-control-plaintext text-muted">email@example.com</p>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelect1">Example select <span class="text-danger">*</span></label>
-                                    <select class="form-control" id="exampleSelect1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelect2">Example multiple select <span class="text-danger">*</span></label>
-                                    <select multiple="" class="form-control" id="exampleSelect2">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group mb-1">
-                                    <label for="exampleTextarea">Example textarea <span class="text-danger">*</span></label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                </div>
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Base Controls
-									&lt;/h3&gt;
-									&lt;div class=&quot;card-toolbar&quot;&gt;
-										&lt;div class=&quot;example-tools justify-content-center&quot;&gt;
-											&lt;span class=&quot;example-toggle&quot; data-toggle=&quot;tooltip&quot; title=&quot;View code&quot;&gt;&lt;/span&gt;
-											&lt;span class=&quot;example-copy&quot; data-toggle=&quot;tooltip&quot; title=&quot;Copy code&quot;&gt;&lt;/span&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group mb-8&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													The example form below demonstrates common HTML form elements that receive updated styles from Bootstrap with additional classes.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Email address &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot;  placeholder=&quot;Enter email&quot;/&gt;
-											&lt;span class=&quot;form-text text-muted&quot;&gt;We'll never share your email with anyone else.&lt;/span&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleInputPassword1&quot;&gt;Password &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleInputPassword1&quot; placeholder=&quot;Password&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Static:&lt;/label&gt;
-											&lt;p class=&quot;form-control-plaintext text-muted&quot;&gt;email@example.com&lt;/p&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelect1&quot;&gt;Example select &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;select class=&quot;form-control&quot; id=&quot;exampleSelect1&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelect2&quot;&gt;Example multiple select &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;select multiple=&quot;&quot; class=&quot;form-control&quot; id=&quot;exampleSelect2&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group mb-1&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Example textarea &lt;span class=&quot;text-danger&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
-											&lt;textarea class=&quot;form-control&quot; id=&quot;exampleTextarea&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
+                         <!-- LAYER NR. 4 -->
+                         <div class="tp-caption Woo-Rating tp-resizeme" id="slide-672-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','40','35']" data-y="['top','top','top','top']" data-voffset="['286','286','286','286']" data-width="450" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:left;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; min-width: 370px; max-width: 450px; white-space: normal; text-align:left;">
+                             <?= $s->keterangan ?>
+                         </div>
 
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Textual HTML5 Inputs
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form>
-                            <div class="card-body">
-                                <div class="form-group mb-8">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Here are examples of <code>.form-control</code> applied to each textual HTML5 input type:
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-2 col-form-label">Text</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="text" value="Artisanal kale" id="example-text-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-search-input" class="col-2 col-form-label">Search</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="search" value="How do I shoot web" id="example-search-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-email-input" class="col-2 col-form-label">Email</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-url-input" class="col-2 col-form-label">URL</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-password-input" class="col-2 col-form-label">Password</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="password" value="hunter2" id="example-password-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-number-input" class="col-2 col-form-label">Number</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="number" value="42" id="example-number-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-date-input" class="col-2 col-form-label">Date</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-month-input" class="col-2 col-form-label">Month</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="month" value="2011-08" id="example-month-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-week-input" class="col-2 col-form-label">Week</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="week" value="2011-W33" id="example-week-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-time-input" class="col-2 col-form-label">Time</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="time" value="13:45:00" id="example-time-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-color-input" class="col-2 col-form-label">Color</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="color" value="#563d7c" id="example-color-input" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="example-email-input" class="col-2 col-form-label">Range</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="range" />
-                                    </div>
-                                </div>
+                         <!-- LAYER NR. 5 -->
+                         <div class="tp-caption tp-resizeme" id="slide-672-layer-5" data-x="['left','left','left','left']" data-hoffset="['407','407','407','407']" data-y="['top','top','top','top']" data-voffset="['337','337','337','337']" data-width="120" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:left;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 10; min-width: 100px; max-width: 100px; white-space: normal; text-align:center;">
+                             <!-- <img src="upload/slider/price-1.png" alt=""> -->
+                         </div>
+                     </li>
+                 <?php $index++;
+                    endforeach ?>
+             </ul>
+             <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+         </div>
+     </div>
+     <!-- END REVOLUTION SLIDER -->
+ </section>
+ <!-- End home section -->
 
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Textual HTML5 Inputs
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group mb-8&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Here are examples of &lt;code&gt;.form-control&lt;/code&gt; applied to each textual HTML5 input type:
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label  class=&quot;col-2 col-form-label&quot;&gt;Text&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;text&quot; value=&quot;Artisanal kale&quot; id=&quot;example-text-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-search-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Search&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;search&quot; value=&quot;How do I shoot web&quot; id=&quot;example-search-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-email-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Email&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;email&quot; value=&quot;bootstrap@example.com&quot; id=&quot;example-email-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-url-input&quot; class=&quot;col-2 col-form-label&quot;&gt;URL&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;url&quot; value=&quot;https://getbootstrap.com&quot; id=&quot;example-url-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-tel-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Telephone&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;tel&quot; value=&quot;1-(555)-555-5555&quot; id=&quot;example-tel-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-password-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Password&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;password&quot; value=&quot;hunter2&quot; id=&quot;example-password-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-number-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Number&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;number&quot; value=&quot;42&quot; id=&quot;example-number-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-datetime-local-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Date and time&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;datetime-local&quot; value=&quot;2011-08-19T13:45:00&quot; id=&quot;example-datetime-local-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-date-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Date&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;date&quot; value=&quot;2011-08-19&quot; id=&quot;example-date-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-month-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Month&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;month&quot; value=&quot;2011-08&quot; id=&quot;example-month-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-week-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Week&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;week&quot; value=&quot;2011-W33&quot; id=&quot;example-week-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-time-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Time&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;time&quot; value=&quot;13:45:00&quot; id=&quot;example-time-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-color-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Color&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;color&quot; value=&quot;#563d7c&quot; id=&quot;example-color-input&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group row&quot;&gt;
-											&lt;label for=&quot;example-email-input&quot; class=&quot;col-2 col-form-label&quot;&gt;Range&lt;/label&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;input class=&quot;form-control&quot; type=&quot;range&quot;/&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;div class=&quot;row&quot;&gt;
-											&lt;div class=&quot;col-2&quot;&gt;
-											&lt;/div&gt;
-											&lt;div class=&quot;col-10&quot;&gt;
-												&lt;button type=&quot;reset&quot; class=&quot;btn btn-success mr-2&quot;&gt;Submit&lt;/button&gt;
-												&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <div class="row">
-                                    <div class="col-2">
-                                    </div>
-                                    <div class="col-10">
-                                        <button type="reset" class="btn btn-success mr-2">Submit</button>
-                                        <button type="reset" class="btn btn-secondary">Cancel</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!--end::Card-->
+ <!-- feature-section -->
+ <section class="feature-section">
+     <div class="container">
+         <div class="feature-box">
+             <div class="row">
+                 <div class="col-lg-4 col-md-6">
+                     <div class="feature-post">
+                         <div class="icon-holder">
+                             <i class="fa fa-umbrella"></i>
+                         </div>
+                         <div class="feature-content">
+                             <h2>
+                                 150.000 kelas online
+                             </h2>
+                             <p>Nikmati berbagai topik bar</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6">
+                     <div class="feature-post">
+                         <div class="icon-holder color2">
+                             <i class="fa fa-id-card-o"></i>
+                         </div>
+                         <div class="feature-content">
+                             <h2>
+                                 Instruksi dari pakarnya
+                             </h2>
+                             <p>Temukan instruktur yang tepat untuk Anda</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6">
+                     <div class="feature-post">
+                         <div class="icon-holder color3">
+                             <i class="fa fa-handshake-o"></i>
+                         </div>
+                         <div class="feature-content">
+                             <h2>
+                                 Akses seumur hidup
+                             </h2>
+                             <p>Belajar sesuai jadwal Anda</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- End feature section -->
 
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Solid Background Style
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Add the <code>.form-controller-solid</code> class on an input to have an input with solid background.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Input</label>
-                                    <input type="email" class="form-control form-control-solid" placeholder="Example input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Select</label>
-                                    <select class="form-control form-control-solid">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Textarea</label>
-                                    <textarea class="form-control form-control-solid" rows="3"></textarea>
-                                </div>
 
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Input States
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Add the &lt;code&gt;disabled&lt;/code&gt; or &lt;code&gt;readonly&lt;/code&gt; boolean attribute on an input to prevent user interactions.
-													Disabled inputs appear lighter and add a &lt;code&gt;not-allowed&lt;/code&gt; cursor.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control form-control-solid&quot; placeholder=&quot;Example input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Select&lt;/label&gt;
-											&lt;select class=&quot;form-control form-control-solid&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Textarea&lt;/label&gt;
-											&lt;textarea class=&quot;form-control form-control-solid&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
-                </div>
-                <div class="col-md-6">
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Input States
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Add the <code>disabled</code> or <code>readonly</code> boolean attribute on an input to prevent user interactions.
-                                            Disabled inputs appear lighter and add a <code>not-allowed</code> cursor.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Disabled Input</label>
-                                    <input type="email" class="form-control" disabled="disabled" placeholder="Disabled input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Disabled select</label>
-                                    <select class="form-control" disabled="disabled">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Disabled textarea</label>
-                                    <textarea class="form-control" disabled="disabled" rows="3"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label>Readonly Input</label>
-                                    <input type="email" class="form-control" readonly placeholder="Readonly input" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Readonly textarea</label>
-                                    <textarea class="form-control" readonly rows="3"></textarea>
-                                </div>
+ <!-- popular-courses-section  -->
+ <section class="popular-courses-section p-0">
+     <div class="container">
+         <div class="title-section">
+             <div class="left-part">
+                 <span></span>
+                 <h1>Pilihan Kelas Terbaik</h1>
+             </div>
+             <div class="right-part">
+                 <a class="button-one" href="<?= base_url("topik") ?>">Lihat semua kelas</a>
+             </div>
+         </div>
+         <div class="popular-courses-box">
+             <div class="row">
 
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Input States
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Add the &lt;code&gt;disabled&lt;/code&gt; or &lt;code&gt;readonly&lt;/code&gt; boolean attribute on an input to prevent user interactions.
-													Disabled inputs appear lighter and add a &lt;code&gt;not-allowed&lt;/code&gt; cursor.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Disabled Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot; disabled=&quot;disabled&quot; placeholder=&quot;Disabled input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Disabled select&lt;/label&gt;
-											&lt;select class=&quot;form-control&quot; disabled=&quot;disabled&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Disabled textarea&lt;/label&gt;
-											&lt;textarea class=&quot;form-control&quot; disabled=&quot;disabled&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Readonly Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot; readonly placeholder=&quot;Readonly input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleTextarea&quot;&gt;Readonly textarea&lt;/label&gt;
-											&lt;textarea class=&quot;form-control&quot; readonly rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
+                 <?php foreach ($kelas as $kel) : ?>
+                     <div class="col-lg-3 col-md-6">
+                         <div class="course-post">
+                             <div class="course-thumbnail-holder">
+                                 <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>">
+                                     <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
+                                 </a>
+                             </div>
+                             <div class="course-content-holder">
+                                 <div class="course-content-main">
+                                     <h2 class="course-title">
+                                         <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>"><?= $kel["nama"] ?></a>
+                                     </h2>
+                                     <a href="<?= base_url("pengajar/" . slug($kel["pengajar"]->nama)) ?>" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     <!-- <div class="course-rating-teacher">
+                                         <div class="star-rating has-ratings" title="Rated 5.00 out of 5">
+                                             <span style="width:100%">
+                                                 <span class="rating">0.00</span>
+                                                 <span class="votes-number">0 Votes</span>
+                                             </span>
+                                         </div>
+                                         <a href="#" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                     </div> -->
+                                 </div>
+                                 <div class="course-content-bottom">
+                                     <div class="course-students">
+                                         <i class="material-icons">group</i>
+                                         <span>0</span>
+                                     </div>
+                                     <div class="course-price">
+                                         <span>Rp <?= $kel["harga_diskon"] > 0 ? ("<strike>" . Rupiah3($kel["harga"]) . "</strike> " . Rupiah3($kel["harga_diskon"])) : Rupiah3($kel["harga"]) ?></span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 <?php endforeach ?>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- End popular-courses section -->
 
-                    <!--begin::Card-->
-                    <div class="card card-custom gutter-b example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Input Sizing
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            Set heights using classes like <code>.form-control-lg</code>, and set widths using grid column classes like <code>.col-lg-*</code>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Large Input</label>
-                                    <input type="email" class="form-control form-control-lg" placeholder="Large input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Default Input</label>
-                                    <input type="email" class="form-control" placeholder="Large input" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Small Input</label>
-                                    <input type="email" class="form-control form-control-sm" placeholder="Large input" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelectl">Large Select</label>
-                                    <select class="form-control form-control-lg" id="exampleSelectl">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelectd">Default Select</label>
-                                    <select class="form-control" id="exampleSelectd">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleSelects">Small Select</label>
-                                    <select class="form-control form-control-sm" id="exampleSelects">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
+ <!-- collection-section -->
+ <section class="collection-section">
+     <div class="container">
+         <div class="title-section">
+             <div class="left-part">
+                 <span></span>
+                 <h1>Topik Kelas Paling Populer</h1>
+             </div>
+             <div class="right-part">
+                 <a class="button-one" href="#">Lihat Semua Kategori</a>
+             </div>
+         </div>
+         <div class="collection-box">
+             <div class="row">
+                 <div class="col-lg-6 col-md-12">
+                     <div class="collection-post">
+                         <div class="inner-collection">
+                             <img style="width:120%; height: 422px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[0]["gambar"]) ?>" alt="">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[0]["nama"])) ?>" class="hover-post">
+                                 <span class="title"><?= $kategori_populer[0]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[0]["produk_kategori"]) ?> Kelas</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6">
+                     <div class="collection-post">
+                         <div class="inner-collection">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[1]["gambar"]) ?>" alt="">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[1]["nama"])) ?>" class="hover-post">
+                                 <span class="title"><?= $kategori_populer[1]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[1]["produk_kategori"]) ?> Kelas</span>
+                             </a>
+                         </div>
+                     </div>
+                     <div class="collection-post">
+                         <div class="inner-collection">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[2]["gambar"]) ?>" alt="">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[2]["nama"])) ?>" class="hover-post">
+                                 <span class="title"><?= $kategori_populer[2]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[2]["produk_kategori"]) ?> Kelas</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6">
+                     <div class="collection-post">
+                         <div class="inner-collection">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[3]["gambar"]) ?>" alt="">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[3]["nama"])) ?>" class="hover-post">
+                                 <span class="title"><?= $kategori_populer[3]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[3]["produk_kategori"]) ?> Kelas</span>
+                             </a>
+                         </div>
+                     </div>
+                     <div class="collection-post">
+                         <div class="inner-collection">
+                             <img style="width:120%; height: 200px; object-fit: cover" src="<?= asset("kategori/" . $kategori_populer[4]["gambar"]) ?>" alt="">
+                             <a href="<?= base_url("topik/" . slug($kategori_populer[4]["nama"])) ?>" class="hover-post">
+                                 <span class="title"><?= $kategori_populer[4]["nama"] ?></span>
+                                 <span class="numb-courses"><?= sizeof($kategori_populer[4]["produk_kategori"]) ?> Kelas</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
 
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Input Sizing
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													Set heights using classes like &lt;code&gt;.form-control-lg&lt;/code&gt;, and set widths using grid column classes like &lt;code&gt;.col-lg-*&lt;/code&gt;
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Large Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control form-control-lg&quot;  placeholder=&quot;Large input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Default Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control&quot;  placeholder=&quot;Large input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Small Input&lt;/label&gt;
-											&lt;input type=&quot;email&quot; class=&quot;form-control form-control-sm&quot;  placeholder=&quot;Large input&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelectl&quot;&gt;Large Select&lt;/label&gt;
-											&lt;select class=&quot;form-control form-control-lg&quot; id=&quot;exampleSelectl&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelectd&quot;&gt;Default Select&lt;/label&gt;
-											&lt;select class=&quot;form-control&quot; id=&quot;exampleSelectd&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label for=&quot;exampleSelects&quot;&gt;Small Select&lt;/label&gt;
-											&lt;select class=&quot;form-control form-control-sm&quot; id=&quot;exampleSelects&quot;&gt;
-												&lt;option&gt;1&lt;/option&gt;
-												&lt;option&gt;2&lt;/option&gt;
-												&lt;option&gt;3&lt;/option&gt;
-												&lt;option&gt;4&lt;/option&gt;
-												&lt;option&gt;5&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-success mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-success mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
+         </div>
+     </div>
+ </section>
+ <!-- End collection section -->
 
-                    <!--begin::Card-->
-                    <div class="card card-custom example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Custom Controls
-                            </h3>
-                            <div class="card-toolbar">
-                                <div class="example-tools justify-content-center">
-                                    <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-                                    <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group form-group-last">
-                                    <div class="alert alert-custom alert-default" role="alert">
-                                        <div class="alert-icon"><span class="svg-icon svg-icon-primary svg-icon-xl">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24" />
-                                                        <path d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z" fill="#000000" opacity="0.3" />
-                                                        <path d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z" fill="#000000" fill-rule="nonzero" />
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon--></span></div>
-                                        <div class="alert-text">
-                                            For even more customization and cross browser consistency, use our completely custom form elements to replace the browser defaults. They’re built on top of semantic and accessible markup, so they’re solid replacements for any default form control.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Custom Range</label>
-                                    <div></div>
-                                    <input type="range" class="custom-range" min="0" max="5" id="customRange2" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Custom Select</label>
-                                    <div></div>
-                                    <select class="custom-select form-control">
-                                        <option selected>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label>File Browser</label>
-                                    <div></div>
-                                    <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="customFile" />
-                                        <label class="custom-file-label" for="customFile">Choose file</label>
-                                    </div>
-                                </div>
 
-                                <!--begin: Code-->
-                                <div class="example-code mt-10">
-                                    <div class="example-highlight">
-                                        <pre style="height:400px"><code class="language-html">
-							&lt;div class=&quot;card card-custom&quot;&gt;
-								&lt;div class=&quot;card-header&quot;&gt;
-									&lt;h3 class=&quot;card-title&quot;&gt;
-										Custom Controls
-									&lt;/h3&gt;
-								&lt;/div&gt;
-								&lt;!--begin::Form--&gt;
-								&lt;form class=&quot;form&quot;&gt;
-									&lt;div class=&quot;card-body&quot;&gt;
-										&lt;div class=&quot;form-group form-group-last&quot;&gt;
-											&lt;div class=&quot;alert alert-custom alert-default&quot; role=&quot;alert&quot;&gt;
-												&lt;div class=&quot;alert-icon&quot;&gt;&lt;i class=&quot;flaticon-warning text-primary&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-												&lt;div class=&quot;alert-text&quot;&gt;
-													For even more customization and cross browser consistency, use our completely custom form elements to replace the browser defaults. They’re built on top of semantic and accessible markup, so they’re solid replacements for any default form control.
-												&lt;/div&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Custom Range&lt;/label&gt;
-											&lt;div&gt;&lt;/div&gt;
-											&lt;input type=&quot;range&quot; class=&quot;custom-range&quot; min=&quot;0&quot; max=&quot;5&quot; id=&quot;customRange2&quot;/&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;Custom Select&lt;/label&gt;
-											&lt;div&gt;&lt;/div&gt;
-											&lt;select class=&quot;custom-select form-control&quot;&gt;
-												&lt;option selected&gt;Open this select menu&lt;/option&gt;
-												&lt;option value=&quot;1&quot;&gt;One&lt;/option&gt;
-												&lt;option value=&quot;2&quot;&gt;Two&lt;/option&gt;
-												&lt;option value=&quot;3&quot;&gt;Three&lt;/option&gt;
-											&lt;/select&gt;
-										&lt;/div&gt;
-										&lt;div class=&quot;form-group&quot;&gt;
-											&lt;label&gt;File Browser&lt;/label&gt;
-											&lt;div&gt;&lt;/div&gt;
-											&lt;div class=&quot;custom-file&quot;&gt;
-												&lt;input type=&quot;file&quot; class=&quot;custom-file-input&quot; id=&quot;customFile&quot;/&gt;
-												&lt;label class=&quot;custom-file-label&quot; for=&quot;customFile&quot;&gt;Choose file&lt;/label&gt;
-											&lt;/div&gt;
-										&lt;/div&gt;
-									&lt;/div&gt;
-									&lt;div class=&quot;card-footer&quot;&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-primary mr-2&quot;&gt;Submit&lt;/button&gt;
-										&lt;button type=&quot;reset&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/button&gt;
-									&lt;/div&gt;
-								&lt;/form&gt;
-								&lt;!--end::Form--&gt;
-							&lt;/div&gt;
-						</code></pre>
-                                    </div>
-                                </div>
-                                <!--end: Code-->
-                            </div>
-                            <div class="card-footer">
-                                <button type="reset" class="btn btn-primary mr-2">Submit</button>
-                                <button type="reset" class="btn btn-secondary">Cancel</button>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-                    </div>
-                    <!--end::Card-->
-                </div>
-            </div>
-        </div>
-        <!--end::Container-->
-    </div>
-    <!--end::Entry-->
-</div>
-<!--end::Content-->
+ <!-- events-section  -->
+ <section class="events-section">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6">
+                 <div class="title-section">
+                     <div class="left-part">
+                         <span>Kalender</span>
+                         <h1>kelas Terdekat</h1>
+                     </div>
+                     <div class="right-part">
+                         <a class="button-one" href="#">Lihat Kalender</a>
+                     </div>
+                 </div>
+
+                 <div class="events-box">
+
+                     <?php foreach ($terdekat as $dekat) : ?>
+
+                         <div class="events-post" style="margin-bottom: 10px;">
+                             <div class="event-inner-content">
+                                 <div class="top-part">
+                                     <div class="date-holder">
+                                         <div class="date">
+                                             <span class="date-day"><?= date("d", strtotime($dekat["tanggal"])) ?></span>
+                                             <span class="date-month"><?= date("M", strtotime($dekat["tanggal"])) ?></span>
+                                         </div>
+                                     </div>
+                                     <div class="content">
+                                         <div class="event-meta">
+                                             <span class="event-meta-piece start-time">
+                                                 <i class="material-icons">access_time</i> <?= $dekat["jam_mulai"] . " - " .  $dekat["jam_selesai"] ?>
+                                             </span>
+                                             <span class="event-meta-piece location">
+                                                 <i class="material-icons">location_on</i> <?= $dekat["media"] ?>
+                                             </span>
+                                         </div>
+                                         <h2 class="title"><a href="<?= base_url("kelas/" . slug($dekat["nama"])) ?>"><?= $dekat["nama"] ?> </a></h2>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                     <?php endforeach ?>
+
+                 </div>
+             </div>
+             <div class="col-lg-6">
+                 <div class="title-section">
+                     <div class="left-part">
+                         <span>Spesial Untuk Kamu</span>
+                         <h1>kelas Favorite</h1>
+                     </div>
+                 </div>
+
+                 <div class="row">
+
+                     <?php
+                        shuffle($kelas);
+                        $index = 1;
+                        foreach ($kelas as $kel) : ?>
+                         <?php if ($index <= 2) : ?>
+                             <div class="col-md-6">
+                                 <div class="course-post">
+                                     <div class="course-thumbnail-holder">
+                                         <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>">
+                                             <img style="height: 200px;" src="<?= asset("gambar/" . $kel["gambar"]) ?>" alt="">
+                                         </a>
+                                     </div>
+                                     <div class="course-content-holder">
+                                         <div class="course-content-main">
+                                             <h2 class="course-title">
+                                                 <a href="<?= base_url("kelas/" . slug($kel["nama"])) ?>"><?= $kel["nama"] ?></a>
+                                             </h2>
+                                             <a href="<?= base_url("pengajar/" . slug($kel["pengajar"]->nama)) ?>" class="course-loop-teacher"><?= $kel["pengajar"]->nama ?></a>
+                                         </div>
+                                         <div class="course-content-bottom">
+                                             <div class="course-students">
+                                                 <i class="material-icons">group</i>
+                                                 <span>0</span>
+                                             </div>
+                                             <div class="course-price">
+                                                 <span>Rp <?= $kel["harga_diskon"] > 0 ? ("<strike>" . Rupiah3($kel["harga"]) . "</strike> " . Rupiah3($kel["harga_diskon"])) : Rupiah3($kel["harga"]) ?></span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         <?php $index++;
+                            endif ?>
+                     <?php endforeach ?>
+
+                 </div>
+
+                 <!-- <div class="video-box">
+                     <div class="video-post">
+                         <img src="upload/slider/slider-image-1.jpg" alt="">
+                         <div class="hover-post">
+                             <h2>Judul Video 1</h2>
+                             <p>Deskripsi Video 1</p>
+                         </div>
+                         <a class="video-link iframe" href="https://vimeo.com/97447862"><span><i class="fa fa-play"></i></span></a>
+                     </div>
+
+                     <div class="row">
+                         <div class="col-md-6">
+                             <div class="video-post small-post">
+                                 <img src="upload/slider/slider-image-1.jpg" alt="">
+                                 <div class="hover-post">
+                                     <h2>Judul Video 2</h2>
+                                 </div>
+                                 <a class="video-link iframe" href="https://vimeo.com/97447862"><span><i class="fa fa-play"></i></span></a>
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="video-post small-post">
+                                 <img src="upload/slider/slider-image-1.jpg" alt="">
+                                 <div class="hover-post">
+                                     <h2>Judul Video 3</h2>
+                                 </div>
+                                 <a class="video-link iframe" href="https://vimeo.com/97447862"><span><i class="fa fa-play"></i></span></a>
+                             </div>
+                         </div>
+                     </div>
+                 </div> -->
+             </div>
+         </div>
+
+     </div>
+ </section>
+ <!-- End events section -->
+
+ <!-- testimonial-section ================================================== -->
+ <section class="testimonial-section" style="background-color: white;">
+     <div class="container">
+         <div class="testimonial-box owl-wrapper">
+             <div class="owl-carousel" data-num="1">
+
+                 <?php foreach ($testimoni as $ts) : ?>
+                     <div class="item">
+                         <div class="testimonial-post">
+                             <p> “<?= $ts["isi"] ?>”</p>
+                             <div class="profile-test">
+                                 <div class="avatar-holder">
+                                     <img style="width: 100; height: 100px; background-position: center center; background-repeat: no-repeat;" src="<?= $ts["foto"] ?>" alt="">
+                                 </div>
+                                 <div class="profile-data">
+                                     <h2><?= $ts["nama"] ?></h2>
+                                     <p><?= $ts["jabatan"] ?></p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 <?php endforeach ?>
+
+             </div>
+         </div>
+     </div>
+ </section>
+ <!-- End testimonial section -->
+
+ <!-- countdown-section -->
+ <section class="countdown-section">
+     <div class="container">
+         <div class="countdown-box">
+             <h1>Daftar Sebagai Pengajar</h1>
+             <p>Pengajar terbaik mengajar ratusan pembelajar di <?= $app_name ?>. Kami menyediakan alat dan keterampilan untuk mengajarkan apa yang Anda sukai.</p>
+             <a class="button-two" href="#">Daftar Sekarang</a>
+         </div>
+     </div>
+ </section>
+ <!-- End countdown section -->
+
+ <section class="countdown-section" style="background-color: white;">
+     <div class="">
+         <div class="countdown-box">
+             <h1 class="mb-5"><b>Pengurus <?= $app_name ?></b></h1>
+             <div class="teachers-box">
+                 <div class="row">
+
+                     <?php foreach ($pengurus as $dt) : ?>
+                         <div class="col-md-4">
+                             <div class="teacher-post">
+                                 <a href="javascript:void(0)">
+                                     <img style="height: 225px; object-fit: cover" src="<?= $dt["foto"] ?>" alt="">
+                                     <div class="hover-post">
+                                         <h2><?= $dt["nama"] ?></h2>
+                                         <span><?= $dt["jabatan"] ?></span>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                     <?php endforeach ?>
+
+
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+
+ <script type="text/javascript" src="<?= "assets/user/js/extensions/revolution.extension.slideanims.min.js" ?>"></script>
+ <script type="text/javascript" src="<?= "assets/user/js/extensions/revolution.extension.actions.min.js" ?>"></script>
+ <script type="text/javascript" src="<?= "assets/user/js/extensions/revolution.extension.layeranimation.min.js" ?>"></script>
+ <script type="text/javascript" src="<?= "assets/user/js/extensions/revolution.extension.navigation.min.js" ?>"></script>
+ <script type="text/javascript" src="<?= "assets/user/js/extensions/revolution.extension.parallax.min.js" ?>"></script>
+
+ <script>
+     var tpj = jQuery;
+     var revapi202;
+     tpj(document).ready(function() {
+         if (tpj("#rev_slider_202_1").revolution == undefined) {
+             revslider_showDoubleJqueryError("#rev_slider_202_1");
+         } else {
+             revapi202 = tpj("#rev_slider_202_1").show().revolution({
+                 sliderType: "standard",
+                 jsFileLocation: "js/",
+                 dottedOverlay: "none",
+                 delay: 5000,
+                 navigation: {
+                     keyboardNavigation: "off",
+                     keyboard_direction: "horizontal",
+                     mouseScrollNavigation: "off",
+                     onHoverStop: "off",
+                     arrows: {
+                         enable: true,
+                         style: 'gyges',
+                         left: {
+                             container: 'slider',
+                             h_align: 'left',
+                             v_align: 'center',
+                             h_offset: 20,
+                             v_offset: -60
+                         },
+
+                         right: {
+                             container: 'slider',
+                             h_align: 'right',
+                             v_align: 'center',
+                             h_offset: 20,
+                             v_offset: -60
+                         }
+                     },
+                     touch: {
+                         touchenabled: "on",
+                         swipe_threshold: 75,
+                         swipe_min_touches: 50,
+                         swipe_direction: "horizontal",
+                         drag_block_vertical: false
+                     },
+                     bullets: {
+
+                         enable: false,
+                         style: 'persephone',
+                         tmp: '',
+                         direction: 'horizontal',
+                         rtl: false,
+
+                         container: 'slider',
+                         h_align: 'center',
+                         v_align: 'bottom',
+                         h_offset: 0,
+                         v_offset: 55,
+                         space: 7,
+
+                         hide_onleave: false,
+                         hide_onmobile: false,
+                         hide_under: 0,
+                         hide_over: 9999,
+                         hide_delay: 200,
+                         hide_delay_mobile: 1200
+                     }
+                 },
+                 responsiveLevels: [1210, 1024, 778, 480],
+                 visibilityLevels: [1210, 1024, 778, 480],
+                 gridwidth: [1210, 1024, 778, 480],
+                 gridheight: [700, 700, 600, 600],
+                 lazyType: "none",
+                 parallax: {
+                     type: "scroll",
+                     origo: "slidercenter",
+                     speed: 1000,
+                     levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
+                     type: "scroll",
+                 },
+                 shadow: 0,
+                 spinner: "off",
+                 stopLoop: "off",
+                 stopAfterLoops: -1,
+                 stopAtSlide: -1,
+                 shuffle: "off",
+                 autoHeight: "off",
+                 fullScreenAutoWidth: "off",
+                 fullScreenAlignForce: "off",
+                 fullScreenOffsetContainer: "",
+                 fullScreenOffset: "0px",
+                 disableProgressBar: "on",
+                 hideThumbsOnMobile: "off",
+                 hideSliderAtLimit: 0,
+                 hideCaptionAtLimit: 0,
+                 hideAllCaptionAtLilmit: 0,
+                 debugMode: false,
+                 fallbacks: {
+                     simplifyAll: "off",
+                     nextSlideOnWindowFocus: "off",
+                     disableFocusListener: false,
+                 }
+             });
+         }
+     }); /*ready*/
+ </script>

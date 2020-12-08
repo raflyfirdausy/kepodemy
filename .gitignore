@@ -1,9 +1,18 @@
 .DS_Store
 
+*/logs/log-*.php
+
 application/cache/*
 !application/cache/index.html
 
+*/logs/log-*.php
 application/logs/*
+<<<<<<< HEAD
+
+=======
+application/backend/logs/*
+application/frontend/logs/*
+>>>>>>> 733c0375ccc8ed5f6ba7113fa6838d51bf0be945
 !application/logs/index.html
 
 !application/*/.htaccess

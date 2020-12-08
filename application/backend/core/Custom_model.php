@@ -894,6 +894,14 @@ class Custom_model extends MY_Model
                     }
                 }
             }
+
+            //TODO : TAMBAHAN WITH TRASHED IN RELATION BY RAFLY
+            if ($this->soft_deletes === TRUE) {
+                $withTrashed = ["where" => $this->_deleted_at_field . "  IS NOT NULL OR " . $this->_deleted_at_field . " IS NULL"];
+                $parameters = array_merge($parameters, $withTrashed);
+            }
+            //TODO : END TAMBAHAN
+
             $this->_requested[$request]['parameters'] = $parameters;
         }
 
@@ -1764,7 +1772,8 @@ class Custom_model extends MY_Model
         return $data;
     }
 
-    public function getError(){
+    public function getError()
+    {
         return $this->_database->error()["message"];
     }
 
