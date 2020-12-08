@@ -273,12 +273,12 @@ class Kelola_pengajar extends Admin_Controller
 			if ($savependidikan) {
 				echo json_encode([
 					'response_code'	=> 200,
-					'response_message'	=> $message
+					'response_message'	=> "Data berhasil di simpan"
 				]);
 			} else {
 				echo json_encode([
 					'response_code'	=> 500,
-					'response_message'	=> $message
+					'response_message'	=> "Data gagal di simpan"
 				]);
 			}
 		}
