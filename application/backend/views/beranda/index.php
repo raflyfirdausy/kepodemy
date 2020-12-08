@@ -34,15 +34,15 @@
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="alert alert-success mb-5 p-5" role="alert">
-						<h4 class="alert-heading">Welcome, <?= $rafly ?>!</h4>
+						<h4 class="alert-heading">Hi, <?= $this->userData->nama ?>!</h4>
 						<div class="border-bottom border-white opacity-20 mb-5"></div>
-						<p class="mb-0">Enjoy your workspace.</p>
+						<p class="mb-0">Selamat datang di Kepodemy.</p>
 					</div>
 				</div>
 			</div>
 
 			<!--Begin::Row-->
-			<div class="row">
+			<div class="row" style="display: none;">
 				<div class="col-xl-3">
 					<!--begin::Stats Widget 25-->
 					<div class="card card-custom bg-light-success card-stretch gutter-b">

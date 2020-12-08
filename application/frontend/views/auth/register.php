@@ -49,15 +49,15 @@
                                 <input type="password" class="form-control" name="retype_password" id="retype_password">
                             </div>
                         </div>
-                        <div class="form-check mt-2">
+                        <!-- <div class="form-check mt-2">
                             <input class="form-check-input checkbox" type="checkbox" id="defaultCheck1" onchange="document.getElementById('btnsubmit').disabled = !this.checked;">
                             <label class=" form-check-label" for="defaultCheck1">
                                 Saya setuju dan ingin melanjutkan.
                             </label>
-                        </div>
+                        </div> -->
                         <p class="terms">Dengan daftar anda menyetujui <i>privasi dan persyaratan ketentuan
                                 hukum kami </i></a></p>
-                        <button id="btnsubmit" disabled class="btn btn-info text-center" href="#" style="width: 100%;">Daftar Sekarang!</button>
+                        <button id="btnsubmit" class="btn btn-info text-center" href="#" style="width: 100%;">Daftar Sekarang!</button>
                         <p class="terms mt-2 text-center">Sudah punya akun? masuk <a id="klikDisini" href="#"> disini.</a>
                     </form>
                 </div>

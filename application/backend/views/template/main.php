@@ -26,13 +26,13 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--end::Fonts-->
 
 
-	<link href="<?= asset("admin/plugins/custom/datatables/datatables.bundle.css") ?>" rel="stylesheet" type="text/css" />
-	<link href="<?= asset("admin/css/pages/wizard/wizard-4.css") ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= asset("admin/plugins/custom/datatables/datatables.bundle.css") ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= asset("admin/css/pages/wizard/wizard-4.css") ?>" rel="stylesheet" type="text/css" />
 
     <!--begin::Global Theme Styles(used by all pages)-->
     <link href="<?= asset("admin/plugins/global/plugins.bundle.css") ?>" rel="stylesheet" type="text/css" />
     <link href="<?= asset("admin/plugins/custom/prismjs/prismjs.bundle.css") ?>" rel="stylesheet" type="text/css" />
-	<link href="<?= asset("admin/css/style.bundle.css") ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= asset("admin/css/style.bundle.css") ?>" rel="stylesheet" type="text/css" />
     <!--end::Global Theme Styles-->
 
     <!--begin::Layout Themes(used by all pages)-->
@@ -43,12 +43,14 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="<?= asset("admin/css/themes/layout/aside/dark.css") ?>" rel="stylesheet" type="text/css" />
     <!--end::Layout Themes-->
 
-	<link rel="shortcut icon" href="<?= asset("admin/media/logos/favicon.ico") ?>" />
-	
+    <link rel="shortcut icon" href="<?= asset("admin/media/logos/favicon.ico") ?>" />
 
-	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> -->
-	<script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
-	<script> var base_url = "<?= base_url() ?>"; </script>
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> -->
+    <script src="<?= asset("admin/plugins/global/plugins.bundle.js") ?>"></script>
+    <script>
+        var base_url = "<?= base_url() ?>";
+    </script>
 </head>
 <!--end::Head-->
 
@@ -61,7 +63,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center  header-mobile-fixed ">
         <!--begin::Logo-->
         <a href="index.html">
-            <img alt="Logo" src="<?= asset("admin/media/logos/logo-light.png") ?>"/>
+            <img alt="Logo" src="<?= asset("admin/media/logos/logo-light.png") ?>" />
         </a>
         <!--end::Logo-->
 
@@ -105,15 +107,15 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
 
                 <?php $this->load->view("template/header") ?>
-				<!--begin::Content-->
+                <!--begin::Content-->
                 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-					<?= $__content ?>
-
-					
+                    <?= $__content ?>
 
 
-					
-				</div>
+
+
+
+                </div>
 
                 <?php $this->load->view("template/footer") ?>
             </div>
@@ -140,19 +142,19 @@ License: You must have a valid license purchased only from themeforest(the above
         <div class="offcanvas-content pr-5 mr-n5">
             <!--begin::Header-->
             <div class="d-flex align-items-center mt-5">
-                <div class="symbol symbol-100 mr-5">
+                <!-- <div class="symbol symbol-100 mr-5">
                     <div class="symbol-label" style="background-image:url('<?= asset('admin/media/users/300_21.jpg') ?>')"></div>
                     <i class="symbol-badge bg-success"></i>
-                </div>
+                </div> -->
                 <div class="d-flex flex-column">
                     <a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">
-                        James Jones
+                        <?= $this->userData->nama ?>
                     </a>
                     <div class="text-muted mt-1">
-                        Application Developer
+                        Admin
                     </div>
                     <div class="navi mt-2">
-                        <a href="#" class="navi-item">
+                        <a href="<?= base_url() ?>" class="navi-item">
                             <span class="navi-link p-0 pb-2">
                                 <span class="navi-icon mr-1">
                                     <span class="svg-icon svg-icon-lg svg-icon-primary">
@@ -163,12 +165,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <circle fill="#000000" opacity="0.3" cx="19.5" cy="17.5" r="2.5" />
                                             </g>
                                         </svg>
-                                        <!--end::Svg Icon--></span> </span>
-                                <span class="navi-text text-muted text-hover-primary">jm@softplus.com</span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <span class="navi-text text-muted text-hover-primary"><?= $this->userData->email ?></span>
                             </span>
                         </a>
 
-                        <a href="#" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Keluar</a>
+                        <a href="<?= base_url("auth/logout") ?>" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Keluar</a>
                     </div>
                 </div>
             </div>
@@ -257,46 +261,46 @@ License: You must have a valid license purchased only from themeforest(the above
             "font-family": "Poppins"
         };
     </script>
-	<!--end::Global Config-->
-	
-	
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-	<!--begin::Global Theme Bundle(used by all pages)-->
-	
-	
-	
+    <!--end::Global Config-->
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+    <!--begin::Global Theme Bundle(used by all pages)-->
+
+
+
     <script src="<?= asset("admin/plugins/custom/prismjs/prismjs.bundle.js") ?>"></script>
-	
-	<script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
-	<!--end::Global Theme Bundle-->
-	<script src="<?= asset("admin/plugins/custom/datatables/datatables.bundle.js") ?>"></script>
-	<script src="<?= asset("admin/plugins/custom/fullcalendar/fullcalendar.bundle.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/widgets.js") ?>"></script>
 
-	<script src="<?= asset("admin/js/pages/features/miscellaneous/sweetalert2.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-daterangepicker.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/custom/profile/profile.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/widgets/select2.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/widgets/form-repeater.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/custom/user/edit-user.js") ?>"></script>
-	<!-- <script src="<?= asset("admin/js/pages/crud/file-upload/dropzonejs.js") ?>"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.0/dropzone.js"></script> -->
-	<script src="<?= asset("admin/js/pages/features/miscellaneous/toastr.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datetimepicker.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datepicker.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-timepicker.js") ?>"></script>
-	<script src="<?= asset("admin/js/pages/crud/forms/editors/summernote.js") ?>"></script>
+    <script src="<?= asset("admin/js/scripts.bundle.js") ?>"></script>
+    <!--end::Global Theme Bundle-->
+    <script src="<?= asset("admin/plugins/custom/datatables/datatables.bundle.js") ?>"></script>
+    <script src="<?= asset("admin/plugins/custom/fullcalendar/fullcalendar.bundle.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/widgets.js") ?>"></script>
 
-	<script>
-	$(function() {
-		$(document).on('change, keyup', '.valid-number', function() {
-			var currentInput = $(this).val();
-			var fixedInput = currentInput.replace(/[A-Za-z!@#$%^&*()]/g, '');
-			$(this).val(fixedInput);
-		});
-	});
-	</script>
-	
+    <script src="<?= asset("admin/js/pages/features/miscellaneous/sweetalert2.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-daterangepicker.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/custom/profile/profile.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/widgets/select2.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/widgets/form-repeater.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/custom/user/edit-user.js") ?>"></script>
+    <!-- <script src="<?= asset("admin/js/pages/crud/file-upload/dropzonejs.js") ?>"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.0/dropzone.js"></script> -->
+    <script src="<?= asset("admin/js/pages/features/miscellaneous/toastr.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datetimepicker.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-datepicker.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/widgets/bootstrap-timepicker.js") ?>"></script>
+    <script src="<?= asset("admin/js/pages/crud/forms/editors/summernote.js") ?>"></script>
+
+    <script>
+        $(function() {
+            $(document).on('change, keyup', '.valid-number', function() {
+                var currentInput = $(this).val();
+                var fixedInput = currentInput.replace(/[A-Za-z!@#$%^&*()]/g, '');
+                $(this).val(fixedInput);
+            });
+        });
+    </script>
+
 </body>
 <!--end::Body-->
 

@@ -24,24 +24,24 @@ class Auth extends Auth_Controller
 
     public function proses_login()
     {
-        // $username   = $this->input->post('username', TRUE);
-        // $password   = md5($this->input->post('password', TRUE));
+        $username   = $this->input->post('username', TRUE);
+        $password   = md5($this->input->post('password', TRUE));
 
-        // $cekLogin  = $this->user
-        //     ->where([
-        //         "username" => $username,
-        //         "password" => $password
-        //     ])
-        //     ->as_object()
-        //     ->get();
+        $cekLogin  = $this->admin
+            ->where([
+                "email"     => $username,
+                "password"  => $password
+            ])
+            ->as_object()
+            ->get();
 
-        // if ($cekLogin) {
-        //     $this->session->set_userdata(SESSION, $cekLogin);
-        //     redirect(base_url("beranda"));
-        // } else {
-        //     $this->session->set_flashdata("gagal", "Username atau password yang anda masukan salah!");
-        //     redirect(base_url("auth/login"));
-        // }
+        if ($cekLogin) {
+            $this->session->set_userdata(SESSION, $cekLogin);
+            redirect(base_url("beranda"));
+        } else {
+            $this->session->set_flashdata("gagal", "Username atau password yang anda masukan salah!");
+            redirect(base_url("auth/login"));
+        }
     }
 
     public function logout()
